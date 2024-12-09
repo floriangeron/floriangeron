@@ -1,4 +1,4 @@
 # Node
-/node_modules
-npm-debug.log
-yarn-error.log
+my-remix-app/node_modules
+my-remix-app/npm-debug.log
+my-remix-app/yarn-error.log
