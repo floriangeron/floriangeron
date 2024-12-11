@@ -13,41 +13,49 @@ export default function Index() {
       date: "April 2024",
       title: "RegAI",
       description: "Start of the development of RegAI, Deloitte's regulatory intelligence solution. Using LLMs, RegAI accelerates compliance checks. As PM, I am responsible for the technical development, leading a team of engineers and developers.",
+      image: "",
     },
     {
       date: "October 2023",
       title: "Deloitte",
       description: "Start of my journey at Deloitte as a Senior Data Scientist in Artificial Intelligence and Machine Learning.",
+      image: "",
     },
     {
       date: "July 2023",
       title: "Master of Data Science",
       description: "Obtained my second Master's degree. I am now a Master of Data Science!",
+      image: "",
     },
     {
       date: "June 2022",
       title: "University of Sydney",
       description: "I have decided to swap Antwerp for Sydney for the next year. During this break from work, I will be pursuing a Master degree in Data Science.",
+      image: "",
     },
     {
       date: "September 2020",
       title: "Trilations",
       description: "My first job! At Trilations, I have a focus on data modelling, data visualization, and data engineering.",
+      image: "",
     },
     {
       date: "June 2020",
       title: "Master (MSc) of Mechanical Engineering",
       description: "Graduated from the KU Leuven with a Master of Mechincal Engineering!",
+      image: "",
     },
     {
       date: "September 2018",
       title: "Vienna",
       description: "I am spending the first semester of my Master degree on an Erasmus exchange in Vienna!",
+      image: "",
     },
     {
       date: "June 2018",
       title: "Bachelor (BSc) in Engineering Sciences",
       description: "I obtained a bachelor degree in engineering sciences at the KU Leuven, with a focus on Electrical and Mechanical Engineering!",
+      image: "",
     },
   ];
 
