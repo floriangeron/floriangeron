@@ -13,7 +13,7 @@ export default function Index() {
     {
       date: "July 2024",
       title: "🎉 Tomorrowland",
-      description: "Reconnecting with the people I met in Sydney at Belgium's most iconic event!",
+      description: "Reconnecting with my friends from my time in Sydney at Belgium's most iconic event!",
       image: "/images/TML.JPG",
     },
     {
@@ -25,7 +25,7 @@ export default function Index() {
     {
       date: "October 2023",
       title: "💼 Deloitte",
-      description: "Start of my journey at Deloitte as a Senior Data Scientist in Artificial Intelligence and Machine Learning.",
+      description: "Start of my journey at Deloitte as a Senior Data Scientist with a focus on Artificial Intelligence and Machine Learning.",
       image: "/images/DeloitteLogo.png",
     },
     {
@@ -38,7 +38,7 @@ export default function Index() {
       date: "June 2023",
       title: "🎓 Master of Data Science",
       description: "Obtained my second Master's degree. I am now a Master of Data Science!",
-      image: "/images/MasterDiploma.png",
+      image: "/images/USYD.jpg",
     },
     {
       date: "June 2022",
