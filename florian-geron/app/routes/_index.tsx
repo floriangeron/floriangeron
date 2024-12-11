@@ -8,18 +8,19 @@ export const meta: MetaFunction = () => {
 };
 
 export default function Index() {
+  {/* Add some EYP stuff!*/}
   const milestones = [
     {
       date: "April 2024",
       title: "RegAI",
-      description: "Start of the development of RegAI, Deloitte's regulatory intelligence solution. Using LLMs, RegAI accelerates compliance checks. As PM, I am responsible for the technical development, leading a team of engineers and developers.",
+      description: "Start of the development of RegAI, Deloitte's regulatory intelligence solution. Using LLMs, RegAI accelerates compliance checks. As PM, I am responsible for the technical development, leading a team of engineers and developers, as well as presenting the tool in client conversations.",
       image: "",
     },
     {
       date: "October 2023",
       title: "Deloitte",
       description: "Start of my journey at Deloitte as a Senior Data Scientist in Artificial Intelligence and Machine Learning.",
-      image: "",
+      image: "/images/DeloitteLogo.png",
     },
     {
       date: "July 2023",
@@ -42,8 +43,8 @@ export default function Index() {
     {
       date: "June 2020",
       title: "Master (MSc) of Mechanical Engineering",
-      description: "Graduated from the KU Leuven with a Master of Mechincal Engineering!",
-      image: "",
+      description: "Graduated from the KU Leuven with a Master of Mechanical Engineering!",
+      image: "/images/Graduation.jpg",
     },
     {
       date: "September 2018",
@@ -56,6 +57,12 @@ export default function Index() {
       title: "Bachelor (BSc) in Engineering Sciences",
       description: "I obtained a bachelor degree in engineering sciences at the KU Leuven, with a focus on Electrical and Mechanical Engineering!",
       image: "",
+    },
+    {
+      date: "September 2015",
+      title: "KU Leuven",
+      description: "I am starting my academic life pursuing a degree in engineering at the KU Leuven.",
+      image: "/images/KULeuvenLogo.png",
     },
   ];
 
@@ -114,6 +121,16 @@ export default function Index() {
                   <p className="text-gray-700 dark:text-gray-300">
                     {milestone.description}
                   </p>
+                  {/* Render image if available */}
+                  {milestone.image && (
+                    <div className="mt-4">
+                      <img
+                        src={milestone.image}
+                        alt={milestone.title}
+                        className="w-full h-auto rounded-lg shadow-md"
+                      />
+                    </div>
+                  )}
                 </div>
                 {/* Milestone Marker */}
                 <div className="absolute left-1/2 transform -translate-x-1/2">
