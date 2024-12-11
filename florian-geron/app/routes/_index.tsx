@@ -20,7 +20,7 @@ export default function Index() {
       date: "April 2024",
       title: "🤖 RegAI",
       description: "Start of the development of RegAI, Deloitte's regulatory intelligence solution. Using LLMs, RegAI accelerates compliance checks. As PM, I am responsible for the technical development, leading a team of engineers and developers, as well as presenting the tool in client conversations.",
-      image: "",
+      image: "/images/RegAI.png",
     },
     {
       date: "October 2023",
