@@ -10,28 +10,53 @@ export const meta: MetaFunction = () => {
 export default function Index() {
   const milestones = [
     {
-      date: "2023",
-      title: "Big Accomplishment",
-      description: "A significant highlight of my journey.",
+      date: "April 2024",
+      title: "RegAI",
+      description: "Start of the development of RegAI, Deloitte's regulatory intelligence solution. Using LLMs, RegAI accelerates compliance checks. As PM, I am responsible for the technical development, leading a team of engineers and developers.",
     },
     {
-      date: "2022",
-      title: "First Milestone",
-      description: "Achieved a major personal or professional goal.",
+      date: "October 2023",
+      title: "Deloitte",
+      description: "Start of my journey at Deloitte as a Senior Data Scientist in Artificial Intelligence and Machine Learning.",
     },
     {
-      date: "2021",
-      title: "Started My Journey",
-      description: "This is where it all began.",
+      date: "July 2023",
+      title: "Master of Data Science",
+      description: "Obtained my second Master's degree. I am now a Master of Data Science!",
+    },
+    {
+      date: "June 2022",
+      title: "University of Sydney",
+      description: "I have decided to swap Antwerp for Sydney for the next year. During this break from work, I will be pursuing a Master degree in Data Science.",
+    },
+    {
+      date: "September 2020",
+      title: "Trilations",
+      description: "My first job! At Trilations, I have a focus on data modelling, data visualization, and data engineering.",
+    },
+    {
+      date: "June 2020",
+      title: "Master (MSc) of Mechanical Engineering",
+      description: "Graduated from the KU Leuven with a Master of Mechincal Engineering!",
+    },
+    {
+      date: "September 2018",
+      title: "Vienna",
+      description: "I am spending the first semester of my Master degree on an Erasmus exchange in Vienna!",
+    },
+    {
+      date: "June 2018",
+      title: "Bachelor (BSc) in Engineering Sciences",
+      description: "I obtained a bachelor degree in engineering sciences at the KU Leuven, with a focus on Electrical and Mechanical Engineering!",
     },
   ];
 
 
   return (
-    <div className="flex h-screen items-center justify-center">
-      <div className="flex flex-col items-center gap-16">
+    <div className="flex flex-col min-h-screen items-center justify-center">
+      <div className="flex flex-col items-center gap-16 w-full">
         {/* Header Section*/}
-        <header className="flex flex-col items-center gap-9">
+        <header className="flex flex-col items-center gap-9 pt-12">
           <h1 className="leading text-2xl font-bold text-gray-800 dark:text-gray-100">
             My Journey<span className="sr-only"> as Florian Géron</span>
           </h1>
@@ -55,20 +80,20 @@ export default function Index() {
         </header>
 
         {/* Timeline Section */}
-        <section className="relative w-full max-w-4xl px-6 py-12">
+        <section className="relative w-full max-w-6xl px-12 py-12">
           {/* Vertical Line */}
           <div className="absolute left-1/2 h-full w-1 bg-gray-200 dark:bg-gray-700 transform -translate-x-1/2"></div>
-          <div className="grid gap-12">
+          <div className="grid gap-16">
             {milestones.map((milestone, index) => (
               <div
                 key={index}
-                className={`relative flex items-center gap-4 ${
+                className={`relative flex items-center gap-16 ${
                   index % 2 === 0 ? "justify-start" : "justify-end"
                 }`}
               >
                 {/* Milestone Content */}
                 <div
-                  className={`w-1/2 ${
+                  className={`w-[40%] ${
                     index % 2 === 0 ? "text-right" : "text-left"
                   }`}
                 >
@@ -97,7 +122,7 @@ export default function Index() {
         {/* Links Section */}
         <nav className="flex flex-col items-center justify-center gap-4 rounded-3xl border border-gray-200 p-6 dark:border-gray-700">
           <p className="leading-6 text-gray-700 dark:text-gray-200">
-            What&apos;s next?
+            Let's connect:
           </p>
           <ul>
             {resources.map(({ href, text, icon }) => (
