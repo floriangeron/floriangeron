@@ -178,7 +178,7 @@ export default function Index() {
                       <img
                         src={milestone.image}
                         alt={milestone.title}
-                        className="w-full max-h-[400px] object-cover rounded-lg"
+                        className="w-full max-h-[1000px] object-cover rounded-lg"
                       />
                     </div>
                   )}
