@@ -12,55 +12,67 @@ export default function Index() {
   const milestones = [
     {
       date: "April 2024",
-      title: "RegAI",
+      title: "🤖 RegAI",
       description: "Start of the development of RegAI, Deloitte's regulatory intelligence solution. Using LLMs, RegAI accelerates compliance checks. As PM, I am responsible for the technical development, leading a team of engineers and developers, as well as presenting the tool in client conversations.",
       image: "",
     },
     {
       date: "October 2023",
-      title: "Deloitte",
+      title: "💼 Deloitte",
       description: "Start of my journey at Deloitte as a Senior Data Scientist in Artificial Intelligence and Machine Learning.",
       image: "/images/DeloitteLogo.png",
     },
     {
-      date: "July 2023",
-      title: "Master of Data Science",
+      date: "June 2023",
+      title: "🎓 Master of Data Science",
       description: "Obtained my second Master's degree. I am now a Master of Data Science!",
-      image: "",
+      image: "/images/MasterDiploma.png",
     },
     {
       date: "June 2022",
-      title: "University of Sydney",
+      title: "🇦🇺 University of Sydney",
       description: "I have decided to swap Antwerp for Sydney for the next year. During this break from work, I will be pursuing a Master degree in Data Science.",
-      image: "",
+      image: "/images/Sydney.jpg",
     },
     {
       date: "September 2020",
-      title: "Trilations",
+      title: "💼 Trilations",
       description: "My first job! At Trilations, I have a focus on data modelling, data visualization, and data engineering.",
-      image: "",
+      image: "/images/logo-Trilations.png",
     },
     {
       date: "June 2020",
-      title: "Master (MSc) of Mechanical Engineering",
-      description: "Graduated from the KU Leuven with a Master of Mechanical Engineering!",
+      title: "🎓 Master (MSc) of Mechanical Engineering",
+      description: "Graduated from the KU Leuven with a Master of Mechanical Engineering! Big shoutout to my friends who made it through this journey with me.",
       image: "/images/Graduation.jpg",
     },
     {
+      date: "August 2019",
+      title: "🇵🇹 Chair at Coimbra 2019",
+      description: "At this International Forum organized by EYP Portugal, I had the pleasure of being in Hannes' (the man being lifted) Chairperson team.",
+      image: "/images/Coimbra.jpg",
+    },
+    {
+      date: "January 2019",
+      title: "🕺 Ball in Vienna's Hofburg",
+      description: "One of the last activities here in Vienna: Going to a ball in the Hofburg, the palace of Franz Josef and Sisi. A fitting end to a wonderful time in this city!",
+      image: "/images/BallVienna.JPG",
+    },
+    {
       date: "September 2018",
-      title: "Vienna",
+      title: "🇦🇹 Erasmus in Vienna",
       description: "I am spending the first semester of my Master degree on an Erasmus exchange in Vienna!",
-      image: "",
+      image: "/images/ViennaRathaus.png",
     },
     {
       date: "June 2018",
-      title: "Bachelor (BSc) in Engineering Sciences",
+      title: "🎓 Bachelor (BSc) in Engineering Sciences",
       description: "I obtained a bachelor degree in engineering sciences at the KU Leuven, with a focus on Electrical and Mechanical Engineering!",
-      image: "",
+      image: "/images/BaDegree.png",
     },
     {
       date: "September 2015",
-      title: "KU Leuven",
+      title: "📚 KU Leuven",
       description: "I am starting my academic life pursuing a degree in engineering at the KU Leuven.",
       image: "/images/KULeuvenLogo.png",
     },
@@ -108,32 +120,35 @@ export default function Index() {
               >
                 {/* Milestone Content */}
                 <div
-                  className={`w-[40%] ${
-                    index % 2 === 0 ? "text-right" : "text-left"
-                  }`}
+                  className={`w-full max-w-[500px] ${
+                    index % 2 === 0 ? "text-left" : "text-left"
+                  } bg-white dark:bg-gray-800 p-4 rounded-xl shadow-lg z-10`}
                 >
-                  <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-100">
-                    {milestone.title}
-                  </h3>
-                  <p className="text-sm text-gray-600 dark:text-gray-400">
-                    {milestone.date}
-                  </p>
-                  <p className="text-gray-700 dark:text-gray-300">
-                    {milestone.description}
-                  </p>
+                  {/* Text Section - Caption */}
+                  <div className="flex flex-col items-center justify-center h-full">
+                    <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-100 text-center">
+                      {milestone.title}
+                    </h3>
+                    <p className="text-sm text-gray-600 dark:text-gray-400 text-center">
+                      {milestone.date}
+                    </p>
+                    <p className="text-gray-700 dark:text-gray-300 text-left mt-2">
+                      {milestone.description}
+                    </p>
+                  </div>
                   {/* Render image if available */}
                   {milestone.image && (
-                    <div className="mt-4">
+                    <div className="mt-4 flex justify-center">
                       <img
                         src={milestone.image}
                         alt={milestone.title}
-                        className="w-full h-auto rounded-lg shadow-md"
+                        className="w-full max-h-[400px] object-cover rounded-lg"
                       />
                     </div>
                   )}
                 </div>
                 {/* Milestone Marker */}
-                <div className="absolute left-1/2 transform -translate-x-1/2">
+                <div className="absolute left-1/2 transform -translate-x-1/2 z-0">
                   <div className="relative h-6 w-6 rounded-full bg-blue-500 dark:bg-blue-400 border-4 border-white dark:border-gray-900">
                     {/* Concentric Circle */}
                     <div className="absolute top-1/2 left-1/2 h-10 w-10 -translate-x-1/2 -translate-y-1/2 rounded-full bg-blue-500 opacity-30"></div>
