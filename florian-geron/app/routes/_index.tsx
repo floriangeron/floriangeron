@@ -85,7 +85,8 @@ export default function Index() {
                 {/* Milestone Marker */}
                 <div className="absolute left-1/2 transform -translate-x-1/2">
                   <div className="relative h-6 w-6 rounded-full bg-blue-500 dark:bg-blue-400 border-4 border-white dark:border-gray-900">
-                    <div className="absolute -left-1.5 -top-1.5 h-9 w-9 rounded-full bg-blue-500 opacity-30"></div>
+                    {/* Concentric Circle */}
+                    <div className="absolute top-1/2 left-1/2 h-10 w-10 -translate-x-1/2 -translate-y-1/2 rounded-full bg-blue-500 opacity-30"></div>
                   </div>
                 </div>
               </div>
