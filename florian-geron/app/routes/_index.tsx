@@ -49,7 +49,7 @@ export default function Index() {
     {
       date: "November 2021",
       title: "🇱🇺 Head of Jury at Luxembourg 2021",
-      description: "Head of Jury at the 8th National Selection Conference of EYP Luxembourg. With this great honour, I am finished my work at the European Youth Parliament. It has been an absolute pleasure getting to know this many people from all over the continent. This organization has been a big part of my life, and I am grateful for the many lessons I have learnt and skills I have developed thanks to it!",
+      description: "I've taken up the role of Head of Jury at the 8th National Selection Conference of EYP Luxembourg. With this great honour, I am finishing my time at the European Youth Parliament. It has been an absolute pleasure getting to know this many people from all over the continent. This organization has been a big part of my life, and I am grateful for the many lessons I have learnt and skills I have developed thanks to it!",
       image: "/images/Lux.JPG",
     },
     {
