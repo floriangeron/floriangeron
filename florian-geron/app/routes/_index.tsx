@@ -11,6 +11,12 @@ export default function Index() {
   {/* Add some EYP stuff!*/}
   const milestones = [
     {
+      date: "July 2024",
+      title: "🎉 Tomorrowland",
+      description: "Reconnecting with the people I met in Sydney at Belgium's most iconic event!",
+      image: "/images/TML.JPG",
+    },
+    {
       date: "April 2024",
       title: "🤖 RegAI",
       description: "Start of the development of RegAI, Deloitte's regulatory intelligence solution. Using LLMs, RegAI accelerates compliance checks. As PM, I am responsible for the technical development, leading a team of engineers and developers, as well as presenting the tool in client conversations.",
@@ -23,6 +29,12 @@ export default function Index() {
       image: "/images/DeloitteLogo.png",
     },
     {
+      date: "July 2023",
+      title: "🎉 Ozora",
+      description: "Before jumping into my next professional chapter, I'm taking time off with my friends from university to explore Ozora, one of the world's most unique festivals!",
+      image: "/images/Ozora.png",
+    },
+    {
       date: "June 2023",
       title: "🎓 Master of Data Science",
       description: "Obtained my second Master's degree. I am now a Master of Data Science!",
@@ -33,6 +45,12 @@ export default function Index() {
       title: "🇦🇺 University of Sydney",
       description: "I have decided to swap Antwerp for Sydney for the next year. During this break from work, I will be pursuing a Master degree in Data Science.",
       image: "/images/Sydney.jpg",
+    },
+    {
+      date: "November 2021",
+      title: "🇱🇺 Head of Jury at Luxembourg 2021",
+      description: "Head of Jury at the 8th National Selection Conference of EYP Luxembourg. With this great honour, I am finished my work at the European Youth Parliament. It has been an absolute pleasure getting to know this many people from all over the continent. This organization has been a big part of my life, and I am grateful for the many lessons I have learnt and skills I have developed thanks to it!",
+      image: "/images/Lux.JPG",
     },
     {
       date: "September 2020",
@@ -48,8 +66,8 @@ export default function Index() {
     },
     {
       date: "August 2019",
-      title: "🇵🇹 Chair at Coimbra 2019",
-      description: "At this International Forum organized by EYP Portugal, I had the pleasure of being in Hannes' (the man being lifted) Chairperson team.",
+      title: "🇵🇹 Chairperson at Coimbra 2019",
+      description: "At this International Forum organized by EYP Portugal, I had the pleasure of being in Hannes' Chairperson team.",
       image: "/images/Coimbra.jpg",
     },
     {
@@ -71,10 +89,28 @@ export default function Index() {
       image: "/images/BaDegree.png",
     },
     {
+      date: "February 2018",
+      title: "🇧🇪 Chairperson at Bruges 2018",
+      description: "Joining EYP Belgium's National Selection Conference as a Chairperson, chairing the committee on Industry, Research and Energy (ITRE).",
+      image: "/images/Bruges.jpg",
+    },
+    {
+      date: "November 2016",
+      title: "🇫🇮 Editor at Kempele 2016",
+      description: "Editor at EYP Finland's session in Kempele, together with my friend Maciej Maj.",
+      image: "/images/Kempele.jpg",
+    },
+    {
       date: "September 2015",
       title: "📚 KU Leuven",
       description: "I am starting my academic life pursuing a degree in engineering at the KU Leuven.",
       image: "/images/KULeuvenLogo.png",
+    },
+    {
+      date: "February 2014",
+      title: "🇪🇺 European Youth Parliament",
+      description: "I joined the European Youth Parliament (EYP) by attending the National Selection Conference of EYP Belgium in Brussels.",
+      image: "/images/EYPBE.png",
     },
   ];
 
