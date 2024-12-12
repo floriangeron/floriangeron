@@ -257,27 +257,45 @@ const resources = [
       </svg>
     ),
   },
-  // {
-  //   href: "https://google.com",
-  //   text: "Placeholder",
-  //   icon: (
-  //     <svg
-  //       xmlns="http://www.w3.org/2000/svg"
-  //       width="24"
-  //       height="20"
-  //       viewBox="0 0 20 20"
-  //       fill="none"
-  //       className="stroke-gray-600 group-hover:stroke-current dark:stroke-gray-300"
-  //     >
-  //       <path
-  //         d="M4.561 12.749L3.15503 14.1549M3.00811 8.99944H1.01978M3.15503 3.84489L4.561 5.2508M8.3107 1.70923L8.3107 3.69749M13.4655 3.84489L12.0595 5.2508M18.1868 17.0974L16.635 18.6491C16.4636 18.8205 16.1858 18.8205 16.0144 18.6491L13.568 16.2028C13.383 16.0178 13.0784 16.0347 12.915 16.239L11.2697 18.2956C11.047 18.5739 10.6029 18.4847 10.505 18.142L7.85215 8.85711C7.75756 8.52603 8.06365 8.21994 8.39472 8.31453L17.6796 10.9673C18.0223 11.0653 18.1115 11.5094 17.8332 11.7321L15.7766 13.3773C15.5723 13.5408 15.5554 13.8454 15.7404 14.0304L18.1868 16.4767C18.3582 16.6481 18.3582 16.926 18.1868 17.0974Z"
-  //         strokeWidth="1.5"
-  //         strokeLinecap="round"
-  //         strokeLinejoin="round"
-  //       />
-  //     </svg>
-  //   ),
-  // },
+  {
+    href: "https://www.instagram.com/floriangeron/",
+    text: "Instagram",
+    icon: (
+      <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="20"
+      viewBox="0 0 20 20"
+      fill="none"
+      className="stroke-gray-600 group-hover:stroke-current dark:stroke-gray-300"
+    >
+      <rect
+        x="3"
+        y="6"
+        width="14"
+        height="10"
+        rx="2"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <circle
+        cx="10"
+        cy="11"
+        r="3"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M6.5 6L7.5 4H12.5L13.5 6"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+    ),
+  },
   // {
   //   href: "https://google.com",
   //   text: "Placeholder",
