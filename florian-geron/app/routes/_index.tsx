@@ -1,4 +1,5 @@
 import type { MetaFunction } from "@remix-run/node";
+import { FaArrowDown, FaArrowUp } from 'react-icons/fa';
 
 export const meta: MetaFunction = () => {
   return [
@@ -20,7 +21,7 @@ export default function Index() {
       date: "April 2024",
       title: "🤖 RegAI",
       description: "Start of the development of RegAI, Deloitte's regulatory intelligence solution. Using LLMs, RegAI accelerates compliance checks. As PM, I am responsible for the technical development, leading a team of engineers and developers, as well as presenting the tool in client conversations.",
-      image: "",
+      image: "/images/RegAI.png",
     },
     {
       date: "October 2023",
@@ -49,7 +50,7 @@ export default function Index() {
     {
       date: "November 2021",
       title: "🇱🇺 Head of Jury at Luxembourg 2021",
-      description: "Head of Jury at the 8th National Selection Conference of EYP Luxembourg. With this great honour, I am finished my work at the European Youth Parliament. It has been an absolute pleasure getting to know this many people from all over the continent. This organization has been a big part of my life, and I am grateful for the many lessons I have learnt and skills I have developed thanks to it!",
+      description: "I've taken up the role of Head of Jury at the 8th National Selection Conference of EYP Luxembourg. With this great honour, I am finishing my time at the European Youth Parliament. It has been an absolute pleasure getting to know this many people from all over the continent. This organization has been a big part of my life, and I am grateful for the many lessons I have learnt and skills I have developed thanks to it!",
       image: "/images/Lux.JPG",
     },
     {
@@ -103,17 +104,16 @@ export default function Index() {
     {
       date: "September 2015",
       title: "📚 KU Leuven",
-      description: "I am starting my academic life pursuing a degree in engineering at the KU Leuven.",
+      description: "I am starting my academic life by pursuing a degree in engineering at the KU Leuven.",
       image: "/images/KULeuvenLogo.png",
     },
     {
       date: "February 2014",
       title: "🇪🇺 European Youth Parliament",
-      description: "I joined the European Youth Parliament (EYP) by attending the National Selection Conference of EYP Belgium in Brussels.",
+      description: "I joined the European Youth Parliament (EYP) by attending the National Selection Conference of EYP Belgium in Brussels. EYP organizes simulation sessions of the European Parliament where participants get assigned to a certain committee and draft resultions which get presented and debated during the General Assembly.",
       image: "/images/EYPBE.png",
     },
   ];
-
 
   return (
     <div className="flex flex-col min-h-screen items-center justify-center">
@@ -178,7 +178,7 @@ export default function Index() {
                       <img
                         src={milestone.image}
                         alt={milestone.title}
-                        className="w-full max-h-[400px] object-cover rounded-lg"
+                        className="w-full max-h-[1000px] object-cover rounded-lg"
                       />
                     </div>
                   )}
@@ -217,6 +217,20 @@ export default function Index() {
           </ul>
         </nav>
       </div>
+      {/* Scroll to Bottom Button */}
+      <button
+        className="fixed bottom-4 right-4 rounded-full bg-gray-100 hover:bg-gray-200 p-2 shadow-md"
+        onClick={() => window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" })}
+      >
+        <FaArrowDown className="w-6 h-6 text-gray-400 hover:text-gray-600" />
+      </button>
+      {/* Scroll to Top Button */}
+      <button
+        className="fixed top-4 right-4 rounded-full bg-gray-100 hover:bg-gray-200 p-2 shadow-md"
+        onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+      >
+        <FaArrowUp className="w-6 h-6 text-gray-400 hover:text-gray-600" />
+      </button>
     </div>
   );
 }
