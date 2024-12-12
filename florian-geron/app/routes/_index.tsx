@@ -159,7 +159,7 @@ export default function Index() {
         </header>
 
         {/* Timeline Section */}
-        <section className="relative w-full max-w-6xl px-12 py-12">
+        <section className="relative w-full max-w-7xl px-16 py-12">
           {/* Vertical Line */}
           <div className="absolute left-1/2 h-full w-1 bg-gray-200 dark:bg-gray-700 transform -translate-x-1/2"></div>
           <div className="grid gap-16">
