@@ -64,7 +64,7 @@ export default function Index() {
     {
       date: "June 2023",
       title: "🎓 Master of Data Science",
-      description: "Obtained my second Master's degree. I am now a Master of Data Science!",
+      description: "Obtained my second Master's degree. I am now a Master of Data Science! I graduated with high distinction, obtaining two academic prizes: Postgraduate Prize for Outstanding Academic achievement in Master of Data Science, as well as the Postgraduate High Honour Roll for receiving the highest mark in the course 'Machine Learning and Data Mining' in 2023.",
       image: "/images/USYD.jpg",
     },
     {
