@@ -43,6 +43,7 @@ export default function AboutMe() {
                     <li>In my spare time, I am a gym rat and a runner. You can also find me reading a steady stream of non-fiction books and spending time with my friends and family.</li>
                     <li>Previously, I played badminton, played piano, and did ballroom dancing. I might pick the latter up again sometime in the future.</li>
                     <li>I grew up around Antwerp, Belgium, where I am currently living. I have also lived in Vienna and Sydney.</li>
+                    <li>I have a Master's degree in Mechanical Engineering (KU Leuven) and a second Master's degree in Data Science (University of Sydney).</li>
                 </ul>
             </p>
             </section>
