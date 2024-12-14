@@ -32,7 +32,7 @@ export default function AboutMe() {
             <section className="flex flex-col items-center text-center gap-6 px-6 max-w-2xl">
             <p className="text-gray-600 dark:text-gray-300 text-left">
                 {/* Replace this placeholder text with your personal story or details */}
-                Hello! My name is Florian Géron.
+                Hello! My name is Florian.
                 This website is a space where I share a little more about myself and my journey.
             </p>
             <h2 className="text-xl font-semibold text-gray-700 dark:text-gray-200">

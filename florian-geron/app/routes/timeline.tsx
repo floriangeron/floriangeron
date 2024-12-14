@@ -9,30 +9,39 @@ export const meta: MetaFunction = () => {
   ];
 };
 
-export default function Index() {
+export default function Timeline() {
   const [showTopArrow, setShowTopArrow] = useState(false);
   const [showBottomArrow, setShowBottomArrow] = useState(true);
 
   useEffect(() => {
-    const handleScroll = () => {
-      const scrolled = window.scrollY > 0;
-      const atBottom =
-        window.innerHeight + window.scrollY >= document.body.scrollHeight;
+    const container = document.querySelector(".flex-1.overflow-auto");
+    if (!container) return;
 
-      setShowTopArrow(scrolled);
+    const handleScroll = () => {
+      const atTop = container.scrollTop === 0;
+      const atBottom =
+        container.scrollHeight - container.scrollTop - container.clientHeight <= 1.5;
+  
+      setShowTopArrow(!atTop);
       setShowBottomArrow(!atBottom);
     };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+  
+    container.addEventListener("scroll", handleScroll);
+    return () => container.removeEventListener("scroll", handleScroll);
   }, []);
 
   const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    const container = document.querySelector(".flex-1.overflow-auto");
+    if (container) {
+      container.scrollTo({ top: 0, behavior: "smooth" });
+    }
   };
 
   const scrollToBottom = () => {
-    window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
+    const container = document.querySelector(".flex-1.overflow-auto");
+    if (container) {
+      container.scrollTo({ top: container.scrollHeight, behavior: "smooth" });
+    }
   };
 
   {/* Add some EYP stuff!*/}
