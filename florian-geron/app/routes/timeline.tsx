@@ -188,7 +188,7 @@ export default function Timeline() {
                 <div
                   className={`w-full max-w-[500px] ${
                     index % 2 === 0 ? "text-left" : "text-left"
-                  } bg-white dark:bg-gray-800 p-4 rounded-xl shadow-lg z-10`}
+                  } bg-white dark:bg-gray-800 p-4 rounded-xl shadow-lg z-10 transform transition-transform duration-300 hover:scale-105`}
                 >
                   {/* Text Section - Caption */}
                   <div className="flex flex-col items-center justify-center h-full">
