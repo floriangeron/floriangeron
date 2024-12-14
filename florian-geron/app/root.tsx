@@ -32,6 +32,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
   const navLinks = [
     { to: "/", label: "About Me" },
     { to: "/timeline", label: "Timeline" },
+    { to: "/cv", label: "Résumé" },
     { to: "/contact", label: "Contact" },
   ];
 

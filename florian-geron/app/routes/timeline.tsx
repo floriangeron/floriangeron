@@ -83,6 +83,12 @@ export default function Timeline() {
       image: "/images/USYD.jpg",
     },
     {
+      date: "January 2023",
+      title: "🇳🇿 Road Trip through New Zealand",
+      description: "While in Australia, I've taken any opportunity I can to travel around this corner of the world. My favourite trip during this time has to be our one-month long road trip through New Zealand. We explored the winds of Southland, the magnificant landscapes of Fiordland, and the rolling hills of Hobbiton. Truly an enchanting land.",
+      image: "/images/NZ.png",
+    },
+    {
       date: "June 2022",
       title: "🇦🇺 University of Sydney",
       description: "I have decided to swap Antwerp for Sydney for the next year. During this break from work, I will be pursuing a Master degree in Data Science.",
@@ -93,6 +99,12 @@ export default function Timeline() {
       title: "🇱🇺 Head of Jury at Luxembourg 2021",
       description: "I've taken up the role of Head of Jury at the 8th National Selection Conference of EYP Luxembourg. With this great honour, I am finishing my time at the European Youth Parliament. It has been an absolute pleasure getting to know this many people from all over the continent. This organization has been a big part of my life, and I am grateful for the many lessons I have learnt and skills I have developed thanks to it!",
       image: "/images/Lux.JPG",
+    },
+    {
+      date: "May 2021",
+      title: "🧠 Python for Data Science and Machine Learning Bootcamp",
+      description: "As a data analyst at Trilations, I am leveraging my engineering background in a business context. However, there was an itch to learn more and dig deeper in the field of data, which inevitably led to learning more and more about machine learning. I ended up following this Udemy course, an interesting and useful introduction to the topic!",
+      image: "/images/Udemy.png",
     },
     {
       date: "September 2020",
