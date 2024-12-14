@@ -40,8 +40,8 @@ export default function AboutMe() {
             <p className="text-gray-600 dark:text-gray-300 text-left">
                 <ul className="list-disc pl-5">
                     <li>Currently spending my time as a AI engineer at Deloitte where I develop and coordinate development of AI-powered solutions. I spend most of my time working on in-house projects but am sent out on the odd client project as well.</li>
-                    <li>In my spare time, I am a gym rat and a runner. You can also find me reading a steady stream of non-fiction book and spending time with my friends and family.</li>
-                    <li>Previously, I played badminton and did ballroom dancing. I might pick the latter up again sometime in the future.</li>
+                    <li>In my spare time, I am a gym rat and a runner. You can also find me reading a steady stream of non-fiction books and spending time with my friends and family.</li>
+                    <li>Previously, I played badminton, played piano, and did ballroom dancing. I might pick the latter up again sometime in the future.</li>
                     <li>I grew up around Antwerp, Belgium, where I am currently living. I have also lived in Vienna and Sydney.</li>
                 </ul>
             </p>
