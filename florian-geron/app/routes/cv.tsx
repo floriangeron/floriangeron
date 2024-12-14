@@ -50,7 +50,7 @@ export default function CV() {
                 <p className="italic">Sept 2020 - June 2022</p>
               </div>
               <p>
-              As an analyst at a management consultancy firm that delivers actionable insights based on quantitative business measures and comprehensive data analytics techniques, my responsibilities included:
+              Data Consultant at a management consultancy firm that delivers actionable insights based on quantitative business measures and comprehensive data analytics techniques, my responsibilities included:
               <ul className="list-disc pl-10">
                 <li>Creating holistic dashboards</li>
                 <li>Data modelling, pipelining, processing, analysis, and visualisation</li>
