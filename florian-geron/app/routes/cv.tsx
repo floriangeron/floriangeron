@@ -136,7 +136,7 @@ export default function CV() {
             <div className="space-y-2">
               <div className="flex justify-between">
                 <p className="font-bold">Trainer at "Parlons Ensemble de l'Europe"</p>
-                <p className="italic">2010</p>
+                <p className="italic">2019</p>
               </div>
               <p>
               I chaired an academic research group at this event, which was organised by the Belgian Ministry of Foreign Affairs and aimed at including youth in politics and decision-making.
