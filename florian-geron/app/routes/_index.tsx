@@ -31,17 +31,19 @@ export default function AboutMe() {
             {/* About Me Section */}
             <section className="flex flex-col items-center text-center gap-6 px-6 max-w-2xl">
             <p className="text-gray-600 dark:text-gray-300 text-left">
-                {/* Replace this placeholder text with your personal story or details */}
-                Hello! My name is Florian.
+                Hello, I'm Florian.
                 This website is a space where I share a little more about myself and my journey.
             </p>
             <h2 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
                 Who I Am
             </h2>
             <p className="text-gray-600 dark:text-gray-300 text-left">
-                {/* Replace this placeholder text with your personal story or details */}
-                I am passionate about [your passions or interests]. 
-                With experience in [your expertise], I enjoy [what you enjoy doing]. 
+                <ul className="list-disc pl-5">
+                    <li>Currently spending my time as a AI engineer at Deloitte where I develop and coordinate development of AI-powered solutions. I spend most of my time working on in-house projects but am sent out on the odd client project as well.</li>
+                    <li>In my spare time, I am a gym rat and a runner. You can also find me reading a steady stream of non-fiction book and spending time with my friends and family.</li>
+                    <li>Previously, I played badminton and did ballroom dancing. I might pick the latter up again sometime in the future.</li>
+                    <li>I grew up around Antwerp, Belgium, where I am currently living. I have also lived in Vienna and Sydney.</li>
+                </ul>
             </p>
             </section>
 
