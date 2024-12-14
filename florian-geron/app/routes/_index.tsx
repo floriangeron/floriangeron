@@ -12,7 +12,7 @@ export const meta: MetaFunction = () => {
 export default function AboutMe() {
 
     return (
-        <div className="flex flex-col min-h-screen items-center">
+        <div className="flex flex-col min-h-screen items-center pb-10">
           <div className="flex flex-col items-center gap-16 w-full">
             {/* Header Section*/}
             <header className="flex flex-col items-center gap-9 pt-12">
