@@ -26,7 +26,7 @@ export const links: LinksFunction = () => [
 ];
 
 export function Layout({ children }: { children: React.ReactNode }) {
-  const [isSidebarOpen, setSidebarOpen] = useState(true);
+  const [isSidebarOpen, setSidebarOpen] = useState(false);
   const location = useLocation(); // Get the current path
 
   const navLinks = [
@@ -54,7 +54,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
           } bg-gray-300 text-gray-600 px-2 py-1 rounded shadow-md transition-all duration-300`}
           onClick={() => setSidebarOpen(!isSidebarOpen)}
         >
-          {isSidebarOpen ? "⮜" : "⮞"}
+          {isSidebarOpen ? "◀" : "▶"}
         </button>
 
         {/* Sidebar */}
