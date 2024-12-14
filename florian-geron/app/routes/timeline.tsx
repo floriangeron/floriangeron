@@ -103,7 +103,7 @@ export default function Timeline() {
     {
       date: "August 2019",
       title: "🇵🇹 Chairperson at Coimbra 2019",
-      description: "At this International Forum organized by EYP Portugal, I had the pleasure of being in Hannes' Chairperson team.",
+      description: "At this International Forum organized by EYP Portugal, I had the pleasure of being a Chairperson, chairing the committee on Industry, Research and Energy (ITRE).",
       image: "/images/Coimbra.jpg",
     },
     {
@@ -133,7 +133,7 @@ export default function Timeline() {
     {
       date: "November 2016",
       title: "🇫🇮 Editor at Kempele 2016",
-      description: "Editor at EYP Finland's session in Kempele, together with my friend Maciej Maj.",
+      description: "Editor at EYP Finland's session in Kempele, together with my friend Maciek Maj. As Editors, we are responsible for leading the Media Team in creating memories of this event that will last us a lifetime!",
       image: "/images/Kempele.jpg",
     },
     {
