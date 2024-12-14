@@ -44,7 +44,6 @@ export default function Timeline() {
     }
   };
 
-  {/* Add some EYP stuff!*/}
   const milestones = [
     {
       date: "July 2024",
@@ -53,10 +52,16 @@ export default function Timeline() {
       image: "/images/TML.JPG",
     },
     {
-      date: "April 2024",
+      date: "May 2024",
       title: "🤖 RegAI",
       description: "Start of the development of RegAI, Deloitte's regulatory intelligence solution. Using LLMs, RegAI accelerates compliance checks. As PM, I am responsible for the technical development, leading a team of engineers and developers, as well as presenting the tool in client conversations.",
       image: "/images/RegAI.png",
+    },
+    {
+      date: "April 2024",
+      title: "👑 PRINCE2 Foundation in Project Management",
+      description: "As my responsibilities start involving more and more project management, I have taken the Prince 2 Foundation course to equip myself with the knowledge and skills for successful project management.",
+      image: "/images/prince2.png",
     },
     {
       date: "October 2023",
@@ -99,6 +104,12 @@ export default function Timeline() {
       title: "🎓 Master (MSc) of Mechanical Engineering",
       description: "Graduated from the KU Leuven with a Master of Mechanical Engineering! Big shoutout to my friends who made it through this journey with me.",
       image: "/images/Graduation.jpg",
+    },
+    {
+      date: "October 2019",
+      title: "🇧🇾 President of Stembridge 2019",
+      description: "Leading a team of chairpersons at this regional session in Belarus was a great pleasure and an honour, as well as an opportunity to learn a lot about team management. This session in particular showcases the potential of EYP for bringing together people who otherwise might never have met. Exploring Minsk was very fun too, an experience like no other.",
+      image: "/images/Minsk.jpg",
     },
     {
       date: "August 2019",
