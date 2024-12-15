@@ -184,7 +184,7 @@ export default function CV() {
           <div className="text-gray-1000, dark:text-gray-300 text-left w-full space-y-6">
             <div className="space-y-2">
               <ul className="list-disc pl-4">
-                <li><strong>Fluent</strong> - Dutch, English</li>
+                <li><strong>Fluent</strong> – Dutch, English</li>
                 <li><strong>Proficient</strong> – German, French</li>
                 <li><strong>Notions</strong> – Russian</li>
               </ul>
