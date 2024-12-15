@@ -89,7 +89,7 @@ export default function Timeline() {
       image: "/images/NZ.png",
     },
     {
-      date: "June 2022",
+      date: "July 2022",
       title: "🇦🇺 University of Sydney",
       description: "I have decided to swap Antwerp for Sydney for the next year. During this break from work, I will be pursuing a Master degree in Data Science.",
       image: "/images/Sydney.jpg",
@@ -146,13 +146,25 @@ export default function Timeline() {
       date: "June 2018",
       title: "🎓 Bachelor (BSc) in Engineering Sciences",
       description: "I obtained a bachelor degree in engineering sciences at the KU Leuven, with a focus on Electrical and Mechanical Engineering!",
-      image: "/images/BaDegree.png",
+      image: "/images/Arenberg.png",
+    },
+    {
+      date: "March 2018",
+      title: "🇧🇪 Moderator at Europolis 2018",
+      description: "Moderating the debates at EYP Belgium's Europolis conference, hosted in the Belgian Chamber of Representatives. The debates of these conferences are bilingually held in Dutch and French (contrary to other EYP conferences, where all debates are in English).",
+      image: "/images/Europolis.jpg",
     },
     {
       date: "February 2018",
       title: "🇧🇪 Chairperson at Bruges 2018",
       description: "Joining EYP Belgium's National Selection Conference as a Chairperson, chairing the committee on Industry, Research and Energy (ITRE).",
       image: "/images/Bruges.jpg",
+    },
+    {
+      date: "September 2017",
+      title: "📸 VTK Praesidium",
+      description: "I am joining the board of the student association of the engineering faculty - VTK (Vlaamse Technische Kring) - as a communication officer.",
+      image: "/images/VTK.jpg",
     },
     {
       date: "November 2016",
@@ -176,6 +188,7 @@ export default function Timeline() {
 
   return (
     <div className="flex flex-col min-h-screen items-center justify-center">
+      
       <div className="flex flex-col items-center gap-16 w-full">
         {/* Header Section*/}
         <header className="flex flex-col items-center gap-9 pt-12">
@@ -238,6 +251,7 @@ export default function Timeline() {
         </section>
 
       </div>
+
       {/* Scroll to Bottom Button */}
       {showBottomArrow && (
         <button

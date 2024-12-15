@@ -184,7 +184,7 @@ export default function CV() {
           <div className="text-gray-1000, dark:text-gray-300 text-left w-full space-y-6">
             <div className="space-y-2">
               <ul className="list-disc pl-4">
-                <li><strong>Fluent</strong> - Dutch, English</li>
+                <li><strong>Fluent</strong> – Dutch, English</li>
                 <li><strong>Proficient</strong> – German, French</li>
                 <li><strong>Notions</strong> – Russian</li>
               </ul>
@@ -202,6 +202,7 @@ export default function CV() {
             <div className="space-y-2">
               <ul className="list-disc pl-4">
                 <li><strong>PRINCE2</strong> | Project Management Certification by PeopleCert | Brussels, Belgium | 2024</li>
+                <li><strong>Standard Mental Health First Aider</strong> | Mental Health First Aid International | Sydney, Australia | 2022</li>
                 <li><strong>Python for Data Science and Machine Learning Bootcamp </strong> | Udemy Course | 2021</li>
                 <li><strong>German B2</strong> | Intensive German Summer Course at Sprachenzentrum Wien | Vienna, Austria | 2018</li>
                 <li><strong>Industry 4</strong> | Summer Course of the Board of European Students of Technology on "Next Generation Industry" | Rome, Italy | 2018</li>
