@@ -12,24 +12,24 @@ export const meta: MetaFunction = () => {
 export default function AboutMe() {
 
     return (
-        <div className="flex flex-col min-h-screen items-center pb-10">
-          <div className="flex flex-col items-center gap-16 w-full">
-            {/* Header Section*/}
-            <header className="flex flex-col items-center gap-9 pt-12">
-              <h1 className="leading text-2xl font-bold text-gray-800 dark:text-gray-100">
-                About Me<span className="sr-only"> Florian Géron</span>
-              </h1>
-              <div className="h-[270px] w-[434px]">
-                <img
-                  src="/_DSC2733.jpg"
-                  alt="Florian"
-                  className="w-full"
-                />
-              </div>
-            </header>
-            
-            {/* About Me Section */}
-            <section className="flex flex-col items-center text-center gap-6 px-6 max-w-2xl">
+        <div className="flex flex-col min-h-screen items-center gap-16 pb-10 w-full">
+
+          {/* Header Section*/}
+          <header className="flex flex-col items-center gap-9 pt-12">
+            <h1 className="leading text-2xl font-bold text-gray-800 dark:text-gray-100">
+              About Me<span className="sr-only"> Florian Géron</span>
+            </h1>
+            <div className="h-[270px] w-[434px]">
+              <img
+                src="/_DSC2733.jpg"
+                alt="Florian"
+                className="w-full"
+              />
+            </div>
+          </header>
+          
+          {/* About Me Section */}
+          <section className="flex flex-col items-center text-center gap-6 px-6 max-w-2xl">
             <p className="text-gray-600 dark:text-gray-300 text-left">
                 Hello, I'm Florian.
                 This website is a space where I share a little more about myself and my journey.
@@ -46,9 +46,8 @@ export default function AboutMe() {
                     <li>I have a Master's degree in Mechanical Engineering (KU Leuven) and a second Master's degree in Data Science (University of Sydney).</li>
                 </ul>
             </p>
-            </section>
+          </section>
 
-          </div>
         </div>
     );
   }
