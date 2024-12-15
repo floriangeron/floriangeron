@@ -90,7 +90,7 @@ export default function CV() {
                 <p className="italic">Sept 2018 - June 2020</p>
               </div>
               <p>
-              For my Master's, I specialized in mechatronics and robotics, honinh in on defining and tuning the synergy of construction, sensing, actuation and control of machinery. In my master thesis, I focused on the sensing part of mechatronic systems, developing a measurement system for liquid interfaces.
+              For my Master's, I specialized in mechatronics and robotics, honing in on defining and tuning the synergy of the construction, sensing, actuation and control of machinery. In my master thesis, I focused on the sensing part of mechatronic systems, developing a measurement system for liquid interfaces.
               </p><p>
               During my Master's, I participated in the Erasmus Programme and studied at the TU Wien in Vienna.
               </p>
@@ -155,22 +155,38 @@ export default function CV() {
         </section>
 
         {/* Skills */}
-        <section className="flex flex-col items-center text-left gap- px-6 max-w-4xl">
+        <section className="flex flex-col items-center text-left gap- px-6 w-full max-w-4xl">
           <h2 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
               SKILLS
           </h2>
           <hr className="w-full border-gray-300 dark:border-gray-700 border-1 my-6" />
-          <div className="text-gray-1000, dark:text-gray-300 text-left space-y-6">
+          <div className="text-gray-1000, dark:text-gray-300 text-left w-full space-y-6">
             <div className="space-y-2">
               <ul className="list-disc pl-4">
-                <li><strong>Programming</strong> - Python (including libraries such as pandas, scikit-learn, PyTorch and TensorFlow), R, C, MATLAB, SQL</li>
+                <li><strong>Programming</strong> - Python (including libraries such as pandas, scikit-learn, PyTorch and TensorFlow), R, C, MATLAB, SQL, TypeScript, React</li>
                 <li><strong>Cloud computing platforms</strong> – Azure, AWS</li>
                 <li><strong>Business Intelligence</strong> – QlikView, Qlik Sense, Tableau</li>
                 <li><strong>Software Development</strong> – GitHub, JIRA, Azure DevOps</li>
                 <li><strong>Technical</strong> – LaTeX, CAD, FEM</li>
-                <li><strong>Languages</strong> – Native Dutch, Fluent English, Proficient German, Conversation French</li>
                 <li><strong>TOEFL</strong> – 118</li>
                 <li><strong>GMAT</strong> – 750</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        {/* Skills */}
+        <section className="flex flex-col items-center text-left gap- px-6 w-full max-w-4xl">
+          <h2 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
+              LANGUAGES
+          </h2>
+          <hr className="w-full border-gray-300 dark:border-gray-700 border-1 my-6" />
+          <div className="text-gray-1000, dark:text-gray-300 text-left w-full space-y-6">
+            <div className="space-y-2">
+              <ul className="list-disc pl-4">
+                <li><strong>Fluent</strong> - Dutch, English</li>
+                <li><strong>Proficient</strong> – German, French</li>
+                <li><strong>Notions</strong> – Russian</li>
               </ul>
             </div>
           </div>
@@ -182,12 +198,12 @@ export default function CV() {
               CERTIFICATIONS
           </h2>
           <hr className="w-full border-gray-300 dark:border-gray-700 border-1 my-6" />
-          <div className="text-gray-1000, dark:text-gray-300 text-left space-y-6">
+          <div className="text-gray-1000, dark:text-gray-300 text-left w-full space-y-6">
             <div className="space-y-2">
               <ul className="list-disc pl-4">
                 <li><strong>PRINCE2</strong> | Project Management Certification by PeopleCert | Brussels, Belgium | 2024</li>
                 <li><strong>Python for Data Science and Machine Learning Bootcamp </strong> | Udemy Course | 2021</li>
-                <li><strong>German B2</strong> | Intensive German Summer Course at Sprachenzentrum Wien | Vienna, Austria| 2018</li>
+                <li><strong>German B2</strong> | Intensive German Summer Course at Sprachenzentrum Wien | Vienna, Austria | 2018</li>
                 <li><strong>Industry 4</strong> | Summer Course of the Board of European Students of Technology on "Next Generation Industry" | Rome, Italy | 2018</li>
               </ul>
             </div>
@@ -195,12 +211,12 @@ export default function CV() {
         </section>
 
         {/* AWARDS */}
-        <section className="flex flex-col items-center text-left gap- px-6 max-w-4xl">
+        <section className="flex flex-col items-center text-left gap- px-6 w-full max-w-4xl">
           <h2 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
               AWARDS
           </h2>
           <hr className="w-full border-gray-300 dark:border-gray-700 border-1 my-6" />
-          <div className="text-gray-1000, dark:text-gray-300 text-left space-y-6">
+          <div className="text-gray-1000, dark:text-gray-300 text-left w-full space-y-6">
             <div className="space-y-2">
               <ul className="list-disc pl-4">
                 <li><strong>University of Sydney</strong> | Postgraduate Prize for Outstanding Academic Achievement in Master of Data Science | 2023</li>
