@@ -19,13 +19,13 @@ export default function AboutMe() {
             <h1 className="leading text-2xl font-bold text-gray-800 dark:text-gray-100">
               About Me<span className="sr-only"> Florian Géron</span>
             </h1>
-            <div className="h-[270px] w-[434px]">
+            {/* <div className="h-[270px] w-[434px]">
               <img
                 src="/_DSC2733.jpg"
                 alt="Florian"
                 className="w-full"
               />
-            </div>
+            </div> */}
           </header>
           
           {/* About Me Section */}
