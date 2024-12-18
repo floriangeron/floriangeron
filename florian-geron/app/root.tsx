@@ -8,6 +8,7 @@ import {
   useLocation,
 } from "@remix-run/react";
 import type { LinksFunction } from "@remix-run/node";
+import { FaArrowRight, FaArrowLeft } from 'react-icons/fa';
 
 import { useState } from "react";
 import "./tailwind.css";
@@ -55,7 +56,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
           } bg-gray-300 text-gray-600 px-2 py-1 rounded shadow-md transition-all duration-300`}
           onClick={() => setSidebarOpen(!isSidebarOpen)}
         >
-          {isSidebarOpen ? "◀" : "▶"}
+          {isSidebarOpen ? <FaArrowLeft/> : <FaArrowRight/>}
         </button>
 
         {/* Sidebar */}
