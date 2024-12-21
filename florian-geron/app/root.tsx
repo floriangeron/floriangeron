@@ -33,6 +33,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
   const navLinks = [
     { to: "/", label: "About Me" },
     { to: "/timeline", label: "Timeline" },
+    { to: "/pyramids", label: "Pyramids" },
     { to: "/cv", label: "Résumé" },
     { to: "/contact", label: "Contact" },
   ];
@@ -102,5 +103,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
 }
 
 export default function App() {
-  return <Outlet />;
+  return (
+    <Layout>
+      <Outlet />
+    </Layout>
+  );
 }
