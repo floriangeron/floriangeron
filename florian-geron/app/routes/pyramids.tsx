@@ -94,8 +94,7 @@ export default function Pyramids() {
           Banlieu Pyramids<span className="sr-only"> Florian Géron</span>
         </h1>
         <p className="text-center max-w-2xl">
-          Our high-school friend group has developed the habit of building human
-          pyramids wherever we go! Who was part of the most pyramids?
+          Our high-school friend group has developed the habit of building human pyramids wherever we go! Who was part of the most pyramids?
         </p>
       </header>
 
