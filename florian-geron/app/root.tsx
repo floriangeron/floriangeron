@@ -89,7 +89,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
 
         {/* Main Content */}
         <div
-          className={`flex-1 overflow-auto transition-all duration-300 ${
+          className={`main-content flex-1 overflow-auto transition-all duration-300 ${
             isSidebarOpen ? "ml-64" : "ml-0"
           }`}
         >
