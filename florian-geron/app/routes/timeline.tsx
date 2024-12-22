@@ -15,7 +15,7 @@ export default function Timeline() {
   const [showBottomArrow, setShowBottomArrow] = useState(true);
 
   useEffect(() => {
-    const container = document.querySelector(".flex-1.overflow-auto");
+    const container = document.querySelector(".main-content");
     if (!container) return;
 
     const handleScroll = () => {
@@ -25,21 +25,28 @@ export default function Timeline() {
   
       setShowTopArrow(!atTop);
       setShowBottomArrow(!atBottom);
+
+      console.log("Container:", container);
+      console.log("ScrollTop:", container?.scrollTop);
+      console.log("ScrollHeight:", container?.scrollHeight);
+      console.log("ClientHeight:", container?.clientHeight);
     };
   
     container.addEventListener("scroll", handleScroll);
+    // handleScroll();
+
     return () => container.removeEventListener("scroll", handleScroll);
   }, []);
 
   const scrollToTop = () => {
-    const container = document.querySelector(".flex-1.overflow-auto");
+    const container = document.querySelector(".main-content");
     if (container) {
       container.scrollTo({ top: 0, behavior: "smooth" });
     }
   };
 
   const scrollToBottom = () => {
-    const container = document.querySelector(".flex-1.overflow-auto");
+    const container = document.querySelector(".main-content");
     if (container) {
       container.scrollTo({ top: container.scrollHeight, behavior: "smooth" });
     }
@@ -253,24 +260,24 @@ export default function Timeline() {
       </div>
 
       {/* Scroll to Bottom Button */}
-      {showBottomArrow && (
+      {/* {showBottomArrow && (
         <button
           className="fixed bottom-4 right-4 rounded-full bg-gray-100 hover:bg-gray-200 p-2 shadow-md"
           onClick={scrollToBottom}
         >
           <FaArrowDown className="w-6 h-6 text-gray-400 hover:text-gray-600" />
         </button>
-      )}
+      )} */}
 
       {/* Scroll to Top Button */}
-      {showTopArrow && (
+      {/* {showTopArrow && (
         <button
           className="fixed top-4 right-4 rounded-full bg-gray-100 hover:bg-gray-200 p-2 shadow-md"
           onClick={scrollToTop}
         >
           <FaArrowUp className="w-6 h-6 text-gray-400 hover:text-gray-600" />
         </button>
-      )}
+      )} */}
     </div>
   );
 }
