@@ -33,6 +33,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
   const navLinks = [
     { to: "/", label: "About Me" },
     { to: "/timeline", label: "Timeline" },
+    { to: "/pyramids", label: "Pyramids" },
+    { to: "/funfacts", label: "Fun Facts" },
     { to: "/cv", label: "Résumé" },
     { to: "/contact", label: "Contact" },
   ];
@@ -51,18 +53,18 @@ export function Layout({ children }: { children: React.ReactNode }) {
 
         {/* Toggle Button */}
         <button
-          className={`absolute top-4 ${
+          className={`fixed top-4 transition-all duration-300 z-10 ${
             isSidebarOpen ? "left-[16.5rem]" : "left-4"
-          } bg-gray-300 text-gray-600 px-2 py-1 rounded shadow-md transition-all duration-300`}
-          onClick={() => setSidebarOpen(!isSidebarOpen)}
+          } bg-gray-300 text-gray-600 px-2 py-1 rounded shadow-md`}
+          onClick={() => setSidebarOpen(!isSidebarOpen)} // Toggle state
         >
-          {isSidebarOpen ? <FaArrowLeft/> : <FaArrowRight/>}
+          {isSidebarOpen ? <FaArrowLeft /> : <FaArrowRight />}
         </button>
 
         {/* Sidebar */}
         <div
           className={`fixed top-0 left-0 h-full bg-gray-200 text-black p-4 transition-transform duration-300 ${
-            isSidebarOpen ? "translate-x-0" : "-translate-x-full"
+            isSidebarOpen ? "translate-x-0 z-40" : "-translate-x-full z-10"
           }`}
           style={{ width: "16rem" }}
         >
@@ -102,5 +104,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
 }
 
 export default function App() {
-  return <Outlet />;
+  return (
+    <Layout>
+      <Outlet />
+    </Layout>
+  );
 }
