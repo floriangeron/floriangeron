@@ -41,7 +41,7 @@ const funfacts = [
     "Nepal is the only country whose national flag isn't a rectangle.",
     "Belarus has the highest number of cinemas per capita in the world.",
     "Denmark's flag is the oldest continuously used national flag.",
-    "Auckland is the world's southernmost capital.",
+    "Wellington is the world's southernmost capital. It is located at 41.28°S.\n\nReykjavik, the world's norternmost capital, is located at 64.15°N.",
     "France's longest land border is the one it shares with Brazil.",
     "France has land borders with all the countries that Belgium borders.\nIt borders the Netherlands in the Caribbean, on the island of Saint-Martin.",
     "More than 50% of Canadians live South of Seattle.",
