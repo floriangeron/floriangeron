@@ -52,6 +52,7 @@ const funfacts = [
     "France's territories span 12 time zones.",
     "East-Timor is a country in South-East Asia. The word 'Timor' means 'East'. This means that the country is called 'East-East'.",
     "The country of Chad is named after the main body of water in it, as 'Chad' means 'Lake'. This means that 'Lake Chad' means 'Lake Lake'.",
+    "'Gobi' is the Mongolian word for 'desert'. This means that 'Gobi desert' means 'desert desert'.",
     "There is only one cinema in all of Suriname.",
     "Jamaica is the only country in the world whose flag does not feature red, white or blue.",
     "Bhutan is the only carbon-negative country in the world.",
@@ -63,7 +64,10 @@ const funfacts = [
     "After the French-speaking Normans conquered England in 1066, French vocabulary started infiltrating the English lexicon. As the Normans ruled the land, this especially affected words used by the elite.\n\nThis is why the Germanic version of a word usually sounds less fancy than its Latin equivalent. Examples include 'purchase' vs 'buy', 'acquire' vs 'get', 'commence' vs 'begin', 'chamber' vs 'room', 'mansion' vs 'house'.\n\nThis is most famously demonstrated in the fact that English has a different word for an animal and its meat. 'Cow' and 'beef', 'chicken' and 'poultry', 'sheep' vs 'mutton', 'pig' vs 'pork', and 'calf' vs 'veal'. The Anglo-Saxon farmers would raise the animals, which would get served to the Norman nobles.",
     "The Dutch word for 'to paint' is 'schilderen'. This comes from the Dutch word for shield, 'schild'. In medieval times, knights would paint their shield, which is how the process of painting became known as 'shielding' in Dutch, rather than some mutation of the German word 'malen'.",
     "The Milky Way is the name of our galaxy. In fact, all galaxies are named after milk: The word 'galaxy' comes from the Greek word 'gala', meaning milk. The words 'lactose' and 'lactic' come from the related Latin version of the root word, 'lax'.",
-    "Helicopter contains two Greek root words: 'helico' and 'pter'. These words combine to mean 'helix-wing'."
+    "Helicopter contains two Greek root words: 'helico' and 'pter'. These words combine to mean 'helix-wing'.",
+    "The American state of Idaho has a made-up name. Someone proposed the name to congress, saying that the native Americans living there the region by that name. In reality, the name had made up the name after meeting a girl named Ida.",
+    "Portuguese is the most widely spoken language in the Southern hemisphere.",
+    "Palau's capital of Ngerulmud is the least populated capital city of a sovereign nation in the world."
 
 ]
 
