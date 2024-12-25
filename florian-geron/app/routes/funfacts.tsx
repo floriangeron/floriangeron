@@ -115,7 +115,7 @@ export default function Funfacts(){
             </header>
 
             {/* Fun Fact Display */}
-            <div className="text-center justify-center items-center mt-16">
+            <div className="flex-grow text-center justify-center items-center mt-16">
                 {currentFactIndex === null ? (
                     <button
                         onClick={showRandomFact}
@@ -139,7 +139,7 @@ export default function Funfacts(){
             {currentFactIndex !== null && (
                 <button
                     onClick={showRandomFact}
-                    className="absolute bottom-20 px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-bold text-xl rounded-full shadow-lg transform transition-all duration-300 ease-in-out hover:scale-105 hover:from-pink-500 hover:to-purple-500 hover:shadow-2xl"
+                    className="px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-bold text-xl rounded-full shadow-lg transform transition-all duration-300 ease-in-out hover:scale-105 hover:from-pink-500 hover:to-purple-500 hover:shadow-2xl mt-16 mb-8"
                 >
                     Show another fun fact
                 </button>
