@@ -78,7 +78,7 @@ const funfacts = [
     "Odysseus' son is called Telemachus. The name consists of 'tele', meaning far, and 'machus', meaning war, referring to the fact that for most of his life, his father is fighting a war far away.",
     // 60
     "In Greek mythology, Atlas was a Titan who was condemned to hold up the heavens as a punishment for taking the side of the Titans during the Titanomachy, the war between the Titans and the Olympian gods.\n\nAfter Perseus slayed Medusa, Medusa's eyes maintained their power of turning living beings into stone. Perseus decided to end Atlas' plight and used this severed head to turn the Titan into stone, giving us the Atlas mountains.\n\nThe Titan and its mountain chain also led to the name for the Atlantic Ocean. The Atlas mountains were at the westernmost edge of the known world. The Ocean beyond this point was therefore named 'Atlantic'.",
-    "Maltese is a semitic languageclosely related to Arabic and distantly related to Hebrew. It is the only official language of the EU that is Semitic.",
+    "Maltese is a semitic language closely related to Arabic and distantly related to Hebrew. It is the only official language of the EU that is Semitic.",
     "Finnish, Estonian, and Hungarian are Uralic languages, a non-Indo-European language family. These languages likely originated near the Ural Mountains and spread to Europe through migration and settlement over centuries.",
     "Basque is a language isolate, meaning it has no known relatives. It is not Indo-European. It probably predates the arrival of the Indo-European languages to Europe.",
     "The Sentence 'The quick brown fox jumps over the lazy dog' uses every letter of the alphabet!.",
@@ -86,7 +86,7 @@ const funfacts = [
     "In old Dutch, the word for 'apple' was a generic term used to refer to any kind of fruit. This is why, in Dutch, 'an orange' is 'een appelsien', meaning 'apple from China': The fruit originated in the East, which the Dutch associated with China. Similarly, 'a potato' is 'een aardappel', meaning 'ground apple'.",
     "The colour orange is named after the fruit. This word only entered the English language around the 15th century. Before this time, English speakers used the word 'yellow-red', for orange.\n\nThe fruit gets its name from the Sanskrit 'nāraṅga' which refers to the orange tree. The word found its way from Sanskrit to Persian to Arabic to French, and then finally to English.",
     "In the 20th century, an influential Arab family, the House of Saud, unified most of the Arabian peninsula. They named this newly unified country 'Saudi Arabia', which would be a bit like the UK being called 'Windsorland' or the Netherlands being called 'Oranjeland'.",
-    
+
 ]
 
 export default function Funfacts(){

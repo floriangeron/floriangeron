@@ -49,7 +49,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <link rel="icon" href="/my-logo-2-zoom.png" />
       </head>
 
-      <body className="flex h-screen relative">
+      <body className="flex flex-col h-screen relative">
 
         {/* Toggle Button */}
         <button
@@ -95,6 +95,15 @@ export function Layout({ children }: { children: React.ReactNode }) {
         >
           {children}
         </div>
+
+        {/* Footer (only on index page) */}
+        {location.pathname === "/" && (
+          <footer className="bg-gray-100 text-center py-4 mt-auto">
+            <p className="text-sm text-gray-600">
+              Last updated: December 22, 2024
+            </p>
+          </footer>
+        )}
 
         <ScrollRestoration />
         <Scripts />
