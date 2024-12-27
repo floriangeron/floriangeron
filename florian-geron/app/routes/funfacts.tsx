@@ -51,7 +51,7 @@ const funfacts = [
     "More than 50% of Canadians live South of Seattle.",
     "Greenland lies to the North, West, South, and East of Iceland.",
     "The national flag with the most colours, is the one of Belize.\nIt has 12 colours.",
-    "Plymouth is the capital of Montserrat, a British overseas territory. Plymouth was abandoned in 1997 after it affected by a nearby volcanic eruption. This makes Plymouth the only capital that is also a ghost town.",
+    "Plymouth is the capital of Montserrat, a British overseas territory. Plymouth was abandoned in 1997 after it was affected by a nearby volcanic eruption. This makes Plymouth the only capital that is also a ghost town.",
     "In New Zealand, 50,000 people listed 'Jedi' as their religion in the official state census.",
     "France's territories span 12 time zones.",
     // 40
