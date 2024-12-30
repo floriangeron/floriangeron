@@ -86,7 +86,7 @@ const funfacts = [
     "In old Dutch, the word for 'apple' was a generic term used to refer to any kind of fruit. This is why, in Dutch, 'an orange' is 'een appelsien', meaning 'apple from China': The fruit originated in the East, which the Dutch associated with China. Similarly, 'a potato' is 'een aardappel', meaning 'ground apple'.",
     "The colour orange is named after the fruit. This word only entered the English language around the 15th century. Before this time, English speakers used the word 'yellow-red', for orange.\n\nThe fruit gets its name from the Sanskrit 'nāraṅga' which refers to the orange tree. The word found its way from Sanskrit to Persian to Arabic to French, and then finally to English.",
     "In the 20th century, an influential Arab family, the House of Saud, unified most of the Arabian peninsula. They named this newly unified country 'Saudi Arabia', which would be a bit like the UK being called 'Windsorland' or the Netherlands being called 'Oranjeland'.",
-    "Andorra is the largest country without an airport",
+    "Andorra is the largest country without an airport.",
     // 70
 
 ]
@@ -141,7 +141,7 @@ export default function Funfacts(){
             {currentFactIndex !== null && (
                 <button
                     onClick={showRandomFact}
-                    className="px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-bold text-xl rounded-full shadow-lg transform transition-all duration-300 ease-in-out hover:scale-105 hover:from-pink-500 hover:to-purple-500 hover:shadow-2xl mt-16 mb-8"
+                    className="px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-bold text-xl rounded-full shadow-lg transform transition-all duration-300 ease-in-out hover:scale-105 hover:from-pink-500 hover:to-purple-500 hover:shadow-2xl mt-16 mb-24"
                 >
                     Show another fun fact
                 </button>
