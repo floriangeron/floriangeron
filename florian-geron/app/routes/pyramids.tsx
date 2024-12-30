@@ -60,9 +60,9 @@ export default function Pyramids() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [rotations, setRotations] = useState<number[]>(new Array(images.length).fill(0)); // Store rotations for each image
 
-  // Function to generate a random tilt between -5 and +5 degrees
+  // Function to generate a random tilt between -7.5 and +7.5 degrees
   const getRandomTilt = () => {
-    return Math.random() * 10 - 5; // Random number between -5 and 5
+    return Math.random() * 15 - 7.5; // Random number between -7.5 and 7.5
   };
 
   useEffect(() => {
@@ -99,12 +99,12 @@ export default function Pyramids() {
       </header>
 
       {/* Pictures Section */}
-      <div className="relative w-full max-w-[1000px] h-[70vh] overflow-hidden flex justify-center items-center">
+      <div className="relative w-full max-w-[1000px] min-h-[70vh] flex justify-center items-center">
         
         {images.map((image, index) => (
           <div
             key={index}
-            className={`absolute max-w-[600px] flex flex-col items-center transition-opacity duration-[1000ms] ease-in-out ${
+            className={`absolute max-w-[800px] flex flex-col items-center transition-opacity duration-[1000ms] ease-in-out ${
               index <= currentIndex ? "opacity-100" : "opacity-0"
             }`}
             style={{
@@ -147,7 +147,7 @@ export default function Pyramids() {
         <button
           onClick={handlePrevious}
           disabled={currentIndex === 0}
-          className="absolute left-0 top-1/2 transform -translate-y-1/2 px-4 py-2 bg-gray-800 text-white rounded disabled:opacity-50 z-10"
+          className="absolute left-0 top-1/2 transform -translate-y-1/2 px-4 py-2 bg-gray-800 text-white rounded disabled:opacity-50 z-50"
           style={{ pointerEvents: "auto" }}
         >
           Previous
@@ -155,7 +155,7 @@ export default function Pyramids() {
         <button
           onClick={handleNext}
           disabled={currentIndex === images.length - 1}
-          className="absolute right-0 top-1/2 transform -translate-y-1/2 px-4 py-2 bg-gray-800 text-white rounded disabled:opacity-50 z-10"
+          className="absolute right-0 top-1/2 transform -translate-y-1/2 px-4 py-2 bg-gray-800 text-white rounded disabled:opacity-50 z-50"
           style={{ pointerEvents: "auto" }}
         >
           Next
