@@ -8,7 +8,7 @@ import {
   useLocation,
 } from "@remix-run/react";
 import type { LinksFunction } from "@remix-run/node";
-import { FaArrowRight, FaArrowLeft } from 'react-icons/fa';
+import { FaArrowRight, FaArrowLeft, FaHome } from 'react-icons/fa';
 
 import { useState } from "react";
 import "./tailwind.css";
@@ -55,7 +55,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <button
           className={`fixed top-4 transition-all duration-300 z-10 ${
             isSidebarOpen ? "left-[16.5rem]" : "left-4"
-          } bg-gray-300 text-gray-600 px-2 py-1 rounded shadow-md`}
+          } bg-gray-300 text-gray-600 px-2 py-1 rounded shadow-md hover:bg-gray-400`}
           onClick={() => setSidebarOpen(!isSidebarOpen)} // Toggle state
         >
           {isSidebarOpen ? <FaArrowLeft /> : <FaArrowRight />}
@@ -95,6 +95,17 @@ export function Layout({ children }: { children: React.ReactNode }) {
         >
           {children}
         </div>
+
+        {/* Home Button */}
+        {location.pathname !== "/" && (
+          <Link
+            to="/"
+            className="fixed top-4 right-4 bg-gray-300 text-gray-600 p-3 rounded-full shadow-md hover:bg-gray-400 transition duration-300 z-20 flex items-center justify-center"
+            aria-label="Home"
+          >
+            <FaHome className="w-5 h-5" />
+          </Link>
+        )}
 
         {/* Footer (only on index page) */}
         {location.pathname === "/" && (

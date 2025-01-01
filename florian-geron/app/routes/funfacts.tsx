@@ -92,7 +92,7 @@ const funfacts = [
     "The Eiffel Tower can grow taller in summer. Heat causes the metal to expand, adding up to 6 inches (15 cm) to its height.",
     "The shortest war in history was between Britain and Zanzibar on August 27, 1896. Zanzibar surrendered after 38 minutes.",
     "The world's largest desert isn't the Sahara — it's Antarctica. A desert is defined by low precipitation, not heat, and Antarctica is the driest continent.",
-    "A group of flamingos is called a 'flamboyance.' Other interesting group names include a 'murder' of crows and a 'parliament' of owls.",
+    "A group of flamingos is called a 'flamboyance'. Other interesting group names include a 'murder' of crows and a 'parliament' of owls.",
     "In Switzerland, it is illegal to own just one guinea pig. They are social animals and must have a companion.",
     
 
