@@ -81,7 +81,7 @@ const funfacts = [
     "Maltese is a semitic language closely related to Arabic and distantly related to Hebrew. It is the only official language of the EU that is Semitic.",
     "Finnish, Estonian, and Hungarian are Uralic languages, a non-Indo-European language family. These languages likely originated near the Ural Mountains and spread to Europe through migration and settlement over centuries.",
     "Basque is a language isolate, meaning it has no known relatives. It is not Indo-European. It probably predates the arrival of the Indo-European languages to Europe.",
-    "The Sentence 'The quick brown fox jumps over the lazy dog' uses every letter of the alphabet!.",
+    "The sentence 'The quick brown fox jumps over the lazy dog' uses every letter of the alphabet.",
     "There are no rivers in Saudi Arabia.",
     "In old Dutch, the word for 'apple' was a generic term used to refer to any kind of fruit. This is why, in Dutch, 'an orange' is 'een appelsien', meaning 'apple from China': The fruit originated in the East, which the Dutch associated with China. Similarly, 'a potato' is 'een aardappel', meaning 'ground apple'.",
     "The colour orange is named after the fruit. This word only entered the English language around the 15th century. Before this time, English speakers used the word 'yellow-red', for orange.\n\nThe fruit gets its name from the Sanskrit 'nāraṅga' which refers to the orange tree. The word found its way from Sanskrit to Persian to Arabic to French, and then finally to English.",
@@ -92,8 +92,9 @@ const funfacts = [
     "The Eiffel Tower can grow taller in summer. Heat causes the metal to expand, adding up to 6 inches (15 cm) to its height.",
     "The shortest war in history was between Britain and Zanzibar on August 27, 1896. Zanzibar surrendered after 38 minutes.",
     "The world's largest desert isn't the Sahara — it's Antarctica. A desert is defined by low precipitation, not heat, and Antarctica is the driest continent.",
-    "A group of flamingos is called a 'flamboyance'. Other interesting group names include a 'murder' of crows and a 'parliament' of owls.",
+    "Like a group of fish is called a 'school', a group of flamingos is called a 'flamboyance'. Other interesting group names include a 'murder' of crows and a 'parliament' of owls.",
     "In Switzerland, it is illegal to own just one guinea pig. They are social animals and must have a companion.",
+    "The US has more than 50,000 square kilometers of parking. That's an surface area larger than the area of the Netherlands.",
     
 
 ]
