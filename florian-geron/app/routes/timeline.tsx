@@ -56,7 +56,11 @@ export default function Timeline() {
     {
       date: "December 2024",
       title: "🤖 Hosting AI Landscape Talks",
-      description: "This December, I had the pleasure of hosting the 3rd edition of the Antwerp-based “AI Landscape Talks”. These events invite industry experts to share their thoughts about the AI landscape and it brings together an audience of technical professionals, business professionals, as well as students. These events are organized by Ismail Tambiyev, more information can be found here: https://lnkd.in/eD54TMdQ",
+      description: (
+        <>
+          This December, I had the pleasure of hosting the 3rd edition of the Antwerp-based “AI Landscape Talks”. These events invite industry experts to share their thoughts about the AI landscape and it brings together an audience of technical professionals, business professionals, as well as students. These events are organized by Ismail Tambiyev, more information can be found <a href="https://www.ailandscape.be/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">here</a>.
+        </>
+      ),
       image: "/images/AITalks.jpg",
     },
     {
