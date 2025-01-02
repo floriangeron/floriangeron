@@ -1,6 +1,4 @@
 import type { MetaFunction } from "@remix-run/node";
-import { FaArrowDown, FaArrowUp } from 'react-icons/fa';
-import { useEffect, useState } from "react";
 
 export const meta: MetaFunction = () => {
   return [
@@ -11,46 +9,6 @@ export const meta: MetaFunction = () => {
 };
 
 export default function Timeline() {
-  const [showTopArrow, setShowTopArrow] = useState(false);
-  const [showBottomArrow, setShowBottomArrow] = useState(true);
-
-  useEffect(() => {
-    const container = document.querySelector(".main-content");
-    if (!container) return;
-
-    const handleScroll = () => {
-      const atTop = container.scrollTop === 0;
-      const atBottom =
-        container.scrollHeight - container.scrollTop - container.clientHeight <= 1.5;
-  
-      setShowTopArrow(!atTop);
-      setShowBottomArrow(!atBottom);
-
-      console.log("Container:", container);
-      console.log("ScrollTop:", container?.scrollTop);
-      console.log("ScrollHeight:", container?.scrollHeight);
-      console.log("ClientHeight:", container?.clientHeight);
-    };
-  
-    container.addEventListener("scroll", handleScroll);
-    // handleScroll();
-
-    return () => container.removeEventListener("scroll", handleScroll);
-  }, []);
-
-  const scrollToTop = () => {
-    const container = document.querySelector(".main-content");
-    if (container) {
-      container.scrollTo({ top: 0, behavior: "smooth" });
-    }
-  };
-
-  const scrollToBottom = () => {
-    const container = document.querySelector(".main-content");
-    if (container) {
-      container.scrollTo({ top: container.scrollHeight, behavior: "smooth" });
-    }
-  };
 
   const milestones = [
     {
@@ -268,26 +226,6 @@ export default function Timeline() {
         </section>
 
       </div>
-
-      {/* Scroll to Bottom Button */}
-      {/* {showBottomArrow && (
-        <button
-          className="fixed bottom-4 right-4 rounded-full bg-gray-100 hover:bg-gray-200 p-2 shadow-md"
-          onClick={scrollToBottom}
-        >
-          <FaArrowDown className="w-6 h-6 text-gray-400 hover:text-gray-600" />
-        </button>
-      )} */}
-
-      {/* Scroll to Top Button */}
-      {/* {showTopArrow && (
-        <button
-          className="fixed top-4 right-4 rounded-full bg-gray-100 hover:bg-gray-200 p-2 shadow-md"
-          onClick={scrollToTop}
-        >
-          <FaArrowUp className="w-6 h-6 text-gray-400 hover:text-gray-600" />
-        </button>
-      )} */}
     </div>
   );
 }
