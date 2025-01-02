@@ -54,6 +54,12 @@ export default function Timeline() {
 
   const milestones = [
     {
+      date: "December 2024",
+      title: "🤖 Hosting AI Landscape Talks",
+      description: "This December, I had the pleasure of hosting the 3rd edition of the Antwerp-based “AI Landscape Talks”. These events invite industry experts to share their thoughts about the AI landscape and it brings together an audience of technical professionals, business professionals, as well as students. These events are organized by Ismail Tambiyev, more information can be found here: https://lnkd.in/eD54TMdQ",
+      image: "/images/AITalks.jpg",
+    },
+    {
       date: "July 2024",
       title: "🎉 Tomorrowland",
       description: "Reconnecting with my friends from my time in Sydney at Belgium's most iconic event!",
