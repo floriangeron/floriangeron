@@ -111,7 +111,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         {location.pathname === "/" && (
           <footer className="bg-gray-100 text-center py-4 mt-auto">
             <p className="text-sm text-gray-600">
-              Last updated: December 22, 2024
+              Last updated: January 03, 2025
             </p>
           </footer>
         )}
