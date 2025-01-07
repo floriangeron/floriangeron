@@ -12,7 +12,7 @@ export const meta: MetaFunction = () => {
 const funfacts = [
     // 0
     "The Vatican classifies capybara as fish.\nThis allows Latin Americans to eat the animal during Lent.",
-    "Antartica has the lowest infant mortality rate of any continent.",
+    "Seven babies have been born on Antartica, all of whom survived birth. This means that Antartica has the lowest infant mortality rate of any continent.",
     "There are only two double landlocked countries, i.e. countries who only border landlocked countries.\nThey are Liechtenstein and Uzbekistan.",
     "The Caspian Sea is a lake, not a sea.",
     "Owls' eyes have a conical shape. This means their eyes cannot rotate in their sockets, which is why their neck can turn more than 360 degrees.",
