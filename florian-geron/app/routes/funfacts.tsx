@@ -94,8 +94,8 @@ const funfacts = [
     "The world's largest desert isn't the Sahara — it's Antarctica. A desert is defined by low precipitation, not heat, and Antarctica is the driest continent.",
     "Like a group of fish is called a 'school', a group of flamingos is called a 'flamboyance'. Other interesting group names include a 'murder' of crows and a 'parliament' of owls.",
     "In Switzerland, it is illegal to own just one guinea pig. They are social animals and must have a companion.",
-    "The US has more than 50,000 square kilometers of parking. That's an surface area larger than the area of the Netherlands.",
-    
+    "The US has more than 50,000 square kilometers of parking. That's a surface area larger than the area of the Netherlands.",
+    "Bluetooth technology is named after Harald Blåtand, a Danish viking king who united the Danish tribes. The technology's inventors chose this name because Bluetooth unites different devices, like Harald united the tribes. Combining his runic initials results in the Bluetooth symbol.",
 
 ]
 
