@@ -96,6 +96,12 @@ const funfacts = [
     "In Switzerland, it is illegal to own just one guinea pig. They are social animals and must have a companion.",
     "The US has more than 50,000 square kilometers of parking. That's a surface area larger than the area of the Netherlands.",
     "Bluetooth technology is named after Harald Blåtand, a Danish viking king who united the Danish tribes. The technology's inventors chose this name because Bluetooth unites different devices, like Harald united the tribes. Combining his runic initials results in the Bluetooth symbol.",
+    "There is a mall in Moldova called MallDova.",
+    "Andorra has the highest number of McDonald's per capita.",
+    // 80
+    "Lake Baikal covers a larger surface area than the country of Belgium. It is the deepest lake in the world, and also the largest freshwater lake by volume: It contains 22% of the world's fresh surface water.",
+    "The Danube is the river that passes through the most countries in the world. It courses through 10 countries and visits four capitals on its way to the Black Sea.",
+    
 
 ]
 
