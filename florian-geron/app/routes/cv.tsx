@@ -39,7 +39,7 @@ export default function CV() {
                 <li>Team Leader of the technical/data science team at several client engagements</li>
                 <li>Back-end developer on several projects with a focus on Gen AI products</li>
                 <li>Machine learning engineer, including training custom models (CNNs and LLMs) but also prompt engineering for foundational Generative AI models</li>
-                <li>Data scientist, including data analytics and data visualization for project inn several different industries</li>
+                <li>Data scientist, including data analytics and data visualization for projects in several different industries</li>
                 <li>Liaising with clients and other stakeholders to identify their needs, proposing solutions, and presenting results</li>
               </ul>
               </p>
