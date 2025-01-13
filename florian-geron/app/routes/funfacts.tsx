@@ -12,7 +12,7 @@ export const meta: MetaFunction = () => {
 const funfacts = [
     // 0
     "The Vatican classifies capybara as fish.\nThis allows Latin Americans to eat the animal during Lent.",
-    "Antartica has the lowest infant mortality rate of any continent.",
+    "Seven babies have been born on Antartica, all of whom survived birth. This means that Antartica has the lowest infant mortality rate of any continent.",
     "There are only two double landlocked countries, i.e. countries who only border landlocked countries.\nThey are Liechtenstein and Uzbekistan.",
     "The Caspian Sea is a lake, not a sea.",
     "Owls' eyes have a conical shape. This means their eyes cannot rotate in their sockets, which is why their neck can turn more than 360 degrees.",
@@ -96,6 +96,12 @@ const funfacts = [
     "In Switzerland, it is illegal to own just one guinea pig. They are social animals and must have a companion.",
     "The US has more than 50,000 square kilometers of parking. That's a surface area larger than the area of the Netherlands.",
     "Bluetooth technology is named after Harald Blåtand, a Danish viking king who united the Danish tribes. The technology's inventors chose this name because Bluetooth unites different devices, like Harald united the tribes. Combining his runic initials results in the Bluetooth symbol.",
+    "There is a mall in Moldova called MallDova.",
+    "Andorra has the highest number of McDonald's per capita.",
+    // 80
+    "Lake Baikal covers a larger surface area than the country of Belgium. It is the deepest lake in the world, and also the largest freshwater lake by volume: It contains 22% of the world's fresh surface water.",
+    "The Danube is the river that passes through the most countries in the world. It courses through 10 countries and visits four capitals on its way to the Black Sea.",
+    
 
 ]
 
