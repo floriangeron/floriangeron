@@ -101,6 +101,15 @@ const funfacts = [
     // 80
     "Lake Baikal covers a larger surface area than the country of Belgium. It is the deepest lake in the world, and also the largest freshwater lake by volume: It contains 22% of the world's fresh surface water.",
     "The Danube is the river that passes through the most countries in the world. It courses through 10 countries and visits four capitals on its way to the Black Sea.",
+    "The word 'quarantine' comes from the Italian word for forty. When plague broke out on a ship, the ship would have to wait for forty days before being allowed access to an Italian port.",
+    "Scotland's national animal is the unicorn.",
+    "The dot over the letters 'i'  and 'j' is called a tittle.",
+    "The little plastic or metal tip at the end of a shoelace is called an aglet.",
+    "The Latin word for 'mouse' is 'mus'. A little mouse is called a 'musculus', which is where we get the word 'muscle' from. Ancient Romans though that our muscles' movements looked like a small mouse moveing around beneath our skin.",
+    "In old English, the prefix 'wer-' indicated a male human, i.e. 'wereman'. The 'wif-' prefix referred to a female human, i.e. 'wifman', which morphed into 'woman'. The 'wer-' prefix survives primarily in the word 'werewolf,' meaning 'man-wolf.",
+    "The word 'disaster' comes from the roots 'dis-' (bad) and 'aster' (star), reflecting the ancient belief that bad events were caused by unfavorable alignments of the stars.",
+    "The word 'avocado' comes from the Nahuatl (Aztec) word 'āhuacatl', which also means 'testicle', likely due to the fruit's shape.",
+    
     
 
 ]
