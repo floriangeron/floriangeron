@@ -195,7 +195,6 @@ export default function CV() {
               <ul className="list-disc pl-4">
                 <li><strong>Fluent</strong> – Dutch, English</li>
                 <li><strong>Proficient</strong> – German, French</li>
-                <li><strong>Notions</strong> – Russian</li>
               </ul>
             </div>
           </div>
