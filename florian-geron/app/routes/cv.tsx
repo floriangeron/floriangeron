@@ -29,7 +29,11 @@ export default function CV() {
           <div className="text-gray-1000, dark:text-gray-300 text-left space-y-6">
             <div className="space-y-2">
               <div className="flex justify-between">
-                <p className="font-bold">Deloitte - Senior Data Scientist</p>
+                <p className="font-bold">DELOITTE</p>
+                <p className="italic">Brussels, Belgium</p>
+              </div>
+              <div className="flex justify-between">
+                <p className="font-bold">Senior Data Scientist</p>
                 <p className="italic">Sept 2023 - Present</p>
               </div>
               <p>
@@ -46,14 +50,19 @@ export default function CV() {
             </div>
             <div className="space-y-2">
               <div className="flex justify-between">
-                <p className="font-bold">Trilations - Data Consultant</p>
+                <p className="font-bold">TRILATIONS</p>
+                <p className="italic">Antwerp, Belgium</p>
+              </div>
+              <div className="flex justify-between">
+                <p className="font-bold">Data Consultant</p>
                 <p className="italic">Sept 2020 - June 2022</p>
               </div>
               <p>
-              Data Consultant at a management consultancy firm that delivers actionable insights based on quantitative business measures and comprehensive data analytics techniques, my responsibilities included:
+              Data Consultant at a management consultancy firm that delivers actionable insights based on quantitative business measures and comprehensive data analytics techniques, with a focus on clients in the pharmaceutical industry. My responsibilities included:
               <ul className="list-disc pl-10">
                 <li>Creating holistic dashboards</li>
                 <li>Data modelling, pipelining, processing, analysis, and visualisation</li>
+                <li>Identifying client needs, designing and implementing solutions, and discussing results with C-level executives</li>
               </ul>
               </p>
             </div>
