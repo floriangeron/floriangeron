@@ -29,7 +29,11 @@ export default function CV() {
           <div className="text-gray-1000, dark:text-gray-300 text-left space-y-6">
             <div className="space-y-2">
               <div className="flex justify-between">
-                <p className="font-bold">Deloitte - Senior Data Scientist</p>
+                <p className="font-bold">DELOITTE</p>
+                <p className="italic">Brussels, Belgium</p>
+              </div>
+              <div className="flex justify-between">
+                <p className="font-bold">Senior Data Scientist</p>
                 <p className="italic">Sept 2023 - Present</p>
               </div>
               <p>
@@ -39,21 +43,26 @@ export default function CV() {
                 <li>Team Leader of the technical/data science team at several client engagements</li>
                 <li>Back-end developer on several projects with a focus on Gen AI products</li>
                 <li>Machine learning engineer, including training custom models (CNNs and LLMs) but also prompt engineering for foundational Generative AI models</li>
-                <li>Data scientist, including data analytics and data visualization for project inn several different industries</li>
+                <li>Data scientist, including data analytics and data visualization for projects in several different industries</li>
                 <li>Liaising with clients and other stakeholders to identify their needs, proposing solutions, and presenting results</li>
               </ul>
               </p>
             </div>
             <div className="space-y-2">
               <div className="flex justify-between">
-                <p className="font-bold">Trilations - Data Consultant</p>
+                <p className="font-bold">TRILATIONS</p>
+                <p className="italic">Antwerp, Belgium</p>
+              </div>
+              <div className="flex justify-between">
+                <p className="font-bold">Data Consultant</p>
                 <p className="italic">Sept 2020 - June 2022</p>
               </div>
               <p>
-              Data Consultant at a management consultancy firm that delivers actionable insights based on quantitative business measures and comprehensive data analytics techniques, my responsibilities included:
+              Data Consultant at a management consultancy firm that delivers actionable insights based on quantitative business measures and comprehensive data analytics techniques, with a focus on clients in the pharmaceutical industry. My responsibilities included:
               <ul className="list-disc pl-10">
                 <li>Creating holistic dashboards</li>
                 <li>Data modelling, pipelining, processing, analysis, and visualisation</li>
+                <li>Identifying client needs, designing and implementing solutions, and discussing results with C-level executives</li>
               </ul>
               </p>
             </div>
