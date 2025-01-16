@@ -110,7 +110,7 @@ const funfacts = [
     "The word 'disaster' comes from the roots 'dis-' (bad) and 'aster' (star), reflecting the ancient belief that bad events were caused by unfavorable alignments of the stars.",
     "The word 'avocado' comes from the Nahuatl (Aztec) word 'āhuacatl', which also means 'testicle', likely due to the fruit's shape.",
     // 90
-    // "The company that was enlisted by NASA to manufacture the Apollo astronauts' spacesuits, is the same company that produced Playtex bras. Their skills in producing strong, flexible, and precise materials were a perfect fit for NASA's needs."
+    "The company that was enlisted by NASA to manufacture the Apollo astronauts' spacesuits, is the same company that produced Playtex bras. Their skills in producing strong, flexible, and robust materials were a perfect fit for NASA's needs.",
     
 
 ]
