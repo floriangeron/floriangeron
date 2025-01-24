@@ -58,7 +58,7 @@ const funfacts = [
     "East-Timor is a country in South-East Asia. The word 'Timor' means 'East'. This means that the country is called 'East-East'.",
     "The country of Chad is named after the main body of water in it, as 'Chad' means 'Lake'. This means that 'Lake Chad' means 'Lake Lake'.",
     "'Gobi' is the Mongolian word for 'desert'. This means that 'Gobi desert' means 'desert desert'.",
-    "There is only one cinema in all of Suriname.",
+    "There is only one cinema in all of Suriname.\n\n\nUpdate: As of January 2025, there are two cinemas in Suriname.",
     "Jamaica is the only country in the world whose flag does not feature red, white or blue.",
     "Bhutan is the only carbon-negative country in the world.",
     "Bhutan does not only measure gross domestic product (GDP), it also measures gross national happiness :)",
@@ -73,7 +73,7 @@ const funfacts = [
     "Helicopter contains two Greek root words: 'helico' and 'pter'. These words combine to mean 'helix-wing'.",
     "The American state of Idaho has a made-up name. Someone proposed the name to congress, saying that the native Americans living there called the region by that name. In reality, the man had made up the name after meeting a girl named Ida.",
     "Portuguese is the most widely spoken language in the Southern hemisphere.",
-    "Palau's capital of Ngerulmud is the least populated capital city of a sovereign nation in the world.",
+    "Palau's capital of Ngerulmud is the least populated capital city of a sovereign nation in the world, with 318 inhabitants.\n\nThe world's most populous capital is Tokyo, with 37 million people.",
     "The word 'barbarian' comes from ancient Greek. The Greeks used the word 'bar-bar' as an onomatopoeia for people who spoke a language they could not understand. This word was adopted by the Romans, and, over time, this word began to carry a negative association, as it was used to refer to Germanic tribes and the Huns, people the Romans saw as uncultured. The term ended up being used for basically anyone that wasn't Greek or Roman.\n\nAfter the Romans left North Africa, the new Arab conquerors used the name 'al-Barbar' for the indigenous inhabitants of the region. They are still referred to by the name 'Berber' today. However, many people prefer the term 'Amazigh', the indigenous name for the people, meaning 'free people'.",
     "Odysseus' son is called Telemachus. The name consists of 'tele', meaning far, and 'machus', meaning war, referring to the fact that for most of his life, his father is fighting a war far away.",
     // 60
