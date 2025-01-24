@@ -105,7 +105,7 @@ const funfacts = [
     "Scotland's national animal is the unicorn.",
     "The dot over the letters 'i'  and 'j' is called a tittle.",
     "The little plastic or metal tip at the end of a shoelace is called an aglet.",
-    "The Latin word for 'mouse' is 'mus'. A little mouse is called a 'musculus', which is where we get the word 'muscle' from. Ancient Romans though that our muscles' movements looked like a small mouse moveing around beneath our skin.",
+    "The Latin word for 'mouse' is 'mus'. A little mouse is called a 'musculus', which is where we get the word 'muscle' from. Ancient Romans thought that our muscles' movements looked like a small mouse moving around beneath our skin.",
     "In old English, the prefix 'wer-' indicated a male human, i.e. 'wereman'. The 'wif-' prefix referred to a female human, i.e. 'wifman', which morphed into 'woman'. The 'wer-' prefix survives primarily in the word 'werewolf,' meaning 'man-wolf.",
     "The word 'disaster' comes from the roots 'dis-' (bad) and 'aster' (star), reflecting the ancient belief that bad events were caused by unfavorable alignments of the stars.",
     "The word 'avocado' comes from the Nahuatl (Aztec) word 'āhuacatl', which also means 'testicle', likely due to the fruit's shape.",
@@ -113,6 +113,8 @@ const funfacts = [
     "The company that was enlisted by NASA to manufacture the Apollo astronauts' spacesuits, is the same company that produced Playtex bras. Their skills in producing strong, flexible, and robust materials were a perfect fit for NASA's needs.",
     "Bananas contain potassium-40, making them slightly radioactive. To receive the same dose of radiation as a chest X-ray, you'd need to eat 1000 bananas.",
     "The term 'bug' for an error in computer programming supposedly came from a computer scientist in the 50s finding an actual bug in their computer hardware, causing the system to break down.",
+    "'Bolshevik' is the Russian word for 'the majority'.\nWhen Lenin's faction broke off from the Social Democratic Labour Party in 1903, they adopted the name 'Bolshevik', even though the faction was usually in the minority.",
+    "'Soviet' (совет) is the Russian word for 'council'.",
     
 
 ]
