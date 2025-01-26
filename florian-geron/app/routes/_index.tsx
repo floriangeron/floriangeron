@@ -12,6 +12,7 @@ export const meta: MetaFunction = () => {
 export default function AboutMe() {
 
     return (
+      <div>
         <div className="flex flex-col min-h-screen items-center gap-16 pb-10 w-full">
 
           {/* Header Section*/}
@@ -62,5 +63,13 @@ export default function AboutMe() {
           </section>
 
         </div>
+
+        <footer className="bg-gray-100 text-center py-4 mt-auto">
+          <p className="text-sm text-gray-600">
+            Last updated: January 09, 2025
+          </p>
+        </footer>
+        
+      </div>
     );
   }
