@@ -162,7 +162,7 @@ export default function Timeline() {
   ];
 
   return (
-    <div className="flex flex-col min-h-screen items-center justify-center">
+    <div className="flex flex-col min-h-screen items-center justify-center overflow-hidden">
       
       <div className="flex flex-col items-center gap-16 w-full">
         {/* Header Section*/}
