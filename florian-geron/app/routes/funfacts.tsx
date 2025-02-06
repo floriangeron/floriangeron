@@ -115,7 +115,10 @@ const funfacts = [
     "The term 'bug' for an error in computer programming supposedly came from a computer scientist in the 50s finding an actual bug in their computer hardware, causing the system to break down.",
     "'Bolshevik' (большевик) is the Russian word for 'the majority'.\nWhen Lenin's faction broke off from the Social Democratic Labour Party in 1903, they adopted the name 'Bolshevik', even though the faction was usually in the minority.",
     "'Soviet' (совет) is the Russian word for 'council'.",
-    "Giraffes are 30 times more likely to be struck by lightning than humans.",
+    "Giraffes are about 30 times more likely to be struck by lightning than humans.",
+    "The average horsepower of a single horse is about 0.7 horsepower over a sustained period of time.",
+    "1 in 18 people has a third nipple.",
+
     
 
 ]
