@@ -118,6 +118,12 @@ export default function Timeline() {
       image: "/images/ViennaRathaus.png",
     },
     {
+      date: "August 2018",
+      title: "🇮🇹 BEST Summer Course in Rome",
+      description: "I attended a summer course of the Board of European Students of Technology in Rome. During this week, I learned about the impact of the latest technology on the European industry. I also discovered the beautiful city of Rome with other participants from all over Europe!",
+      image: "/images/BEST.png",
+    },
+    {
       date: "June 2018",
       title: "🎓 Bachelor (BSc) in Engineering Sciences",
       description: "I obtained a bachelor degree in engineering sciences at the KU Leuven, with a focus on Electrical and Mechanical Engineering!",
