@@ -108,7 +108,7 @@ export default function Timeline() {
     {
       date: "January 2019",
       title: "🕺 Ball in Vienna's Hofburg",
-      description: "One of the last activities here in Vienna: Going to a ball in the Hofburg, the palace of Franz Josef and Sisi. A fitting end to a wonderful time in this city!",
+      description: "One of the last activities here in Vienna: Going to a ball in the Hofburg, the palace of emperor Franz Josef and princess Sisi. A fitting end to a wonderful time in this city!",
       image: "/images/BallVienna.JPG",
     },
     {
@@ -122,6 +122,12 @@ export default function Timeline() {
       title: "🎓 Bachelor (BSc) in Engineering Sciences",
       description: "I obtained a bachelor degree in engineering sciences at the KU Leuven, with a focus on Electrical and Mechanical Engineering!",
       image: "/images/Arenberg.png",
+    },
+    {
+      date: "May 2018",
+      title: "🕹️ Bachelor Thesis",
+      description: "I completed my Bachelor's in Engineering Sciences with a practical project: Designing and building a drone! The team comprised 12 engineering students, mimicking the complexity of real engineering teams. My focus lay on designing and installing the wireless power transfer system, allowing the drone to dock on a charging station and power its battery, without the need for plugging its cables into a power outlet. We designed the electric circuitry, had it manufactured, and installed it onto the drone. By combining the efforts of all team members, we create a fully-functioning, remote-controlled drone from scratch.",
+      image: "/images/ESAT_drone.png",
     },
     {
       date: "March 2018",
