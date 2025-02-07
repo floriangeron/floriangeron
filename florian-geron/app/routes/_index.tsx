@@ -56,7 +56,7 @@ export default function AboutMe() {
                     <li>A <a href="/timeline" className="text-blue-500 hover:underline">timeline</a> of some major events in my life over the past few years.</li>
                     <li>A collection of images of my friends and I making <a href="/pyramids" className="text-blue-500 hover:underline">human pyramids</a>.</li>
                     <li>A random collection of <a href="/funfacts" className="text-blue-500 hover:underline">fun facts</a>. I like sharing fun facts so having a page dedicated to them seemed appropriate.</li>
-                    <li>My <a href="/cv" className="text-blue-500 hover:underline">résumé</a> focusing on my academic and professionals achievements and experiences.</li>
+                    <li>My <a href="/cv" className="text-blue-500 hover:underline">résumé</a> focusing on my academic and professional achievements and experiences.</li>
                     <li>My <a href="/contact" className="text-blue-500 hover:underline">contact details</a>.</li>
                 </ul>
             </p>
