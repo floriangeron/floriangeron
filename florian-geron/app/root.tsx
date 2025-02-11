@@ -46,7 +46,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <Meta />
         <Links />
-        <link rel="icon" href="/my-logo-2-zoom.png" />
+        <link rel="icon" href="/FG_Logo.jpg" />
       </head>
 
       <body className="flex flex-col min-h-screen relative">
