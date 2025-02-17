@@ -118,7 +118,9 @@ const funfacts = [
     "Giraffes are about 30 times more likely to be struck by lightning than humans.",
     "The average horsepower of a single horse is about 0.7 horsepower over a sustained period of time.",
     "1 in 18 people has a third nipple.",
-
+    "Australia is wider than the Moon.",
+    "There are more trees on Earth than stars in the Milky way. However, there are more stars in the observable universe than there are grains of sand on Earth.",
+    // 100
     
 
 ]
