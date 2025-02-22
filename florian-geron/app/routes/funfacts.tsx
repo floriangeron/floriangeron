@@ -23,7 +23,7 @@ const funfacts = [
     "The original cynic philosopher, Diogenes, lived his life as frugally as possible. He possessed three things: A barrel to sleep in, a plate to eat from, and a cup to drink from. When he saw a begger drink from a fountain by molding his hands into a cup, he threw away his cup, happy to be able to throw away one more of his possessions.\n\nDiogenes liked to compare his lifestyle to that of a dog. The Greek word for canine is 'κυνικός'. This is where we get the word 'cynical' from, Greek for 'like a dog'.",
     // 10
     "The river Rhine and diarrhea share an etymological root. The Greek word 'ῥειν' means 'to flow'. Diarrhea literally means 'to flow through'.",
-    "'Πάντα ῥεῖ καὶ οὐδὲν μένει' means 'everything flows and nothing stays [still]'.",
+    "'Πάντα ῥεῖ καὶ οὐδὲν μένει' means 'everything flows and nothing stays [still]'.\nThe phrase is attributed to Heraclitus, who believed that the world was subject to constant flux. As such, he also famously stated that 'No man ever steps in the same river twice', because the water is always moving.",
     "Cyprus has more cats than humans.",
     "Australia has more kangaroos than humans.",
     "Mongolia has more horses than people.",
@@ -121,6 +121,17 @@ const funfacts = [
     "Australia is wider than the Moon.",
     "There are more trees on Earth than stars in the Milky way. However, there are more stars in the observable universe than there are grains of sand on Earth.",
     // 100
+    "Java is the world's most populated island.",
+    "Indonesia is the world's most populated majority-muslim country.",
+    "Sweden is the country with the most islands under its control, counting 267,570 islands.",
+    "11% of the world's languages are natively spoken in Papua New Guinea.",
+    "Russia and China are the countries with the most land borders, as each borders 14 other sovereign states.\n\nFrance has the most maritime borders, coming in at 53 maritime borders.",
+    "China has 105 cities with a population over 1 million.\nIt also has 11 cities with over 10 million inhabitants.",
+    "The two closest capital cities on Earth - excluding enclave countries - are Kinshasa (DRC) and Brazzaville (RC), which lie on opposite banks of the Congo river and are only 1.6km away from each other at their closest point.",
+    "There are four countries who used to have nuclear weapons: Belarus, Ukraine, Kazakhstan, and South Africa.\n\nBelarus, Ukraine and Kazakhstan inherited some nuclear arms after the fall of the Soviet Union, though they never had the launch codes. They agreed to hand them over to Russia in return for security assurances.\n\nSouth Africa developed at least six nuclear arms under its Apartheid government. When it was clear that the country was moving away towards a democracy, the government decided it preferred getting rid of these weapons rather than handing them over to the new government.",
+    "The EU's southernmost capital - Valetta of Malta - lies to the South of several African capitals, i.e. Algiers and Tunis.",
+    "Between 2011 and 2013, China used 6.5 gigatonnes of cement - more than the US used in the entire 20th century.",
+    // 110
     
 
 ]
