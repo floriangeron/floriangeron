@@ -127,7 +127,7 @@ const funfacts = [
     "11% of the world's languages are natively spoken in Papua New Guinea.",
     "Russia and China are the countries with the most land borders, as each borders 14 other sovereign states.\n\nFrance has the most maritime borders, coming in at 53 maritime borders.",
     "China has 105 cities with a population over 1 million.\nIt also has 11 cities with over 10 million inhabitants.",
-    "The two closest capital cities on Earth - excluding enclave countries - are Kinshasa (DRC) and Brazzaville (RC), which lie on opposite banks of the Congo river and are only 1.6km away from each other at their closest point.",
+    "The two closest capital cities on Earth are Vatican City and Rome. Excluding enclave countries, the closest capital cities are Kinshasa (DRC) and Brazzaville (RC), which lie on opposite banks of the Congo river and are only 1.6km away from each other at their closest point.",
     "There are four countries who used to have nuclear weapons: Belarus, Ukraine, Kazakhstan, and South Africa.\n\nBelarus, Ukraine and Kazakhstan inherited some nuclear arms after the fall of the Soviet Union, though they never had the launch codes. They agreed to hand them over to Russia in return for security assurances.\n\nSouth Africa developed at least six nuclear arms under its Apartheid government. When it was clear that the country was moving away towards a democracy, the government decided it preferred getting rid of these weapons rather than handing them over to the new government.",
     "The EU's southernmost capital - Valetta of Malta - lies to the South of several African capitals, i.e. Algiers and Tunis.",
     "Between 2011 and 2013, China used 6.5 gigatonnes of cement - more than the US used in the entire 20th century.",
