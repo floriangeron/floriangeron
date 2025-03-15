@@ -132,6 +132,16 @@ const funfacts = [
     "The EU's southernmost capital - Valetta of Malta - lies to the South of several African capitals, i.e. Algiers and Tunis.",
     "Between 2011 and 2013, China used 6.5 gigatonnes of cement - more than the US used in the entire 20th century.",
     // 110
+    "San Marino has the highest number of cars per capita, at 1.6 cars registered per inhabitant.",
+    "Samsung represents about 20 percent of South Korea's GDP.",
+    "The largest desert in the world isn't the Sahara, but Antartica.",
+    "Yemen's GDP in 2023 was $17B.\nThis is less than Apple's revenue on selling airpods that year, which was around $18B.",
+    "The word 'bankruptcy' originates from the Italian term 'banca rotta', meaning 'broken bench'. In medieval Italian cities like Florence and Venice, if a banker or moneylender became insolvent, their bench (where they conducted business) was physically broken to symbolize their inability to pay off their debt.",
+    "The word 'gym' comes from the Greek word 'gymnos' (γυμνός), meaning 'naked'. In ancient Greece, many athletic activities, such as wrestling and running, were practiced in the nude. As a result, the term 'gymnasion' (γυμνάσιον) came to refer to places where athletes trained, giving us the root for the word 'gym'.",
+    "The term Third World originated during the Cold War. At the time, the First World referred to capitalist countries like the US, Western Europe, and Japan, while the Second World referred to Communist countries like the USSR, China, and Eastern Europe. The Third World applied to countries that were non-aligned, many of which were in Africa, Asia, Latin America, and the Middle East.",
+    "Vatican City is a statistical anomaly due to its size and unique population structure. It has an entirely foreign-born population, making it the only country with 100% non-native citizens. The population is also overwhelmingly male, as most citizens are clergy or Swiss Guards, which are male-only professions. Additionally, Vatican City has the highest crime rate per capita, largely due to petty crime such as pickpocketing. Lastly, Vatican City has a surface area of 0.49 square kilometer, meaning it has 2.04 popes per square kilometer.",
+
+
     
 
 ]
