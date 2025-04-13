@@ -140,7 +140,9 @@ const funfacts = [
     "The word 'gym' comes from the Greek word 'gymnos' (γυμνός), meaning 'naked'. In ancient Greece, many athletic activities, such as wrestling and running, were practiced in the nude. As a result, the term 'gymnasion' (γυμνάσιον) came to refer to places where athletes trained, giving us the root for the word 'gym'.",
     "The term Third World originated during the Cold War. At the time, the First World referred to capitalist countries like the US, Western Europe, and Japan, while the Second World referred to Communist countries like the USSR, China, and Eastern Europe. The Third World applied to countries that were non-aligned, many of which were in Africa, Asia, Latin America, and the Middle East.",
     "Vatican City is a statistical anomaly due to its size and unique population structure. It has an entirely foreign-born population, making it the only country with 100% non-native citizens. The population is also overwhelmingly male, as most citizens are clergy or Swiss Guards, which are male-only professions. Additionally, Vatican City has the highest crime rate per capita, largely due to petty crime such as pickpocketing. Lastly, Vatican City has a surface area of 0.49 square kilometer, meaning it has 2.04 popes per square kilometer.",
-
+    "Hungary is a land-locked country, with no direct access to the sea. However, if you consider the shore of lake Balaton a coastline, Hungary has a longer coastline than Belgium.",
+    "Russia is the largest country in the world, spanning over 17 million square kilometers.\nBangladesh covers just 148,000 square kilometers, less than 1% of Russia’s size.\nHowever, Bangladesh has a larger population than Russia.",
+    
 
     
 
