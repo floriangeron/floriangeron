@@ -134,7 +134,6 @@ const funfacts = [
     // 110
     "San Marino has the highest number of cars per capita, at 1.6 cars registered per inhabitant.",
     "Samsung represents about 20 percent of South Korea's GDP.",
-    "The largest desert in the world isn't the Sahara, but Antartica.",
     "Yemen's GDP in 2023 was $17B.\nThis is less than Apple's revenue on selling airpods that year, which was around $18B.",
     "The word 'bankruptcy' originates from the Italian term 'banca rotta', meaning 'broken bench'. In medieval Italian cities like Florence and Venice, if a banker or moneylender became insolvent, their bench (where they conducted business) was physically broken to symbolize their inability to pay off their debt.",
     "The word 'gym' comes from the Greek word 'gymnos' (γυμνός), meaning 'naked'. In ancient Greece, many athletic activities, such as wrestling and running, were practiced in the nude. As a result, the term 'gymnasion' (γυμνάσιον) came to refer to places where athletes trained, giving us the root for the word 'gym'.",
