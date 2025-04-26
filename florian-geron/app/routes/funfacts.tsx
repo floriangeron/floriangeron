@@ -141,6 +141,11 @@ const funfacts = [
     "Vatican City is a statistical anomaly due to its size and unique population structure. It has an entirely foreign-born population, making it the only country with 100% non-native citizens. The population is also overwhelmingly male, as most citizens are clergy or Swiss Guards, which are male-only professions. Additionally, Vatican City has the highest crime rate per capita, largely due to petty crime such as pickpocketing. Lastly, Vatican City has a surface area of 0.49 square kilometer, meaning it has 2.04 popes per square kilometer.",
     "Hungary is a land-locked country, with no direct access to the sea. However, if you consider the shore of lake Balaton a coastline, Hungary has a longer coastline than Belgium.",
     "Russia is the largest country in the world, spanning over 17 million square kilometers.\nBangladesh covers just 148,000 square kilometers, less than 1% of Russia’s size.\nHowever, Bangladesh has a larger population than Russia.",
+    "The country with the longest one-word name in the world is Liechtenstein.",
+    // 120
+    "Denmark's European territory only constitutes 2% of the land area of the Danish realm.\n\nDenmark owns the Faroe Islands, but more importantly also Greenland. Due to Greenland's immense size, Denmark ranks as the 12th largest country on Earth. If Denmark were to lose Greenland, it would drop down to 130th place.",
+    "There are three countries on Earth that officially do not use the metric system. They are Myanmar, Liberia, and the USA.",
+    "In 2024, China recorded 11.6 million deaths. This is roughly equivalent to the entire population of Belgium.",
     
 
     
