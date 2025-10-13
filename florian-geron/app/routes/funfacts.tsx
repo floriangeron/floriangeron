@@ -146,6 +146,13 @@ const funfacts = [
     "Denmark's European territory only constitutes 2% of the land area of the Danish realm.\n\nDenmark owns the Faroe Islands, but more importantly also Greenland. Due to Greenland's immense size, Denmark ranks as the 12th largest country on Earth. If Denmark were to lose Greenland, it would drop down to 130th place.",
     "There are three countries on Earth that officially do not use the metric system. They are Myanmar, Liberia, and the USA.",
     "In 2024, China recorded 11.6 million deaths. This is roughly equivalent to the entire population of Belgium.",
+    "The US has the highest number of airports in the world, with over 13,000 airports. Brazil comes in second with around 4,000 airports.",
+    "Dutch license plates do not contain the vowels. This is to prevent the formation of accidentally offensive or vulgar letter combinations.",
+    "The Duomo cathedral in Milan features a golden statue of the Virgin Mary on its top, called the Madonnina. For centuries, Milanese tradition has prohibited any building to be higher than the Madonina, as nothing else should be closer to the heavens.\nTo circumvent this issue, a small replica of the statue is made whenever a new skyscraper is built, and placed on its very top.",
+    "At the start of 1990, Poland bordered three sovereign states: East-Germany, Czechoslovakia, and the Soviet Union.\n\nNow, Poland borders seven sovereign states, none of which existed in 1990.\n\n(East-Germany reunited with West-Germany, Czechoslovakia split up, and the Soviet Union broke up into its 14 constituent republics, 4 of which now border Poland.)",
+    "Pineapples contain an enzyme that breaks down proteins - the essential building block of animal tissue. This causes the tingling sensation in your mouth when you eat pineapple - it’s the enzyme breaking down the proteins in your mouth.",
+    
+
     
 
     
