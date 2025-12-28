@@ -54,6 +54,14 @@ const images = [
     title: "France, Sept 2024",
     image: "/images/pyramids/2024 France.JPG",
   },
+  {
+    title: "Thailand (Pai), Nov 2025",
+    image: "/images/pyramids/2025 Pai.jpg",
+  },
+  {
+    title: "Thailand (Maya Bay), Nov 2025",
+    image: "/images/pyramids/2025 Maya.JPG",
+  },
 ];
 
 export default function Pyramids() {
