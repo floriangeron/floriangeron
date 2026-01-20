@@ -116,7 +116,7 @@ const funfacts = [
     "'Bolshevik' (большевик) is the Russian word for 'the majority'.\nWhen Lenin's faction broke off from the Social Democratic Labour Party in 1903, they adopted the name 'Bolshevik', even though the faction was usually in the minority.",
     "'Soviet' (совет) is the Russian word for 'council'.",
     "Giraffes are about 30 times more likely to be struck by lightning than humans.",
-    "The average horsepower of a single horse is about 0.7 horsepower over a sustained period of time.",
+    "The average horsepower of a single horse is about 0.7 to 0.8 hp over a sustained period of time. A horse can spike up to 15 hp in very short bursts.",
     "1 in 18 people has a third nipple.",
     "Australia is wider than the Moon.",
     "There are more trees on Earth than stars in the Milky way. However, there are more stars in the observable universe than there are grains of sand on Earth.",
