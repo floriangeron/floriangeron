@@ -1,22 +1,24 @@
+import { Link } from "@remix-run/react";
+
 export default function TravelBlog() {
     const blogPosts = [
         {
-            id: 1,
-            title: "Exploring the Ancient Wonders",
-            date: "March 2024",
+            id: "angkor",
+            title: "Exploring the Ancient Wonders of Angkor Wat",
+            date: "December 2025",
             excerpt: "A journey through time and history...",
             content:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-            imageUrl: "/images/pyramids/pyramid-1.jpg",
+            imageUrl: "/images/travel/Angkor.jpeg",
         },
         {
-            id: 2,
-            title: "Desert Sunsets and Adventure",
-            date: "March 2024",
-            excerpt: "Witnessing nature's spectacular displays...",
+            id: "laos",
+            title: "Sunsets and Adventure in Laos",
+            date: "November 2025",
+            excerpt: "Climbing many a mountain for a sunset...",
             content:
                 "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.",
-            imageUrl: "/images/pyramids/pyramid-2.jpg",
+            imageUrl: "/images/travel/Laos.jpeg",
         },
     ];
 
@@ -39,7 +41,7 @@ export default function TravelBlog() {
                             className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
                         >
                             {/* Image */}
-                            <div className="h-80 bg-gray-300 overflow-hidden">
+                            <div className="h-[450px] bg-gray-300 overflow-hidden">
                                 <img
                                     src={post.imageUrl}
                                     alt={post.title}
@@ -62,9 +64,9 @@ export default function TravelBlog() {
                                     {post.content}
                                 </p>
 
-                                <button className="text-amber-600 hover:text-amber-800 font-semibold transition-colors duration-200">
+                                <Link to={`/travelblogs/${post.id}`} className="text-amber-600 hover:text-amber-800 font-semibold transition-colors duration-200">
                                     Read More →
-                                </button>
+                                </Link>
                             </div>
                         </article>
                     ))}
