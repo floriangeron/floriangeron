@@ -36,6 +36,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
     { to: "/pyramids", label: "Pyramids" },
     { to: "/funfacts", label: "Fun Facts" },
     { to: "/cv", label: "Résumé" },
+    { to: "/travelblog", label: "Travel Blog" },
     { to: "/contact", label: "Contact" },
   ];
 
