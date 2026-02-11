@@ -3,12 +3,21 @@ import { Link } from "@remix-run/react";
 export default function TravelBlog() {
     const blogPosts = [
         {
+            id: "southernvietnam",
+            title: "The Highlights of Southern Vietnam",
+            date: "December 2025",
+            excerpt: "Exploring the main sights of Vietnam's southern region...",
+            content:
+                "Join me on my exploration of Ho Chi Minh City and some of its surrounding natural beauty. With only one week to spend here, we explored the city itself and the impressive Mekong Delta to its South.",
+            imageUrl: "/images/travel/hochiminh.JPG",
+        },
+        {
             id: "angkor",
             title: "Exploring the Ancient Wonders of Angkor Wat",
             date: "December 2025",
             excerpt: "A journey through time and history...",
             content:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+                "Join me on a journey through the ancient temples around Angkor Wat, the world's largest collection of ancient temples, hidden in the jungles of Cambodia.",
             imageUrl: "/images/travel/Angkor.jpeg",
         },
         {
@@ -17,18 +26,18 @@ export default function TravelBlog() {
             date: "November 2025",
             excerpt: "Climbing many a mountain for a sunset...",
             content:
-                "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.",
+                "Join me on our one-week journey through Laos, exploring some of the beautiful landscapes and towns of this hidden gem in Southeast Asia.",
             imageUrl: "/images/travel/Laos.jpeg",
         },
     ];
 
     return (
-        <div className="min-h-screen bg-gradient-to-br from-amber-50 to-orange-100 py-12 px-4">
+        <div className="min-h-screen bg-white py-12 px-4">
             <div className="max-w-4xl mx-auto">
                 {/* Header */}
                 <header className="text-center mb-16">
-                    <h1 className="text-5xl font-bold text-amber-900 mb-4">Travel Blog</h1>
-                    <p className="text-lg text-amber-700">
+                    <h1 className="text-5xl font-bold text-gray-900 mb-4">Travel Blog</h1>
+                    <p className="text-lg text-gray-700">
                         Adventures and discoveries from around the world
                     </p>
                 </header>
@@ -52,9 +61,9 @@ export default function TravelBlog() {
                             {/* Content */}
                             <div className="p-8">
                                 <div className="flex items-center justify-between mb-4">
-                                    <h2 className="text-3xl font-bold text-amber-900">
-                                        {post.title}
-                                    </h2>
+                                        <h2 className="text-3xl font-bold text-gray-900">
+                                            {post.title}
+                                        </h2>
                                     <span className="text-sm text-gray-500 font-semibold">
                                         {post.date}
                                     </span>
@@ -64,7 +73,7 @@ export default function TravelBlog() {
                                     {post.content}
                                 </p>
 
-                                <Link to={`/travelblogs/${post.id}`} className="text-amber-600 hover:text-amber-800 font-semibold transition-colors duration-200">
+                                <Link to={`/travelblogs/${post.id}`} className="text-gray-600 hover:text-gray-900 font-semibold transition-colors duration-200">
                                     Read More →
                                 </Link>
                             </div>
