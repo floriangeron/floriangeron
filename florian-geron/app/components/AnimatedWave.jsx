@@ -31,7 +31,9 @@ export default function AnimatedWave({ className = "absolute bottom-0 left-0 w-[
           {/* Second wave (exactly same, starts at 1440) */}
           <path
             d="
-              M1439.5,60 
+              M1200,60 
+              Q1260,0 1320,60
+              Q1380,120 1440,60
               Q1500,0 1560,60
               Q1620,120 1680,60
               Q1740,0 1800,60
@@ -44,7 +46,7 @@ export default function AnimatedWave({ className = "absolute bottom-0 left-0 w-[
               Q2580,120 2640,60
               Q2700,0 2760,60
               Q2820,120 2880,60
-              L2880,120 L1440,120 Z
+              L2880,120 L1200,120 Z
             "
             className="fill-white"
           />
@@ -55,7 +57,7 @@ export default function AnimatedWave({ className = "absolute bottom-0 left-0 w-[
       <style>
         {`
           .wave-group {
-            animation: waveMove 24s linear infinite;
+            animation: waveMove 32s linear infinite;
           }
 
           @keyframes waveMove {
