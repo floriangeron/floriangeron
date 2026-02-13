@@ -52,14 +52,11 @@ export default function SouthernVietnam() {
 
                 {/* Blog Content */}
                 <div className="max-w-none text-gray-800">
-                    <h2 className="text-2xl font-bold mb-4">Introduction</h2>
+                    <h2 className="text-2xl font-bold mb-4">Our Journey</h2>
                     <p className="mb-6 leading-relaxed">
                         Join me on my exploration of Ho Chi Minh City and some of its surrounding natural beauty.
                         With only one week to spend here, we explored the city itself and the impressive Mekong Delta to its South.
-                    </p>
-
-                    <h2 className="text-2xl font-bold mb-4">Our Journey</h2>
-                    <p className="mb-6 leading-relaxed">
+                        <br />
                         [Imagine of the path we travelled]
                     </p>
 
