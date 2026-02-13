@@ -3,7 +3,7 @@ import { Link } from "@remix-run/react";
 export default function TravelBlog() {
     const blogPosts = [
         {
-            id: "travelblogsouthernvietnam",
+            id: "southernvietnam",
             title: "The Highlights of Southern Vietnam",
             date: "December 2025",
             excerpt: "Exploring the main sights of Vietnam's southern region...",
@@ -73,7 +73,7 @@ export default function TravelBlog() {
                                     {post.content}
                                 </p>
 
-                                <Link to={`/${post.id}`} className="text-gray-600 hover:text-gray-900 font-semibold transition-colors duration-200">
+                                <Link to={`/travelblog/${post.id}`} className="text-gray-600 hover:text-gray-900 font-semibold transition-colors duration-200">
                                     Read More →
                                 </Link>
                             </div>
