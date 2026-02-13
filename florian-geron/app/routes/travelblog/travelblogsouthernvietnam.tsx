@@ -1,4 +1,5 @@
 import { MapPinIcon, GlobeAltIcon, CurrencyDollarIcon, ClockIcon } from "@heroicons/react/24/outline";
+import AnimatedWave from "~/components/AnimatedWave";
 
 export default function SouthernVietnam() {
     return (
@@ -18,17 +19,8 @@ export default function SouthernVietnam() {
                 </div>
                 
                 {/* Wave Divider */}
-                <div className="absolute bottom-0 left-0 w-full overflow-hidden leading-none">
-                <svg
-                    viewBox="0 0 1440 120"
-                    className="w-full h-[90px]"
-                    preserveAspectRatio="none"
-                >
-                    <path
-                    d="M0,0 C240,120 480,120 720,60 C960,0 1200,0 1440,80 L1440,120 L0,120 Z"
-                    className="fill-white"
-                    />
-                </svg>
+                <div className="absolute bottom-0 left-0 w-[120%]">
+                    <AnimatedWave />
                 </div>
 
             </div>
