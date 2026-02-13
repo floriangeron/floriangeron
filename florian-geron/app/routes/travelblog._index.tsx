@@ -9,7 +9,7 @@ export default function TravelBlog() {
             excerpt: "Exploring the main sights of Vietnam's southern region...",
             content:
                 "Join me on my exploration of Ho Chi Minh City and some of its surrounding natural beauty. With only one week to spend here, we explored the city itself and the impressive Mekong Delta to its South.",
-            imageUrl: "/images/travel/hochiminh.JPG",
+            imageUrl: "/images/travel/vietnam/hochiminh.JPG",
         },
         {
             id: "angkor",

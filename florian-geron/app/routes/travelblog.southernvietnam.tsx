@@ -1,13 +1,17 @@
 import { MapPinIcon, GlobeAltIcon, CurrencyDollarIcon, ClockIcon } from "@heroicons/react/24/outline";
 import AnimatedWave from "~/components/AnimatedWave";
+import { useState } from "react";
 
 export default function SouthernVietnam() {
+    const [isLightboxOpen, setIsLightboxOpen] = useState(false);
+    const routeImg = "/images/travel/vietnam/VietnamRoute.png";
+
     return (
         <div className="min-h-screen bg-white">
             {/* Title Card */}
             <div className="relative h-[700px] w-full overflow-hidden">
                 <img
-                    src="/images/travel/hochiminh.JPG"
+                    src="/images/travel/vietnam/hochiminh.JPG"
                     alt="Southern Vietnam"
                     className="w-full h-full object-cover"
                 />
@@ -30,7 +34,7 @@ export default function SouthernVietnam() {
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-16">
                     <div className="text-center">
                         <MapPinIcon className="h-12 w-12 mx-auto text-gray-600 mb-2" />
-                        <h3 className="font-semibold text-gray-900">Capital City</h3>
+                        <h3 className="font-semibold text-gray-900">City of Arrival</h3>
                         <p className="text-gray-600">Ho Chi Minh City</p>
                     </div>
                     <div className="text-center">
@@ -53,12 +57,22 @@ export default function SouthernVietnam() {
                 {/* Blog Content */}
                 <div className="max-w-none text-gray-800">
                     <h2 className="text-2xl font-bold mb-4">Our Journey</h2>
-                    <p className="mb-6 leading-relaxed">
-                        Join me on my exploration of Ho Chi Minh City and some of its surrounding natural beauty.
-                        With only one week to spend here, we explored the city itself and the impressive Mekong Delta to its South.
+                    <div className="mb-6 leading-relaxed">
+                        We had only one week to spend in this part of South East Asia.
+                        As such, we spent our time in the main city of Southern Vietnam, Ho Chi Minh City, and the impressive Mekong Delta to its South.
+                        In the Mekong Delta, we based ourselves in Can Tho and My Tho.
                         <br />
-                        [Imagine of the path we travelled]
-                    </p>
+
+                        <figure>
+                            <img
+                                src={routeImg}
+                                alt="Route we travelled"
+                                className="w-full rounded-lg shadow-lg my-6 cursor-pointer"
+                                onClick={() => setIsLightboxOpen(true)}
+                            />
+                            <figcaption className="text-center text-sm text-gray-600">Route we travelled — Ho Chi Minh City to the Mekong Delta</figcaption>
+                        </figure>
+                    </div>
 
                     <h2 className="text-2xl font-bold mb-4">Ho Chi Minh City</h2>
                     <p className="mb-6 leading-relaxed">
@@ -76,6 +90,18 @@ export default function SouthernVietnam() {
                     </p>
                 </div>
             </div>
+            {isLightboxOpen && (
+                <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75" role="dialog" aria-modal="true">
+                    <button
+                        onClick={() => setIsLightboxOpen(false)}
+                        className="absolute top-6 right-6 text-white text-3xl font-bold"
+                        aria-label="Close"
+                    >
+                        &times;
+                    </button>
+                    <img src={routeImg} alt="Route enlarged" className="max-w-[90%] max-h-[90%] rounded-lg shadow-2xl" />
+                </div>
+            )}
         </div>
     );
 }
