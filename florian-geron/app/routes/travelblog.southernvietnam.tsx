@@ -3,8 +3,12 @@ import AnimatedWave from "~/components/AnimatedWave";
 import { useState } from "react";
 
 export default function SouthernVietnam() {
-    const [isLightboxOpen, setIsLightboxOpen] = useState(false);
+    const [lightboxSrc, setLightboxSrc] = useState<string | null>(null);
     const routeImg = "/images/travel/vietnam/VietnamRoute.png";
+
+    function openLightbox(src: string) {
+        setLightboxSrc(src);
+    }
 
     function handleTocClick(e: React.MouseEvent<HTMLAnchorElement>, id: string) {
         e.preventDefault();
@@ -84,7 +88,7 @@ export default function SouthernVietnam() {
                                     src={routeImg}
                                     alt="Route we travelled"
                                     className="w-full rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
-                                    onClick={() => setIsLightboxOpen(true)}
+                                    onClick={() => openLightbox(routeImg)}
                                 />
                                 <figcaption className="text-center text-sm text-gray-600">Route we travelled — Ho Chi Minh City to the Mekong Delta</figcaption>
                             </figure>
@@ -104,22 +108,22 @@ export default function SouthernVietnam() {
                             </a>
                             , to enjoy a drink in a more relaxed setting and admire the city skyline at night. And that's a wrap for the first night in HCMC!
 
-                            <div className="grid md:grid-cols-2 gap-8">
+                            <div className="grid md:grid-cols-2 gap-2">
                                 <figure className="md:col-span-1">
                                     <img
-                                        src={routeImg}
+                                        src="/images/travel/vietnam/CafeApartment.jpg"
                                         alt="The Cafe Apartment on Nguyen Hue Street"
-                                        className="w-full rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
-                                        onClick={() => setIsLightboxOpen(true)}
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/vietnam/CafeApartment.jpg')}
                                     />
                                     <figcaption className="text-center text-sm text-gray-600">The Cafe Apartment on Nguyen Hue Street</figcaption>
                                 </figure>
                                 <figure className="md:col-span-1">
                                     <img
-                                        src={routeImg}
+                                        src="/images/travel/vietnam/BuiVien.jpg"
                                         alt="Bui Vien Walking Street at night"
-                                        className="w-full rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
-                                        onClick={() => setIsLightboxOpen(true)}
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/vietnam/BuiVien.jpg')}
                                     />
                                     <figcaption className="text-center text-sm text-gray-600">Bui Vien Walking Street at night</figcaption>
                                 </figure>
@@ -161,16 +165,16 @@ export default function SouthernVietnam() {
                     </aside>
                 </div>
             </div>
-            {isLightboxOpen && (
+            {lightboxSrc && (
                 <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75" role="dialog" aria-modal="true">
                     <button
-                        onClick={() => setIsLightboxOpen(false)}
+                        onClick={() => setLightboxSrc(null)}
                         className="absolute top-6 right-6 text-white text-3xl font-bold"
                         aria-label="Close"
                     >
                         &times;
                     </button>
-                    <img src={routeImg} alt="Route enlarged" className="max-w-[90%] max-h-[90%] rounded-lg shadow-2xl" />
+                    <img src={lightboxSrc} alt="Route enlarged" className="max-w-[90%] max-h-[90%] rounded-lg shadow-2xl" />
                 </div>
             )}
         </div>
