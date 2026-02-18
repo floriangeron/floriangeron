@@ -133,39 +133,87 @@ export default function SouthernVietnam() {
                             </div>
                         </p>
 
-                        <h3 id="ho-chi-minh-city-day-1" className="text-2xl font-bold mb-4">Day 2 - Saigon Fever</h3>
+                        <h3 id="ho-chi-minh-city-day-2" className="text-2xl font-bold mb-4">Day 2 - Saigon Fever</h3>
                         <p className="mb-6 leading-relaxed">
                             Our first full day in Ho Chi Minh City! We head a lot of things to do in this city, but one thing was at the top of our mind. We would be flying home on the 23rd of December, leaving us no time to do Christmas shopping at home. Therefore, our first stop in HCMC would be some markets to buy some unique Christmas gifts for our friends and family.
+                            We took a Grab to the Ben Thanh Market, the main market in the city. We stopped for an eggyolk coffee at a small cafe right across the street from the market first, before heading into the market. 
+                            The market itself is a bustling hive with local goods and knockoff designer items. We had a lot of fun browsing through the different stalls and picking out some unique gifts for our loved ones back home.
+                            <br />
+                            After the market, we headed to Roots Plant-based cafe for lunch. This place was a little hidden gem, with a cozy atmosphere and delicious plant-based dishes. We both really enjoyed our meals here and would highly recommend it to anyone looking for a tasty and healthy meal in HCMC. The coconut coffee was especially memorable!
+                            <br />
+                            After lunch, we went back to the markets for some more shopping. We headed to the Com Tam Saigon Central Market, which was a little less touristy than the Ben Thanh Market. Interestingly, the vendors here were less open to bargaining than at the Ben Thanh Market. At Benh Than, prices would start very high, but you could bargain down as much as 80%. At Com Tam, prices were more reasonable to start with, but there was less room for bargaining.
+                            <br />
+                            <br />
+                            After this shopping spree, we visited the War Remnants Museum. This is a museum that I can highly recommend, as it will leave a lasting impression on you. The museum shows the brutal reality and the horrors of the Vietnam War, with graphic photos from the war. Especially the section on the lasting effects of Agent Orange left a deep impression, showing the impact that this chemical weapon still has on the Vietnamese people today.
+                            <br />
+                            <br />
+                            We processed the experience of the museum with a relaxed dinner at the Ben Nghe Street Food market, which felt familiar to us at this point. After dinner, we visited a classy speakeasy nextdoor, called the Rabbit Hole, which we highly recommend. We passed the Notre Dame Cathedral, dressed up in Christmas lights, on the way back to our hotel.
+                        </p>
+
+                        <h3 id="ho-chi-minh-city-day-3" className="text-2xl font-bold mb-4">Day 3 - Cu Chi</h3>
+                        <p className="mb-6 leading-relaxed">
+                            On our third day, we visited the Cu Chi Tunnels, a network of underground tunnels used by the Viet Cong during the Vietnam War.
+                            This was a memorable trip, especially after learning more about the war at the War Remnants Museum the day before.
+                            The site itself has been turned into somewhat of a tourist attraction, which sometimes made light of the situation for which the tunnels were used, making the visit to the museum all the more important.
                             <br/>
-                            We took a Grab to the Ben Thanh Market, the main market in the city. We stopped for a small eggyolk coffee at a small cafe right across the street from the market first, before heading into the market. 
-                            Start the day with eggyolk coffee
-                            Do some Christmas gift shopping at the Ben Thanh Market.
-                            Lunch at Roots Plant-based cafe.
-                            Further shopping at Com Tam Saigon Central Market.
-                            War Remnants Museum.
-                            Dinner again at Ben Nghe Street Food market.
+                            It's good to know that this site is a solid 3-hour drive from the city. We booked our tour via GetYourGuide who organized transport and a guide.
+                            <br />
+                            <br />
+                            After the Cu Chi Tunnels, we headed back to the city for some more food. We had heard a lot about Pizza 4P's, a popular pizza place in HCMC that uses local ingredients and has a unique fusion of Italian and Vietnamese flavors. 
+                            We decided to give it a try for dinner, and we were not disappointed! 
+                            The place allows you to create half-and-half pizzas, which allowed us to taste four different pizzas between the two of us.
+                            The tom yum pizza was such a success that we decided to order a third pizza, fully topped with the tom yum ingredients.
                         </p>
 
-                        <h3 id="ho-chi-minh-city-day-1" className="text-2xl font-bold mb-4">Day 3 - Cu Chi</h3>
+                        <h3 id="ho-chi-minh-city-day-4" className="text-2xl font-bold mb-4">Day 4 - Last bites</h3>
                         <p className="mb-6 leading-relaxed">
-                           Cu Chi Tunnels.
-                           Pizza 4P's for dinner.
-                        </p>
-
-                        <h3 id="ho-chi-minh-city-day-1" className="text-2xl font-bold mb-4">Day 4 - Last bites</h3>
-                        <p className="mb-6 leading-relaxed">
-                           Ear infection.
-                           Propaganda for lunch.
-                           Jade Emperor Pagoda.
-                           Cho Tan Dinh market (no success).
-                           Mary Jane's rooftop bar.
-
-
+                            The morning of our departure to Can Tho, I woke up with an ear infection. We visited the Centre Médical International, where a French doctor by the name of Emmanuel prescribed me some Fusidine, which took care of the infection quickly.
+                            <br />
+                            We decided to go to a place called Propaganda for lunch. We were blown away by the drinks we ordered, but were slightly disappointed by the food. The decor of the place was very cool though, with a lot of communist propaganda posters.
+                            <br />
+                            After lunch, we checked out some last sights, including the Jade Emperor Pagoda, dedicated to the supreme god of Taoism.
+                            We then visited the Cho Tan Dinh market, which was a little less touristy than the Ben Thanh Market, but we didn't have much success finding gifts here as it seemed to be more of a local market with a focus on textiles.
+                            We ended our stay in HCMC with a drink at Mary Jane's rooftop bar right opposite the market, another place we can highly recommend. 
                         </p>
 
                         <h2 id="mekong-delta" className="text-4xl font-bold mb-4">The Mekong Delta</h2>
+                        <h3 id="mekong-delta-day-1" className="text-2xl font-bold mb-4">Day 1 - Arrival in Can Tho</h3>
                         <p className="mb-6 leading-relaxed">
-                            [Add your content about the Mekong Delta here]
+                            Arrival during the finale between Thailand and Vietnam.
+                            Visiting TAK speakeasy.
+                        </p>
+
+                        <h3 id="mekong-delta-day-2" className="text-2xl font-bold mb-4">Day 2 - Exploring Can Tho</h3>
+                        <p className="mb-6 leading-relaxed">
+                            Breakfast at Diem Tam - Ca Phe Co Hang.
+                            Visiting temples: Phat-Giao Viet-nam & Muniransay Khmer Buddhist temple.
+                            Stroll along the riverside quay looking for tour operators.
+                            Lunch at the Lighthouse, a French bistro.
+                            Walking over the Love Bridhe to an resort area in development. Heavy rains.
+                            Hotpot dinner at Com O 68 Can Tho.
+                        </p>
+
+                        <h3 id="mekong-delta-day-3" className="text-2xl font-bold mb-4">Day 3 - Cai Rang Floatin Market</h3>
+                        <p className="mb-6 leading-relaxed">
+                            Cai Rang floating market.
+                        </p>
+
+                        <h3 id="mekong-delta-day-3" className="text-2xl font-bold mb-4">Day 4 - My Tho</h3>
+                        <p className="mb-6 leading-relaxed">
+                            We booked a tour to My Tho with Get Your Guide.
+                            We visited two islands and the Vinh Trang Pagoda, a Buddhist temple with a mix of Asian architectural styles, including Vietnamese, Khmer, and Chinese influences. The temple is known for its intricate carvings and statues, as well as its peaceful atmosphere.
+                            Dinner in HCMC at Khap Khap with Rebecca.
+                        </p>
+
+                        <h2 id="HCMC-revisited" className="text-4xl font-bold mb-4">HCMC Revisited</h2>
+                        <h3 id="HCMC-revisited-day-1" className="text-2xl font-bold mb-4">Day 1 - The last highlights</h3>
+                        <p className="mb-6 leading-relaxed">
+                            Lorem Ipsum
+                        </p>
+
+                        <h3 id="HCMC-revisited-day-2" className="text-2xl font-bold mb-4">Day 2 - The last morning</h3>
+                        <p className="mb-6 leading-relaxed">
+                            Lorem Ipsum
                         </p>
 
                         <h2 id="hotel-reviews" className="text-4xl font-bold mb-4">Hotel Reviews</h2>
@@ -173,6 +221,7 @@ export default function SouthernVietnam() {
                             [Hotel reviews for the places we stayed at]
                             <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
                         </p>
+
                     </main>
 
                     <aside className="hidden md:block md:col-span-1">
@@ -187,6 +236,9 @@ export default function SouthernVietnam() {
                                 </li>
                                 <li>
                                     <a href="#mekong-delta" onClick={(e) => handleTocClick(e, 'mekong-delta')} className="block w-full text-right hover:underline">The Mekong Delta</a>
+                                </li>
+                                <li>
+                                    <a href="#HCMC-revisited" onClick={(e) => handleTocClick(e, 'HCMC-revisited')} className="block w-full text-right hover:underline">HCMC Revisited</a>
                                 </li>
                                 <li>
                                     <a href="#hotel-reviews" onClick={(e) => handleTocClick(e, 'hotel-reviews')} className="block w-full text-right hover:underline">Hotel Reviews</a>
