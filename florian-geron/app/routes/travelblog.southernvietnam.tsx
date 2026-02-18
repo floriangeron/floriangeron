@@ -1,4 +1,4 @@
-import { MapPinIcon, GlobeAltIcon, CurrencyDollarIcon, ClockIcon } from "@heroicons/react/24/outline";
+import { MapPinIcon, GlobeAltIcon, CurrencyDollarIcon, ClockIcon, CalendarIcon } from "@heroicons/react/24/outline";
 import AnimatedWave from "~/components/AnimatedWave";
 import { useState } from "react";
 
@@ -47,8 +47,8 @@ export default function SouthernVietnam() {
             <div className="max-w-7xl mx-auto py-12 px-4">
 
                 {/* Key Info Icons (constrained) */}
-                <div className="max-w-4xl mx-auto">
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-16">
+                <div className="max-w-6xl mx-auto">
+                    <div className="grid grid-cols-2 md:grid-cols-5 gap-8 mb-16">
                         <div className="text-center">
                             <MapPinIcon className="h-12 w-12 mx-auto text-gray-600 mb-2" />
                             <h3 className="font-semibold text-gray-900">City of Arrival</h3>
@@ -68,6 +68,11 @@ export default function SouthernVietnam() {
                             <ClockIcon className="h-12 w-12 mx-auto text-gray-600 mb-2" />
                             <h3 className="font-semibold text-gray-900">Travel Duration</h3>
                             <p className="text-gray-600">1 Week</p>
+                        </div>
+                        <div className="text-center">
+                            <CalendarIcon className="h-12 w-12 mx-auto text-gray-600 mb-2" />
+                            <h3 className="font-semibold text-gray-900">Time of Year</h3>
+                            <p className="text-gray-600">December 2025</p>
                         </div>
                     </div>
 
