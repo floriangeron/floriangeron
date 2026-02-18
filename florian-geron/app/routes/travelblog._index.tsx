@@ -50,13 +50,13 @@ export default function TravelBlog() {
                             className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
                         >
                             {/* Image */}
-                            <div className="h-[450px] bg-gray-300 overflow-hidden">
+                            <Link to={`/travelblog/${post.id}`} className="block h-[450px] bg-gray-300 overflow-hidden">
                                 <img
                                     src={post.imageUrl}
                                     alt={post.title}
                                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                                 />
-                            </div>
+                            </Link>
 
                             {/* Content */}
                             <div className="p-8">
