@@ -95,12 +95,15 @@ export default function SouthernVietnam() {
                         </div>
 
                         <h2 id="ho-chi-minh-city" className="text-4xl font-bold mb-4">Ho Chi Minh City</h2>
-                        <h3 id="ho-chi-minh-city-day-1" className="text-2xl font-bold mb-4">Day 1 - Bui Vien Walking Street</h3>
+                        <h3 id="ho-chi-minh-city-day-1" className="text-2xl font-bold mb-4">Day 1 - HCMC by Night</h3>
                         <p className="mb-6 leading-relaxed">
-                            We arrived in HCMC in the evening and headed out to see some of the city's iconic sights.
-                            First, we went for some dinner at the Ben Nghe Street Food market.
-                            Then, we walked down Nguyen Hue street, passing the iconic Cafe Apartment building. 
-                            We decided to head straight to the famous Bui Vien Walking Street, a bustling area known for its vibrant nightlife, street food, and lively atmosphere.
+                            We arrived in HCMC after sunset, but still decided to head out to see some of the city's iconic sights.
+                            <br />
+                            First, we went for some dinner at the Ben Nghe Street Food market. Though a little touristy, we liked the diversity of food on offer. I ate a typical Vietnamese pancake, Bánh Xèo, which was nice but wasn't particularly rich in taste in my opinion. <br /> 
+                            Then, we walked down Nguyen Hue street, passing the iconic Cafe Apartment building. After taking the obligatory photos of the building, we decided to head West towards the Bui Vien Walking Street.
+                            On the way there, we passed the Ben Thanh Market, which was closed, but we took this opportunity to walk into the Silverland hotel next door and take the elevator all the way up to take a look at the city skyline at  night from their rooftop bar and pool. The bar was closed, but luckily we were able to enjoy the view anyway.
+                            <br />
+                            After this little deviation, we headed straight to the famous Bui Vien Walking Street, a bustling area known for its vibrant nightlife, street food, and lively atmosphere.
                             This street was a little over-the-top for our tastes, but it was fun to experience the energy and see the crazy side of the city at night.
                             After experiencing the madness of this street, we went up to a rooftop bar,{' '}
                             <a href="https://maps.app.goo.gl/iSeJ5NxwRs4jnfRV8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
@@ -128,6 +131,34 @@ export default function SouthernVietnam() {
                                     <figcaption className="text-center text-sm text-gray-600">Bui Vien Walking Street at night</figcaption>
                                 </figure>
                             </div>
+                        </p>
+
+                        <h3 id="ho-chi-minh-city-day-1" className="text-2xl font-bold mb-4">Day 2 - Saigon Fever</h3>
+                        <p className="mb-6 leading-relaxed">
+                            Our first full day in Ho Chi Minh City! We head a lot of things to do in this city, but one thing was at the top of our mind. We would be flying home on the 23rd of December, leaving us no time to do Christmas shopping at home. Therefore, our first stop in HCMC would be some markets to buy some unique Christmas gifts for our friends and family.
+                            <br/>
+                            We took a Grab to the Ben Thanh Market, the main market in the city. We stopped for a small eggyolk coffee at a small cafe right across the street from the market first, before heading into the market. 
+                            Start the day with eggyolk coffee
+                            Do some Christmas gift shopping at the Ben Thanh Market.
+                            Lunch at Roots Plant-based cafe.
+                            Further shopping at Com Tam Saigon Central Market.
+                            War Remnants Museum.
+                            Dinner again at Ben Nghe Street Food market.
+                        </p>
+
+                        <h3 id="ho-chi-minh-city-day-1" className="text-2xl font-bold mb-4">Day 3 - Cu Chi</h3>
+                        <p className="mb-6 leading-relaxed">
+                           Cu Chi Tunnels.
+                           Pizza 4P's for dinner.
+                        </p>
+
+                        <h3 id="ho-chi-minh-city-day-1" className="text-2xl font-bold mb-4">Day 4 - Last bites</h3>
+                        <p className="mb-6 leading-relaxed">
+                           Ear infection.
+                           Propaganda for lunch.
+                           Jade Emperor Pagoda.
+                           Cho Tan Dinh market (no success).
+                           Mary Jane's rooftop bar.
 
 
                         </p>
