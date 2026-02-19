@@ -288,12 +288,63 @@ export default function SouthernVietnam() {
 
                         <h3 id="mekong-delta-day-2" className="text-2xl font-bold mb-4">Day 2 - Exploring Can Tho</h3>
                         <p className="mb-6 leading-relaxed">
-                            Breakfast at Diem Tam - Ca Phe Co Hang.
-                            Visiting temples: Phat-Giao Viet-nam & Muniransay Khmer Buddhist temple.
-                            Stroll along the riverside quay looking for tour operators.
-                            Lunch at the Lighthouse, a French bistro.
-                            Walking over the Love Bridge to an resort area in development. Heavy rains.
-                            Hotpot dinner at Com O 68 Can Tho.
+                            We started our first full day in Can Tho with a breakfast at a local cafe called Diem Tam - Ca Phe Co Hang. With great coffee and extremely low prices, this place is a hidden gem and a great way to start the day in Can Tho.
+                            <br /><br />
+                            To start off our time in Can Tho, we visited two temples: the Phat-Giao Viet-Nam, a Buddhist temple with mixed Asian influences, and the Muniransay Khmer Buddhist temple, a temple with a unique blend of Vietnamese and Khmer architectural styles. 
+                            <br />
+                            
+                            <div className="grid md:grid-cols-2 gap-2">
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/vietnam/PhatGiao.jpg"
+                                        alt="The Phat Giao Temple"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/vietnam/PhatGiao.jpg')}
+                                    />
+                                    <figcaption className="text-center text-sm text-gray-600">The Phat Giao Temple</figcaption>
+                                </figure>
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/vietnam/Muniransay.jpg"
+                                        alt="The Muniransay Khmer Buddhist Temple"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/vietnam/Muniransay.jpg')}
+                                    />
+                                    <figcaption className="text-center text-sm text-gray-600">The Muniransay Khmer Buddhist Temple</figcaption>
+                                </figure>
+                            </div>
+
+                            <br />
+                            After visiting the temples, we strolled along the riverside quay, looking for tour operators.
+                            This was a surprisingly difficult task, as most of the addresses on Google Maps related to Tour operators were not accurate.
+                            We ended up finding a tour operator that could take us to the floating markets the next day.
+                            For lunch, we went to L'Escale, a rooftop French bistro with a nice view over the Mekong.
+                            After lunch, we walked over the Love Bridge to a resort area that was still in development.
+                            When walking back, we got caught in a heavy rainstorm, at which point we decided to Grab back to our hotel.
+                            <br /><br />
+                            We ended our day with a hotpot dinner at a local restaurant called Com O 68 Can Tho. Once again, English was not spoken by the staff nor were there any English menus, but the staff was very friendly and explained the process of cooking with the hotpot to us.
+
+                            <div className="grid md:grid-cols-2 gap-2">
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/vietnam/Escale.jpg"
+                                        alt="The Escale Restaurant"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/vietnam/Escale.jpg')}
+                                    />
+                                    <figcaption className="text-center text-sm text-gray-600">The view from L'Escale Restaurant</figcaption>
+                                </figure>
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/vietnam/Hotpot.jpg"
+                                        alt="The Hotpot Dinner"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/vietnam/Hotpot.JPG')}
+                                    />
+                                    <figcaption className="text-center text-sm text-gray-600">The Hotpot Dinner at Com O 68 Can Tho</figcaption>
+                                </figure>
+                            </div>
+
                         </p>
 
                         <h3 id="mekong-delta-day-3" className="text-2xl font-bold mb-4">Day 3 - Cai Rang Floating Market</h3>
