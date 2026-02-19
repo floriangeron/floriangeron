@@ -1,6 +1,6 @@
 import { MapPinIcon, GlobeAltIcon, CurrencyDollarIcon, ClockIcon, CalendarIcon } from "@heroicons/react/24/outline";
 import AnimatedWave from "~/components/AnimatedWave";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Card, CardContent } from "~/components/ui/card"
 import {
   Carousel,
@@ -12,6 +12,22 @@ import {
 
 export default function SouthernVietnam() {
     const [lightboxSrc, setLightboxSrc] = useState<string | null>(null);
+    // configurable font size class for paragraph content (Tailwind)
+    const [fontSizeClass, setFontSizeClass] = useState<string>(() => {
+        try {
+            return localStorage.getItem('travelblog-font-size') || 'text-lg';
+        } catch (e) {
+            return 'text-xl';
+        }
+    });
+
+    useEffect(() => {
+        try {
+            localStorage.setItem('travelblog-font-size', fontSizeClass);
+        } catch (e) {
+            // ignore
+        }
+    }, [fontSizeClass]);
     const routeImg = "/images/travel/vietnam/VietnamRoute.png";
     const imgCaption = [
         "Our guide holding a bee hive",
@@ -101,7 +117,8 @@ export default function SouthernVietnam() {
 
                 {/* Blog Content with right-side TOC */}
                 <div className="grid md:grid-cols-4 gap-8">
-                    <main className="md:col-span-3 text-gray-800">
+                    <main className={`md:col-span-3 text-gray-800 ${fontSizeClass}`}>
+
                         <h2 id="our-journey" className="text-4xl font-bold mb-4">Our Journey</h2>
                         <div className="mb-6 leading-relaxed">
                             We had only one week to spend in this part of South East Asia.
@@ -430,7 +447,7 @@ export default function SouthernVietnam() {
                             During this tour, we visited two islands nearby My Tho: Thoi Son / Unicorn Island and Con Phung / Phoenix Island.
                             Here, we partook in many activities, including tasting fresh honey right off the hive, trying some coconut candy, driving through the jungle on a small tuktuk, flowing down the river on a small boat, listening to tradidional music, and eating a tasty lunch.
                             Afterwards, we visited the Vinh Trang Pagoda, a temple famous for its three giant Buddha statues, including a Sleeping Buddha and a fat, happy Buddha.
-                        
+                            <br /><br />
                             <Carousel className="w-full">
                                 <CarouselContent className="-ml-1">
                                     {Array.from({ length: 11 }).map((_, index) => (
@@ -476,6 +493,7 @@ export default function SouthernVietnam() {
                     </main>
 
                     <aside className="hidden md:block md:col-span-1">
+                        
                         <nav aria-label="Table of contents" className="sticky top-8 self-start bg-white/90 dark:bg-gray-900/80 text-right p-4 hover:scale-105 transition-transform duration-300">
                             <h3 className="text-lg font-semibold mb-3">Contents</h3>
                             <ul className="space-y-2 text-sm text-gray-700">
@@ -496,6 +514,22 @@ export default function SouthernVietnam() {
                                 </li>
                             </ul>
                         </nav>
+
+                        <div className="sticky top-60 self-start flex items-center justify-end mb-4">
+                            <label htmlFor="font-size-select" className="mr-2 text-sm text-gray-600">Text size</label>
+                            <select
+                                id="font-size-select"
+                                value={fontSizeClass}
+                                onChange={(e) => setFontSizeClass(e.target.value)}
+                                className="border rounded px-2 py-1 text-sm"
+                            >
+                                <option value="text-base">Normal</option>
+                                <option value="text-lg">Large</option>
+                                <option value="text-xl">Larger</option>
+                                <option value="text-2xl">Huge</option>
+                            </select>
+                        </div>
+
                     </aside>
                 </div>
             </div>
