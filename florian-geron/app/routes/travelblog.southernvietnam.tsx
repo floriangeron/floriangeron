@@ -153,6 +153,28 @@ export default function SouthernVietnam() {
                             <br />
                             <br />
                             We processed the experience of the museum with a relaxed dinner at the Ben Nghe Street Food market, which felt familiar to us at this point. After dinner, we visited a classy speakeasy nextdoor, called the Rabbit Hole, which we highly recommend. We passed the Notre Dame Cathedral, dressed up in Christmas lights, on the way back to our hotel.
+
+                            <div className="grid md:grid-cols-2 gap-2">
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/vietnam/BenNghe.jpg"
+                                        alt="The Ben Nghe Street Food Market"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/vietnam/BenNghe.jpg')}
+                                    />
+                                    <figcaption className="text-center text-sm text-gray-600">The Ben Nghe Street Food Market</figcaption>
+                                </figure>
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/vietnam/NotreDame.jpg"
+                                        alt="Notre Dame Cathedral at night"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/vietnam/NotreDame.jpg')}
+                                    />
+                                    <figcaption className="text-center text-sm text-gray-600">Notre Dame Cathedral at night</figcaption>
+                                </figure>
+                            </div>
+
                         </p>
 
                         <h3 id="ho-chi-minh-city-day-3" className="text-2xl font-bold mb-4">Day 3 - Cu Chi</h3>
@@ -168,24 +190,100 @@ export default function SouthernVietnam() {
                             We decided to give it a try for dinner, and we were not disappointed! 
                             The place allows you to create half-and-half pizzas, which allowed us to taste four different pizzas between the two of us.
                             The tom yum pizza was such a success that we decided to order a third pizza, fully topped with the tom yum ingredients.
+
+                            <div className="grid md:grid-cols-2 gap-2">
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/vietnam/CuChi.jpg"
+                                        alt="The Cu Chi Tunnels"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/vietnam/CuChi.jpg')}
+                                    />
+                                    <figcaption className="text-center text-sm text-gray-600">A tank greeting you as you enter the Cu Chi site</figcaption>
+                                </figure>
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/vietnam/Pizza.jpg"
+                                        alt="Pizza 4P's"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/vietnam/Pizza.jpg')}
+                                    />
+                                    <figcaption className="text-center text-sm text-gray-600">Pizza 4P's Half and Half Pizza</figcaption>
+                                </figure>
+                            </div>
+
                         </p>
 
                         <h3 id="ho-chi-minh-city-day-4" className="text-2xl font-bold mb-4">Day 4 - Last bites</h3>
                         <p className="mb-6 leading-relaxed">
                             The morning of our departure to Can Tho, I woke up with an ear infection. We visited the Centre Médical International, where a French doctor by the name of Emmanuel prescribed me some Fusidine, which took care of the infection quickly.
                             <br />
-                            We decided to go to a place called Propaganda for lunch. We were blown away by the drinks we ordered, but were slightly disappointed by the food. The decor of the place was very cool though, with a lot of communist propaganda posters.
+                            We decided to go to a place called Propaganda for lunch. We were blown away by the drinks we ordered, but were slightly disappointed by the food. The decor of the place was very cool though, with a lot of communist propaganda art.
                             <br />
                             After lunch, we checked out some last sights, including the Jade Emperor Pagoda, dedicated to the supreme god of Taoism.
                             We then visited the Cho Tan Dinh market, which was a little less touristy than the Ben Thanh Market, but we didn't have much success finding gifts here as it seemed to be more of a local market with a focus on textiles.
-                            We ended our stay in HCMC with a drink at Mary Jane's rooftop bar right opposite the market, another place we can highly recommend. 
+                            We ended our stay in HCMC with a drink at Mary Jane's rooftop bar right opposite the market, another place we can highly recommend.
+
+                            <div className="grid md:grid-cols-2 gap-2">
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/vietnam/Propaganda.jpg"
+                                        alt="The Propaganda Restaurant"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/vietnam/Propaganda.jpg')}
+                                    />
+                                    <figcaption className="text-center text-sm text-gray-600">The Propaganda Restaurant</figcaption>
+                                </figure>
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/vietnam/MaryJane.JPG"
+                                        alt="Mary Jane's Rooftop Bar"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/vietnam/MaryJane.jpg')}
+                                    />
+                                    <figcaption className="text-center text-sm text-gray-600">Mary Jane's Rooftop Bar</figcaption>
+                                </figure>
+                            </div>
+
                         </p>
+
+                        <br />
 
                         <h2 id="mekong-delta" className="text-4xl font-bold mb-4">The Mekong Delta</h2>
                         <h3 id="mekong-delta-day-1" className="text-2xl font-bold mb-4">Day 1 - Arrival in Can Tho</h3>
                         <p className="mb-6 leading-relaxed">
-                            Arrival during the finale between Thailand and Vietnam.
-                            Visiting TAK speakeasy.
+                            We booked a van via 12GoAsia to take us from HCMC to Can Tho, which took us around 4 hours.
+                            The van was comfortable and the ride was smooth, but when arriving in Can Tho, the driver dropped us off outside of the city.
+                            The van company arranged another ride for us to the center of the city, which went smoothly enough.
+                            Upon arriving, we realized that there was a football match between the Vietnamese and Thai national teams. Not just any match, the finale of the SEA Games!
+                            We exited the car right after the end of the match, which Vietnam had won! The streets were filled with people celebrating the victory, waving flags, honking horns, and singing. 
+                            A memorable way to arrive in a new city!
+                            <br /><br />
+                            We roamed around the streets for a while, enjoying the festive atmosphere and high-fiving every other Vietnamese person we passed by.
+                            We ended up visiting a local speakeasy, called TAK. We were the only Westerners, and the staff didn't speak English, but were very friendly and welcoming. We had no trouble communicating thanks to Google Translate.
+                            We highly recommend this place, which seemed like an alternative place for the artists and creatives of the city to hang out.
+                            
+                            <div className="grid md:grid-cols-2 gap-2">
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/vietnam/TAK1.JPG"
+                                        alt="TAK Speakeasy"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/vietnam/TAK1.jpg')}
+                                    />
+                                </figure>
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/vietnam/TAK2.jpg"
+                                        alt="TAK Speakeasy"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/vietnam/TAK2.jpg')}
+                                    />
+                                </figure>
+                                
+                            </div>
+                            <figcaption className="text-center text-sm text-gray-600">TAK Speakeasy</figcaption>
+
                         </p>
 
                         <h3 id="mekong-delta-day-2" className="text-2xl font-bold mb-4">Day 2 - Exploring Can Tho</h3>
@@ -194,11 +292,11 @@ export default function SouthernVietnam() {
                             Visiting temples: Phat-Giao Viet-nam & Muniransay Khmer Buddhist temple.
                             Stroll along the riverside quay looking for tour operators.
                             Lunch at the Lighthouse, a French bistro.
-                            Walking over the Love Bridhe to an resort area in development. Heavy rains.
+                            Walking over the Love Bridge to an resort area in development. Heavy rains.
                             Hotpot dinner at Com O 68 Can Tho.
                         </p>
 
-                        <h3 id="mekong-delta-day-3" className="text-2xl font-bold mb-4">Day 3 - Cai Rang Floatin Market</h3>
+                        <h3 id="mekong-delta-day-3" className="text-2xl font-bold mb-4">Day 3 - Cai Rang Floating Market</h3>
                         <p className="mb-6 leading-relaxed">
                             Cai Rang floating market.
                         </p>
