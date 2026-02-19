@@ -1,10 +1,31 @@
 import { MapPinIcon, GlobeAltIcon, CurrencyDollarIcon, ClockIcon, CalendarIcon } from "@heroicons/react/24/outline";
 import AnimatedWave from "~/components/AnimatedWave";
 import { useState } from "react";
+import { Card, CardContent } from "~/components/ui/card"
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "~/components/ui/carousel"
 
 export default function SouthernVietnam() {
     const [lightboxSrc, setLightboxSrc] = useState<string | null>(null);
     const routeImg = "/images/travel/vietnam/VietnamRoute.png";
+    const imgCaption = [
+        "Our guide holding a bee hive",
+        "Our guide handling a python",
+        "A snake suspended in 'Happy Water'",
+        "Tuktuk through the jungle",
+        "Boat ride on the Mekong",
+        "Locals on the river",
+        "My Tho port building",
+        "Vinh Trang Happy Buddha",
+        "Vinh Trang Pagoda",
+        "Vinh Trang Reclining Buddha",
+        "Vinh Trang Tall Buddha",
+    ]; 
 
     function openLightbox(src: string) {
         setLightboxSrc(src);
@@ -409,6 +430,30 @@ export default function SouthernVietnam() {
                             During this tour, we visited two islands nearby My Tho: Thoi Son / Unicorn Island and Con Phung / Phoenix Island.
                             Here, we partook in many activities, including tasting fresh honey right off the hive, trying some coconut candy, driving through the jungle on a small tuktuk, flowing down the river on a small boat, listening to tradidional music, and eating a tasty lunch.
                             Afterwards, we visited the Vinh Trang Pagoda, a temple famous for its three giant Buddha statues, including a Sleeping Buddha and a fat, happy Buddha.
+                        
+                            <Carousel className="w-full">
+                                <CarouselContent className="-ml-1">
+                                    {Array.from({ length: 11 }).map((_, index) => (
+                                    <CarouselItem key={index} className="basis-1/2 pl-1 lg:basis-1/3">
+                                        <div className="p-1">
+                                        <Card>
+                                            <CardContent className="flex aspect-square items-center justify-center p-0">
+                                            <img 
+                                                src={`/images/travel/vietnam/mytho/MyTho${index+1}.jpg`} 
+                                                alt={`My Tho ${index+1}`} 
+                                                className="w-full h-full sm:h-80 md:h-96 object-cover rounded-lg cursor-pointer" 
+                                                onClick={() => openLightbox(`/images/travel/vietnam/mytho/MyTho${index+1}.jpg`)}/>
+                                            </CardContent>
+                                        </Card>
+                                        <figcaption className="text-center text-sm text-gray-600">{imgCaption[index]}</figcaption>
+                                        </div>
+                                    </CarouselItem>
+                                    ))}                                    
+                                </CarouselContent>
+                                <CarouselPrevious />
+                                <CarouselNext />
+                            </Carousel>
+                        
                         </p>
 
                         <h2 id="HCMC-revisited" className="text-4xl font-bold mb-4">HCMC Revisited</h2>
