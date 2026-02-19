@@ -349,14 +349,66 @@ export default function SouthernVietnam() {
 
                         <h3 id="mekong-delta-day-3" className="text-2xl font-bold mb-4">Day 3 - Cai Rang Floating Market</h3>
                         <p className="mb-6 leading-relaxed">
-                            Cai Rang floating market.
+                            The following day started early with a tour to the Cai Rang Floating Market, the largest floating market in the Mekong Delta.
+                            This market is an iconic sight of the Mekong Delta, with vendors selling their goods from boats on the river.
+                            Apparently, this market has decreased in size over the years, as improved logistics make a floating market less necessary for the locals, but it is still a popular tourist attraction and a great way to experience the local culture and way of life in the Mekong Delta.
+                            Fun fact: To indicate what produce they are selling, vendors at the market tie some of their produce to a long pole on the boat, which can be seen from a distance.
+                            <br />
+                            
+                            <div className="grid md:grid-cols-2 gap-2">
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/vietnam/CaiRang.jpg"
+                                        alt="The Cai Rang Floating Market"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/vietnam/CaiRang.jpg')}
+                                    />
+                                    <figcaption className="text-center text-sm text-gray-600">Vendors at Cai Rang displaying their produce</figcaption>
+                                </figure>
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/vietnam/CaiRangCoffee.jpg"
+                                        alt="The Coffee at Cai Rang"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/vietnam/CaiRangCoffee.jpg')}
+                                    />
+                                    <figcaption className="text-center text-sm text-gray-600">Getting some coffee at Cai Rang</figcaption>
+                                </figure>
+                            </div>
+
+                            <br />
+                            During the tour, we visited a factory that produces rice noodles and coconut candy, which felt mostly like a tourist attraction but was still reasonably fun.
+                            We also visited a family which runs a small floating farm on the river, where they grow vegetables and raise animals on a floating platform.
+
+                            <div className="grid md:grid-cols-2 gap-2">
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/vietnam/CaiRangNoodles.jpg"
+                                        alt="Cai Rang Noodles"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/vietnam/CaiRangNoodles.jpg')}
+                                    />
+                                    <figcaption className="text-center text-sm text-gray-600">Rice noodles at Cai Rang</figcaption>
+                                </figure>
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/vietnam/CaiRangFarm.jpg"
+                                        alt="The Cai Rang Farm"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/vietnam/CaiRangFarm.jpg')}
+                                    />
+                                    <figcaption className="text-center text-sm text-gray-600">The floating farm at Cai Rang</figcaption>
+                                </figure>
+                            </div>
+
                         </p>
 
                         <h3 id="mekong-delta-day-3" className="text-2xl font-bold mb-4">Day 4 - My Tho</h3>
                         <p className="mb-6 leading-relaxed">
-                            We booked a tour to My Tho with Get Your Guide.
-                            We visited two islands and the Vinh Trang Pagoda, a Buddhist temple with a mix of Asian architectural styles, including Vietnamese, Khmer, and Chinese influences. The temple is known for its intricate carvings and statues, as well as its peaceful atmosphere.
-                            Dinner in HCMC at Khap Khap with Rebecca.
+                            After our troubles with finding a local tour operator in Can Tho, we decided to book a tour to My Tho with Get Your Guide.
+                            During this tour, we visited two islands nearby My Tho: Thoi Son / Unicorn Island and Con Phung / Phoenix Island.
+                            Here, we partook in many activities, including tasting fresh honey right off the hive, trying some coconut candy, driving through the jungle on a small tuktuk, flowing down the river on a small boat, listening to tradidional music, and eating a tasty lunch.
+                            Afterwards, we visited the Vinh Trang Pagoda, a temple famous for its three giant Buddha statues, including a Sleeping Buddha and a fat, happy Buddha.
                         </p>
 
                         <h2 id="HCMC-revisited" className="text-4xl font-bold mb-4">HCMC Revisited</h2>
