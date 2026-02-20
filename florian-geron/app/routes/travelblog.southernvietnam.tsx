@@ -470,18 +470,42 @@ export default function SouthernVietnam() {
                                 <CarouselPrevious />
                                 <CarouselNext />
                             </Carousel>
+                            <br /><br />
+
+                            We ended our day back in HCMC, where we had dinner at Bep Me In (Nguyen Thai Binh branch), which was highly recommended on several blogs online.
+                            The food was rather meat-focused and underwhelming, and the AC was very cold for our tastes, so all in all we didn't have a great experience here.
                         
                         </p>
 
                         <h2 id="HCMC-revisited" className="text-4xl font-bold mb-4">HCMC Revisited</h2>
                         <h3 id="HCMC-revisited-day-1" className="text-2xl font-bold mb-4">Day 1 - The last highlights</h3>
                         <p className="mb-6 leading-relaxed">
-                            Lorem Ipsum
+                            Our last full day on our trip! 
+                            We started the day with a coffee and a baked bun at Garden Kisses, a cute cafe with nice food and drinks!
+                            We decided to check off some of the sights we hadn't seen yet in HCMC, like the Ho Chi Minh Book Street, the Saigon Central Post Office, and the Saigon Opera House.
+                            We then decided to join the Instagram crowd and have a coffee in one of the cafes in the Cafe Apartment.
+                            The spots on the top floor balcony were taken, so we had a coffee at Good Day on the floor below, where we took some instagrammable pictures ourselves.
+                            <br /><br />
+                            For dinner, we visited Man Moi Tao Dan, an upscale restaurant serving local food as made by the chef's mother.
+                            Once again, the food was meat-centered and the AC was a little cold, but we enjoyed our evening here as the food was delicious and the atmosphere was nice, with a mix of locals and tourists.
+                            <br /><br />
+                            We ended our final day with a visit to Lulu - Bar and Eatery, a Cuban-style cocktail bar (Cuba is considered a close friend to Vietnam due to communist solidarity) with a great atmosphere and delicious cocktails.
+                            We highly recommend this place for a romantic night in HCMC!
                         </p>
 
                         <h3 id="HCMC-revisited-day-2" className="text-2xl font-bold mb-4">Day 2 - The last morning</h3>
                         <p className="mb-6 leading-relaxed">
-                            Lorem Ipsum
+                            For our last day in Vietnam, we had a relaxed morning and had another coffee at Garden Kisses, followed by a Banh Mi from a nearby stand on the street (Banh Mi Bay Ho).
+                            Many locals were buying large numbers of Banh Mis here, which we suspect were for their office lunches with their colleagues.
+                            As suspected, the Banh Mi was delicious!
+                            <br /><br />
+                            We decided to spend our last afternoon in another rooftop bar, this time at the IMC Rooftop Bar.
+                            We had a final glass of wine here, before Grabbing to the airport for our flight back home.
+                            <br /><br />
+                            We had heard horror stories about the waiting lines at the airport, so we arrived 4 hours early.
+                            This was a bit of an overkill, as the luggage check-in only opened 3 hours before the flight.
+                            We decided to play some card games to pass the time and had a drink at the Butter Bean in the terminal hall, which served us a surprisingly amazing drink with rice and coconut milk. It was amazing.
+                            In the end, the check-in and security process went smoothly, and we had a relaxed flight home!
                         </p>
 
                         <h2 id="hotel-reviews" className="text-4xl font-bold mb-4">Hotel Reviews</h2>
@@ -524,7 +548,7 @@ export default function SouthernVietnam() {
                             </ul>
                         </nav>
 
-                        <div className="sticky top-60 self-start flex items-center justify-end mb-4">
+                        <div className="sticky top-64 self-start flex items-center justify-end mb-4">
                             <label htmlFor="font-size-select" className="mr-2 text-sm text-gray-600">Text size</label>
                             <select
                                 id="font-size-select"
