@@ -487,7 +487,13 @@ export default function SouthernVietnam() {
                         <h2 id="hotel-reviews" className="text-4xl font-bold mb-4">Hotel Reviews</h2>
                         <p className="mb-6 leading-relaxed">
                             [Hotel reviews for the places we stayed at]
-                            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+                            <br /><br /><br /><br />
+                        </p>
+
+                        <h2 id="restaurant-bar-reviews" className="text-4xl font-bold mb-4">Restaurant and Bar Reviews</h2>
+                        <p className="mb-6 leading-relaxed">
+                            [Restaurant and bar reviews]
+                            <br /><br /><br /><br />
                         </p>
 
                     </main>
@@ -511,6 +517,9 @@ export default function SouthernVietnam() {
                                 </li>
                                 <li>
                                     <a href="#hotel-reviews" onClick={(e) => handleTocClick(e, 'hotel-reviews')} className="block w-full text-right hover:underline">Hotel Reviews</a>
+                                </li>
+                                <li>
+                                    <a href="#restaurant-bar-reviews" onClick={(e) => handleTocClick(e, 'restaurant-bar-reviews')} className="block w-full text-right hover:underline">Restaurant and Bar Reviews</a>
                                 </li>
                             </ul>
                         </nav>
