@@ -491,6 +491,28 @@ export default function SouthernVietnam() {
                             <br /><br />
                             We ended our final day with a visit to Lulu - Bar and Eatery, a Cuban-style cocktail bar (Cuba is considered a close friend to Vietnam due to communist solidarity) with a great atmosphere and delicious cocktails.
                             We highly recommend this place for a romantic night in HCMC!
+
+                            <div className="grid md:grid-cols-2 gap-2">
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/vietnam/BookSt.jpg"
+                                        alt="Ho Chi Minh Book Street"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/vietnam/BookSt.jpg')}
+                                    />
+                                    <figcaption className="text-center text-sm text-gray-600">Ho Chi Minh Book Street</figcaption>
+                                </figure>
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/vietnam/CafeApt.jpg"
+                                        alt="Good Day Cafe in the Cafe Apartment"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/vietnam/CafeApt.jpg')}
+                                    />
+                                    <figcaption className="text-center text-sm text-gray-600">Good Day Cafe in the Cafe Apartment</figcaption>
+                                </figure>
+                            </div>
+
                         </p>
 
                         <h3 id="HCMC-revisited-day-2" className="text-2xl font-bold mb-4">Day 2 - The last morning</h3>
@@ -509,9 +531,22 @@ export default function SouthernVietnam() {
                         </p>
 
                         <h2 id="hotel-reviews" className="text-4xl font-bold mb-4">Hotel Reviews</h2>
+                        <h3 id="hotel-1" className="text-2xl font-bold mb-4">Ho Chi Minh City - Nexus House Nguyen Binh Khiem</h3>
                         <p className="mb-6 leading-relaxed">
                             [Hotel reviews for the places we stayed at]
-                            <br /><br /><br /><br />
+                            <br /><br />
+                        </p>
+
+                        <h3 id="hotel-2" className="text-2xl font-bold mb-4">Ho Chi Minh City - Nguyen Le Home Phan Ton</h3>
+                        <p className="mb-6 leading-relaxed">
+                            [Hotel reviews for the places we stayed at]
+                            <br /><br />
+                        </p>
+
+                        <h3 id="hotel-2" className="text-2xl font-bold mb-4">Can Tho - Luxhome Mekong Hotel</h3>
+                        <p className="mb-6 leading-relaxed">
+                            [Hotel reviews for the places we stayed at]
+                            <br /><br />
                         </p>
 
                         <h2 id="restaurant-bar-reviews" className="text-4xl font-bold mb-4">Restaurant and Bar Reviews</h2>
