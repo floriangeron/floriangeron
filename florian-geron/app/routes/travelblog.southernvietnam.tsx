@@ -61,6 +61,31 @@ export default function SouthernVietnam() {
 
     return (
         <div className="min-h-screen bg-white">
+            <style>{`
+                details.group summary {
+                    list-style: none;
+                }
+                details.group summary::-webkit-details-marker {
+                    display: none;
+                }
+                details.group .chev {
+                    transition: transform 250ms ease;
+                    transform-origin: center;
+                }
+                details.group[open] .chev {
+                    transform: rotate(180deg);
+                }
+                details.group .collapsible-body {
+                    max-height: 0;
+                    overflow: hidden;
+                    transition: max-height 300ms ease, opacity 200ms ease;
+                    opacity: 0;
+                }
+                details.group[open] .collapsible-body {
+                    max-height: 2000px;
+                    opacity: 1;
+                }
+            `}</style>
             {/* Title Card */}
             <div className="relative h-[700px] w-full overflow-hidden">
                 <img
@@ -533,124 +558,151 @@ export default function SouthernVietnam() {
                         </p>
 
                         <h2 id="hotel-reviews" className="text-4xl font-bold mb-4">Hotel Reviews</h2>
-                        <div className="flex items-center justify-between mb-4">
-                            <h3 id="hotel-1" className="text-2xl font-bold m-0">Ho Chi Minh City - Nexus House Nguyen Binh Khiem</h3>
-                            <div className="flex items-center">
-                                <StarScale rating={3.5} />
+                        <details className="group mb-6 rounded-md">
+                            <summary className="flex items-center justify-between p-4 cursor-pointer">
+                                <div className="flex items-center">
+                                    <svg className="chev h-5 w-5 mr-3 text-gray-600" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+                                        <path d="M6 8l4 4 4-4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+                                    </svg>
+                                    <h3 id="hotel-1" className="text-2xl font-bold m-0">Ho Chi Minh City - Nexus House Nguyen Binh Khiem</h3>
+                                </div>
+                                <div className="flex items-center">
+                                    <StarScale rating={3.5} />
+                                </div>
+                            </summary>
+
+                            <div className="px-4 pb-4 collapsible-body">
+                                <div className="max-w-6xl mx-auto">
+                                    <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-8 mb-8">
+                                        <div className="flex items-center">
+                                            <StarLine rating={9} max={10} title='Staff' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={6} max={10} title='Facilities' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={6} max={10} title='Cleanliness' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={7} max={10} title='Comfort' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={8} max={10} title='Location' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={8} max={10} title='Value for Money' />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <p className="mb-6 leading-relaxed mt-2">
+                                    All in all, we had a good experience at the Nexus House. 
+                                    The location is convenient, the center only being a short Grab away, and the staff was friendly and helpful.
+                                    We were allocated a street-facing room at first, which was quite noisy, but after asking the staff, we were moved to a quieter room at the back of the hotel.
+                                    Both bathrooms had a faint smell of mold, which was a little unpleasant but also rather common in SEA in our experience.
+                                    The rooms are small, but this is advertised on the website and we didn't mind it, as we didn't spend much time in the room anyway.
+                                </p>
                             </div>
-                        </div>
+                        </details>
 
-                        <div className="max-w-6xl mx-auto">
-                            <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-8 mb-8">
+                        <details className="group mb-6 rounded-md">
+                            <summary className="flex items-center justify-between p-4 cursor-pointer">
                                 <div className="flex items-center">
-                                    <StarLine rating={9} max={10} title='Staff' />
+                                    <svg className="chev h-5 w-5 mr-3 text-gray-600" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+                                        <path d="M6 8l4 4 4-4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+                                    </svg>
+                                    <h3 id="hotel-2" className="text-2xl font-bold m-0">Ho Chi Minh City - Nguyen Le Home Phan Ton</h3>
                                 </div>
                                 <div className="flex items-center">
-                                    <StarLine rating={6} max={10} title='Facilities' />
+                                    <StarScale rating={3} />
                                 </div>
-                                <div className="flex items-center">
-                                    <StarLine rating={6} max={10} title='Cleanliness' />
+                            </summary>
+
+                            <div className="px-4 pb-4 collapsible-body">
+                                <div className="max-w-6xl mx-auto">
+                                    <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-8 mb-8">
+                                        <div className="flex items-center">
+                                            <StarLine rating={2} max={10} title='Staff' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={4} max={10} title='Facilities' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={9} max={10} title='Cleanliness' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={8} max={10} title='Comfort' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={7} max={10} title='Location' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={6} max={10} title='Value for Money' />
+                                        </div>
+                                    </div>
                                 </div>
-                                <div className="flex items-center">
-                                    <StarLine rating={7} max={10} title='Comfort' />
-                                </div>
-                                <div className="flex items-center">
-                                    <StarLine rating={8} max={10} title='Location' />
-                                </div>
-                                <div className="flex items-center">
-                                    <StarLine rating={8} max={10} title='Value for Money' />
-                                </div>
+
+                                <p className="mb-6 leading-relaxed mt-2">
+                                    We booked a room at Nguyen Le Home Dinh Chieu for our last nights in HCMC.
+                                    After booking, we were contacted by the hotel, who informed us that they had overbooked and that they would move us to another hotel, the Nguyen Le Home Phan Ton.
+                                    We were uncomfortable with this, as we had heard similar stories about "bait and switch" tactics by hotels in SEA.
+                                    The hotel was communicative and sent us pictures of the other hotel and a 10% discount, so we accepted the change.
+                                    It turned out that the other address was a new venue of apartment / Airbnb style rooms that the hotel had recently opened.
+                                    Though this meant that the room and furniture was brand new, they hadn't actually finished setting up the hotel yet.
+                                    For example, there were no light bulbs in the living room.
+                                    All in all, we had a comfortable stay here. If it wasn't for the bait-and-switch and for the unfinished state of the room, we would have given this hotel a higher rating.
+                                </p>
                             </div>
-                        </div>
+                        </details>
 
-                        <p className="mb-6 leading-relaxed">
-                            All in all, we had a good experience at the Nexus House. 
-                            The location is convenient, the center only being a short Grab away, and the staff was friendly and helpful.
-                            We were allocated a street-facing room at first, which was quite noisy, but after asking the staff, we were moved to a quieter room at the back of the hotel.
-                            Both bathrooms had a faint smell of mold, which was a little unpleasant but also rather common in SEA in our experience.
-                            The rooms are small, but this is advertised on the website and we didn't mind it, as we didn't spend much time in the room anyway.
-                        </p>
+                        <details className="group mb-6 rounded-md">
+                            <summary className="flex items-center justify-between p-4 cursor-pointer">
+                                <div className="flex items-center">
+                                    <svg className="chev h-5 w-5 mr-3 text-gray-600" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+                                        <path d="M6 8l4 4 4-4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+                                    </svg>
+                                    <h3 id="hotel-3" className="text-2xl font-bold m-0">Can Tho - Luxhome Mekong Hotel</h3>
+                                </div>
+                                <div className="flex items-center">
+                                    <StarScale rating={4.5} />
+                                </div>
+                            </summary>
 
-                        <div className="flex items-center justify-between mb-4">
-                            <h3 id="hotel-2" className="text-2xl font-bold m-0">Ho Chi Minh City - Nguyen Le Home Phan Ton</h3>
-                            <div className="flex items-center">
-                                <StarScale rating={3} />
+                            <div className="px-4 pb-4 collapsible-body">
+                                <div className="max-w-6xl mx-auto">
+                                    <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-8 mb-8">
+                                        <div className="flex items-center">
+                                            <StarLine rating={9} max={10} title='Staff' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={6} max={10} title='Facilities' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={9} max={10} title='Cleanliness' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={10} max={10} title='Comfort' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={7} max={10} title='Location' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={9} max={10} title='Value for Money' />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <p className="mb-6 leading-relaxed mt-2">
+                                    This hotel was the hidden gem of our trip.
+                                    <br />
+                                    We had a wonderful stay at the Luxhome Mekong Hotel.
+                                    We got a very spacious and modern room at a very reasonable price, and the staff was extremely friendly and helpful.
+                                    The hotel seemed to cater at internal Vietnamese tourists, as the staff did not speak any English, but they were very helpful and accommodating nonetheless.
+                                    The hotel is located a little outside of the city center, but this was not a problem for us as we had a Grab to get around.
+                                    We would highly recommend this hotel to anyone visiting Can Tho!
+                                </p>
                             </div>
-                        </div>
-
-                        <div className="max-w-6xl mx-auto">
-                            <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-8 mb-8">
-                                <div className="flex items-center">
-                                    <StarLine rating={2} max={10} title='Staff' />
-                                </div>
-                                <div className="flex items-center">
-                                    <StarLine rating={4} max={10} title='Facilities' />
-                                </div>
-                                <div className="flex items-center">
-                                    <StarLine rating={9} max={10} title='Cleanliness' />
-                                </div>
-                                <div className="flex items-center">
-                                    <StarLine rating={8} max={10} title='Comfort' />
-                                </div>
-                                <div className="flex items-center">
-                                    <StarLine rating={7} max={10} title='Location' />
-                                </div>
-                                <div className="flex items-center">
-                                    <StarLine rating={6} max={10} title='Value for Money' />
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <p className="mb-6 leading-relaxed">
-                            We booked a room at Nguyen Le Home Dinh Chieu for our last nights in HCMC.
-                            After booking, we were contacted by the hotel, who informed us that they had overbooked and that they would move us to another hotel, the Nguyen Le Home Phan Ton.
-                            We were uncomfortable with this, as we had heard similar stories about "bait and switch" tactics by hotels in SEA.
-                            The hotel was communicative and sent us pictures of the other hotel and a 10% discount, so we accepted the change.
-                            It turned out that the other address was a new venue of apartment / Airbnb style rooms that the hotel had recently opened.
-                            Though this meant that the room and furniture was brand new, they hadn't actually finished setting up the hotel yet.
-                            For example, there were no light bulbs in the living room.
-                            All in all, we had a comfortable stay here. If it wasn't for the bait-and-switch and for the unfinished state of the room, we would have given this hotel a higher rating.
-                        </p>
-
-                        <div className="flex items-center justify-between mb-4">
-                            <h3 id="hotel-3" className="text-2xl font-bold m-0">Can Tho - Luxhome Mekong Hotel</h3>
-                            <div className="flex items-center">
-                                <StarScale rating={4.5} />
-                            </div>
-                        </div>
-
-                        <div className="max-w-6xl mx-auto">
-                            <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-8 mb-8">
-                                <div className="flex items-center">
-                                    <StarLine rating={9} max={10} title='Staff' />
-                                </div>
-                                <div className="flex items-center">
-                                    <StarLine rating={6} max={10} title='Facilities' />
-                                </div>
-                                <div className="flex items-center">
-                                    <StarLine rating={9} max={10} title='Cleanliness' />
-                                </div>
-                                <div className="flex items-center">
-                                    <StarLine rating={10} max={10} title='Comfort' />
-                                </div>
-                                <div className="flex items-center">
-                                    <StarLine rating={7} max={10} title='Location' />
-                                </div>
-                                <div className="flex items-center">
-                                    <StarLine rating={9} max={10} title='Value for Money' />
-                                </div>
-                            </div>
-                        </div>
-
-                        <p className="mb-6 leading-relaxed">
-                            This hotel was the hidden gem of our trip.
-                            <br />
-                            We had a wonderful stay at the Luxhome Mekong Hotel.
-                            We got a very spacious and modern room at a very reasonable price, and the staff was extremely friendly and helpful.
-                            The hotel seemed to cater at internal Vietnamese tourists, as the staff did not speak any English, but they were very helpful and accommodating nonetheless.
-                            The hotel is located a little outside of the city center, but this was not a problem for us as we had a Grab to get around.
-                            We would highly recommend this hotel to anyone visiting Can Tho!
-                        </p>
+                        </details>
 
                         <h2 id="restaurant-bar-reviews" className="text-4xl font-bold mb-4">Restaurant and Bar Reviews</h2>
                         <h3 id="HCMC-cafes" className="text-2xl font-bold m-0">HCMC Cafes</h3>
