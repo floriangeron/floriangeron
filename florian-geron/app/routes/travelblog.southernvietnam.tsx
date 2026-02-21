@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { MapPinIcon, GlobeAltIcon, CurrencyDollarIcon, ClockIcon, CalendarIcon } from "@heroicons/react/24/outline";
 import AnimatedWave from "~/components/AnimatedWave";
 import { StarScale } from '../components/ui/StarRating';
+import CollapsibleReview from '../components/ui/CollapsibleReview';
 import { StarLine } from '../components/ui/StarLine';
 import { Card, CardContent } from "~/components/ui/card"
 import {
@@ -78,7 +79,7 @@ export default function SouthernVietnam() {
                 details.group .collapsible-body {
                     max-height: 0;
                     overflow: hidden;
-                    transition: max-height 300ms ease, opacity 200ms ease;
+                    transition: max-height 1000ms ease, opacity 200ms ease;
                     opacity: 0;
                 }
                 details.group[open] .collapsible-body {
@@ -557,7 +558,9 @@ export default function SouthernVietnam() {
                             In the end, the check-in and security process went smoothly, and we had a relaxed flight home!
                         </p>
 
+                        {/* Hotel Reviews */}
                         <h2 id="hotel-reviews" className="text-4xl font-bold mb-4">Hotel Reviews</h2>
+                        
                         <details className="group mb-6 rounded-md">
                             <summary className="flex items-center justify-between p-4 cursor-pointer">
                                 <div className="flex items-center">
@@ -704,14 +707,102 @@ export default function SouthernVietnam() {
                             </div>
                         </details>
 
-                        <h2 id="restaurant-bar-reviews" className="text-4xl font-bold mb-4">Restaurant and Bar Reviews</h2>
-                        <h3 id="HCMC-cafes" className="text-2xl font-bold m-0">HCMC Cafes</h3>
-                        <h3 id="HCMC-restaurants" className="text-2xl font-bold m-0">HCMC Restaurants</h3>
-                        <h4 id="HCMC-restaurant-1" className="text-1xl font-bold m-0">HCMC Restaurant 1</h4>
-                        <h3 id="HCMC-bars" className="text-2xl font-bold m-0">HCMC Bars</h3>
-                        <h3 id="can-tho-cafes" className="text-2xl font-bold m-0">Can Tho Cafes</h3>
-                        <h3 id="can-tho-restaurants" className="text-2xl font-bold m-0">Can Tho Restaurants</h3>
-                        <h3 id="can-tho-bars" className="text-2xl font-bold m-0">Can Tho Bars</h3>
+                        {/* Eateries reviews */}
+
+                        <h2 id="food-drink-reviews" className="text-4xl font-bold mb-4">Food & Drinks Reviews</h2>
+
+                        <h3 id="HCMC-restaurants" className="text-2xl font-bold mb-4">HCMC Restaurants</h3>
+
+                            <CollapsibleReview title="Pizza 4P's" rating={4.5}>
+                                Lorem Ipsum
+                            </CollapsibleReview>
+
+                            <CollapsibleReview title="Propaganda" rating={3}>
+                                Lorem Ipsum
+                            </CollapsibleReview>
+
+                            <CollapsibleReview title="Bếp Mẹ Ỉn - Nguyễn Thái Bình" rating={2.5}>
+                                Lorem Ipsum
+                            </CollapsibleReview>
+
+                            <CollapsibleReview title="Mặn Mòi, Tao Đàn" rating={4}>
+                                Lorem Ipsum
+                            </CollapsibleReview>
+
+                        <h3 id="HCMC-cafes" className="text-2xl font-bold mb-4">HCMC Cafes</h3>
+
+                            <CollapsibleReview title="Garden Kisses" rating={4.5}>
+                                A cozy little cafe / bakery serving some delicious coffee and pastries. 
+                                We enjoyed it so much that we started our day here twice!
+                            </CollapsibleReview>
+
+                            <CollapsibleReview title="Roots Plant-Based Cafe" rating={5}>
+                                Lorem Ipsum
+                            </CollapsibleReview>
+
+                            <CollapsibleReview title="Eggyolk Coffee" rating={3}>
+                                Lorem Ipsum
+                            </CollapsibleReview>
+
+                            <CollapsibleReview title="Ivegan Supermarket Ben Thanh" rating={1}>
+                                Lorem Ipsum
+                            </CollapsibleReview>
+
+                            <CollapsibleReview title="Butter Bean" rating={4.5}>
+                                Lorem Ipsum
+                            </CollapsibleReview>
+                        
+                        <h3 id="HCMC-bars" className="text-2xl font-bold mb-4">HCMC Bars</h3>
+
+                            <CollapsibleReview title="The View Rooftop Bar" rating={4.5}>
+                                Lorem Ipsum
+                            </CollapsibleReview>
+
+                            <CollapsibleReview title="Mary Jane's The Bar" rating={4.5}>
+                                Lorem Ipsum
+                            </CollapsibleReview>
+
+                            <CollapsibleReview title="Rabbit Hole" rating={4}>
+                                Lorem Ipsum
+                            </CollapsibleReview>
+
+                            <CollapsibleReview title="Lulu - Bar & Eatery" rating={4.5}>
+                                Lorem Ipsum
+                            </CollapsibleReview>
+
+                            <CollapsibleReview title="IMC Rooftop Bar" rating={3}>
+                                Lorem Ipsum
+                            </CollapsibleReview>
+
+                        <h3 id="HCMC-street-food" className="text-2xl font-bold mb-4">HCMC Street Food</h3>
+
+                            <CollapsibleReview title="Ben Nghe Street Food" rating={4}>
+                                This market contains lots of stalls with food from different cuisines, mainly Vietnamese but also Thai, Indian, and Korean food.
+                                We tried several dishes here, including a Banh Xeo, a savoury Vietnamese pancake, which we found a tad bland compared to other SEA food.
+                                We also tried the Thai and Korean food, which were both delicious and very affordable.
+                                <br />
+                                Find it <a href="https://maps.app.goo.gl/L1ugUxKGUyu7c9oGA" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            </CollapsibleReview>
+                            
+                            <CollapsibleReview title="Bánh Mì Bảy Hổ" rating={5}>
+                                Spicy banh mi at an unbeatable price.
+                                <br />
+                                Find it <a href="https://maps.app.goo.gl/RmutEWQzwvRg72dKA" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            </CollapsibleReview>
+
+                            <CollapsibleReview title="Bánh Mì Xanh" rating={5}>
+                                Vegan banh mi restaurant serving two options: all-tofu or fake meat mix.
+                                <br />
+                                Find it <a href="https://maps.app.goo.gl/vBDgwV2iEPvcBX6X7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            </CollapsibleReview>
+
+
+
+
+
+                        <h3 id="can-tho-cafes" className="text-2xl font-bold mb-4">Can Tho Cafes</h3>
+                        <h3 id="can-tho-restaurants" className="text-2xl font-bold mb-4">Can Tho Restaurants</h3>
+                        <h3 id="can-tho-bars" className="text-2xl font-bold mb-4">Can Tho Bars</h3>
                         <p className="mb-6 leading-relaxed">
                             [Restaurant and bar reviews]
                             <br /><br /><br /><br />
@@ -740,12 +831,12 @@ export default function SouthernVietnam() {
                                     <a href="#hotel-reviews" onClick={(e) => handleTocClick(e, 'hotel-reviews')} className="block w-full text-right hover:underline">Hotel Reviews</a>
                                 </li>
                                 <li>
-                                    <a href="#restaurant-bar-reviews" onClick={(e) => handleTocClick(e, 'restaurant-bar-reviews')} className="block w-full text-right hover:underline">Restaurant and Bar Reviews</a>
+                                    <a href="#food-drink-reviews" onClick={(e) => handleTocClick(e, 'food-drink-reviews')} className="block w-full text-right hover:underline">Food & Drinks Reviews</a>
                                 </li>
                             </ul>
                         </nav>
 
-                        <div className="sticky top-64 self-start flex items-center justify-end mb-4">
+                        <div className="sticky top-64 self-start flex items-center justify-end mb-4 hover:scale-105 transition-transform duration-300">
                             <label htmlFor="font-size-select" className="mr-2 text-sm text-gray-600">Text size</label>
                             <select
                                 id="font-size-select"
