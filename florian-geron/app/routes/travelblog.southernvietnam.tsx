@@ -653,11 +653,13 @@ export default function SouthernVietnam() {
                         </p>
 
                         <h2 id="restaurant-bar-reviews" className="text-4xl font-bold mb-4">Restaurant and Bar Reviews</h2>
+                        <h3 id="HCMC-cafes" className="text-2xl font-bold m-0">HCMC Cafes</h3>
                         <h3 id="HCMC-restaurants" className="text-2xl font-bold m-0">HCMC Restaurants</h3>
                         <h4 id="HCMC-restaurant-1" className="text-1xl font-bold m-0">HCMC Restaurant 1</h4>
-                        <h3 id="HCMC-bars-and-cafes" className="text-2xl font-bold m-0">HCMC Bars and Cafes</h3>
+                        <h3 id="HCMC-bars" className="text-2xl font-bold m-0">HCMC Bars</h3>
+                        <h3 id="can-tho-cafes" className="text-2xl font-bold m-0">Can Tho Cafes</h3>
                         <h3 id="can-tho-restaurants" className="text-2xl font-bold m-0">Can Tho Restaurants</h3>
-                        <h3 id="can-tho-and-cafes" className="text-2xl font-bold m-0">Can Tho Bars and Cafes</h3>
+                        <h3 id="can-tho-bars" className="text-2xl font-bold m-0">Can Tho Bars</h3>
                         <p className="mb-6 leading-relaxed">
                             [Restaurant and bar reviews]
                             <br /><br /><br /><br />
