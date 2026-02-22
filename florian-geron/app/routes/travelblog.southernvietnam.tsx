@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { MapPinIcon, GlobeAltIcon, CurrencyDollarIcon, ClockIcon, CalendarIcon } from "@heroicons/react/24/outline";
 import AnimatedWave from "~/components/AnimatedWave";
 import { StarScale } from '../components/ui/StarRating';
+import { CoffeeScale } from '../components/ui/CoffeeRating';
 import CollapsibleReview from '../components/ui/CollapsibleReview';
 import { StarLine } from '../components/ui/StarLine';
 import { Card, CardContent } from "~/components/ui/card"
