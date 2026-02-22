@@ -470,7 +470,7 @@ export default function SouthernVietnam() {
 
                         </p>
 
-                        <h3 id="mekong-delta-day-3" className="text-2xl font-bold mb-4">Day 4 - My Tho</h3>
+                        <h3 id="mekong-delta-day-4" className="text-2xl font-bold mb-4">Day 4 - My Tho</h3>
                         <p className="mb-6 leading-relaxed">
                             After our troubles with finding a local tour operator in Can Tho, we decided to book a tour to My Tho with Get Your Guide.
                             During this tour, we visited two islands nearby My Tho: Thoi Son / Unicorn Island and Con Phung / Phoenix Island.
@@ -650,9 +650,9 @@ export default function SouthernVietnam() {
                                     We booked a room at Nguyen Le Home Dinh Chieu for our last nights in HCMC.
                                     After booking, we were contacted by the hotel, who informed us that they had overbooked and that they would move us to another hotel, the Nguyen Le Home Phan Ton.
                                     We were uncomfortable with this, as we had heard similar stories about "bait and switch" tactics by hotels in SEA.
-                                    The hotel was communicative and sent us pictures of the other hotel and a 10% discount, so we accepted the change.
+                                    The hotel was communicative, sent us pictures of the other hotel, and gave us a 10% discount, so we accepted the change.
                                     It turned out that the other address was a new venue of apartment / Airbnb style rooms that the hotel had recently opened.
-                                    Though this meant that the room and furniture was brand new, they hadn't actually finished setting up the hotel yet.
+                                    This meant that the room and furniture was brand new, but they hadn't actually finished setting up the hotel yet.
                                     For example, there were no light bulbs in the living room.
                                     All in all, we had a comfortable stay here. If it wasn't for the bait-and-switch and for the unfinished state of the room, we would have given this hotel a higher rating.
                                 </p>
@@ -751,6 +751,14 @@ export default function SouthernVietnam() {
                                 Find it <a href="https://maps.app.goo.gl/dVEvrTYbfpuqZcin9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>. 
                             </CollapsibleReview>
 
+                            <CollapsibleReview title="KHAP KHAP Thai Bistro - Thảo Điền" rating={3.5} scale="food">
+                                After several days of Vietnamese food, we were longing for some Thai food again (our favorite SEA cuisine).
+                                We visited Khap Khap, which was a nice Thai restaurant in the expat area of Thao Dien.
+                                The food was good though not as good as other Thai food we'd had.
+                                <br />
+                                Find it <a href="https://maps.app.goo.gl/3Xuv2u6mnNLdqHPL7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>. 
+                            </CollapsibleReview>
+
                         <h3 id="HCMC-cafes" className="text-2xl font-bold mb-4">HCMC Cafes</h3>
 
                             <CollapsibleReview title="Garden Kisses" rating={4.5} scale="coffee">
@@ -842,6 +850,17 @@ export default function SouthernVietnam() {
                                 We also tried the Thai and Korean food, which were both delicious and very affordable.
                                 <br />
                                 Find it <a href="https://maps.app.goo.gl/L1ugUxKGUyu7c9oGA" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            
+                                <figure className="md:col-span-1 w-[50%] mx-auto">
+                                    <img
+                                        src="/images/travel/vietnam/BenNghe.jpg"
+                                        alt="The Ben Nghe Market"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/vietnam/BenNghe.jpg')}
+                                    />
+                                </figure>
+                                <figcaption className="text-center text-sm text-gray-600">Ben Nghe Street Food Market</figcaption>
+
                             </CollapsibleReview>
                             
                             <CollapsibleReview title="Bánh Mì Bảy Hổ" rating={5} scale="hotdog">
@@ -856,17 +875,123 @@ export default function SouthernVietnam() {
                                 Find it <a href="https://maps.app.goo.gl/vBDgwV2iEPvcBX6X7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                             </CollapsibleReview>
 
+                        <h3 id="can-tho-restaurants" className="text-2xl font-bold mb-4">Can Tho Restaurants</h3>
 
+                            <CollapsibleReview title="L'Escale" rating={4} scale="food">
+                                This restaurant is a French-style bistro overlooking the Mekong river.
+                                We enjoyed our food and the view here, and would recommend it for a nice dinner with a view in the center of Can Tho.
+                                We especially liked the Vietnamese white wine!
+                                <br />
+                                Find it <a href="https://maps.app.goo.gl/oucpbZW8SUoUoXP16" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                                
+                                <div className="grid md:grid-cols-2 gap-2">
+                                    <figure className="md:col-span-1">
+                                        <img
+                                            src="/images/travel/vietnam/Escale.jpg"
+                                            alt="The Escale Restaurant"
+                                            className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                            onClick={() => openLightbox('/images/travel/vietnam/Escale.jpg')}
+                                        />       
+                                    </figure>
+                                    <figure className="md:col-span-1">
+                                        <img
+                                            src="/images/travel/vietnam/Escale2.JPG"
+                                            alt="The Escale Restaurant"
+                                            className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                            onClick={() => openLightbox('/images/travel/vietnam/Escale2.JPG')}
+                                        />
+                                    </figure>
+                                </div>
+                                <figcaption className="text-center text-sm text-gray-600">The view from L'Escale Restaurant</figcaption>
+                            
+                            </CollapsibleReview>
 
+                            <CollapsibleReview title="Cơm Ơ 68 Cần Thơ" rating={4} scale="food">
+                                We decided to check out this restaurant after finding in on Google Maps.
+                                The restaurant serves local food at a very affordable price, and the staff seemed to be least prepared for English speakers, but as per usual they were very friendly and helpful nonetheless.
+                                We translated the menu using Google Translate and we went for the Beef Hot Pot (Lau Bo).
+                                The waiter showed us how to eat it, by putting the beef in the hot pot and wrapping it in a rice paper with some herbs and dipping it in the sauce.
+                                We had a fun experience here, but be prepared for a very local experience, as this restaurant seems to cater exclusively to Vietnamese locals.
+                                Not recommended if you don't like the ambiguity that comes with ordering from a menu you don't understand.
+                                <br />
+                                Find it <a href="https://maps.app.goo.gl/v4TgP6c53EmZCxKD6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            
+                                <div className="grid md:grid-cols-2 gap-2">
+                                    <figure className="md:col-span-1">
+                                        <img
+                                            src="/images/travel/vietnam/Hotpot.jpg"
+                                            alt="The Hotpot Dinner"
+                                            className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                            onClick={() => openLightbox('/images/travel/vietnam/Hotpot.jpg')}
+                                        />
+                                    </figure>
+                                    <figure className="md:col-span-1">
+                                        <img
+                                            src="/images/travel/vietnam/HotPot2.JPG"
+                                            alt="The Hotpot Dinner"
+                                            className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                            onClick={() => openLightbox('/images/travel/vietnam/HotPot2.JPG')}
+                                        />
+                                        
+                                    </figure>
+                                </div>
+                                <figcaption className="text-center text-sm text-gray-600">The Hotpot Dinner at Com O 68 Can Tho</figcaption>
+                            
+                            </CollapsibleReview>
 
+                            <CollapsibleReview title="Bún bò Huế - Huỳnh Châu" rating={3.5} scale="food">
+                                Another very local experience, this time recommended by our guide of the floating market.
+                                This place exclusively serves Bún bò Huế, a spicy beef noodle soup.
+                                The food wasn't our thing, and the restaurant was rather hectic.
+                                We didn't enjoy our meal here as much as other local places, but it's a fun experience if you want to try a local specialty.
+                                <br />
+                                Find it <a href="https://maps.app.goo.gl/WMxDDUfmTvWZ4UQv8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            </CollapsibleReview>
 
                         <h3 id="can-tho-cafes" className="text-2xl font-bold mb-4">Can Tho Cafes</h3>
-                        <h3 id="can-tho-restaurants" className="text-2xl font-bold mb-4">Can Tho Restaurants</h3>
+                            
+                            <CollapsibleReview title="ĐIỂM TÂM - CÀ PHÊ CÔ HẰNG" rating={5} scale="coffee">
+                                This cafe caters to the locals of Can Tho.
+                                We had some amazing food and drinks at an even more amazing price.
+                                We can definitely recommend!
+                                <br />
+                                Find it <a href="https://maps.app.goo.gl/MJL87dJRaBBiTY2k8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            </CollapsibleReview>
+
+
                         <h3 id="can-tho-bars" className="text-2xl font-bold mb-4">Can Tho Bars</h3>
-                        <p className="mb-6 leading-relaxed">
-                            [Restaurant and bar reviews]
-                            <br /><br /><br /><br />
-                        </p>
+
+                            <CollapsibleReview title="TAK Speakeasy" rating={5} scale="drink">
+                                We had found this speakeasy online and decided to visit this local speakeasy in Can Tho.
+                                After walking to its direction using Google Maps, we found the place by the seeing the tapir logo on the door.
+                                TAK is a charming speakeasy with an intimate atmosphere, catering to the artists and creatives of Can Tho.
+                                While the rest of the city was celebrating the football victory against Thailand that evening, the people in the bar seemed to be discussing other topics.
+                                The staff didn't speak English, but were very friendly and created some amazing cocktails for us.
+                                <br />
+                                Find it <a href="https://maps.app.goo.gl/9BfacgV2JwPujkyR8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+
+                                <div className="grid md:grid-cols-2 gap-2">
+                                    <figure className="md:col-span-1">
+                                        <img
+                                            src="/images/travel/vietnam/TAK1.JPG"
+                                            alt="TAK Speakeasy"
+                                            className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                            onClick={() => openLightbox('/images/travel/vietnam/TAK1.jpg')}
+                                        />
+                                    </figure>
+                                    <figure className="md:col-span-1">
+                                        <img
+                                            src="/images/travel/vietnam/TAK2.jpg"
+                                            alt="TAK Speakeasy"
+                                            className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                            onClick={() => openLightbox('/images/travel/vietnam/TAK2.jpg')}
+                                        />
+                                    </figure>
+                                    
+                                </div>
+                                <figcaption className="text-center text-sm text-gray-600">TAK Speakeasy</figcaption>
+
+                            </CollapsibleReview>
 
                     </main>
 
