@@ -751,10 +751,10 @@ export default function SouthernVietnam() {
                                 Find it <a href="https://maps.app.goo.gl/dVEvrTYbfpuqZcin9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>. 
                             </CollapsibleReview>
 
-                            <CollapsibleReview title="KHAP KHAP Thai Bistro - Thảo Điền" rating={3.5} scale="food">
+                            <CollapsibleReview title="KHAP KHAP Thai Bistro - Thảo Điền" rating={3} scale="food">
                                 After several days of Vietnamese food, we were longing for some Thai food again (our favorite SEA cuisine).
-                                We visited Khap Khap, which was a nice Thai restaurant in the expat area of Thao Dien.
-                                The food was good though not as good as other Thai food we'd had.
+                                We visited Khap Khap, which was a Thai restaurant in the expat area of Thao Dien.
+                                The food was good though not as good as other Thai food we'd had, with less authentic flavors.
                                 <br />
                                 Find it <a href="https://maps.app.goo.gl/3Xuv2u6mnNLdqHPL7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>. 
                             </CollapsibleReview>
