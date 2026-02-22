@@ -149,6 +149,7 @@ export default function SouthernVietnam() {
                     <main className={`md:col-span-3 text-gray-800 ${fontSizeClass}`}>
 
                         <h2 id="our-journey" className="text-4xl font-bold mb-4">Our Journey</h2>
+                        <h3 id="what-we-did" className="text-2xl font-bold mb-4">What we did</h3>
                         <div className="mb-6 leading-relaxed">
                             We had only one week to spend in this part of South East Asia.
                             As such, we spent our time in the main city of Southern Vietnam, Ho Chi Minh City, and the impressive Mekong Delta to its South.
@@ -165,6 +166,17 @@ export default function SouthernVietnam() {
                                 <figcaption className="text-center text-sm text-gray-600">Route we travelled — Ho Chi Minh City to the Mekong Delta</figcaption>
                             </figure>
                         </div>
+                        <h3 id="what-we-skipped" className="text-2xl font-bold mb-4">What we skipped</h3>
+                        <div className="mb-6 leading-relaxed">
+                            <ul className="list-disc pl-5 space-y-1">
+                                <li>Phu Quoc Island:<br/>From our research, this island looked overly commercialized and touristy. We decided to spend our time on the Cambodian Koh Rong islands instead.</li>
+                                <li>Da Lat</li>
+                                <li>Mui Ne</li>
+                                <li>Da Nang</li>
+                                <li>Chau Doc</li>
+                            </ul>
+                        </div>
+
 
                         <h2 id="ho-chi-minh-city" className="text-4xl font-bold mb-4">Ho Chi Minh City</h2>
                         <h3 id="ho-chi-minh-city-day-1" className="text-2xl font-bold mb-4">Day 1 - HCMC by Night</h3>
