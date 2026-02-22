@@ -1,13 +1,15 @@
 import React from 'react';
 import { StarScale } from './StarRating';
+import { CoffeeScale } from './CoffeeRating'; 
 
 type Props = {
   title: string;
   rating: number;
+  scale: 'star' | 'coffee' | 'hotdog' | 'food' | 'drink';
   children: React.ReactNode;
 };
 
-export default function CollapsibleReview({ title, rating, children }: Props) {
+export default function CollapsibleReview({ title, rating, scale, children }: Props) {
   return (
     <details className="group mb-6 rounded-md">
       <summary className="flex items-center justify-between p-3 cursor-pointer">
@@ -18,7 +20,11 @@ export default function CollapsibleReview({ title, rating, children }: Props) {
           <h4 className="text-1xl font-bold m-0">{title}</h4>
         </div>
         <div className="flex items-center">
-          <StarScale rating={rating} />
+          {scale === 'star' ? (
+            <StarScale rating={rating} />
+          ) : (
+            <CoffeeScale rating={rating} icon={scale}/>
+          )}
         </div>
       </summary>
 
