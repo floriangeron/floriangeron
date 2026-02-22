@@ -713,20 +713,41 @@ export default function SouthernVietnam() {
 
                         <h3 id="HCMC-restaurants" className="text-2xl font-bold mb-4">HCMC Restaurants</h3>
 
-                            <CollapsibleReview title="Pizza 4P's" rating={4.5}>
-                                Lorem Ipsum
+                            <CollapsibleReview title="Pizza 4P's - Hai Ba Trung" rating={4.5}>
+                                Pizza 4P's is a popular pizza franchise in HCMC, known for its unique pizzas and its young and dynamic atmosphere.
+                                We had some delicious food here, which mixed Italian and Vietnamese/SEA cuisines.
+                                We started with a mango-and-ham entree (mixing up the Italian melon-and-ham dish) and some wine.
+                                The restaurant allows you to create half-and-half pizzas, so we got to try four different pizza styles between the two of us.
+                                We were blown away by the tom yum pizza, of which we ordered another one after finishing our first half.
+                                The only downside of this restaurant is its rather steep prices compared to other restaurants in HCMC.
+                                <br />
+                                Find it <a href="https://maps.app.goo.gl/JeUM5eqcU9UpdUzJ9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                             </CollapsibleReview>
 
                             <CollapsibleReview title="Propaganda" rating={3}>
-                                Lorem Ipsum
+                                This restaurant is known for its decor featuring Vietnamese communist propaganda art, and for its menu of local dishes.
+                                We were blowm away by the drinks, but were less impressed by the food we ate there.
+                                The food was not bad, but it was not amazing either, and we found it to be overpriced for the quality of the food.
+                                <br />
+                                Find it <a href="https://maps.app.goo.gl/VPZwEKFDvqWb3KsR6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                             </CollapsibleReview>
 
                             <CollapsibleReview title="Bếp Mẹ Ỉn - Nguyễn Thái Bình" rating={2.5}>
-                                Lorem Ipsum
+                                This restaurant was recommended to us by several blogs online, but we were not impressed by our experience here.
+                                We found the menu to be pretty monotonous and the focus seemed to be on presenting instagrammable dishes rather than on the food itself.
+                                The food we had was underwhelming, and the AC was unreasonably cold, which we didn't dress for. The other customers, mostly Vietnamese locals and Chinese toursists, didn't seem to mind the cold.
+                                <br />
+                                Find it <a href="https://maps.app.goo.gl/YjQA2eZKfG9F7pUFA" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                             </CollapsibleReview>
 
                             <CollapsibleReview title="Mặn Mòi, Tao Đàn" rating={4}>
-                                Lorem Ipsum
+                                An upscale restaurant serving local food, supposedly like a Vietnamese grandmother would make it.
+                                The restaurant is known for its unique architecture.
+                                As Vietnam is supposed to be an easy cuisine to find vegetarian food, we were surprised to find that the menu was very meat-focused.
+                                Nevertheless, the food we had was delicious and the atmosphere was nice.
+                                The restaurant seems to attract both tourists and locals, and the service was good, though the AC was a little cold for our tastes, which we found to be a recurring theme in many Vietnamese restaurants with local clientele.
+                                <br />
+                                Find it <a href="https://maps.app.goo.gl/dVEvrTYbfpuqZcin9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>. 
                             </CollapsibleReview>
 
                         <h3 id="HCMC-cafes" className="text-2xl font-bold mb-4">HCMC Cafes</h3>
@@ -734,44 +755,82 @@ export default function SouthernVietnam() {
                             <CollapsibleReview title="Garden Kisses" rating={4.5}>
                                 A cozy little cafe / bakery serving some delicious coffee and pastries. 
                                 We enjoyed it so much that we started our day here twice!
+                                <br />
+                                Find it <a href="https://maps.app.goo.gl/z9PBgH1uGyxm7EuQ7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                             </CollapsibleReview>
 
                             <CollapsibleReview title="Roots Plant-Based Cafe" rating={5}>
-                                Lorem Ipsum
+                                One of our favorite meals in HCMC was at Roots!
+                                This is a plant-based cafe / restaurant where we enjoyed a particularly amazing coconut coffee and some delicious vegan bowls.
+                                We highly recommend this place, especially if you're looking for a place to get some rest after some shopping at the Benh Thanh market!
+                                <br />
+                                Find it <a href="https://maps.app.goo.gl/bJj2MdQ1VhcE25Fx8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                             </CollapsibleReview>
 
                             <CollapsibleReview title="Eggyolk Coffee" rating={3}>
-                                Lorem Ipsum
+                                A fun stop for a quick eggyolk coffee break, as well as pastries and other drinks.
+                                The eggyolk coffee was a fun experience, and the pastries were also good, though not amazing.
+                                The shop also sells eggyolk coffee merchandise like mugs and t-shirts, which is fun but also made it feel a little touristy and gimmicky.
+                                <br />
+                                Find it <a href="https://maps.app.goo.gl/FCVjsNeAgFpSV4oPA" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                             </CollapsibleReview>
 
-                            <CollapsibleReview title="Ivegan Supermarket Ben Thanh" rating={1}>
-                                Lorem Ipsum
+                            <CollapsibleReview title="Ivegan Ben Thanh" rating={1}>
+                                We might have simply ordered the wrong thing, but we were not impressed by our visit to this vegan cafe.
+                                We found the food to be underwhelming and overpriced (we both had a bowl which wasn't flavorful), the interior was rather sterile and cold, and the service was not great either.
+                                Not a terrible experience, but we wouldn't recommend this place.
+                                <br />
+                                Find it <a href="https://maps.app.goo.gl/CMDXMkMYC6H5EaqK9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                             </CollapsibleReview>
 
                             <CollapsibleReview title="Butter Bean" rating={4.5}>
-                                Lorem Ipsum
+                                A little coffee shop in the airport terminal.
+                                This is not the kind of place we'd normally share a review on, but we had to include it because of the amazing drink we had here.
+                                We had a drink with rice and coconut milk, which was surprisingly delicious! A great way to end our trip with a final taste of Vietnam.
+                                <br />
+                                Find it <a href="https://maps.app.goo.gl/T22TgCn2DTrmsBzs7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                             </CollapsibleReview>
                         
                         <h3 id="HCMC-bars" className="text-2xl font-bold mb-4">HCMC Bars</h3>
 
                             <CollapsibleReview title="The View Rooftop Bar" rating={4.5}>
-                                Lorem Ipsum
+                                This rooftop bar is located at the end of Bui Vien, the main party street in HCMC, and provides a nice view over the city.
+                                Due to its location, it's got more of a party vibe going on, which is fun if that's what you're looking for.
+                                It's easy to meet some other travelers here, and the drinks are reasonably priced for a rooftop bar.
+                                <br />
+                                Find it <a href="https://maps.app.goo.gl/3mRZGKkkSQqGmnYm6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                             </CollapsibleReview>
 
                             <CollapsibleReview title="Mary Jane's The Bar" rating={4.5}>
-                                Lorem Ipsum
+                                An unpretentious rooftop bar with nice staff and great views over the city.
+                                We needed to kill some time before heading to Can Tho, and we were pleasantly surprised by this bar.
+                                This is not a particularly fancy place, but a nice place to have a drink with friends or a romantic date night, with good cocktails at reasonable prices and a relaxed atmosphere.
+                                <br />
+                                Find it <a href="https://maps.app.goo.gl/25VKrHqTTRdr134Z9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                             </CollapsibleReview>
 
                             <CollapsibleReview title="Rabbit Hole" rating={4}>
-                                Lorem Ipsum
+                                An upscale speakeasy-style cocktail bar with a refined interior and a distinguished cocktail menu (with many cocktails referecing Alice in Wonderland).
+                                We found the atmosphere a little to quiet and formal for our tastes, and the cocktails come at a higher price, but if you are looking for a refined cocktail experience in HCMC, this is the place to be.
+                                <br />
+                                Find it <a href="https://maps.app.goo.gl/dAagtAwWQiGj4kNj9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                             </CollapsibleReview>
 
                             <CollapsibleReview title="Lulu - Bar & Eatery" rating={4.5}>
-                                Lorem Ipsum
+                                A Cuban-style cocktail bar with a nice, romantic atmosphere.
+                                There are several different seating areas, including an area with tables for food and drinks, a bar area with high tables and stools, and a cozy area with sofas and low tables.
+                                The restaurant incorporates Cuban culture in its design and menu, with Cuban music playing in the background.
+                                The Vietnamese consider Cuba a close friend due to their shared Communist ideology.
+                                We had some of the most delicious cocktails of our trip here, and we would highly recommend this place.
+                                <br />
+                                Find it <a href="https://maps.app.goo.gl/PuwWzwRafbiyTs4Y6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                             </CollapsibleReview>
 
                             <CollapsibleReview title="IMC Rooftop Bar" rating={3}>
-                                Lorem Ipsum
+                                This rooftop bar provides a nice view over the city and has a relaxed atmospohere, great for a drink in the late afternoon with friends and family.
+                                We were happy to spend a couple of hours here waiting for our flight, but we wouldn't necessarily recommend coming here just for a drink.
+                                <br />
+                                Find it <a href="https://maps.app.goo.gl/Dsjhiqu38wYs1LD48" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                             </CollapsibleReview>
 
                         <h3 id="HCMC-street-food" className="text-2xl font-bold mb-4">HCMC Street Food</h3>
@@ -785,13 +844,13 @@ export default function SouthernVietnam() {
                             </CollapsibleReview>
                             
                             <CollapsibleReview title="Bánh Mì Bảy Hổ" rating={5}>
-                                Spicy banh mi at an unbeatable price.
+                                Spicy and delicious bánh mì at an unbeatable price.
                                 <br />
                                 Find it <a href="https://maps.app.goo.gl/RmutEWQzwvRg72dKA" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                             </CollapsibleReview>
 
                             <CollapsibleReview title="Bánh Mì Xanh" rating={5}>
-                                Vegan banh mi restaurant serving two options: all-tofu or fake meat mix.
+                                Vegan bánh mì restaurant serving two options: all-tofu or fake meat mix.
                                 <br />
                                 Find it <a href="https://maps.app.goo.gl/vBDgwV2iEPvcBX6X7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                             </CollapsibleReview>

@@ -10,7 +10,7 @@ type Props = {
 export default function CollapsibleReview({ title, rating, children }: Props) {
   return (
     <details className="group mb-6 rounded-md">
-      <summary className="flex items-center justify-between p-4 cursor-pointer">
+      <summary className="flex items-center justify-between p-3 cursor-pointer">
         <div className="flex items-center">
           <svg className="chev h-5 w-5 mr-3 text-gray-600" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
             <path d="M6 8l4 4 4-4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
