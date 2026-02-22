@@ -889,7 +889,7 @@ export default function SouthernVietnam() {
 
                         <h3 id="can-tho-restaurants" className="text-2xl font-bold mb-4">Can Tho Restaurants</h3>
 
-                            <CollapsibleReview title="L'Escale" rating={4} scale="food">
+                            <CollapsibleReview title="L'Escale" rating={4.5} scale="food">
                                 This restaurant is a French-style bistro overlooking the Mekong river.
                                 We enjoyed our food and the view here, and would recommend it for a nice dinner with a view in the center of Can Tho.
                                 We especially liked the Vietnamese white wine!
@@ -951,7 +951,7 @@ export default function SouthernVietnam() {
                             
                             </CollapsibleReview>
 
-                            <CollapsibleReview title="Bún bò Huế - Huỳnh Châu" rating={3.5} scale="food">
+                            <CollapsibleReview title="Bún bò Huế - Huỳnh Châu" rating={3} scale="food">
                                 Another very local experience, this time recommended by our guide of the floating market.
                                 This place exclusively serves Bún bò Huế, a spicy beef noodle soup.
                                 The food wasn't our thing, and the restaurant was rather hectic.
@@ -962,7 +962,7 @@ export default function SouthernVietnam() {
 
                         <h3 id="can-tho-cafes" className="text-2xl font-bold mb-4">Can Tho Cafes</h3>
                             
-                            <CollapsibleReview title="ĐIỂM TÂM - CÀ PHÊ CÔ HẰNG" rating={5} scale="coffee">
+                            <CollapsibleReview title="ĐIỂM TÂM - CÀ PHÊ CÔ HẰNG" rating={4.5} scale="coffee">
                                 This cafe caters to the locals of Can Tho.
                                 We had some amazing food and drinks at an even more amazing price.
                                 We can definitely recommend!
