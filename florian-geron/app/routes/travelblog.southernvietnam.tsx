@@ -617,6 +617,8 @@ export default function SouthernVietnam() {
                                     We were allocated a street-facing room at first, which was quite noisy, but after asking the staff, we were moved to a quieter room at the back of the hotel.
                                     Both bathrooms had a faint smell of mold, which was a little unpleasant but also rather common in SEA in our experience.
                                     The rooms are small, but this is advertised on the website and we didn't mind it, as we didn't spend much time in the room anyway.
+                                    <br />
+                                    Find it <a href="https://maps.app.goo.gl/tsq3Bd3UjtTrTLnF9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                                 </p>
                             </div>
                         </details>
@@ -667,6 +669,8 @@ export default function SouthernVietnam() {
                                     This meant that the room and furniture was brand new, but they hadn't actually finished setting up the hotel yet.
                                     For example, there were no light bulbs in the living room.
                                     All in all, we had a comfortable stay here. If it wasn't for the bait-and-switch and for the unfinished state of the room, we would have given this hotel a higher rating.
+                                    <br />
+                                    Find it <a href="https://maps.app.goo.gl/xuatxgqi9GddaZ449" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                                 </p>
                             </div>
                         </details>
@@ -716,6 +720,8 @@ export default function SouthernVietnam() {
                                     The hotel seemed to cater at internal Vietnamese tourists, as the staff did not speak any English, but they were very helpful and accommodating nonetheless.
                                     The hotel is located a little outside of the city center, but this was not a problem for us as we had a Grab to get around.
                                     We would highly recommend this hotel to anyone visiting Can Tho!
+                                    <br />
+                                    Find it <a href="https://maps.app.goo.gl/XKaeH95JzjNqYzZs8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                                 </p>
                             </div>
                         </details>

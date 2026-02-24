@@ -2,11 +2,6 @@ import React from "react";
 
 type IconType = "coffee" | "hotdog" | "food" | "drink";
 
-type Props = {
-  rating: number;
-  icon?: IconType;
-};
-
 const codepoints: Record<IconType, string> = {
   coffee: "2615",
   hotdog: "1f32d",
