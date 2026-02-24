@@ -169,11 +169,26 @@ export default function SouthernVietnam() {
                         <h3 id="what-we-skipped" className="text-2xl font-bold mb-4">What we skipped</h3>
                         <div className="mb-6 leading-relaxed">
                             <ul className="list-disc pl-5 space-y-1">
-                                <li>Phu Quoc Island:<br/>From our research, this island looked overly commercialized and touristy. We decided to spend our time on the Cambodian Koh Rong islands instead.</li>
-                                <li>Da Lat</li>
-                                <li>Mui Ne</li>
-                                <li>Da Nang</li>
-                                <li>Chau Doc</li>
+                                <li>
+                                    Phu Quoc Island:
+                                    <br/>
+                                    From our research, this island looked overly commercialized and touristy. We decided to spend our time on the Cambodian Koh Rong islands instead.
+                                </li>
+                                <li>
+                                    Da Lat:
+                                    <br/>
+                                    If we had had more time, we would've liked to check out Da Lat, mainly to visit the nature around the city.
+                                </li>
+                                <li>
+                                    Mui Ne:
+                                    <br/>
+                                    Another place we would've like to check out if had had more time, mainly to see the sand dunes and to surf.
+                                </li>
+                                <li>
+                                    Chau Doc:
+                                    <br/>
+                                    The mangroves around Chau Doc peaked our interest, but we decided to skip it in favor of My Tho.
+                                </li>
                             </ul>
                         </div>
 
