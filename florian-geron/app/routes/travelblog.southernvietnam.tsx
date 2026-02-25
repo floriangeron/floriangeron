@@ -277,7 +277,11 @@ export default function SouthernVietnam() {
                             This was a memorable trip, especially after learning more about the war at the War Remnants Museum the day before.
                             The site itself has been turned into somewhat of a tourist attraction, which sometimes made light of the situation for which the tunnels were used, making the visit to the museum all the more important.
                             <br/>
-                            It's good to know that this site is a solid 3-hour drive from the city. We booked our tour via GetYourGuide who organized transport and a guide.
+                            It's good to know that this site is a solid 3-hour drive from the city. We booked our tour via {' '}
+                            <a href="https://www.getyourguide.com/cu-chi-tunnels-l3671/ho-chi-minh-city-cu-chi-tunnels-morning-or-afternoon-tour-t60689/?utm_source=getyourguide&utm_medium=sharing&utm_campaign=activity_details" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                            Get Your Guide
+                            </a>
+                            {' '} who organized transport and a guide.
                             <br />
                             <br />
                             After the Cu Chi Tunnels, we headed back to the city for some more food. We had heard a lot about Pizza 4P's, a popular pizza place in HCMC that uses local ingredients and has a unique fusion of Italian and Vietnamese flavors. 
@@ -443,7 +447,7 @@ export default function SouthernVietnam() {
 
                         <h3 id="mekong-delta-day-3" className="text-2xl font-bold mb-4">Day 3 - Cai Rang Floating Market</h3>
                         <p className="mb-6 leading-relaxed">
-                            The following day started early with a tour to the Cai Rang Floating Market, the largest floating market in the Mekong Delta.
+                            The following day started early with a tour (booked via the "Travel Service Center" under the International Hotel in Can Tho) to the Cai Rang Floating Market, the largest floating market in the Mekong Delta.
                             This market is an iconic sight of the Mekong Delta, with vendors selling their goods from boats on the river.
                             Apparently, this market has decreased in size over the years, as improved logistics make a floating market less necessary for the locals, but it is still a popular tourist attraction and a great way to experience the local culture and way of life in the Mekong Delta.
                             Fun fact: To indicate what produce they are selling, vendors at the market tie some of their produce to a long pole on the boat, which can be seen from a distance.
@@ -499,7 +503,11 @@ export default function SouthernVietnam() {
 
                         <h3 id="mekong-delta-day-4" className="text-2xl font-bold mb-4">Day 4 - My Tho</h3>
                         <p className="mb-6 leading-relaxed">
-                            After our troubles with finding a local tour operator in Can Tho, we decided to book a tour to My Tho with Get Your Guide.
+                            After our troubles with finding a local tour operator in Can Tho, we decided to book a tour to My Tho with{' '}
+                            <a href="https://www.getyourguide.com/ho-chi-minh-city-l272/from-ho-chi-minh-city-mekong-delta-small-group-tour-t60784/?utm_source=getyourguide&utm_medium=sharing&utm_campaign=activity_details" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                            Get Your Guide
+                            </a>
+                            .
                             During this tour, we visited two islands nearby My Tho: Thoi Son / Unicorn Island and Con Phung / Phoenix Island.
                             Here, we partook in many activities, including tasting fresh honey right off the hive, trying some coconut candy, driving through the jungle on a small tuktuk, flowing down the river on a small boat, listening to tradidional music, and eating a tasty lunch.
                             Afterwards, we visited the Vinh Trang Pagoda, a temple famous for its three giant Buddha statues, including a Sleeping Buddha and a fat, happy Buddha.
