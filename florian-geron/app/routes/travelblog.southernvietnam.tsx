@@ -509,8 +509,8 @@ export default function SouthernVietnam() {
                             </a>
                             .
                             During this tour, we visited two islands nearby My Tho: Thoi Son / Unicorn Island and Con Phung / Phoenix Island.
-                            Here, we partook in many activities, including tasting fresh honey right off the hive, trying some coconut candy, driving through the jungle on a small tuktuk, flowing down the river on a small boat, listening to tradidional music, and eating a tasty lunch.
-                            Afterwards, we visited the Vinh Trang Pagoda, a temple famous for its three giant Buddha statues, including a Sleeping Buddha and a fat, happy Buddha.
+                            Here, we partook in many activities, including tasting fresh honey right off the hive, trying some coconut candy, driving through the jungle on a small tuktuk, flowing down the river on a small boat (sampan), and listening to tradidional music.
+                            Afterwards, we visited the Vinh Trang Pagoda, a temple famous for its three giant Buddha statues, including a Reclining Buddha and a fat, happy Buddha.
                             <br /><br />
                             <Carousel className="w-full">
                                 <CarouselContent className="-ml-1">
