@@ -1007,7 +1007,7 @@ export default function SouthernVietnam() {
                                 After walking to its direction using Google Maps, we found the place by the seeing the tapir logo on the door.
                                 TAK is a charming speakeasy with an intimate atmosphere, catering to the artists and creatives of Can Tho.
                                 While the rest of the city was celebrating the football victory against Thailand that evening, the people in the bar seemed to be discussing other topics.
-                                The staff didn't speak English, but were very friendly and created some amazing cocktails for us.
+                                The staff did not speak English, but were very friendly and created some amazing cocktails for us.
                                 <br />
                                 Find it <a href="https://maps.app.goo.gl/9BfacgV2JwPujkyR8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
 
