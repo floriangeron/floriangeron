@@ -900,7 +900,7 @@ export default function SouthernVietnam() {
                                 This café has one location on the top floor of the Cafe Apartment building and another on the floor below, where we had a drink.
                                 The drinks were good and we very much enjoyed the view from the balcony.
                                 It's a fun place to have a drink and take some pictures.
-                                The entire Cafe Apartment is a bit of a tourist trap, but if still worth a visit in our opinion.
+                                The entire Cafe Apartment is a bit of a tourist trap, but it is still worth a visit in our opinion.
                                 <br />
                                 Find it <a href="https://maps.app.goo.gl/jPUuG7tsRDVTCfYy5" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                             
