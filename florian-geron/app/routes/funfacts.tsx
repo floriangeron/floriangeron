@@ -116,7 +116,7 @@ const funfacts = [
     "'Bolshevik' (большевик) is the Russian word for 'the majority'.\nWhen Lenin's faction broke off from the Social Democratic Labour Party in 1903, they adopted the name 'Bolshevik', even though the faction was usually in the minority.",
     "'Soviet' (совет) is the Russian word for 'council'.",
     "Giraffes are about 30 times more likely to be struck by lightning than humans.",
-    "The average horsepower of a single horse is about 0.7 horsepower over a sustained period of time.",
+    "The average horsepower of a single horse is about 0.7 to 0.8 hp over a sustained period of time. A horse can spike up to 15 hp in very short bursts.",
     "1 in 18 people has a third nipple.",
     "Australia is wider than the Moon.",
     "There are more trees on Earth than stars in the Milky way. However, there are more stars in the observable universe than there are grains of sand on Earth.",
@@ -151,9 +151,9 @@ const funfacts = [
     "The Duomo cathedral in Milan features a golden statue of the Virgin Mary on its top, called the Madonnina. For centuries, Milanese tradition has prohibited any building to be higher than the Madonnina, as nothing else should be closer to the heavens.\nTo circumvent this issue, a small replica of the statue is made whenever a new skyscraper is built, and placed on its very top.",
     "At the start of 1990, Poland bordered three sovereign states: East-Germany, Czechoslovakia, and the Soviet Union.\n\nNow, Poland borders seven sovereign states, none of which existed in 1990.\n\n(East-Germany reunited with West-Germany, Czechoslovakia split up, and the Soviet Union broke up into its 14 constituent republics, 4 of which now border Poland.)",
     "Pineapples contain an enzyme that breaks down proteins - the essential building block of animal tissue. This causes the tingling sensation in your mouth when you eat pineapple - it’s the enzyme breaking down the proteins in your mouth.",
-
-
-    
+    "Stella Artois is a famous Belgian beer brewed by AB Inbev in Leuven.\n\nThere are many stories about the origin of its name. There is a folk story that claims that the beer originated in the Artois region in northern France. Buildings here would be decorated with a sign on their facade to indicate their function, and pubs would have a star on their facade. According to the folk story, that's why the beer is called 'Star from Artois'.\n\nUnfortunately, the true origin of the name is more straightforward. The beer is named after its original brewer, Sébastian Artois. 'Stella', the Latin word for 'star', was chosen because the beer was first brewed in 1926 as a Christmas beer, referencing the Christmas star.",
+    "According to folk etymology, the French word bistro comes from Russian быстро (bystro), meaning 'quickly', supposedly shouted by Russian soldiers in Paris during the occupation after Napoleon’s defeat in 1814. However, there is little historical evidence to support this claim. The term 'bistro' likely originated from the word bistraud, a regional French term for a small tavern or inn.",
+    // 130
 
     
 

@@ -36,6 +36,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
     { to: "/pyramids", label: "Pyramids" },
     { to: "/funfacts", label: "Fun Facts" },
     { to: "/cv", label: "Résumé" },
+    { to: "/travelblog", label: "Travel Blog" },
     { to: "/contact", label: "Contact" },
   ];
 
@@ -89,7 +90,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
 
         {/* Main Content */}
         <div
-          className={`main-content flex-1 overflow-auto transition-all duration-300 ${
+          className={`main-content flex-1 overflow-visible transition-all duration-300 ${
             isSidebarOpen ? "ml-64" : "ml-0"
           }`}
         >
