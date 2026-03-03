@@ -1,4 +1,13 @@
 import { Link } from "@remix-run/react";
+import type { MetaFunction } from "@remix-run/node";
+
+export const meta: MetaFunction = () => {
+  return [
+    { title: "Florian Géron" },
+    { name: "My personal website", content: "My Travel Blog" },
+    { description: "Collection of travel blogs." },
+  ];
+};
 
 export default function TravelBlog() {
     const blogPosts = [

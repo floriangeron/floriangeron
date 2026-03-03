@@ -12,6 +12,15 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "~/components/ui/carousel"
+import type { MetaFunction } from "@remix-run/node";
+
+export const meta: MetaFunction = () => {
+  return [
+    { title: "Vietnam Travel Blog" },
+    { name: "My personal website", content: "My Vietnam Travel Blog" },
+    { description: "Travel blog about Southern Vietnam." },
+  ];
+};
 
 export default function SouthernVietnam() {
     const [lightboxSrc, setLightboxSrc] = useState<string | null>(null);

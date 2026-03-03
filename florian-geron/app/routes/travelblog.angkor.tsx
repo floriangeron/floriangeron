@@ -1,3 +1,12 @@
+import type { MetaFunction } from "@remix-run/node";
+
+export const meta: MetaFunction = () => {
+  return [
+    { title: "Cambodia Travel Blog" },
+    { name: "My personal website", content: "My Cambodia Travel Blog" },
+    { description: "Travel blog about Cambodia." },
+  ];
+};
 
 export default function Angkor() {
     return (

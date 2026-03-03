@@ -1,3 +1,12 @@
+import type { MetaFunction } from "@remix-run/node";
+
+export const meta: MetaFunction = () => {
+  return [
+    { title: "Laos Travel Blog" },
+    { name: "My personal website", content: "My Laos Travel Blog" },
+    { description: "Travel blog about Laos." },
+  ];
+};
 
 export default function Laos() {
     return (
