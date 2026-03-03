@@ -773,6 +773,28 @@ export default function SouthernVietnam() {
                                 The only downside of this restaurant is its rather steep prices compared to other restaurants in HCMC.
                                 <br />
                                 Find it <a href="https://maps.app.goo.gl/JeUM5eqcU9UpdUzJ9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            
+                                <div className="grid md:grid-cols-2 gap-2">
+                                    <figure className="md:col-span-1">
+                                        <img
+                                            src="/images/travel/vietnam/Pizza2.jpg"
+                                            alt="Pizza 4P's"
+                                            className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                            onClick={() => openLightbox('/images/travel/vietnam/Pizza2.jpg')}
+                                        />
+                                        <figcaption className="text-center text-sm text-gray-600">Our Starter - Mango wrapped in Italian proscuitto</figcaption>
+                                    </figure>
+                                    <figure className="md:col-span-1">
+                                        <img
+                                            src="/images/travel/vietnam/Pizza.jpg"
+                                            alt="Pizza 4P's"
+                                            className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                            onClick={() => openLightbox('/images/travel/vietnam/Pizza.jpg')}
+                                        />
+                                        <figcaption className="text-center text-sm text-gray-600">Pizza 4P's Half and Half Pizza - Tom Yum x Scallops</figcaption>
+                                    </figure>
+                                </div>
+                            
                             </CollapsibleReview>
 
                             <CollapsibleReview title="Propaganda" rating={3} scale="food">
@@ -781,6 +803,17 @@ export default function SouthernVietnam() {
                                 The food was not bad, but it was not amazing either, and we found it to be overpriced for the quality of the food.
                                 <br />
                                 Find it <a href="https://maps.app.goo.gl/VPZwEKFDvqWb3KsR6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            
+                                <figure className="md:col-span-1 w-[50%] mx-auto">
+                                    <img
+                                        src="/images/travel/vietnam/Propaganda.jpg"
+                                        alt="Propaganda Restaurant"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/vietnam/Propaganda.jpg')}
+                                    />
+                                </figure>
+                                <figcaption className="text-center text-sm text-gray-600">Propaganda Restaurant</figcaption>
+                            
                             </CollapsibleReview>
 
                             <CollapsibleReview title="Bếp Mẹ Ỉn - Nguyễn Thái Bình" rating={2.5} scale="food">
@@ -799,6 +832,27 @@ export default function SouthernVietnam() {
                                 The restaurant seems to attract both tourists and locals, and the service was good, though the AC was a little cold for our tastes, which we found to be a recurring theme in many Vietnamese restaurants with local clientele.
                                 <br />
                                 Find it <a href="https://maps.app.goo.gl/dVEvrTYbfpuqZcin9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>. 
+                            
+                                <div className="grid md:grid-cols-2 gap-2">
+                                    <figure className="md:col-span-1">
+                                        <img
+                                            src="/images/travel/vietnam/ManMoi1.JPG"
+                                            alt="Mặn Mòi, Tao Đàn"
+                                            className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                            onClick={() => openLightbox('/images/travel/vietnam/ManMoi1.JPG')}
+                                        />       
+                                    </figure>
+                                    <figure className="md:col-span-1">
+                                        <img
+                                            src="/images/travel/vietnam/ManMoi2.jpg"
+                                            alt="Mặn Mòi, Tao Đàn"
+                                            className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                            onClick={() => openLightbox('/images/travel/vietnam/ManMoi2.jpg')}
+                                        />
+                                    </figure>
+                                </div>
+                                <figcaption className="text-center text-sm text-gray-600">Mặn Mòi, Tao Đàn</figcaption>
+                            
                             </CollapsibleReview>
 
                             <CollapsibleReview title="KHAP KHAP Thai Bistro - Thảo Điền" rating={3} scale="food">
@@ -849,6 +903,27 @@ export default function SouthernVietnam() {
                                 The entire Cafe Apartment is a bit of a tourist trap, but if still worth a visit in our opinion.
                                 <br />
                                 Find it <a href="https://maps.app.goo.gl/jPUuG7tsRDVTCfYy5" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            
+                                <div className="grid md:grid-cols-2 gap-2">
+                                    <figure className="md:col-span-1">
+                                        <img
+                                            src="/images/travel/vietnam/CafeApt.jpg"
+                                            alt="Good Day Cafe in the Cafe Apartment"
+                                            className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                            onClick={() => openLightbox('/images/travel/vietnam/CafeApt.jpg')}
+                                        />       
+                                    </figure>
+                                    <figure className="md:col-span-1">
+                                        <img
+                                            src="/images/travel/vietnam/CafeApt2.JPG"
+                                            alt="Good Day Cafe in the Cafe Apartment"
+                                            className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                            onClick={() => openLightbox('/images/travel/vietnam/CafeApt2.JPG')}
+                                        />
+                                    </figure>
+                                </div>
+                                <figcaption className="text-center text-sm text-gray-600">Good Day Cafe in the Cafe Apartment</figcaption>
+                            
                             </CollapsibleReview>
 
                             <CollapsibleReview title="Butter Bean" rating={4.5} scale="coffee">
@@ -867,6 +942,27 @@ export default function SouthernVietnam() {
                                 It's easy to meet some other travelers here, and the drinks are reasonably priced for a rooftop bar.
                                 <br />
                                 Find it <a href="https://maps.app.goo.gl/3mRZGKkkSQqGmnYm6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            
+                                <div className="grid md:grid-cols-2 gap-2">
+                                    <figure className="md:col-span-1">
+                                        <img
+                                            src="/images/travel/vietnam/hochiminh.JPG"
+                                            alt="The View Rooftop Bar"
+                                            className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                            onClick={() => openLightbox('/images/travel/vietnam/hochiminh.JPG')}
+                                        />       
+                                    </figure>
+                                    <figure className="md:col-span-1">
+                                        <img
+                                            src="/images/travel/vietnam/TheView2.jpg"
+                                            alt="The View Rooftop Bar"
+                                            className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                            onClick={() => openLightbox('/images/travel/vietnam/TheView2.jpg')}
+                                        />
+                                    </figure>
+                                </div>
+                                <figcaption className="text-center text-sm text-gray-600">The View Rooftop Bar</figcaption>
+                            
                             </CollapsibleReview>
 
                             <CollapsibleReview title="Mary Jane's The Bar" rating={4.5} scale="drink">
@@ -875,6 +971,17 @@ export default function SouthernVietnam() {
                                 This is not a particularly fancy place, but a nice place to have a drink with friends or a romantic date night, with good cocktails at reasonable prices and a relaxed atmosphere.
                                 <br />
                                 Find it <a href="https://maps.app.goo.gl/25VKrHqTTRdr134Z9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            
+                                <figure className="md:col-span-1 w-[100%] mx-auto">
+                                    <img
+                                        src="/images/travel/vietnam/MaryJane2.JPG"
+                                        alt="Mary Jane's The Bar View"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/vietnam/MaryJane2.JPG')}
+                                    />
+                                </figure>
+                                <figcaption className="text-center text-sm text-gray-600">The View from Mary Jane's The Bar</figcaption>
+                            
                             </CollapsibleReview>
 
                             <CollapsibleReview title="Rabbit Hole" rating={4} scale="drink">
@@ -892,6 +999,17 @@ export default function SouthernVietnam() {
                                 We had some of the most delicious cocktails of our trip here, and we would highly recommend this place.
                                 <br />
                                 Find it <a href="https://maps.app.goo.gl/PuwWzwRafbiyTs4Y6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            
+                                <figure className="md:col-span-1 w-[50%] mx-auto">
+                                    <img
+                                        src="/images/travel/vietnam/Lulu.jpg"
+                                        alt="The Lulu Bar & Eatery"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/vietnam/Lulu.jpg')}
+                                    />
+                                </figure>
+                                <figcaption className="text-center text-sm text-gray-600">A corn-based cocktail at Lulu Bar & Eatery</figcaption>
+                            
                             </CollapsibleReview>
 
                             <CollapsibleReview title="IMC Rooftop Bar" rating={3} scale="drink">
@@ -899,6 +1017,17 @@ export default function SouthernVietnam() {
                                 We were happy to spend a couple of hours here waiting for our flight, but we wouldn't necessarily recommend coming here just for a drink.
                                 <br />
                                 Find it <a href="https://maps.app.goo.gl/Dsjhiqu38wYs1LD48" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            
+                                <figure className="md:col-span-1 w-[100%] mx-auto">
+                                    <img
+                                        src="/images/travel/vietnam/IMCView.JPG"
+                                        alt="The IMC Rooftop Bar View"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/vietnam/IMCView.JPG')}
+                                    />
+                                </figure>
+                                <figcaption className="text-center text-sm text-gray-600">IMC Rooftop Bar View</figcaption>
+                            
                             </CollapsibleReview>
 
                         <h3 id="HCMC-street-food" className="text-2xl font-bold mb-4">HCMC Street Food</h3>
