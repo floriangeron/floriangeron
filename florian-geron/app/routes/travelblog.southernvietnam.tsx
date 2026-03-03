@@ -809,6 +809,14 @@ export default function SouthernVietnam() {
                                 Find it <a href="https://maps.app.goo.gl/3Xuv2u6mnNLdqHPL7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>. 
                             </CollapsibleReview>
 
+                            <CollapsibleReview title="Ivegan Ben Thanh" rating={1} scale="food">
+                                We might have simply ordered the wrong thing, but we were not impressed by our visit to this vegan cafe.
+                                We found the food to be underwhelming and overpriced (we both had a bowl which wasn't flavorful), the interior was rather sterile and cold, and the service was not great either.
+                                Not a terrible experience, but we wouldn't recommend this place.
+                                <br />
+                                Find it <a href="https://maps.app.goo.gl/CMDXMkMYC6H5EaqK9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            </CollapsibleReview>
+
                         <h3 id="HCMC-cafes" className="text-2xl font-bold mb-4">HCMC Cafes</h3>
 
                             <CollapsibleReview title="Garden Kisses" rating={4.5} scale="coffee">
@@ -834,12 +842,13 @@ export default function SouthernVietnam() {
                                 Find it <a href="https://maps.app.goo.gl/FCVjsNeAgFpSV4oPA" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                             </CollapsibleReview>
 
-                            <CollapsibleReview title="Ivegan Ben Thanh" rating={1} scale="coffee">
-                                We might have simply ordered the wrong thing, but we were not impressed by our visit to this vegan cafe.
-                                We found the food to be underwhelming and overpriced (we both had a bowl which wasn't flavorful), the interior was rather sterile and cold, and the service was not great either.
-                                Not a terrible experience, but we wouldn't recommend this place.
+                            <CollapsibleReview title="Good Day (Cafe Apartment)" rating={4} scale="coffee">
+                                This café has one location on the top floor of the Cafe Apartment building and another on the floor below, where we had a drink.
+                                The drinks were good and we very much enjoyed the view from the balcony.
+                                It's a fun place to have a drink and take some pictures.
+                                The entire Cafe Apartment is a bit of a tourist trap, but if still worth a visit in our opinion.
                                 <br />
-                                Find it <a href="https://maps.app.goo.gl/CMDXMkMYC6H5EaqK9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                                Find it <a href="https://maps.app.goo.gl/jPUuG7tsRDVTCfYy5" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                             </CollapsibleReview>
 
                             <CollapsibleReview title="Butter Bean" rating={4.5} scale="coffee">
