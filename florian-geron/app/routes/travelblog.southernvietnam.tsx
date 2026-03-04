@@ -71,7 +71,7 @@ export default function SouthernVietnam() {
     }
 
     return (
-        <div className="min-h-screen bg-white">
+        <div className="min-h-screen bg-white overflow-x-hidden">
             <style>{`
                 details.group summary {
                     list-style: none;
@@ -100,6 +100,24 @@ export default function SouthernVietnam() {
                 main img {
                     max-width: 100%;
                     height: auto;
+                }
+                /* Prevent long words or code blocks from causing horizontal overflow */
+                main {
+                    overflow-wrap: anywhere;
+                    word-break: break-word;
+                }
+                /* Make tables, iframes, svgs and videos responsive */
+                main table, main iframe, main svg, main video {
+                    max-width: 100%;
+                    width: 100%;
+                    height: auto;
+                    table-layout: auto;
+                }
+                /* Preserve pre/code formatting but allow wrapping on narrow screens */
+                main pre, main code {
+                    white-space: pre-wrap;
+                    word-break: break-word;
+                    max-width: 100%;
                 }
             `}</style>
             {/* Title Card */}
