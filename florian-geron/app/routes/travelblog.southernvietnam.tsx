@@ -71,7 +71,7 @@ export default function SouthernVietnam() {
     }
 
     return (
-        <div className="min-h-screen bg-white">
+        <div className="min-h-screen bg-white overflow-x-hidden">
             <style>{`
                 details.group summary {
                     list-style: none;
@@ -96,9 +96,32 @@ export default function SouthernVietnam() {
                     max-height: 2000px;
                     opacity: 1;
                 }
+                /* Ensure images inside the article scale on narrow screens */
+                main img {
+                    max-width: 100%;
+                    height: auto;
+                }
+                /* Prevent long words or code blocks from causing horizontal overflow */
+                main {
+                    overflow-wrap: anywhere;
+                    word-break: break-word;
+                }
+                /* Make tables, iframes, svgs and videos responsive */
+                main table, main iframe, main svg, main video {
+                    max-width: 100%;
+                    width: 100%;
+                    height: auto;
+                    table-layout: auto;
+                }
+                /* Preserve pre/code formatting but allow wrapping on narrow screens */
+                main pre, main code {
+                    white-space: pre-wrap;
+                    word-break: break-word;
+                    max-width: 100%;
+                }
             `}</style>
             {/* Title Card */}
-            <div className="relative h-[700px] w-full overflow-hidden">
+            <div className="relative h-[350px] sm:h-[450px] md:h-[700px] w-full overflow-hidden">
                 <img
                     src="/images/travel/vietnam/hochiminh.JPG"
                     alt="Southern Vietnam"
@@ -155,7 +178,7 @@ export default function SouthernVietnam() {
 
                 {/* Blog Content with right-side TOC */}
                 <div className="grid md:grid-cols-4 gap-8">
-                    <main className={`md:col-span-3 text-gray-800 ${fontSizeClass}`}>
+                    <main className={`md:col-span-3 text-gray-800 ${fontSizeClass} max-w-[min(100%,65ch)] mx-auto md:max-w-none md:mx-0 px-4`}>
 
                         <h2 id="our-journey" className="text-4xl font-bold mb-4">Our Journey</h2>
                         <h3 id="what-we-did" className="text-2xl font-bold mb-4">What we did</h3>
@@ -900,7 +923,7 @@ export default function SouthernVietnam() {
                                 This café has one location on the top floor of the Cafe Apartment building and another on the floor below, where we had a drink.
                                 The drinks were good and we very much enjoyed the view from the balcony.
                                 It's a fun place to have a drink and take some pictures.
-                                The entire Cafe Apartment is a bit of a tourist trap, but if still worth a visit in our opinion.
+                                The entire Cafe Apartment is a bit of a tourist trap, but it is still worth a visit in our opinion.
                                 <br />
                                 Find it <a href="https://maps.app.goo.gl/jPUuG7tsRDVTCfYy5" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                             
