@@ -96,9 +96,14 @@ export default function SouthernVietnam() {
                     max-height: 2000px;
                     opacity: 1;
                 }
+                /* Ensure images inside the article scale on narrow screens */
+                main img {
+                    max-width: 100%;
+                    height: auto;
+                }
             `}</style>
             {/* Title Card */}
-            <div className="relative h-[700px] w-full overflow-hidden">
+            <div className="relative h-[350px] sm:h-[450px] md:h-[700px] w-full overflow-hidden">
                 <img
                     src="/images/travel/vietnam/hochiminh.JPG"
                     alt="Southern Vietnam"
@@ -155,7 +160,7 @@ export default function SouthernVietnam() {
 
                 {/* Blog Content with right-side TOC */}
                 <div className="grid md:grid-cols-4 gap-8">
-                    <main className={`md:col-span-3 text-gray-800 ${fontSizeClass}`}>
+                    <main className={`md:col-span-3 text-gray-800 ${fontSizeClass} max-w-[min(100%,65ch)] mx-auto md:max-w-none md:mx-0 px-4`}>
 
                         <h2 id="our-journey" className="text-4xl font-bold mb-4">Our Journey</h2>
                         <h3 id="what-we-did" className="text-2xl font-bold mb-4">What we did</h3>
