@@ -39,6 +39,51 @@ export default function TravelBlog() {
                 "Join me on our one-week journey through Laos, exploring some of the beautiful landscapes and towns of this hidden gem in Southeast Asia.",
             imageUrl: "/images/travel/Laos.jpeg",
         },
+        {
+            id: "thailand",
+            title: "Thailand Speedrun",
+            date: "November 2025",
+            excerpt: "How much of Thailand can one see in two weeks?",
+            content:
+                "Join me to find out how much of Thailand we can cover in two weeks. We'll visit the mountains of the North, the beaches of the South, and the capital of Bangkok.",
+            imageUrl: "/images/travel/Thailand.JPG",
+        },
+        {
+            id: "vienna",
+            title: "City Trip to Vienna",
+            date: "July 2025",
+            excerpt: "City trip to Vienna",
+            content:
+                "Join me on a city trip to Vienna, the capital of a fallen Empire, as well as a contemporary city of music, art and architecture.",
+            imageUrl: "/images/travel/Vienna.jpg",
+        },
+        {
+            id: "cinqueterre",
+            title: "Discovering Cinque Terre",
+            date: "August 2024",
+            excerpt: "Ligurian coast in blistering summer heat",
+            content:
+                "Join me on a quick tour through the Ligurian coast's most picturesque cities, the Cinque Terre.",
+            imageUrl: "/images/travel/CinqueTerre.JPG",
+        },
+        {
+            id: "albania",
+            title: "Albania - Mountain climbing and beach chilling",
+            date: "September 2023",
+            excerpt: "Albania",
+            content:
+                "Join me on our one-week journey through Albania, where we tried to cover as much of this country as we could.",
+            imageUrl: "/images/travel/Albania.JPG",
+        },
+        {
+            id: "fiji",
+            title: "Exploring Fiji's tropical islands",
+            date: "June 2023",
+            excerpt: "Fiji",
+            content:
+                "Join me on a five-day tour to some of Fiji's tropical little islands.",
+            imageUrl: "/images/travel/Fiji.jpg",
+        },
     ];
 
     // Group posts by year (extract 4-digit year from the `date` string)
