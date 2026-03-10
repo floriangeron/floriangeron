@@ -66,7 +66,7 @@ export default function AboutMe() {
 
         <footer className="bg-gray-100 text-center py-4 mt-auto">
           <p className="text-sm text-gray-600">
-            Last updated: May 15th, 2025
+            Last updated: March 10th, 2026
           </p>
         </footer>
         
