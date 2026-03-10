@@ -156,7 +156,7 @@ const funfacts = [
     // 130
     "While jeans are heavily linked to the US in popular culture, the etymology of this word tells a different story. The word 'jeans' derives from the city of Genoa (Gênes in French), where sailors and workers wore a durable, twilled cotton fabric. The related fabric 'denim' originates from 'serge de Nîmes', a sturdy fabric produced in Nîmes, France. This fabric and garment were then popularized in the US by Levi Strauss and Jacob Davis, who patented riveted work pants in 1873.",
     "For their space program, the Soviet Union launched dozens of rockets with dogs. For a myriad of reasons, they preferred stray, female dogs for these missions.\n\nThis means that, if you lost your dog in Moscow in the 50s or 60s, there was a real possibility that it would end up in space.",
-    "The first people to spend the winter in Antarctica were the crew of the Belgian expedition aboard the Belgica, led by captainAdrien de Gerlache, after their ship became trapped in pack ice in 1898.\n\nOne of the crew members was a young Norwegian named Roald Amundsen, who would later become the first person to reach the South Pole in 1911",
+    "The first people to spend the winter in Antarctica were the crew of the Belgian expedition aboard the Belgica, led by captain Adrien de Gerlache, after their ship became trapped in pack ice in 1898.\n\nOne of the crew members was a young Norwegian named Roald Amundsen, who would later become the first person to reach the South Pole in 1911",
     
 
 ]
