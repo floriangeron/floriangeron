@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-import { MapPinIcon, GlobeAltIcon, CurrencyDollarIcon, ClockIcon, CalendarIcon } from "@heroicons/react/24/outline";
+import { Link } from "@remix-run/react";
+import { MapIcon, MapPinIcon, GlobeAltIcon, CurrencyDollarIcon, ClockIcon, CalendarIcon } from "@heroicons/react/24/outline";
 import AnimatedWave from "~/components/AnimatedWave";
 import { StarScale } from '../components/ui/StarRating';
 import CollapsibleReview from '../components/ui/CollapsibleReview';
@@ -1250,6 +1251,16 @@ export default function SouthernVietnam() {
                     </aside>
                 </div>
             </div>
+            {/* Page-only Map button (left of the global Home button) */}
+            <Link
+                to="/travelblog"
+                title="Back to travel blogs overview"
+                className="fixed top-4 right-16 bg-gray-300 text-gray-600 p-3 rounded-full shadow-md hover:bg-gray-400 transition duration-300 z-20 flex items-center justify-center"
+                aria-label="Travel Blog"
+            >
+                <MapIcon className="w-5 h-5" />
+            </Link>
+
             {lightboxSrc && (
                 <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75" role="dialog" aria-modal="true">
                     <button
