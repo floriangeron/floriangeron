@@ -18,7 +18,7 @@ export default function TravelBlog() {
             date: "December 2025",
             excerpt: "Exploring the main sights of Vietnam's southern region...",
             content:
-                "Join me on my exploration of Ho Chi Minh City and some of its surrounding natural beauty. With only one week to spend here, we explored the city itself and the impressive Mekong Delta to its South.",
+                "Join me on our exploration of Ho Chi Minh City and some of its surrounding natural beauty. With only one week to spend here, we explored the city itself and the impressive Mekong Delta to its South.",
             imageUrl: "/images/travel/vietnam/hochiminh.JPG",
         },
         {
@@ -54,7 +54,7 @@ export default function TravelBlog() {
             date: "July 2025",
             excerpt: "City trip to Vienna",
             content:
-                "Join me on a city trip to Vienna, the capital of a fallen Empire, as well as a contemporary city of music, art and architecture.",
+                "Join me on a city trip to Vienna, a capital fit for an Empire, as well as a contemporary city of music, art and architecture.",
             imageUrl: "/images/travel/Vienna.jpg",
         },
         {
@@ -65,6 +65,15 @@ export default function TravelBlog() {
             content:
                 "Join me on a quick tour through the Ligurian coast's most picturesque cities, the Cinque Terre.",
             imageUrl: "/images/travel/CinqueTerre.JPG",
+        },
+        {
+            id: "malta",
+            title: "Nature and culture on Malta",
+            date: "May 2024",
+            excerpt: "Exploring Malta",
+            content:
+                "Join me in exploring Malta, the EU's smallest Member State located in the middle of the Mediterranean.",
+            imageUrl: "/images/travel/Malta.jpg",
         },
         {
             id: "albania",
