@@ -38,6 +38,7 @@ export function StarLine({
             stroke="currentColor"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
+            style={{ minWidth: '1.5rem', minHeight: '1.5rem' }}
           >
             <path d="M12 .587l3.668 7.431L23.327 9.75l-5.66 5.517L18.999 23 12 19.771 5.001 23l1.331-7.733L.672 9.75l7.659-1.732L12 .587z" />
           </svg>
