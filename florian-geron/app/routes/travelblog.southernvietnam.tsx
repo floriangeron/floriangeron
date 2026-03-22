@@ -72,7 +72,7 @@ export default function SouthernVietnam() {
     }
 
     return (
-        <div className="min-h-screen bg-white overflow-x-hidden">
+        <div className="min-h-screen bg-white">
             <style>{`
                 details.group summary {
                     list-style: none;
@@ -1254,7 +1254,7 @@ export default function SouthernVietnam() {
 
                     <aside className="hidden md:block md:col-span-1">
                         
-                        <nav aria-label="Table of contents" className="sticky top-8 self-start bg-white/90 dark:bg-gray-900/80 text-right p-4 hover:scale-105 transition-transform duration-300">
+                        <nav aria-label="Table of contents" className="sticky top-8 self-start bg-white/90 dark:bg-gray-900/80 text-right p-4 hover:scale-105 transition-transform duration-300 overflow-auto">
                             <h3 className="text-lg font-semibold mb-3">Contents</h3>
                             <ul className="space-y-2 text-sm text-gray-700">
                                 <li>
