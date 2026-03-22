@@ -150,15 +150,15 @@ export default function TravelBlog() {
                             >
                             <defs>
                                 <linearGradient id="g" x1="0" x2="0" y1="0" y2="1">
-                                    <stop offset="0%" stopColor="#E6EEF8" />
-                                    <stop offset="100%" stopColor="#DCEFFE" />
+                                    <stop offset="0%" stopColor="#c6c7c9" />
+                                    <stop offset="100%" stopColor="#b3b0b0" />
                                 </linearGradient>
                             </defs>
                             <path
                                 d="M30 0 C10 140, 50 280, 30 420 C10 560, 50 700, 30 840 C10 980, 50 1120, 30 1200"
                                 fill="none"
                                 stroke="url(#g)"
-                                strokeWidth="12"
+                                strokeWidth="6"
                                 strokeLinecap="round"
                                 strokeLinejoin="round"
                                 opacity="0.98"
@@ -174,7 +174,7 @@ export default function TravelBlog() {
                                 {/* Year marker positioned to align with the left SVG timeline */}
                                 <div className="absolute -left-8 md:-left-48 flex items-center">
                                     <div className="flex items-center space-x-3">
-                                        <div className="bg-white/90 border border-black-200 px-6 py-2 rounded-md text-lg md:text-3xl font-bold text-blue-500 shadow-sm hover:shadow-xl transition-shadow duration-300">
+                                        <div className="bg-white/90 border border-black-200 px-6 py-2 rounded-md text-lg md:text-3xl font-bold text-gray-500 shadow-sm hover:shadow-xl transition-shadow duration-300">
                                             {year}
                                         </div>
                                     </div>
