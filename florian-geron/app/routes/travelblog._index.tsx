@@ -68,7 +68,7 @@ export default function TravelBlog() {
         },
         {
             id: "malta",
-            title: "Nature and culture on Malta",
+            title: "Nature and Culture on Malta",
             date: "May 2024",
             excerpt: "Exploring Malta",
             content:

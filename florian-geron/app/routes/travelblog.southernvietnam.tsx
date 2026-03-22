@@ -268,10 +268,16 @@ export default function SouthernVietnam() {
                         <h3 id="ho-chi-minh-city-day-2" className="text-2xl font-bold mb-4">Day 2 - Saigon Fever</h3>
                         <p className="mb-6 leading-relaxed">
                             Our first full day in Ho Chi Minh City! We head a lot of things to do in this city, but one thing was at the top of our mind. We would be flying home on the 23rd of December, leaving us no time to do Christmas shopping at home. Therefore, our first stop in HCMC would be some markets to buy some unique Christmas gifts for our friends and family.
-                            We took a Grab to the Ben Thanh Market, the main market in the city. We stopped for an eggyolk coffee at a small cafe right across the street from the market first, before heading into the market. 
+                            We took a Grab to the Ben Thanh Market, the main market in the city. We stopped for an eggyolk coffee at a{' '}
+                            <a href="https://maps.app.goo.gl/nETah8XakM12taZK7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                            small cafe
+                            </a> right across the street from the market first, before heading into the market. 
                             The market itself is a bustling hive with local goods and knockoff designer items. We had a lot of fun browsing through the different stalls and picking out some unique gifts for our loved ones back home.
                             <br />
-                            After the market, we headed to Roots Plant-based cafe for lunch. This place was a little hidden gem, with a cozy atmosphere and delicious plant-based dishes. We both really enjoyed our meals here and would highly recommend it to anyone looking for a tasty and healthy meal in HCMC. The coconut coffee was especially memorable!
+                            After the market, we headed to{' '}
+                            <a href="https://maps.app.goo.gl/PKY7hJrvy7oDJoie8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                            Roots Plant-Based Cafe
+                            </a> for lunch. This place was a little hidden gem, with a cozy atmosphere and delicious plant-based dishes. We both really enjoyed our meals here and would highly recommend it to anyone looking for a tasty and healthy meal in HCMC. The coconut coffee was especially memorable!
                             <br />
                             After lunch, we went back to the markets for some more shopping. We headed to the Com Tam Saigon Central Market, which was a little less touristy than the Ben Thanh Market. Interestingly, the vendors here were less open to bargaining than at the Ben Thanh Market. At Benh Than, prices would start very high, but you could bargain down as much as 80%. At Com Tam, prices were more reasonable to start with, but there was less room for bargaining.
                             <br />
@@ -279,7 +285,10 @@ export default function SouthernVietnam() {
                             After this shopping spree, we visited the War Remnants Museum. This is a museum that I can highly recommend, as it will leave a lasting impression on you. The museum shows the brutal reality and the horrors of the Vietnam War, with graphic photos from the war. Especially the section on the lasting effects of Agent Orange left a deep impression, showing the impact that this chemical weapon still has on the Vietnamese people today.
                             <br />
                             <br />
-                            We processed the experience of the museum with a relaxed dinner at the Ben Nghe Street Food market, which felt familiar to us at this point. After dinner, we visited a classy speakeasy nextdoor, called the Rabbit Hole, which we highly recommend. We passed the Notre Dame Cathedral, dressed up in Christmas lights, on the way back to our hotel.
+                            We processed the experience of the museum with a relaxed dinner at the Ben Nghe Street Food market, which felt familiar to us at this point. After dinner, we visited a classy speakeasy nextdoor, called the{' '}
+                            <a href="https://maps.app.goo.gl/mVpzEka4jaibqFpUA" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                            Rabbit Hole
+                            </a>, which we highly recommend. We passed the Notre Dame Cathedral, dressed up in Christmas lights, on the way back to our hotel.
 
                             <div className="grid md:grid-cols-2 gap-2">
                                 <figure className="md:col-span-1">
