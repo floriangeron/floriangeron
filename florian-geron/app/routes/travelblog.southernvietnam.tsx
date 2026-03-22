@@ -358,11 +358,17 @@ export default function SouthernVietnam() {
                         <p className="mb-6 leading-relaxed">
                             The morning of our departure to Can Tho, I woke up with an ear infection. We visited the Centre Médical International, where a French doctor by the name of Emmanuel prescribed me some Fusidine, which took care of the infection quickly.
                             <br />
-                            We decided to go to a place called Propaganda for lunch. We were blown away by the drinks we ordered, but were slightly disappointed by the food. The decor of the place was very cool though, with a lot of communist propaganda art.
+                            We decided to go to a place called{' '}
+                            <a href="https://maps.app.goo.gl/ukijYixPmm6e5ZkR8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                            Propaganda
+                            </a> for lunch. We were blown away by the drinks we ordered, but were slightly disappointed by the food. The decor of the place was very cool though, with a lot of communist propaganda art.
                             <br />
                             After lunch, we checked out some last sights, including the Jade Emperor Pagoda, dedicated to the supreme god of Taoism.
                             We then visited the Cho Tan Dinh market, which was a little less touristy than the Ben Thanh Market, but we didn't have much success finding gifts here as it seemed to be more of a local market with a focus on textiles.
-                            We ended our stay in HCMC with a drink at Mary Jane's rooftop bar right opposite the market, another place we can highly recommend.
+                            We ended our stay in HCMC with a drink at{' '}
+                            <a href="https://maps.app.goo.gl/xjorqmXwe7upByvR7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                            Mary Jane's
+                            </a> rooftop bar right opposite the market, another place we can highly recommend.
 
                             <div className="grid md:grid-cols-2 gap-2">
                                 <figure className="md:col-span-1">
@@ -400,7 +406,10 @@ export default function SouthernVietnam() {
                             A memorable way to arrive in a new city!
                             <br /><br />
                             We roamed around the streets for a while, enjoying the festive atmosphere and high-fiving every other Vietnamese person we passed by.
-                            We ended up visiting a local speakeasy, called TAK. We were the only Westerners, and the staff didn't speak English, but were very friendly and welcoming. We had no trouble communicating thanks to Google Translate.
+                            We ended up visiting a local speakeasy, called {' '}
+                            <a href="https://maps.app.goo.gl/DAnCr8DF9bNo9L6y9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                            TAK
+                            </a>. We were the only Westerners, and the staff didn't speak English, but were very friendly and welcoming. We had no trouble communicating thanks to Google Translate.
                             We highly recommend this place, which seemed like an alternative place for the artists and creatives of the city to hang out.
                             
                             <div className="grid md:grid-cols-2 gap-2">
@@ -428,7 +437,10 @@ export default function SouthernVietnam() {
 
                         <h3 id="mekong-delta-day-2" className="text-2xl font-bold mb-4">Day 2 - Exploring Can Tho</h3>
                         <p className="mb-6 leading-relaxed">
-                            We started our first full day in Can Tho with a breakfast at a local cafe called Diem Tam - Ca Phe Co Hang. With great coffee and extremely low prices, this place is a hidden gem and a great way to start the day in Can Tho.
+                            We started our first full day in Can Tho with a breakfast at a local cafe called {' '}
+                            <a href="https://maps.app.goo.gl/JmNK41Ek9QmZamDb8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                            Diem Tam - Ca Phe Co Hang
+                            </a>. With great coffee and extremely low prices, this place is a hidden gem and a great way to start the day in Can Tho.
                             <br /><br />
                             To start off our time in Can Tho, we visited two temples: the Phat-Giao Viet-Nam, a Buddhist temple with mixed Asian influences, and the Muniransay Khmer Buddhist temple, a temple with a unique blend of Vietnamese and Khmer architectural styles. 
                             <br />
@@ -456,13 +468,19 @@ export default function SouthernVietnam() {
 
                             <br />
                             After visiting the temples, we strolled along the riverside quay, looking for tour operators.
-                            This was a surprisingly difficult task, as most of the addresses on Google Maps related to Tour operators were not accurate.
-                            We ended up finding a tour operator that could take us to the floating markets the next day.
-                            For lunch, we went to L'Escale, a rooftop French bistro with a nice view over the Mekong.
+                            This was a surprisingly difficult task, as most of the addresses on Google Maps related to tour operators were not accurate.
+                            We ended up finding a tour operator that could take us to the floating markets the next day on Hai Ba Trung street, close to the International Hotel.
+                            For lunch, we went to {' '}
+                            <a href="https://maps.app.goo.gl/hhUDMMjr1riRxzV8A" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                            L'Escale
+                            </a>, a rooftop French bistro with a nice view over the Mekong.
                             After lunch, we walked over the Love Bridge to a resort area that was still in development.
                             When walking back, we got caught in a heavy rainstorm, at which point we decided to Grab back to our hotel.
                             <br /><br />
-                            We ended our day with a hotpot dinner at a local restaurant called Com O 68 Can Tho. Once again, English was not spoken by the staff nor were there any English menus, but the staff was very friendly and explained the process of cooking with the hotpot to us.
+                            We ended our day with a hotpot dinner at a local restaurant called {' '}
+                            <a href="https://maps.app.goo.gl/rBxfQvvfZzNJDjaN7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                            Com O 68 Can Tho
+                            </a>. Once again, English was not spoken by the staff nor were there any English menus, but the staff was very friendly and explained the process of cooking with the hotpot to us using nothing more than good old sign language.
 
                             <div className="grid md:grid-cols-2 gap-2">
                                 <figure className="md:col-span-1">
@@ -578,24 +596,33 @@ export default function SouthernVietnam() {
                             </Carousel>
                             <br /><br />
 
-                            We ended our day back in HCMC, where we had dinner at Bep Me In (Nguyen Thai Binh branch), which was highly recommended on several blogs online.
-                            The food was rather meat-focused and underwhelming, and the AC was very cold for our tastes, so all in all we didn't have a great experience here.
-                        
                         </p>
 
                         <h2 id="HCMC-revisited" className="text-4xl font-bold mb-4">HCMC Revisited</h2>
                         <h3 id="HCMC-revisited-day-1" className="text-2xl font-bold mb-4">Day 1 - The last highlights</h3>
                         <p className="mb-6 leading-relaxed">
                             Our last full day on our trip! 
-                            We started the day with a coffee and a baked bun at Garden Kisses, a cute cafe with nice food and drinks!
+                            We started the day with a coffee and a baked bun at {' '}
+                            <a href="https://maps.app.goo.gl/2Tbr9UM6haQskqJw7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                            Garden Kisses
+                            </a>, a cute cafe with nice food and drinks!
                             We decided to check off some of the sights we hadn't seen yet in HCMC, like the Ho Chi Minh Book Street, the Saigon Central Post Office, and the Saigon Opera House.
                             We then decided to join the Instagram crowd and have a coffee in one of the cafes in the Cafe Apartment.
-                            The spots on the top floor balcony were taken, so we had a coffee at Good Day on the floor below, where we took some instagrammable pictures ourselves.
+                            The spots on the top floor balcony were taken, so we had a coffee at {' '}
+                            <a href="https://maps.app.goo.gl/ztqMh868fN37R6Ff9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                            Good Day
+                            </a> on the floor below, where we took some instagrammable pictures ourselves.
                             <br /><br />
-                            For dinner, we visited Man Moi Tao Dan, an upscale restaurant serving local food as made by the chef's mother.
-                            Once again, the food was meat-centered and the AC was a little cold, but we enjoyed our evening here as the food was delicious and the atmosphere was nice, with a mix of locals and tourists.
+                            For dinner, we visited {' '}
+                            <a href="https://maps.app.goo.gl/NHxVXEFzyDRYoaTR8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                            Man Moi Tao Dan
+                            </a>, an upscale restaurant serving local food as made by the chef's mother.
+                            The food was rather meat-centered and the AC was a little cold, but we enjoyed our evening here as the food was delicious and the atmosphere was nice, with a mix of locals and tourists.
                             <br /><br />
-                            We ended our final day with a visit to Lulu - Bar and Eatery, a Cuban-style cocktail bar (Cuba is considered a close friend to Vietnam due to communist solidarity) with a great atmosphere and delicious cocktails.
+                            We ended our final day with a visit to {' '}
+                            <a href="https://maps.app.goo.gl/Dma3yM6kqHYawakGA" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                            Lulu - Bar and Eatery
+                            </a>, a Cuban-style cocktail bar (Cuba is considered a close friend to Vietnam due to communist solidarity) with a great atmosphere and delicious cocktails.
                             We highly recommend this place for a romantic night in HCMC!
 
                             <div className="grid md:grid-cols-2 gap-2">
@@ -623,16 +650,25 @@ export default function SouthernVietnam() {
 
                         <h3 id="HCMC-revisited-day-2" className="text-2xl font-bold mb-4">Day 2 - The last morning</h3>
                         <p className="mb-6 leading-relaxed">
-                            For our last day in Vietnam, we had a relaxed morning and had another coffee at Garden Kisses, followed by a Banh Mi from a nearby stand on the street (Banh Mi Bay Ho).
+                            For our last day in Vietnam, we had a relaxed morning and had another coffee at Garden Kisses, followed by a Banh Mi from a nearby stand on the street (
+                            <a href="https://maps.app.goo.gl/LsNTfK8MhN4iQNEp8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                            Banh Mi Bay Ho
+                            </a>).
                             Many locals were buying large numbers of Banh Mis here, which we suspect were for their office lunches with their colleagues.
                             As suspected, the Banh Mi was delicious!
                             <br /><br />
-                            We decided to spend our last afternoon in another rooftop bar, this time at the IMC Rooftop Bar.
+                            We decided to spend our last afternoon in another rooftop bar, this time at the {' '}
+                            <a href="https://maps.app.goo.gl/94GGBbj18R6RBt7a6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                            IMC Rooftop Bar
+                            </a>.
                             We had a final glass of wine here, before Grabbing to the airport for our flight back home.
                             <br /><br />
                             We had heard horror stories about the waiting lines at the airport, so we arrived 4 hours early.
                             This was a bit of an overkill, as the luggage check-in only opened 3 hours before the flight.
-                            We decided to play some card games to pass the time and had a drink at the Butter Bean in the terminal hall, which served us a surprisingly amazing drink with rice and coconut milk. It was amazing.
+                            We decided to play some card games to pass the time and had a drink at the {' '}
+                            <a href="https://maps.app.goo.gl/EytpCkkmVPwUE1YL7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                            Butter Bean
+                            </a> in the terminal hall, which served us a surprisingly amazing drink with rice and coconut milk. It was amazing.
                             In the end, the check-in and security process went smoothly, and we had a relaxed flight home!
                         </p>
 
@@ -849,7 +885,7 @@ export default function SouthernVietnam() {
                             
                             </CollapsibleReview>
 
-                            <CollapsibleReview title="Bếp Mẹ Ỉn - Nguyễn Thái Bình" rating={2.5} scale="food">
+                            <CollapsibleReview title="Bếp Mẹ Ỉn - Nguyễn Thái Bình" rating={2} scale="food">
                                 This restaurant was recommended to us by several blogs online, but we were not impressed by our experience here.
                                 We found the menu to be pretty monotonous and the focus seemed to be on presenting instagrammable dishes rather than on the food itself.
                                 The food we had was underwhelming, and the AC was unreasonably cold, which we didn't dress for. The other customers, mostly Vietnamese locals and Chinese toursists, didn't seem to mind the cold.
