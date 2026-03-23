@@ -114,6 +114,53 @@ export default function Angkor() {
                 <div className="grid md:grid-cols-4 gap-8">
                     <main className={`md:col-span-3 text-gray-800 ${fontSizeClass} max-w-[min(100%,65ch)] mx-auto md:max-w-none md:mx-0 px-4`}>
 
+                        {/* Our Journey */}
+                        <h2 id="our-journey" className="text-4xl font-bold mb-4">Our Journey</h2>
+                        <h3 id="what-we-did" className="text-2xl font-bold mb-4">What we did</h3>
+                        <div className="mb-6 leading-relaxed">
+                            We had allocated 11 days for our trip to Cambodia, which we extended to two full weeks upon arriving at our hotel on Koh Rong Sanloem.
+                            If you have the time, we can definitely recommend spending two weeks in Cambodia, as there are many things to see and do, and even with two weeks we left a lot of the country unexplored.
+                            We flew into Siem Reap, the gateway to the Angkor Wat temples, where we spent four nights.
+                            We then flew to Sihanoukville and took a ferry to the Koh Rong islands, where we spent the remaining 10 nights of our trip.
+                            We spent 5 nights on Koh Rong, the larger island with more of a backpacker vibe, and another 5 nights on Koh Rong Sanloem, the smaller and more peaceful of the two islands.
+                            <br />
+
+                            <figure>
+                                <img
+                                    src={routeImg}
+                                    alt="Route we travelled"
+                                    className="w-full rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox(routeImg)}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">Route we travelled — Ho Chi Minh City to the Mekong Delta</figcaption>
+                            </figure>
+                        </div>
+                        <h3 id="what-we-skipped" className="text-2xl font-bold mb-4">What we skipped</h3>
+                        <div className="mb-6 leading-relaxed">
+                            <ul className="list-disc pl-5 space-y-1">
+                                <li>
+                                    Phu Quoc Island:
+                                    <br/>
+                                    From our research, this island looked overly commercialized and touristy. We decided to spend our time on the Cambodian Koh Rong islands instead.
+                                </li>
+                                <li>
+                                    Da Lat:
+                                    <br/>
+                                    If we had had more time, we would've liked to check out Da Lat, mainly to visit the nature around the city.
+                                </li>
+                                <li>
+                                    Mui Ne:
+                                    <br/>
+                                    Another place we would've like to check out if had had more time, mainly to see the sand dunes and to surf.
+                                </li>
+                                <li>
+                                    Chau Doc:
+                                    <br/>
+                                    The mangroves around Chau Doc peaked our interest, but we decided to skip it in favor of My Tho.
+                                </li>
+                            </ul>
+                        </div>
+
                     </main>
 
                     <aside className="hidden md:block md:col-span-1">
