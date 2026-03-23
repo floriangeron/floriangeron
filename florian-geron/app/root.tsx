@@ -101,6 +101,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         {location.pathname !== "/" && (
           <Link
             to="/"
+            title="Home page"
             className="fixed top-4 right-4 bg-gray-300 text-gray-600 p-3 rounded-full shadow-md hover:bg-gray-400 transition duration-300 z-20 flex items-center justify-center"
             aria-label="Home"
           >

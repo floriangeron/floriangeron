@@ -12,6 +12,12 @@ export default function Timeline() {
 
   const milestones = [
     {
+      date: "October 2025",
+      title: "🥇 Flanders Hackathon",
+      description: "Together with my team, we won the Flanders Hackathon 2025! We developed an innovative agentic AI solution for permitting and won both the jury and the public vote.",
+      image: "/images/timeline/Hackathon.jpg",
+    },
+    {
       date: "May 2025",
       title: "🗂 AgilePM",
       description: "As PM of an AI product, I am taking the Agile Project Management (AgilePM) certification to further enhance my project management skills.",

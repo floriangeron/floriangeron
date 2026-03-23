@@ -11,6 +11,9 @@ export function StarScale({ rating }: { rating: number }) {
       role="img"
     >
       {Array.from({ length: 5 }).map((_, i) => {
+        const path =
+          'M12 .587l3.668 7.431L23.327 9.75l-5.66 5.517L18.999 23 12 19.771 5.001 23l1.331-7.733L.672 9.75l7.659-1.732L12 .587z';
+
         if (i < fullStars) {
           return (
             <svg
@@ -18,41 +21,32 @@ export function StarScale({ rating }: { rating: number }) {
               className="w-5 h-5 text-yellow-400"
               viewBox="0 0 24 24"
               fill="currentColor"
-              stroke="currentColor"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <path d="M12 .587l3.668 7.431L23.327 9.75l-5.66 5.517L18.999 23 12 19.771 5.001 23l1.331-7.733L.672 9.75l7.659-1.732L12 .587z" />
+              <path d={path} />
             </svg>
           );
         }
 
         if (i === fullStars && hasHalf) {
+          const gradId = `half-grad-${i}`;
           return (
-            <div key={i} className="relative w-5 h-5 inline-block">
-              <svg
-                className="absolute inset-0 w-5 h-5 text-gray-300"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                stroke="currentColor"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M12 .587l3.668 7.431L23.327 9.75l-5.66 5.517L18.999 23 12 19.771 5.001 23l1.331-7.733L.672 9.75l7.659-1.732L12 .587z" />
-              </svg>
-              <div className="absolute left-0 top-0 w-1/2 overflow-hidden">
-                <svg
-                  className="w-5 h-5 text-yellow-400"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                  stroke="currentColor"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M12 .587l3.668 7.431L23.327 9.75l-5.66 5.517L18.999 23 12 19.771 5.001 23l1.331-7.733L.672 9.75l7.659-1.732L12 .587z" />
-                </svg>
-              </div>
-            </div>
+            <svg
+              key={i}
+              className="w-5 h-5 text-yellow-400"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <defs>
+                <linearGradient id={gradId} x1="0" x2="1">
+                  <stop offset="50%" stopColor="currentColor" />
+                  <stop offset="50%" stopColor="#d1d5db" />
+                </linearGradient>
+              </defs>
+              <path d={path} fill={`url(#${gradId})`} />
+            </svg>
           );
         }
 
@@ -62,11 +56,10 @@ export function StarScale({ rating }: { rating: number }) {
             className="w-5 h-5 text-gray-300"
             viewBox="0 0 24 24"
             fill="currentColor"
-            stroke="currentColor"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <path d="M12 .587l3.668 7.431L23.327 9.75l-5.66 5.517L18.999 23 12 19.771 5.001 23l1.331-7.733L.672 9.75l7.659-1.732L12 .587z" />
+            <path d={path} />
           </svg>
         );
       })}
