@@ -566,11 +566,11 @@ export default function SouthernVietnam() {
                             After our troubles with finding a local tour operator in Can Tho, we decided to book a tour to My Tho with{' '}
                             <a href="https://www.getyourguide.com/ho-chi-minh-city-l272/from-ho-chi-minh-city-mekong-delta-small-group-tour-t60784/?utm_source=getyourguide&utm_medium=sharing&utm_campaign=activity_details" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
                             Get Your Guide
-                            </a>
-                            .
+                            </a>.
                             During this tour, we visited two islands nearby My Tho: Thoi Son / Unicorn Island and Con Phung / Phoenix Island.
                             Here, we partook in many activities, including tasting fresh honey right off the hive, trying some coconut candy, driving through the jungle on a small tuktuk, flowing down the river on a small boat (sampan), and listening to tradidional music.
                             Afterwards, we visited the Vinh Trang Pagoda, a temple famous for its three giant Buddha statues, including a Reclining Buddha and a fat, happy Buddha.
+                            We had a very pleasant experience on this tour, and we can recommend it if you want to visit My Tho's main sights. 
                             <br /><br />
                             <Carousel className="w-full">
                                 <CarouselContent className="-ml-1">
