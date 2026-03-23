@@ -323,7 +323,7 @@ export default function SouthernVietnam() {
                             <a href="https://www.getyourguide.com/cu-chi-tunnels-l3671/ho-chi-minh-city-cu-chi-tunnels-morning-or-afternoon-tour-t60689/?utm_source=getyourguide&utm_medium=sharing&utm_campaign=activity_details" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
                             Get Your Guide
                             </a>
-                            {' '} who organized transport and a guide.
+                            {' '} who organized transport and a guide. We can recommend this tour if you don't want to worry about the logistics and arranging a guide yourself. Our guide was knowledgeable and passionate, which made for a great experience. The tour departed half an hour late, which meant we couldn't visit all the sights at the site (the shooting range was already closed).
                             <br />
                             <br />
                             After the Cu Chi Tunnels, we headed back to the city for some more food. We had heard a lot about Pizza 4P's, a popular pizza place in HCMC that uses local ingredients and has a unique fusion of Italian and Vietnamese flavors. 
