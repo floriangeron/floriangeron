@@ -195,6 +195,27 @@ export default function Angkor() {
                         It is featured on the Cambodian flag and is a source of great pride for the Cambodian people.
                         The Khmer Empire was originally founded as a Hindu empire, and Angkor Wat was originally built as a Hindu temple dedicated to the god Vishnu.
                         However, over time the Khmer Empire gradually transitioned to Buddhism, and Angkor Wat was converted into a Buddhist temple, which it remains to this day.
+                        
+                        <div className="grid md:grid-cols-2 gap-2">
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/Angkor.jpeg"
+                                    alt="Angkor Wat"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/Angkor.jpeg')}
+                                />
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/Angkor2.jpg"
+                                    alt="Angkor Wat"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/Angkor2.jpg')}
+                                />
+                            </figure>
+                        </div>
+                        <figcaption className="text-center text-sm text-gray-600">Sunrise at Angkor Wat</figcaption>
+
                         <br /><br />
                         The Khmer Empire gradually converted from Hinduism to Buddhism over the course of the late 12th century and early 13th century, and this transition is reflected in the architecture of the temples in the Angkor complex.
                         The earlier temples, such as Angkor Wat, have more Hindu elements, while the later temples have more Buddhist elements.
