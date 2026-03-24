@@ -129,8 +129,9 @@ export default function Angkor() {
                             We had allocated 11 days for our trip to Cambodia, which we extended to two full weeks upon arriving at our hotel on Koh Rong Sanloem.
                             If you have the time, we can definitely recommend spending two weeks in Cambodia, as there are many things to see and do, and even with two weeks we left a lot of the country unexplored.
                             We flew into Siem Reap, the gateway to the Angkor Wat temples, where we spent four nights.
-                            We then flew to Sihanoukville and took a ferry to the Koh Rong islands, where we spent the remaining 10 nights of our trip.
-                            We spent 5 nights on Koh Rong, the larger island with more of a backpacker vibe, and another 5 nights on Koh Rong Sanloem, the smaller and more peaceful of the two islands.
+                            We then flew to Sihanoukville and took a ferry to the Koh Rong islands, where we spent the remaining ten nights of our trip.
+                            We spent four nights on Koh Rong, the larger island with more of a backpacker vibe, and another five nights on Koh Rong Sanloem, the smaller and more peaceful of the two islands.
+                            We continued our journey by flight from Sihanoukville which left early in the morning, so we spent one night in Sihanoukville as well.
                             <br />
 
                             <figure>
@@ -147,12 +148,108 @@ export default function Angkor() {
                         <div className="mb-6 leading-relaxed">
                             <ul className="list-disc pl-5 space-y-1">
                                 <li>
-                                    Lorem Ipsum:
+                                    Phnom Penh:
                                     <br/>
-                                    Lorem Ipsum.
+                                    We decided to leave the capital city out of our itinerary, as we would be spending time in a big city in the next leg of our journey.
+                                    We had heard mixed reviews about Phnom Penh, and I am sure it has a place in a Cambodia itinerary which is less beach-focused as ours.
+                                    We have heard especially good things about the Killing Fields museum, which documents the history of the Khmer Rouge regime of the 70s.
+                                </li>
+                                <li>
+                                    Kampot:
+                                    <br/>
+                                    Kampot is a riverside town known for its colonial architecture and its nearby natural beauty, including pepper plantations and National Parks.
+                                    We had heard good things about Kampot, though it has supposedly become more touristy in recent years.
+                                </li>
+                                <li>
+                                    Cardamom Mountains:
+                                    <br/>
+                                    The Cardamom Mountains are a remote and rugged region in southwestern Cambodia, known for their dense rainforests and diverse wildlife.
+                                    This stop definitely has a place in more adventurous itineraries.
+                                </li>
+                                <li>
+                                    Kratié:
+                                    <br/>
+                                    We had considered visiting Kratié to see the Irrawaddy dolphins, but ultimately decided against it as it would have required a long bus ride.
                                 </li>
                             </ul>
                         </div>
+
+                        <h2 id="angkor-wat" className="text-4xl font-bold mb-4">Angkor Wat</h2>
+
+                        <h3 id="angkor-wat-history" className="text-2xl font-bold mb-4">Some Background & History</h3>
+                        Angkor Wat is the name of the main temple in the Angkor Wat complex; 
+                        Angkor Wat by itself is already the largest religious monument in the world, but it is just one of the many temples in the Angkor Archaeological Park.
+                        The park consists of over 100 temples.
+                        <br /><br />
+                        Starting from the 9th century, the Khmer Empire became the dominant power in Southeast Asia, and they chose the area around current-day Siem Reap as the location for their capital city; 
+                        Angkor is the Khmer word for city.
+                        Over the centuries, the Khmer Empire expanded and their kings built a great many temples in the area.
+                        Our guide told us that each king wanted to build a new temple, preferable grander than the previous ones, to leave their mark on the capital and to invite foreign dignitaries to.
+                        This continued until the fall of the Khmer Empire in the 15th century, by which time 100s of temples were constructed in this area.
+                        <br /><br />
+                        As the Empire faded, many of the temples were abandoned and fell into disrepair, and the jungle started to reclaim them.
+                        Many sources say that the temples were "lost" to the jungle until they were "rediscovered" by French explorers in the 19th century, but in reality the local people never forgot about them and continued to visit them and maintain them to some extent.
+                        This was especially true for Angkor Wat, which was never fully abandoned and has been continuously maintained and used as a place of worship by local priests.
+                        <br /><br />
+                        Angkor Wat is the most famous temple in the complex and is the largest religious monument in the world.
+                        It is featured on the Cambodian flag and is a source of great pride for the Cambodian people.
+                        The Khmer Empire was originally founded as a Hindu empire, and Angkor Wat was originally built as a Hindu temple dedicated to the god Vishnu.
+                        However, over time the Khmer Empire gradually transitioned to Buddhism, and Angkor Wat was converted into a Buddhist temple, which it remains to this day.
+                        <br /><br />
+                        The Khmer Empire gradually converted from Hinduism to Buddhism over the course of the late 12th century and early 13th century, and this transition is reflected in the architecture of the temples in the Angkor complex.
+                        The earlier temples, such as Angkor Wat, have more Hindu elements, while the later temples have more Buddhist elements.
+                        <br /><br />
+                        The temples served not only as places of worship, but also as political and economic centers, as well as functioning as important engineering structures supporting agricultural activities.
+                        Many temples are surrounding by large moats and reservoirs, which were used for irrigation and water management in the region.
+                        Over the course of the centuries, this engineering knowledge on irrigation was lost, which contributed to the decline of the Khmer Empire.
+                        <br /><br />
+                        The name Angkor Wat means "City of Temples". Another temple in the complex is called Angkor Thom, which means "Great City". These names indicate the importance of the temples as the center of the city and the empire.
+                        Some other temples include "Bayon", which means "Face" (it is named after the many faces carved into the temple, which are thought to represent either the Buddha or the king who built it) and "Ta Prohm", which is famous for the trees growing out of its ruins.
+                        <br /><br />
+                        By the 15th century, the Khmer Empire had declined and the capital was moved away from Angkor. Our guide told us that the decline of the empire was due to many factors:
+                        <ul className="list-disc pl-5 space-y-1">
+                            <li>
+                                Environmental changes:
+                                <br/>
+                                A series of droughts followed by intense monsoon floods damaged the irrigation system and led to food shortages and social unrest.
+                            </li>
+                            <li>
+                                Loss of irrigation expertise:
+                                <br/>
+                                In an attempt to stay as relevant for as long as possible, the engineers who built and maintained the complex irrigation system did not pass on their full knowledge to the next generations.
+                                This led to a graduel loss of expertise in irrigation.
+                                This made the system more vulnerable to the aforementioned environmental changes.
+                                Our guide told us that the experts would pass on only 90% of their knowledge, which meant that after 10 generations only 35% of the knowledge would remain, which was not enough to maintain the system, let alone fix it in case of disaster.
+                            </li>
+                            <li>
+                                Conquest by the Thai kingdom of Ayutthaya:
+                                <br/>
+                                Lorem Ipsum.
+                            </li>
+                            <li>
+                                Religious changes leading to loss of legitimacy of the kings:
+                                <br/>
+                                Lorem Ipsum.
+                            </li>
+                        </ul>
+
+
+
+                        <br /><br />
+                        <h3 id="angkor-wat-tours" className="text-2xl font-bold mb-4">Angkor Wat Tours</h3>
+                        Picture of the small circuit, the big circuit, and the other options
+                        <br /><br />
+                        <h3 id="angkor-wat-our-experience" className="text-2xl font-bold mb-4">Our Experience</h3>
+                        Our experience with the small and big circuit, with pictures.
+
+
+                        <h2 id="koh-rong" className="text-4xl font-bold mb-4">Koh Rong Islands</h2>
+
+
+                        <h2 id="hotel-reviews" className="text-4xl font-bold mb-4">Hotel Reviews</h2>
+
+
+                        <h2 id="food-drink-reviews" className="text-4xl font-bold mb-4">Food & Drinks Reviews</h2>
 
                     </main>
 
@@ -168,7 +265,7 @@ export default function Angkor() {
                                     <a href="#angkor-wat" onClick={(e) => handleTocClick(e, 'angkor-wat')} className="block w-full text-right hover:underline">Angkor Wat</a>
                                 </li>
                                 <li>
-                                    <a href="#koh-rong" onClick={(e) => handleTocClick(e, 'koh-rong')} className="block w-full text-right hover:underline">Koh Rong</a>
+                                    <a href="#koh-rong" onClick={(e) => handleTocClick(e, 'koh-rong')} className="block w-full text-right hover:underline">Koh Rong Islands</a>
                                 </li>
                                 <li>
                                     <a href="#hotel-reviews" onClick={(e) => handleTocClick(e, 'hotel-reviews')} className="block w-full text-right hover:underline">Hotel Reviews</a>
