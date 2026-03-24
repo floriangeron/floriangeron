@@ -42,6 +42,14 @@ export default function Angkor() {
         }
     }
 
+    // Lightbox state 
+    const [lightboxSrc, setLightboxSrc] = useState<string | null>(null);
+
+    // Lightbox state and handler
+    function openLightbox(src: string) {
+        setLightboxSrc(src);
+    }
+
     return (
         <div className="min-h-screen bg-white">
 
@@ -127,10 +135,10 @@ export default function Angkor() {
 
                             <figure>
                                 <img
-                                    src={routeImg}
+                                    src={"/images/travel/Angkor.jpeg"}
                                     alt="Route we travelled"
                                     className="w-full rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
-                                    onClick={() => openLightbox(routeImg)}
+                                    onClick={() => openLightbox("/images/travel/Angkor.jpeg")}
                                 />
                                 <figcaption className="text-center text-sm text-gray-600">Route we travelled — Siem Reap to the Koh Rong Islands</figcaption>
                             </figure>
@@ -191,6 +199,19 @@ export default function Angkor() {
                 </div>
             
             </div>
+
+            {lightboxSrc && (
+                <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75" role="dialog" aria-modal="true">
+                    <button
+                        onClick={() => setLightboxSrc(null)}
+                        className="absolute top-6 right-6 text-white text-3xl font-bold"
+                        aria-label="Close"
+                    >
+                        &times;
+                    </button>
+                    <img src={lightboxSrc} alt="Image enlarged" className="max-w-[90%] max-h-[90%] rounded-lg shadow-2xl" />
+                </div>
+            )}
 
         </div>
     )

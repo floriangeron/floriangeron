@@ -1315,7 +1315,7 @@ export default function SouthernVietnam() {
                     >
                         &times;
                     </button>
-                    <img src={lightboxSrc} alt="Route enlarged" className="max-w-[90%] max-h-[90%] rounded-lg shadow-2xl" />
+                    <img src={lightboxSrc} alt="Image enlarged" className="max-w-[90%] max-h-[90%] rounded-lg shadow-2xl" />
                 </div>
             )}
         </div>
