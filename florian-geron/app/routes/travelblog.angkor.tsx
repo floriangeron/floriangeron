@@ -204,7 +204,7 @@ export default function Angkor() {
                                     src="/images/travel/cambodia/angkor/Angkor.jpeg"
                                     alt="Angkor Wat"
                                     className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
-                                    onClick={() => openLightbox('/images/travel/Angkor.jpeg')}
+                                    onClick={() => openLightbox('/images/travel/cambodia/angkor/Angkor.jpeg')}
                                 />
                             </figure>
                             <figure className="md:col-span-1">
@@ -212,7 +212,7 @@ export default function Angkor() {
                                     src="/images/travel/cambodia/angkor/Angkor2.jpg"
                                     alt="Angkor Wat"
                                     className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
-                                    onClick={() => openLightbox('/images/travel/Angkor2.jpg')}
+                                    onClick={() => openLightbox('/images/travel/cambodia/angkor/Angkor2.jpg')}
                                 />
                             </figure>
                         </div>

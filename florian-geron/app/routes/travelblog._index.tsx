@@ -28,7 +28,7 @@ export default function TravelBlog() {
             excerpt: "A journey through time and history...",
             content:
                 "Join me on a journey through the ancient temples around Angkor Wat, the world's largest collection of ancient temples, hidden in the jungles of Cambodia. After, we head to the Koh Rong islands for some well-deserved beach time.",
-            imageUrl: "/images/travel/Angkor.jpeg",
+            imageUrl: "/images/travel/cambodia/angkor/Angkor.jpeg",
         },
         {
             id: "laos",
