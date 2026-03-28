@@ -136,14 +136,16 @@ export default function Angkor() {
 
                             <figure>
                                 <img
-                                    src={"/images/travel/cambodia/angkor/Angkor.jpeg"}
+                                    src={"/images/travel/cambodia/CambodiaRoute.png"}
                                     alt="Route we travelled"
                                     className="w-full rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
-                                    onClick={() => openLightbox("/images/travel/Angkor.jpeg")}
+                                    onClick={() => openLightbox("/images/travel/cambodia/CambodiaRoute.png")}
                                 />
                                 <figcaption className="text-center text-sm text-gray-600">Route we travelled — Siem Reap to the Koh Rong Islands</figcaption>
                             </figure>
+                            
                         </div>
+
                         <h3 id="what-we-skipped" className="text-2xl font-bold mb-4">What we skipped</h3>
                         <div className="mb-6 leading-relaxed">
                             <ul className="list-disc pl-5 space-y-1">
