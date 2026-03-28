@@ -102,7 +102,7 @@ export default function Angkor() {
                         <div className="text-center">
                             <CurrencyDollarIcon className="h-12 w-12 mx-auto text-gray-600 mb-2" />
                             <h3 className="font-semibold text-gray-900">Currency</h3>
-                            <p className="text-gray-600">Cambodian Riel (KHR)</p>
+                            <p className="text-gray-600">Cambodian Riel (KHR)<br/>US Dollar (USD)</p>
                         </div>
                         <div className="text-center">
                             <ClockIcon className="h-12 w-12 mx-auto text-gray-600 mb-2" />
