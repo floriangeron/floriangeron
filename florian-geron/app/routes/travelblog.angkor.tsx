@@ -56,7 +56,7 @@ export default function Angkor() {
             {/* Title Card */}
             <div className="relative h-[350px] sm:h-[450px] md:h-[700px] w-full overflow-hidden">
                 <img
-                    src="/images/travel/Angkor.jpeg"
+                    src="/images/travel/cambodia/angkor/Angkor.jpeg"
                     alt="Angkor Wat"
                     className="w-full h-full object-cover"
                 />
@@ -136,7 +136,7 @@ export default function Angkor() {
 
                             <figure>
                                 <img
-                                    src={"/images/travel/Angkor.jpeg"}
+                                    src={"/images/travel/cambodia/angkor/Angkor.jpeg"}
                                     alt="Route we travelled"
                                     className="w-full rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
                                     onClick={() => openLightbox("/images/travel/Angkor.jpeg")}
@@ -199,7 +199,7 @@ export default function Angkor() {
                         <div className="grid md:grid-cols-2 gap-2">
                             <figure className="md:col-span-1">
                                 <img
-                                    src="/images/travel/Angkor.jpeg"
+                                    src="/images/travel/cambodia/angkor/Angkor.jpeg"
                                     alt="Angkor Wat"
                                     className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
                                     onClick={() => openLightbox('/images/travel/Angkor.jpeg')}
@@ -207,7 +207,7 @@ export default function Angkor() {
                             </figure>
                             <figure className="md:col-span-1">
                                 <img
-                                    src="/images/travel/Angkor2.jpg"
+                                    src="/images/travel/cambodia/angkor/Angkor2.jpg"
                                     alt="Angkor Wat"
                                     className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
                                     onClick={() => openLightbox('/images/travel/Angkor2.jpg')}
@@ -245,12 +245,16 @@ export default function Angkor() {
                             <li>
                                 Conquest by the Thai kingdom of Ayutthaya:
                                 <br/>
-                                Lorem Ipsum.
+                                The Khmer capital of Angkor Wat sat closely to the Thai kingdom of Ayutthaya, much like the modern day city of Siem Reap sits closely to the Thai border.
+                                As the Khmer Empire waned, the Ayutthaya kingdom grew stronger and conquered Angkor in the 15th century.<br/>
+                                Eventually, the Cambodians regained control of the area, and the name of the city Siem Reap actually means "Defeat of Siam".
                             </li>
                             <li>
                                 Religious changes leading to loss of legitimacy of the kings:
                                 <br/>
-                                Lorem Ipsum.
+                                The Khmer Empire was originally founded as a Hindu empire, and the kings derived their legitimacy from their role as intermediaries between the gods and the people.
+                                Our guide told us that the kings were seen as divine figures, which made it easier for them to control the population.
+                                As the empire transitioned to Buddhism, the kings lost some of their divine status and legitimacy, which weakened the control of the central government over the population.
                             </li>
                         </ul>
 
