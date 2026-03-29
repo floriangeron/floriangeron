@@ -6,6 +6,15 @@ import { MapIcon, MapPinIcon, GlobeAltIcon, CurrencyDollarIcon, ClockIcon, Calen
 
 import AnimatedWave from "~/components/AnimatedWave";
 
+import { Card, CardContent } from "~/components/ui/card"
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "~/components/ui/carousel"
+
 export const meta: MetaFunction = () => {
   return [
     { title: "Cambodia Travel Blog" },
@@ -49,6 +58,26 @@ export default function Angkor() {
     function openLightbox(src: string) {
         setLightboxSrc(src);
     }
+
+    // Captions for the carousel images
+    const imgCaptionAngkor = [
+        "Sunrise at Angkor Wat",
+        "Sunrise at Angkor Wat",
+        "Sunrise at Angkor Wat",
+        "Sunrise at Angkor Wat",
+        "The Angkor Wat temple",
+        "The Angkor Wat temple",
+        "The Angkor Wat temple",
+    ]; 
+    const imgCaptionSmallCircuit = [
+        "Ta Prohm",
+        "Ta Prohm",
+        "Ta Prohm",
+        "Ta Keo",
+        "Ta Keo",
+        "Bayon (undergoing restoration)",
+        "South Gate of Angkor Thom",
+    ]; 
 
     return (
         <div className="min-h-screen bg-white">
@@ -259,15 +288,137 @@ export default function Angkor() {
                                 As the empire transitioned to Buddhism, the kings lost some of their divine status and legitimacy, which weakened the control of the central government over the population.
                             </li>
                         </ul>
-
-
-
                         <br /><br />
-                        <h3 id="angkor-wat-tours" className="text-2xl font-bold mb-4">Angkor Wat Tours</h3>
-                        Picture of the small circuit, the big circuit, and the other options
+
+                        <h3 id="angkor-wat-complex" className="text-2xl font-bold mb-4">The Angkor Wat Complex</h3>
+                        The temple complex around Siem Reap contains over 100 temples, and it would be impossible to see them all in one trip.
+                        Most tour operators offer two main circuits to see the temples: The small circuit and the big circuit.
+                        Each take 6 to 8 hours to complete, and they can be done by car, tuktuk, or bike.
+
+                        <figure>
+                            <img
+                                src={"/images/travel/cambodia/angkor/AngkorTours.png"}
+                                alt="Route we travelled"
+                                className="w-full rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                onClick={() => openLightbox("/images/travel/cambodia/angkor/AngkorTours.png")}
+                            />
+                            <figcaption className="text-center text-sm text-gray-600">Angkor Wat Small Circuit (green) and Big Circuit (red), map from <a href="https://www.novo-monde.com/en/angkor-temples-itinerary/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Novo Monde</a></figcaption>
+                        </figure>
+                        <br />
+                        These circuits are designed to show you the most important and impressive temples, but by no means do they show you all the temples in the area.
+                        They cover about 10 temples in total, which is just a fraction of the over 100 temples in the area. 
+                        If you have the time and are feeling adventurous, you can explore these temples yourself or with a guide.
                         <br /><br />
-                        <h3 id="angkor-wat-our-experience" className="text-2xl font-bold mb-4">Our Experience</h3>
+                        You will need a park pass to enter the temple complex. There are three options:
+                        <ul className="list-disc pl-5 space-y-1">
+                            <li>
+                                1-day pass: $37
+                            </li>
+                            <li>
+                                3-day pass (consecutive or not): $62
+                            </li>
+                            <li>
+                                7-day pass(consecutive or not): $72
+                            </li>
+                        </ul>
+                        As we had three full days, we went for the 3-day pass.
+                        <br /><br />
+                        We can recommend spending at least three full days in Siem Reap if you are serious about exploring the temples.
+                        This will give you enough time to do the small and big circtuit, as well as a bonus activity to you choice, like exploring some lesser-known temples or visiting the floating villages on Tonle Sap lake.
+                        <br /><br />
+
+                        <h3 id="angkor-wat-our-experience" className="text-2xl font-bold mb-4">Day 1 - Small Circuit</h3>
+                        For our first day at Angkor Wat, we woke up at 3:45 AM to catch the sunrise at Angkor Wat.
+                        The sunrise at Angkor Wat is a must-see experience. There were many visitors, but as the site is so large, it did not feel too overcrowded.
+                        <br /><br />
+
+                        <Carousel className="w-full">
+                            <CarouselContent className="-ml-1">
+                                {Array.from({ length: 7 }).map((_, index) => (
+                                <CarouselItem key={index} className="basis-1/2 pl-1 lg:basis-1/3">
+                                    <div className="p-1">
+                                    <Card>
+                                        <CardContent className="flex aspect-square items-center justify-center p-0">
+                                        <img 
+                                            src={`/images/travel/cambodia/angkorsunrise/angkor${index+1}.jpg`} 
+                                            alt={`Angkor ${index+1}`} 
+                                            className="w-full h-full sm:h-80 md:h-96 object-cover rounded-lg cursor-pointer" 
+                                            onClick={() => openLightbox(`/images/travel/cambodia/angkorsunrise/angkor${index+1}.jpg`)}/>
+                                        </CardContent>
+                                    </Card>
+                                    <figcaption className="text-center text-sm text-gray-600">{imgCaptionAngkor[index]}</figcaption>
+                                    </div>
+                                </CarouselItem>
+                                ))}                                    
+                            </CarouselContent>
+                            <CarouselPrevious />
+                            <CarouselNext />
+                        </Carousel>
+                        <br /><br />
+                        After this magical sunrise experience, we continued with the small circuit. 
+                        This circuit took us to the following sites:
+                        <ul className="list-disc pl-5 space-y-1">
+                            <li>
+                                Ta Prohm:
+                                <br/>
+                                This temple is famous for the trees growing out of its ruins.
+                                It was popularized by the movie Tomb Raider, which was filmed there.
+                            </li>
+                            <li>
+                                Ta Keo:
+                                <br/>
+                                This temple is known for its steep staircases and its impressive views from the top.
+                            </li>
+                            <li>
+                                Bayon in Angkor Thom:
+                                <br/>
+                                This temple is famous for its many faces carved into the stone, which are thought to represent either the Buddha or the king who built it.
+                                This temple is located in the Angkor Thom complex, which was the last capital of the Khmer Empire.
+                                Angkor Thom means "Great City" and is surrounded by a large moat, which is larger than the moat surrounding Angkor Wat.
+                            </li>
+                        </ul>
+                        <br />
+                        <Carousel className="w-full">
+                            <CarouselContent className="-ml-1">
+                                {Array.from({ length: 7 }).map((_, index) => (
+                                <CarouselItem key={index} className="basis-1/2 pl-1 lg:basis-1/3">
+                                    <div className="p-1">
+                                    <Card>
+                                        <CardContent className="flex aspect-square items-center justify-center p-0">
+                                        <img 
+                                            src={`/images/travel/cambodia/smallcircuit/smallcircuit${index+1}.jpg`} 
+                                            alt={`Small Circuit ${index+1}`} 
+                                            className="w-full h-full sm:h-80 md:h-96 object-cover rounded-lg cursor-pointer" 
+                                            onClick={() => openLightbox(`/images/travel/cambodia/smallcircuit/smallcircuit${index+1}.jpg`)}/>
+                                        </CardContent>
+                                    </Card>
+                                    <figcaption className="text-center text-sm text-gray-600">{imgCaptionSmallCircuit[index]}</figcaption>
+                                    </div>
+                                </CarouselItem>
+                                ))}                                    
+                            </CarouselContent>
+                            <CarouselPrevious />
+                            <CarouselNext />
+                        </Carousel>
+                        <br /><br />
+                        Many of the temples we visited were undergoing restoration, which is a testimant to the importance of these temples for the Cambodian people, but also for their tourism industry.
+                        Many of these restoration works are funded by foreign countries.
+                        Each temple's restoration is typically funded by a single country, as we saw signs indicating restoration funding from Japan, China, the US, or France.
+                        <br /><br />
+                        We booked this sunrise small circuit tour through Get Your Guide.
+                        All in all, we were happy with the tour, but there were some things that bothered us about it.
+                        First of all, we had to be ready to go at our hotel at 4:30 AM to catch the sunrise. However, as the tour consisted of about 12 people, we spent 45 minutes driving around picking people up.
+                        We made it in time for the sunrise, but we found this inefficiency a bit frustrating.
+                        Secondly, while the tour guide was very friendly and took some nice pictures, he was not very informative and did not provide much historical or cultural context about the temples we were visiting. 
+                        <br /><br />
+
+                        <h3 id="angkor-wat-our-experience" className="text-2xl font-bold mb-4">Day 2 - Big Circuit</h3>
                         Our experience with the small and big circuit, with pictures.
+                        <br /><br />
+
+                        <h3 id="siem-reap" className="text-2xl font-bold mb-4">Day 3 - Bonus Day! (What else to do in Siem Reap)</h3>
+                        xx
+                        <br /><br />
 
 
                         <h2 id="koh-rong" className="text-4xl font-bold mb-4">Koh Rong Islands</h2>
