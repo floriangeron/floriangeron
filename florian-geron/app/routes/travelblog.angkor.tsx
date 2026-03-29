@@ -340,7 +340,7 @@ export default function Angkor() {
                         This will give you enough time to do the small and big circtuit, as well as a bonus activity to you choice, like exploring some lesser-known temples or visiting the floating villages on Tonle Sap lake.
                         <br /><br />
 
-                        <h3 id="angkor-wat-our-experience" className="text-2xl font-bold mb-4">Day 1 - Small Circuit</h3>
+                        <h3 id="angkor-wat-day-1" className="text-2xl font-bold mb-4">Day 1 - Small Circuit</h3>
                         For our first day at Angkor Wat, we woke up at 3:45 AM to catch the sunrise at Angkor Wat.
                         The sunrise at Angkor Wat is a must-see experience. There were many visitors, but as the site is so large, it did not feel too overcrowded.
                         <br /><br />
@@ -425,7 +425,7 @@ export default function Angkor() {
                         Secondly, while the tour guide was very friendly and took some nice pictures, he was not very informative and did not provide much historical or cultural context about the temples we were visiting. 
                         <br /><br />
 
-                        <h3 id="angkor-wat-our-experience" className="text-2xl font-bold mb-4">Day 2 - Big Circuit</h3>
+                        <h3 id="angkor-wat-day-2" className="text-2xl font-bold mb-4">Day 2 - Big Circuit</h3>
                         For our second day, we woke up at a more reasonable time and did an afternoon tour of the big circuit.
                         This tour took us to the following sites:
                         <ul className="list-disc pl-5 space-y-1">
@@ -483,9 +483,40 @@ export default function Angkor() {
                             <CarouselNext />
                         </Carousel>
                         <br /><br />
+                        We booked the big circuit tour via our hotel, who arranged a tuktuk driver and an English-speaking guide for us.
+                        This arrangement was much more efficient and allowed us to be more flexible with our schedule.
+                        On the other hand, the guide was not as good a communicator as the one we had for the small circuit.
+                        He provided some more historical and cultural context about the temples, but it wasn't always easy to understand him.
+                        <br /><br />
 
-                        <h3 id="siem-reap" className="text-2xl font-bold mb-4">Day 3 - Bonus Day! (What else to do in Siem Reap)</h3>
-                        xx
+                        <h3 id="angkor-wat-day-3" className="text-2xl font-bold mb-4">Day 3 - Bonus Day! (What else to do in Siem Reap)</h3>
+                        Siem Reap turned out to be a much larger city than we expected, and there are many things to see and do in and around the city.
+                        During our stay, we were able to do the following: Pub Straat, the Old Market, the Angkor Night Market, Spa.
+                        <br /><br />
+                        Unfortunately, Francesca fell sick on our third day in Siem Reap, so we were not able to get everything out of our stay in Siem Reap.
+                        Some other activities we had planned to do but had to skip were:
+                        <ul className="list-disc pl-5 space-y-1">
+                            <li>
+                                Tonle Sap Lake:
+                                <br/>
+                                
+                            </li>
+                            <li>
+                                Angkor National Museum:
+                                <br/>
+                                
+                            </li>
+                            <li>
+                                Apopo Landmine Museum:
+                                <br/>
+                                
+                            </li>
+                            <li>
+                                Lesser-known temples:
+                                <br/>
+                                
+                            </li>
+                        </ul>
                         <br /><br />
 
 
@@ -505,13 +536,25 @@ export default function Angkor() {
                             <h3 className="text-lg font-semibold mb-3">Contents</h3>
                             <ul className="space-y-2 text-sm text-gray-700">
                                 <li>
-                                    <a href="#our-journey" onClick={(e) => handleTocClick(e, 'our-journey')} className="block w-full text-right hover:underline">Our Journey</a>
+                                    <a href="#our-journey" onClick={(e) => handleTocClick(e, 'our-journey')} className="block w-full text-left pl-20 font-bold hover:underline">Our Journey</a>
                                 </li>
                                 <li>
-                                    <a href="#angkor-wat" onClick={(e) => handleTocClick(e, 'angkor-wat')} className="block w-full text-right hover:underline">Angkor Wat</a>
+                                    <a href="#angkor-wat" onClick={(e) => handleTocClick(e, 'angkor-wat')} className="block w-full text-left pl-20 font-bold hover:underline">Angkor Wat</a>
                                 </li>
                                 <li>
-                                    <a href="#koh-rong" onClick={(e) => handleTocClick(e, 'koh-rong')} className="block w-full text-right hover:underline">Koh Rong Islands</a>
+                                    <a href="#angkor-wat-history" onClick={(e) => handleTocClick(e, 'angkor-wat-history')} className="block w-full text-right hover:underline">Background & History</a>
+                                </li>
+                                <li>
+                                    <a href="#angkor-wat-day-1" onClick={(e) => handleTocClick(e, 'angkor-wat-day-1')} className="block w-full text-right hover:underline">Day 1 - Small Circuit</a>
+                                </li>
+                                <li>
+                                    <a href="#angkor-wat-day-2" onClick={(e) => handleTocClick(e, 'angkor-wat-day-2')} className="block w-full text-right hover:underline">Day 2 - Big Circuit</a>
+                                </li>
+                                <li>
+                                    <a href="#angkor-wat-day-3" onClick={(e) => handleTocClick(e, 'angkor-wat-day-3')} className="block w-full text-right hover:underline">Day 3 - Siem Reap</a>
+                                </li>
+                                <li>
+                                    <a href="#koh-rong" onClick={(e) => handleTocClick(e, 'koh-rong')} className="block w-full text-left pl-20 font-bold hover:underline">Koh Rong Islands</a>
                                 </li>
                                 <li>
                                     <a href="#hotel-reviews" onClick={(e) => handleTocClick(e, 'hotel-reviews')} className="block w-full text-right hover:underline">Hotel Reviews</a>
@@ -522,7 +565,7 @@ export default function Angkor() {
                             </ul>
                         </nav>
 
-                        <div className="sticky top-64 self-start flex items-center justify-end mb-4 hover:scale-105 transition-transform duration-300">
+                        <div className="sticky top-[350px] self-start flex items-center justify-end mb-4 hover:scale-105 transition-transform duration-300">
                             <label htmlFor="font-size-select" className="mr-2 text-sm text-gray-600">Text size</label>
                             <select
                                 id="font-size-select"
