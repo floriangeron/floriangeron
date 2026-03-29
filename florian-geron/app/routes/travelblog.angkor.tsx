@@ -78,6 +78,19 @@ export default function Angkor() {
         "Bayon (undergoing restoration)",
         "South Gate of Angkor Thom",
     ]; 
+    const imgCaptionBigCircuit = [
+        "Pre Rup",
+        "East Mebon",
+        "East Mebon",
+        "East Mebon",
+        "Ta Som",
+        "Ta Som",
+        "Neak Pean",
+        "Neak Pean",
+        "Neak Pean",
+        "Preah Khan",
+        "Preah Khan",
+    ]; 
 
     return (
         <div className="min-h-screen bg-white">
@@ -413,7 +426,62 @@ export default function Angkor() {
                         <br /><br />
 
                         <h3 id="angkor-wat-our-experience" className="text-2xl font-bold mb-4">Day 2 - Big Circuit</h3>
-                        Our experience with the small and big circuit, with pictures.
+                        For our second day, we woke up at a more reasonable time and did an afternoon tour of the big circuit.
+                        This tour took us to the following sites:
+                        <ul className="list-disc pl-5 space-y-1">
+                            <li>
+                                Pre Rup:
+                                <br/>
+                                This temple is a tall structure which rewards visitors who climb its steps with stunning views.
+                            </li>
+                            <li>
+                                East Mebon:
+                                <br/>
+                                This temple used to be located on an island in the middle of a large reservoir.
+                                Now, the reservoir is dry and the temple can be reached by foot.
+                                The temple is known for its many carvings and statues of elephants.
+                            </li>
+                            <li>
+                                Ta Som:
+                                <br/>
+                                Like Bayon, this temple has many faces carved into the stone.
+                            </li>
+                            <li>
+                                Neak Pean:
+                                <br/>
+                                This temple is located on an island in the middle of a large reservoir.
+                                This reservoir itself was the most impressive part of the temple, and it is a popular spot to take pictures, for tourists but also for locals, who come here for photoshoots for special occasions.
+                            </li>
+                            <li>
+                                Preah Khan:
+                                <br/>
+                                This temple is mostly a ruin, but is known for its impressive size.
+                                This temple was dedicated to the father of the king who built it.
+                            </li>
+                        </ul>
+                        <br /><br />
+                        <Carousel className="w-full">
+                            <CarouselContent className="-ml-1">
+                                {Array.from({ length: 11 }).map((_, index) => (
+                                <CarouselItem key={index} className="basis-1/2 pl-1 lg:basis-1/3">
+                                    <div className="p-1">
+                                    <Card>
+                                        <CardContent className="flex aspect-square items-center justify-center p-0">
+                                        <img 
+                                            src={`/images/travel/cambodia/bigcircuit/bigcircuit${index+1}.jpg`} 
+                                            alt={`Big Circuit ${index+1}`} 
+                                            className="w-full h-full sm:h-80 md:h-96 object-cover rounded-lg cursor-pointer" 
+                                            onClick={() => openLightbox(`/images/travel/cambodia/bigcircuit/bigcircuit${index+1}.jpg`)}/>
+                                        </CardContent>
+                                    </Card>
+                                    <figcaption className="text-center text-sm text-gray-600">{imgCaptionBigCircuit[index]}</figcaption>
+                                    </div>
+                                </CarouselItem>
+                                ))}                                    
+                            </CarouselContent>
+                            <CarouselPrevious />
+                            <CarouselNext />
+                        </Carousel>
                         <br /><br />
 
                         <h3 id="siem-reap" className="text-2xl font-bold mb-4">Day 3 - Bonus Day! (What else to do in Siem Reap)</h3>
