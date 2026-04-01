@@ -519,14 +519,17 @@ export default function Angkor() {
                         </ul>
                         <br /><br />
 
+                        <h3 id="angkor-wat-hotel-reviews" className="text-2xl font-bold mb-4">Hotel Reviews</h3>
+                        xx.
+                        <br /><br />
+                        <h3 id="angkor-wat-drink-reviews" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
+                        xx
+                        <br /><br />
+
 
                         <h2 id="koh-rong" className="text-4xl font-bold mb-4">Koh Rong Islands</h2>
 
 
-                        <h2 id="hotel-reviews" className="text-4xl font-bold mb-4">Hotel Reviews</h2>
-
-
-                        <h2 id="food-drink-reviews" className="text-4xl font-bold mb-4">Food & Drinks Reviews</h2>
 
                     </main>
 
@@ -554,13 +557,13 @@ export default function Angkor() {
                                     <a href="#angkor-wat-day-3" onClick={(e) => handleTocClick(e, 'angkor-wat-day-3')} className="block w-full text-right hover:underline">Day 3 - Siem Reap</a>
                                 </li>
                                 <li>
+                                    <a href="#angkor-wat-hotel-reviews" onClick={(e) => handleTocClick(e, 'angkor-wat-hotel-reviews')} className="block w-full text-right hover:underline">Hotel Reviews</a>
+                                </li>
+                                <li>
+                                    <a href="#angkor-wat-food-drink-reviews" onClick={(e) => handleTocClick(e, 'angkor-wat-food-drink-reviews')} className="block w-full text-right hover:underline">Food & Drinks Reviews</a>
+                                </li>
+                                <li>
                                     <a href="#koh-rong" onClick={(e) => handleTocClick(e, 'koh-rong')} className="block w-full text-left pl-20 font-bold hover:underline">Koh Rong Islands</a>
-                                </li>
-                                <li>
-                                    <a href="#hotel-reviews" onClick={(e) => handleTocClick(e, 'hotel-reviews')} className="block w-full text-right hover:underline">Hotel Reviews</a>
-                                </li>
-                                <li>
-                                    <a href="#food-drink-reviews" onClick={(e) => handleTocClick(e, 'food-drink-reviews')} className="block w-full text-right hover:underline">Food & Drinks Reviews</a>
                                 </li>
                             </ul>
                         </nav>
