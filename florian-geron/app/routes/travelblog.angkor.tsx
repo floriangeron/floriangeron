@@ -97,6 +97,55 @@ export default function Angkor() {
     return (
         <div className="min-h-screen bg-white">
 
+            <style>{`
+                details.group summary {
+                    list-style: none;
+                }
+                details.group summary::-webkit-details-marker {
+                    display: none;
+                }
+                details.group .chev {
+                    transition: transform 250ms ease;
+                    transform-origin: center;
+                }
+                details.group[open] .chev {
+                    transform: rotate(180deg);
+                }
+                details.group .collapsible-body {
+                    max-height: 0;
+                    overflow: hidden;
+                    transition: max-height 1000ms ease, opacity 200ms ease;
+                    opacity: 0;
+                }
+                details.group[open] .collapsible-body {
+                    max-height: 2000px;
+                    opacity: 1;
+                }
+                /* Ensure images inside the article scale on narrow screens */
+                main img {
+                    max-width: 100%;
+                    height: auto;
+                }
+                /* Prevent long words or code blocks from causing horizontal overflow */
+                main {
+                    overflow-wrap: anywhere;
+                    word-break: break-word;
+                }
+                /* Make tables, iframes, svgs and videos responsive */
+                main table, main iframe, main svg, main video {
+                    max-width: 100%;
+                    width: 100%;
+                    height: auto;
+                    table-layout: auto;
+                }
+                /* Preserve pre/code formatting but allow wrapping on narrow screens */
+                main pre, main code {
+                    white-space: pre-wrap;
+                    word-break: break-word;
+                    max-width: 100%;
+                }
+            `}</style>
+
             {/* Title Card */}
             <div className="relative h-[350px] sm:h-[450px] md:h-[700px] w-full overflow-hidden">
                 <img
@@ -562,7 +611,7 @@ export default function Angkor() {
                                         <h4 id="hotel-1" className="text-1xl font-bold m-0">Sakaban Suite</h4>
                                     </div>
                                     <div className="flex items-center">
-                                        <StarScale rating={0} />
+                                        <StarScale rating={4} />
                                     </div>
                                 </summary>
     
@@ -570,28 +619,40 @@ export default function Angkor() {
                                     <div className="max-w-6xl mx-auto">
                                         <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-8 mb-8">
                                             <div className="flex items-center">
-                                                <StarLine rating={0} max={10} title='Staff' />
+                                                <StarLine rating={9} max={10} title='Staff' />
                                             </div>
                                             <div className="flex items-center">
-                                                <StarLine rating={0} max={10} title='Facilities' />
+                                                <StarLine rating={8} max={10} title='Facilities' />
                                             </div>
                                             <div className="flex items-center">
-                                                <StarLine rating={0} max={10} title='Cleanliness' />
+                                                <StarLine rating={7} max={10} title='Cleanliness' />
                                             </div>
                                             <div className="flex items-center">
-                                                <StarLine rating={0} max={10} title='Comfort' />
+                                                <StarLine rating={7} max={10} title='Comfort' />
                                             </div>
                                             <div className="flex items-center">
-                                                <StarLine rating={0} max={10} title='Location' />
+                                                <StarLine rating={6} max={10} title='Location' />
                                             </div>
                                             <div className="flex items-center">
-                                                <StarLine rating={0} max={10} title='Value for Money' />
+                                                <StarLine rating={8} max={10} title='Value for Money' />
                                             </div>
                                         </div>
                                     </div>
     
                                     <p className="mb-6 leading-relaxed mt-2">
-                                        Review.
+                                        We enjoyed our time and Sakaban Suite and recommend it to anyone looking for a comfortable base to explore Angkor.
+                                        The staff was especially wonderful, as they were happy to help us out with all our requests.
+                                        The hotel has a small swimming pool which allowed us to relax on our off-day.
+                                        <br/>
+                                        The hotel itself is located on a street filled with nightlife venues which cater to an adult audience.
+                                        This wasn't too big of a deal for us, except for the fact that the room which we had booked was located at the street-side of the hotel.
+                                        These venues were playing music loudly all night long, which prevented us from getting the sleep that we needed.
+                                        After bringing this up to the staff, they were happy to move us to a quieter room, but unfortunately this room was less luxurious than the room which we had booked (and for which we had paid).
+                                        <br/>
+                                        From the hotel lobby, you can book tuktuks and guided tours to the Angkor complex. 
+                                        They also offer other activities like messages and cooking classes.
+                                        <br/>
+                                        Overall, we believe Sakaban offered great value for money and we enjoyed our little oasis of piece within the busy city of Siem Reap.
                                         <br />
                                         Find it <a href="https://maps.app.goo.gl/3dEpiDsu8KZaWF2D8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                                     </p>
@@ -599,11 +660,31 @@ export default function Angkor() {
                             </details>
                         <br /><br />
                         <h3 id="angkor-wat-food-drink-reviews" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
-                        Sakaban Suite Restaurant / bar
-                        Khmer Taste Restaurant
-                        Da Stefano
-                        Sambo Khmer & Thai Restaurant
-                        Phsar Khmer Food Court
+                        Sakaban Suite Restaurant / bar:
+                        Upon arrival at the hotel, we took advantage of the happy hour at the hotel bar, which interestingly offered a 3-for-2 deal on cocktails, meaning that Fran got to drink an extra cocktail.
+                        Overall it's a very decent bar with a comfortable atmosphere, and we enjoyed our time there.
+                        The restaurant at the hotel was also nice, but perhaps a bit overpriced for the quality of the food compared to the other restaurants we tried in Siem Reap.
+                        <br/><br/>
+                        Khmer Taste Restaurant:
+                        We decided to hop in for a quick bite at this restaurant one of our evenings, and we were blown away by the prices on the menu.
+                        If memory serves us right, we ordered a national dish (Amok), a desert (mango sticky rice), a cocktail, and a soda for the grand total of $4.
+                        This was a steal, and the food was tasty, but we ended up getting some stomach issues the next day, which we suspect were caused by the food we ate at this restaurant.
+                        <br/><br/>
+                        Da Stefano:
+                        After our experience at Khmer Taste, we decided to play it safe and eat at a European restaurant.
+                        Da Stefano is an Italian restaurant owned by an Italian chef, Stefano, where we both had a pizza to give our stomach a break from the local cuisine.
+                        The pizza didn't taste like authentic Italian pizza, but it was decent and we enjoyed our meal there.
+                        <br/><br/>
+                        Sambo Khmer & Thai Restaurant:
+                        Thai cuisine is our favourite cuisine, so we were excited to check out this Khmer-Thai restaurant which had good reviews online.
+                        We were not disappointed, as we had a delicious meal there, and the atmosphere of the restaurant was very nice as well.
+                        The owner is a very friendly and welcoming person, who made a point of having a chat with us and making sure we enjoyed our meal.
+                        The prices are a bit higher, but we recommend this place over restaurants like Khmer Taste any day.
+                        <br/><br/>
+                        Phsar Khmer Food Court:
+                        This food court is located close to the Old Market, and it offers a wide variety of food at reasonable prices.
+                        We were annoyed by the token system, which required us to buy tokens at a booth before we could order our food, but the food was nice and the venue is nicely decorated.
+                        <br/><br/>
                         Night market
                         Samroh Srah Srang Restaurant (Angkor Wat lunch 1)
                         Neak Pean Restaurant (Angkor Wat lunch 2)
