@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import React from "react";
 import { Link } from "@remix-run/react";
 import { MapIcon, MapPinIcon, GlobeAltIcon, CurrencyDollarIcon, ClockIcon, CalendarIcon } from "@heroicons/react/24/outline";
 import AnimatedWave from "~/components/AnimatedWave";
