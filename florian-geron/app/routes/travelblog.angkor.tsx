@@ -14,6 +14,8 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "~/components/ui/carousel"
+import { StarScale } from "~/components/ui/StarRating";
+import { StarLine } from '../components/ui/StarLine';
 
 export const meta: MetaFunction = () => {
   return [
@@ -550,7 +552,51 @@ export default function Angkor() {
                         <br /><br />
 
                         <h3 id="angkor-wat-hotel-reviews" className="text-2xl font-bold mb-4">Hotel Reviews</h3>
-                        Sakaban Suite.
+                        
+                            <details className="group mb-6 rounded-md">
+                                <summary className="flex items-center justify-between p-4 cursor-pointer">
+                                    <div className="flex items-center">
+                                        <svg className="chev h-5 w-5 mr-3 text-gray-600" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+                                            <path d="M6 8l4 4 4-4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+                                        </svg>
+                                        <h4 id="hotel-1" className="text-1xl font-bold m-0">Sakaban Suite</h4>
+                                    </div>
+                                    <div className="flex items-center">
+                                        <StarScale rating={0} />
+                                    </div>
+                                </summary>
+    
+                                <div className="px-4 pb-4 collapsible-body">
+                                    <div className="max-w-6xl mx-auto">
+                                        <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-8 mb-8">
+                                            <div className="flex items-center">
+                                                <StarLine rating={0} max={10} title='Staff' />
+                                            </div>
+                                            <div className="flex items-center">
+                                                <StarLine rating={0} max={10} title='Facilities' />
+                                            </div>
+                                            <div className="flex items-center">
+                                                <StarLine rating={0} max={10} title='Cleanliness' />
+                                            </div>
+                                            <div className="flex items-center">
+                                                <StarLine rating={0} max={10} title='Comfort' />
+                                            </div>
+                                            <div className="flex items-center">
+                                                <StarLine rating={0} max={10} title='Location' />
+                                            </div>
+                                            <div className="flex items-center">
+                                                <StarLine rating={0} max={10} title='Value for Money' />
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <p className="mb-6 leading-relaxed mt-2">
+                                        Review.
+                                        <br />
+                                        Find it <a href="https://maps.app.goo.gl/3dEpiDsu8KZaWF2D8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                                    </p>
+                                </div>
+                            </details>
                         <br /><br />
                         <h3 id="angkor-wat-food-drink-reviews" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
                         Sakaban Suite Restaurant / bar
