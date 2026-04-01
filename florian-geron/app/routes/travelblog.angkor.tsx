@@ -511,7 +511,12 @@ export default function Angkor() {
                                 We took some time from our schedule to relax and restore our energy at a spa close to our hotel.
                                 We had a relaxing experience and can recommend it.<br/>
                                 We chose this spa as it was on the same road as our hotel, both of which were located on a road with lots of nightlife venues.
-                                etcetc
+                                Some of these nightlife venues seemed to cater to a more adult audience, which the spa seemed to be very aware of as well.
+                                When we entered, we spotted that the lobby was filled with crosses and bibles scattered around, which we believe was the spa's way of signaling to their customers that they were a, let's say, "family-friendly" establishment.
+                            </li>
+                            <li>
+                                Night Market:<br/>
+
                             </li>
                         </ul>
 
@@ -520,33 +525,40 @@ export default function Angkor() {
                         Some other activities we had planned to do but had to skip were:
                         <ul className="list-disc pl-5 space-y-1">
                             <li>
-                                Tonle Sap Lake:
-                                <br/>
-                                
+                                Tonlé Sap Lake:<br/>
+                                Tonlé Sap is a large lake (the largest freshwater lake in SEA) located to the South of Siem Reap, known for its many floating villages.
+                                Being an architect, Francesca had wanted to check out these structures built on the water, but unfortunately we did not get around it.
+                                We have heard from others that the floating villages are quite touristy.
                             </li>
                             <li>
-                                Angkor National Museum:
-                                <br/>
-                                
+                                Apopo Landmine Museum:<br/>
+                                During the Vietnam War, the US military dropped millions of landmines in Cambodia.
+                                These landmines continue to plague the local population, causing many casualties every year.
+                                You will see many people, mostly beggars, with missing limbds in Cambodia.
+                                During our visit to Angkor, we saw groups of amputees playing music and selling souvenirs to tourists, with signs stating that they prefer earning their keep like this rather than resorting to begging.<br/>
+                                The Apopo Landmine Museum is a museum dedicated to the history of landmines in Cambodia and the efforts to clear them.
+                                The museum focuses on a specific type of landmine-detecting rats, called Apopos, which are trained to sniff out landmines and alert their handlers to their presence.
                             </li>
                             <li>
-                                Apopo Landmine Museum:
-                                <br/>
-                                
-                            </li>
-                            <li>
-                                Lesser-known temples:
-                                <br/>
-                                
+                                Lesser-known temples:<br/>
+                                Due to our limited time in Siem Reap, we only had time to see the temples included in the small and big circuits.
+                                In hindsight, we wish we had more time to explore some of the hidden temples around.
+                                Tourists are allowed to roam the temple complex on their own, and we would've loved to research some hidden temples and go discover them ourselves by bike or on foot.
                             </li>
                         </ul>
                         <br /><br />
 
                         <h3 id="angkor-wat-hotel-reviews" className="text-2xl font-bold mb-4">Hotel Reviews</h3>
-                        xx.
+                        Sakaban Suite.
                         <br /><br />
                         <h3 id="angkor-wat-food-drink-reviews" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
-                        xx
+                        Sakaban Suite Restaurant / bar
+                        Khmer Taste Restaurant
+                        Da Stefano
+                        Sambo Khmer & Thai Restaurant
+                        Samroh Srah Srang Restaurant (Angkor Wat lunch 1)
+                        Neak Pean Restaurant (Angkor Wat lunch 2)
+
                         <br /><br />
 
 
