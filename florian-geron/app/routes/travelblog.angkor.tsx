@@ -501,7 +501,7 @@ export default function Angkor() {
                             </li>
                             <li>
                                 Pub Street:<br/>
-                                Pun Street is a lively street in the center of Siem Reap, focused on restaurants, bars, and other nightlife venues.
+                                Pub Street is a lively street in the center of Siem Reap, focused on restaurants, bars, and other nightlife venues.
                                 We passed Pub Street on our way to the Old Market, and were surprise by how lively it was.
                                 The vibe is comparable to Bui Vien in Ho Chi Minh City or Khaosan Road in Bangkok, but a bit more laid back and less loud.
                                 Pub Street is fun to see, but we did not hang out here.
@@ -516,6 +516,7 @@ export default function Angkor() {
                             </li>
                             <li>
                                 Night Market:<br/>
+                                There are some food stalls
 
                             </li>
                         </ul>
@@ -527,14 +528,14 @@ export default function Angkor() {
                             <li>
                                 Tonlé Sap Lake:<br/>
                                 Tonlé Sap is a large lake (the largest freshwater lake in SEA) located to the South of Siem Reap, known for its many floating villages.
-                                Being an architect, Francesca had wanted to check out these structures built on the water, but unfortunately we did not get around it.
+                                Being an architect, Francesca had wanted to check out these structures built on the water, but unfortunately we did not get around to it.
                                 We have heard from others that the floating villages are quite touristy.
                             </li>
                             <li>
                                 Apopo Landmine Museum:<br/>
                                 During the Vietnam War, the US military dropped millions of landmines in Cambodia.
                                 These landmines continue to plague the local population, causing many casualties every year.
-                                You will see many people, mostly beggars, with missing limbds in Cambodia.
+                                You will see many people, mostly beggars, with missing limbs in Cambodia.
                                 During our visit to Angkor, we saw groups of amputees playing music and selling souvenirs to tourists, with signs stating that they prefer earning their keep like this rather than resorting to begging.<br/>
                                 The Apopo Landmine Museum is a museum dedicated to the history of landmines in Cambodia and the efforts to clear them.
                                 The museum focuses on a specific type of landmine-detecting rats, called Apopos, which are trained to sniff out landmines and alert their handlers to their presence.
@@ -556,6 +557,8 @@ export default function Angkor() {
                         Khmer Taste Restaurant
                         Da Stefano
                         Sambo Khmer & Thai Restaurant
+                        Phsar Khmer Food Court
+                        Night market
                         Samroh Srah Srang Restaurant (Angkor Wat lunch 1)
                         Neak Pean Restaurant (Angkor Wat lunch 2)
 
