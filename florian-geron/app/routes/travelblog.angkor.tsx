@@ -491,7 +491,30 @@ export default function Angkor() {
 
                         <h3 id="angkor-wat-day-3" className="text-2xl font-bold mb-4">Day 3 - Bonus Day! (What else to do in Siem Reap)</h3>
                         Siem Reap turned out to be a much larger city than we expected, and there are many things to see and do in and around the city.
-                        During our stay, we were able to do the following: Pub Straat, the Old Market, the Angkor Night Market, Spa.
+                        During our stay, we were able to do the following: Pub Street, the Old Market, the Angkor Night Market, Spa.
+                        <ul className="list-disc pl-5 space-y-1">
+                            <li>
+                                The Old Market:<br/>
+                                The Old Market is a large market in the center of Siem Reap where you can find all sorts of souvenirs, clothes, and food.
+                                We visited this market on our first night to buy some souvenirs, and we quite liked the goods on offer so came back to it a couple evenings later.
+                                We also visited the Siem Reap Night Market, which is located just across the river from the Old Market, where we bought some cashmere scarves for our family.
+                            </li>
+                            <li>
+                                Pub Street:<br/>
+                                Pun Street is a lively street in the center of Siem Reap, focused on restaurants, bars, and other nightlife venues.
+                                We passed Pub Street on our way to the Old Market, and were surprise by how lively it was.
+                                The vibe is comparable to Bui Vien in Ho Chi Minh City or Khaosan Road in Bangkok, but a bit more laid back and less loud.
+                                Pub Street is fun to see, but we did not hang out here.
+                            </li>
+                            <li>
+                                Angkor Silk Spa:<br/>
+                                We took some time from our schedule to relax and restore our energy at a spa close to our hotel.
+                                We had a relaxing experience and can recommend it.<br/>
+                                We chose this spa as it was on the same road as our hotel, both of which were located on a road with lots of nightlife venues.
+                                etcetc
+                            </li>
+                        </ul>
+
                         <br /><br />
                         Unfortunately, Francesca fell sick on our third day in Siem Reap, so we were not able to get everything out of our stay in Siem Reap.
                         Some other activities we had planned to do but had to skip were:
@@ -522,12 +545,25 @@ export default function Angkor() {
                         <h3 id="angkor-wat-hotel-reviews" className="text-2xl font-bold mb-4">Hotel Reviews</h3>
                         xx.
                         <br /><br />
-                        <h3 id="angkor-wat-drink-reviews" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
+                        <h3 id="angkor-wat-food-drink-reviews" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
                         xx
                         <br /><br />
 
 
                         <h2 id="koh-rong" className="text-4xl font-bold mb-4">Koh Rong Islands</h2>
+
+                        <h3 id="koh-rong-island" className="text-2xl font-bold mb-4">Koh Rong</h3>
+                        xx.
+                        <br /><br />
+                        <h3 id="koh-rong-sanloem" className="text-2xl font-bold mb-4">Koh Rong Sanloem</h3>
+                        xx
+                        <br /><br />
+                        <h3 id="koh-rong-hotel-reviews" className="text-2xl font-bold mb-4">Hotel Reviews</h3>
+                        xx.
+                        <br /><br />
+                        <h3 id="koh-rong-food-drink-reviews" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
+                        xx
+                        <br /><br />
 
 
 
@@ -544,31 +580,43 @@ export default function Angkor() {
                                 <li>
                                     <a href="#angkor-wat" onClick={(e) => handleTocClick(e, 'angkor-wat')} className="block w-full text-left pl-20 font-bold hover:underline">Angkor Wat</a>
                                 </li>
-                                <li>
-                                    <a href="#angkor-wat-history" onClick={(e) => handleTocClick(e, 'angkor-wat-history')} className="block w-full text-right hover:underline">Background & History</a>
-                                </li>
-                                <li>
-                                    <a href="#angkor-wat-day-1" onClick={(e) => handleTocClick(e, 'angkor-wat-day-1')} className="block w-full text-right hover:underline">Day 1 - Small Circuit</a>
-                                </li>
-                                <li>
-                                    <a href="#angkor-wat-day-2" onClick={(e) => handleTocClick(e, 'angkor-wat-day-2')} className="block w-full text-right hover:underline">Day 2 - Big Circuit</a>
-                                </li>
-                                <li>
-                                    <a href="#angkor-wat-day-3" onClick={(e) => handleTocClick(e, 'angkor-wat-day-3')} className="block w-full text-right hover:underline">Day 3 - Siem Reap</a>
-                                </li>
-                                <li>
-                                    <a href="#angkor-wat-hotel-reviews" onClick={(e) => handleTocClick(e, 'angkor-wat-hotel-reviews')} className="block w-full text-right hover:underline">Hotel Reviews</a>
-                                </li>
-                                <li>
-                                    <a href="#angkor-wat-food-drink-reviews" onClick={(e) => handleTocClick(e, 'angkor-wat-food-drink-reviews')} className="block w-full text-right hover:underline">Food & Drinks Reviews</a>
-                                </li>
+                                    <li>
+                                        <a href="#angkor-wat-history" onClick={(e) => handleTocClick(e, 'angkor-wat-history')} className="block w-full text-right hover:underline">Background & History</a>
+                                    </li>
+                                    <li>
+                                        <a href="#angkor-wat-day-1" onClick={(e) => handleTocClick(e, 'angkor-wat-day-1')} className="block w-full text-right hover:underline">Day 1 - Small Circuit</a>
+                                    </li>
+                                    <li>
+                                        <a href="#angkor-wat-day-2" onClick={(e) => handleTocClick(e, 'angkor-wat-day-2')} className="block w-full text-right hover:underline">Day 2 - Big Circuit</a>
+                                    </li>
+                                    <li>
+                                        <a href="#angkor-wat-day-3" onClick={(e) => handleTocClick(e, 'angkor-wat-day-3')} className="block w-full text-right hover:underline">Day 3 - Siem Reap</a>
+                                    </li>
+                                    <li>
+                                        <a href="#angkor-wat-hotel-reviews" onClick={(e) => handleTocClick(e, 'angkor-wat-hotel-reviews')} className="block w-full text-right hover:underline">Hotel Reviews</a>
+                                    </li>
+                                    <li>
+                                        <a href="#angkor-wat-food-drink-reviews" onClick={(e) => handleTocClick(e, 'angkor-wat-food-drink-reviews')} className="block w-full text-right hover:underline">Food & Drinks Reviews</a>
+                                    </li>
                                 <li>
                                     <a href="#koh-rong" onClick={(e) => handleTocClick(e, 'koh-rong')} className="block w-full text-left pl-20 font-bold hover:underline">Koh Rong Islands</a>
                                 </li>
+                                    <li>
+                                        <a href="#koh-rong-island" onClick={(e) => handleTocClick(e, 'koh-rong-island')} className="block w-full text-right hover:underline">Koh Rong</a>
+                                    </li>
+                                    <li>
+                                        <a href="#koh-rong-sanloem" onClick={(e) => handleTocClick(e, 'koh-rong-sanloem')} className="block w-full text-right hover:underline">Koh Rong Sanloem</a>
+                                    </li>
+                                    <li>
+                                        <a href="#koh-rong-hotel-reviews" onClick={(e) => handleTocClick(e, 'koh-rong-hotel-reviews')} className="block w-full text-right hover:underline">Hotel Reviews</a>
+                                    </li>
+                                    <li>
+                                        <a href="#koh-rong-food-drink-reviews" onClick={(e) => handleTocClick(e, 'koh-rong-food-drink-reviews')} className="block w-full text-right hover:underline">Food & Drinks Reviews</a>
+                                    </li>
                             </ul>
                         </nav>
 
-                        <div className="sticky top-[350px] self-start flex items-center justify-end mb-4 hover:scale-105 transition-transform duration-300">
+                        <div className="sticky top-[455px] self-start flex items-center justify-end mb-4 hover:scale-105 transition-transform duration-300">
                             <label htmlFor="font-size-select" className="mr-2 text-sm text-gray-600">Text size</label>
                             <select
                                 id="font-size-select"
