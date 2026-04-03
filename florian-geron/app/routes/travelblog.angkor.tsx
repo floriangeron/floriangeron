@@ -565,11 +565,6 @@ export default function Angkor() {
                                 Some of these nightlife venues seemed to cater to a more adult audience, which the spa seemed to be very aware of as well.
                                 When we entered, we spotted that the lobby was filled with crosses and bibles scattered around, which we believe was the spa's way of signaling to their customers that they were a, let's say, "family-friendly" establishment.
                             </li>
-                            <li>
-                                Night Market:<br/>
-                                There are some food stalls
-
-                            </li>
                         </ul>
 
                         <br /><br />
@@ -685,10 +680,19 @@ export default function Angkor() {
                         This food court is located close to the Old Market, and it offers a wide variety of food at reasonable prices.
                         We were annoyed by the token system, which required us to buy tokens at a booth before we could order our food, but the food was nice and the venue is nicely decorated.
                         <br/><br/>
-                        Night market
-                        Samroh Srah Srang Restaurant (Angkor Wat lunch 1)
-                        Neak Pean Restaurant (Angkor Wat lunch 2)
-
+                        Night market:
+                        There is a night market straddling the riverside next to the Old Market, where you can find local food stalls for a quick and cheap meal.
+                        It's got a nice atmosphere to it. I had a pancake / crêpe filled with honey, which was tasty but a mess to eat.
+                        <br/><br/>
+                        Samroh Srah Srang Restaurant (Angkor Wat lunch 1):
+                        Our first tour in Angkor Wat took us to this restaurant for lunch. 
+                        This restaurant is a classic tourist trap, serving mediocre food at high prices.
+                        We do not recommend.
+                        <br/><br/>
+                        Neak Pean Restaurant (Angkor Wat lunch 2):
+                        Our private guide who took us on our second tour in Angkor Wat (Big Circuit) took us to this restaurant for lunch.
+                        This restaurant was another classic tourist trap, with the food being downright bad and the prices being very high.
+                        We do not recommend this restaurant either.
                         <br /><br />
 
 
