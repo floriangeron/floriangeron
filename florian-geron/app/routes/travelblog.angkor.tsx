@@ -4,8 +4,6 @@ import { Link } from "@remix-run/react";
 
 import { MapIcon, MapPinIcon, GlobeAltIcon, CurrencyDollarIcon, ClockIcon, CalendarIcon } from "@heroicons/react/24/outline";
 
-import AnimatedWave from "~/components/AnimatedWave";
-
 import { Card, CardContent } from "~/components/ui/card"
 import {
   Carousel,
@@ -14,8 +12,11 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "~/components/ui/carousel"
+
+import AnimatedWave from "~/components/AnimatedWave";
 import { StarScale } from "~/components/ui/StarRating";
 import { StarLine } from '../components/ui/StarLine';
+import CollapsibleReview from '../components/ui/CollapsibleReview';
 
 export const meta: MetaFunction = () => {
   return [
@@ -540,9 +541,38 @@ export default function Angkor() {
                         He provided some more historical and cultural context about the temples, but it wasn't always easy to understand him.
                         <br /><br />
 
+                        <h3 id="angkor-wat-tips-and-tricks" className="text-2xl font-bold mb-4">Tips and Tricks for visiting Angkor Wat</h3>
+                        Here is a succint list of things we wished we had known before visiting Angkor Wat:
+                        <ul className="list-disc pl-5 space-y-1">
+                            <li>
+                                <strong>Bring your own lunch: </strong>
+                                The restaurants in the Angkor complex are expensive tourist traps serving mediocre food.
+                                Bring your own food for a tastier and cheaper meal.
+                            </li>
+                            <li>
+                                <strong>Read in advance</strong> about the <strong>history</strong> of the temples to get more out of your visit as the guides are not always very informative.
+                            </li>
+                            <li>
+                                We would recommend spending at least <strong>three full days</strong> in Siem Reap.
+                                If you have only one day, we recommend the small circuit, as it includes Angkor Wat.
+                                If you have two days, also include the big circuit.
+                                If you have three days, we would recommend mapping out your own route to explore the temples, as the small and big circuits only cover a fraction of the temples in the area.
+                            </li>
+                            <li>
+                                <strong>Start your day early</strong> (or late) to avoid the daytime searing heat.
+                                We know how to handle some heat, but the heat at Angkor Wat was difficult for us to handle.
+                            </li>
+                            <li>
+                                If you are doing the sunrise tour, be prepared to leave your hotel very early and to wait around for other people to be picked up.
+                                We had to put our alarm clock for 3:45 AM. This early wake-up time had an impact on our enjoyment of the rest of the day, and in hindsight we would have preferred to pay for a <strong>private sunrise tour</strong> to sleep in longer.
+                            </li>
+                        </ul>
+                        <br /><br />
+
+
                         <h3 id="angkor-wat-day-3" className="text-2xl font-bold mb-4">Day 3 - Bonus Day! (What else to do in Siem Reap)</h3>
                         Siem Reap turned out to be a much larger city than we expected, and there are many things to see and do in and around the city.
-                        During our stay, we were able to do the following: Pub Street, the Old Market, the Angkor Night Market, Spa.
+                        During our stay, we were able to do the following: 
                         <ul className="list-disc pl-5 space-y-1">
                             <li>
                                 The Old Market:<br/>
@@ -585,6 +615,10 @@ export default function Angkor() {
                                 During our visit to Angkor, we saw groups of amputees playing music and selling souvenirs to tourists, with signs stating that they prefer earning their keep like this rather than resorting to begging.<br/>
                                 The Apopo Landmine Museum is a museum dedicated to the history of landmines in Cambodia and the efforts to clear them.
                                 The museum focuses on a specific type of landmine-detecting rats, called Apopos, which are trained to sniff out landmines and alert their handlers to their presence.
+                            </li>
+                            <li>
+                                Angkor National Museum:<br/>
+                                This museum in Siem Reap can be a good primer before visiting the temples, as it provides a lot of historical and cultural context about the temples in the Angkor complex.
                             </li>
                             <li>
                                 Lesser-known temples:<br/>
@@ -654,46 +688,81 @@ export default function Angkor() {
                                 </div>
                             </details>
                         <br /><br />
+
+                        
                         <h3 id="angkor-wat-food-drink-reviews" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
-                        Sakaban Suite Restaurant / bar:
-                        Upon arrival at the hotel, we took advantage of the happy hour at the hotel bar, which interestingly offered a 3-for-2 deal on cocktails, meaning that Fran got to drink an extra cocktail.
-                        Overall it's a very decent bar with a comfortable atmosphere, and we enjoyed our time there.
-                        The restaurant at the hotel was also nice, but perhaps a bit overpriced for the quality of the food compared to the other restaurants we tried in Siem Reap.
-                        <br/><br/>
-                        Khmer Taste Restaurant:
-                        We decided to hop in for a quick bite at this restaurant one of our evenings, and we were blown away by the prices on the menu.
-                        If memory serves us right, we ordered a national dish (Amok), a desert (mango sticky rice), a cocktail, and a soda for the grand total of $4.
-                        This was a steal, and the food was tasty, but we ended up getting some stomach issues the next day, which we suspect were caused by the food we ate at this restaurant.
-                        <br/><br/>
-                        Da Stefano:
-                        After our experience at Khmer Taste, we decided to play it safe and eat at a European restaurant.
-                        Da Stefano is an Italian restaurant owned by an Italian chef, Stefano, where we both had a pizza to give our stomach a break from the local cuisine.
-                        The pizza didn't taste like authentic Italian pizza, but it was decent and we enjoyed our meal there.
-                        <br/><br/>
-                        Sambo Khmer & Thai Restaurant:
-                        Thai cuisine is our favourite cuisine, so we were excited to check out this Khmer-Thai restaurant which had good reviews online.
-                        We were not disappointed, as we had a delicious meal there, and the atmosphere of the restaurant was very nice as well.
-                        The owner is a very friendly and welcoming person, who made a point of having a chat with us and making sure we enjoyed our meal.
-                        The prices are a bit higher, but we recommend this place over restaurants like Khmer Taste any day.
-                        <br/><br/>
-                        Phsar Khmer Food Court:
-                        This food court is located close to the Old Market, and it offers a wide variety of food at reasonable prices.
-                        We were annoyed by the token system, which required us to buy tokens at a booth before we could order our food, but the food was nice and the venue is nicely decorated.
-                        <br/><br/>
-                        Night market:
-                        There is a night market straddling the riverside next to the Old Market, where you can find local food stalls for a quick and cheap meal.
-                        It's got a nice atmosphere to it. I had a pancake / crêpe filled with honey, which was tasty but a mess to eat.
-                        <br/><br/>
-                        Samroh Srah Srang Restaurant (Angkor Wat lunch 1):
-                        Our first tour in Angkor Wat took us to this restaurant for lunch. 
-                        This restaurant is a classic tourist trap, serving mediocre food at high prices.
-                        We do not recommend.
-                        <br/><br/>
-                        Neak Pean Restaurant (Angkor Wat lunch 2):
-                        Our private guide who took us on our second tour in Angkor Wat (Big Circuit) took us to this restaurant for lunch.
-                        This restaurant was another classic tourist trap, with the food being downright bad and the prices being very high.
-                        We do not recommend this restaurant either.
-                        <br /><br />
+
+                        <CollapsibleReview title="Sakaban Suite Restaurant / Bar" rating={4} scale="food">
+                            Upon arrival at the hotel, we took advantage of the happy hour at the hotel bar, which interestingly offered a 3-for-2 deal on cocktails, meaning that Fran got to drink an extra cocktail.
+                            Overall it's a very decent bar with a comfortable atmosphere, and we enjoyed our time there.
+                            The restaurant at the hotel was also nice, but perhaps a bit overpriced for the quality of the food compared to the other restaurants we tried in Siem Reap.
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/Gt5RQPBtKo7bMZxs9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+
+                        <CollapsibleReview title="Khmer Taste Restaurant" rating={1} scale="food">
+                            We decided to hop in for a quick bite at this restaurant one of our evenings, and we were blown away by the prices on the menu.
+                            If memory serves us right, we ordered a national dish (Amok), a desert (mango sticky rice), a cocktail, and a soda for the grand total of $4.
+                            This was a steal, and the food was tasty, but we ended up getting some stomach issues the next day, which we suspect were caused by the food we ate at this restaurant.
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/1dnCdA4SADchtNuE8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+
+                        <CollapsibleReview title="Da Stefano" rating={3} scale="food">
+                            After our experience at Khmer Taste, we decided to play it safe and ate at a European restaurant.
+                            Da Stefano is an Italian restaurant owned by an Italian chef, Stefano, where we both had a pizza to give our stomach a break from the local cuisine.
+                            The pizza didn't taste like authentic Italian pizza, but it was decent and we enjoyed our meal there.
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/QRiLPhFEcwUfHVc56" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+
+                        <CollapsibleReview title="Chubby Gonzos" rating={3.5} scale="food">
+                            We both love Mexican food, and we happened to pass this place while exploring the area.
+                            We decided to stop by for a quick taco stop. 
+                            The tacos were very decent and we enjoyed our meal there.
+                            We ordered all the tacos they had on the menu, but this wasn't a lot of food and it wasn't the best we'd had in SEA.
+                            We liked the Birria taco the most and recommend this place if you like Mexican food.
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/d9G8ERRnCFX2ht6c7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+
+                        <CollapsibleReview title="Sambo Khmer & Thai Restaurant" rating={4.5} scale="food">
+                            Thai cuisine is our favourite cuisine, so we were excited to check out this Khmer-Thai restaurant which had good reviews online.
+                            We were not disappointed, as we had a delicious meal there, and the atmosphere of the restaurant was very nice as well.
+                            The owner is a very friendly and welcoming person, who made a point of having a chat with us and making sure we enjoyed our meal.
+                            The prices are a bit higher, but we recommend this place over restaurants like Khmer Taste any day.
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/3cz4Dhw6kPohw7br8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+
+                        <CollapsibleReview title="Phsar Khmer Food Court" rating={4} scale="food">
+                            This food court is located close to the Old Market, and it offers a wide variety of food at reasonable prices.
+                            We were annoyed by the token system, which required us to buy tokens at a booth before we could order our food, but the food was nice and the venue is nicely decorated.
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/D5P9fEaeVdEXSv5x9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+
+                        <CollapsibleReview title="Samroh Srah Srang Restaurant (Angkor Wat lunch 1)" rating={0} scale="food">
+                            Our first tour in Angkor Wat took us to this restaurant for lunch. 
+                            This restaurant is a classic tourist trap, serving bad food at high prices.
+                            We do not recommend.
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/T1gCnPtUokjwDfvy9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+
+                        <CollapsibleReview title="Neak Pean Restaurant (Angkor Wat lunch 2)" rating={0} scale="food">
+                            Our private guide who took us on our second tour in Angkor Wat (Big Circuit) took us to this restaurant for lunch.
+                            This restaurant was another classic tourist trap, with the food being downright bad and the prices being very high.
+                            We do not recommend this restaurant either.
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/nVxRzqYHT5za2Jwy5" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+
+                        <CollapsibleReview title="Night market" rating={2.5} scale="hotdog">
+                            There is a night market straddling the riverside next to the Old Market, where you can find local food stalls for a quick and cheap meal.
+                            I had a pancake / crêpe filled with honey, which was tasty but a mess to eat.
+                            Overall, this night market was not as memorable as the ones of other South-East Asian cities we have been to, as we did not very welcomed as tourists.
+                        </CollapsibleReview>
 
 
                         <h2 id="koh-rong" className="text-4xl font-bold mb-4">Koh Rong Islands</h2>
@@ -730,13 +799,10 @@ export default function Angkor() {
                                         <a href="#angkor-wat-history" onClick={(e) => handleTocClick(e, 'angkor-wat-history')} className="block w-full text-right hover:underline">Background & History</a>
                                     </li>
                                     <li>
-                                        <a href="#angkor-wat-day-1" onClick={(e) => handleTocClick(e, 'angkor-wat-day-1')} className="block w-full text-right hover:underline">Day 1 - Small Circuit</a>
+                                        <a href="#angkor-wat-complex" onClick={(e) => handleTocClick(e, 'angkor-wat-complex')} className="block w-full text-right hover:underline">Angkor Wat</a>
                                     </li>
                                     <li>
-                                        <a href="#angkor-wat-day-2" onClick={(e) => handleTocClick(e, 'angkor-wat-day-2')} className="block w-full text-right hover:underline">Day 2 - Big Circuit</a>
-                                    </li>
-                                    <li>
-                                        <a href="#angkor-wat-day-3" onClick={(e) => handleTocClick(e, 'angkor-wat-day-3')} className="block w-full text-right hover:underline">Day 3 - Siem Reap</a>
+                                        <a href="#angkor-wat-day-3" onClick={(e) => handleTocClick(e, 'angkor-wat-day-3')} className="block w-full text-right hover:underline">Siem Reap</a>
                                     </li>
                                     <li>
                                         <a href="#angkor-wat-hotel-reviews" onClick={(e) => handleTocClick(e, 'angkor-wat-hotel-reviews')} className="block w-full text-right hover:underline">Hotel Reviews</a>
@@ -762,7 +828,7 @@ export default function Angkor() {
                             </ul>
                         </nav>
 
-                        <div className="sticky top-[455px] self-start flex items-center justify-end mb-4 hover:scale-105 transition-transform duration-300">
+                        <div className="sticky top-[435px] self-start flex items-center justify-end mb-4 hover:scale-105 transition-transform duration-300">
                             <label htmlFor="font-size-select" className="mr-2 text-sm text-gray-600">Text size</label>
                             <select
                                 id="font-size-select"
