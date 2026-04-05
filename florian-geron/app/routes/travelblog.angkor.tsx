@@ -570,7 +570,7 @@ export default function Angkor() {
                         <br /><br />
 
 
-                        <h3 id="angkor-wat-day-3" className="text-2xl font-bold mb-4">Day 3 - Bonus Day! (What else to do in Siem Reap)</h3>
+                        <h3 id="angkor-wat-day-3" className="text-2xl font-bold mb-4">Day 3 - Siem Reap</h3>
                         Siem Reap turned out to be a much larger city than we expected, and there are many things to see and do in and around the city.
                         During our stay, we were able to do the following: 
                         <ul className="list-disc pl-5 space-y-1">
@@ -579,6 +579,8 @@ export default function Angkor() {
                                 The Old Market is a large market in the center of Siem Reap where you can find all sorts of souvenirs, clothes, and food.
                                 We visited this market on our first night to buy some souvenirs, and we quite liked the goods on offer so came back to it a couple evenings later.
                                 We also visited the Siem Reap Night Market, which is located just across the river from the Old Market, where we bought some cashmere scarves for our family.
+                                <br/>
+                                Haggling is an ingrained part of the shopping experience in these markets, and we found that you divide the original asking price by 3 and still expect to close the deal; Especially if you are willing to walk away from the deal.
                             </li>
                             <li>
                                 Pub Street:<br/>
@@ -689,7 +691,7 @@ export default function Angkor() {
                             </details>
                         <br /><br />
 
-                        
+
                         <h3 id="angkor-wat-food-drink-reviews" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
 
                         <CollapsibleReview title="Sakaban Suite Restaurant / Bar" rating={4} scale="food">
@@ -767,8 +769,62 @@ export default function Angkor() {
 
                         <h2 id="koh-rong" className="text-4xl font-bold mb-4">Koh Rong Islands</h2>
 
+                        After our stay in Siem Reap, we flew into Sihanoukville to visit the Koh Rong Islands.
+                        After landing in Sihanoukville, we took a 30min taxi ride to the ferry terminal and then a 45min ferry ride to the islands.
+                        <br /><br />
+
                         <h3 id="koh-rong-island" className="text-2xl font-bold mb-4">Koh Rong</h3>
-                        xx.
+                        We started our island stay on Koh Rong, which is the more developed and more touristy of the two islands, catering to backpackers.
+                        Our ferry docked at Long Set Pier on Long Set Beach, which is a long stretch of beach lined with hostels, bars and restaurants.
+                        
+                        <div className="grid md:grid-cols-2 gap-2">
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cambodia/kohrong/Arrival1.jpg"
+                                    alt="The ferry arriving at Koh Rong Long Set Beach"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cambodia/kohrong/Arrival1.jpg')}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">The ferry arriving at Koh Rong Long Set Beach</figcaption>
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cambodia/kohrong/Arrival2.jpg"
+                                    alt="The Long Set Beach"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cambodia/kohrong/Arrival2.jpg')}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">Long Set Beach</figcaption>
+                            </figure>
+                        </div><br/>
+
+                        We stayed at Onederz Koh Rong, and were greeted to their Full Moon Party celebrations the evening of our arrival.
+                        We enjoyed the party, which was a great setting to meet other travelers and kick off our island stay.
+                        There were some fun activities like a fire show which merged into a fire limbo session.
+
+                        <div className="grid md:grid-cols-2 gap-2">
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cambodia/kohrong/Arrival3.jpg"
+                                    alt="Our first drinks on Koh Rong"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cambodia/kohrong/Arrival3.jpg')}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">Our first drinks on Koh Rong</figcaption>
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cambodia/kohrong/Limbo.jpg"
+                                    alt="Limbo at the Full Moon Party at Onederz"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cambodia/kohrong/Limbo.jpg')}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">Limbo at the Full Moon Party at Onederz</figcaption>
+                            </figure>
+                        </div><br/>
+
+                        
+
                         <br /><br />
                         <h3 id="koh-rong-sanloem" className="text-2xl font-bold mb-4">Koh Rong Sanloem</h3>
                         xx
