@@ -689,7 +689,7 @@ export default function Angkor() {
                                     </p>
                                 </div>
                             </details>
-                        <br /><br />
+                        <br />
 
 
                         <h3 id="angkor-wat-food-drink-reviews" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
@@ -766,6 +766,8 @@ export default function Angkor() {
                             Overall, this night market was not as memorable as the ones of other South-East Asian cities we have been to, as we did not very welcomed as tourists.
                         </CollapsibleReview>
 
+                        <br />
+
 
                         <h2 id="koh-rong" className="text-4xl font-bold mb-4">Koh Rong Islands</h2>
 
@@ -774,6 +776,7 @@ export default function Angkor() {
                         <br /><br />
 
                         <h3 id="koh-rong-island" className="text-2xl font-bold mb-4">Koh Rong</h3>
+
                         We started our island stay on Koh Rong, which is the more developed and more touristy of the two islands, catering to backpackers.
                         Our ferry docked at Long Set Pier on Long Set Beach, which is a long stretch of beach lined with hostels, bars and restaurants.
                         
@@ -822,6 +825,26 @@ export default function Angkor() {
                                 <figcaption className="text-center text-sm text-gray-600">Limbo at the Full Moon Party at Onederz</figcaption>
                             </figure>
                         </div><br/>
+
+                        Koh Rong is a tropical backpacker experience that is best enjoyed at a slow pace.
+                        Below, you will find an anthology of our experiences on the island, in no particular order.
+<br /><br />
+                        Insert adventures here.
+<br /><br />
+                        Throughout these adventures, Francesca had occasional flare-ups of the stomach issues she contracted in Siem Reap.
+                        These became particularly bad on our last night, which, combined with the fact that the weather report wasn't favorable for ferry rides the next day, made us decide to stay on Koh Rong for an extra night.
+                        On this additional day, Francesca visited the Koh Rong Clinic and Pharmacy, where she got treated for her disease.
+                        She was hooked up to an IV and given a plethora of medications.
+                        The doctor was shocked to hear she had been dealing with this for a week, saying most tourists come in with these symptoms after just a few days.
+                        We were very grateful for the doctor's help, with the treatment working well and allowing Francesca to enjoy the rest of her stay.
+                        However, due to the limited medical facilities on the island, the doctor charged about $500 for the consultation and treatment, which is a hefty sum for European standards of healthcare.
+                        <br /><br />
+                        We tried to extend our stay at Onederz, but were informed that they were fully booked that night.
+                        We moved to the hotel next door, Scarlet Sails, who put us in an uncomfortable room with mold stains.
+                        You can find our full review of this hotel below, but suffice it to say that we do not recommend it.
+                        <br /><br />
+                        After our stay at Scarlet Sails, we boarded the ferry to Koh Rong Sanloem.
+
 
                         
 
