@@ -824,13 +824,36 @@ export default function Angkor() {
                                 />
                                 <figcaption className="text-center text-sm text-gray-600">Limbo at the Full Moon Party at Onederz</figcaption>
                             </figure>
+                        </div>
+                        <br /><br />
+                        We spent our first day taking it slow. 
+                        We enjoyed breakfast on the beach at our hotel bar, where we spent some time ordering coffees and juices which later turned into cocktails.
+                        We also walked up and down Long Set Beach a bit, stopping for lunch at Phorn's bar.
+                        <div className="grid md:grid-cols-2 gap-2">
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cambodia/kohrong/Breakfast.jpg"
+                                    alt="Breakfast"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cambodia/kohrong/Breakfast.jpg')}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">Breakfast on the beach at Onederz</figcaption>
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cambodia/kohrong/Lunch.jpg"
+                                    alt="Lunch at Phorn's bar"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cambodia/kohrong/Lunch.jpg')}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">Lunch at Phorn's bar</figcaption>
+                            </figure>
                         </div><br/>
-
-                        Koh Rong is a tropical backpacker experience that is best enjoyed at a slow pace.
-                        Below, you will find an anthology of our experiences on the island, in no particular order.
-<br /><br />
-                        Insert adventures here.
-<br /><br />
+                        A highlight of Koh Rong is the weekly Nestival that takes place at the Nest hostel.
+                        This event start in the early afternoon with some "beach olympics", which are a series of games and challenges that take place on the beach, like a tug of war, a beach volleyball tournament, and a sack race.
+                        As the day progresses, the music is turned up and the party gets going, with two stages with DJs.
+                        The Nestival is a very fun event if you are a backpacker who's into meeting other travelers and partying.
+                        <br /><br />
                         Throughout these adventures, Francesca had occasional flare-ups of the stomach issues she contracted in Siem Reap.
                         These became particularly bad on our last night, which, combined with the fact that the weather report wasn't favorable for ferry rides the next day, made us decide to stay on Koh Rong for an extra night.
                         On this additional day, Francesca visited the Koh Rong Clinic and Pharmacy, where she got treated for her disease.
