@@ -852,8 +852,30 @@ export default function Angkor() {
                         A highlight of Koh Rong is the weekly Nestival that takes place at the Nest hostel.
                         This event start in the early afternoon with some "beach olympics", which are a series of games and challenges that take place on the beach, like a tug of war, a beach volleyball tournament, and a sack race.
                         As the day progresses, the music is turned up and the party gets going, with two stages with DJs.
-                        The Nestival is a very fun event if you are a backpacker who's into meeting other travelers and partying.
-                        <br /><br />
+                        The Nestival is a very fun event if you are a backpacker who's into meeting other travelers and partying.<br/>
+                        If you're walking to the Nest from Onederz, you will have to wade through a small river inlet, which is very shallow at low tide but can be a bit more challenging at high tide.
+                        There is a rope you can hold on to to help you cross.
+                        We did not find this an issue and actually enjoyed the little adventure, but we've heard from some other people that they found this crossing a bit scary, especially at the dark of night. 
+                        <div className="grid md:grid-cols-2 gap-2">
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cambodia/kohrong/Nestival.jpg"
+                                    alt="Nestival"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cambodia/kohrong/Nestival.jpg')}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">Nestival afternoon beach olympics</figcaption>
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cambodia/kohrong/Nestival2.jpg"
+                                    alt="Nestival party"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cambodia/kohrong/Nestival2.jpg')}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">One of the stages at the Nestival</figcaption>
+                            </figure>
+                        </div><br/>
                         Throughout these adventures, Francesca had occasional flare-ups of the stomach issues she contracted in Siem Reap.
                         These became particularly bad on our last night, which, combined with the fact that the weather report wasn't favorable for ferry rides the next day, made us decide to stay on Koh Rong for an extra night.
                         On this additional day, Francesca visited the Koh Rong Clinic and Pharmacy, where she got treated for her disease.
@@ -876,10 +898,156 @@ export default function Angkor() {
                         xx
                         <br /><br />
                         <h3 id="koh-rong-hotel-reviews" className="text-2xl font-bold mb-4">Hotel Reviews</h3>
-                        xx.
+                            <details className="group mb-6 rounded-md">
+                                <summary className="flex items-center justify-between p-4 cursor-pointer">
+                                    <div className="flex items-center">
+                                        <svg className="chev h-5 w-5 mr-3 text-gray-600" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+                                            <path d="M6 8l4 4 4-4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+                                        </svg>
+                                        <h4 id="hotel-1" className="text-1xl font-bold m-0">Onederz Koh Rong</h4>
+                                    </div>
+                                    <div className="flex items-center">
+                                        <StarScale rating={4} />
+                                    </div>
+                                </summary>
+    
+                                <div className="px-4 pb-4 collapsible-body">
+                                    <div className="max-w-6xl mx-auto">
+                                        <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-8 mb-8">
+                                            <div className="flex items-center">
+                                                <StarLine rating={7} max={10} title='Staff' />
+                                            </div>
+                                            <div className="flex items-center">
+                                                <StarLine rating={7} max={10} title='Facilities' />
+                                            </div>
+                                            <div className="flex items-center">
+                                                <StarLine rating={7} max={10} title='Cleanliness' />
+                                            </div>
+                                            <div className="flex items-center">
+                                                <StarLine rating={5} max={10} title='Comfort' />
+                                            </div>
+                                            <div className="flex items-center">
+                                                <StarLine rating={9} max={10} title='Location' />
+                                            </div>
+                                            <div className="flex items-center">
+                                                <StarLine rating={8} max={10} title='Value for Money' />
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <p className="mb-6 leading-relaxed mt-2">
+                                        Onederz on Koh Rong island is located on Long Set Beach and has everything you need to enjoy a relaxed beach stay on the island.
+                                        It's a hostel so it is not the most luxurious place, but we did not have any major issues with hygiene or comfort.
+                                        The hostel is aimed at backpackers, which results in a very young and lively set of guests.
+                                        <br/>
+                                        The hostel has five buildings containing either shared dorms or private rooms (we got a private room), an area for beach volleyball, and a restaurant / bar area that merges into the beach.
+                                        We really enjoyed being able to have breakfast and drinks on the beach.
+                                        The drinks were very nice and the food was decent, though not the most exciting if you're staying for a long time. 
+                                        Overall, the staff were friendly but we had some issues with the service, e.g. waiting a long time or them not taking into account Francesca's dietary restrictions.
+                                        <br/>
+                                        The hostel organizes a couple of fun activities, such as a weekly Full Moon Party, which attracts visitors from all over the beach for drinks, dancing, and a fire show.
+                                        You can also book a boat trip to explore the waters around the island, which includes some snorkeling and some fishing.
+                                        <br/>
+                                        If you are looking for a social beach getaway, you cannot go wrong with Onederz on Koh Rong.
+                                        <br />
+                                        Find it <a href="https://maps.app.goo.gl/w4ecHisjcCiCTxLb9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                                    </p>
+                                </div>
+                            </details>
+
+                            <details className="group mb-6 rounded-md">
+                                <summary className="flex items-center justify-between p-4 cursor-pointer">
+                                    <div className="flex items-center">
+                                        <svg className="chev h-5 w-5 mr-3 text-gray-600" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+                                            <path d="M6 8l4 4 4-4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+                                        </svg>
+                                        <h4 id="hotel-1" className="text-1xl font-bold m-0">Scarlet Sails Resort</h4>
+                                    </div>
+                                    <div className="flex items-center">
+                                        <StarScale rating={1} />
+                                    </div>
+                                </summary>
+    
+                                <div className="px-4 pb-4 collapsible-body">
+                                    <div className="max-w-6xl mx-auto">
+                                        <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-8 mb-8">
+                                            <div className="flex items-center">
+                                                <StarLine rating={6} max={10} title='Staff' />
+                                            </div>
+                                            <div className="flex items-center">
+                                                <StarLine rating={4} max={10} title='Facilities' />
+                                            </div>
+                                            <div className="flex items-center">
+                                                <StarLine rating={2} max={10} title='Cleanliness' />
+                                            </div>
+                                            <div className="flex items-center">
+                                                <StarLine rating={1} max={10} title='Comfort' />
+                                            </div>
+                                            <div className="flex items-center">
+                                                <StarLine rating={9} max={10} title='Location' />
+                                            </div>
+                                            <div className="flex items-center">
+                                                <StarLine rating={2} max={10} title='Value for Money' />
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <p className="mb-6 leading-relaxed mt-2">
+                                        We extended our stay on Koh Rong for one night, as the weather and Francesca's health did not allow us to take the ferry to Koh Rong Sanloem.
+                                        Onederz was fully booked for the night, so we decided to stay at the hotel next door, Scarlet Sails Resort.
+                                        Oh boy, did we dislike this place.
+                                        <br/>
+                                        Upon arrival, we waited for a long time to check in, as the staff was not responsive, even though there was only one other couple checking in at the same time.
+                                        We had booked a bungalow, and were put in a room with stains on the wall, holes in the floor, and a strong moldy smell in the bathroom.
+                                        The room's sliding doors did not shut fully, leaving ample space for insects to enter the room.
+                                        Suffice it to say we did not at all feel comfortable in this room.
+                                        <br/>
+                                        The hotel's breakfast was also not good.
+                                        The breakfast is a buffet, but the food did not seem fresh.
+                                        The lady making some omelettes on demand also did not seem to particularly care about hygiene.
+                                        <br/>
+                                        Upon checkout, we voiced our disapproval of the room's condition to the staff, who responded by letting us know that half of the bungalows had been renovated recently and that we should ask for one of those next time.
+                                        Under no circumstances will we ever consider staying at this hotel again though, and we do not recommend it to anyone.
+                                        <br />
+                                        Find it <a href="https://maps.app.goo.gl/1F2uVuKhSdrZn455A" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                                    </p>
+                                </div>
+                            </details>
+
                         <br /><br />
                         <h3 id="koh-rong-food-drink-reviews" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
-                        xx
+                        
+                        <CollapsibleReview title="Onederz Hostel Restaurant and Bar" rating={3} scale="food">
+                            xx.
+                            <br />
+                            Find it <a href="xxx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+
+                        <CollapsibleReview title="Phorn's Rock & Raggae Bar" rating={3.5} scale="food">
+                            xx.
+                            <br />
+                            Find it <a href="xxx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+
+                        <CollapsibleReview title="Happyplace" rating={4.5} scale="food">
+                            xx.
+                            <br />
+                            Find it <a href="xxx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+
+                        <CollapsibleReview title="La Cocina Mexican Restaurant" rating={3.5} scale="food">
+                            xx.
+                            <br />
+                            Find it <a href="xxx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+
+                        <CollapsibleReview title="Nest Beach Club" rating={4} scale="food">
+                            xx.
+                            <br />
+                            Find it <a href="xxx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+
+
                         <br /><br />
 
 
