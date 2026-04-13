@@ -403,7 +403,7 @@ export default function Angkor() {
                                 <CarouselItem key={index} className="basis-1/2 pl-1 lg:basis-1/3">
                                     <div className="p-1">
                                     <Card>
-                                        <CardContent className="flex aspect-square items-center justify-center p-0">
+                                        <CardContent className="flex items-center justify-center p-0">
                                         <img 
                                             src={`/images/travel/cambodia/angkorsunrise/angkor${index+1}.jpg`} 
                                             alt={`Angkor ${index+1}`} 
@@ -449,7 +449,7 @@ export default function Angkor() {
                                 <CarouselItem key={index} className="basis-1/2 pl-1 lg:basis-1/3">
                                     <div className="p-1">
                                     <Card>
-                                        <CardContent className="flex aspect-square items-center justify-center p-0">
+                                        <CardContent className="flex items-center justify-center p-0">
                                         <img 
                                             src={`/images/travel/cambodia/smallcircuit/smallcircuit${index+1}.jpg`} 
                                             alt={`Small Circuit ${index+1}`} 
@@ -518,7 +518,7 @@ export default function Angkor() {
                                 <CarouselItem key={index} className="basis-1/2 pl-1 lg:basis-1/3">
                                     <div className="p-1">
                                     <Card>
-                                        <CardContent className="flex aspect-square items-center justify-center p-0">
+                                        <CardContent className="flex items-center justify-center p-0">
                                         <img 
                                             src={`/images/travel/cambodia/bigcircuit/bigcircuit${index+1}.jpg`} 
                                             alt={`Big Circuit ${index+1}`} 

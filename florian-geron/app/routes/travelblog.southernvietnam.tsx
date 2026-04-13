@@ -579,7 +579,7 @@ export default function SouthernVietnam() {
                                     <CarouselItem key={index} className="basis-1/2 pl-1 lg:basis-1/3">
                                         <div className="p-1">
                                         <Card>
-                                            <CardContent className="flex aspect-square items-center justify-center p-0">
+                                            <CardContent className="flex items-center justify-center p-0">
                                             <img 
                                                 src={`/images/travel/vietnam/mytho/MyTho${index+1}.jpg`} 
                                                 alt={`My Tho ${index+1}`} 
