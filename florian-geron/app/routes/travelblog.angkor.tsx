@@ -978,7 +978,7 @@ export default function Angkor() {
                                                 <StarLine rating={4} max={10} title='Facilities' />
                                             </div>
                                             <div className="flex items-center">
-                                                <StarLine rating={2} max={10} title='Cleanliness' />
+                                                <StarLine rating={0} max={10} title='Cleanliness' />
                                             </div>
                                             <div className="flex items-center">
                                                 <StarLine rating={1} max={10} title='Comfort' />
@@ -1018,31 +1018,55 @@ export default function Angkor() {
                         <h3 id="koh-rong-food-drink-reviews" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
                         
                         <CollapsibleReview title="Onederz Hostel Restaurant and Bar" rating={3} scale="food">
-                            xx.
+                            Waking up for a coffee and some breakfast right on the beach was a great joy for us.
+                            The hostel bar and restaurant has a nice atmosphere, throughout morning, afternoon, and evening.
+                            The food was decent, though not the most exciting, and the drinks were very nice.
+                            After some time, we found that the food selection got a bit monotone, but we enjoyed our meals there overall.
+                            <br/>
+                            The staff is friendly, though not all members of the staff were very attentive, as we had some issues with items being forgotten or with dietary restrictions not being taken into account.
+                            Overall it is an amazing place to have a meal or a drink at the beach, just be sure to expect hostel-level food and service.
                             <br />
                             Find it <a href="xxx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
 
                         <CollapsibleReview title="Phorn's Rock & Raggae Bar" rating={3.5} scale="food">
-                            xx.
+                            This bar is located a litle up Long Set Beach from Onederz and serves SEA food.
+                            The place is decked out in a raggae theme, with some Jamaican flags and posters, and some raggae music playing in the background.
+                            This bar is located on a quieter part of the beach, with some chairs and picknick tables set up on the sand.
+                            <br/>
+                            We enjoyed our meal here and can recommend this for a low-key meal on the beach.
+                            We had ordered a curry without green beans (as Francesca is allergic to these), but the curry came with green beans unfortunately.
+                            After bringing this to the staff's attention, they made a new curry without green beans for us.
                             <br />
                             Find it <a href="xxx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
 
                         <CollapsibleReview title="Happyplace" rating={4.5} scale="food">
-                            xx.
+                            We stumbled upon this place after finding the restaurant we wanted to eat at had closed for the day.
+                            We were a bit sceptical about this place at first, as they offered a weird mix of Italian and SEA food, but we ended up really enjoying our meal there.
+                            The person serving us was very friendly and welcoming, and very understanding of Francesca's dietary restrictions, which was a relief after some of the other places we had been to.
+                            <br/>
+                            The food was delicious, and the cocktails were very nice as well. We felt so at ease at this place that we ate there twice during our stay on the island.
+                            <br/>
+                            We ordered a chicken mango cashew nut stir fry, which was surprisingly delicious as we hadn't tasted this combination before.
+                            We also had a pasta dish (the arrabiata) and a pizza (as there was a pizza deal of the day), which were both very good as well, though we recommend going for the SEA cuisine over the Italian dishes.
                             <br />
                             Find it <a href="xxx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
 
                         <CollapsibleReview title="La Cocina Mexican Restaurant" rating={3.5} scale="food">
-                            xx.
+                            We had the best Mexican of our lives in Luang Prabang, so we were curious to try out some more Mexican restaurants in SEA.
+                            We found this Mexican restaurant on Google and decided to give it a try.
+                            We were not disappointed, as we had a tasty meal there.
+                            The staff was very friendly as well, we can recommend this place if you're craving some Mexican food on the island.
                             <br />
                             Find it <a href="xxx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
 
                         <CollapsibleReview title="Nest Beach Club" rating={4} scale="food">
-                            xx.
+                            The Nest Beach Club hosts the weekly Nestival.
+                            During the Nestival, there are two bars serving drinks, some stands offering some festival foods like burgers and pizza slices, as well as some stands selling local crafts and souvenirs.
+                            We experienced this hostel bar during the Nestival event and can recommend it for a fun time partying and socializing with other travelers, if that's what you're looking for in your beach island stay.
                             <br />
                             Find it <a href="xxx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
