@@ -876,6 +876,80 @@ export default function Angkor() {
                                 <figcaption className="text-center text-sm text-gray-600">One of the stages at the Nestival</figcaption>
                             </figure>
                         </div><br/>
+                        The hotel organizes a boat trip to explore the waters around the two Koh Rong islands.
+                        The tour starts with a snorkling session at an area where you can see some fish, but nothing that blew us away honestly.
+                        Then, the organizers gave us some make-shift fishing equipment for a fishing session.
+                        Before the trip, we thought that we might skip this part of the tour, but it ended up being a lot of fun.
+                        The people who were able to catch a fish got to keep it and have it cooked for the BBQ dinner.
+                        Francesca caught a fish and was very happy with her catch, but she wasn't as happy with eating it for dinner, so Florian ate it in her stead.
+                        For sunset, the boat moored at M'Pai Bay on Koh Rong Sanloem. 
+                        We walked a short distance up onto the viewpoint opposite Thmorda Resort, where were trated to a stunning sunset view over the ocean.
+                        On our way back to Koh Rong, the organizers turned on some music and we had a fun little dance party on the boat.
+                        Later, they turned off the lights on the boat and encouraged us to take a plunge in the ocean for a night swim.
+                        The water there is filled with bioluminescent plankton, which light up when you move in the water.
+                        The lights they emit are rather faint, but it was a fun and magical experience nonetheless.
+                        <div className="grid md:grid-cols-3 gap-2">
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cambodia/kohrong/SanloemSunset1.jpg"
+                                    alt="Sanloem Sunset"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cambodia/kohrong/SanloemSunset1.jpg')}
+                                />
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cambodia/kohrong/SanloemSunset2.jpg"
+                                    alt="Sanloem Sunset"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cambodia/kohrong/SanloemSunset2.jpg')}
+                                />
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cambodia/kohrong/SanloemSunset3.jpg"
+                                    alt="Sanloem Sunset"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cambodia/kohrong/SanloemSunset3.jpg')}
+                                />
+                            </figure>
+                        </div>
+                        <figcaption className="text-center text-sm text-gray-600">Enjoying a drink while watching the sunset at M'Pai Bay</figcaption>
+                        <br/>
+                        Overall, we really enjoyed our time on Koh Rong.
+                        The island has a very laid back pace, while still having enough on offer for young travelers to have fun and meet other people.
+                        Go to Koh Rong if you're looking to mingle with other young, like-minded backpackers.
+                        Below are a couple more pictures from our stay on Koh Rong, in no particular order.
+                        <div className="grid md:grid-cols-3 gap-2">
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cambodia/kohrong/DinnerOnTheBeach.JPG"
+                                    alt="Dinner on the Beach"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cambodia/kohrong/DinnerOnTheBeach.JPG')}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">Enjoying dinner and drinks at the beach</figcaption>
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cambodia/kohrong/SunsetBeach.jpg"
+                                    alt="Sunset at the Beach"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cambodia/kohrong/SunsetBeach.jpg')}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">Sunset fading over the water</figcaption>
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cambodia/kohrong/BeachByNight.jpg"
+                                    alt="Beach by Night"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cambodia/kohrong/BeachByNight.jpg')}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">The beach after nightfall</figcaption>
+                            </figure>
+                        </div>
+                        <br/>
                         Throughout these adventures, Francesca had occasional flare-ups of the stomach issues she contracted in Siem Reap.
                         These became particularly bad on our last night, which, combined with the fact that the weather report wasn't favorable for ferry rides the next day, made us decide to stay on Koh Rong for an extra night.
                         On this additional day, Francesca visited the Koh Rong Clinic and Pharmacy, where she got treated for her disease.
@@ -1016,6 +1090,7 @@ export default function Angkor() {
 
                         <br /><br />
                         <h3 id="koh-rong-food-drink-reviews" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
+                        <h3 id="koh-rong-food-drink-reviews" className="text-2xl font-bold mb-4">Koh Rong</h3>
                         
                         <CollapsibleReview title="Onederz Hostel Restaurant and Bar" rating={3} scale="food">
                             Waking up for a coffee and some breakfast right on the beach was a great joy for us.
@@ -1070,6 +1145,8 @@ export default function Angkor() {
                             <br />
                             Find it <a href="xxx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
+
+                        <h3 id="koh-rong-food-drink-reviews" className="text-2xl font-bold mb-4">Koh Rong Sanloem</h3>
 
 
                         <br /><br />
