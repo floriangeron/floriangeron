@@ -964,12 +964,23 @@ export default function Angkor() {
                         <br /><br />
                         After our stay at Scarlet Sails, we boarded the ferry to Koh Rong Sanloem.
 
-
-                        
-
                         <br /><br />
                         <h3 id="koh-rong-sanloem" className="text-2xl font-bold mb-4">Koh Rong Sanloem</h3>
-                        xx
+                        Koh Rong Sanloem is the quieter and less developed of the two islands.
+                        It does not cater to backpackers as much as Koh Rong, and it has a more laid back and romantic vibe.
+                        We booked our stay at Island Center Point on Saracen Bay Beach.
+                        This is a more upscale hotel, as this would be our romantic getaway on this trip, and we had a wonderful stay there.
+                        <br/><br/>
+                        The arrival was a bit rocky:
+                        The ferry ride was quite rough, which made Francesca's stomach issues worse.
+                        Upon docking at the pier, the hotel staff was awaiting us to take us to the hotel.
+                        They had a special contraption, consisting of a car engine, some wheels, and a wooden platform to sit on, which they used to transport our luggage from the pier to the hotel.
+                        This wasn't the most comfortable ride, given the unpaved and bumpy road, but we made it to the hotel in one piece.
+                        Florian quite liked this little adventure, but Francesca not so much.
+                        <br/><br/>
+                        Upon arrival at the hotel, we were greeted by the staff with a welcome drink and a refreshing towel.
+                        They showed us to our room, and we almost immediately decided to extend our stay by two more nights.
+                        After the rough stay at Scarlet Sails and with our stomach issues, we were ready for a couple of days of dolce far niente.
                         <br /><br />
                         <h3 id="koh-rong-hotel-reviews" className="text-2xl font-bold mb-4">Hotel Reviews</h3>
                             <details className="group mb-6 rounded-md">
