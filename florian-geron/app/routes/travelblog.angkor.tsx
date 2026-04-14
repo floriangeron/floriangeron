@@ -1049,7 +1049,7 @@ export default function Angkor() {
                                         <h4 id="hotel-1" className="text-1xl font-bold m-0">Scarlet Sails Resort</h4>
                                     </div>
                                     <div className="flex items-center">
-                                        <StarScale rating={1} />
+                                        <StarScale rating={0} />
                                     </div>
                                 </summary>
     
@@ -1057,16 +1057,16 @@ export default function Angkor() {
                                     <div className="max-w-6xl mx-auto">
                                         <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-8 mb-8">
                                             <div className="flex items-center">
-                                                <StarLine rating={6} max={10} title='Staff' />
+                                                <StarLine rating={5} max={10} title='Staff' />
                                             </div>
                                             <div className="flex items-center">
-                                                <StarLine rating={4} max={10} title='Facilities' />
+                                                <StarLine rating={5} max={10} title='Facilities' />
                                             </div>
                                             <div className="flex items-center">
                                                 <StarLine rating={0} max={10} title='Cleanliness' />
                                             </div>
                                             <div className="flex items-center">
-                                                <StarLine rating={1} max={10} title='Comfort' />
+                                                <StarLine rating={0} max={10} title='Comfort' />
                                             </div>
                                             <div className="flex items-center">
                                                 <StarLine rating={9} max={10} title='Location' />
@@ -1140,7 +1140,7 @@ export default function Angkor() {
                             Find it <a href="xxx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
 
-                        <CollapsibleReview title="La Cocina Mexican Restaurant" rating={3.5} scale="food">
+                        <CollapsibleReview title="La Cocina Mexican Restaurant" rating={4} scale="food">
                             We had the best Mexican of our lives in Luang Prabang, so we were curious to try out some more Mexican restaurants in SEA.
                             We found this Mexican restaurant on Google and decided to give it a try.
                             We were not disappointed, as we had a tasty meal there.
@@ -1149,7 +1149,7 @@ export default function Angkor() {
                             Find it <a href="xxx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
 
-                        <CollapsibleReview title="Nest Beach Club" rating={4} scale="food">
+                        <CollapsibleReview title="Nest Beach Club" rating={4} scale="drink">
                             The Nest Beach Club hosts the weekly Nestival.
                             During the Nestival, there are two bars serving drinks, some stands offering some festival foods like burgers and pizza slices, as well as some stands selling local crafts and souvenirs.
                             We experienced this hostel bar during the Nestival event and can recommend it for a fun time partying and socializing with other travelers, if that's what you're looking for in your beach island stay.
