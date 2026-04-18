@@ -981,7 +981,43 @@ export default function Angkor() {
                         Upon arrival at the hotel, we were greeted by the staff with a welcome drink and a refreshing towel.
                         They showed us to our room, and we almost immediately decided to extend our stay by two more nights.
                         After the rough stay at Scarlet Sails and with our stomach issues, we were ready for a couple of days of dolce far niente.
+                        They had prepared the room with some romantic touches, like rose petals on the bed and the bath, which immediately showed us the attention to detail that the staff put into making us enjoy our stay.
+                        <div className="grid md:grid-cols-3 gap-2">
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cambodia/sanloem/ArrivalRoad.jpg"
+                                    alt="Arrival Road"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cambodia/sanloem/ArrivalRoad.jpg')}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">The road from the pier to the hotel</figcaption>
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cambodia/sanloem/ArrivalBed.jpg"
+                                    alt="Arrival Bed"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cambodia/sanloem/ArrivalBed.jpg')}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">Our room at the hotel</figcaption>
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cambodia/sanloem/ArrivalBath.jpg"
+                                    alt="Arrival Bath"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cambodia/sanloem/ArrivalBath.jpg')}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">The bath on the terrace of our room</figcaption>
+                            </figure>
+                        </div>
+                        <br/>
+                        We spent our days on Koh Rong Sanloem relaxing by the beach, SUPing in the calm waters of Saracen Bay, and walking up and down the beach.
+                        This was a wondeful time for us to enjoy each other's 
+                        
                         <br /><br />
+
+
                         <h3 id="koh-rong-hotel-reviews" className="text-2xl font-bold mb-4">Hotel Reviews</h3>
                             <details className="group mb-6 rounded-md">
                                 <summary className="flex items-center justify-between p-4 cursor-pointer">
