@@ -1280,7 +1280,52 @@ export default function Angkor() {
                                 </div>
                             </details>
 
-                            Island Center Point
+                            <details className="group mb-6 rounded-md">
+                                <summary className="flex items-center justify-between p-4 cursor-pointer">
+                                    <div className="flex items-center">
+                                        <svg className="chev h-5 w-5 mr-3 text-gray-600" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+                                            <path d="M6 8l4 4 4-4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+                                        </svg>
+                                        <h4 id="hotel-1" className="text-1xl font-bold m-0">Island Center Point</h4>
+                                    </div>
+                                    <div className="flex items-center">
+                                        <StarScale rating={5} />
+                                    </div>
+                                </summary>
+    
+                                <div className="px-4 pb-4 collapsible-body">
+                                    <div className="max-w-6xl mx-auto">
+                                        <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-8 mb-8">
+                                            <div className="flex items-center">
+                                                <StarLine rating={10} max={10} title='Staff' />
+                                            </div>
+                                            <div className="flex items-center">
+                                                <StarLine rating={7} max={10} title='Facilities' />
+                                            </div>
+                                            <div className="flex items-center">
+                                                <StarLine rating={10} max={10} title='Cleanliness' />
+                                            </div>
+                                            <div className="flex items-center">
+                                                <StarLine rating={10} max={10} title='Comfort' />
+                                            </div>
+                                            <div className="flex items-center">
+                                                <StarLine rating={8} max={10} title='Location' />
+                                            </div>
+                                            <div className="flex items-center">
+                                                <StarLine rating={10} max={10} title='Value for Money' />
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <p className="mb-6 leading-relaxed mt-2">
+                                        At this point, you might think this journal is paid promotion for this hotel, but we really were very happy with our stay here. Whether it was by decorating the room with rose petals, providing us with a complementary cake, or offering the romantic beachside dinner, the hotel went out of our way to make our stay memorable.
+                                        <br/>
+                                        TO COMPLETE
+                                        <br />
+                                        Find it <a href="xxx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                                    </p>
+                                </div>
+                            </details>
 
                         <br /><br />
                         <h3 id="koh-rong-food-drink-reviews" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
