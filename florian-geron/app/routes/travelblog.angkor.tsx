@@ -970,7 +970,16 @@ export default function Angkor() {
                         It does not cater to backpackers as much as Koh Rong, and it has a more laid back and romantic vibe.
                         We booked our stay at Island Center Point on Saracen Bay Beach.
                         This is a more upscale hotel, as this would be our romantic getaway on this trip, and we had a wonderful stay there.
-                        <br/><br/>
+                        <figure className="flex flex-col items-center">
+                            <img
+                                src={"/images/travel/cambodia/sanloem/Postcard.JPG"}
+                                alt="Sanloem"
+                                className="w-[50%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                onClick={() => openLightbox("/images/travel/cambodia/sanloem/Postcard.JPG")}
+                            />
+                            <figcaption className="text-center text-sm text-gray-600">Koh Rong Sanloem</figcaption>
+                        </figure>
+                        <br/>
                         The arrival was a bit rocky:
                         The ferry ride was quite rough, which made Francesca's stomach issues worse.
                         Upon docking at the pier, the hotel staff was awaiting us to take us to the hotel.
@@ -1013,10 +1022,144 @@ export default function Angkor() {
                         </div>
                         <br/>
                         We spent our days on Koh Rong Sanloem relaxing by the beach, SUPing in the calm waters of Saracen Bay, and walking up and down the beach.
-                        This was a wondeful time for us to enjoy each other's 
-                        
+                        This was a wonderful opportunity to slow down from the fast pace of travel and a time to enjoy each other's company.
                         <br /><br />
-
+                        The hotel is located on Saracen Bay Beach, a long beach lined with a host of accomodations in a range of price points, ranging from backpacker hostels to more fancy hotels.
+                        We walked up and down the beach a couple of times; This walk can be challenging during high tide, as the water can rise up to knee level in some areas.
+                        There are some undeveloped areas, as well as areas where development seemed to have halted halfway, but it is a pleasant walk nonetheless.
+                        We walked as far as Coco restaurant on one end of the beach, a pleasant family-owned restaurant,
+                        and as far as Onederz Koh Rong Sanloem on the other side of the beach.
+                        We really enjoyed the vibe at Onederz on Koh Rong, but the vibe at the Sanloem location was not the same.
+                        We found the audience here to be less sociable and lively. 
+                        It's hard to pinpoint why exactly, but I suppose the hostel doesn't organize as many activities and the travellers here focus more on relaxation and less on partying.
+                        <br /><br />
+                        Next to accomodation options, the beach also has some restaurants and bars, and most accomodations have their own restaurant and bar as well.
+                        This collection of beachfront venues creates a nice atmosphere on the beach and provides you with some options,
+                        but after a couple days you will start to realize they all offer the same options on their menus,
+                        so the cuisine on the island will grow somewhat stale after a couple of days.
+                        This is more than made up for by the impeccable vibe on the beach.
+                        Overall, Saracen Bay Beach is an excellent place to spend a couple of days doing nothing except sunbathing, swimming, eating, drinking, spending time with your loved ones, or meeting interesting strangers.
+                        <div className="grid md:grid-cols-3 gap-2">
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cambodia/sanloem/BeachVibes1.jpg"
+                                    alt="Beach Vibes 1"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cambodia/sanloem/BeachVibes1.jpg')}
+                                />
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cambodia/sanloem/BeachVibes2.JPG"
+                                    alt="Beach Vibes 2"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cambodia/sanloem/BeachVibes2.JPG')}
+                                />
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cambodia/sanloem/BeachVibes3.JPG"
+                                    alt="Beach Vibes 3"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cambodia/sanloem/BeachVibes3.JPG')}
+                                />
+                            </figure>
+                        </div>
+                        <figcaption className="text-center text-sm text-gray-600">Saracen Bay Beach</figcaption>
+                        <br/>
+                        We were particularly fond of the part of the beach in front of our hotel.
+                        The hotal provides some sunbeds for their guests, and we spent many, many hours reading, chatting, napping, sunbathing, and drinking cocktails here.
+                        At some point, we became fully convinced that time flows differently on this island, as each day flew by, even though we spent the entire afternoon on these sunbeds.
+                        <br /><br />
+                        <Carousel className="w-full">
+                            <CarouselContent className="-ml-1">
+                                {Array.from({ length: 6 }).map((_, index) => (
+                                <CarouselItem key={index} className="basis-1/2 pl-1 lg:basis-1/3">
+                                    <div className="p-1">
+                                    <Card>
+                                        <CardContent className="flex items-center justify-center p-0">
+                                        <img 
+                                            src={`/images/travel/cambodia/sanloemcabane/Cabane${index+1}.JPG`} 
+                                            alt={`Cabane ${index+1}`} 
+                                            className="w-full h-full sm:h-80 md:h-96 object-cover rounded-lg cursor-pointer" 
+                                            onClick={() => openLightbox(`/images/travel/cambodia/sanloemcabane/Cabane${index+1}.JPG`)}/>
+                                        </CardContent>
+                                    </Card>
+                                    </div>
+                                </CarouselItem>
+                                ))}                                    
+                            </CarouselContent>
+                            <CarouselPrevious />
+                            <CarouselNext />
+                        </Carousel>
+                        <figcaption className="text-center text-sm text-gray-600">The sunbeds on the beach of Island Center Point</figcaption>
+                        <br /><br />
+                        As mentioned earlier, Island Center Point went above and beyond to provide us with an unforgettable stay on the island.
+                        After informing them we chose their hotel for our romantic getaway, they sent us a quote for a romantic dinner on the beach package.
+                        They sent us a six-course menu and informed us it would cost $95.
+                        At first, we assumed this was per person. 
+                        We were of the opinion that we didn't need expensive things to enjoy ourselves, so we decided to refuse this offer.
+                        Upon arrival, they had suggestively left the menu in our room.
+                        After checking the menu again, we realized that the $95 was actually covering the whole package.
+                        (The menu mentioned a single complementary wine bottle; we realized a bottle per person would be excessive.)
+                        We called the front desk to book the dinner, but before we could confirm they already offered a reduced price of $85 for the whole package.
+                        <br/>
+                        The romantic beachfront dinner was a wonderful experience.
+                        The staff set up a private table for us on the beach, encapsuled by a wooden structure lavished with sheets, and the table was decorated with candles and sea shells.
+                        The food was delicious, and there was a member of the staff dedicated to our table for the night, which once again made us feel like the hotel went out of their way to make our stay memorable.
+                        Though they had arranged an amazing experience, we noticed they didn't have extensive experience in Western fine dining in a couple of little oddities.
+                        For example, they prepared six courses for us, but each course was the size of a decent standalone meal.
+                        As each course was delicious, we ended up needing to be rolled off the beach at the end of our dinner!
+                        Furthermore, our dedicated waitress took away our plates the moment we finished it and wasted no time bringing the next course,
+                        which further added to the feeling we were stuffing ourselves!
+                        <br />
+                        Halfway through our meal, a fire show started on the beach in front of the neighbouring accomodation.
+                        This made our experience even more magical.
+                        This dinner was a highlight on our two-month trip through SEA.
+                        <div className="grid md:grid-cols-2 gap-2">
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cambodia/sanloem/DinnerBeach1.jpg"
+                                    alt="Dinner on the beach"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cambodia/sanloem/DinnerBeach1.jpg')}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">The table that was constructed especially for our dinner</figcaption>
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cambodia/sanloem/DinnerBeach2.jpg"
+                                    alt="Dinner on the beach"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cambodia/sanloem/DinnerBeach2.jpg')}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">The fire show during our dinner (during our main course)</figcaption>
+                            </figure>
+                        </div><br/>
+                        All good things must come to end, and the same applies to our time on our little paradise.
+                        We had booked an early morning flight out of Sihanoukville to start the next chapter of our trip.
+                        As the ferries cannot be relied on for a timely transport (as their departure times are influenced by weather conditions),
+                        we decided to stay one night on the mainland at Sihanoukville as a cautious buffer.
+                        <br/>
+                        Sihanoukville did not strike us as a particularly pleasant city.
+                        The area around the ferry port is rather dirty and busy with loud traffic, which did not give us a good impression of the city.
+                        We booked a room at Onederz Sihanoukville, as we were quite happy with our stay at Koh Rong.
+                        This hostel was walking distance from the ferry port, but the walk there was rather unpleasant because of the aforementioned dirtiness, as well as the overbearing humid heat.
+                        We had low hopes for the hostel, but were pleasantly surprised, as overall the hostel was a tidy place with a nice restaurant and pool area.
+                        <figure className="flex flex-col items-center">
+                            <img
+                                src={"/images/travel/cambodia/sanloem/Sihanoukville.jpg"}
+                                alt="Sihanoukville"
+                                className="w-[50%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                onClick={() => openLightbox("/images/travel/cambodia/sanloem/Sihanoukville.jpg")}
+                            />
+                            <figcaption className="text-center text-sm text-gray-600">The view from our room at Onederz Sihanoukville</figcaption>
+                        </figure>
+                        <br/>
+                        We arrived in the afternoon and spent our day sunbathing by the pool and later on playing card games in the restaurant area.
+                        We were informed by the television in this area that a war had broken out between Thailand and Cambodia,
+                        so we thought it was a good moment to start the next leg of our journey.
+                        <br/><br/>
 
                         <h3 id="koh-rong-hotel-reviews" className="text-2xl font-bold mb-4">Hotel Reviews</h3>
                             <details className="group mb-6 rounded-md">
@@ -1135,6 +1278,8 @@ export default function Angkor() {
                                 </div>
                             </details>
 
+                            Island Center Point
+
                         <br /><br />
                         <h3 id="koh-rong-food-drink-reviews" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
                         <h3 id="koh-rong-food-drink-reviews" className="text-2xl font-bold mb-4">Koh Rong</h3>
@@ -1194,6 +1339,11 @@ export default function Angkor() {
                         </CollapsibleReview>
 
                         <h3 id="koh-rong-food-drink-reviews" className="text-2xl font-bold mb-4">Koh Rong Sanloem</h3>
+
+                        Coco restaurant
+                        Lucky Sun
+                        Sweet Times
+                        Onederz Koh Rong Sanloem Bar & Restaurant
 
 
                         <br /><br />
