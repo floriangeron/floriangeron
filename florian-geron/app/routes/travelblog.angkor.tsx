@@ -1282,7 +1282,7 @@ export default function Angkor() {
 
                         <br /><br />
                         <h3 id="koh-rong-food-drink-reviews" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
-                        <h3 id="koh-rong-food-drink-reviews" className="text-2xl font-bold mb-4">Koh Rong</h3>
+                        <h3 id="koh-rong-food-drink-reviews" className="text-xl font-bold mb-4">Koh Rong</h3>
                         
                         <CollapsibleReview title="Onederz Hostel Restaurant and Bar" rating={3} scale="food">
                             Waking up for a coffee and some breakfast right on the beach was a great joy for us.
@@ -1338,7 +1338,7 @@ export default function Angkor() {
                             Find it <a href="xxx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
 
-                        <h3 id="koh-rong-food-drink-reviews" className="text-2xl font-bold mb-4">Koh Rong Sanloem</h3>
+                        <h3 id="koh-rong-food-drink-reviews" className="text-xl font-bold mb-4">Koh Rong Sanloem</h3>
 
                         Coco restaurant
                         Lucky Sun
