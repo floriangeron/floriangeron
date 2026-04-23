@@ -1136,6 +1136,8 @@ export default function Angkor() {
                                 <figcaption className="text-center text-sm text-gray-600">The fire show during our dinner (during our main course)</figcaption>
                             </figure>
                         </div><br/>
+                        LITTLE STORY ABOUT MY HEALTH ADVENTURE
+                        <div/><div/>
                         All good things must come to end, and the same applies to our time on our little paradise.
                         We had booked an early morning flight out of Sihanoukville to start the next chapter of our trip.
                         As the ferries cannot be relied on for a timely transport (as their departure times are influenced by weather conditions),
@@ -1340,15 +1342,50 @@ export default function Angkor() {
 
                         <h3 id="koh-rong-food-drink-reviews" className="text-xl font-bold mb-4">Koh Rong Sanloem</h3>
 
-                        Coco restaurant
-                        Lucky Sun
-                        Sweet Times
-                        Onederz Koh Rong Sanloem Bar & Restaurant
+                        <CollapsibleReview title="Coco Restaurant" rating={4} scale="drink">
+                            This is a little restaurant at the Western side of the beach.
+                            We ate here on our first evening on the island and returned a second time as we quite liked it here.
+                            The restaurant seems to be managed by a family, as one of our dishes was brought out of the kitchen by a toddler who was happy to mimic her mother at her job.
+                            The food was up to standard and the spot had a local, laid-back vibe, so we would recommend this place for anyone looking for a restaurant with a price tag in between the higher end restaurants at the resorts and the lower end pubs at the hostels on the beach.
+                            <br />
+                            Find it <a href="xxx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
 
+                        <CollapsibleReview title="Lucky Sun" rating={3.5} scale="drink">
+                            We ate lunch once and dinner another day at the resaurant at this hostel.
+                            We enjoyed the food here, though it was rather simple SEA food like curries, and some Western classics like burgers as well.
+                            We're adding some extra points to our rating here because of the eccentric Australian bloke working here, who was excuberantly singing inbetween serving tables and flirted violently with Florian, which charmed both of us.
+                            The subtracting an equal amount of points because of the dreary state of the toilets; We recommend using the toilets of the restaurant nextdoor instead.
+                            <br />
+                            Find it <a href="xxx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+
+                        <CollapsibleReview title="The Big Easy" rating={3.5} scale="drink">
+                            There are three hostels with their own bar and restaurant next to each other here, and to be honest they are all pretty interchangeable.
+                            The Big Easy has a cleaner, blue look with some nice tables inside and on the beach at low tide.
+                            We had lunch indoor here during a small rain, and we enjoyed the food and vibe here.
+                            A pretty run-of-the-mill backpacker hostel restaurant in SEA.
+                            <br />
+                            Find it <a href="xxx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+
+                        <CollapsibleReview title="Sweet Times" rating={3.5} scale="drink">
+                            The third in the row of hostel restaurants on this stretch of the beach.
+                            It has a similar vibe and menu to Lucky Sun and The Big Easy, we even suspect they might share a common kitchen.
+                            We liked our food here too, as well as the backpacker hostel restaurant vibe.
+                            We had lunch here and dinner another day, when there was a BBQ burning on the beach.
+                            The BBQ surf-and-turf deal was a nice dinner at a very fair price.
+                            <br />
+                            Find it <a href="xxx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+
+                        <CollapsibleReview title="Onederz Koh Rong Sanloem Bar & Restaurant" rating={2.5} scale="drink">
+                            We wanted to check out the bar and restaurant of this Onederz branch, as we really liked the one on Koh Rong, but we were not impressed by this location. There was no social vibe in the bar area, with many people reading or scrolling on their phone. It also looked like the hostel was not organizing any activities here. We had an enjoyable meal here, but decided not to return as we found other parts of the beach to be more lively.
+                            <br />
+                            Find it <a href="xxx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
 
                         <br /><br />
-
-
 
                     </main>
 
