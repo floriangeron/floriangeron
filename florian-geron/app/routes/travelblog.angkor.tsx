@@ -1238,7 +1238,7 @@ export default function Angkor() {
                                     <div className="max-w-6xl mx-auto">
                                         <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-8 mb-8">
                                             <div className="flex items-center">
-                                                <StarLine rating={5} max={10} title='Staff' />
+                                                <StarLine rating={4} max={10} title='Staff' />
                                             </div>
                                             <div className="flex items-center">
                                                 <StarLine rating={5} max={10} title='Facilities' />
@@ -1318,11 +1318,66 @@ export default function Angkor() {
                                     </div>
     
                                     <p className="mb-6 leading-relaxed mt-2">
-                                        At this point, you might think this journal is paid promotion for this hotel, but we really were very happy with our stay here. Whether it was by decorating the room with rose petals, providing us with a complementary cake, or offering the romantic beachside dinner, the hotel went out of our way to make our stay memorable.
+                                        At this point, you might think this journal is paid promotion for this hotel, but we really were very happy with our stay here. Whether it was by decorating the room with rose petals, providing us with a complementary cake, or organizing the romantic beachside dinner, the hotel went out of our way to make our stay memorable.
                                         <br/>
-                                        TO COMPLETE
+                                        We booked a hillside room, which is located a little inland and up a hill, but the hotel foresees a shuttle service to the beach and back. We arrived one day later than originally planned, and the hotel was able to flexbily adjust our booking to accommodate this change. After being shown our room, we decided to extend our stay with one more night, as this beach getaway was exactly what we needed.
+                                        <br/>
+                                        Our hillside room was clean and spacious, with a large bed and an outside, concealed bathroom. On the other end of the room was an outside terrace with a bath and a view of the bay. We grew very fond of our terrace bath and would take a little dip every evening to wash off the sea salt and sand before dinner. 
+                                        <br/>
+                                        The pool area of the hotel was under construction during our stay, but the hotel has a large beachfront area with some sunbeds. We were particularly fond of these sunbeds and spent many hours on them. The hotel also has a restaurant area, where we enjoyed our breakfasts. We also had dinner here, which we can recommend if you are looking for a more upscale dining experience on Saracen Bay.
+                                        <br/>
+                                        The hotel also foresees some gear for water activities, like snorkeling and SUPing.
+                                        <br/>
+                                        During our stay, the cicad season was in full swing, which was maybe to only negative thing we can say about our stay here. Though small, cicads are incredibly loud, especially at night. After some time, we grew accustomed to the noise, and it didn't bother us too much. If you're a light sleeper, you might want to consider bringing earplugs for your stay here.
                                         <br />
-                                        Find it <a href="xxx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                                        Find it <a href="https://maps.app.goo.gl/Tyvy5x5yuAh4Kx3R6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                                    </p>
+                                </div>
+                            </details>
+
+                            <details className="group mb-6 rounded-md">
+                                <summary className="flex items-center justify-between p-4 cursor-pointer">
+                                    <div className="flex items-center">
+                                        <svg className="chev h-5 w-5 mr-3 text-gray-600" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+                                            <path d="M6 8l4 4 4-4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+                                        </svg>
+                                        <h4 id="hotel-1" className="text-1xl font-bold m-0">Onederz Sihanoukville</h4>
+                                    </div>
+                                    <div className="flex items-center">
+                                        <StarScale rating={3} />
+                                    </div>
+                                </summary>
+    
+                                <div className="px-4 pb-4 collapsible-body">
+                                    <div className="max-w-6xl mx-auto">
+                                        <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-8 mb-8">
+                                            <div className="flex items-center">
+                                                <StarLine rating={7} max={10} title='Staff' />
+                                            </div>
+                                            <div className="flex items-center">
+                                                <StarLine rating={7} max={10} title='Facilities' />
+                                            </div>
+                                            <div className="flex items-center">
+                                                <StarLine rating={4} max={10} title='Cleanliness' />
+                                            </div>
+                                            <div className="flex items-center">
+                                                <StarLine rating={6} max={10} title='Comfort' />
+                                            </div>
+                                            <div className="flex items-center">
+                                                <StarLine rating={5} max={10} title='Location' />
+                                            </div>
+                                            <div className="flex items-center">
+                                                <StarLine rating={6} max={10} title='Value for Money' />
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <p className="mb-6 leading-relaxed mt-2">
+                                        As we had an early morning flight out of Sihanoukville, we decide to spend one night in the city to ensure we wouldn't miss our flight due to unreliable ferry services. As we enjoyed our stay at Onederz on Koh Rong, we booked a night at their branch in Sihanoukville.
+                                        <br/>
+                                        All-in-all, we had a pleasant stay at the hostel, which has a nice pool area as well as a restaurant and bar. The staff was friendly and the room was decent, though we had some issues with cleanliness, mainly the bathroom, which had a faint moldy smell. We did enjoy to food that we ate at the hostel and enjoyed the overall laid-back vibe. It was a little oasis of calm in the rather dirty and busy city of Sihanoukville. We can recommend this place for anyone who needs to spend a night in Sihanoukville and doesn't mind hostel-level accomodation.
+                                        <br />
+                                        Find it <a href="https://maps.app.goo.gl/AFWgtgM7NyzWDhvGA" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                                     </p>
                                 </div>
                             </details>
@@ -1340,7 +1395,7 @@ export default function Angkor() {
                             The staff is friendly, though not all members of the staff were very attentive, as we had some issues with items being forgotten or with dietary restrictions not being taken into account.
                             Overall it is an amazing place to have a meal or a drink at the beach, just be sure to expect hostel-level food and service.
                             <br />
-                            Find it <a href="xxx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            Find it <a href="https://maps.app.goo.gl/4AjJMZQnRfEKUR2r8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
 
                         <CollapsibleReview title="Phorn's Rock & Raggae Bar" rating={3.5} scale="food">
@@ -1352,7 +1407,7 @@ export default function Angkor() {
                             We had ordered a curry without green beans (as Francesca is allergic to these), but the curry came with green beans unfortunately.
                             After bringing this to the staff's attention, they made a new curry without green beans for us.
                             <br />
-                            Find it <a href="xxx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            Find it <a href="https://maps.app.goo.gl/fyHyUNGjSSasQRCZ8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
 
                         <CollapsibleReview title="Happyplace" rating={4.5} scale="food">
@@ -1365,7 +1420,7 @@ export default function Angkor() {
                             We ordered a chicken mango cashew nut stir fry, which was surprisingly delicious as we hadn't tasted this combination before.
                             We also had a pasta dish (the arrabiata) and a pizza (as there was a pizza deal of the day), which were both very good as well, though we recommend going for the SEA cuisine over the Italian dishes.
                             <br />
-                            Find it <a href="xxx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            Find it <a href="https://maps.app.goo.gl/U8iV9vi2NE6rtmgp9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
 
                         <CollapsibleReview title="La Cocina Mexican Restaurant" rating={4} scale="food">
@@ -1374,7 +1429,7 @@ export default function Angkor() {
                             We were not disappointed, as we had a tasty meal there.
                             The staff was very friendly as well, we can recommend this place if you're craving some Mexican food on the island.
                             <br />
-                            Find it <a href="xxx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            Find it <a href="https://maps.app.goo.gl/xahw8KA6Sf5tyEdw8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
 
                         <CollapsibleReview title="Nest Beach Club" rating={4} scale="drink">
@@ -1382,7 +1437,7 @@ export default function Angkor() {
                             During the Nestival, there are two bars serving drinks, some stands offering some festival foods like burgers and pizza slices, as well as some stands selling local crafts and souvenirs.
                             We experienced this hostel bar during the Nestival event and can recommend it for a fun time partying and socializing with other travelers, if that's what you're looking for in your beach island stay.
                             <br />
-                            Find it <a href="xxx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            Find it <a href="https://maps.app.goo.gl/41LH5oSBqdDJUPqo6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
 
                         <h3 id="koh-rong-food-drink-reviews" className="text-xl font-bold mb-4">Koh Rong Sanloem</h3>
@@ -1393,7 +1448,7 @@ export default function Angkor() {
                             The restaurant seems to be managed by a family, as one of our dishes was brought out of the kitchen by a toddler who was happy to mimic her mother at her job.
                             The food was up to standard and the spot had a local, laid-back vibe, so we would recommend this place for anyone looking for a restaurant with a price tag in between the higher end restaurants at the resorts and the lower end pubs at the hostels on the beach.
                             <br />
-                            Find it <a href="xxx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            Find it <a href="https://maps.app.goo.gl/4dsqf1ebLQDMgd4J8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
 
                         <CollapsibleReview title="Lucky Sun" rating={3.5} scale="drink">
@@ -1402,7 +1457,7 @@ export default function Angkor() {
                             We're adding some extra points to our rating here because of the eccentric Australian bloke working here, who was excuberantly singing inbetween serving tables and flirted violently with Florian, which charmed both of us.
                             The subtracting an equal amount of points because of the dreary state of the toilets; We recommend using the toilets of the restaurant nextdoor instead.
                             <br />
-                            Find it <a href="xxx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            Find it <a href="https://maps.app.goo.gl/bLaRiM6jAtjvaL5i6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
 
                         <CollapsibleReview title="The Big Easy" rating={3.5} scale="drink">
@@ -1411,7 +1466,7 @@ export default function Angkor() {
                             We had lunch indoor here during a small rain, and we enjoyed the food and vibe here.
                             A pretty run-of-the-mill backpacker hostel restaurant in SEA.
                             <br />
-                            Find it <a href="xxx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            Find it <a href="https://maps.app.goo.gl/8yKXYGfx1P79snWN6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
 
                         <CollapsibleReview title="Sweet Times" rating={3.5} scale="drink">
@@ -1421,13 +1476,13 @@ export default function Angkor() {
                             We had lunch here and dinner another day, when there was a BBQ burning on the beach.
                             The BBQ surf-and-turf deal was a nice dinner at a very fair price.
                             <br />
-                            Find it <a href="xxx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            Find it <a href="https://maps.app.goo.gl/1xAUrbUjtpHjN6BW6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
 
                         <CollapsibleReview title="Onederz Koh Rong Sanloem Bar & Restaurant" rating={2.5} scale="drink">
                             We wanted to check out the bar and restaurant of this Onederz branch, as we really liked the one on Koh Rong, but we were not impressed by this location. There was no social vibe in the bar area, with many people reading or scrolling on their phone. It also looked like the hostel was not organizing any activities here. We had an enjoyable meal here, but decided not to return as we found other parts of the beach to be more lively.
                             <br />
-                            Find it <a href="xxx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            Find it <a href="https://maps.app.goo.gl/aEzpTE2b68RC7Vjv8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
 
                         <br /><br />
