@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import React from "react";
 import { Link } from "@remix-run/react";
 import { MapIcon, MapPinIcon, GlobeAltIcon, CurrencyDollarIcon, ClockIcon, CalendarIcon } from "@heroicons/react/24/outline";
 import AnimatedWave from "~/components/AnimatedWave";
@@ -578,7 +579,7 @@ export default function SouthernVietnam() {
                                     <CarouselItem key={index} className="basis-1/2 pl-1 lg:basis-1/3">
                                         <div className="p-1">
                                         <Card>
-                                            <CardContent className="flex aspect-square items-center justify-center p-0">
+                                            <CardContent className="flex items-center justify-center p-0">
                                             <img 
                                                 src={`/images/travel/vietnam/mytho/MyTho${index+1}.jpg`} 
                                                 alt={`My Tho ${index+1}`} 
@@ -1315,7 +1316,7 @@ export default function SouthernVietnam() {
                     >
                         &times;
                     </button>
-                    <img src={lightboxSrc} alt="Route enlarged" className="max-w-[90%] max-h-[90%] rounded-lg shadow-2xl" />
+                    <img src={lightboxSrc} alt="Image enlarged" className="max-w-[90%] max-h-[90%] rounded-lg shadow-2xl" />
                 </div>
             )}
         </div>
