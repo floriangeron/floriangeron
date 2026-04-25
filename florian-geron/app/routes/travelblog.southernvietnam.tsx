@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import React from "react";
 import { Link } from "@remix-run/react";
 import { MapIcon, MapPinIcon, GlobeAltIcon, CurrencyDollarIcon, ClockIcon, CalendarIcon } from "@heroicons/react/24/outline";
 import AnimatedWave from "~/components/AnimatedWave";
@@ -323,7 +324,7 @@ export default function SouthernVietnam() {
                             <a href="https://www.getyourguide.com/cu-chi-tunnels-l3671/ho-chi-minh-city-cu-chi-tunnels-morning-or-afternoon-tour-t60689/?utm_source=getyourguide&utm_medium=sharing&utm_campaign=activity_details" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
                             Get Your Guide
                             </a>
-                            {' '} who organized transport and a guide.
+                            {' '} who organized transport and a guide. We can recommend this tour if you don't want to worry about the logistics and arranging a guide yourself. Our guide was knowledgeable and passionate, which made for a great experience. The tour departed half an hour late, which meant we couldn't visit all the sights at the site (the shooting range was already closed).
                             <br />
                             <br />
                             After the Cu Chi Tunnels, we headed back to the city for some more food. We had heard a lot about Pizza 4P's, a popular pizza place in HCMC that uses local ingredients and has a unique fusion of Italian and Vietnamese flavors. 
@@ -566,11 +567,11 @@ export default function SouthernVietnam() {
                             After our troubles with finding a local tour operator in Can Tho, we decided to book a tour to My Tho with{' '}
                             <a href="https://www.getyourguide.com/ho-chi-minh-city-l272/from-ho-chi-minh-city-mekong-delta-small-group-tour-t60784/?utm_source=getyourguide&utm_medium=sharing&utm_campaign=activity_details" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
                             Get Your Guide
-                            </a>
-                            .
+                            </a>.
                             During this tour, we visited two islands nearby My Tho: Thoi Son / Unicorn Island and Con Phung / Phoenix Island.
                             Here, we partook in many activities, including tasting fresh honey right off the hive, trying some coconut candy, driving through the jungle on a small tuktuk, flowing down the river on a small boat (sampan), and listening to tradidional music.
                             Afterwards, we visited the Vinh Trang Pagoda, a temple famous for its three giant Buddha statues, including a Reclining Buddha and a fat, happy Buddha.
+                            We had a very pleasant experience on this tour, and we can recommend it if you want to visit My Tho's main sights. 
                             <br /><br />
                             <Carousel className="w-full">
                                 <CarouselContent className="-ml-1">
@@ -578,7 +579,7 @@ export default function SouthernVietnam() {
                                     <CarouselItem key={index} className="basis-1/2 pl-1 lg:basis-1/3">
                                         <div className="p-1">
                                         <Card>
-                                            <CardContent className="flex aspect-square items-center justify-center p-0">
+                                            <CardContent className="flex items-center justify-center p-0">
                                             <img 
                                                 src={`/images/travel/vietnam/mytho/MyTho${index+1}.jpg`} 
                                                 alt={`My Tho ${index+1}`} 
@@ -1315,7 +1316,7 @@ export default function SouthernVietnam() {
                     >
                         &times;
                     </button>
-                    <img src={lightboxSrc} alt="Route enlarged" className="max-w-[90%] max-h-[90%] rounded-lg shadow-2xl" />
+                    <img src={lightboxSrc} alt="Image enlarged" className="max-w-[90%] max-h-[90%] rounded-lg shadow-2xl" />
                 </div>
             )}
         </div>
