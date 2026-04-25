@@ -616,7 +616,7 @@ export default function Angkor() {
                                 You will see many people, mostly beggars, with missing limbs in Cambodia.
                                 During our visit to Angkor, we saw groups of amputees playing music and selling souvenirs to tourists, with signs stating that they prefer earning their keep like this rather than resorting to begging.<br/>
                                 The Apopo Landmine Museum is a museum dedicated to the history of landmines in Cambodia and the efforts to clear them.
-                                The museum focuses on a specific type of landmine-detecting rats, called Apopos, which are trained to sniff out landmines and alert their handlers to their presence.
+                                The museum focuses on a specific type of landmine-detecting rats, which are trained to sniff out landmines and alert their handlers to their presence.
                             </li>
                             <li>
                                 Angkor National Museum:<br/>
@@ -919,7 +919,6 @@ export default function Angkor() {
                         Overall, we really enjoyed our time on Koh Rong.
                         The island has a very laid back pace, while still having enough on offer for young travelers to have fun and meet other people.
                         Go to Koh Rong if you're looking to mingle with other young, like-minded backpackers.
-                        Below are a couple more pictures from our stay on Koh Rong, in no particular order.
                         <div className="grid md:grid-cols-3 gap-2">
                             <figure className="md:col-span-1">
                                 <img
@@ -1136,8 +1135,8 @@ export default function Angkor() {
                                 <figcaption className="text-center text-sm text-gray-600">The fire show during our dinner (during our main course)</figcaption>
                             </figure>
                         </div><br/>
-                        LITTLE STORY ABOUT MY HEALTH ADVENTURE
-                        <div/><div/>
+                        Unfortunately, all wasn't rainbows and sunshine during our stay on Koh Rong Sanloem. Francesca had gotten the worst of it during out stay on Koh Rong, but Florian developed his own stomach issues during our stay on Koh Rong Sanloem. After ignoring it for a couple of days, making the same mistake as Francesca, we decided to try and find a doctor or pharmacist on the island. However, Sanloem is even less developed than Koh Rong, making it even more difficult to find medical help. On the beach, we spotted some sketchy signs describing the location of a pharmacy. The signs pointed to a bar right next to Onederz. Upon entry, we inquired about the pharmacy, and the bartender took us to the back of the building, where he asked us about my symptoms. After a very succint explanation, he dissapeared into a small room, and came back with some medication, which he sold to us as loose tabs without any prescription. We were a bit skeptical, but in the end this medication did do the trick and solved Florian's stomach issues rather quickly.
+                        <br/><br/>
                         All good things must come to end, and the same applies to our time on our little paradise.
                         We had booked an early morning flight out of Sihanoukville to start the next chapter of our trip.
                         As the ferries cannot be relied on for a timely transport (as their departure times are influenced by weather conditions),
@@ -1160,7 +1159,7 @@ export default function Angkor() {
                         <br/>
                         We arrived in the afternoon and spent our day sunbathing by the pool and later on playing card games in the restaurant area.
                         We were informed by the television in this area that a war had broken out between Thailand and Cambodia,
-                        so we thought it was a good moment to start the next leg of our journey.
+                        so we thought it was a good moment to start <Link to="/travelblog/southernvietnam" className="text-blue-600 hover:underline">the next leg of our journey</Link>.
                         <br/><br/>
 
                         <h3 id="koh-rong-hotel-reviews" className="text-2xl font-bold mb-4">Hotel Reviews</h3>
@@ -1442,7 +1441,7 @@ export default function Angkor() {
 
                         <h3 id="koh-rong-food-drink-reviews" className="text-xl font-bold mb-4">Koh Rong Sanloem</h3>
 
-                        <CollapsibleReview title="Coco Restaurant" rating={4} scale="drink">
+                        <CollapsibleReview title="Coco Restaurant" rating={4} scale="food">
                             This is a little restaurant at the Western side of the beach.
                             We ate here on our first evening on the island and returned a second time as we quite liked it here.
                             The restaurant seems to be managed by a family, as one of our dishes was brought out of the kitchen by a toddler who was happy to mimic her mother at her job.
@@ -1451,7 +1450,7 @@ export default function Angkor() {
                             Find it <a href="https://maps.app.goo.gl/4dsqf1ebLQDMgd4J8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
 
-                        <CollapsibleReview title="Lucky Sun" rating={3.5} scale="drink">
+                        <CollapsibleReview title="Lucky Sun" rating={3.5} scale="food">
                             We ate lunch once and dinner another day at the resaurant at this hostel.
                             We enjoyed the food here, though it was rather simple SEA food like curries, and some Western classics like burgers as well.
                             We're adding some extra points to our rating here because of the eccentric Australian bloke working here, who was excuberantly singing inbetween serving tables and flirted violently with Florian, which charmed both of us.
@@ -1460,7 +1459,7 @@ export default function Angkor() {
                             Find it <a href="https://maps.app.goo.gl/bLaRiM6jAtjvaL5i6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
 
-                        <CollapsibleReview title="The Big Easy" rating={3.5} scale="drink">
+                        <CollapsibleReview title="The Big Easy" rating={3.5} scale="food">
                             There are three hostels with their own bar and restaurant next to each other here, and to be honest they are all pretty interchangeable.
                             The Big Easy has a cleaner, blue look with some nice tables inside and on the beach at low tide.
                             We had lunch indoor here during a small rain, and we enjoyed the food and vibe here.
@@ -1469,7 +1468,7 @@ export default function Angkor() {
                             Find it <a href="https://maps.app.goo.gl/8yKXYGfx1P79snWN6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
 
-                        <CollapsibleReview title="Sweet Times" rating={3.5} scale="drink">
+                        <CollapsibleReview title="Sweet Times" rating={3.5} scale="food">
                             The third in the row of hostel restaurants on this stretch of the beach.
                             It has a similar vibe and menu to Lucky Sun and The Big Easy, we even suspect they might share a common kitchen.
                             We liked our food here too, as well as the backpacker hostel restaurant vibe.
@@ -1479,7 +1478,7 @@ export default function Angkor() {
                             Find it <a href="https://maps.app.goo.gl/1xAUrbUjtpHjN6BW6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
 
-                        <CollapsibleReview title="Onederz Koh Rong Sanloem Bar & Restaurant" rating={2.5} scale="drink">
+                        <CollapsibleReview title="Onederz Koh Rong Sanloem Bar & Restaurant" rating={2.5} scale="food">
                             We wanted to check out the bar and restaurant of this Onederz branch, as we really liked the one on Koh Rong, but we were not impressed by this location. There was no social vibe in the bar area, with many people reading or scrolling on their phone. It also looked like the hostel was not organizing any activities here. We had an enjoyable meal here, but decided not to return as we found other parts of the beach to be more lively.
                             <br />
                             Find it <a href="https://maps.app.goo.gl/aEzpTE2b68RC7Vjv8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
