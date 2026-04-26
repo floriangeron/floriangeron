@@ -1450,7 +1450,7 @@ export default function Angkor() {
                             Find it <a href="https://maps.app.goo.gl/4dsqf1ebLQDMgd4J8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
 
-                        <CollapsibleReview title="Lucky Sun" rating={3.5} scale="food">
+                        <CollapsibleReview title="Lucky Sun" rating={3} scale="food">
                             We ate lunch once and dinner another day at the resaurant at this hostel.
                             We enjoyed the food here, though it was rather simple SEA food like curries, and some Western classics like burgers as well.
                             We're adding some extra points to our rating here because of the eccentric Australian bloke working here, Jordan, who was exuberantly singing inbetween serving tables and flirted violently with Florian, which charmed both of us.
@@ -1459,7 +1459,7 @@ export default function Angkor() {
                             Find it <a href="https://maps.app.goo.gl/bLaRiM6jAtjvaL5i6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
 
-                        <CollapsibleReview title="The Big Easy" rating={3.5} scale="food">
+                        <CollapsibleReview title="The Big Easy" rating={3} scale="food">
                             There are three hostels with their own bar and restaurant next to each other here, and to be honest they are all pretty interchangeable.
                             The Big Easy has a cleaner, blue look with some nice tables inside and on the beach at low tide.
                             We had lunch indoor here during a small rain, and we enjoyed the food and vibe here.
@@ -1468,7 +1468,7 @@ export default function Angkor() {
                             Find it <a href="https://maps.app.goo.gl/8yKXYGfx1P79snWN6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
 
-                        <CollapsibleReview title="Sweet Times" rating={3.5} scale="food">
+                        <CollapsibleReview title="Sweet Times" rating={3} scale="food">
                             The third in the row of hostel restaurants on this stretch of the beach.
                             It has a similar vibe and menu to Lucky Sun and The Big Easy, we even suspect they might share a common kitchen.
                             We liked our food here too, as well as the backpacker hostel restaurant vibe.
@@ -1478,8 +1478,8 @@ export default function Angkor() {
                             Find it <a href="https://maps.app.goo.gl/1xAUrbUjtpHjN6BW6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
 
-                        <CollapsibleReview title="Onederz Koh Rong Sanloem Bar & Restaurant" rating={2.5} scale="food">
-                            We wanted to check out the bar and restaurant of this Onederz branch, as we really liked the one on Koh Rong, but we were not impressed by this location. There was no social vibe in the bar area, with many people reading or scrolling on their phone. It also looked like the hostel was not organizing any activities here. We had an enjoyable meal here, but decided not to return as we found other parts of the beach to be more lively.
+                        <CollapsibleReview title="Onederz Koh Rong Sanloem Bar & Restaurant" rating={2} scale="food">
+                            We wanted to check out the bar and restaurant of this Onederz branch, as we really liked the one on Koh Rong, but we were not impressed by this location. There was no social vibe in the bar area, with many people reading or scrolling on their phone. It also looked like the hostel was not organizing any activities here. Florian enjoyed his meal here, but Francesca was dissapointed with her dish, so we decided not to return as we found other places serving better food on livelier parts of the beach.
                             <br />
                             Find it <a href="https://maps.app.goo.gl/aEzpTE2b68RC7Vjv8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
