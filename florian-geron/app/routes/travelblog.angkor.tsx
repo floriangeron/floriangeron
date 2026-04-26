@@ -1453,7 +1453,7 @@ export default function Angkor() {
                         <CollapsibleReview title="Lucky Sun" rating={3.5} scale="food">
                             We ate lunch once and dinner another day at the resaurant at this hostel.
                             We enjoyed the food here, though it was rather simple SEA food like curries, and some Western classics like burgers as well.
-                            We're adding some extra points to our rating here because of the eccentric Australian bloke working here, who was excuberantly singing inbetween serving tables and flirted violently with Florian, which charmed both of us.
+                            We're adding some extra points to our rating here because of the eccentric Australian bloke working here, Jordan, who was exuberantly singing inbetween serving tables and flirted violently with Florian, which charmed both of us.
                             The subtracting an equal amount of points because of the dreary state of the toilets; We recommend using the toilets of the restaurant nextdoor instead.
                             <br />
                             Find it <a href="https://maps.app.goo.gl/bLaRiM6jAtjvaL5i6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
