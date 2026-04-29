@@ -334,7 +334,7 @@ export default function Angkor() {
                                 Loss of irrigation expertise:
                                 <br/>
                                 In an attempt to stay as relevant for as long as possible, the engineers who built and maintained the complex irrigation system did not pass on their full knowledge to the next generations.
-                                This led to a graduel loss of expertise in irrigation.
+                                This led to a gradual loss of expertise in irrigation.
                                 This made the system more vulnerable to the aforementioned environmental changes.
                                 Our guide told us that the experts would pass on only 90% of their knowledge, which meant that after 10 generations only 35% of the knowledge would remain, which was not enough to maintain the system, let alone fix it in case of disaster.
                             </li>
@@ -389,7 +389,7 @@ export default function Angkor() {
                         As we had three full days, we went for the 3-day pass.
                         <br /><br />
                         We can recommend spending at least three full days in Siem Reap if you are serious about exploring the temples.
-                        This will give you enough time to do the small and big circtuit, as well as a bonus activity to you choice, like exploring some lesser-known temples or visiting the floating villages on Tonle Sap lake.
+                        This will give you enough time to do the small and big circuit, as well as a bonus activity to your choice, like exploring some lesser-known temples or visiting the floating villages on Tonle Sap lake.
                         <br /><br />
 
                         <h3 id="angkor-wat-day-1" className="text-2xl font-bold mb-4">Day 1 - Small Circuit</h3>
@@ -466,7 +466,7 @@ export default function Angkor() {
                             <CarouselNext />
                         </Carousel>
                         <br /><br />
-                        Many of the temples we visited were undergoing restoration, which is a testimant to the importance of these temples for the Cambodian people, but also for their tourism industry.
+                        Many of the temples we visited were undergoing restoration, which is a testament to the importance of these temples for the Cambodian people, but also for their tourism industry.
                         Many of these restoration works are funded by foreign countries.
                         Each temple's restoration is typically funded by a single country, as we saw signs indicating restoration funding from Japan, China, the US, or France.
                         <br /><br />
@@ -542,7 +542,7 @@ export default function Angkor() {
                         <br /><br />
 
                         <h3 id="angkor-wat-tips-and-tricks" className="text-2xl font-bold mb-4">Tips and Tricks for visiting Angkor Wat</h3>
-                        Here is a succint list of things we wished we had known before visiting Angkor Wat:
+                        Here is a succinct list of things we wished we had known before visiting Angkor Wat:
                         <ul className="list-disc pl-5 space-y-1">
                             <li>
                                 <strong>Bring your own lunch: </strong>
@@ -585,7 +585,7 @@ export default function Angkor() {
                             <li>
                                 Pub Street:<br/>
                                 Pub Street is a lively street in the center of Siem Reap, focused on restaurants, bars, and other nightlife venues.
-                                We passed Pub Street on our way to the Old Market, and were surprise by how lively it was.
+                                We passed Pub Street on our way to the Old Market, and were surprised by how lively it was.
                                 The vibe is comparable to Bui Vien in Ho Chi Minh City or Khaosan Road in Bangkok, but a bit more laid back and less loud.
                                 Pub Street is fun to see, but we did not hang out here.
                             </li>
@@ -671,7 +671,7 @@ export default function Angkor() {
                                     </div>
     
                                     <p className="mb-6 leading-relaxed mt-2">
-                                        We enjoyed our time and Sakaban Suite and recommend it to anyone looking for a comfortable base to explore Angkor.
+                                        We enjoyed our time at Sakaban Suite and recommend it to anyone looking for a comfortable base to explore Angkor.
                                         The staff was especially wonderful, as they were happy to help us out with all our requests.
                                         The hotel has a small swimming pool which allowed us to relax on our off-day.
                                         <br/>
@@ -681,7 +681,7 @@ export default function Angkor() {
                                         After bringing this up to the staff, they were happy to move us to a quieter room, but unfortunately this room was less luxurious than the room which we had booked (and for which we had paid).
                                         <br/>
                                         From the hotel lobby, you can book tuktuks and guided tours to the Angkor complex. 
-                                        They also offer other activities like messages and cooking classes.
+                                        They also offer other activities like massages and cooking classes.
                                         <br/>
                                         Overall, we believe Sakaban offered great value for money and we enjoyed our little oasis of piece within the busy city of Siem Reap.
                                         <br />
@@ -763,7 +763,7 @@ export default function Angkor() {
                         <CollapsibleReview title="Night market" rating={2.5} scale="hotdog">
                             There is a night market straddling the riverside next to the Old Market, where you can find local food stalls for a quick and cheap meal.
                             I had a pancake / crêpe filled with honey, which was tasty but a mess to eat.
-                            Overall, this night market was not as memorable as the ones of other South-East Asian cities we have been to, as we did not very welcomed as tourists.
+                            Overall, this night market was not as memorable as the ones of other South-East Asian cities we have been to, as we did not feel very welcomed as tourists.
                         </CollapsibleReview>
 
                         <br />
@@ -1023,7 +1023,7 @@ export default function Angkor() {
                         We spent our days on Koh Rong Sanloem relaxing by the beach, SUPing in the calm waters of Saracen Bay, and walking up and down the beach.
                         This was a wonderful opportunity to slow down from the fast pace of travel and a time to enjoy each other's company.
                         <br /><br />
-                        The hotel is located on Saracen Bay Beach, a long beach lined with a host of accomodations in a range of price points, ranging from backpacker hostels to more fancy hotels.
+                        The hotel is located on Saracen Bay Beach, a long beach lined with a host of accommodations in a range of price points, ranging from backpacker hostels to more fancy hotels.
                         We walked up and down the beach a couple of times; This walk can be challenging during high tide, as the water can rise up to knee level in some areas.
                         There are some undeveloped areas, as well as areas where development seemed to have halted halfway, but it is a pleasant walk nonetheless.
                         We walked as far as Coco restaurant on one end of the beach, a pleasant family-owned restaurant,
@@ -1032,7 +1032,7 @@ export default function Angkor() {
                         We found the audience here to be less sociable and lively. 
                         It's hard to pinpoint why exactly, but I suppose the hostel doesn't organize as many activities and the travellers here focus more on relaxation and less on partying.
                         <br /><br />
-                        Next to accomodation options, the beach also has some restaurants and bars, and most accomodations have their own restaurant and bar as well.
+                        Next to accommodation options, the beach also has some restaurants and bars, and most accommodations have their own restaurant and bar as well.
                         This collection of beachfront venues creates a nice atmosphere on the beach and provides you with some options,
                         but after a couple days you will start to realize they all offer the same options on their menus,
                         so the cuisine on the island will grow somewhat stale after a couple of days.
@@ -1104,7 +1104,7 @@ export default function Angkor() {
                         We called the front desk to book the dinner, but before we could confirm they already offered a reduced price of $85 for the whole package.
                         <br/>
                         The romantic beachfront dinner was a wonderful experience.
-                        The staff set up a private table for us on the beach, encapsuled by a wooden structure lavished with sheets, and the table was decorated with candles and sea shells.
+                        The staff set up a private table for us on the beach, encapsulated by a wooden structure lavished with sheets, and the table was decorated with candles and sea shells.
                         The food was delicious, and there was a member of the staff dedicated to our table for the night, which once again made us feel like the hotel went out of their way to make our stay memorable.
                         Though they had arranged an amazing experience, we noticed they didn't have extensive experience in Western fine dining in a couple of little oddities.
                         For example, they prepared six courses for us, but each course was the size of a decent standalone meal.
@@ -1112,7 +1112,7 @@ export default function Angkor() {
                         Furthermore, our dedicated waitress took away our plates the moment we finished it and wasted no time bringing the next course,
                         which further added to the feeling we were stuffing ourselves!
                         <br />
-                        Halfway through our meal, a fire show started on the beach in front of the neighbouring accomodation.
+                        Halfway through our meal, a fire show started on the beach in front of the neighbouring accommodation.
                         This made our experience even more magical.
                         This dinner was a highlight on our two-month trip through SEA.
                         <div className="grid md:grid-cols-2 gap-2">
@@ -1135,9 +1135,9 @@ export default function Angkor() {
                                 <figcaption className="text-center text-sm text-gray-600">The fire show during our dinner (during our main course)</figcaption>
                             </figure>
                         </div><br/>
-                        Unfortunately, all wasn't rainbows and sunshine during our stay on Koh Rong Sanloem. Francesca had gotten the worst of it during out stay on Koh Rong, but Florian developed his own stomach issues during our stay on Koh Rong Sanloem. After ignoring it for a couple of days, making the same mistake as Francesca, we decided to try and find a doctor or pharmacist on the island. However, Sanloem is even less developed than Koh Rong, making it even more difficult to find medical help. On the beach, we spotted some sketchy signs describing the location of a pharmacy. The signs pointed to a bar right next to Onederz. Upon entry, we inquired about the pharmacy, and the bartender took us to the back of the building, where he asked us about my symptoms. After a very succint explanation, he dissapeared into a small room, and came back with some medication, which he sold to us as loose tabs without any prescription. We were a bit skeptical, but in the end this medication did do the trick and solved Florian's stomach issues rather quickly.
+                        Unfortunately, all wasn't rainbows and sunshine during our stay on Koh Rong Sanloem. Francesca had gotten the worst of it during out stay on Koh Rong, but Florian developed his own stomach issues during our stay on Koh Rong Sanloem. After ignoring it for a couple of days, making the same mistake as Francesca, we decided to try and find a doctor or pharmacist on the island. However, Sanloem is even less developed than Koh Rong, making it even more difficult to find medical help. On the beach, we spotted some sketchy signs describing the location of a pharmacy. The signs pointed to a bar right next to Onederz. Upon entry, we inquired about the pharmacy, and the bartender took us to the back of the building, where he asked us about my symptoms. After a very succinct explanation, he disappeared into a small room, and came back with some medication, which he sold to us as loose tabs without any prescription. We were a bit skeptical, but in the end this medication did do the trick and solved Florian's stomach issues rather quickly.
                         <br/><br/>
-                        All good things must come to end, and the same applies to our time on our little paradise.
+                        All good things must come to an end, and the same applies to our time on our little paradise.
                         We had booked an early morning flight out of Sihanoukville to start the next chapter of our trip.
                         As the ferries cannot be relied on for a timely transport (as their departure times are influenced by weather conditions),
                         we decided to stay one night on the mainland at Sihanoukville as a cautious buffer.
@@ -1319,7 +1319,7 @@ export default function Angkor() {
                                     <p className="mb-6 leading-relaxed mt-2">
                                         At this point, you might think this journal is paid promotion for this hotel, but we really were very happy with our stay here. Whether it was by decorating the room with rose petals, providing us with a complementary cake, or organizing the romantic beachside dinner, the hotel went out of our way to make our stay memorable.
                                         <br/>
-                                        We booked a hillside room, which is located a little inland and up a hill, but the hotel foresees a shuttle service to the beach and back. We arrived one day later than originally planned, and the hotel was able to flexbily adjust our booking to accommodate this change. After being shown our room, we decided to extend our stay with one more night, as this beach getaway was exactly what we needed.
+                                        We booked a hillside room, which is located a little inland and up a hill, but the hotel foresees a shuttle service to the beach and back. We arrived one day later than originally planned, and the hotel was able to flexibly adjust our booking to accommodate this change. After being shown our room, we decided to extend our stay with one more night, as this beach getaway was exactly what we needed.
                                         <br/>
                                         Our hillside room was clean and spacious, with a large bed and an outside, concealed bathroom. On the other end of the room was an outside terrace with a bath and a view of the bay. We grew very fond of our terrace bath and would take a little dip every evening to wash off the sea salt and sand before dinner. 
                                         <br/>
@@ -1327,7 +1327,7 @@ export default function Angkor() {
                                         <br/>
                                         The hotel also foresees some gear for water activities, like snorkeling and SUPing.
                                         <br/>
-                                        During our stay, the cicad season was in full swing, which was maybe to only negative thing we can say about our stay here. Though small, cicads are incredibly loud, especially at night. After some time, we grew accustomed to the noise, and it didn't bother us too much. If you're a light sleeper, you might want to consider bringing earplugs for your stay here.
+                                        During our stay, the cicada season was in full swing, which was maybe the only negative thing we can say about our stay here. Though small, cicadas are incredibly loud, especially at night. After some time, we grew accustomed to the noise, and it didn't bother us too much. If you're a light sleeper, you might want to consider bringing earplugs for your stay here.
                                         <br />
                                         Find it <a href="https://maps.app.goo.gl/Tyvy5x5yuAh4Kx3R6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                                     </p>
@@ -1372,9 +1372,9 @@ export default function Angkor() {
                                     </div>
     
                                     <p className="mb-6 leading-relaxed mt-2">
-                                        As we had an early morning flight out of Sihanoukville, we decide to spend one night in the city to ensure we wouldn't miss our flight due to unreliable ferry services. As we enjoyed our stay at Onederz on Koh Rong, we booked a night at their branch in Sihanoukville.
+                                        As we had an early morning flight out of Sihanoukville, we decided to spend one night in the city to ensure we wouldn't miss our flight due to unreliable ferry services. As we enjoyed our stay at Onederz on Koh Rong, we booked a night at their branch in Sihanoukville.
                                         <br/>
-                                        All-in-all, we had a pleasant stay at the hostel, which has a nice pool area as well as a restaurant and bar. The staff was friendly and the room was decent, though we had some issues with cleanliness, mainly the bathroom, which had a faint moldy smell. We did enjoy to food that we ate at the hostel and enjoyed the overall laid-back vibe. It was a little oasis of calm in the rather dirty and busy city of Sihanoukville. We can recommend this place for anyone who needs to spend a night in Sihanoukville and doesn't mind hostel-level accomodation.
+                                        All-in-all, we had a pleasant stay at the hostel, which has a nice pool area as well as a restaurant and bar. The staff was friendly and the room was decent, though we had some issues with cleanliness, mainly the bathroom, which had a faint moldy smell. We did enjoy the food that we ate at the hostel and enjoyed the overall laid-back vibe. It was a little oasis of calm in the rather dirty and busy city of Sihanoukville. We can recommend this place for anyone who needs to spend a night in Sihanoukville and doesn't mind hostel-level accommodation.
                                         <br />
                                         Find it <a href="https://maps.app.goo.gl/AFWgtgM7NyzWDhvGA" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                                     </p>
@@ -1398,9 +1398,9 @@ export default function Angkor() {
                         </CollapsibleReview>
 
                         <CollapsibleReview title="Phorn's Rock & Raggae Bar" rating={3.5} scale="food">
-                            This bar is located a litle up Long Set Beach from Onederz and serves SEA food.
+                            This bar is located a little up Long Set Beach from Onederz and serves SEA food.
                             The place is decked out in a raggae theme, with some Jamaican flags and posters, and some raggae music playing in the background.
-                            This bar is located on a quieter part of the beach, with some chairs and picknick tables set up on the sand.
+                            This bar is located on a quieter part of the beach, with some chairs and picnic tables set up on the sand.
                             <br/>
                             We enjoyed our meal here and can recommend this for a low-key meal on the beach.
                             We had ordered a curry without green beans (as Francesca is allergic to these), but the curry came with green beans unfortunately.
@@ -1451,9 +1451,9 @@ export default function Angkor() {
                         </CollapsibleReview>
 
                         <CollapsibleReview title="Lucky Sun" rating={3} scale="food">
-                            We ate lunch once and dinner another day at the resaurant at this hostel.
+                            We ate lunch once and dinner another day at the restaurant at this hostel.
                             We enjoyed the food here, though it was rather simple SEA food like curries, and some Western classics like burgers as well.
-                            We're adding some extra points to our rating here because of the eccentric Australian bloke working here, Jordan, who was exuberantly singing inbetween serving tables and flirted violently with Florian, which charmed both of us.
+                            We're adding some extra points to our rating here because of the eccentric Australian bloke working here, Jordan, who was exuberantly singing in between serving tables and flirted violently with Florian, which charmed both of us.
                             The subtracting an equal amount of points because of the dreary state of the toilets; We recommend using the toilets of the restaurant nextdoor instead.
                             <br />
                             Find it <a href="https://maps.app.goo.gl/bLaRiM6jAtjvaL5i6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
@@ -1479,7 +1479,7 @@ export default function Angkor() {
                         </CollapsibleReview>
 
                         <CollapsibleReview title="Onederz Koh Rong Sanloem Bar & Restaurant" rating={2} scale="food">
-                            We wanted to check out the bar and restaurant of this Onederz branch, as we really liked the one on Koh Rong, but we were not impressed by this location. There was no social vibe in the bar area, with many people reading or scrolling on their phone. It also looked like the hostel was not organizing any activities here. Florian enjoyed his meal here, but Francesca was dissapointed with her dish, so we decided not to return as we found other places serving better food on livelier parts of the beach.
+                            We wanted to check out the bar and restaurant of this Onederz branch, as we really liked the one on Koh Rong, but we were not impressed by this location. There was no social vibe in the bar area, with many people reading or scrolling on their phone. It also looked like the hostel was not organizing any activities here. Florian enjoyed his meal here, but Francesca was disappointed with her dish, so we decided not to return as we found other places serving better food on livelier parts of the beach.
                             <br />
                             Find it <a href="https://maps.app.goo.gl/aEzpTE2b68RC7Vjv8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
