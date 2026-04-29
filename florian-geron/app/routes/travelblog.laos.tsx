@@ -180,7 +180,21 @@ export default function Laos() {
                 <div className="grid md:grid-cols-4 gap-8">
                     <main className={`md:col-span-3 text-gray-800 ${fontSizeClass} max-w-[min(100%,65ch)] mx-auto md:max-w-none md:mx-0 px-4`}>
 
+                        {/* Our Journey */}
+                        <h2 id="our-journey" className="text-4xl font-bold mb-4">Our Journey</h2>
+                        <h3 id="background" className="text-2xl font-bold mb-4">Background</h3>
+                        <h3 id="what-we-did" className="text-2xl font-bold mb-4">What we did</h3>
+                        <h3 id="what-we-skipped" className="text-2xl font-bold mb-4">What we skipped</h3>
+
+                        {/* Luang Prabang */}
+                        <h2 id="luang-prabang" className="text-4xl font-bold mb-4">Luang Prabang</h2>
+
+                        {/* Vang Vieng */}
+                        <h2 id="vang-vieng" className="text-4xl font-bold mb-4">Vang Vieng</h2>
+
                     </main>
+
+                    {/* Sidebar with TOC and font size selector */}
                     <aside className="hidden md:block md:col-span-1">
                         
                         <nav aria-label="Table of contents" className="sticky top-8 self-start bg-white/90 dark:bg-gray-900/80 text-right p-4 hover:scale-105 transition-transform duration-300 overflow-auto">
