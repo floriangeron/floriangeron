@@ -334,7 +334,7 @@ export default function Angkor() {
                                 Loss of irrigation expertise:
                                 <br/>
                                 In an attempt to stay as relevant for as long as possible, the engineers who built and maintained the complex irrigation system did not pass on their full knowledge to the next generations.
-                                This led to a graduel loss of expertise in irrigation.
+                                This led to a gradual loss of expertise in irrigation.
                                 This made the system more vulnerable to the aforementioned environmental changes.
                                 Our guide told us that the experts would pass on only 90% of their knowledge, which meant that after 10 generations only 35% of the knowledge would remain, which was not enough to maintain the system, let alone fix it in case of disaster.
                             </li>
