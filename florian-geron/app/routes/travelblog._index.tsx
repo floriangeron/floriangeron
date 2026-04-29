@@ -37,7 +37,7 @@ export default function TravelBlog() {
             excerpt: "Climbing many a mountain for a sunset...",
             content:
                 "Join me on our one-week journey through Laos, exploring some of the beautiful landscapes and towns of this hidden gem in Southeast Asia.",
-            imageUrl: "/images/travel/Laos.jpeg",
+            imageUrl: "/images/travel/laos/Laos.jpeg",
         },
         {
             id: "thailand",
