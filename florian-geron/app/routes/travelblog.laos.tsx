@@ -185,6 +185,44 @@ export default function Laos() {
                         <h3 id="background" className="text-2xl font-bold mb-4">Background</h3>
                         <h3 id="what-we-did" className="text-2xl font-bold mb-4">What we did</h3>
                         <h3 id="what-we-skipped" className="text-2xl font-bold mb-4">What we skipped</h3>
+                        <div className="mb-6 leading-relaxed">
+                            <ul className="list-disc pl-5 space-y-1">
+                                <li>
+                                    Vientiane:
+                                    <br/>
+                                    We decided to skip the capital city of Laos, as we heard it was more of an administrative and commercial center rather than a tourist destination.
+                                    We flew directly into and out of Luang Prabang, which is the old capital of the country and the main tourist hub. 
+                                    This allowed us to maximize our time in the parts of Laos we were most interested in and avoid spending a transit day in Vientiane.
+                                    Vientiane is connected to Vang Vieng and Luang Prabang by the Chinese-built high-speed railway, so it is a convenient addition to your itinerary if you would like to see it.
+                                </li>
+                                <li>
+                                    Nong Khiaw:
+                                    <br/>
+                                    xx.
+                                </li>
+                                <li>
+                                    Gibbon Experience:
+                                    <br/>
+                                    xx.
+                                </li>
+                                <li>
+                                    Mekong Slow Boat:
+                                    <br/>
+                                    xx.
+                                </li>
+                                <li>
+                                    Pakse:
+                                    <br/>
+                                    xx.
+                                </li>
+                                <li>
+                                    Si Phan Don (4000 Islands):
+                                    <br/>
+                                    xx.
+                                </li>
+                            </ul>
+                        </div>
+                        
 
                         {/* Luang Prabang */}
                         <h2 id="luang-prabang" className="text-4xl font-bold mb-4">Luang Prabang</h2>
