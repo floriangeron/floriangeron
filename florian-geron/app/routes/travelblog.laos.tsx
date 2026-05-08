@@ -184,6 +184,18 @@ export default function Laos() {
                         <h2 id="our-journey" className="text-4xl font-bold mb-4">Our Journey</h2>
                         <h3 id="background" className="text-2xl font-bold mb-4">Background</h3>
                         <h3 id="what-we-did" className="text-2xl font-bold mb-4">What we did</h3>
+
+                        <figure>
+                            <img
+                                src={"/images/travel/laos/LaosRoute.png"}
+                                alt="Route we travelled"
+                                className="w-full rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                onClick={() => openLightbox("/images/travel/laos/LaosRoute.png")}
+                            />
+                            <figcaption className="text-center text-sm text-gray-600">Route we travelled — Luang Prabang to Vang Vieng</figcaption>
+                        </figure>
+
+
                         <h3 id="what-we-skipped" className="text-2xl font-bold mb-4">What we skipped</h3>
                         <div className="mb-6 leading-relaxed">
                             <ul className="list-disc pl-5 space-y-1">
@@ -225,11 +237,6 @@ export default function Laos() {
                                     <br/>
                                     If you look at Laos on a map, you will see that the Northern part (containing Vientiane and Luang Prabang) is more developed and connected, while the Southern part forms a long and narrow strip along the Mekong river with fewer roads and more remote villages.
                                     The main city in the South is Pakse, which is a common starting point for exploring Southern points on interest like the 4000 Islands and the Bolaven Plateau.
-                                </li>
-                                <li>
-                                    Si Phan Don (4000 Islands):
-                                    <br/>
-                                    xx.
                                 </li>
                             </ul>
                         </div>
