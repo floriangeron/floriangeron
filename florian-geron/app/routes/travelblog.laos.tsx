@@ -185,6 +185,10 @@ export default function Laos() {
                         <h3 id="background" className="text-2xl font-bold mb-4">Background</h3>
                         <h3 id="what-we-did" className="text-2xl font-bold mb-4">What we did</h3>
 
+                        We spent a week in Laos, splitting our time between the two most popular destinations in the North: Luang Prabang and Vang Vieng.
+                        Luang Prabang is the old royal capital of Laos, known for its rich history and culture, while Vang Vieng is a small backpacker town famous for its outdoor activities.
+                        We flew into and out of Luang Prabang, moving between the two cities by the high-speed train.
+
                         <figure>
                             <img
                                 src={"/images/travel/laos/LaosRoute.png"}
