@@ -198,22 +198,33 @@ export default function Laos() {
                                 <li>
                                     Nong Khiaw:
                                     <br/>
-                                    xx.
+                                    A little North of Luang Prabang lies Nong Khiaw. 
+                                    Nong Khiaw is famous amongst backpackers for its hiking trails on the limestone karst mountains and its laid-back vibe along the Nam Ou river.
+                                    Some people rave about it, while others we have talked to pointed out the lack of infrastructure and amenities.
+                                    We heard one story of some backpackers who did a multi-day trek, but were not prepared for the freezing cold at night.
+                                    We're sure it can be a great experience for the right type of traveler.
                                 </li>
                                 <li>
                                     Gibbon Experience:
                                     <br/>
-                                    xx.
+                                    The Gibbon Experience is a unique multi-day adventure in Northern Laos.
+                                    The premise is that you journey from treehouse to treehouse using a network of ziplines, traversing the jungle canopy to get the chance to spot the endangered gibbons in their natural habitat.
+                                    We have heard that it is an unforgettable experience for nature lovers and adventure seekers, and it is the first thing we would have added to our itinerary if we had more time in Laos.
                                 </li>
                                 <li>
                                     Mekong Slow Boat:
                                     <br/>
-                                    xx.
+                                    Another way to enter Laos is via the Mekong River, starting in Northern Thailand and floating on the Mekong river down to Luang Prabang.
+                                    This is a popular route into Laos for backpackers and can be a very scenic and relaxing way to see the countryside.
+                                    We heard from other travelers that this is a hit-or-miss experience, depending on the people you end up sharing the boat with.
+                                    We met a German girl who was on a boat with a group of exclusively Dutch people, so she felt a little excluded.
+                                    We decided to skip it because we had limited time.
                                 </li>
                                 <li>
                                     Pakse:
                                     <br/>
-                                    xx.
+                                    If you look at Laos on a map, you will see that the Northern part (containing Vientiane and Luang Prabang) is more developed and connected, while the Southern part forms a long and narrow strip along the Mekong river with fewer roads and more remote villages.
+                                    The main city in the South is Pakse, which is a common starting point for exploring Southern points on interest like the 4000 Islands and the Bolaven Plateau.
                                 </li>
                                 <li>
                                     Si Phan Don (4000 Islands):
