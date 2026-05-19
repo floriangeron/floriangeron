@@ -183,6 +183,19 @@ export default function Laos() {
                         {/* Our Journey */}
                         <h2 id="our-journey" className="text-4xl font-bold mb-4">Our Journey</h2>
                         <h3 id="background" className="text-2xl font-bold mb-4">Background</h3>
+
+                        After visiting Thailand with his friends, Florian met up with Francesca in Bangkok airport to continue the rest of the trip together.
+                        The next stop on our itinerary was Laos, a landlocked country in Southeast Asia, considered one of the most authentic and least touristy in the region.
+                        <br/><br/>
+                        Unlike Thailand, which managed to remain independent during the era of European colonization, Laos (like its neighbours Cambodia and Vietnam) was a French colony until 1953. Vietnam foughts its way to independence by means of war, while Laos achieved it through negotiation. To this day, Laos and Vietnam are considered to have a "special relationship" due to their shared history and communist ideology.
+                        <br/><br/>
+                        Laos implicitly sided with the North Vietnamese during the Vietnam war, allowing them to use its territory for supply routes and bases. These supply routes connecting North Vietnam to the South via Laos and Cambodia are known as the Ho Chi Minh Trail. These routes were heavily bombed by the US, making Laos the most heavily bombed country per capita in history. The legacy of this war is still visible today, with unexploded bombs still being found and causing casualties, and with the US having provided significant aid to help clear these bombs.
+                        <br/><br/>
+                        Since the war, Vietnam has developed rapidly and become a major tourist destination. Cambodia also attracts many tourists due to the Angkor Wat temple complex and its tropical islands. Laos, on the other hand, has remained relatively under the radar, with a more laid-back vibe and less tourist infrastructure. This makes it a great destination for travelers looking to experience a more authentic and less crowded Southeast Asia.
+                        <br/><br/>
+                        Laos is a predominantly Buddhist country, with a rich cultural heritage and stunning natural landscapes. The main tourist destinations in Laos are the cities of Luang Prabang and Vang Vieng in the North, and the 4000 Islands and Bolaven Plateau in the South.
+                        <br/><br/>
+
                         <h3 id="what-we-did" className="text-2xl font-bold mb-4">What we did</h3>
 
                         We spent a week in Laos, splitting our time between the two most popular destinations in the North: Luang Prabang and Vang Vieng.
