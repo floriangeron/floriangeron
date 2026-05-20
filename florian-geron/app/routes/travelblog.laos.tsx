@@ -264,9 +264,16 @@ export default function Laos() {
 
                         {/* Luang Prabang */}
                         <h2 id="luang-prabang" className="text-4xl font-bold mb-4">Luang Prabang</h2>
+                        <h3 id="luang-prabang-city" className="text-2xl font-bold mb-4">Luang Prabang</h3>
+                        <h3 id="luang-prabang-adventures" className="text-2xl font-bold mb-4">Kuang Si Falls & Pak Ou Caves</h3>
+                        <h3 id="luang-prabang-reviews" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
 
                         {/* Vang Vieng */}
                         <h2 id="vang-vieng" className="text-4xl font-bold mb-4">Vang Vieng</h2>
+                        <h3 id="vang-vieng-city" className="text-2xl font-bold mb-4">Vang Vieng</h3>
+                        <h3 id="vang-vieng-adventures" className="text-2xl font-bold mb-4">Mountains, Caves & Lagoons</h3>
+                        <h3 id="vang-vieng-reviews" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
+
 
                     </main>
 
@@ -282,9 +289,27 @@ export default function Laos() {
                                 <li>
                                     <a href="#luang-prabang" onClick={(e) => handleTocClick(e, 'luang-prabang')} className="block w-full text-left pl-20 font-bold hover:underline">Luang Prabang</a>
                                 </li>
+                                    <li>
+                                        <a href="#luang-prabang-city" onClick={(e) => handleTocClick(e, 'luang-prabang-city')} className="block w-full text-right hover:underline">Luang Prabang</a>
+                                    </li>
+                                    <li>
+                                        <a href="#luang-prabang-adventures" onClick={(e) => handleTocClick(e, 'luang-prabang-adventures')} className="block w-full text-right hover:underline">Kuang Si Falls & Pak Ou Caves</a>
+                                    </li>
+                                    <li>
+                                        <a href="#luang-prabang-reviews" onClick={(e) => handleTocClick(e, 'luang-prabang-reviews')} className="block w-full text-right hover:underline">Food & Drinks Reviews</a>
+                                    </li>
                                 <li>
                                     <a href="#vang-vieng" onClick={(e) => handleTocClick(e, 'vang-vieng')} className="block w-full text-left pl-20 font-bold hover:underline">Vang Vieng</a>
                                 </li>
+                                    <li>
+                                        <a href="#vang-vieng-city" onClick={(e) => handleTocClick(e, 'vang-vieng-city')} className="block w-full text-right hover:underline">Vang Vieng</a>
+                                    </li>
+                                    <li>
+                                        <a href="#vang-vieng-adventures" onClick={(e) => handleTocClick(e, 'vang-vieng-adventures')} className="block w-full text-right hover:underline">Mountains, Caves & Lagoons</a>
+                                    </li>
+                                    <li>
+                                        <a href="#vang-vieng-reviews" onClick={(e) => handleTocClick(e, 'vang-vieng-reviews')} className="block w-full text-right hover:underline">Food & Drinks Reviews</a>
+                                    </li>
                             </ul>
                         </nav>
 
