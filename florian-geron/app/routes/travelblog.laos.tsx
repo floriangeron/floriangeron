@@ -206,23 +206,8 @@ export default function Laos() {
                         Laos' government imposes a country-wide curfew from 11pm to 4am. We were told this decision was made to preserve Laos' local charm. It is not strictly enforced in tourist areas, but Vang Vieng's nightlife does come to an abrupt halt at 11pm.<br/>
                         Furthermore, it is illegal for a non-Laotian to have a sexual relationship with a Lao citizen. We did not test whether this law was enforced, but is another good example of the conservative and authoritarian nature of Laos' government. We believe these laws are in place to preserve the traditional Lao culture and prevent it from becoming a destination for nightlife and sexual tourism, like Thailand.
                         <br/><br/>
-
-
-                        DELETE THIS:
-                        If you are planning a trip to Laos, here are some key pieces of information to keep in mind:
-                        <br/><br/>
-                        - Visa: Most travelers to Laos will need a visa, which can be obtained on arrival at certain entry points or in advance from a Lao embassy or consulate. The visa on arrival is available for citizens of many countries and typically costs around $30 USD for a 30-day stay. However, it is always a good idea to check the latest visa requirements before your trip, as they can change.
-                        - Currency: The official currency of Laos is the Lao Kip (LAK). However, US dollars are widely accepted in tourist areas, and many prices are quoted in dollars. It is a good idea to carry some cash in both currencies, as smaller vendors may not accept cards or may prefer kip.
-                        - Language: The official language of Laos is Lao, which is closely related to Thai. English is widely spoken in tourist areas, but it can be helpful to learn a few basic phrases in Lao, especially if you plan to venture off the beaten path.
-                        - Transportation: Laos has a developing transportation infrastructure, with buses and minivans being the most common way to get around. In the North, there is a high-speed train connecting Vientiane, Vang Vieng and Luang Prabang, which is a convenient and comfortable way to travel between these cities. In the South, transportation can be more challenging, with fewer options and longer travel times.
-                        - Health and Safety: Laos is generally a safe country for travelers, but it is always important to take basic precautions. Make sure to drink bottled water, avoid street food that looks unhygienic, and be cautious when traveling at night. It is also a good idea to have travel insurance that covers medical emergencies and potential evacuation.
-                        - Best Time to Visit: The best time to visit Laos is during the dry season, which runs from November to April. During this time, the weather is generally pleasant, with cooler temperatures and less humidity. The wet season, from May to October, can bring heavy rains and flooding, especially in the South, which can disrupt travel plans. However, the wet season can also be a beautiful time to visit, as the landscapes are lush and green.
-                        - Cultural Etiquette: Laos is a conservative country with strong Buddhist traditions, so it is important to dress modestly and show respect when visiting temples and religious sites. It is also customary to remove your shoes before entering someone's home or a temple. When greeting someone, a traditional Lao greeting called the "nop" involves placing your palms together in a prayer-like gesture and bowing slightly. The higher you place your hands, the more respect you show.
-                        - Tipping: Tipping is not a common practice in Laos, but it is appreciated for good service. In restaurants, it is common to round up the bill or leave a small tip of around 5-10% if the service was exceptional. For tour guides and drivers, a tip of a few dollars per day is a nice gesture if you were happy with their service.
-                        - Electricity: Laos uses Type A, B, C, E and F plugs, with a standard voltage of 230V and a frequency of 50Hz. It is a good idea to bring a universal adapter if you are traveling from a country with different plug types.
-                        - Internet and SIM Cards: Internet access in Laos can be spotty, especially outside of major cities. However, most hotels and cafes in tourist areas offer free Wi-Fi. If you need reliable internet access, it is a good idea to purchase a local SIM card with data. The main mobile providers in Laos are Unitel, Lao Telecom and ETL, and you can find SIM cards at the airport or in major cities.
-                        - Safety: Laos is generally a safe country for travelers, but it is always important to take basic precautions. Make sure to drink bottled water, avoid street food that looks unhygienic, and be cautious when traveling at night. It is also a good idea to have travel insurance that covers medical emergencies and potential evacuation.
-                        - Sustainable Tourism: Laos is a country with a fragile ecosystem and a rich cultural heritage, so it is important to practice sustainable tourism. This includes respecting local customs and traditions, supporting local businesses, minimizing your environmental impact, and being mindful of the social and economic impacts of tourism on local communities.
+                        Laos' infrastructure is still developing. Buses and minivans are the most common way to cover longer distances, and the roads can be in poor condition. More recently, a high-speed train was built by the Chinese, which connects Vientiane, Vang Vieng and Luang Prabang to Southern Chinese cities. We found this high-speed train to be an efficient and comfortable way to travel, with some caviats. The ticketing system is rather confusing; It does not seem possible to book your tickets more than a couple of weeks in advance. Even if you book far in advance via an agency (which is what we did), they might get back to you a couple of days before the trip that they were not able to secure your tickets (which is what happened to us). We were able to get tickets for the next day, so overall no big issue, but it was an unwelcome surprise nonetheless. The train itself is comfortable and efficient, but is mainly used by Chinese tourists. Prepare for a very Chinese experience: The travelers are not afraid to push and shove to get on and off the train (even though there is assigned seating). This got a bit overwhelming for us at times. Even though the ticketing system is unreliable and the train travelers are a bit rowdy, taking the one-hour train ride still beats the ~5 hour bus ride between Luang Prabang and Vang Vieng, for example, so we would still recommend it if you are traveling between those two cities.<br/>
+                        When covering shorter distances, motorbikes are a common and convenient way to get around. We recommend driving with caution and wearing a helmet, as the roads can be in poor condition and the traffic can be chaotic. That being said, it is a very fun and flexible way to explore the areas surrounding Vang Vieng.
 
                         <br/><br/>
 
@@ -292,8 +277,33 @@ export default function Laos() {
                         {/* Luang Prabang */}
                         <h2 id="luang-prabang" className="text-4xl font-bold mb-4">Luang Prabang</h2>
                         <h3 id="luang-prabang-city" className="text-2xl font-bold mb-4">Luang Prabang</h3>
-                        Luang Prabang is the old royal capital of Laos. The entire city is a UNESCO World Heritage Site, due to a combination of its well-preserved architecture, its rich culture, and its stunning natural setting. The city is nesteld between the Mekong and Nam Khan rivers and surrounded by lush green mountains. It is a charming and laid-back city, perfect for travellers who would like to take it easy and experience the local culture. The city is small enough to explore on foot, and there are plenty of cafes and restaurants to relax in.
-
+                        
+                        Luang Prabang is the old royal capital of Laos. The entire city is a UNESCO World Heritage Site, due to a combination of its well-preserved architecture, its rich culture, and its stunning natural setting. The city is nestled between the Mekong and Nam Khan rivers and surrounded by lush green mountains. It is a charming and laid-back city, perfect for travellers who would like to take it easy and experience the local culture. The city is small enough to explore on foot, and there are plenty of cafes and restaurants to relax in.
+                        <br/><br/>
+                        As Luang Prabang was the first stop on our trip, we took it easy and spent a full day just wandering around the city, soaking in the atmosphere, going to some nice restaurants, and visiting the main sights. These main sights include:
+                        <div className="mb-6 leading-relaxed">
+                            <ul className="list-disc pl-5 space-y-1">
+                                <li>
+                                    The Royal Palace & National Museum:
+                                </li>
+                                <li>
+                                    The Night Market:
+                                </li>
+                                <li>
+                                    The Mount Phousi:
+                                </li>
+                                <li>
+                                    The many beautiful temples:
+                                </li>
+                                <li>
+                                    The morning alms giving ceremony:
+                                </li>
+                                <li>
+                                    The Mekong and Nam Khan riverfronts:
+                                </li>
+                            </ul>
+                        </div>
+                        Luang Prabang really stood out to us as a city with a unique charm and character. We found that the tourist audience was quite a bit older than in other Southeast Asian destinations. There did not seem to be any nightlife venue, which works just fine for this city. They go in for a relaxed, cultural experience, with many cute cafes and some really good restaurants.
 
 
                         <h3 id="luang-prabang-adventures" className="text-2xl font-bold mb-4">Kuang Si Falls & Pak Ou Caves</h3>
