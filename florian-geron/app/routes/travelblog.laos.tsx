@@ -199,6 +199,33 @@ export default function Laos() {
                         Laos is a predominantly Buddhist country, with a rich cultural heritage and stunning natural landscapes. The main tourist destinations in Laos are the cities of Luang Prabang and Vang Vieng in the North, and the 4000 Islands and Bolaven Plateau in the South.
                         <br/><br/>
 
+                        <h3 id="tourist-intro" className="text-2xl font-bold mb-4">Tourist Information</h3>
+                        As Laos is somewhat less touristy than its neighbours, here are some key pieces of information to keep in mind when planning a trip there.
+                        <br/><br/>
+                        Laos is a conservative, communist country. It is good to keep this combination of social conservatism and political authoritarianism in mind when visiting. For example, it is recommended to dress modestly and avoid public dislays of affection; We were even told holding hands in public is seen as inappropriate in Laos. However, in all honesty, we did not notice this level of conservatism during our trip.<br/>
+                        Laos' government imposes a country-wide curfew from 11pm to 4am. We were told this decision was made to preserve Laos' local charm. It is not strictly enforced in tourist areas, but Vang Vieng's nightlife does come to an abrupt halt at 11pm.<br/>
+                        Furthermore, it is illegal for a non-Laotian to have a sexual relationship with a Lao citizen. We did not test whether this law was enforced, but is another good example of the conservative and authoritarian nature of Laos' government. We believe these laws are in place to preserve the traditional Lao culture and prevent it from becoming a destination for nightlife and sexual tourism, like Thailand.
+                        <br/><br/>
+
+
+                        DELETE THIS:
+                        If you are planning a trip to Laos, here are some key pieces of information to keep in mind:
+                        <br/><br/>
+                        - Visa: Most travelers to Laos will need a visa, which can be obtained on arrival at certain entry points or in advance from a Lao embassy or consulate. The visa on arrival is available for citizens of many countries and typically costs around $30 USD for a 30-day stay. However, it is always a good idea to check the latest visa requirements before your trip, as they can change.
+                        - Currency: The official currency of Laos is the Lao Kip (LAK). However, US dollars are widely accepted in tourist areas, and many prices are quoted in dollars. It is a good idea to carry some cash in both currencies, as smaller vendors may not accept cards or may prefer kip.
+                        - Language: The official language of Laos is Lao, which is closely related to Thai. English is widely spoken in tourist areas, but it can be helpful to learn a few basic phrases in Lao, especially if you plan to venture off the beaten path.
+                        - Transportation: Laos has a developing transportation infrastructure, with buses and minivans being the most common way to get around. In the North, there is a high-speed train connecting Vientiane, Vang Vieng and Luang Prabang, which is a convenient and comfortable way to travel between these cities. In the South, transportation can be more challenging, with fewer options and longer travel times.
+                        - Health and Safety: Laos is generally a safe country for travelers, but it is always important to take basic precautions. Make sure to drink bottled water, avoid street food that looks unhygienic, and be cautious when traveling at night. It is also a good idea to have travel insurance that covers medical emergencies and potential evacuation.
+                        - Best Time to Visit: The best time to visit Laos is during the dry season, which runs from November to April. During this time, the weather is generally pleasant, with cooler temperatures and less humidity. The wet season, from May to October, can bring heavy rains and flooding, especially in the South, which can disrupt travel plans. However, the wet season can also be a beautiful time to visit, as the landscapes are lush and green.
+                        - Cultural Etiquette: Laos is a conservative country with strong Buddhist traditions, so it is important to dress modestly and show respect when visiting temples and religious sites. It is also customary to remove your shoes before entering someone's home or a temple. When greeting someone, a traditional Lao greeting called the "nop" involves placing your palms together in a prayer-like gesture and bowing slightly. The higher you place your hands, the more respect you show.
+                        - Tipping: Tipping is not a common practice in Laos, but it is appreciated for good service. In restaurants, it is common to round up the bill or leave a small tip of around 5-10% if the service was exceptional. For tour guides and drivers, a tip of a few dollars per day is a nice gesture if you were happy with their service.
+                        - Electricity: Laos uses Type A, B, C, E and F plugs, with a standard voltage of 230V and a frequency of 50Hz. It is a good idea to bring a universal adapter if you are traveling from a country with different plug types.
+                        - Internet and SIM Cards: Internet access in Laos can be spotty, especially outside of major cities. However, most hotels and cafes in tourist areas offer free Wi-Fi. If you need reliable internet access, it is a good idea to purchase a local SIM card with data. The main mobile providers in Laos are Unitel, Lao Telecom and ETL, and you can find SIM cards at the airport or in major cities.
+                        - Safety: Laos is generally a safe country for travelers, but it is always important to take basic precautions. Make sure to drink bottled water, avoid street food that looks unhygienic, and be cautious when traveling at night. It is also a good idea to have travel insurance that covers medical emergencies and potential evacuation.
+                        - Sustainable Tourism: Laos is a country with a fragile ecosystem and a rich cultural heritage, so it is important to practice sustainable tourism. This includes respecting local customs and traditions, supporting local businesses, minimizing your environmental impact, and being mindful of the social and economic impacts of tourism on local communities.
+
+                        <br/><br/>
+
                         <h3 id="what-we-did" className="text-2xl font-bold mb-4">What we did</h3>
 
                         We spent a week in Laos, splitting our time between the two most popular destinations in the North: Luang Prabang and Vang Vieng.
@@ -265,6 +292,10 @@ export default function Laos() {
                         {/* Luang Prabang */}
                         <h2 id="luang-prabang" className="text-4xl font-bold mb-4">Luang Prabang</h2>
                         <h3 id="luang-prabang-city" className="text-2xl font-bold mb-4">Luang Prabang</h3>
+                        Luang Prabang is the old royal capital of Laos. The entire city is a UNESCO World Heritage Site, due to a combination of its well-preserved architecture, its rich culture, and its stunning natural setting. The city is nesteld between the Mekong and Nam Khan rivers and surrounded by lush green mountains. It is a charming and laid-back city, perfect for travellers who would like to take it easy and experience the local culture. The city is small enough to explore on foot, and there are plenty of cafes and restaurants to relax in.
+
+
+
                         <h3 id="luang-prabang-adventures" className="text-2xl font-bold mb-4">Kuang Si Falls & Pak Ou Caves</h3>
                         <h3 id="luang-prabang-reviews" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
 
