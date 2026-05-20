@@ -116,7 +116,7 @@ export default function Laos() {
             {/* Title Card */}
             <div className="relative h-[350px] sm:h-[450px] md:h-[700px] w-full overflow-hidden">
                 <img
-                    src="/images/travel/laos/Laos.jpeg"
+                    src="/images/travel/laos/Laos.jpg"
                     alt="Laos"
                     className="w-full h-full object-cover"
                 />
