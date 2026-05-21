@@ -206,10 +206,49 @@ export default function Laos() {
                         Laos' government imposes a country-wide curfew from 11pm to 4am. We were told this decision was made to preserve Laos' local charm. It is not strictly enforced in tourist areas, but Vang Vieng's nightlife does come to an abrupt halt at 11pm.<br/>
                         Furthermore, it is illegal for a non-Laotian to have a sexual relationship with a Lao citizen. We did not test whether this law was enforced, but is another good example of the conservative and authoritarian nature of Laos' government. We believe these laws are in place to preserve the traditional Lao culture and prevent it from becoming a destination for nightlife and sexual tourism, like Thailand.
                         <br/><br/>
-                        Laos' infrastructure is still developing. Buses and minivans are the most common way to cover longer distances, and the roads can be in poor condition. More recently, a high-speed train was built by the Chinese, which connects Vientiane, Vang Vieng and Luang Prabang to Southern Chinese cities. We found this high-speed train to be an efficient and comfortable way to travel, with some caviats. The ticketing system is rather confusing; It does not seem possible to book your tickets more than a couple of weeks in advance. Even if you book far in advance via an agency (which is what we did), they might get back to you a couple of days before the trip that they were not able to secure your tickets (which is what happened to us). We were able to get tickets for the next day, so overall no big issue, but it was an unwelcome surprise nonetheless. The train itself is comfortable and efficient, but is mainly used by Chinese tourists. Prepare for a very Chinese experience: The travelers are not afraid to push and shove to get on and off the train (even though there is assigned seating). This got a bit overwhelming for us at times. Even though the ticketing system is unreliable and the train travelers are a bit rowdy, taking the one-hour train ride still beats the ~5 hour bus ride between Luang Prabang and Vang Vieng, for example, so we would still recommend it if you are traveling between those two cities.<br/>
+                        <div className="grid md:grid-cols-2 gap-2">
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/laos/luangprabang/LP1.jpg"
+                                    alt="Luang Prabang"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/laos/luangprabang/LP1.jpg')}
+                                />
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/laos/luangprabang/LP2.jpg"
+                                    alt="Luang Prabang"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/laos/luangprabang/LP2.jpg')}
+                                />
+                            </figure>
+                        </div>
+                        <figcaption className="text-center text-sm text-gray-600">You will find many Lao and communist flags around Luang Prabang, incl. on hotels and cafes</figcaption>
+                        <br/>
+                        Laos' infrastructure is still developing. Buses and minivans are the most common way to cover longer distances, and the roads can be in poor condition. More recently, a high-speed train was built by the Chinese, which connects Vientiane, Vang Vieng and Luang Prabang to Southern Chinese cities. We found this high-speed train to be an efficient and comfortable way to travel, with some caviats. The ticketing system is rather confusing; It does not seem possible to book your tickets more than a couple of weeks in advance. Even if you book far in advance via an agency (which is what we did), they might get back to you a couple of days before the trip that they were not able to secure your tickets (which is what happened to us). We were able to get tickets for the next day, so overall no big issue, but it was an unwelcome surprise nonetheless. The train itself is comfortable and efficient, but is mainly used by Chinese tourists. Prepare for a very Chinese experience: The travelers are not afraid to push and shove to get on and off the train (even though there is assigned seating). This got a bit overwhelming for us at times. Even though the ticketing system is unreliable and the train travelers are a bit rowdy, taking the one-hour train ride still beats the ~5 hour bus ride between Luang Prabang and Vang Vieng, for example, so we would still recommend it if you are traveling between those two cities.<br/><br/>
                         When covering shorter distances, motorbikes are a common and convenient way to get around. We recommend driving with caution and wearing a helmet, as the roads can be in poor condition and the traffic can be chaotic. That being said, it is a very fun and flexible way to explore the areas surrounding Vang Vieng.
-
                         <br/><br/>
+                        <div className="grid md:grid-cols-2 gap-2">
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/laos/vangvieng/scooter1.JPG"
+                                    alt="Vang Vieng"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/laos/vangvieng/scooter1.JPG')}
+                                />
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/laos/vangvieng/scooter2.JPG"
+                                    alt="Vang Vieng"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/laos/vangvieng/scooter2.JPG')}
+                                />
+                            </figure>
+                        </div>
+                        <figcaption className="text-center text-sm text-gray-600">Little photo opp of our scooter adventure in Vang Vieng</figcaption>
+                        <br/>
 
                         <h3 id="what-we-did" className="text-2xl font-bold mb-4">What we did</h3>
 
