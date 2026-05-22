@@ -323,13 +323,15 @@ export default function Laos() {
                         <div className="mb-6 leading-relaxed">
                             <ul className="list-disc pl-5 space-y-1">
                                 <li>
-                                    The Royal Palace & National Museum:
+                                    The Royal Palace & National Museum:<br/>
+                                    In the middle of the small city lies the old royal palace, which is now accompanied by a museum showcasing Laos' history and culture, with a focus on the royal family. The complex also contains a beautiful temple. Our favorite part of the museum was the stable building, which has been converted into a garage for the royal family's collection of vintage cars.
+                                </li>
+                                <li>
+                                    Phousi Hill:<br/>
+                                    Just across from the royal palace lies Phousi Hill. It's a short hike to reach the hilltop, which provides a stunning view of Luang Prabang and the surrounding area. This place is most busy during sunrise and sunset, at which point it becomes uncomfortably busy with tourists. It's one of the rare places in Laos where overtourism negatively impacts the tourist experience.
                                 </li>
                                 <li>
                                     The Night Market:
-                                </li>
-                                <li>
-                                    The Mount Phousi:
                                 </li>
                                 <li>
                                     The many beautiful temples:
