@@ -331,8 +331,8 @@ export default function Laos() {
                                     Just across from the royal palace lies Phousi Hill. It's a short hike to reach the hilltop, which provides a stunning view of Luang Prabang and the surrounding area. This place is most busy during sunrise and sunset, at which point it becomes uncomfortably busy with tourists. It's one of the rare places in Laos where overtourism negatively impacts the tourist experience.
                                 </li>
                                 <li>
-                                        The Night Market:<br/>
-                                        Every evening, the main street turns into a long handicraft market with stalls selling textiles, lamps, tea, and street food. Even if you are not planning to buy much, it's a pleasant place to wander after dinner and get a feel for the relaxed rhythm of the city.
+                                    The Night Market:<br/>
+                                    Every evening, the main street of Luang Prabang turns into a bustling night market. On the main street, you will find stalls of locals selling souvenirs, clothes and handicrafts. The street ends at a small square which hosts the food market, which offers a wide variety of local Lao dishes as well as some Thai and Vietnamese options. The night market is a fun place to wander around, but just be aware that it mainly targets tourists, so it is not the most authentic night market experience in SEA.
                                 </li>
                                 <li>
                                     The many beautiful temples:
