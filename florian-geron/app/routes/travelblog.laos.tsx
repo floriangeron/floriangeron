@@ -335,17 +335,23 @@ export default function Laos() {
                                     Every evening, the main street of Luang Prabang turns into a bustling night market. On the main street, you will find stalls of locals selling souvenirs, clothes and handicrafts. The street ends at a small square which hosts the food market, which offers a wide variety of local Lao dishes as well as some Thai and Vietnamese options. The night market is a fun place to wander around, but just be aware that it mainly targets tourists, so it is not the most authentic night market experience in SEA.
                                 </li>
                                 <li>
-                                    The many beautiful temples:
+                                    The many beautiful temples:<br/>
+                                    When wandering about Luang Prabang, we stumbled upon many beautiful temples. The most famous one is Wat Xieng Thong, which is located on the tip of the peninsula formed by the Mekong and Nam Khan rivers. Most tourists also visit Haw Phra Bang, the temple located in the royal palace complex. This temple contains the Phra Bang, a Buddha statue which is the namesake of the city, as it is considered the palladium of Laos.<br/>
+                                    You will find a beautiful temple around every corner in Luang Prabang, so wondering around and popping into temples is a great way to spend some time in the city. Just be sure to dress modestly when visiting temples.
                                 </li>
                                 <li>
-                                    The morning alms giving ceremony:
+                                    The morning alms giving ceremony:<br/>
+                                    Every morning at sunrise, the monks of the many temples in Luang Prabang walk through the streets to collect alms from the locals. This unique tradition is one of the things that set Luang Prabang on the map as a tourist destination. It is a unique experience to witness, but for us it falls into the category of "cool to see once, but not super memorable".
                                 </li>
                                 <li>
-                                    The Mekong and Nam Khan riverfronts:
+                                    The Mekong and Nam Khan riverfronts:<br/>
+                                    The confluence of the Mekong and Nam Khan rivers creates a peninsula, which forms the center of Luang Prabang. The riverfronts are a great place to take a stroll, especially during sunset. When we were visiting, they were still developing this area with parks and walkways, but it was already a popular location to take pictures, for tourists and locals alike.<br/>
+                                    The riverside is lined with bars and restaurants, which are a great place to relax and enjoy the view. We really liked this part of the city, and you will find some reviews of the restaurants we visited in the review section below.
                                 </li>
                             </ul>
                         </div>
                         Luang Prabang really stood out to us as a city with a unique charm and character. We found that the tourist audience was quite a bit older than in other Southeast Asian destinations. There did not seem to be any nightlife venue, which works just fine for this city. They go in for a relaxed, cultural experience, with many cute cafes and some really good restaurants.
+                        <br/><br/>
 
 
                         <h3 id="luang-prabang-adventures" className="text-2xl font-bold mb-4">Kuang Si Falls & Pak Ou Caves</h3>
