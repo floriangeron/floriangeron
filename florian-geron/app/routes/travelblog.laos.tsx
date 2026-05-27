@@ -347,6 +347,42 @@ export default function Laos() {
                                     The Mekong and Nam Khan riverfronts:<br/>
                                     The confluence of the Mekong and Nam Khan rivers creates a peninsula, which forms the center of Luang Prabang. The riverfronts are a great place to take a stroll, especially during sunset. When we were visiting, they were still developing this area with parks and walkways, but it was already a popular location to take pictures, for tourists and locals alike.<br/>
                                     The riverside is lined with bars and restaurants, which are a great place to relax and enjoy the view. We really liked this part of the city, and you will find some reviews of the restaurants we visited in the review section below.
+                                    <br /><br />
+                                    <div className="grid md:grid-cols-2 gap-2">
+                                        <figure>
+                                            <img
+                                                src="/images/travel/laos/luangprabang/Riverside1.jpg"
+                                                alt="Luang Prabang Riverfront 1"
+                                                className="w-full shadow-lg cursor-pointer hover:scale-105 transition-transform duration-300"
+                                                onClick={() => openLightbox('/images/travel/laos/luangprabang/Riverfront1.JPG')}
+                                            />
+                                        </figure>
+                                        <figure>
+                                            <img
+                                                src="/images/travel/laos/luangprabang/Riverside2.jpg"
+                                                alt="Luang Prabang Riverfront 2"
+                                                className="w-full shadow-lg cursor-pointer hover:scale-105 transition-transform duration-300"
+                                                onClick={() => openLightbox('/images/travel/laos/luangprabang/Riverfront2.JPG')}
+                                            />
+                                        </figure>
+                                        <figure>
+                                            <img
+                                                src="/images/travel/laos/luangprabang/Riverside3.jpg"
+                                                alt="Luang Prabang Riverfront 3"
+                                                className="w-full shadow-lg cursor-pointer hover:scale-105 transition-transform duration-300"
+                                                onClick={() => openLightbox('/images/travel/laos/luangprabang/Riverfront3.JPG')}
+                                            />
+                                        </figure>
+                                        <figure>
+                                            <img
+                                                src="/images/travel/laos/luangprabang/Riverside4.jpg"
+                                                alt="Luang Prabang Riverfront 4"
+                                                className="w-full shadow-lg cursor-pointer hover:scale-105 transition-transform duration-300"
+                                                onClick={() => openLightbox('/images/travel/laos/luangprabang/Riverfront4.JPG')}
+                                            />
+                                        </figure>
+                                    </div>
+                                    <figcaption className="text-center my-6 text-sm text-gray-600">The riverfront along the Mekong River</figcaption>
                                 </li>
                             </ul>
                         </div>
