@@ -354,13 +354,25 @@ export default function Laos() {
                         <br/><br/>
 
 
-                        <h3 id="luang-prabang-adventures" className="text-2xl font-bold mb-4">Kuang Si Falls & Pak Ou Caves</h3>
+                        <h3 id="luang-prabang-adventures" className="text-2xl font-bold mb-4">Waterfalls and Caves</h3>
+                        Luang Prabang is surrounded by many natural sights. We checked out the following two, but there are many more hidden throughout the region.
+                        <br/><br/>
+                        <h4 id="luang-prabang-kuang-si" className="text-xl font-bold mb-4">Kuang Si Falls</h4>
+                        The Kuang Si waterfalls are a collection of waterfalls located around 30km South of Luang Prabang (about a 1 hour drive). We booked transportation to the waterfalls via our hotel, who organized a tuk-tuk to take us there and back. The roads revert to unpaved dirt roads once you leave Luang Prabang, so in hindsight we would recommend organizing a car or another closed-compartment vehicle, as we were both quite dusty by the time we got there.<br/>
+                        The waterfalls themselves are a fun place to visit. The first few falls you will see are rather unimpressive, but as you walk further up the trail, you will end up at the main waterfall, which is quite stunning. It is a 60m tall waterfall, and there is a staircase which allows you to get up the hill from which the water is tumbling down. There are some cafes in treehouses here, which are a great place to relax and take in the view.<br/>
+                        Swimming is allowed in the pools, but the water was too cold for our liking!<br/>
+                        The park also contains the Tat Kuang Si Bear Rescue Center, which is a sanctuary for sloth bears that have been rescued from poachers. It is a nice addition to the park, but not the most memorable part of the experience. The bears were mostly sleeping during our visit, but they do seem to have nice and well-maintained enclosures.<br/> 
+                        On the way back, we asked our driver to stop at a buffalo ice cream stand that we had seen on the way there. This ice cream stand is part farm, and in hindsight we would've liked to take a tour there as well. The ice cream itself was delicious, we took the caramel and mulberry flavours and really enjoyed them both. They were an unexpected delight in the Lao countryside.
+                        <br/><br/>
+                        <h4 id="luang-prabang-pak-ou" className="text-xl font-bold mb-4">Pak Ou Caves</h4>
+
                         <h3 id="luang-prabang-reviews" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
+                        Buffalo ice cream: https://maps.app.goo.gl/W3vfQBbM4wQugHMBA
 
                         {/* Vang Vieng */}
                         <h2 id="vang-vieng" className="text-4xl font-bold mb-4">Vang Vieng</h2>
                         <h3 id="vang-vieng-city" className="text-2xl font-bold mb-4">Vang Vieng</h3>
-                        <h3 id="vang-vieng-adventures" className="text-2xl font-bold mb-4">Mountains, Caves & Lagoons</h3>
+                        <h3 id="vang-vieng-adventures" className="text-2xl font-bold mb-4">Mountains & Lagoons</h3>
                         <h3 id="vang-vieng-reviews" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
 
 
@@ -382,7 +394,7 @@ export default function Laos() {
                                         <a href="#luang-prabang-city" onClick={(e) => handleTocClick(e, 'luang-prabang-city')} className="block w-full text-right hover:underline">Luang Prabang</a>
                                     </li>
                                     <li>
-                                        <a href="#luang-prabang-adventures" onClick={(e) => handleTocClick(e, 'luang-prabang-adventures')} className="block w-full text-right hover:underline">Kuang Si Falls & Pak Ou Caves</a>
+                                        <a href="#luang-prabang-adventures" onClick={(e) => handleTocClick(e, 'luang-prabang-adventures')} className="block w-full text-right hover:underline">Waterfalls and Caves</a>
                                     </li>
                                     <li>
                                         <a href="#luang-prabang-reviews" onClick={(e) => handleTocClick(e, 'luang-prabang-reviews')} className="block w-full text-right hover:underline">Food & Drinks Reviews</a>
