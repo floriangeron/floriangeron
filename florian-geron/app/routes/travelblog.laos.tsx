@@ -401,7 +401,9 @@ export default function Laos() {
                         On the way back, we asked our driver to stop at a buffalo ice cream stand that we had seen on the way there. This ice cream stand is part farm, and in hindsight we would've liked to take a tour there as well. The ice cream itself was delicious, we took the caramel and mulberry flavours and really enjoyed them both. They were an unexpected delight in the Lao countryside.
                         <br/><br/>
                         <h4 id="luang-prabang-pak-ou" className="text-xl font-bold mb-4">Pak Ou Caves</h4>
-
+                        Located 25km upstream the Mekong River from Luang Prabang, the Pak Ou caves are a collection of caves that are used as a place of worship. The caves contain a thousand (small) Buddha statues, and people still come to the cave to pray and make offerings to this day. The caves are located on a cliff overlooking the Mekong river.<br/>
+                        We booked a boat to take us there from the riverfront in Luang Prabang. The boat ride takes about one hour each way, and the ride itself provides a scenic view of the Mekong river and the surrounding countryside. On our tour, the boat stopped at a small village along the way, where we got to see some local Lao marketware, such as "happy water", i.e. local liquor, often with snakes and spiders suspended in it. We booked the boat tour with a street vendor, which was a third of the price as the tours we found online, and we have no complaints about the experience.
+                        <br/><br/>
                         <h3 id="luang-prabang-reviews" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
                         Buffalo ice cream: https://maps.app.goo.gl/W3vfQBbM4wQugHMBA
 
