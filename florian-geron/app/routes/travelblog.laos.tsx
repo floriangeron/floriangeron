@@ -442,7 +442,7 @@ export default function Laos() {
                                         <a href="#vang-vieng-city" onClick={(e) => handleTocClick(e, 'vang-vieng-city')} className="block w-full text-right hover:underline">Vang Vieng</a>
                                     </li>
                                     <li>
-                                        <a href="#vang-vieng-adventures" onClick={(e) => handleTocClick(e, 'vang-vieng-adventures')} className="block w-full text-right hover:underline">Mountains, Caves & Lagoons</a>
+                                        <a href="#vang-vieng-adventures" onClick={(e) => handleTocClick(e, 'vang-vieng-adventures')} className="block w-full text-right hover:underline">Mountains and Lagoons</a>
                                     </li>
                                     <li>
                                         <a href="#vang-vieng-reviews" onClick={(e) => handleTocClick(e, 'vang-vieng-reviews')} className="block w-full text-right hover:underline">Food & Drinks Reviews</a>
