@@ -405,6 +405,100 @@ export default function Laos() {
                         We booked a boat to take us there from the riverfront in Luang Prabang. The boat ride takes about one hour each way, and the ride itself provides a scenic view of the Mekong river and the surrounding countryside. On our tour, the boat stopped at a small village along the way, where we got to see some local Lao marketware, such as "happy water", i.e. local liquor, often with snakes and spiders suspended in it. We booked the boat tour with a street vendor, which was a third of the price as the tours we found online, and we have no complaints about the experience.
                         <br/><br/>
 
+                        <h3 id="luang-prabang-hotel-reviews" className="text-2xl font-bold mb-4">Hotel Reviews</h3>
+                        <details className="group mb-6 rounded-md">
+                            <summary className="flex items-center justify-between p-4 cursor-pointer">
+                                <div className="flex items-center">
+                                    <svg className="chev h-5 w-5 mr-3 text-gray-600" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+                                        <path d="M6 8l4 4 4-4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+                                    </svg>
+                                    <h4 id="hotel-1" className="text-1xl font-bold m-0">Moonlight Champa Riverview</h4>
+                                </div>
+                                <div className="flex items-center">
+                                    <StarScale rating={4.5} />
+                                </div>
+                            </summary>
+
+                            <div className="px-4 pb-4 collapsible-body">
+                                <div className="max-w-6xl mx-auto">
+                                    <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-8 mb-8">
+                                        <div className="flex items-center">
+                                            <StarLine rating={9} max={10} title='Staff' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={7} max={10} title='Facilities' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={9} max={10} title='Cleanliness' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={8} max={10} title='Comfort' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={7} max={10} title='Location' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={9} max={10} title='Value for Money' />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <p className="mb-6 leading-relaxed mt-2">
+                                    This delightful little hotel is located on the Nam Khan river, a short walk away from the city center.
+                                    We really liked our stay at this hotel. The reception overlooks the river, where we really could come to rest upon arriving in Luang Prabang, as well as during out breakfasts at the hotel.
+                                    The rooms are comfortable and well-maintained and the staff is very friendly and helpful. They were able to book some of our excursions for us, for example, and were always happy to help with any questions we had.
+                                    The hotel does not have any other facilities to speak of next to the reception which is also the breakfast area, but it is a great place to stay if you are looking for a comfortable and relaxing place to stay that is a short walking distance from the city center.
+                                    <br />
+                                    Find it <a href="https://maps.app.goo.gl/qXtPBr224XXt7Pma8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                                </p>
+                            </div>
+                        </details>
+
+                        <details className="group mb-6 rounded-md">
+                            <summary className="flex items-center justify-between p-4 cursor-pointer">
+                                <div className="flex items-center">
+                                    <svg className="chev h-5 w-5 mr-3 text-gray-600" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+                                        <path d="M6 8l4 4 4-4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+                                    </svg>
+                                    <h4 id="hotel-1" className="text-1xl font-bold m-0">Luang Prabang Museum Inn & Travel</h4>
+                                </div>
+                                <div className="flex items-center">
+                                    <StarScale rating={2.5} />
+                                </div>
+                            </summary>
+
+                            <div className="px-4 pb-4 collapsible-body">
+                                <div className="max-w-6xl mx-auto">
+                                    <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-8 mb-8">
+                                        <div className="flex items-center">
+                                            <StarLine rating={9} max={10} title='Staff' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={5} max={10} title='Facilities' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={3} max={10} title='Cleanliness' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={4} max={10} title='Comfort' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={7} max={10} title='Location' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={6} max={10} title='Value for Money' />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <p className="mb-6 leading-relaxed mt-2">
+                                    xxx.
+                                    <br />
+                                    Find it <a href="https://maps.app.goo.gl/QVgD8HoygeYmHRat9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                                </p>
+                            </div>
+                        </details>
+
 
                         <h3 id="luang-prabang-reviews" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
                         <CollapsibleReview title="Manolo's Mexican Eatery" rating={5} scale="food">
@@ -454,6 +548,7 @@ export default function Laos() {
                         <h2 id="vang-vieng" className="text-4xl font-bold mb-4">Vang Vieng</h2>
                         <h3 id="vang-vieng-city" className="text-2xl font-bold mb-4">Vang Vieng</h3>
                         <h3 id="vang-vieng-adventures" className="text-2xl font-bold mb-4">Mountains & Lagoons</h3>
+                        <h3 id="vang-vieng-hotel-reviews" className="text-2xl font-bold mb-4">Hotel Reviews</h3>
                         <h3 id="vang-vieng-reviews" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
 
 
@@ -478,6 +573,9 @@ export default function Laos() {
                                         <a href="#luang-prabang-adventures" onClick={(e) => handleTocClick(e, 'luang-prabang-adventures')} className="block w-full text-right hover:underline">Waterfalls and Caves</a>
                                     </li>
                                     <li>
+                                        <a href="#luang-prabang-hotel-reviews" onClick={(e) => handleTocClick(e, 'luang-prabang-hotel-reviews')} className="block w-full text-right hover:underline">Hotel Reviews</a>
+                                    </li>
+                                    <li>
                                         <a href="#luang-prabang-reviews" onClick={(e) => handleTocClick(e, 'luang-prabang-reviews')} className="block w-full text-right hover:underline">Food & Drinks Reviews</a>
                                     </li>
                                 <li>
@@ -488,6 +586,9 @@ export default function Laos() {
                                     </li>
                                     <li>
                                         <a href="#vang-vieng-adventures" onClick={(e) => handleTocClick(e, 'vang-vieng-adventures')} className="block w-full text-right hover:underline">Mountains and Lagoons</a>
+                                    </li>
+                                    <li>
+                                        <a href="#vang-vieng-hotel-reviews" onClick={(e) => handleTocClick(e, 'vang-vieng-hotel-reviews')} className="block w-full text-right hover:underline">Hotel Reviews</a>
                                     </li>
                                     <li>
                                         <a href="#vang-vieng-reviews" onClick={(e) => handleTocClick(e, 'vang-vieng-reviews')} className="block w-full text-right hover:underline">Food & Drinks Reviews</a>
