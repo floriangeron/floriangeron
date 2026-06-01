@@ -404,8 +404,51 @@ export default function Laos() {
                         Located 25km upstream the Mekong River from Luang Prabang, the Pak Ou caves are a collection of caves that are used as a place of worship. The caves contain a thousand (small) Buddha statues, and people still come to the cave to pray and make offerings to this day. The caves are located on a cliff overlooking the Mekong river.<br/>
                         We booked a boat to take us there from the riverfront in Luang Prabang. The boat ride takes about one hour each way, and the ride itself provides a scenic view of the Mekong river and the surrounding countryside. On our tour, the boat stopped at a small village along the way, where we got to see some local Lao marketware, such as "happy water", i.e. local liquor, often with snakes and spiders suspended in it. We booked the boat tour with a street vendor, which was a third of the price as the tours we found online, and we have no complaints about the experience.
                         <br/><br/>
+
+
                         <h3 id="luang-prabang-reviews" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
-                        Buffalo ice cream: https://maps.app.goo.gl/W3vfQBbM4wQugHMBA
+                        <CollapsibleReview title="Manolo's Mexican Eatery" rating={5} scale="food">
+                            On our very first walk through Luang Prabang, we walked through the city until we hit the Mekong riverfront.
+                            Here, we decided to get a drink at one of vibey restaurants / bars overlooking the river.
+                            We walked into a shack selling Mexican foods and drinks; admittedly somewhat of a weird choice for a drink in SEA.
+                            We had a cocktail here and were so pleasantly surprised by how good it was, that we decided to have some food there as well.
+                            The food was even more amazing than the drinks, and we ended up coming back here multiple times to enjoy the food, drinks, and ambiance of the Mekong riverfront.
+                            A great recommendation if you are looking for Mexican food in Laos!
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/DLiKwcG5D8hzPT4q9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+                        <CollapsibleReview title="Manda de Laos" rating={5} scale="food">
+                            We had booked this restaurant to celebrate the start of our trip through SEA. This is one of the few fine dining experiences we had planned for our trip, and it did not disappoint.<br/>
+                            The outdoor area of the restaurant straddles a large lily pond, making for a unique and romantic atmosphere. The food was delicious, adding a modern twist to Lao dishes and a Lao dish to international dishes. Francesca ordered a Laojito, which was a mojito with lemongrass. This ended up being our favourite cocktail of the entire trip! Florian ordered a dragonfruit cocktail, which clearly fancies itself as the queen of cocktails.<br/>
+                            The food was delicious and the staff did an impeccable job as well. We highly recommend this restaurant to anyone who would like to have a special dining experience in Luang Prabang!
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/wgdNbaKhChzUGVjJ9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+                        <CollapsibleReview title="Jungala Lounge Bar" rating={4.5} scale="drink">
+                            This lounge bar is tucked away on the bank of the Nam Khan river. Due to its location you will not bump into it by accident, but we highly recommend looking it up on Maps! It is a laid-back bar where you can rest on some pillows while having some food and drinks and overlooking the Nam Khan river (the smaller of the two rivers that define Luang Prabang).<br/>
+                            We had lunch here and dinner another day, and we enjoyed both meals. We can recommend this spot both for food but also for a romantic cocktail night.
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/ULLJ4P1us2te5Nnc7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+                        <CollapsibleReview title="The Belle Rive Terrace" rating={4} scale="drink">
+                            We stopped for a drink here on our was back from the Pak Ou caves. It is another bar located on the Mekong riverfront, exuding the same relaxed ambience and providing the same beautiful view of the river as the other bars on the riverfront. We had a cocktail here and enjoyed it, and recommend it as a nice place to stop for a drink while exploring Luang Prabang.
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/YWhN9Ltm5eH8YFBv5" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+                        <CollapsibleReview title="Buffalo ice cream" rating={4} scale="hotdog">
+                            We stopped at this stand selling buffalo ice cream on our way back from the Kuang Si falls.
+                            This stand belongs to a buffalo farm, who also sell cheese and tours for the farm.
+                            The ice cream was delicious and a fun surprise to run into in the Lao countryside.
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/W3vfQBbM4wQugHMBA" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+                        <CollapsibleReview title="Luang Prabang Night Market" rating={4} scale="hotdog">
+                            The food section of the Luang Prabang night market is a great place to try a variety of South-East Asian dishes.
+                            They serve Lao dishes (lie larb and papaya salad), but also South-East Asian classics like Thai curries and mango sticky rice (a favourite of ours). The food is delicious and very affordable, making it a great option for a casual meal in the evening. 
+                            The only downside is that the seating area can get quite crowded and noisy, which can detract from the dining experience. When we arrived it was quite calm at first, but then a bus of Chinese tourists arrived and weren't afraid to let everyone know they had arrived.
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/9yLQmSdX9rorxyGq9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
 
                         {/* Vang Vieng */}
                         <h2 id="vang-vieng" className="text-4xl font-bold mb-4">Vang Vieng</h2>
