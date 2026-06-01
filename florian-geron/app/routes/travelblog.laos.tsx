@@ -492,7 +492,10 @@ export default function Laos() {
                                 </div>
 
                                 <p className="mb-6 leading-relaxed mt-2">
-                                    xxx.
+                                    As we got bumped off our train to Vang Vien, we needed to stay one night longer in Luang Prabang than anticipated.
+                                    As the Moonlight Champa was fully booked, we booked a night at this hotel.<br/>
+                                    As for the positives: The room is located slightly closer to the city center and the staff was extremely friendly and helpful. The receptionist, whose name I embarassingly forgot, was very kind to us and helped us book transport to the train station the next day. You might find him playing guitar in the common area when he is not busy at the reception.<br/>
+                                    TO COMPLETE
                                     <br />
                                     Find it <a href="https://maps.app.goo.gl/QVgD8HoygeYmHRat9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                                 </p>
