@@ -448,6 +448,7 @@ export default function Laos() {
                                     We really liked our stay at this hotel. The reception overlooks the river, where we really could come to rest upon arriving in Luang Prabang, as well as during out breakfasts at the hotel.
                                     The rooms are comfortable and well-maintained and the staff is very friendly and helpful. They were able to book some of our excursions for us, for example, and were always happy to help with any questions we had.
                                     The hotel does not have any other facilities to speak of next to the reception which is also the breakfast area, but it is a great place to stay if you are looking for a comfortable and relaxing place to stay that is a short walking distance from the city center.
+                                    The breakfast itself was not super impressive, consisting of some coffee, juice, and fruits.
                                     <br />
                                     Find it <a href="https://maps.app.goo.gl/qXtPBr224XXt7Pma8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                                 </p>
@@ -492,10 +493,10 @@ export default function Laos() {
                                 </div>
 
                                 <p className="mb-6 leading-relaxed mt-2">
-                                    As we got bumped off our train to Vang Vien, we needed to stay one night longer in Luang Prabang than anticipated.
+                                    As we got bumped off our train to Vang Vieng, we needed to stay one night longer in Luang Prabang than anticipated.
                                     As the Moonlight Champa was fully booked, we booked a night at this hotel.<br/>
                                     As for the positives: The room is located slightly closer to the city center and the staff was extremely friendly and helpful. The receptionist, whose name I embarassingly forgot, was very kind to us and helped us book transport to the train station the next day. You might find him playing guitar in the common area when he is not busy at the reception.<br/>
-                                    TO COMPLETE
+                                    However, we were very disappointed with our room, as the bathroom had a strong moldy smell which precipitated into the entire room. This made it very difficult to feel at ease during our stay at this hotel. If you have other options, we would not recommend staying here.
                                     <br />
                                     Find it <a href="https://maps.app.goo.gl/QVgD8HoygeYmHRat9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                                 </p>
@@ -550,9 +551,68 @@ export default function Laos() {
                         {/* Vang Vieng */}
                         <h2 id="vang-vieng" className="text-4xl font-bold mb-4">Vang Vieng</h2>
                         <h3 id="vang-vieng-city" className="text-2xl font-bold mb-4">Vang Vieng</h3>
+                        - Hostels and bars
+                        - Night market
+
                         <h3 id="vang-vieng-adventures" className="text-2xl font-bold mb-4">Mountains & Lagoons</h3>
+                        Our activities in Vang Vieng:
+                        - Blue lagoon 1 and Nam Xay Viewpoint
+                        - Ziplining and Kajaking 
+                        - Blue lagoon 2
+
                         <h3 id="vang-vieng-hotel-reviews" className="text-2xl font-bold mb-4">Hotel Reviews</h3>
+                        <details className="group mb-6 rounded-md">
+                            <summary className="flex items-center justify-between p-4 cursor-pointer">
+                                <div className="flex items-center">
+                                    <svg className="chev h-5 w-5 mr-3 text-gray-600" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+                                        <path d="M6 8l4 4 4-4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+                                    </svg>
+                                    <h4 id="hotel-1" className="text-1xl font-bold m-0">Ruby Mountain View Resort</h4>
+                                </div>
+                                <div className="flex items-center">
+                                    <StarScale rating={3} />
+                                </div>
+                            </summary>
+
+                            <div className="px-4 pb-4 collapsible-body">
+                                <div className="max-w-6xl mx-auto">
+                                    <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-8 mb-8">
+                                        <div className="flex items-center">
+                                            <StarLine rating={4} max={10} title='Staff' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={4} max={10} title='Facilities' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={9} max={10} title='Cleanliness' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={7} max={10} title='Comfort' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={7} max={10} title='Location' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={6} max={10} title='Value for Money' />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <p className="mb-6 leading-relaxed mt-2">
+                                    Our stay at this hotel was one of our weirdest during our trip throughout SEA. We had booked this hotel on Booking as we were enchanted by the views on the mountains from the room's bedroom and bathroom. In all fairness, the hotel does deliver on this promise, as the views from the room are stunning.<br/>
+                                    Upon arrival, we wanted to take a bath in the bathroom to enjoy the view, but the water did not get hot. We called the reception and they sent someone to fix it, but after many attempts and an hour of lost time, they decided to switch our room. The new room's bath did have some hot water, but it ran out pretty quickly. It took us a lot of time to get enough hot water out for a comfortable bath, at which point our frustration had built up quite a bit. Sometime after nightfall, I made my way to the reception to ask for an additional towel. I entered the reception building which was across a lawn from the room, but I did not find the receptionist. Instead, there was a man lying on some rags on the floor of the reception. Not knowing whether this man was a homeless person, I got very uncomfortable and left the reception without asking for a towel. This entire interaction made us feel very uneasy. This feeling was compounded by the fact that two of the room's walls are made of glass. Normally, this would be a great feature of the room given its location amidst the mountains, but in this case, it made us feel very exposed and vulnerable. The next day, upon asking the receptionist about this interaction, we were informed that this man is the hotel's nighttime guard.<br/>
+                                    Some other experiences with the hotel's staff showed us that they were well-meaning, but were not trained to work in the service industry. For example, there are some nice, expensive Italian coffee machines at the breakfast area. Upon asking for a coffee, the staff simply told us to use the water boiler and coffee powder in the room. The breakfast itself was quite nice and varied, though.<br/>
+                                    Some other examples include the staff not replacing our towels after cleaning the room and providing us with scooters with worn-down brakes. Because of our issues with the Lao trains, we booked an extra night with them. Instead of giving us a discount because of our troubles, they wanted to ask a higher rate due to weekend rates (even though the hotel was nowhere near fully booked). They did end up giving us the original rate upon some discussion, but this was a frustrating experience as well and showed their lack of understanding of the service industry.<br/>
+                                    All-in-all, the hotel has very modern and clean rooms and is located just outside of the city center, a short walk away from the Vang Vieng nightlife. If you are looking for a hotel with stunning views, modern facilities, and don't mind some friction in the service, this hotel is a good option. Just don't expect a home run in terms of the service experience. Most hotels in Vang Vieng cater to the party / backpacker crowd, and this hotel defintely offers a more relaxed experience.
+                                    <br />
+                                    Find it <a href="https://maps.app.goo.gl/1Y8YqDRqkySURCtM9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                                </p>
+                            </div>
+                        </details>
+
                         <h3 id="vang-vieng-reviews" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
+                        - Big mama
+                        - Elephant crossing rooftop
 
 
                     </main>
