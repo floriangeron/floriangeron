@@ -551,14 +551,21 @@ export default function Laos() {
                         {/* Vang Vieng */}
                         <h2 id="vang-vieng" className="text-4xl font-bold mb-4">Vang Vieng</h2>
                         <h3 id="vang-vieng-city" className="text-2xl font-bold mb-4">Vang Vieng</h3>
-                        - Hostels and bars
-                        - Night market
-
+                        Vang Vieng is the adventure capital of Laos. It is the gateway to many outdoor adventure activities, such as ziplining, kayaking, and hiking. During sunrise and sunset, the sky above Vang Vieng is filled with hot air balloons and paramotors, which is a enchanting sight to behold. The town itself is rather small and has little more to offer than some hostels and a couple of bars and restaurants. Most of these venues lean into the party / backpacker vibe, rather than the outdoor / adventure vibe. That being said, Laos' curfew means that most venues stop playing music at 10pm, so you will probably still get a good night's sleep even if you stay in the center of town.<br/>
+                        Vang Vieng also has a night market, but it is less lively and diverse than the one in Luang Prabang. You will be able to find souvenirs and clothes here, but we found the food section to be rather limited. Instead, if you are looking for a fun collection of food to try, look up the Vang Vieng Food Court on Maps! This is a collection of food stalls with a shared seating area, with cuisines from all over Asia on offer. It has a very authentic and lively vibe, and we came back here multiple times during our stay in Vang Vieng. Be mindful that you will see some weird food (like pigs ears) and that the electricity might fail, but the stalls will still be playing music from their speakers and light up the area with their own lanterns!
+                        <br/><br/>
                         <h3 id="vang-vieng-adventures" className="text-2xl font-bold mb-4">Mountains & Lagoons</h3>
-                        Our activities in Vang Vieng:
-                        - Blue lagoon 1 and Nam Xay Viewpoint
-                        - Ziplining and Kajaking 
-                        - Blue lagoon 2
+                        We spent three full days in Vang Vieng, and filled our days with the following activities:
+                        <br/><br/>
+                        <h4 id="vang-vieng-day-1" className="text-xl font-bold mb-4">Nam Xay Viewpoint and Blue Lagoon 1</h4>
+                        We decided to rent a scooter at our hotel and explore the area around Vang Vieng on our own. We really recommend this to other tourists as well, as the traffic is pretty manageable and the distances are a bit too wide for non-motorized transport.<br/>
+                        We drove to "Blue Lagoon 1", which is one of the ponds / lakes in which the mountain water collects. The water has a beautiful turquoise color, and there are some nice spots for food and drinks around the lagoon. The lagoon itself was pretty crowded though, particularly with Chinese tourists. The other lagoons aren't nearly as crowded, so in hindsight we would recommend skipping this one in favor of one of the other lagoons.<br/>
+                        After this quick dip in the blue lagoon, we drove a little further up to the Nam Xay viewpoint. After parking your motorbike, you will have to take a short but steep hike up the mountain to reach the viewpoint. The view from the top is stunning; It was the postcard view of Laos I had in my mind before travelling there myself. It is a great place to take some pictures, and the Lao people know this as well as they put some decommissioned motorbikes on the top of the mountain for some photo opportunities.<br/>
+                        We reached the top of the mountain a solid 45min before sunset, which made for a great time to take some pictures. The queue for the first bike was doable, and the second one wasn't too bad either, up until the couple in front of us had their turn. They spent a solid 10min on their pictures, and we suspect they were waiting for the sunset to actually happen. At a certain point the wait became ridiculous, at which point the other people in the queue told them it was time to move on. This was an awkward situation, but this meant that we actually had one of the best times of day for our photoshoot! It did mean we felt pretty rushed though.<br/>
+                        We did our photoshoot and hung around for a little while longer, but decided to start the descent before the sun had set, as we didn't want to descend in total darkness. That being said, we did notice good lighting on our way down, so you could probably stay until after sunset without any issues.
+                        <br/><br/>
+                        <h4 id="vang-vieng-day-2" className="text-xl font-bold mb-4">Ziplining and Kajaking </h4>
+                        <h4 id="vang-vieng-day-3" className="text-xl font-bold mb-4">Blue lagoon 2</h4>
 
                         <h3 id="vang-vieng-hotel-reviews" className="text-2xl font-bold mb-4">Hotel Reviews</h3>
                         <details className="group mb-6 rounded-md">
@@ -613,6 +620,13 @@ export default function Laos() {
                         <h3 id="vang-vieng-reviews" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
                         - Big mama
                         - Elephant crossing rooftop
+                        - Mad monkey
+                        - Sakura bar
+                        - Irish pub
+                        - Mixue
+                        - Vang Vieng Food Court: https://maps.app.goo.gl/vBqiryqa39dYH3gk7
+                        - Vela cafe and restaurant
+                        - Mittaphap restaurant
 
 
                     </main>
