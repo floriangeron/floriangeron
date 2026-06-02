@@ -435,7 +435,7 @@ export default function Laos() {
                                             <StarLine rating={8} max={10} title='Comfort' />
                                         </div>
                                         <div className="flex items-center">
-                                            <StarLine rating={7} max={10} title='Location' />
+                                            <StarLine rating={8} max={10} title='Location' />
                                         </div>
                                         <div className="flex items-center">
                                             <StarLine rating={9} max={10} title='Value for Money' />
@@ -464,7 +464,7 @@ export default function Laos() {
                                     <h4 id="hotel-1" className="text-1xl font-bold m-0">Luang Prabang Museum Inn & Travel</h4>
                                 </div>
                                 <div className="flex items-center">
-                                    <StarScale rating={2.5} />
+                                    <StarScale rating={2} />
                                 </div>
                             </summary>
 
@@ -475,10 +475,10 @@ export default function Laos() {
                                             <StarLine rating={9} max={10} title='Staff' />
                                         </div>
                                         <div className="flex items-center">
-                                            <StarLine rating={5} max={10} title='Facilities' />
+                                            <StarLine rating={4} max={10} title='Facilities' />
                                         </div>
                                         <div className="flex items-center">
-                                            <StarLine rating={3} max={10} title='Cleanliness' />
+                                            <StarLine rating={2} max={10} title='Cleanliness' />
                                         </div>
                                         <div className="flex items-center">
                                             <StarLine rating={4} max={10} title='Comfort' />
@@ -487,7 +487,7 @@ export default function Laos() {
                                             <StarLine rating={7} max={10} title='Location' />
                                         </div>
                                         <div className="flex items-center">
-                                            <StarLine rating={6} max={10} title='Value for Money' />
+                                            <StarLine rating={4} max={10} title='Value for Money' />
                                         </div>
                                     </div>
                                 </div>
@@ -495,7 +495,7 @@ export default function Laos() {
                                 <p className="mb-6 leading-relaxed mt-2">
                                     As we got bumped off our train to Vang Vieng, we needed to stay one night longer in Luang Prabang than anticipated.
                                     As the Moonlight Champa was fully booked, we booked a night at this hotel.<br/>
-                                    As for the positives: The room is located slightly closer to the city center and the staff was extremely friendly and helpful. The receptionist, whose name I embarassingly forgot, was very kind to us and helped us book transport to the train station the next day. You might find him playing guitar in the common area when he is not busy at the reception.<br/>
+                                    As for the positives: The room is located slightly closer to the city center and the staff was extremely friendly and helpful. The receptionist was very kind to us and helped us book transport to the train station the next day. You might find him playing guitar in the common area when he is not busy at the reception.<br/>
                                     However, we were very disappointed with our room, as the bathroom had a strong moldy smell which precipitated into the entire room. This made it very difficult to feel at ease during our stay at this hotel. If you have other options, we would not recommend staying here.
                                     <br />
                                     Find it <a href="https://maps.app.goo.gl/QVgD8HoygeYmHRat9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
@@ -509,7 +509,7 @@ export default function Laos() {
                             On our very first walk through Luang Prabang, we walked through the city until we hit the Mekong riverfront.
                             Here, we decided to get a drink at one of vibey restaurants / bars overlooking the river.
                             We walked into a shack selling Mexican foods and drinks; admittedly somewhat of a weird choice for a drink in SEA.
-                            We had a cocktail here and were so pleasantly surprised by how good it was, that we decided to have some food there as well.
+                            We had a cocktail here and were so pleasantly surprised by how good (and strong) it was, that we decided to have some food there as well.
                             The food was even more amazing than the drinks, and we ended up coming back here multiple times to enjoy the food, drinks, and ambiance of the Mekong riverfront.
                             A great recommendation if you are looking for Mexican food in Laos!
                             <br />
@@ -517,7 +517,7 @@ export default function Laos() {
                         </CollapsibleReview>
                         <CollapsibleReview title="Manda de Laos" rating={5} scale="food">
                             We had booked this restaurant to celebrate the start of our trip through SEA. This is one of the few fine dining experiences we had planned for our trip, and it did not disappoint.<br/>
-                            The outdoor area of the restaurant straddles a large lily pond, making for a unique and romantic atmosphere. The food was delicious, adding a modern twist to Lao dishes and a Lao dish to international dishes. Francesca ordered a Laojito, which was a mojito with lemongrass. This ended up being our favourite cocktail of the entire trip! Florian ordered a dragonfruit cocktail, which clearly fancies itself as the queen of cocktails.<br/>
+                            The outdoor area of the restaurant straddles a large lily pond, making for a unique and romantic atmosphere. The food was delicious, adding a modern twist to Lao dishes and a Lao twist to international dishes. Francesca ordered a Laojito, which was a mojito with lemongrass. This ended up being our favourite cocktail of the entire trip! Florian ordered a dragonfruit cocktail, which clearly fancies itself as the queen of cocktails.<br/>
                             The food was delicious and the staff did an impeccable job as well. We highly recommend this restaurant to anyone who would like to have a special dining experience in Luang Prabang!
                             <br />
                             Find it <a href="https://maps.app.goo.gl/wgdNbaKhChzUGVjJ9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
@@ -528,7 +528,7 @@ export default function Laos() {
                             <br />
                             Find it <a href="https://maps.app.goo.gl/ULLJ4P1us2te5Nnc7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
-                        <CollapsibleReview title="The Belle Rive Terrace" rating={4} scale="drink">
+                        <CollapsibleReview title="The Belle Rive Terrace" rating={3.5} scale="drink">
                             We stopped for a drink here on our was back from the Pak Ou caves. It is another bar located on the Mekong riverfront, exuding the same relaxed ambience and providing the same beautiful view of the river as the other bars on the riverfront. We had a cocktail here and enjoyed it, and recommend it as a nice place to stop for a drink while exploring Luang Prabang.
                             <br />
                             Find it <a href="https://maps.app.goo.gl/YWhN9Ltm5eH8YFBv5" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
@@ -547,6 +547,7 @@ export default function Laos() {
                             <br />
                             Find it <a href="https://maps.app.goo.gl/9yLQmSdX9rorxyGq9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
+                        <br/><br/>
 
                         {/* Vang Vieng */}
                         <h2 id="vang-vieng" className="text-4xl font-bold mb-4">Vang Vieng</h2>
@@ -558,11 +559,11 @@ export default function Laos() {
                         We spent three full days in Vang Vieng, and filled our days with the following activities:
                         <br/><br/>
                         <h4 id="vang-vieng-day-1" className="text-xl font-bold mb-4">Nam Xay Viewpoint and Blue Lagoon 1</h4>
-                        We decided to rent a scooter at our hotel and explore the area around Vang Vieng on our own. We really recommend this to other tourists as well, as the traffic is pretty manageable and the distances are a bit too wide for non-motorized transport.<br/>
+                        We decided to rent a scooter at our hotel and explore the area around Vang Vieng on our own. We really recommend this to other tourists as well, as the traffic is pretty manageable and the distances are a bit too wide for non-motorized transport. The Lao people are clearly investing in the infrastructure to support tourism, as the roads were being paved as we were driving!<br/>
                         We drove to "Blue Lagoon 1", which is one of the ponds / lakes in which the mountain water collects. The water has a beautiful turquoise color, and there are some nice spots for food and drinks around the lagoon. The lagoon itself was pretty crowded though, particularly with Chinese tourists. The other lagoons aren't nearly as crowded, so in hindsight we would recommend skipping this one in favor of one of the other lagoons.<br/>
                         After this quick dip in the blue lagoon, we drove a little further up to the Nam Xay viewpoint. After parking your motorbike, you will have to take a short but steep hike up the mountain to reach the viewpoint. The view from the top is stunning; It was the postcard view of Laos I had in my mind before travelling there myself. It is a great place to take some pictures, and the Lao people know this as well as they put some decommissioned motorbikes on the top of the mountain for some photo opportunities.<br/>
                         We reached the top of the mountain a solid 45min before sunset, which made for a great time to take some pictures. The queue for the first bike was doable, and the second one wasn't too bad either, up until the couple in front of us had their turn. They spent a solid 10min on their pictures, and we suspect they were waiting for the sunset to actually happen. At a certain point the wait became ridiculous, at which point the other people in the queue told them it was time to move on. This was an awkward situation, but this meant that we actually had one of the best times of day for our photoshoot! It did mean we felt pretty rushed though.<br/>
-                        We did our photoshoot and hung around for a little while longer, but decided to start the descent before the sun had set, as we didn't want to descend in total darkness. That being said, we did notice good lighting on our way down, so you could probably stay until after sunset without any issues.
+                        We did our photoshoot and hung around for a little while longer, but decided to start the descent before the sun had set, as we didn't want to descend in total darkness. That being said, we did notice that good artificial lighting is installed on our way down, so you could probably stay until after sunset without any issues.
                         <br/><br/>
                         <h4 id="vang-vieng-day-2" className="text-xl font-bold mb-4">Ziplining and Kajaking </h4>
                         <h4 id="vang-vieng-day-3" className="text-xl font-bold mb-4">Blue lagoon 2</h4>
@@ -618,15 +619,34 @@ export default function Laos() {
                         </details>
 
                         <h3 id="vang-vieng-reviews" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
-                        - Big mama
-                        - Elephant crossing rooftop
-                        - Mad monkey
-                        - Sakura bar
-                        - Irish pub
-                        - Mixue
-                        - Vang Vieng Food Court: https://maps.app.goo.gl/vBqiryqa39dYH3gk7
-                        - Vela cafe and restaurant
-                        - Mittaphap restaurant
+                        <CollapsibleReview title="Vela cafe and restaurant" rating={3} scale="food">
+                            This restaurant serves authentic Lao food, catered to a tourist audience. Overall the food was good, but the service was very slow and the crowd was a bit too loud when we were visiting. We had a good meal here, a Lao khao soi and larb, but we would not go out of our way to eat here again.
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/bejz3TRTjC27CXVZ6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+                        <CollapsibleReview title="BaanLao café" rating={3.5} scale="food">
+                            We enjoyed some brunch here to start one of our adventurous days in Vang Vieng. We weren't blown away by the food or the service, but the restaurant has a unique terrace overlooking the Lao countryside, which is a nice place to relax and have a meal. It also present a nice photo opportunity, which the Chinese tourists had spotted as well.
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/L9sX1FSprUf84Svu7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+                        <CollapsibleReview title="Mittaphap restaurant" rating={4} scale="food">
+                            We hopped into this restaurant for a quick lunch on our way to the blue lagoon 1. We were pleasantly surprised by this restaurant, which serves authentic Lao food and donates some of the proceedings to a local charity. The food was delicious and the staff was very friendly.
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/yohX8fE7uBynyC3Z8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+                        <CollapsibleReview title="Mama very big" rating={5} scale="hotdog">
+                            This street vendor has obtained a legendary status in Vang Vieng. She serves a kind of hotdog, heavi(n)ly loaded with toppings such as avocado, egg, cheese, and sauces. The resulting hotdog is as delicious as it is filling. We took one each on one of our adventures to picknick at the blue lagoon 2, and it was the perfect lunch meal, loading us up with enough calories to last us through the day.
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/eo7ZvqKtFxYHwRqMA" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+
+                        - Elephant crossing rooftop 5 stars
+                        - Mad monkey 3 stars
+                        - Sakura bar 3 stars
+                        - Irish pub 3 stars
+                        - Mixue 4 stars
+                        - Vang Vieng Food Court: https://maps.app.goo.gl/vBqiryqa39dYH3gk7 4 stars
+
 
 
                     </main>
