@@ -634,19 +634,43 @@ export default function Laos() {
                             <br />
                             Find it <a href="https://maps.app.goo.gl/yohX8fE7uBynyC3Z8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
+                        <CollapsibleReview title="Vang Vieng Food Court" rating={4} scale="hotdog">
+                            Hidden in an alley on the main street, we stumbled upon this food court on our first night in Vang Vieng. We ended visiting a couple of times, as we liked the collection of (weird) food on offer here, ranging from local Lao food to Thai, Chinese, and Korean stands. Some of the stands had great food and friendly service, while others were less of a success. We had one particularly bad interaction where we had ordered two dishes, but the lady only prepared one. After bringing it to her attention, she went to work but gave us the wrong dish. After telling her we can't eat that dish due to allergies, she finally prepared the right one, but by that time we were 45min later, at which point we were quite frustrated.<br/>
+                            The food court has a authentic and lively vibe, and overall we enjoyed coming here and trying new things. The infrastructure is quite basic and the electricity even blacked out a couple of times, but this didn't diminish the atmosphere of the court, as people pulled out lanterns. We would recommed this court if you're looking for a more authentic food experience in Vang Vieng.
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/vBqiryqa39dYH3gk7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
                         <CollapsibleReview title="Mama very big" rating={5} scale="hotdog">
                             This street vendor has obtained a legendary status in Vang Vieng. She serves a kind of hotdog, heavi(n)ly loaded with toppings such as avocado, egg, cheese, and sauces. The resulting hotdog is as delicious as it is filling. We took one each on one of our adventures to picknick at the blue lagoon 2, and it was the perfect lunch meal, loading us up with enough calories to last us through the day.
                             <br />
                             Find it <a href="https://maps.app.goo.gl/eo7ZvqKtFxYHwRqMA" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
-
-                        - Elephant crossing rooftop 5 stars
-                        - Mad monkey 3 stars
-                        - Sakura bar 3 stars
-                        - Irish pub 3 stars
-                        - Mixue 4 stars
-                        - Vang Vieng Food Court: https://maps.app.goo.gl/vBqiryqa39dYH3gk7 4 stars
-
+                        <CollapsibleReview title="Mixue" rating={3.5} scale="hotdog">
+                            Mixue is a Chinese ice cream franchise that is taking Asia by storm. We decided to check it out for ourselves and quite liked having a cold ice cream treat during the mid-day Lao heat. It is a pretty basic ice cream shop but we can recommend it if you want a quick ice cream that hits the spot.
+                            <br />
+                            Find it <a href="xxx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+                        <CollapsibleReview title="Elephant crossing rooftop" rating={5} scale="drink">
+                            The rooftop is the place to be during sunrise or sunset to watch the sky above Vang Vieng, as the sky is filled with hot air balloons and paramotors at these times. We came here during sunset and had a cheeky photoshoot while enjoying some drinks. This rooftop experience is exactly what you'd expect and what we wanted out of a rooftop in Vang Vieng, so we can only recommend.
+                            <br />
+                            Find it <a href="xxx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+                        <CollapsibleReview title="Mad monkeys bar" rating={3} scale="drink">
+                            The mad monkey hostel has a bar at the pool area of the hostel, which is a great place for some cheap drinks and socializing. It is exactly what you'd expect from a bar in a backpacker hostel, so we'd recommend it if you are looking for a fun and social atmosphere. The cocktails weren't great and the service was very slow, but it's a fun place if you're willing to look past this.
+                            <br />
+                            Find it <a href="xxx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+                        <CollapsibleReview title="Sakura bar" rating={3} scale="drink">
+                            This is one of the few bars in Vang Vieng that have a club vibe to them. In the evening, they turn the music up and the dance floor fills up with people. If you are looking for a place to dance in Vang Vieng, this could be your best bet. It is a peculiar collection of people, mainly Western backpackers (early 20s) and Chinese tourists (mostly middle-aged), and it's one of the rare places they interact. We saw some drunk Chinese ladies excitedly taking turns taking pictures with a tall, blond Dutch guy. The music itself is a mix of early 2000s Western music and the odd Asian pop song. The music installation was pretty bad. This venue van be a fun time if you are ready for a weird night out, and you'll probably need a couple of drinks in you to enjoy it.
+                            <br />
+                            Find it <a href="xxx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+                        <CollapsibleReview title="Irish pub" rating={3} scale="drink">
+                            The Irish pub is located in the same street as Sakura bar. While Sakura bar clearly goes for the dancing vibe, the Irish pub is filled with tables and chairs, condusive to chatting, but the music is turned extremely loud, making talking nearly impossible. We had a drink here and met some young Lao guys who were visiting from another part of the country (we suspect Vang Vieng is the party city for Lao people), but we had trouble communicating due to the loud music and their limited English.<br/>
+                            The Irish pub can be fun to hang out with some friends and play some pool, but the loud music defeats the purpose of socializing.
+                            <br />
+                            Find it <a href="xxx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
 
 
                     </main>
