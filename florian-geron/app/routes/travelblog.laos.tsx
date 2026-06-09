@@ -451,6 +451,34 @@ export default function Laos() {
                                     The breakfast itself was not super impressive, consisting of some coffee, juice, and fruits.
                                     <br />
                                     Find it <a href="https://maps.app.goo.gl/qXtPBr224XXt7Pma8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+
+                                    <div className="grid md:grid-cols-3 gap-2">
+                                        <figure className="md:col-span-1">
+                                            <img
+                                                src="/images/travel/laos/luangprabang/LPHotel3.jpg"
+                                                alt="Moonlight Champa Riverview"
+                                                className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                                onClick={() => openLightbox('/images/travel/laos/luangprabang/LPHotel3.jpg')}
+                                            />
+                                        </figure>
+                                        <figure className="md:col-span-1">
+                                            <img
+                                                src="/images/travel/laos/luangprabang/LPHotel2.jpg"
+                                                alt="Moonlight Champa Riverview"
+                                                className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                                onClick={() => openLightbox('/images/travel/laos/luangprabang/LPHotel2.jpg')}
+                                            />
+                                        </figure>
+                                        <figure className="md:col-span-1">
+                                            <img
+                                                src="/images/travel/laos/luangprabang/LPHotel1.jpg"
+                                                alt="Moonlight Champa Riverview"
+                                                className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                                onClick={() => openLightbox('/images/travel/laos/luangprabang/LPHotel1.jpg')}
+                                            />
+                                        </figure>
+                                    </div>
+                                    <figcaption className="text-center text-sm text-gray-600">Moonlight Champa Riverview</figcaption>
                                 </p>
                             </div>
                         </details>
