@@ -324,11 +324,61 @@ export default function Laos() {
                             <ul className="list-disc pl-5 space-y-1">
                                 <li>
                                     The Royal Palace & National Museum:<br/>
-                                    In the middle of the small city lies the old royal palace, which is now accompanied by a museum showcasing Laos' history and culture, with a focus on the royal family. The complex also contains a beautiful temple. Our favorite part of the museum was the stable building, which has been converted into a garage for the royal family's collection of vintage cars.
+                                    In the middle of the small city lies the old royal palace, which is now accompanied by a museum showcasing Laos' history and culture, with a focus on the royal family. The complex also contains a beautiful temple, Haw Phra Bang. This temple contains the Phra Bang, a Buddha statue which is the namesake of the city, as it is considered the palladium of Laos. Our favorite part of the museum was the stable building, which has been converted into a garage for the royal family's collection of vintage cars.
+                                    <div className="grid md:grid-cols-2 gap-2">
+                                        <figure className="md:col-span-1">
+                                            <img
+                                                src="/images/travel/laos/luangprabang/RoyalPalace.jpg"
+                                                alt="Royal Palace"
+                                                className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                                onClick={() => openLightbox('/images/travel/laos/luangprabang/RoyalPalace.jpg')}
+                                            />
+                                            <figcaption className="text-center text-sm text-gray-600">Royal Palace</figcaption>
+                                        </figure>
+                                        <figure className="md:col-span-1">
+                                            <img
+                                                src="/images/travel/laos/luangprabang/RoyalTemple.jpg"
+                                                alt="Royal Temple"
+                                                className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                                onClick={() => openLightbox('/images/travel/laos/luangprabang/RoyalTemple.jpg')}
+                                            />
+                                            <figcaption className="text-center text-sm text-gray-600">Haw Phra Bang (the city's namesake)</figcaption>
+                                        </figure>
+                                    </div><br/>
                                 </li>
                                 <li>
                                     Phousi Hill:<br/>
                                     Just across from the royal palace lies Phousi Hill. It's a short hike to reach the hilltop, which provides a stunning view of Luang Prabang and the surrounding area. This place is most busy during sunrise and sunset, at which point it becomes uncomfortably busy with tourists. It's one of the rare places in Laos where overtourism negatively impacts the tourist experience.
+
+                                    <div className="grid md:grid-cols-2 gap-2">
+                                        <figure className="md:col-span-1">
+                                            <img
+                                                src="/images/travel/laos/luangprabang/Phousi1.jpg"
+                                                alt="Phousi Hill"
+                                                className="w-full shadow-lg my-2 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                                onClick={() => openLightbox('/images/travel/laos/luangprabang/Phousi1.jpg')}
+                                            />
+                                        </figure>
+                                        <figure className="md:col-span-1">
+                                            <img
+                                                src="/images/travel/laos/luangprabang/Phousi3.JPG"
+                                                alt="Phousi Hill"
+                                                className="w-full shadow-lg my-2 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                                onClick={() => openLightbox('/images/travel/laos/luangprabang/Phousi3.JPG')}
+                                            />
+                                        </figure>
+                                    </div>
+                                    <div className="grid md:grid-cols-1 gap-2">
+                                        <figure className="md:col-span-1">
+                                            <img
+                                                src="/images/travel/laos/luangprabang/PhousiLong.jpg"
+                                                alt="Phousi Hill"
+                                                className="w-full shadow-lg cursor-pointer hover:scale-105 transition-transform duration-300"
+                                                onClick={() => openLightbox('/images/travel/laos/luangprabang/PhousiLong.jpg')}
+                                            />
+                                        </figure>
+                                    </div>
+                                    <figcaption className="text-center text-sm text-gray-600">The views from Phousi Hill</figcaption>
                                 </li>
                                 <li>
                                     The Night Market:<br/>
@@ -336,8 +386,28 @@ export default function Laos() {
                                 </li>
                                 <li>
                                     The many beautiful temples:<br/>
-                                    When wandering about Luang Prabang, we stumbled upon many beautiful temples. The most famous one is Wat Xieng Thong, which is located on the tip of the peninsula formed by the Mekong and Nam Khan rivers. Most tourists also visit Haw Phra Bang, the temple located in the royal palace complex. This temple contains the Phra Bang, a Buddha statue which is the namesake of the city, as it is considered the palladium of Laos.<br/>
+                                    When wandering about Luang Prabang, we stumbled upon many beautiful temples. The most famous one is Wat Xieng Thong, which is located on the tip of the peninsula formed by the Mekong and Nam Khan rivers.<br/>
                                     You will find a beautiful temple around every corner in Luang Prabang, so wondering around and popping into temples is a great way to spend some time in the city. Just be sure to dress modestly when visiting temples.
+                                    <div className="grid md:grid-cols-2 gap-2">
+                                        <figure className="md:col-span-1">
+                                            <img
+                                                src="/images/travel/laos/luangprabang/LPTemple1.jpg"
+                                                alt="Temple 1"
+                                                className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                                onClick={() => openLightbox('/images/travel/laos/luangprabang/LPTemple1.jpg')}
+                                            />
+                                            <figcaption className="text-center text-sm text-gray-600">Wat Mouanna Somphowaram</figcaption>
+                                        </figure>
+                                        <figure className="md:col-span-1">
+                                            <img
+                                                src="/images/travel/laos/luangprabang/LPTemple2.jpg"
+                                                alt="Temple 2"
+                                                className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                                onClick={() => openLightbox('/images/travel/laos/luangprabang/LPTemple2.jpg')}
+                                            />
+                                            <figcaption className="text-center text-sm text-gray-600">Wat Wisunarat</figcaption>
+                                        </figure>
+                                    </div><br/>
                                 </li>
                                 <li>
                                     The morning alms giving ceremony:<br/>
@@ -399,10 +469,87 @@ export default function Laos() {
                         Swimming is allowed in the pools, but the water was too cold for our liking!<br/>
                         The park also contains the Tat Kuang Si Bear Rescue Center, which is a sanctuary for sloth bears that have been rescued from poachers. It is a nice addition to the park, but not the most memorable part of the experience. The bears were mostly sleeping during our visit, but they do seem to have nice and well-maintained enclosures.<br/> 
                         On the way back, we asked our driver to stop at a buffalo ice cream stand that we had seen on the way there. This ice cream stand is part farm, and in hindsight we would've liked to take a tour there as well. The ice cream itself was delicious, we took the caramel and mulberry flavours and really enjoyed them both. They were an unexpected delight in the Lao countryside.
+                        <div className="grid md:grid-cols-2 gap-2">
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/laos/luangprabang/KuangSi1.jpg"
+                                    alt="Kuang Si Falls"
+                                    className="w-full shadow-lg my-2 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/laos/luangprabang/KuangSi1.jpg')}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">The small falls leading to the main waterfall</figcaption>
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/laos/luangprabang/KuangSi2.JPG"
+                                    alt="Kuang Si Falls"
+                                    className="w-full shadow-lg my-2 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/laos/luangprabang/KuangSi2.JPG')}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">Main Kuang Si Waterfall</figcaption>
+                            </figure>
+                        </div>
                         <br/><br/>
                         <h4 id="luang-prabang-pak-ou" className="text-xl font-bold mb-4">Pak Ou Caves</h4>
                         Located 25km upstream the Mekong River from Luang Prabang, the Pak Ou caves are a collection of caves that are used as a place of worship. The caves contain a thousand (small) Buddha statues, and people still come to the cave to pray and make offerings to this day. The caves are located on a cliff overlooking the Mekong river.<br/>
+                        <div className="grid md:grid-cols-3 gap-2">
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/laos/luangprabang/PakOu1.jpg"
+                                    alt="Pak Ou Caves"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/laos/luangprabang/PakOu1.jpg')}
+                                />
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/laos/luangprabang/PakOu2.jpg"
+                                    alt="Pak Ou Caves"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/laos/luangprabang/PakOu2.jpg')}
+                                />
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/laos/luangprabang/PakOu3.jpg"
+                                    alt="Pak Ou Caves"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/laos/luangprabang/PakOu3.jpg')}
+                                />
+                            </figure>
+                        </div>
+                        <figcaption className="text-center text-sm text-gray-600">Pak Ou Caves</figcaption>
+                        <br/>
                         We booked a boat to take us there from the riverfront in Luang Prabang. The boat ride takes about one hour each way, and the ride itself provides a scenic view of the Mekong river and the surrounding countryside. On our tour, the boat stopped at a small village along the way, where we got to see some local Lao marketware, such as "happy water", i.e. local liquor, often with snakes and spiders suspended in it. We booked the boat tour with a street vendor, which was a third of the price as the tours we found online, and we have no complaints about the experience.
+                        <div className="grid md:grid-cols-3 gap-2">
+                            <figure className="md:col-span-2">
+                                <div className="grid grid-cols-2 gap-2">
+                                    <img
+                                        src="/images/travel/laos/luangprabang/Mekong1.jpg"
+                                        alt="Mekong River"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/laos/luangprabang/Mekong1.jpg')}
+                                    />
+                                    <img
+                                        src="/images/travel/laos/luangprabang/Mekong2.jpg"
+                                        alt="Mekong River"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/laos/luangprabang/Mekong2.jpg')}
+                                    />
+                                </div>
+                                <figcaption className="text-center text-sm text-gray-600">Mekong River views</figcaption>
+                            </figure>
+
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/laos/luangprabang/HappyWater.jpg"
+                                    alt="Happy Water"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/laos/luangprabang/HappyWater.jpg')}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">Local happy water</figcaption>
+                            </figure>
+                        </div>
                         <br/><br/>
 
                         <h3 id="luang-prabang-hotel-reviews" className="text-2xl font-bold mb-4">Hotel Reviews</h3>
@@ -542,6 +689,26 @@ export default function Laos() {
                             A great recommendation if you are looking for Mexican food in Laos!
                             <br />
                             Find it <a href="https://maps.app.goo.gl/DLiKwcG5D8hzPT4q9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            <div className="grid md:grid-cols-2 gap-2">
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/laos/luangprabang/Manolo1.jpg"
+                                        alt="Manolo's Mexican Eatery"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/laos/luangprabang/Manolo1.jpg')}
+                                    />
+                                    <figcaption className="text-center text-sm text-gray-600">First sip from the cocktail</figcaption>
+                                </figure>
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/laos/luangprabang/Manolo2.jpg"
+                                        alt="Manolo's Mexican Eatery"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/laos/luangprabang/Manolo2.jpg')}
+                                    />
+                                    <figcaption className="text-center text-sm text-gray-600">Stronger than expected!</figcaption>
+                                </figure>
+                            </div><br/>
                         </CollapsibleReview>
                         <CollapsibleReview title="Manda de Laos" rating={5} scale="food">
                             We had booked this restaurant to celebrate the start of our trip through SEA. This is one of the few fine dining experiences we had planned for our trip, and it did not disappoint.<br/>
@@ -549,12 +716,61 @@ export default function Laos() {
                             The food was delicious and the staff did an impeccable job as well. We highly recommend this restaurant to anyone who would like to have a special dining experience in Luang Prabang!
                             <br />
                             Find it <a href="https://maps.app.goo.gl/wgdNbaKhChzUGVjJ9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            <div className="grid md:grid-cols-2 gap-2">
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/laos/luangprabang/MandaLaos1.jpg"
+                                        alt="Manda de Laos"
+                                        className="w-full shadow-lg my-2 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/laos/luangprabang/MandaLaos1.jpg')}
+                                    />
+                                </figure>
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/laos/luangprabang/MandaLaos2.jpg"
+                                        alt="Manda de Laos"
+                                        className="w-full shadow-lg my-2 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/laos/luangprabang/MandaLaos2.jpg')}
+                                    />
+                                </figure>
+                            </div>
+                            <figcaption className="text-center text-sm text-gray-600">The Queen of Cocktails!</figcaption>
+                            <br/>
+                            <div className="grid md:grid-cols-2 gap-2">
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/laos/luangprabang/MandaLaos3.jpg"
+                                        alt="Manda de Laos"
+                                        className="w-full shadow-lg my-2 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/laos/luangprabang/MandaLaos3.jpg')}
+                                    />
+                                </figure>
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/laos/luangprabang/MandaLaos4.jpg"
+                                        alt="Manda de Laos"
+                                        className="w-full shadow-lg my-2 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/laos/luangprabang/MandaLaos4.jpg')}
+                                    />
+                                </figure>
+                            </div>
+                            <figcaption className="text-center text-sm text-gray-600">Manda de Laos</figcaption>
                         </CollapsibleReview>
                         <CollapsibleReview title="Jungala Lounge Bar" rating={4.5} scale="drink">
                             This lounge bar is tucked away on the bank of the Nam Khan river. Due to its location you will not bump into it by accident, but we highly recommend looking it up on Maps! It is a laid-back bar where you can rest on some pillows while having some food and drinks and overlooking the Nam Khan river (the smaller of the two rivers that define Luang Prabang).<br/>
                             We had lunch here and dinner another day, and we enjoyed both meals. We can recommend this spot both for food but also for a romantic cocktail night.
                             <br />
                             Find it <a href="https://maps.app.goo.gl/ULLJ4P1us2te5Nnc7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            <figure className="flex flex-col items-center">
+                                <img
+                                    src={"/images/travel/laos/luangprabang/Jungala.jpg"}
+                                    alt="Jungala Lounge Bar"
+                                    className="w-[50%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox("/images/travel/laos/luangprabang/Jungala.jpg")}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">Jungala Lounge Bar</figcaption>
+                            </figure>
+                            <br/>
                         </CollapsibleReview>
                         <CollapsibleReview title="The Belle Rive Terrace" rating={3.5} scale="drink">
                             We stopped for a drink here on our was back from the Pak Ou caves. It is another bar located on the Mekong riverfront, exuding the same relaxed ambience and providing the same beautiful view of the river as the other bars on the riverfront. We had a cocktail here and enjoyed it, and recommend it as a nice place to stop for a drink while exploring Luang Prabang.
@@ -594,6 +810,9 @@ export default function Laos() {
                         We did our photoshoot and hung around for a little while longer, but decided to start the descent before the sun had set, as we didn't want to descend in total darkness. That being said, we did notice that good artificial lighting is installed on our way down, so you could probably stay until after sunset without any issues.
                         <br/><br/>
                         <h4 id="vang-vieng-day-2" className="text-xl font-bold mb-4">Ziplining and Kajaking </h4>
+                        Ziplining after the Belgium father/son story.
+                        Kajaking during liftoff of balloons and paramotors.
+                        Getting given a lift back home on a motorbike.
                         <h4 id="vang-vieng-day-3" className="text-xl font-bold mb-4">Blue lagoon 2</h4>
 
                         <h3 id="vang-vieng-hotel-reviews" className="text-2xl font-bold mb-4">Hotel Reviews</h3>
