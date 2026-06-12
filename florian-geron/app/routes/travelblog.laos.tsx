@@ -808,12 +808,115 @@ export default function Laos() {
                         After this quick dip in the blue lagoon, we drove a little further up to the Nam Xay viewpoint. After parking your motorbike, you will have to take a short but steep hike up the mountain to reach the viewpoint. The view from the top is stunning; It was the postcard view of Laos I had in my mind before travelling there myself. It is a great place to take some pictures, and the Lao people know this as well as they put some decommissioned motorbikes on the top of the mountain for some photo opportunities.<br/>
                         We reached the top of the mountain a solid 45min before sunset, which made for a great time to take some pictures. The queue for the first bike was doable, and the second one wasn't too bad either, up until the couple in front of us had their turn. They spent a solid 10min on their pictures, and we suspect they were waiting for the sunset to actually happen. At a certain point the wait became ridiculous, at which point the other people in the queue told them it was time to move on. This was an awkward situation, but this meant that we actually had one of the best times of day for our photoshoot! It did mean we felt pretty rushed though.<br/>
                         We did our photoshoot and hung around for a little while longer, but decided to start the descent before the sun had set, as we didn't want to descend in total darkness. That being said, we did notice that good artificial lighting is installed on our way down, so you could probably stay until after sunset without any issues.
-                        <br/><br/>
+                        <div className="grid md:grid-cols-2 gap-2">
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/laos/vangvieng/NamXay1.JPG"
+                                    alt="Temple 1"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/laos/vangvieng/NamXay1.JPG')}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">Nam Xay Viewpoint 1</figcaption>
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/laos/vangvieng/NamXay2.jpg"
+                                    alt="Temple 2"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/laos/vangvieng/NamXay2.jpg')}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">Nam Xay Viewpoint 2 (golden hour!)</figcaption>
+                            </figure>
+                        </div><br/>
                         <h4 id="vang-vieng-day-2" className="text-xl font-bold mb-4">Ziplining and Kajaking </h4>
-                        Ziplining after the Belgium father/son story.
-                        Kajaking during liftoff of balloons and paramotors.
-                        Getting given a lift back home on a motorbike.
+                        On our second day in Vang Vieng, we decided to book some of the outdoor activities that Vang Vieng is known for. We booked a ziplining and kajaking tour via Get Your Guide. The operators picked us up from our hotel at the start of the day.<br/><br/>
+                        First, we drove out of the city center towards the area around Nam Xay. There we did some ziplining, which was a very fun activity. As we were going kajaking after, Florian was wearing slippers. On our way to the top, one of his slippers broke, which meant he had to complete the upward trek and downward ziplining in one slipper. Luckily, one of the guides was friendly enough to lend him one of his slippers when walking over rough terrain!<br/>
+                        Before flying to Laos, we had heard a real horror story about ziplining in Laos. A Belgian father and son had been ziplining in Laos, and they both died during this activity. When walking between the ziplines, they passed close to a hornet's nest, and both father and son were stung to death by the hornets. This made us feel somewhat nervous about the experience, but happily everything went smoothly for us.<br/><br/>
+                        <div className="grid md:grid-cols-2 gap-2">
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/laos/vangvieng/Zipline1.jpg"
+                                    alt="Zipline 1"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/laos/vangvieng/Zipline1.jpg')}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">Walking towards the zipline</figcaption>
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/laos/vangvieng/Zipline2.jpg"
+                                    alt="Zipline 2"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/laos/vangvieng/Zipline2.jpg')}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">The first zipline</figcaption>
+                            </figure>
+                        </div><br/>
+                        After the ziplining, the tour operators drove us to the river were we would do some kajaking. The kajaking was pretty fun, but the highlight was towards the end of the trip, as we made our way back into the city. As the sun was going down, the hot air balloons and paramotors were taking off all around us, making for an unforgettable view and experience.<br/><br/>
+                        <div className="grid md:grid-cols-2 gap-2">
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/laos/vangvieng/Kajak1.JPG"
+                                    alt="Kajak 1"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/laos/vangvieng/Kajak1.JPG')}
+                                />
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/laos/vangvieng/Kajak2.JPG"
+                                    alt="Kajak 2"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/laos/vangvieng/Kajak2.JPG')}
+                                />
+                            </figure>
+                        </div>
+                        <figcaption className="text-center text-sm text-gray-600">Kajaking fun</figcaption>
+                        <br/>
+                        After the kajaking, the tour operators want to leave us at the riverside, even though the tour description specified we would be dropped off back at our hotel. They dropped us off and told us to walk back, but this wasn't really an option as Florian only had one slipper at this point. In the end, they solved the problem by giving us a lift back to our hotel on the back of their motorbike. This was a rather exciting experience, but we made it back in one piece!<br/><br/>
+                        Overall, we enjoyed the tour, but we were somewhat annoyed by the logistical management of the tour operator, as we spent a lot of time waiting around between the different activities and getting moved from one minivan into another, which felt sketchy.
+                        <div className="grid md:grid-cols-2 gap-2">
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/laos/vangvieng/Doggo1.jpg"
+                                    alt="Doggo 1"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/laos/vangvieng/Doggo1.jpg')}
+                                />
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/laos/vangvieng/Doggo2.jpg"
+                                    alt="Doggo 2"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/laos/vangvieng/Doggo2.jpg')}
+                                />
+                            </figure>
+                        </div>
+                        <figcaption className="text-center text-sm text-gray-600">A friendly doggo catching a cheeky ride in the minivan</figcaption><br/>
+
                         <h4 id="vang-vieng-day-3" className="text-xl font-bold mb-4">Blue lagoon 2</h4>
+                        On our final day in Vang Vieng, we took the scooter out to Blue Lagoon 2, which was a lot more enjoyable than Blue Lagoon 1. With less crowds, it was a more relaxing experience. Though not crowded, it was pleasantly busy, with most tourists there for taking a swim and relaxing rather than taking pictures.
+                        <div className="grid md:grid-cols-2 gap-2">
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/laos/vangvieng/BlueLagoon22.JPG"
+                                    alt="Blue Lagoon 2"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/laos/vangvieng/BlueLagoon2.JPG')}
+                                />
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/laos/vangvieng/BlueLagoon2.JPG"
+                                    alt="Blue Lagoon 2"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/laos/vangvieng/BlueLagoon22.JPG')}
+                                />
+                            </figure>
+                        </div>
+                        <figcaption className="text-center text-sm text-gray-600">Chilling at Blue Lagoon 2</figcaption><br/>
+
 
                         <h3 id="vang-vieng-hotel-reviews" className="text-2xl font-bold mb-4">Hotel Reviews</h3>
                         <details className="group mb-6 rounded-md">
@@ -861,6 +964,17 @@ export default function Laos() {
                                     All-in-all, the hotel has very modern and clean rooms and is located just outside of the city center, a short walk away from the Vang Vieng nightlife. If you are looking for a hotel with stunning views, modern facilities, and don't mind some friction in the service, this hotel is a good option. Just don't expect a home run in terms of the service experience. Most hotels in Vang Vieng cater to the party / backpacker crowd, and this hotel defintely offers a more relaxed experience.
                                     <br />
                                     Find it <a href="https://maps.app.goo.gl/1Y8YqDRqkySURCtM9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+
+                                    <figure className="flex flex-col items-center">
+                                        <img
+                                            src={"/images/travel/laos/vangvieng/VVHotel.JPG"}
+                                            alt="Vang Vieng Hotel"
+                                            className="w-[75%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                            onClick={() => openLightbox("/images/travel/laos/vangvieng/VVHotel.JPG")}
+                                        />
+                                        <figcaption className="text-center text-sm text-gray-600">The bathroom view</figcaption>
+                                    </figure>
+                                    <br/>
                                 </p>
                             </div>
                         </details>
@@ -875,6 +989,17 @@ export default function Laos() {
                             We enjoyed some brunch here to start one of our adventurous days in Vang Vieng. We weren't blown away by the food or the service, but the restaurant has a unique terrace overlooking the Lao countryside, which is a nice place to relax and have a meal. It also present a nice photo opportunity, which the Chinese tourists had spotted as well.
                             <br />
                             Find it <a href="https://maps.app.goo.gl/L9sX1FSprUf84Svu7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+
+                            <figure className="flex flex-col items-center">
+                                <img
+                                    src={"/images/travel/laos/vangvieng/BaanLao.jpg"}
+                                    alt="BaanLao café"
+                                    className="w-[50%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox("/images/travel/laos/vangvieng/BaanLao.jpg")}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">BaanLao Café</figcaption>
+                            </figure>
+                            <br/>
                         </CollapsibleReview>
                         <CollapsibleReview title="Mittaphap restaurant" rating={4} scale="food">
                             We hopped into this restaurant for a quick lunch on our way to the blue lagoon 1. We were pleasantly surprised by this restaurant, which serves authentic Lao food and donates some of the proceedings to a local charity. The food was delicious and the staff was very friendly.
@@ -886,11 +1011,44 @@ export default function Laos() {
                             The food court has a authentic and lively vibe, and overall we enjoyed coming here and trying new things. The infrastructure is quite basic and the electricity even blacked out a couple of times, but this didn't diminish the atmosphere of the court, as people pulled out lanterns. We would recommed this court if you're looking for a more authentic food experience in Vang Vieng.
                             <br />
                             Find it <a href="https://maps.app.goo.gl/vBqiryqa39dYH3gk7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+
+                            <figure className="flex flex-col items-center">
+                                <img
+                                    src={"/images/travel/laos/vangvieng/StreetMarket.jpg"}
+                                    alt="Street market"
+                                    className="w-[50%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox("/images/travel/laos/vangvieng/StreetMarket.jpg")}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">Vang Vieng Food Court</figcaption>
+                            </figure>
+                            <br/>
                         </CollapsibleReview>
                         <CollapsibleReview title="Mama very big" rating={5} scale="hotdog">
                             This street vendor has obtained a legendary status in Vang Vieng. She serves a kind of hotdog, heavi(n)ly loaded with toppings such as avocado, egg, cheese, and sauces. The resulting hotdog is as delicious as it is filling. We took one each on one of our adventures to picknick at the blue lagoon 2, and it was the perfect lunch meal, loading us up with enough calories to last us through the day.
                             <br />
                             Find it <a href="https://maps.app.goo.gl/eo7ZvqKtFxYHwRqMA" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+
+                            <div className="grid md:grid-cols-2 gap-2">
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/laos/vangvieng/MamaVeryBig.jpg"
+                                        alt="Mama Very Big"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/laos/vangvieng/MamaVeryBig.jpg')}
+                                    />
+                                    <figcaption className="text-center text-sm text-gray-600">Mama Very Big</figcaption><br/>
+                                </figure>
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/laos/vangvieng/MamaAtTheLake.JPG"
+                                        alt="Mama at the Lake"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/laos/vangvieng/MamaAtTheLake.JPG')}
+                                    />
+                                    <figcaption className="text-center text-sm text-gray-600">Enjoying the sandwhich at Blue Lagoon 2</figcaption><br/>
+                                </figure>
+                            </div>
+                            
                         </CollapsibleReview>
                         <CollapsibleReview title="Mixue" rating={3.5} scale="hotdog">
                             Mixue is a Chinese ice cream franchise that is taking Asia by storm. We decided to check it out for ourselves and quite liked having a cold ice cream treat during the mid-day Lao heat. It is a pretty basic ice cream shop but we can recommend it if you want a quick ice cream that hits the spot.
@@ -901,6 +1059,34 @@ export default function Laos() {
                             The rooftop is the place to be during sunrise or sunset to watch the sky above Vang Vieng, as the sky is filled with hot air balloons and paramotors at these times. We came here during sunset and had a cheeky photoshoot while enjoying some drinks. This rooftop experience is exactly what you'd expect and what we wanted out of a rooftop in Vang Vieng, so we can only recommend.
                             <br />
                             Find it <a href="xxx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+
+                            <div className="grid md:grid-cols-3 gap-2">
+                                        <figure className="md:col-span-1">
+                                            <img
+                                                src="/images/travel/laos/vangvieng/Elephant1.jpg"
+                                                alt="Elephant Crossing Rooftop"
+                                                className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                                onClick={() => openLightbox('/images/travel/laos/vangvieng/Elephant1.jpg')}
+                                            />
+                                        </figure>
+                                        <figure className="md:col-span-1">
+                                            <img
+                                                src="/images/travel/laos/vangvieng/Elephant2.jpg"
+                                                alt="Elephant Crossing Rooftop"
+                                                className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                                onClick={() => openLightbox('/images/travel/laos/vangvieng/Elephant2.jpg')}
+                                            />
+                                        </figure>
+                                        <figure className="md:col-span-1">
+                                            <img
+                                                src="/images/travel/laos/vangvieng/Elephant3.JPG"
+                                                alt="Elephant Crossing Rooftop"
+                                                className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                                onClick={() => openLightbox('/images/travel/laos/vangvieng/Elephant3.JPG')}
+                                            />
+                                        </figure>
+                                    </div>
+                                    <figcaption className="text-center text-sm text-gray-600">The views from the Elephant Crossing rooftop</figcaption>
                         </CollapsibleReview>
                         <CollapsibleReview title="Mad monkeys bar" rating={3} scale="drink">
                             The mad monkey hostel has a bar at the pool area of the hostel, which is a great place for some cheap drinks and socializing. It is exactly what you'd expect from a bar in a backpacker hostel, so we'd recommend it if you are looking for a fun and social atmosphere. The cocktails weren't great and the service was very slow, but it's a fun place if you're willing to look past this.
