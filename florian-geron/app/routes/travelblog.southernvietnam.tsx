@@ -48,7 +48,7 @@ export default function SouthernVietnam() {
         "Our guide holding a bee hive",
         "Our guide handling a python",
         "A snake suspended in 'Happy Water'",
-        "Tuktuk through the jungle",
+        "Tuk-tuk through the jungle",
         "Boat ride on the Mekong",
         "Locals on the river",
         "My Tho port building",
@@ -185,7 +185,7 @@ export default function SouthernVietnam() {
                         <h2 id="our-journey" className="text-4xl font-bold mb-4">Our Journey</h2>
                         <h3 id="what-we-did" className="text-2xl font-bold mb-4">What we did</h3>
                         <div className="mb-6 leading-relaxed">
-                            We had only one week to spend in this part of South East Asia.
+                            We had only one week to spend in this part of Southeast Asia.
                             As such, we spent our time in the main city of Southern Vietnam, Ho Chi Minh City, and the impressive Mekong Delta to its South.
                             In the Mekong Delta, we based ourselves in Can Tho and My Tho.
                             <br />
@@ -216,12 +216,12 @@ export default function SouthernVietnam() {
                                 <li>
                                     Mui Ne:
                                     <br/>
-                                    Another place we would've like to check out if had had more time, mainly to see the sand dunes and to surf.
+                                    Another place we would've liked to check out if we had more time, mainly to see the sand dunes and to surf.
                                 </li>
                                 <li>
                                     Chau Doc:
                                     <br/>
-                                    The mangroves around Chau Doc peaked our interest, but we decided to skip it in favor of My Tho.
+                                    The mangroves around Chau Doc piqued our interest, but we decided to skip it in favor of My Tho.
                                 </li>
                             </ul>
                         </div>
@@ -232,9 +232,9 @@ export default function SouthernVietnam() {
                         <p className="mb-6 leading-relaxed">
                             We arrived in HCMC after sunset, but still decided to head out to see some of the city's iconic sights.
                             <br />
-                            First, we went for some dinner at the Ben Nghe Street Food market. Though a little touristy, we liked the diversity of food on offer. I ate a typical Vietnamese pancake, Bánh Xèo, which was nice but wasn't particularly rich in taste in my opinion. <br /> 
-                            Then, we walked down Nguyen Hue street, passing the iconic Cafe Apartment building. After taking the obligatory photos of the building, we decided to head West towards the Bui Vien Walking Street.
-                            On the way there, we passed the Ben Thanh Market, which was closed, but we took this opportunity to walk into the Silverland hotel next door and take the elevator all the way up to take a look at the city skyline at  night from their rooftop bar and pool. The bar was closed, but luckily we were able to enjoy the view anyway.
+                            First, we went for some dinner at the Ben Nghe Street Food market. Though a little touristy, we liked the diversity of food on offer. I ate a typical Vietnamese pancake, Bánh Xèo, which was nice but wasn't particularly rich in flavor in my opinion. <br /> 
+                            Then, we walked down Nguyen Hue street, passing the iconic Cafe Apartment building. After taking the obligatory photos of the building, we decided to head west towards the Bui Vien Walking Street.
+                            On the way there, we passed the Ben Thanh Market, which was closed, but we took this opportunity to walk into the Silverland hotel next door and take the elevator all the way up to take a look at the city skyline at night from their rooftop bar and pool. The bar was closed, but luckily we were able to enjoy the view anyway.
                             <br />
                             After this little deviation, we headed straight to the famous Bui Vien Walking Street, a bustling area known for its vibrant nightlife, street food, and lively atmosphere.
                             This street was a little over-the-top for our tastes, but it was fun to experience the energy and see the crazy side of the city at night.
@@ -268,8 +268,8 @@ export default function SouthernVietnam() {
 
                         <h3 id="ho-chi-minh-city-day-2" className="text-2xl font-bold mb-4">Day 2 - Saigon Fever</h3>
                         <p className="mb-6 leading-relaxed">
-                            Our first full day in Ho Chi Minh City! We head a lot of things to do in this city, but one thing was at the top of our mind. We would be flying home on the 23rd of December, leaving us no time to do Christmas shopping at home. Therefore, our first stop in HCMC would be some markets to buy some unique Christmas gifts for our friends and family.
-                            We took a Grab to the Ben Thanh Market, the main market in the city. We stopped for an eggyolk coffee at a{' '}
+                            Our first full day in Ho Chi Minh City! We had a lot of things to do in this city, but one thing was at the top of our mind. We would be flying home on the 23rd of December, leaving us no time to do Christmas shopping at home. Therefore, our first stop in HCMC would be some markets to buy some unique Christmas gifts for our friends and family.
+                            We took a Grab to the Ben Thanh Market, the main market in the city. We stopped for an egg yolk coffee at a{' '}
                             <a href="https://maps.app.goo.gl/nETah8XakM12taZK7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
                             small cafe
                             </a> right across the street from the market first, before heading into the market. 
@@ -280,7 +280,7 @@ export default function SouthernVietnam() {
                             Roots Plant-Based Cafe
                             </a> for lunch. This place was a little hidden gem, with a cozy atmosphere and delicious plant-based dishes. We both really enjoyed our meals here and would highly recommend it to anyone looking for a tasty and healthy meal in HCMC. The coconut coffee was especially memorable!
                             <br />
-                            After lunch, we went back to the markets for some more shopping. We headed to the Com Tam Saigon Central Market, which was a little less touristy than the Ben Thanh Market. Interestingly, the vendors here were less open to bargaining than at the Ben Thanh Market. At Benh Than, prices would start very high, but you could bargain down as much as 80%. At Com Tam, prices were more reasonable to start with, but there was less room for bargaining.
+                            After lunch, we went back to the markets for some more shopping. We headed to the Com Tam Saigon Central Market, which was a little less touristy than the Ben Thanh Market. Interestingly, the vendors here were less open to bargaining than at the Ben Thanh Market. At Ben Thanh, prices would start very high, but you could bargain down as much as 80%. At Com Tam, prices were more reasonable to start with, but there was less room for bargaining.
                             <br />
                             <br />
                             After this shopping spree, we visited the War Remnants Museum. This is a museum that I can highly recommend, as it will leave a lasting impression on you. The museum shows the brutal reality and the horrors of the Vietnam War, with graphic photos from the war. Especially the section on the lasting effects of Agent Orange left a deep impression, showing the impact that this chemical weapon still has on the Vietnamese people today.
@@ -386,7 +386,7 @@ export default function SouthernVietnam() {
                                         src="/images/travel/vietnam/MaryJane.JPG"
                                         alt="Mary Jane's Rooftop Bar"
                                         className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
-                                        onClick={() => openLightbox('/images/travel/vietnam/MaryJane.jpg')}
+                                        onClick={() => openLightbox('/images/travel/vietnam/MaryJane.JPG')}
                                     />
                                     <figcaption className="text-center text-sm text-gray-600">Mary Jane's Rooftop Bar</figcaption>
                                 </figure>
@@ -402,7 +402,7 @@ export default function SouthernVietnam() {
                             We booked a van via 12GoAsia to take us from HCMC to Can Tho, which took us around 4 hours.
                             The van was comfortable and the ride was smooth, but when arriving in Can Tho, the driver dropped us off outside of the city.
                             The van company arranged another ride for us to the center of the city, which went smoothly enough.
-                            Upon arriving, we realized that there was a football match between the Vietnamese and Thai national teams. Not just any match, the finale of the SEA Games!
+                            Upon arriving, we realized that there was a football match between the Vietnamese and Thai national teams. Not just any match, the final of the Southeast Asia Games!
                             We exited the car right after the end of the match, which Vietnam had won! The streets were filled with people celebrating the victory, waving flags, honking horns, and singing. 
                             A memorable way to arrive in a new city!
                             <br /><br />
@@ -478,10 +478,10 @@ export default function SouthernVietnam() {
                             After lunch, we walked over the Love Bridge to a resort area that was still in development.
                             When walking back, we got caught in a heavy rainstorm, at which point we decided to Grab back to our hotel.
                             <br /><br />
-                            We ended our day with a hotpot dinner at a local restaurant called {' '}
+                            We ended our day with a hot pot dinner at a local restaurant called {' '}
                             <a href="https://maps.app.goo.gl/rBxfQvvfZzNJDjaN7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
                             Com O 68 Can Tho
-                            </a>. Once again, English was not spoken by the staff nor were there any English menus, but the staff was very friendly and explained the process of cooking with the hotpot to us using nothing more than good old sign language.
+                            </a>. Once again, English was not spoken by the staff nor were there any English menus, but the staff was very friendly and explained the process of cooking with the hot pot to us using nothing more than good old sign language.
 
                             <div className="grid md:grid-cols-2 gap-2">
                                 <figure className="md:col-span-1">
@@ -500,7 +500,7 @@ export default function SouthernVietnam() {
                                         className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
                                         onClick={() => openLightbox('/images/travel/vietnam/Hotpot.JPG')}
                                     />
-                                    <figcaption className="text-center text-sm text-gray-600">The Hotpot Dinner at Com O 68 Can Tho</figcaption>
+                                    <figcaption className="text-center text-sm text-gray-600">The Hot Pot Dinner at Com O 68 Can Tho</figcaption>
                                 </figure>
                             </div>
 
@@ -569,7 +569,7 @@ export default function SouthernVietnam() {
                             Get Your Guide
                             </a>.
                             During this tour, we visited two islands nearby My Tho: Thoi Son / Unicorn Island and Con Phung / Phoenix Island.
-                            Here, we partook in many activities, including tasting fresh honey right off the hive, trying some coconut candy, driving through the jungle on a small tuktuk, flowing down the river on a small boat (sampan), and listening to tradidional music.
+                            Here, we partook in many activities, including tasting fresh honey right off the hive, trying some coconut candy, driving through the jungle on a small tuk-tuk, floating down the river on a small boat (sampan), and listening to traditional music.
                             Afterwards, we visited the Vinh Trang Pagoda, a temple famous for its three giant Buddha statues, including a Reclining Buddha and a fat, happy Buddha.
                             We had a very pleasant experience on this tour, and we can recommend it if you want to visit My Tho's main sights. 
                             <br /><br />
@@ -715,9 +715,9 @@ export default function SouthernVietnam() {
 
                                 <p className="mb-6 leading-relaxed mt-2">
                                     All in all, we had a good experience at the Nexus House. 
-                                    The location is convenient, the center only being a short Grab away, and the staff was friendly and helpful.
+                                    The location is convenient, the center was only a short Grab away, and the staff was friendly and helpful.
                                     We were allocated a street-facing room at first, which was quite noisy, but after asking the staff, we were moved to a quieter room at the back of the hotel.
-                                    Both bathrooms had a faint smell of mold, which was a little unpleasant but also rather common in SEA in our experience.
+                                    Both bathrooms had a faint smell of mold, which was a little unpleasant but also rather common in Southeast Asia in our experience.
                                     The rooms are small, but this is advertised on the website and we didn't mind it, as we didn't spend much time in the room anyway.
                                     <br />
                                     Find it <a href="https://maps.app.goo.gl/tsq3Bd3UjtTrTLnF9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
@@ -765,7 +765,7 @@ export default function SouthernVietnam() {
                                 <p className="mb-6 leading-relaxed mt-2">
                                     We booked a room at Nguyen Le Home Dinh Chieu for our last nights in HCMC.
                                     After booking, we were contacted by the hotel, who informed us that they had overbooked and that they would move us to another hotel, the Nguyen Le Home Phan Ton.
-                                    We were uncomfortable with this, as we had heard similar stories about "bait and switch" tactics by hotels in SEA.
+                                    We were uncomfortable with this, as we had heard similar stories about "bait-and-switch" tactics by hotels in Southeast Asia.
                                     The hotel was communicative, sent us pictures of the other hotel, and gave us a 10% discount, so we accepted the change.
                                     It turned out that the other address was a new venue of apartment / Airbnb style rooms that the hotel had recently opened.
                                     This meant that the room and furniture was brand new, but they hadn't actually finished setting up the hotel yet.
@@ -819,7 +819,7 @@ export default function SouthernVietnam() {
                                     <br />
                                     We had a wonderful stay at the Luxhome Mekong Hotel.
                                     We got a very spacious and modern room at a very reasonable price, and the staff was extremely friendly and helpful.
-                                    The hotel seemed to cater at internal Vietnamese tourists, as the staff did not speak any English, but they were very helpful and accommodating nonetheless.
+                                    The hotel seemed to cater to domestic Vietnamese tourists, as the staff did not speak any English, but they were very helpful and accommodating nonetheless.
                                     The hotel is located a little outside of the city center, but this was not a problem for us as we had a Grab to get around.
                                     We would highly recommend this hotel to anyone visiting Can Tho!
                                     <br />
@@ -836,7 +836,7 @@ export default function SouthernVietnam() {
 
                             <CollapsibleReview title="Pizza 4P's - Hai Ba Trung" rating={4.5} scale="food">
                                 Pizza 4P's is a popular pizza franchise in HCMC, known for its unique pizzas and its young and dynamic atmosphere.
-                                We had some delicious food here, which mixed Italian and Vietnamese/SEA cuisines.
+                                We had some delicious food here, which mixed Italian and Vietnamese/Southeast Asian cuisines.
                                 We started with a mango-and-ham entree (mixing up the Italian melon-and-ham dish) and some wine.
                                 The restaurant allows you to create half-and-half pizzas, so we got to try four different pizza styles between the two of us.
                                 We were blown away by the tom yum pizza, of which we ordered another one after finishing our first half.
@@ -852,7 +852,7 @@ export default function SouthernVietnam() {
                                             className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
                                             onClick={() => openLightbox('/images/travel/vietnam/Pizza2.jpg')}
                                         />
-                                        <figcaption className="text-center text-sm text-gray-600">Our Starter - Mango wrapped in Italian proscuitto</figcaption>
+                                        <figcaption className="text-center text-sm text-gray-600">Our Starter - Mango wrapped in Italian prosciutto</figcaption>
                                     </figure>
                                     <figure className="md:col-span-1">
                                         <img
@@ -869,7 +869,7 @@ export default function SouthernVietnam() {
 
                             <CollapsibleReview title="Propaganda" rating={3} scale="food">
                                 This restaurant is known for its decor featuring Vietnamese communist propaganda art, and for its menu of local dishes.
-                                We were blowm away by the drinks, but were less impressed by the food we ate there.
+                                We were blown away by the drinks, but were less impressed by the food we ate there.
                                 The food was not bad, but it was not amazing either, and we found it to be overpriced for the quality of the food.
                                 <br />
                                 Find it <a href="https://maps.app.goo.gl/VPZwEKFDvqWb3KsR6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
@@ -889,7 +889,7 @@ export default function SouthernVietnam() {
                             <CollapsibleReview title="Bếp Mẹ Ỉn - Nguyễn Thái Bình" rating={2} scale="food">
                                 This restaurant was recommended to us by several blogs online, but we were not impressed by our experience here.
                                 We found the menu to be pretty monotonous and the focus seemed to be on presenting instagrammable dishes rather than on the food itself.
-                                The food we had was underwhelming, and the AC was unreasonably cold, which we didn't dress for. The other customers, mostly Vietnamese locals and Chinese toursists, didn't seem to mind the cold.
+                                The food we had was underwhelming, and the AC was unreasonably cold, which we didn't dress for. The other customers, mostly Vietnamese locals and Chinese tourists, didn't seem to mind the cold.
                                 <br />
                                 Find it <a href="https://maps.app.goo.gl/YjQA2eZKfG9F7pUFA" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                             </CollapsibleReview>
@@ -926,7 +926,7 @@ export default function SouthernVietnam() {
                             </CollapsibleReview>
 
                             <CollapsibleReview title="KHAP KHAP Thai Bistro - Thảo Điền" rating={3} scale="food">
-                                After several days of Vietnamese food, we were longing for some Thai food again (our favorite SEA cuisine).
+                                After several days of Vietnamese food, we were longing for some Thai food again (our favorite Southeast Asian cuisine).
                                 We visited Khap Khap, which was a Thai restaurant in the expat area of Thao Dien.
                                 The food was good though not as good as other Thai food we'd had, with less authentic flavors.
                                 <br />
@@ -953,15 +953,15 @@ export default function SouthernVietnam() {
                             <CollapsibleReview title="Roots Plant-Based Cafe" rating={5} scale="coffee">
                                 One of our favorite meals in HCMC was at Roots!
                                 This is a plant-based cafe / restaurant where we enjoyed a particularly amazing coconut coffee and some delicious vegan bowls.
-                                We highly recommend this place, especially if you're looking for a place to get some rest after some shopping at the Benh Thanh market!
+                                We highly recommend this place, especially if you're looking for a place to get some rest after some shopping at the Ben Thanh market!
                                 <br />
                                 Find it <a href="https://maps.app.goo.gl/bJj2MdQ1VhcE25Fx8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                             </CollapsibleReview>
 
-                            <CollapsibleReview title="Eggyolk Coffee" rating={3} scale="coffee">
-                                A fun stop for a quick eggyolk coffee break, as well as pastries and other drinks.
-                                The eggyolk coffee was a fun experience, and the pastries were also good, though not amazing.
-                                The shop also sells eggyolk coffee merchandise like mugs and T-shirts, which is fun but also made it feel a little touristy and gimmicky.
+                            <CollapsibleReview title="Egg Yolk Coffee" rating={3} scale="coffee">
+                                A fun stop for a quick egg yolk coffee break, as well as pastries and other drinks.
+                                The egg yolk coffee was a fun experience, and the pastries were also good, though not amazing.
+                                The shop also sells egg yolk coffee merchandise like mugs and T-shirts, which is fun but also made it feel a little touristy and gimmicky.
                                 <br />
                                 Find it <a href="https://maps.app.goo.gl/FCVjsNeAgFpSV4oPA" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                             </CollapsibleReview>
@@ -1055,8 +1055,8 @@ export default function SouthernVietnam() {
                             </CollapsibleReview>
 
                             <CollapsibleReview title="Rabbit Hole" rating={4} scale="drink">
-                                An upscale speakeasy-style cocktail bar with a refined interior and a distinguished cocktail menu (with many cocktails referecing Alice in Wonderland).
-                                We found the atmosphere a little to quiet and formal for our tastes, and the cocktails come at a higher price, but if you are looking for a refined cocktail experience in HCMC, this is the place to be.
+                                An upscale speakeasy-style cocktail bar with a refined interior and a distinguished cocktail menu (with many cocktails referencing Alice in Wonderland).
+                                We found the atmosphere a little too quiet and formal for our tastes, and the cocktails come at a higher price, but if you are looking for a refined cocktail experience in HCMC, this is the place to be.
                                 <br />
                                 Find it <a href="https://maps.app.goo.gl/dAagtAwWQiGj4kNj9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                             </CollapsibleReview>
@@ -1083,7 +1083,7 @@ export default function SouthernVietnam() {
                             </CollapsibleReview>
 
                             <CollapsibleReview title="IMC Rooftop Bar" rating={3} scale="drink">
-                                This rooftop bar provides a nice view over the city and has a relaxed atmospohere, great for a drink in the late afternoon with friends and family.
+                                This rooftop bar provides a nice view over the city and has a relaxed atmosphere, great for a drink in the late afternoon with friends and family.
                                 We were happy to spend a couple of hours here waiting for our flight, but we wouldn't necessarily recommend coming here just for a drink.
                                 <br />
                                 Find it <a href="https://maps.app.goo.gl/Dsjhiqu38wYs1LD48" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
@@ -1104,7 +1104,7 @@ export default function SouthernVietnam() {
 
                             <CollapsibleReview title="Ben Nghe Street Food" rating={4} scale="hotdog">
                                 This market contains lots of stalls with food from different cuisines, mainly Vietnamese but also Thai, Indian, and Korean food.
-                                We tried several dishes here, including a Banh Xeo, a savoury Vietnamese pancake, which we found a tad bland compared to other SEA food.
+                                We tried several dishes here, including a Banh Xeo, a savory Vietnamese pancake, which we found a tad bland compared to other Southeast Asian food.
                                 We also tried the Thai and Korean food, which were both delicious and very affordable.
                                 <br />
                                 Find it <a href="https://maps.app.goo.gl/L1ugUxKGUyu7c9oGA" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
@@ -1165,10 +1165,10 @@ export default function SouthernVietnam() {
                             </CollapsibleReview>
 
                             <CollapsibleReview title="Cơm Ơ 68 Cần Thơ" rating={4} scale="food">
-                                We decided to check out this restaurant after finding in on Google Maps.
+                                We decided to check out this restaurant after it on Google Maps.
                                 The restaurant serves local food at a very affordable price, and the staff seemed to be least prepared for English speakers, but as per usual they were very friendly and helpful nonetheless.
                                 We translated the menu using Google Translate and we went for the Beef Hot Pot (Lau Bo).
-                                The waiter showed us how to eat it, by putting the beef in the hot pot and wrapping it in a rice paper with some herbs and dipping it in the sauce.
+                                The waiter showed us how to eat it, by putting the beef in the hot pot and wrapping it in rice paper with some herbs and dipping it in the sauce.
                                 We had a fun experience here, but be prepared for a very local experience, as this restaurant seems to cater exclusively to Vietnamese locals.
                                 Not recommended if you don't like the ambiguity that comes with ordering from a menu you don't understand.
                                 <br />
@@ -1193,7 +1193,7 @@ export default function SouthernVietnam() {
                                         
                                     </figure>
                                 </div>
-                                <figcaption className="text-center text-sm text-gray-600">The Hotpot Dinner at Com O 68 Can Tho</figcaption>
+                                <figcaption className="text-center text-sm text-gray-600">The Hot Pot Dinner at Com O 68 Can Tho</figcaption>
                             
                             </CollapsibleReview>
 
@@ -1221,7 +1221,7 @@ export default function SouthernVietnam() {
 
                             <CollapsibleReview title="TAK Speakeasy" rating={5} scale="drink">
                                 We had found this speakeasy online and decided to visit this local speakeasy in Can Tho.
-                                After walking to its direction using Google Maps, we found the place by the seeing the tapir logo on the door.
+                                After walking to its direction using Google Maps, we found the place by seeing the tapir logo on the door.
                                 TAK is a charming speakeasy with an intimate atmosphere, catering to the artists and creatives of Can Tho.
                                 While the rest of the city was celebrating the football victory against Thailand that evening, the people in the bar seemed to be discussing other topics.
                                 The staff did not speak English, but were very friendly and created some amazing cocktails for us.
