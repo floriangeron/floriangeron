@@ -187,12 +187,12 @@ export default function Laos() {
                         After visiting Thailand with his friends, Florian met up with Francesca in Bangkok airport to continue the rest of the trip together.
                         The next stop on our itinerary was Laos, a landlocked country in Southeast Asia, considered one of the most authentic and least touristy in the region.
                         <br/><br/>
-                        Unlike Thailand, which managed to remain independent during the era of European colonization, Laos (like its neighbours Cambodia and Vietnam) was a French colony until 1953. Vietnam foughts its way to independence by means of war, while Laos achieved it through negotiation. To this day, Laos and Vietnam are considered to have a "special relationship" due to their shared history and communist ideology.
+                        Unlike Thailand, which managed to remain independent during the era of European colonization, Laos (like its neighbors Cambodia and Vietnam) was a French colony until 1953. Vietnam fought its way to independence by means of war, while Laos achieved it through negotiation. To this day, Laos and Vietnam are considered to have a "special relationship" due to their shared history and communist ideology.
                         <br/><br/>
                         Linguistically, Lao is a Tai-Kadai language closely related to Thai, and the two languages are mutually intelligible to a large extent. The two countries are also close in terms of religion, with both countries being predominantly Theravada Buddhist. Laos is considered a lot more laid-back than Thailand; someone told me all go-getters have already left for Thailand, so only the bon vivants and chill people remain in Laos. <br/>
                         Despite their shared linguistic and cultural heritage with Thailand, Laos has politically and economically aligned itself more closely with Vietnam due to their shared history under French colonialism and their shared communist ideology. In modern times, China is driving a wedge between that relationship, as it has invested heavily in infrastructure projects in Laos. Vietnam sees China as a threat and is therefore unhappy with these developments.
                         <br/><br/>
-                        Laos implicitly sided with the North Vietnamese during the Vietnam war, allowing them to use its territory for supply routes and bases. These supply routes connecting North Vietnam to the South via Laos and Cambodia are known as the Ho Chi Minh Trail. These routes were heavily bombed by the US, making Laos the most heavily bombed country per capita in history. The legacy of this war is still visible today, with unexploded bombs still being found and causing casualties. These unexploded bombs, also called unexploded ordnances (UXOs), are a major issue in Laos, with an estimated 80 million UXOs still scattered across the country.
+                        Laos implicitly sided with the North Vietnamese during the Vietnam war, allowing them to use its territory for supply routes and bases. These supply routes connecting North Vietnam to the South via Laos and Cambodia are known as the Ho Chi Minh Trail. These routes were heavily bombed by the US, making Laos the most heavily bombed country per capita in history. The legacy of this war is still visible today, with unexploded bombs still being found and causing casualties. These unexploded bombs, also called unexploded ordnance (UXOs), are a major issue in Laos, with an estimated 80 million UXOs still scattered across the country.
                         <br/><br/>
                         Since the war, Vietnam has developed rapidly and become a major tourist destination. Cambodia also attracts many tourists due to the Angkor Wat temple complex and its tropical islands. Laos, on the other hand, has remained relatively under the radar, with a more laid-back vibe and less tourist infrastructure. This makes it a great destination for travelers looking to experience a more authentic and less crowded Southeast Asia.
                         <br/><br/>
@@ -200,11 +200,11 @@ export default function Laos() {
                         <br/><br/>
 
                         <h3 id="tourist-intro" className="text-2xl font-bold mb-4">Tourist Information</h3>
-                        As Laos is somewhat less touristy than its neighbours, here are some key pieces of information to keep in mind when planning a trip there.
+                        As Laos is somewhat less touristy than its neighbors, here are some key pieces of information to keep in mind when planning a trip there.
                         <br/><br/>
-                        Laos is a conservative, communist country. It is good to keep this combination of social conservatism and political authoritarianism in mind when visiting. For example, it is recommended to dress modestly and avoid public dislays of affection; We were even told holding hands in public is seen as inappropriate in Laos. However, in all honesty, we did not notice this level of conservatism during our trip.<br/>
+                        Laos is a conservative, communist country. It is good to keep this combination of social conservatism and political authoritarianism in mind when visiting. For example, it is recommended to dress modestly and avoid public displays of affection; we were even told holding hands in public is seen as inappropriate in Laos. However, in all honesty, we did not notice this level of conservatism during our trip.<br/>
                         Laos' government imposes a country-wide curfew from 11pm to 4am. We were told this decision was made to preserve Laos' local charm. It is not strictly enforced in tourist areas, but Vang Vieng's nightlife does come to an abrupt halt at 11pm.<br/>
-                        Furthermore, it is illegal for a non-Laotian to have a sexual relationship with a Lao citizen. We did not test whether this law was enforced, but is another good example of the conservative and authoritarian nature of Laos' government. We believe these laws are in place to preserve the traditional Lao culture and prevent it from becoming a destination for nightlife and sexual tourism, like Thailand.
+                        Furthermore, it is illegal for a non-Laotian to have a sexual relationship with a Lao citizen. We did not test whether this law was enforced, but it is another good example of the conservative and authoritarian nature of Laos' government. We believe these laws are in place to preserve the traditional Lao culture and prevent it from becoming a destination for nightlife and sexual tourism, like Thailand.
                         <br/><br/>
                         <div className="grid md:grid-cols-2 gap-2">
                             <figure className="md:col-span-1">
@@ -226,7 +226,7 @@ export default function Laos() {
                         </div>
                         <figcaption className="text-center text-sm text-gray-600">You will find many Lao and communist flags around Luang Prabang, incl. on hotels and cafes</figcaption>
                         <br/>
-                        Laos' infrastructure is still developing. Buses and minivans are the most common way to cover longer distances, and the roads can be in poor condition. More recently, a high-speed train was built by the Chinese, which connects Vientiane, Vang Vieng and Luang Prabang to Southern Chinese cities. We found this high-speed train to be an efficient and comfortable way to travel, with some caviats. The ticketing system is rather confusing; It does not seem possible to book your tickets more than a couple of weeks in advance. Even if you book far in advance via an agency (which is what we did), they might get back to you a couple of days before the trip that they were not able to secure your tickets (which is what happened to us). We were able to get tickets for the next day, so overall no big issue, but it was an unwelcome surprise nonetheless. The train itself is comfortable and efficient, but is mainly used by Chinese tourists. Prepare for a very Chinese experience: The travelers are not afraid to push and shove to get on and off the train (even though there is assigned seating). This got a bit overwhelming for us at times. Even though the ticketing system is unreliable and the train travelers are a bit rowdy, taking the one-hour train ride still beats the ~5 hour bus ride between Luang Prabang and Vang Vieng, for example, so we would still recommend it if you are traveling between those two cities.<br/><br/>
+                        Laos' infrastructure is still developing. Buses and minivans are the most common way to cover longer distances, and the roads can be in poor condition. More recently, a high-speed train was built by the Chinese, which connects Vientiane, Vang Vieng and Luang Prabang to Southern Chinese cities. We found this high-speed train to be an efficient and comfortable way to travel, with some caveats. The ticketing system is rather confusing; it does not seem possible to book your tickets more than a couple of weeks in advance. Even if you book far in advance via an agency (which is what we did), they might get back to you a couple of days before the trip that they were not able to secure your tickets (which is what happened to us). We were able to get tickets for the next day, so overall no big issue, but it was an unwelcome surprise nonetheless. The train itself is comfortable and efficient, but is mainly used by Chinese tourists. Prepare for a very Chinese experience: The travelers are not afraid to push and shove to get on and off the train (even though there is assigned seating). This got a bit overwhelming for us at times. Even though the ticketing system is unreliable and the train travelers are a bit rowdy, taking the one-hour train ride still beats the ~5 hour bus ride between Luang Prabang and Vang Vieng, for example, so we would still recommend it if you are traveling between those two cities.<br/><br/>
                         When covering shorter distances, motorbikes are a common and convenient way to get around. We recommend driving with caution and wearing a helmet, as the roads can be in poor condition and the traffic can be chaotic. That being said, it is a very fun and flexible way to explore the areas surrounding Vang Vieng.
                         <br/><br/>
                         <div className="grid md:grid-cols-2 gap-2">
@@ -259,11 +259,11 @@ export default function Laos() {
                         <figure>
                             <img
                                 src={"/images/travel/laos/LaosRoute.png"}
-                                alt="Route we travelled"
+                                alt="Route we traveled"
                                 className="w-full rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
                                 onClick={() => openLightbox("/images/travel/laos/LaosRoute.png")}
                             />
-                            <figcaption className="text-center text-sm text-gray-600">Route we travelled — Luang Prabang to Vang Vieng</figcaption>
+                            <figcaption className="text-center text-sm text-gray-600">Route we traveled — Luang Prabang to Vang Vieng</figcaption>
                         </figure>
 
 
@@ -281,7 +281,7 @@ export default function Laos() {
                                 <li>
                                     Nong Khiaw:
                                     <br/>
-                                    A little North of Luang Prabang lies Nong Khiaw. 
+                                    A little north of Luang Prabang lies Nong Khiaw. 
                                     Nong Khiaw is famous amongst backpackers for its hiking trails on the limestone karst mountains and its laid-back vibe along the Nam Ou river.
                                     Some people rave about it, while others we have talked to pointed out the lack of infrastructure and amenities.
                                     We heard one story of some backpackers who did a multi-day trek, but were not prepared for the freezing cold at night.
@@ -297,7 +297,7 @@ export default function Laos() {
                                 <li>
                                     Mekong Slow Boat:
                                     <br/>
-                                    Another way to enter Laos is via the Mekong River, starting in Northern Thailand and floating on the Mekong river down to Luang Prabang.
+                                    Another way to enter Laos is via the Mekong River, starting in Northern Thailand and floating on the Mekong River down to Luang Prabang.
                                     This is a popular route into Laos for backpackers and can be a very scenic and relaxing way to see the countryside.
                                     We heard from other travelers that this is a hit-or-miss experience, depending on the people you end up sharing the boat with.
                                     We met a German girl who was on a boat with a group of exclusively Dutch people, so she felt a little excluded.
@@ -306,8 +306,8 @@ export default function Laos() {
                                 <li>
                                     Pakse:
                                     <br/>
-                                    If you look at Laos on a map, you will see that the Northern part (containing Vientiane and Luang Prabang) is more developed and connected, while the Southern part forms a long and narrow strip along the Mekong river with fewer roads and more remote villages.
-                                    The main city in the South is Pakse, which is a common starting point for exploring Southern points on interest like the 4000 Islands and the Bolaven Plateau.
+                                    If you look at Laos on a map, you will see that the Northern part (containing Vientiane and Luang Prabang) is more developed and connected, while the Southern part forms a long and narrow strip along the Mekong River with fewer roads and more remote villages.
+                                    The main city in the South is Pakse, which is a common starting point for exploring Southern points of interest like the 4000 Islands and the Bolaven Plateau.
                                 </li>
                             </ul>
                         </div>
@@ -317,7 +317,7 @@ export default function Laos() {
                         <h2 id="luang-prabang" className="text-4xl font-bold mb-4">Luang Prabang</h2>
                         <h3 id="luang-prabang-city" className="text-2xl font-bold mb-4">Luang Prabang</h3>
                         
-                        Luang Prabang is the old royal capital of Laos. The entire city is a UNESCO World Heritage Site, due to a combination of its well-preserved architecture, its rich culture, and its stunning natural setting. The city is nestled between the Mekong and Nam Khan rivers and surrounded by lush green mountains. It is a charming and laid-back city, perfect for travellers who would like to take it easy and experience the local culture. The city is small enough to explore on foot, and there are plenty of cafes and restaurants to relax in.
+                        Luang Prabang is the old royal capital of Laos. The entire city is a UNESCO World Heritage Site, due to a combination of its well-preserved architecture, its rich culture, and its stunning natural setting. The city is nestled between the Mekong and Nam Khan rivers and surrounded by lush green mountains. It is a charming and laid-back city, perfect for travelers who would like to take it easy and experience the local culture. The city is small enough to explore on foot, and there are plenty of cafes and restaurants to relax in.
                         <br/><br/>
                         As Luang Prabang was the first stop on our trip, we took it easy and spent a full day just wandering around the city, soaking in the atmosphere, going to some nice restaurants, and visiting the main sights. These main sights include:
                         <div className="mb-6 leading-relaxed">
@@ -387,7 +387,7 @@ export default function Laos() {
                                 <li>
                                     The many beautiful temples:<br/>
                                     When wandering about Luang Prabang, we stumbled upon many beautiful temples. The most famous one is Wat Xieng Thong, which is located on the tip of the peninsula formed by the Mekong and Nam Khan rivers.<br/>
-                                    You will find a beautiful temple around every corner in Luang Prabang, so wondering around and popping into temples is a great way to spend some time in the city. Just be sure to dress modestly when visiting temples.
+                                    You will find a beautiful temple around every corner in Luang Prabang, so wandering around and popping into temples is a great way to spend some time in the city. Just be sure to dress modestly when visiting temples.
                                     <div className="grid md:grid-cols-2 gap-2">
                                         <figure className="md:col-span-1">
                                             <img
@@ -468,7 +468,7 @@ export default function Laos() {
                         The waterfalls themselves are a fun place to visit. The first few falls you will see are rather unimpressive, but as you walk further up the trail, you will end up at the main waterfall, which is quite stunning. It is a 60m tall waterfall, and there is a staircase which allows you to get up the hill from which the water is tumbling down. There are some cafes in treehouses here, which are a great place to relax and take in the view.<br/>
                         Swimming is allowed in the pools, but the water was too cold for our liking!<br/>
                         The park also contains the Tat Kuang Si Bear Rescue Center, which is a sanctuary for sloth bears that have been rescued from poachers. It is a nice addition to the park, but not the most memorable part of the experience. The bears were mostly sleeping during our visit, but they do seem to have nice and well-maintained enclosures.<br/> 
-                        On the way back, we asked our driver to stop at a buffalo ice cream stand that we had seen on the way there. This ice cream stand is part farm, and in hindsight we would've liked to take a tour there as well. The ice cream itself was delicious, we took the caramel and mulberry flavours and really enjoyed them both. They were an unexpected delight in the Lao countryside.
+                        On the way back, we asked our driver to stop at a buffalo ice cream stand that we had seen on the way there. This ice cream stand is part of a farm, and in hindsight we would've liked to take a tour there as well. The ice cream itself was delicious; we took the caramel and mulberry flavors and really enjoyed them both. They were an unexpected delight in the Lao countryside.
                         <div className="grid md:grid-cols-2 gap-2">
                             <figure className="md:col-span-1">
                                 <img
@@ -491,7 +491,7 @@ export default function Laos() {
                         </div>
                         <br/><br/>
                         <h4 id="luang-prabang-pak-ou" className="text-xl font-bold mb-4">Pak Ou Caves</h4>
-                        Located 25km upstream the Mekong River from Luang Prabang, the Pak Ou caves are a collection of caves that are used as a place of worship. The caves contain a thousand (small) Buddha statues, and people still come to the cave to pray and make offerings to this day. The caves are located on a cliff overlooking the Mekong river.<br/>
+                        Located 25km upstream the Mekong River from Luang Prabang, the Pak Ou caves are a collection of caves that are used as a place of worship. The caves contain a thousand (small) Buddha statues, and people still come to the cave to pray and make offerings to this day. The caves are located on a cliff overlooking the Mekong River.<br/>
                         <div className="grid md:grid-cols-3 gap-2">
                             <figure className="md:col-span-1">
                                 <img
@@ -520,7 +520,7 @@ export default function Laos() {
                         </div>
                         <figcaption className="text-center text-sm text-gray-600">Pak Ou Caves</figcaption>
                         <br/>
-                        We booked a boat to take us there from the riverfront in Luang Prabang. The boat ride takes about one hour each way, and the ride itself provides a scenic view of the Mekong river and the surrounding countryside. On our tour, the boat stopped at a small village along the way, where we got to see some local Lao marketware, such as "happy water", i.e. local liquor, often with snakes and spiders suspended in it. We booked the boat tour with a street vendor, which was a third of the price as the tours we found online, and we have no complaints about the experience.
+                        We booked a boat to take us there from the riverfront in Luang Prabang. The boat ride takes about one hour each way, and the ride itself provides a scenic view of the Mekong River and the surrounding countryside. On our tour, the boat stopped at a small village along the way, where we got to see some local Lao marketware, such as "happy water", i.e. local liquor, often with snakes and spiders suspended in it. We booked the boat tour with a street vendor, which was a third of the price as the tours we found online, and we have no complaints about the experience.
                         <div className="grid md:grid-cols-3 gap-2">
                             <figure className="md:col-span-2">
                                 <div className="grid grid-cols-2 gap-2">
@@ -591,8 +591,8 @@ export default function Laos() {
                                 </div>
 
                                 <p className="mb-6 leading-relaxed mt-2">
-                                    This delightful little hotel is located on the Nam Khan river, a short walk away from the city center.
-                                    We really liked our stay at this hotel. The reception overlooks the river, where we really could come to rest upon arriving in Luang Prabang, as well as during out breakfasts at the hotel.
+                                    This delightful little hotel is located on the Nam Khan River, a short walk away from the city center.
+                                    We really liked our stay at this hotel. The reception overlooks the river, where we really could come to rest upon arriving in Luang Prabang, as well as during our breakfasts at the hotel.
                                     The rooms are comfortable and well-maintained and the staff is very friendly and helpful. They were able to book some of our excursions for us, for example, and were always happy to help with any questions we had.
                                     The hotel does not have any other facilities to speak of next to the reception which is also the breakfast area, but it is a great place to stay if you are looking for a comfortable and relaxing place to stay that is a short walking distance from the city center.
                                     The breakfast itself was not super impressive, consisting of some coffee, juice, and fruits.
@@ -757,7 +757,7 @@ export default function Laos() {
                             <figcaption className="text-center text-sm text-gray-600">Manda de Laos</figcaption>
                         </CollapsibleReview>
                         <CollapsibleReview title="Jungala Lounge Bar" rating={4.5} scale="drink">
-                            This lounge bar is tucked away on the bank of the Nam Khan river. Due to its location you will not bump into it by accident, but we highly recommend looking it up on Maps! It is a laid-back bar where you can rest on some pillows while having some food and drinks and overlooking the Nam Khan river (the smaller of the two rivers that define Luang Prabang).<br/>
+                            This lounge bar is tucked away on the bank of the Nam Khan River. Due to its location you will not bump into it by accident, but we highly recommend looking it up on Maps! It is a laid-back bar where you can rest on some pillows while having some food and drinks and overlooking the Nam Khan River (the smaller of the two rivers that define Luang Prabang).<br/>
                             We had lunch here and dinner another day, and we enjoyed both meals. We can recommend this spot both for food but also for a romantic cocktail night.
                             <br />
                             Find it <a href="https://maps.app.goo.gl/ULLJ4P1us2te5Nnc7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
@@ -805,7 +805,7 @@ export default function Laos() {
                         <h4 id="vang-vieng-day-1" className="text-xl font-bold mb-4">Nam Xay Viewpoint and Blue Lagoon 1</h4>
                         We decided to rent a scooter at our hotel and explore the area around Vang Vieng on our own. We really recommend this to other tourists as well, as the traffic is pretty manageable and the distances are a bit too wide for non-motorized transport. The Lao people are clearly investing in the infrastructure to support tourism, as the roads were being paved as we were driving!<br/>
                         We drove to "Blue Lagoon 1", which is one of the ponds / lakes in which the mountain water collects. The water has a beautiful turquoise color, and there are some nice spots for food and drinks around the lagoon. The lagoon itself was pretty crowded though, particularly with Chinese tourists. The other lagoons aren't nearly as crowded, so in hindsight we would recommend skipping this one in favor of one of the other lagoons.<br/>
-                        After this quick dip in the blue lagoon, we drove a little further up to the Nam Xay viewpoint. After parking your motorbike, you will have to take a short but steep hike up the mountain to reach the viewpoint. The view from the top is stunning; It was the postcard view of Laos I had in my mind before travelling there myself. It is a great place to take some pictures, and the Lao people know this as well as they put some decommissioned motorbikes on the top of the mountain for some photo opportunities.<br/>
+                        After this quick dip in the blue lagoon, we drove a little further up to the Nam Xay viewpoint. After parking your motorbike, you will have to take a short but steep hike up the mountain to reach the viewpoint. The view from the top is stunning; it was the postcard view of Laos I had in my mind before traveling there myself. It is a great place to take some pictures, and the Lao people know this as well as they put some decommissioned motorbikes on the top of the mountain for some photo opportunities.<br/>
                         We reached the top of the mountain a solid 45min before sunset, which made for a great time to take some pictures. The queue for the first bike was doable, and the second one wasn't too bad either, up until the couple in front of us had their turn. They spent a solid 10min on their pictures, and we suspect they were waiting for the sunset to actually happen. At a certain point the wait became ridiculous, at which point the other people in the queue told them it was time to move on. This was an awkward situation, but this meant that we actually had one of the best times of day for our photoshoot! It did mean we felt pretty rushed though.<br/>
                         We did our photoshoot and hung around for a little while longer, but decided to start the descent before the sun had set, as we didn't want to descend in total darkness. That being said, we did notice that good artificial lighting is installed on our way down, so you could probably stay until after sunset without any issues.
                         <div className="grid md:grid-cols-2 gap-2">
@@ -828,9 +828,9 @@ export default function Laos() {
                                 <figcaption className="text-center text-sm text-gray-600">Nam Xay Viewpoint 2 (golden hour!)</figcaption>
                             </figure>
                         </div><br/>
-                        <h4 id="vang-vieng-day-2" className="text-xl font-bold mb-4">Ziplining and Kajaking </h4>
-                        On our second day in Vang Vieng, we decided to book some of the outdoor activities that Vang Vieng is known for. We booked a ziplining and kajaking tour via Get Your Guide. The operators picked us up from our hotel at the start of the day.<br/><br/>
-                        First, we drove out of the city center towards the area around Nam Xay. There we did some ziplining, which was a very fun activity. As we were going kajaking after, Florian was wearing slippers. On our way to the top, one of his slippers broke, which meant he had to complete the upward trek and downward ziplining in one slipper. Luckily, one of the guides was friendly enough to lend him one of his slippers when walking over rough terrain!<br/>
+                        <h4 id="vang-vieng-day-2" className="text-xl font-bold mb-4">Ziplining and Kauaking </h4>
+                        On our second day in Vang Vieng, we decided to book some of the outdoor activities that Vang Vieng is known for. We booked a ziplining and kayaking tour via Get Your Guide. The operators picked us up from our hotel at the start of the day.<br/><br/>
+                        First, we drove out of the city center towards the area around Nam Xay. There we did some ziplining, which was a very fun activity. As we were going kayaking after, Florian was wearing slippers. On our way to the top, one of his slippers broke, which meant he had to complete the upward trek and downward ziplining in one slipper. Luckily, one of the guides was friendly enough to lend him one of his slippers when walking over rough terrain!<br/>
                         Before flying to Laos, we had heard a real horror story about ziplining in Laos. A Belgian father and son had been ziplining in Laos, and they both died during this activity. When walking between the ziplines, they passed close to a hornet's nest, and both father and son were stung to death by the hornets. This made us feel somewhat nervous about the experience, but happily everything went smoothly for us.<br/><br/>
                         <div className="grid md:grid-cols-2 gap-2">
                             <figure className="md:col-span-1">
@@ -852,12 +852,12 @@ export default function Laos() {
                                 <figcaption className="text-center text-sm text-gray-600">The first zipline</figcaption>
                             </figure>
                         </div><br/>
-                        After the ziplining, the tour operators drove us to the river were we would do some kajaking. The kajaking was pretty fun, but the highlight was towards the end of the trip, as we made our way back into the city. As the sun was going down, the hot air balloons and paramotors were taking off all around us, making for an unforgettable view and experience.<br/><br/>
+                        After the ziplining, the tour operators drove us to the river were we would do some kayaking. The kayaking was pretty fun, but the highlight was towards the end of the trip, as we made our way back into the city. As the sun was going down, the hot air balloons and paramotors were taking off all around us, making for an unforgettable view and experience.<br/><br/>
                         <div className="grid md:grid-cols-2 gap-2">
                             <figure className="md:col-span-1">
                                 <img
                                     src="/images/travel/laos/vangvieng/Kajak1.JPG"
-                                    alt="Kajak 1"
+                                    alt="Kayak 1"
                                     className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
                                     onClick={() => openLightbox('/images/travel/laos/vangvieng/Kajak1.JPG')}
                                 />
@@ -865,15 +865,15 @@ export default function Laos() {
                             <figure className="md:col-span-1">
                                 <img
                                     src="/images/travel/laos/vangvieng/Kajak2.JPG"
-                                    alt="Kajak 2"
+                                    alt="Kayak 2"
                                     className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
                                     onClick={() => openLightbox('/images/travel/laos/vangvieng/Kajak2.JPG')}
                                 />
                             </figure>
                         </div>
-                        <figcaption className="text-center text-sm text-gray-600">Kajaking fun</figcaption>
+                        <figcaption className="text-center text-sm text-gray-600">Kayaking fun</figcaption>
                         <br/>
-                        After the kajaking, the tour operators want to leave us at the riverside, even though the tour description specified we would be dropped off back at our hotel. They dropped us off and told us to walk back, but this wasn't really an option as Florian only had one slipper at this point. In the end, they solved the problem by giving us a lift back to our hotel on the back of their motorbike. This was a rather exciting experience, but we made it back in one piece!<br/><br/>
+                        After the kayaking, the tour operators wanted to leave us at the riverside, even though the tour description specified we would be dropped off back at our hotel. They dropped us off and told us to walk back, but this wasn't really an option as Florian only had one slipper at this point. In the end, they solved the problem by giving us a lift back to our hotel on the back of their motorbike. This was a rather exciting experience, but we made it back in one piece!<br/><br/>
                         Overall, we enjoyed the tour, but we were somewhat annoyed by the logistical management of the tour operator, as we spent a lot of time waiting around between the different activities and getting moved from one minivan into another, which felt sketchy.
                         <div className="grid md:grid-cols-2 gap-2">
                             <figure className="md:col-span-1">
@@ -961,7 +961,7 @@ export default function Laos() {
                                     Upon arrival, we wanted to take a bath in the bathroom to enjoy the view, but the water did not get hot. We called the reception and they sent someone to fix it, but after many attempts and an hour of lost time, they decided to switch our room. The new room's bath did have some hot water, but it ran out pretty quickly. It took us a lot of time to get enough hot water out for a comfortable bath, at which point our frustration had built up quite a bit. Sometime after nightfall, I made my way to the reception to ask for an additional towel. I entered the reception building which was across a lawn from the room, but I did not find the receptionist. Instead, there was a man lying on some rags on the floor of the reception. Not knowing whether this man was a homeless person, I got very uncomfortable and left the reception without asking for a towel. This entire interaction made us feel very uneasy. This feeling was compounded by the fact that two of the room's walls are made of glass. Normally, this would be a great feature of the room given its location amidst the mountains, but in this case, it made us feel very exposed and vulnerable. The next day, upon asking the receptionist about this interaction, we were informed that this man is the hotel's nighttime guard.<br/>
                                     Some other experiences with the hotel's staff showed us that they were well-meaning, but were not trained to work in the service industry. For example, there are some nice, expensive Italian coffee machines at the breakfast area. Upon asking for a coffee, the staff simply told us to use the water boiler and coffee powder in the room. The breakfast itself was quite nice and varied, though.<br/>
                                     Some other examples include the staff not replacing our towels after cleaning the room and providing us with scooters with worn-down brakes. Because of our issues with the Lao trains, we booked an extra night with them. Instead of giving us a discount because of our troubles, they wanted to ask a higher rate due to weekend rates (even though the hotel was nowhere near fully booked). They did end up giving us the original rate upon some discussion, but this was a frustrating experience as well and showed their lack of understanding of the service industry.<br/>
-                                    All-in-all, the hotel has very modern and clean rooms and is located just outside of the city center, a short walk away from the Vang Vieng nightlife. If you are looking for a hotel with stunning views, modern facilities, and don't mind some friction in the service, this hotel is a good option. Just don't expect a home run in terms of the service experience. Most hotels in Vang Vieng cater to the party / backpacker crowd, and this hotel defintely offers a more relaxed experience.
+                                    All in all, the hotel has very modern and clean rooms and is located just outside of the city center, a short walk away from the Vang Vieng nightlife. If you are looking for a hotel with stunning views, modern facilities, and don't mind some friction in the service, this hotel is a good option. Just don't expect a home run in terms of the service experience. Most hotels in Vang Vieng cater to the party / backpacker crowd, and this hotel definitely offers a more relaxed experience.
                                     <br />
                                     Find it <a href="https://maps.app.goo.gl/1Y8YqDRqkySURCtM9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
 
@@ -986,7 +986,7 @@ export default function Laos() {
                             Find it <a href="https://maps.app.goo.gl/bejz3TRTjC27CXVZ6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
                         <CollapsibleReview title="BaanLao café" rating={3.5} scale="food">
-                            We enjoyed some brunch here to start one of our adventurous days in Vang Vieng. We weren't blown away by the food or the service, but the restaurant has a unique terrace overlooking the Lao countryside, which is a nice place to relax and have a meal. It also present a nice photo opportunity, which the Chinese tourists had spotted as well.
+                            We enjoyed some brunch here to start one of our adventurous days in Vang Vieng. We weren't blown away by the food or the service, but the restaurant has a unique terrace overlooking the Lao countryside, which is a nice place to relax and have a meal. It also presents a nice photo opportunity, which the Chinese tourists had spotted as well.
                             <br />
                             Find it <a href="https://maps.app.goo.gl/L9sX1FSprUf84Svu7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
 
@@ -1007,8 +1007,8 @@ export default function Laos() {
                             Find it <a href="https://maps.app.goo.gl/yohX8fE7uBynyC3Z8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
                         <CollapsibleReview title="Vang Vieng Food Court" rating={4} scale="hotdog">
-                            Hidden in an alley on the main street, we stumbled upon this food court on our first night in Vang Vieng. We ended visiting a couple of times, as we liked the collection of (weird) food on offer here, ranging from local Lao food to Thai, Chinese, and Korean stands. Some of the stands had great food and friendly service, while others were less of a success. We had one particularly bad interaction where we had ordered two dishes, but the lady only prepared one. After bringing it to her attention, she went to work but gave us the wrong dish. After telling her we can't eat that dish due to allergies, she finally prepared the right one, but by that time we were 45min later, at which point we were quite frustrated.<br/>
-                            The food court has a authentic and lively vibe, and overall we enjoyed coming here and trying new things. The infrastructure is quite basic and the electricity even blacked out a couple of times, but this didn't diminish the atmosphere of the court, as people pulled out lanterns. We would recommed this court if you're looking for a more authentic food experience in Vang Vieng.
+                            Hidden in an alley on the main street, we stumbled upon this food court on our first night in Vang Vieng. We ended up visiting a couple of times, as we liked the collection of (weird) food on offer here, ranging from local Lao food to Thai, Chinese, and Korean stands. Some of the stands had great food and friendly service, while others were less of a success. We had one particularly bad interaction where we had ordered two dishes, but the lady only prepared one. After bringing it to her attention, she went to work but gave us the wrong dish. After telling her we can't eat that dish due to allergies, she finally prepared the right one, but by that time we were 45min later, at which point we were quite frustrated.<br/>
+                            The food court has a authentic and lively vibe, and overall we enjoyed coming here and trying new things. The infrastructure is quite basic and the electricity even blacked out a couple of times, but this didn't diminish the atmosphere of the court, as people pulled out lanterns. We would recommend this court if you're looking for a more authentic food experience in Vang Vieng.
                             <br />
                             Find it <a href="https://maps.app.goo.gl/vBqiryqa39dYH3gk7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
 
