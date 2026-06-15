@@ -183,21 +183,53 @@ export default function Thailand() {
                         {/* Our Journey */}
                         <h2 id="our-journey" className="text-4xl font-bold mb-4">Our Journey</h2>
                         <h3 id="background" className="text-2xl font-bold mb-4">Background</h3>
+                        Every year, Florian goes on vacation with his group of high school friends. As some of us are now approaching 30, we decided to do a more adventurous trip than our usual European city trip.
+                        <br/><br/>
+
                         <h3 id="tourist-intro" className="text-2xl font-bold mb-4">Tourist Information</h3>
+                        Thailand is a well-known tourist destination and is rather easy to travel in for Western tourists. The country has well-developed tourist infrastructure and the people are used to tourists, meaning you will probably get by with English, and if not they will try their best to help you.<br/><br/>
+                        The best time to visit is during the dry season, from November to April. We went in November and had great weather throughout the trip.<br/><br/>
+                        I personally divide the country into three main regions: the north where you will find the mountains, jungles, and temple complexes; the south where you will find beautiful islands and beaches; and the capital Bangkok, a huge city with towering skyscrapers, truly one of the great cities of the world.
+                        <br/><br/> 
                         <h3 id="what-we-did" className="text-2xl font-bold mb-4">What we did</h3>
+                        With only two weeks, building our itinerary was a challenge. The question was whether to follow a more completionist approach and try to see as much of the country as possible, or to focus on a few places and take a more relaxed approach. After some calls and discussions, we decided to have a more completionist itinerary, as many people weren't sure they would go back to Thailand anytime soon. <br/><br/>
+                        We took a flight from Brussels to Bangkok (via Qatar), and immediately took a domestic flight north to Chiang Mai. In this area, we spent one night in Chiang Mai and three nights in Pai. We then took another domestic flight south to Phuket. We spent three nights in Phuket, and then took a ferry to Koh Phi Phi, where we spent one night. We then took a ferry to Ao Nang, where we spent another night. From there, we took a minivan to Khao Sok, where we spent three nights. Initially, we were planning to stay here two nights and take the night train back to Bangkok, but this train was cancelled last minute due to a natural disaster, so we had to stay in the area another night and take a flight to Bangkok the next day. We spent the last three nights of our trip in Bangkok.<br/><br/>
+                        Picture<br/><br/>
+                        In hindsight, I would have preferred a more relaxed itinerary, as we spent a lot of time traveling. This is fun to do when traveling with friends, but I do think we missed some of the slow travel experience that would have been typical of relaxed places like Pai and the islands. That being said, many of my friends said they wouldn't have wanted it any other way, as we got to see a lot of the country in a short time. 
+                        <br/><br/>
                         <h3 id="what-we-skipped" className="text-2xl font-bold mb-4">What we skipped</h3>
+                        - Gulf of Thailand (Koh Samui, Koh Pha Ngan, Koh Tao)<br/>
+                        - Ayutthaya<br/>
+                        - Sukhothai<br/>
+                        - Northern mountain areas (Chiang Rai (temples!), Golden Triangle)<br/>
+                        - Other islands (Ko Lipe, Koh Lanta, etc.)<br/><br/>
+                        We had to skip these places due to time constraints, but they are all on the list for future trips!
 
                         {/* Chiang Mai */}
                         <h2 id="chiang-mai" className="text-4xl font-bold mb-4">Chiang Mai</h2>
+                        <h3 id="chiang-mai-city" className="text-2xl font-bold mb-4">Chiang Mai</h3>
+                        <h3 id="pai" className="text-2xl font-bold mb-4">Pai</h3>
+                        <h3 id="chiang-mai-food-drinks" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
 
-                        {/* Andaman Sea */}
-                        <h2 id="andaman-sea" className="text-4xl font-bold mb-4">Andaman Sea</h2>
+                        {/* Phuket, Koh Phi Phi, Ao Nang */}
+                        <h2 id="phuket-ao-nang" className="text-4xl font-bold mb-4">Phuket to Ao Nang</h2>
+                        <h3 id="phuket" className="text-2xl font-bold mb-4">Phuket</h3>
+                        <h3 id="koh-phi-phi" className="text-2xl font-bold mb-4">Koh Phi Phi</h3>
+                        <h3 id="ao-nang" className="text-2xl font-bold mb-4">Ao Nang</h3>
+                        <h3 id="islands-food-drinks" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
 
                         {/* Khao Sok */}
                         <h2 id="khao-sok" className="text-4xl font-bold mb-4">Khao Sok</h2>
+                        <h3 id="khao-sok-natural-park" className="text-2xl font-bold mb-4">Khao Sok Natural Park</h3>
+                        <h3 id="khao-sok-food-drinks" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
 
                         {/* Bangkok */}
                         <h2 id="bangkok" className="text-4xl font-bold mb-4">Bangkok</h2>
+                        <h3 id="bangkok-city" className="text-2xl font-bold mb-4">Bangkok City</h3>
+                        <h3 id="bangkok-food-drinks" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
+
+                        {/* Hotels */}
+                        <h2 id="hotel-reviews" className="text-4xl font-bold mb-4">Hotel Reviews</h2>
 
                     </main>
 
@@ -213,19 +245,55 @@ export default function Thailand() {
                                 <li>
                                     <a href="#chiang-mai" onClick={(e) => handleTocClick(e, 'chiang-mai')} className="block w-full text-left pl-20 font-bold hover:underline">Chiang Mai</a>
                                 </li>
+                                    <li>
+                                        <a href="#chiang-mai-city" onClick={(e) => handleTocClick(e, 'chiang-mai-city')} className="block w-full text-right hover:underline">Chiang Mai City</a>
+                                    </li>
+                                    <li>
+                                        <a href="#pai" onClick={(e) => handleTocClick(e, 'pai')} className="block w-full text-right hover:underline">Pai</a>
+                                    </li>
+                                    <li>
+                                        <a href="#chiang-mai-food-drinks" onClick={(e) => handleTocClick(e, 'chiang-mai-food-drinks')} className="block w-full text-right hover:underline">Food & Drinks Reviews</a>
+                                    </li>
                                 <li>
-                                    <a href="#andaman-sea" onClick={(e) => handleTocClick(e, 'andaman-sea')} className="block w-full text-left pl-20 font-bold hover:underline">Andaman Sea</a>
+                                    <a href="#phuket-ao-nang" onClick={(e) => handleTocClick(e, 'phuket-ao-nang')} className="block w-full text-left pl-20 font-bold hover:underline">Phuket to Ao Nang</a>
                                 </li>
+                                    <li>
+                                        <a href="#phuket" onClick={(e) => handleTocClick(e, 'phuket')} className="block w-full text-right hover:underline">Phuket</a>
+                                    </li>
+                                    <li>
+                                        <a href="#koh-phi-phi" onClick={(e) => handleTocClick(e, 'koh-phi-phi')} className="block w-full text-right hover:underline">Koh Phi Phi</a>
+                                    </li>
+                                    <li>
+                                        <a href="#ao-nang" onClick={(e) => handleTocClick(e, 'ao-nang')} className="block w-full text-right hover:underline">Ao Nang</a>
+                                    </li>
+                                    <li>
+                                        <a href="#islands-food-drinks" onClick={(e) => handleTocClick(e, 'islands-food-drinks')} className="block w-full text-right hover:underline">Food & Drinks Reviews</a>
+                                    </li>
                                 <li>
                                     <a href="#khao-sok" onClick={(e) => handleTocClick(e, 'khao-sok')} className="block w-full text-left pl-20 font-bold hover:underline">Khao Sok</a>
                                 </li>
+                                    <li>
+                                        <a href="#khao-sok-natural-park" onClick={(e) => handleTocClick(e, 'khao-sok-natural-park')} className="block w-full text-right hover:underline">Khao Sok Natural Park</a>
+                                    </li>
+                                    <li>
+                                        <a href="#khao-sok-food-drinks" onClick={(e) => handleTocClick(e, 'khao-sok-food-drinks')} className="block w-full text-right hover:underline">Food & Drinks Reviews</a>
+                                    </li>
                                 <li>
                                     <a href="#bangkok" onClick={(e) => handleTocClick(e, 'bangkok')} className="block w-full text-left pl-20 font-bold hover:underline">Bangkok</a>
+                                </li>
+                                    <li>
+                                        <a href="#bangkok-city" onClick={(e) => handleTocClick(e, 'bangkok-city')} className="block w-full text-right hover:underline">Bangkok City</a>
+                                    </li>
+                                    <li>
+                                        <a href="#bangkok-food-drinks" onClick={(e) => handleTocClick(e, 'bangkok-food-drinks')} className="block w-full text-right hover:underline">Food & Drinks Reviews</a>
+                                    </li>
+                                <li>
+                                    <a href="#hotel-reviews" onClick={(e) => handleTocClick(e, 'hotel-reviews')} className="block w-full text-left pl-20 font-bold hover:underline">Hotel Reviews</a>
                                 </li>
                             </ul>
                         </nav>
 
-                        <div className="sticky top-[435px] self-start flex items-center justify-end mb-4 hover:scale-105 transition-transform duration-300">
+                        <div className="sticky top-[575px] self-start flex items-center justify-end mb-4 hover:scale-105 transition-transform duration-300">
                             <label htmlFor="font-size-select" className="mr-2 text-sm text-gray-600">Text size</label>
                             <select
                                 id="font-size-select"
