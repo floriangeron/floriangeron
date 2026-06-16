@@ -208,8 +208,42 @@ export default function Thailand() {
                         {/* Chiang Mai */}
                         <h2 id="chiang-mai" className="text-4xl font-bold mb-4">Chiang Mai</h2>
                         <h3 id="chiang-mai-city" className="text-2xl font-bold mb-4">Chiang Mai</h3>
+                        Chiang Mai is the largest city in northern Thailand and somewhat of a gateway to the region's mountains, jungles, and temples. The city itself is charmging to visit too; The old town is surrounded by a moat, which, compared to most European moats, is rectangular rather than circular. The city contains many beautiful temples and the night market is a great place to buy some souvenirs and try some street food. At the time, I did not buy any souvenirs as it was the first stop of our trip and I thought we would see many more nighet markets, but in hindsight I wish I bought some souvenirs as the Chiang Mai night market was one of the larger ones we visited in the country.<br/><br/>
+                        We arrived in Chiang Mai at noon and left the next day in the late afternoon, which gave us some time to see the main highlights of the city.<br/><br/>
+                        To immediately fight back against the jetlag, we started with an afternoon temple tour:<br/>
+                        - Wat Si Soda<br/>
+                        - Wat Pha Lat<br/>
+                        - Wat Phra That Doi Suthep<br/>
+
+                        In the evening, we went to a small night market near our hotel for some food, before heading into the main night market for the classic tourist experience.<br/><br/>
+
+                        The following day, we visited some more temples:<br/>
+                        - Wat Lok Molee<br/>
+                        - Wat Rajamontean<br/>
+                        - Wat Phra Singh Waramahavihan<br/>
+                        - Wat Chiang Man<br/><br/>
+
+                        At around 2PM, we got into a minivan for a four hour ride through the mountains to Pai.<br/><br/>
+
+
                         <h3 id="pai" className="text-2xl font-bold mb-4">Pai</h3>
                         <h3 id="chiang-mai-food-drinks" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
+                        <CollapsibleReview title="Chiang Mai Charmm Bar & Restaurant" rating={5} scale="food">
+                            For our first lunch in Thailand, we wandered into this restaurant on the edge of the Chiang Mai old town. This restaurant was a slam dunk for our first meal in Thailand, as we got delicious food for trademark low Thai prices. Most of us ordered the Khao Soi, a traditional northern Thai coconut curry dish, and it was fantastic. The staff was very friendly too. The only downside was that the AC was a bit too cold for us, but this is a common issue for Europeans traveling in Thailand.
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/2GrxHfXiRFBosWhJ6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+                        <CollapsibleReview title="Chang Phuak Market" rating={4} scale="food">
+                            We visited this local market on our first night in Chiang Mai. We were some of the only tourists there, but we still felt very welcome and comfortable. We all tried different dishes like curries and noodles, and overall we all enjoyed our food here. I personally tried two classic Thai dessert: mango sticky rice and roti (a Thai banana pancake) with condensed milk, and both were delicious. This night market is a recommendation if you'd like to try some true local food in Chiang Mai.
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/DDzPycu11hgYfW148" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+                        <CollapsibleReview title="Restaurant under SN Apartment 201" rating={3.5} scale="food">
+                            For our second lunch in Chiang Mai, we tried a local restaurant in the street of our hotel. I cannot find this restaurant on Google Maps, but the restaurant is located next the SN Apartment 201 hotel, so you can find it there if you'd like!<br/>
+                            This restaurant provided another local experience, and most of us had some khao soi again, which was good but slightly less impressive than the oone we had in Charmm. The staff was friendly and the prices were very low, but the restaurant itself was a bit dirty and run-down. Endearingly, the restaurant had some official-looking pictures of Thai people on the wall, holding diplomas or awards, which we assume are the family members of the restaurant owners.
+                            <br />
+                        </CollapsibleReview>
+
 
                         {/* Phuket, Koh Phi Phi, Ao Nang */}
                         <h2 id="phuket-ao-nang" className="text-4xl font-bold mb-4">Phuket to Ao Nang</h2>
@@ -230,6 +264,52 @@ export default function Thailand() {
 
                         {/* Hotels */}
                         <h2 id="hotel-reviews" className="text-4xl font-bold mb-4">Hotel Reviews</h2>
+                        Florian took this trip with seven of his friends, so this hotel review section will be written from the perspective of a group of eight people in their late 20s traveling together. These reviews might therefore not be the most relatable for solo travelers or couples!<br/><br/>
+
+                        <details className="group mb-6 rounded-md">
+                            <summary className="flex items-center justify-between p-4 cursor-pointer">
+                                <div className="flex items-center">
+                                    <svg className="chev h-5 w-5 mr-3 text-gray-600" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+                                        <path d="M6 8l4 4 4-4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+                                    </svg>
+                                    <h4 id="hotel-1" className="text-1xl font-bold m-0">Chiang Mai: The White Elephant Home</h4>
+                                </div>
+                                <div className="flex items-center">
+                                    <StarScale rating={4} />
+                                </div>
+                            </summary>
+
+                            <div className="px-4 pb-4 collapsible-body">
+                                <div className="max-w-6xl mx-auto">
+                                    <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-8 mb-8">
+                                        <div className="flex items-center">
+                                            <StarLine rating={8} max={10} title='Staff' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={6} max={10} title='Facilities' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={8} max={10} title='Cleanliness' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={9} max={10} title='Comfort' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={7} max={10} title='Location' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={8} max={10} title='Value for Money' />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <p className="mb-6 leading-relaxed mt-2">
+                                    xxxx.
+                                    <br />
+                                    Find it <a href="https://maps.app.goo.gl/2QL4BqunXzQFhyXRA" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                                </p>
+                            </div>
+                        </details>
 
                     </main>
 
