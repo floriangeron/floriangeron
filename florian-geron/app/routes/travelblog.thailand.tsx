@@ -203,7 +203,6 @@ export default function Thailand() {
                         - Sukhothai<br/>
                         - Northern mountain areas (Chiang Rai (temples!), Golden Triangle)<br/>
                         - Other islands (Ko Lipe, Koh Lanta, etc.)<br/><br/>
-                        We had to skip these places due to time constraints, but they are all on the list for future trips!
 
                         {/* Chiang Mai */}
                         <h2 id="chiang-mai" className="text-4xl font-bold mb-4">Chiang Mai</h2>
@@ -234,7 +233,7 @@ export default function Thailand() {
                             Find it <a href="https://maps.app.goo.gl/2GrxHfXiRFBosWhJ6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
                         <CollapsibleReview title="Chang Phuak Market" rating={4} scale="food">
-                            We visited this local market on our first night in Chiang Mai. We were some of the only tourists there, but we still felt very welcome and comfortable. We all tried different dishes like curries and noodles, and overall we all enjoyed our food here. I personally tried two classic Thai dessert: mango sticky rice and roti (a Thai banana pancake) with condensed milk, and both were delicious. This night market is a recommendation if you'd like to try some true local food in Chiang Mai.
+                            We visited this local market on our first night in Chiang Mai. We were some of the only tourists there, but we still felt very welcome and comfortable. We all tried different dishes like curries and noodles, and overall we all enjoyed our food here. I personally tried two classic Thai desserts: mango sticky rice and roti (a Thai banana pancake) with condensed milk, and both were delicious. This night market is a recommendation if you'd like to try some true local food in Chiang Mai.
                             <br />
                             Find it <a href="https://maps.app.goo.gl/DDzPycu11hgYfW148" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
@@ -304,9 +303,55 @@ export default function Thailand() {
                                 </div>
 
                                 <p className="mb-6 leading-relaxed mt-2">
-                                    xxxx.
+                                    This hotel provided a comfortable stay for our time in Chiang Mai. We had a little standalone building all to ourselves, as well as some rooms in the main building. This allowed us to have some privacy and a place to hang out together. The hotel is located a bit outside of the city center, but still within walking distance of the old town. The staff was very friendly and helpful. The breakfast was fine, but not particularly big for European standards. During breakfast, the lady gave me a second portion without charging me for it. My friend asked for a second portion too, but his second portion ended up on the bill! We got a good laugh out of this, but it's a good example of differing service norms in Thailand compared to Europe. Overall, I would recommend this hotel for a stay in Chiang Mai, especially for a larger groups.
                                     <br />
                                     Find it <a href="https://maps.app.goo.gl/2QL4BqunXzQFhyXRA" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                                </p>
+                            </div>
+                        </details>
+
+                        <details className="group mb-6 rounded-md">
+                            <summary className="flex items-center justify-between p-4 cursor-pointer">
+                                <div className="flex items-center">
+                                    <svg className="chev h-5 w-5 mr-3 text-gray-600" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+                                        <path d="M6 8l4 4 4-4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+                                    </svg>
+                                    <h4 id="hotel-1" className="text-1xl font-bold m-0">The Sylvana Pai Hotel</h4>
+                                </div>
+                                <div className="flex items-center">
+                                    <StarScale rating={4.5} />
+                                </div>
+                            </summary>
+
+                            <div className="px-4 pb-4 collapsible-body">
+                                <div className="max-w-6xl mx-auto">
+                                    <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-8 mb-8">
+                                        <div className="flex items-center">
+                                            <StarLine rating={7} max={10} title='Staff' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={7} max={10} title='Facilities' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={8} max={10} title='Cleanliness' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={9} max={10} title='Comfort' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={10} max={10} title='Location' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={9} max={10} title='Value for Money' />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <p className="mb-6 leading-relaxed mt-2">
+                                    This hotel provided a very convenient and comfortable stay in Pai. The hotel consists of small standalone bungalows, surrounding a calm outdoor area with a pool. The hotel is located right off the main walking street in Pai, which makes it a very convenient location for exploring the town. The hotel itself is very calm and quiet, while still being right in the middle of the action.<br/>
+                                    The staff wasn't particularly friendly or helpful, but they were polite and professional. The hotel does not provide breakfast, but there are many restaurants nearby. Overall, I would recommend this hotel for a stay in Pai if you want a peaceful stay close to the city center.
+                                    <br />
+                                    Find it <a href="https://maps.app.goo.gl/EXyz5XSertue7GAu6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                                 </p>
                             </div>
                         </details>
