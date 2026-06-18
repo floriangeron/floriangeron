@@ -188,9 +188,27 @@ export default function Thailand() {
 
                         <h3 id="tourist-intro" className="text-2xl font-bold mb-4">Tourist Information</h3>
                         Thailand is a well-known tourist destination and is rather easy to travel in for Western tourists. The country has well-developed tourist infrastructure and the people are used to tourists, meaning you will probably get by with English, and if not they will try their best to help you.<br/><br/>
-                        The best time to visit is during the dry season, from November to April. We went in November and had great weather throughout the trip.<br/><br/>
                         I personally divide the country into three main regions: the north where you will find the mountains, jungles, and temple complexes; the south where you will find beautiful islands and beaches; and the capital Bangkok, a huge city with towering skyscrapers, truly one of the great cities of the world.
                         <br/><br/> 
+                        Here is are a couple of tips for visiting the country:
+                        <ul className="list-disc pl-5 space-y-1">
+                            <li>
+                                <strong>Currency: </strong>Thailand's currency is the Thai Baht (THB). We did not carry any cash when flying in to the country, which do not really cause an issue as we were able to pay for the things we needed upon arrival (Grab, e-SIM, etc.) with our credit cards. I would strongly recommend getting a <strong>Revolut</strong> card or similar, as this made paying in Baht very easy. After arriving in the city center, we got some cash out of the ATMs for small purchases at restaurants and local markets.
+                            </li>
+                            <li>
+                                <strong>Logistics: </strong>Like in the rest of Southeast Asia, <strong>Grab</strong> is king when it comes to getting around short distances. Grab also offers other services like food delivery. Next to cars, Grab also offers motorbike taxis, which are a fast and exhillerating way to get around. For longer distances with ferries, trains, and flights, <strong>12GoAsia</strong> is the go-to platform for booking tickets.
+                            </li>
+                            <li>
+                                <strong>e-SIM: </strong>Getting an e-SIM has never been easier thanks to apps like Saily, Nomad, and Revolut. We installed the e-SIM before arriving and can highly recommend doing this as it's a convenient way to stay connected while traveling.
+                            </li>
+                            <li>
+                                <strong>Weather: </strong>The best time to visit is during the dry season, from November to April. We went in November and had great weather throughout the trip.
+                            </li>
+                            <li>
+                                <strong>Vaccinations: </strong>Make sure to check the latest vaccination recommendations for Thailand, as they can change over time. When we went, it was recommended to have vaccinations for Hepatitis A and B, Typhoid, and Tetanus. As I stayed in Southeast Asia for a longer period, I also had vaccinations for Japanese Encephalitis and Rabies, but these are not typically necessary for a short trip to Thailand.
+                            </li>
+                        </ul>
+                        <br /><br />
                         <h3 id="what-we-did" className="text-2xl font-bold mb-4">What we did</h3>
                         With only two weeks, building our itinerary was a challenge. The question was whether to follow a more completionist approach and try to see as much of the country as possible, or to focus on a few places and take a more relaxed approach. After some calls and discussions, we decided to have a more completionist itinerary, as many people weren't sure they would go back to Thailand anytime soon. <br/><br/>
                         We took a flight from Brussels to Bangkok (via Qatar), and immediately took a domestic flight north to Chiang Mai. In this area, we spent one night in Chiang Mai and three nights in Pai. We then took another domestic flight south to Phuket. We spent three nights in Phuket, and then took a ferry to Koh Phi Phi, where we spent one night. We then took a ferry to Ao Nang, where we spent another night. From there, we took a minivan to Khao Sok, where we spent three nights. Initially, we were planning to stay here two nights and take the night train back to Bangkok, but this train was cancelled last minute due to a natural disaster, so we had to stay in the area another night and take a flight to Bangkok the next day. We spent the last three nights of our trip in Bangkok.<br/><br/>
