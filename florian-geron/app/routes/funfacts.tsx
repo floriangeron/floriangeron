@@ -157,7 +157,10 @@ const funfacts = [
     "While jeans are heavily linked to the US in popular culture, the etymology of this word tells a different story. The word 'jeans' derives from the city of Genoa (Gênes in French), where sailors and workers wore a durable, twilled cotton fabric. The related fabric 'denim' originates from 'serge de Nîmes', a sturdy fabric produced in Nîmes, France. This fabric and garment were then popularized in the US by Levi Strauss and Jacob Davis, who patented riveted work pants in 1873.",
     "For their space program, the Soviet Union launched dozens of rockets with dogs. For a myriad of reasons, they preferred stray, female dogs for these missions.\n\nThis means that, if you lost your dog in Moscow in the 50s or 60s, there was a real possibility that it would end up in space.",
     "The first people to spend the winter in Antarctica were the crew of the Belgian expedition aboard the Belgica, led by captain Adrien de Gerlache, after their ship became trapped in pack ice in 1898.\n\nOne of the crew members was a young Norwegian named Roald Amundsen, who would later become the first person to reach the South Pole in 1911.",
-    
+    "Iceland has a relatively small population of less than 400 thousand people. Iceland has an application, connected to the national geneology database, that has a feature that allows you to check how closely related you are to another person. This is widely used to avoid dating close relatives.",
+    "The Russian word for 'bear' is 'медведь' (medved), which literally translates to 'honey-eater'. It is believed that there used to be another word for bear in Russian, but it was replaced by this euphemistic term to avoid invoking the bear's name, which was considered dangerous or unlucky.",
+    "In the Philippines, a predominantly Catholic country, it is not possible to file for divorce.\nThere are exceptions for Muslim citizens, who can divorce under Islamic law.",
+    "Which came first, the grenade (weapon) or the pomegranate (fruit)?\nBoth words trace their etymology back to the Latin granum, which means seed. Words like grain and granular also derive from this word.\nThis word was first applied to the fruit, as the Latin pomum granatum means 'fruit with many seeds'. The latter part of this Latin name was then taken as the name of the weapon.",
 
 ]
 
