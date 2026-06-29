@@ -269,6 +269,11 @@ export default function Thailand() {
                             This restaurant provided another local experience, and most of us had some khao soi again, which was good but slightly less impressive than the oone we had in Charmm. The staff was friendly and the prices were very low, but the restaurant itself was a bit dirty and run-down. Endearingly, the restaurant had some official-looking pictures of Thai people on the wall, holding diplomas or awards, which we assume are the family members of the restaurant owners.
                             <br />
                         </CollapsibleReview>
+                        <CollapsibleReview title="Pai Siam Bar & Bistro" rating={3.5} scale="food">
+                            xxx.
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/SsRWnAdcF9X9zfi68" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
 
 
                         {/* Phuket, Koh Phi Phi, Ao Nang */}
