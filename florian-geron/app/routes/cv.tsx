@@ -33,11 +33,24 @@ export default function CV() {
                 <p className="italic">Brussels, Belgium</p>
               </div>
               <div className="flex justify-between">
-                <p className="font-bold">Senior Data Scientist</p>
-                <p className="italic">Sept 2023 - Present</p>
+                <p className="font-bold">Manager - Data Science and AI</p>
+                <p className="italic">June 2026 - Present</p>
               </div>
               <p>
-              Data Scientist with a focus on implementing Machine Learning solutions related to Generative AI, Natural Language Processing, and Computer Vision. My responsibilities include:
+              As Manager within Consulting & Advisory, I continue focusing on data science and AI. My responsibilities include:
+              <ul className="list-disc pl-10">
+                <li>Leading client engagements in data science and AI</li>
+                <li>Leading (AI) software development tracks</li>
+                <li>Team management (e.g. performance reviews, delivering trainings, hiring)</li>
+                <li>Business development (e.g. projecting team capabilities, leading sales calls, representing the team at events)</li>
+              </ul>
+              </p>
+              <div className="flex justify-between">
+                <p className="font-bold">Senior Data Scientist</p>
+                <p className="italic">Sept 2023 - May 2026</p>
+              </div>
+              <p>
+              Data Scientist with a focus on implementing Machine Learning solutions related to Generative AI, Natural Language Processing, and Computer Vision. My responsibilities included:
               <ul className="list-disc pl-10">
                 <li>Product Manager of an in-house developed, Gen AI-powered regulatory intellegence solution</li>
                 <li>Team Leader of the technical/data science team at several client engagements</li>

@@ -785,8 +785,8 @@ export default function Laos() {
                             Find it <a href="https://maps.app.goo.gl/W3vfQBbM4wQugHMBA" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
                         <CollapsibleReview title="Luang Prabang Night Market" rating={4} scale="hotdog">
-                            The food section of the Luang Prabang night market is a great place to try a variety of South-East Asian dishes.
-                            They serve Lao dishes (lie larb and papaya salad), but also South-East Asian classics like Thai curries and mango sticky rice (a favorite of ours). The food is delicious and very affordable, making it a great option for a casual meal in the evening. 
+                            The food section of the Luang Prabang night market is a great place to try a variety of Southeast Asian dishes.
+                            They serve Lao dishes (lie larb and papaya salad), but also Southeast Asian classics like Thai curries and mango sticky rice (a favorite of ours). The food is delicious and very affordable, making it a great option for a casual meal in the evening. 
                             The only downside is that the seating area can get quite crowded and noisy, which can detract from the dining experience. When we arrived it was quite calm at first, but then a bus of Chinese tourists arrived and weren't afraid to let everyone know they had arrived.
                             <br />
                             Find it <a href="https://maps.app.goo.gl/9yLQmSdX9rorxyGq9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
