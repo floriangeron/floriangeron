@@ -62,6 +62,31 @@ export default function Thailand() {
         setLightboxSrc(src);
     }
 
+    // Captions for the carousel images
+    const imgCaptionTemples = [
+        "Wat Si Soda",
+        "Wat Si Soda",
+        "Wat Si Soda",
+        "Wat Pha Lat",
+        "Wat Pha Lat",
+        "Wat Pha Lat",
+        "Wat Pha Lat",
+        "Wat Phra That Doi Suthep",
+        "Wat Phra That Doi Suthep",
+    ]; 
+
+    // Captions for the carousel images
+    const imgCaptionTemples2 = [
+        "Wat Lok Molee",
+        "Bridge crossing the moat into the city",
+        "Wat Rajamontean",
+        "Wat Rajamontean",
+        "Wat Phra Singh Waramahavihan",
+        "Wat Phra Singh Waramahavihan",
+        "Wat Phra Singh Waramahavihan",
+        "Wat Chiang Man",
+    ]; 
+
     return (
         <div className="min-h-screen bg-white">
             <style>{`
@@ -212,33 +237,121 @@ export default function Thailand() {
                         <h3 id="what-we-did" className="text-2xl font-bold mb-4">What we did</h3>
                         With only two weeks, building our itinerary was a challenge. The question was whether to follow a more completionist approach and try to see as much of the country as possible, or to focus on a few places and take a more relaxed approach. After some calls and discussions, we decided to have a more completionist itinerary, as many people weren't sure they would go back to Thailand anytime soon. <br/><br/>
                         We took a flight from Brussels to Bangkok (via Qatar), and immediately took a domestic flight north to Chiang Mai. In this area, we spent one night in Chiang Mai and three nights in Pai. We then took another domestic flight south to Phuket. We spent three nights in Phuket, and then took a ferry to Koh Phi Phi, where we spent one night. We then took a ferry to Ao Nang, where we spent another night. From there, we took a minivan to Khao Sok, where we spent three nights. Initially, we were planning to stay here two nights and take the night train back to Bangkok, but this train was cancelled last minute due to a natural disaster, so we had to stay in the area another night and take a flight to Bangkok the next day. We spent the last three nights of our trip in Bangkok.<br/><br/>
-                        Picture<br/><br/>
+                        <figure>
+                            <img
+                                src={"/images/travel/thailand/ThailandRoute.png"}
+                                alt="Route we traveled"
+                                className="w-full rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                onClick={() => openLightbox("/images/travel/thailand/ThailandRoute.png")}
+                            />
+                            <figcaption className="text-center text-sm text-gray-600">Route we traveled — Thailand</figcaption>
+                        </figure><br/>
                         In hindsight, I would have preferred a more relaxed itinerary, as we spent a lot of time traveling. This is fun to do when traveling with friends, but I do think we missed some of the slow travel experience that would have been typical of relaxed places like Pai and the islands. That being said, many of my friends said they wouldn't have wanted it any other way, as we got to see a lot of the country in a short time. 
                         <br/><br/>
                         <h3 id="what-we-skipped" className="text-2xl font-bold mb-4">What we skipped</h3>
-                        - Gulf of Thailand (Koh Samui, Koh Pha Ngan, Koh Tao)<br/>
-                        - Ayutthaya<br/>
-                        - Sukhothai<br/>
-                        - Northern mountain areas (Chiang Rai (temples!), Golden Triangle)<br/>
-                        - Other islands (Ko Lipe, Koh Lanta, etc.)<br/><br/>
+                        <div className="mb-6 leading-relaxed">
+                            <ul className="list-disc pl-5 space-y-1">
+                                <li>
+                                    Gulf of Thailand:
+                                    <br/>
+                                    When discussing our itinerary, we had to choose between the Gulf of Thailand and the Andaman Sea. Our decision mainly hinged on the weather forecasts of the two regions during the time of year we were visiting.<br/>
+                                    The Gulf of Thailand is known for its islands like Koh Samui, Koh Pha Ngan, and Koh Tao. These islands are known for their beautiful beaches and vibrant nightlife. The Full Moon Parties in Koh Pha Ngan are particularly infamous.
+                                </li>
+                                <li>
+                                    Ayutthaya:
+                                    <br/>
+                                    Ayutthaya is a historical city located north of Bangkok. It was the capital of the Kingdom of Siam and is known for its impressive ruins and temples. The city is a UNESCO World Heritage Site and is a popular day trip from Bangkok.
+                                </li>
+                                <li>
+                                    Chiang Rai:
+                                    <br/>
+                                    Chiang Rai is a city in northern Thailand, known for its beautiful temples and the Golden Triangle region. The city is home to the famous White Temple (Wat Rong Khun) and the Blue Temple (Wat Rong Suea Ten). The Golden Triangle is where the borders of Thailand, Laos, and Myanmar meet, and is known for its scenic views and historical significance.
+                                </li>
+                                <li>
+                                    Ko Lipe and Koh Lanta:
+                                    <br/>
+                                    Ko Lipe and Koh Lanta are two islands in the Andaman Sea, known for their beautiful beaches and clear waters. Ko Lipe is a small island with a laid-back vibe, while Koh Lanta is larger and offers more activities and amenities. Both islands are popular destinations for snorkeling and diving.
+                                </li>
+                            </ul>
+                        </div>
 
                         {/* Chiang Mai */}
                         <h2 id="chiang-mai" className="text-4xl font-bold mb-4">Chiang Mai</h2>
                         <h3 id="chiang-mai-city" className="text-2xl font-bold mb-4">Chiang Mai</h3>
-                        Chiang Mai is the largest city in northern Thailand and somewhat of a gateway to the region's mountains, jungles, and temples. The city itself is charmging to visit too; The old town is surrounded by a moat, which, compared to most European moats, is rectangular rather than circular. The city contains many beautiful temples and the night market is a great place to buy some souvenirs and try some street food. At the time, I did not buy any souvenirs as it was the first stop of our trip and I thought we would see many more nighet markets, but in hindsight I wish I bought some souvenirs as the Chiang Mai night market was one of the larger ones we visited in the country.<br/><br/>
+                        Chiang Mai is the largest city in northern Thailand and somewhat of a gateway to the region's mountains, jungles, and temples. The city itself is charmging to visit too; The old town is surrounded by a moat, which is rectangular rather than circular, making it distinct from most European moats. The city contains many beautiful temples and the night market is a great place to buy some souvenirs and try some street food. At the time, I did not buy any souvenirs as it was the first stop of our trip and I thought we would see many more night markets, but in hindsight I wish I bought some souvenirs as the Chiang Mai night market was one of the larger ones we visited in the country.<br/><br/>
                         We arrived in Chiang Mai at noon and left the next day in the late afternoon, which gave us some time to see the main highlights of the city.<br/><br/>
-                        To immediately fight back against the jetlag, we started with an afternoon temple tour:<br/>
-                        - Wat Si Soda<br/>
-                        - Wat Pha Lat<br/>
-                        - Wat Phra That Doi Suthep<br/>
+                        To immediately fight back against the jetlag, we started with an afternoon temple tour. This tour took us a couple of hours and brought us to some of the most impressive temples just outside of the city.<br/><br/>
+
+                        <Carousel className="w-full">
+                            <CarouselContent className="-ml-1">
+                                {Array.from({ length: 9 }).map((_, index) => (
+                                <CarouselItem key={index} className="basis-1/2 pl-1 lg:basis-2/5">
+                                    <div className="p-1">
+                                    <Card>
+                                        <CardContent className="flex items-center justify-center p-0 overflow-hidden">
+                                        <img 
+                                            src={`/images/travel/thailand/chiangmai/temples${index+1}.jpg`} 
+                                            alt={`Temples ${index+1}`} 
+                                            className="w-full h-auto max-h-[24rem] sm:max-h-[28rem] md:max-h-[32rem] object-contain rounded-lg cursor-pointer" 
+                                            onClick={() => openLightbox(`/images/travel/thailand/chiangmai/temples${index+1}.jpg`)}/>
+                                        </CardContent>
+                                    </Card>
+                                    <figcaption className="text-center text-sm text-gray-600">{imgCaptionTemples[index]}</figcaption>
+                                    </div>
+                                </CarouselItem>
+                                ))}                                    
+                            </CarouselContent>
+                            <CarouselPrevious />
+                            <CarouselNext />
+                        </Carousel><br/>
 
                         In the evening, we went to a small night market near our hotel for some food, before heading into the main night market for the classic tourist experience.<br/><br/>
+                        <div className="grid md:grid-cols-2 gap-2">
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/thailand/chiangmai/Market1.jpg"
+                                    alt="Chang Phuak Market"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/thailand/chiangmai/Market1.jpg')}
+                                />
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/thailand/chiangmai/Market2.JPEG"
+                                    alt="Chang Phuak Market"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/thailand/chiangmai/Market2.JPEG')}
+                                />
+                                
+                            </figure>
+                        </div>
+                        <figcaption className="text-center text-sm text-gray-600">A local food market</figcaption>
+                        <br/>
 
-                        The following day, we visited some more temples:<br/>
-                        - Wat Lok Molee<br/>
-                        - Wat Rajamontean<br/>
-                        - Wat Phra Singh Waramahavihan<br/>
-                        - Wat Chiang Man<br/><br/>
+                        The following day, we visited some more temples located within the city moat, which we explored by foot without a guide.<br/><br/>
+
+                        <Carousel className="w-full">
+                            <CarouselContent className="-ml-1">
+                                {Array.from({ length: 8 }).map((_, index) => (
+                                <CarouselItem key={index} className="basis-1/2 pl-1 lg:basis-2/5">
+                                    <div className="p-1">
+                                    <Card>
+                                        <CardContent className="flex items-center justify-center p-0 overflow-hidden">
+                                        <img 
+                                            src={`/images/travel/thailand/chiangmai/templess${index+1}.jpg`} 
+                                            alt={`Templess ${index+1}`} 
+                                            className="w-full h-auto max-h-[24rem] sm:max-h-[28rem] md:max-h-[32rem] object-contain rounded-lg cursor-pointer" 
+                                            onClick={() => openLightbox(`/images/travel/thailand/chiangmai/templess${index+1}.jpg`)}/>
+                                        </CardContent>
+                                    </Card>
+                                    <figcaption className="text-center text-sm text-gray-600">{imgCaptionTemples2[index]}</figcaption>
+                                    </div>
+                                </CarouselItem>
+                                ))}                                    
+                            </CarouselContent>
+                            <CarouselPrevious />
+                            <CarouselNext />
+                        </Carousel><br/>
 
                         At around 2PM, we got into a minivan for a four hour ride through the mountains to Pai.<br/><br/>
 
@@ -258,16 +371,57 @@ export default function Thailand() {
                             For our first lunch in Thailand, we wandered into this restaurant on the edge of the Chiang Mai old town. This restaurant was a slam dunk for our first meal in Thailand, as we got delicious food for trademark low Thai prices. Most of us ordered the Khao Soi, a traditional northern Thai coconut curry dish, and it was fantastic. The staff was very friendly too. The only downside was that the AC was a bit too cold for us, but this is a common issue for Europeans traveling in Thailand.
                             <br />
                             Find it <a href="https://maps.app.goo.gl/2GrxHfXiRFBosWhJ6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            <figure className="flex flex-col items-center">
+                                <img
+                                    src={"/images/travel/thailand/chiangmai/Charmm.jpg"}
+                                    alt="Charmm"
+                                    className="w-[75%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox("/images/travel/thailand/chiangmai/Charmm.jpg")}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">Enjoying our first Khao Soi</figcaption>
+                            </figure>
+                            <br/>
                         </CollapsibleReview>
                         <CollapsibleReview title="Chang Phuak Market" rating={4} scale="food">
                             We visited this local market on our first night in Chiang Mai. We were some of the only tourists there, but we still felt very welcome and comfortable. We all tried different dishes like curries and noodles, and overall we all enjoyed our food here. I personally tried two classic Thai desserts: mango sticky rice and roti (a Thai banana pancake) with condensed milk, and both were delicious. This night market is a recommendation if you'd like to try some true local food in Chiang Mai.
                             <br />
                             Find it <a href="https://maps.app.goo.gl/DDzPycu11hgYfW148" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            <div className="grid md:grid-cols-2 gap-2">
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/thailand/chiangmai/Market3.JPG"
+                                        alt="Chang Phuak Market"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/thailand/chiangmai/Market3.JPG')}
+                                    />
+                                </figure>
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/thailand/chiangmai/Market4.jpg"
+                                        alt="Chang Phuak Market"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/thailand/chiangmai/Market4.jpg')}
+                                    />
+                                    
+                                </figure>
+                            </div>
+                            <figcaption className="text-center text-sm text-gray-600">Enjoying some chow</figcaption>
+                            <br/>
                         </CollapsibleReview>
                         <CollapsibleReview title="Restaurant under SN Apartment 201" rating={3.5} scale="food">
                             For our second lunch in Chiang Mai, we tried a local restaurant in the street of our hotel. I cannot find this restaurant on Google Maps, but the restaurant is located next the SN Apartment 201 hotel, so you can find it there if you'd like!<br/>
                             This restaurant provided another local experience, and most of us had some khao soi again, which was good but slightly less impressive than the oone we had in Charmm. The staff was friendly and the prices were very low, but the restaurant itself was a bit dirty and run-down. Endearingly, the restaurant had some official-looking pictures of Thai people on the wall, holding diplomas or awards, which we assume are the family members of the restaurant owners.
                             <br />
+                            <figure className="flex flex-col items-center">
+                                <img
+                                    src={"/images/travel/thailand/chiangmai/Resto.JPG"}
+                                    alt="Resto"
+                                    className="w-[75%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox("/images/travel/thailand/chiangmai/Resto.JPG")}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">Lunch at a local restaurant</figcaption>
+                            </figure>
+                            <br/>
                         </CollapsibleReview>
                         <CollapsibleReview title="Pai Siam Bar & Bistro" rating={3.5} scale="food">
                             xxx.
