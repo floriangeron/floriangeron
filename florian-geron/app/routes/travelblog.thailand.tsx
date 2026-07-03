@@ -570,9 +570,78 @@ export default function Thailand() {
                         {/* Phuket, Koh Phi Phi, Ao Nang */}
                         <h2 id="phuket-ao-nang" className="text-4xl font-bold mb-4">Phuket to Ao Nang</h2>
                         <h3 id="phuket" className="text-2xl font-bold mb-4">Phuket</h3>
+                        In Phuket, we chose a very central location, which had the advantage of being reasonably close to all sights of interest, but the downside of not being particularly close to any particular one, so we had to get a Grab any time we wanted to go somewhere. I spent the first day in Phuket recovering from my illness, while the others went out to explore the island.<br/><br/>
+                        On the second day, my friends went out for snorkling and scuba diving, but that was not an option for me as my sinuses were still blocked from my illness. Instead, I had a slow day exploring my girlfriend's favourite beach on the island, Ao Yon beach.<br/><br/>
+                        <figure className="flex flex-col items-center">
+                            <img
+                                src={"/images/travel/thailand/phuket/AoYon.jpg"}
+                                alt="Ao Yon Beach"
+                                className="w-[75%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                onClick={() => openLightbox("/images/travel/thailand/phuket/AoYon.jpg")}
+                            />
+                            <figcaption className="text-center text-sm text-gray-600">Ao Yon Beach</figcaption>
+                        </figure>
+                        <br/>
+
+                        It started raining during lunch there, at which point I made my way to Phuket Old Town. Phuket Old Town is a charming area with many colonial buildings and a nice atmosphere. I spent some time walking around the streets and checking out the local shops.<br/><br/>
+
+                        <div className="grid md:grid-cols-2 gap-2">
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/thailand/phuket/OldTown1.jpg"
+                                    alt="Phuket Old Town"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/thailand/phuket/OldTown1.jpg')}
+                                />
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/thailand/phuket/OldTown2.jpg"
+                                    alt="Phuket Old Town"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/thailand/phuket/OldTown2.jpg')}
+                                />
+                                
+                            </figure>
+                        </div>
+                        <figcaption className="text-center text-sm text-gray-600">Phuket Old Town</figcaption>
+                        <br/>
+
                         <h3 id="koh-phi-phi" className="text-2xl font-bold mb-4">Koh Phi Phi</h3>
+                        The next day, we took a ferry to Koh Phi Phi, where we spent one night. 
+
                         <h3 id="ao-nang" className="text-2xl font-bold mb-4">Ao Nang</h3>
                         <h3 id="islands-food-drinks" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
+                        <CollapsibleReview title="Phuket Lae Lay" rating={4} scale="food">
+                            xxx.
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/Mj1mz9F21cbzfD186" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            <figure className="flex flex-col items-center">
+                                <img
+                                    src={"/images/travel/thailand/chiangmai/Charmm.jpg"}
+                                    alt="Charmm"
+                                    className="w-[75%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox("/images/travel/thailand/chiangmai/Charmm.jpg")}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">cc</figcaption>
+                            </figure>
+                            <br/>
+                        </CollapsibleReview>
+                        <CollapsibleReview title="Phuket Shaw Tom Yum Noodle Soup" rating={2.5} scale="food">
+                            xxx.
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/wThx4owJCoKgxBC49" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            <figure className="flex flex-col items-center">
+                                <img
+                                    src={"/images/travel/thailand/chiangmai/Charmm.jpg"}
+                                    alt="Charmm"
+                                    className="w-[75%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox("/images/travel/thailand/chiangmai/Charmm.jpg")}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">cc</figcaption>
+                            </figure>
+                            <br/>
+                        </CollapsibleReview>
 
                         {/* Khao Sok */}
                         <h2 id="khao-sok" className="text-4xl font-bold mb-4">Khao Sok</h2>
