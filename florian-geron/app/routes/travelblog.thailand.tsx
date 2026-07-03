@@ -310,7 +310,7 @@ export default function Thailand() {
                         {/* Chiang Mai */}
                         <h2 id="chiang-mai" className="text-4xl font-bold mb-4">Chiang Mai</h2>
                         <h3 id="chiang-mai-city" className="text-2xl font-bold mb-4">Chiang Mai</h3>
-                        Chiang Mai is the largest city in northern Thailand and somewhat of a gateway to the region's mountains, jungles, and temples. The city itself is charmging to visit too; The old town is surrounded by a moat, which is rectangular rather than circular, making it distinct from most European moats. The city contains many beautiful temples and the night market is a great place to buy some souvenirs and try some street food. At the time, I did not buy any souvenirs as it was the first stop of our trip and I thought we would see many more night markets, but in hindsight I wish I bought some souvenirs as the Chiang Mai night market was one of the larger ones we visited in the country.<br/><br/>
+                        Chiang Mai is the largest city in northern Thailand and somewhat of a gateway to the region's mountains, jungles, and temples. The city itself is charming to visit too; The old town is surrounded by a moat, which is rectangular rather than circular, making it distinct from most European moats. The city contains many beautiful temples and the night market is a great place to buy some souvenirs and try some street food. At the time, I did not buy any souvenirs as it was the first stop of our trip and I thought we would see many more night markets, but in hindsight I wish I bought some souvenirs as the Chiang Mai night market was one of the larger ones we visited in the country.<br/><br/>
                         We arrived in Chiang Mai at noon and left the next day in the late afternoon, which gave us some time to see the main highlights of the city.<br/><br/>
                         To immediately fight back against the jetlag, we started with an afternoon temple tour. This tour took us a couple of hours and brought us to some of the most impressive temples just outside of the city.<br/><br/>
 
@@ -391,7 +391,7 @@ export default function Thailand() {
                         <h3 id="pai" className="text-2xl font-bold mb-4">Pai</h3>
                         Pai is a small town in the mountains of northern Thailand. It is known to be a popular destination for backpackers looking for a bohemian vibe, as it is known as a bit of a psychedelic center. The reputation is well-deserved, as a guy in our minivan already started talking about the psychedelic experiences he'd had in Pai. The town itself is in fact very charming, with many hippie-style cafes and shops. The town is centered upon a main road with many establishments, but there are more hostels further out of the city center as well.<br/><br/>
 
-                        We mainly visited Pai for the beautilful nature surrounding it. We slept in a hotel in the center of Pai upon arriving, and the next morning we departed bright and early for a two-day trek in the mountains. We had two local guides, John and Tiger, who drove us about an hour out of Pai to the starting point of the treck. <br/><br/>
+                        We mainly visited Pai for the beautiful nature surrounding it. We slept in a hotel in the center of Pai upon arriving, and the next morning we departed bright and early for a two-day trek in the mountains. We had two local guides, John and Tiger, who drove us about an hour out of Pai to the starting point of the treck. <br/><br/>
                         {/* <Carousel className="w-full">
                             <CarouselContent className="-ml-1">
                                 {Array.from({ length: 10 }).map((_, index) => (
@@ -475,7 +475,7 @@ export default function Thailand() {
                             <CarouselNext />
                         </Carousel><br/>
             
-                        The next day, we continued our trek through the mountains. I started getting ill during the second day of our trek, which heavily damped my enjoyment of this experience. There was little to it except pushing through, so that's what I did. During this day's hike, we passed an area which was guarded by Thai soldiers. We supposed they were doing some training exercises in the area, and they told our guides we were not allowed to pass through. When John gestured that he would like to continue anyway, one of the soldiers gently but firmly took his arm and told him to find another way, which we did. We ended our hike by doing a river crossing. A little further downstream, we swam across the river again for some photos under a waterfall.<br/><br/>
+                        The next day, we continued our trek through the mountains. I started getting ill during the second day of our trek, which heavily damped my enjoyment of this experience. There was little to it except pushing through though. During this day's hike, we passed an area which was guarded by Thai soldiers. We supposed they were doing some training exercises in the area, and they told our guides we were not allowed to pass through. When John gestured that he would like to continue anyway, one of the soldiers gently but firmly took his arm and told him to find another way, which we did. We ended our hike by doing a river crossing. A little further downstream, we swam across the river again for some photos under a waterfall.<br/><br/>
 
                         <Carousel className="w-full">
                             <CarouselContent className="-ml-1">
@@ -561,7 +561,7 @@ export default function Thailand() {
                             <br/>
                         </CollapsibleReview>
                         <CollapsibleReview title="Pai Siam Bar & Bistro" rating={3.5} scale="food">
-                            xxx.
+                            We had dinner at this place on our first night in Pai. It was a livery venue with a nice atmosphere, with an older Thai man playing some whimsical live music. The food was good but did not blow us away. The masaman in particular was a bit of a letdown, we expect they might have toned down the flavor profile for tourists.
                             <br />
                             Find it <a href="https://maps.app.goo.gl/SsRWnAdcF9X9zfi68" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
@@ -608,7 +608,7 @@ export default function Thailand() {
                         <br/>
 
                         <h3 id="koh-phi-phi" className="text-2xl font-bold mb-4">Koh Phi Phi</h3>
-                        The next day, we took a ferry to Koh Phi Phi, where we spent one night. 
+                        The next day, we took a ferry to Koh Phi Phi, where we spent one night. We highly recommend staying on the island overnight, as this will allow you to enjoy the nearby sights very early or late in the day, when there are fewer tourists.
 
                         <h3 id="ao-nang" className="text-2xl font-bold mb-4">Ao Nang</h3>
                         <h3 id="islands-food-drinks" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
