@@ -75,7 +75,6 @@ export default function Thailand() {
         "Wat Phra That Doi Suthep",
     ]; 
 
-    // Captions for the carousel images
     const imgCaptionTemples2 = [
         "Wat Lok Molee",
         "Bridge crossing the moat into the city",
@@ -86,6 +85,39 @@ export default function Thailand() {
         "Wat Phra Singh Waramahavihan",
         "Wat Chiang Man",
     ]; 
+
+    const imgCaptionHike1 = [
+        "Passing through a village road",
+        "through the rice fields",
+        "past dangerous cliffs",
+        "and more rice fields",
+        "our guide Tiger leading the charge",
+        "taking in the views",
+        "taking a rest",
+        "up the mountain",
+        "Sam overlooking our homestay village",
+        "Tiger and John on top of the world",
+    ]; 
+
+        const imgCaptionHikeVillage = [
+        "Entering our homestay village",
+        "Thai mountain village",
+        "Thai mountain village",
+        "Thai mountain village",
+        "Enjoying John's amazing masaman curry",
+        "Dancing with the locals",
+    ]; 
+
+    const imgCaptionHike2 = [
+        "Starting our second day",
+        "through the jungle",
+        "past dangerous cliffs",
+        "taking a rest",
+        "through the river",
+        "photoshoot under the waterfall",
+        "the views on our way home",
+    ]; 
+    
 
     return (
         <div className="min-h-screen bg-white">
@@ -357,11 +389,116 @@ export default function Thailand() {
 
 
                         <h3 id="pai" className="text-2xl font-bold mb-4">Pai</h3>
-                        Pai is a small town in the mountains of northern Thailand. It is known to be a popular destination for backpackers looking for a bohemian vibe, as it is known as a bit of a psychedelic center. The reputation is well-deserved, as a guy in our minivan already started talking about the psychedelic experiences he'd had in Pai. The town itself is in fact very charming, with many hippie-style cafes and shops.<br/><br/>
+                        Pai is a small town in the mountains of northern Thailand. It is known to be a popular destination for backpackers looking for a bohemian vibe, as it is known as a bit of a psychedelic center. The reputation is well-deserved, as a guy in our minivan already started talking about the psychedelic experiences he'd had in Pai. The town itself is in fact very charming, with many hippie-style cafes and shops. The town is centered upon a main road with many establishments, but there are more hostels further out of the city center as well.<br/><br/>
 
-                        We mainly visited Pai for the beautilful nature surrounding it. We slept in a hotel in the center of Pai upon arriving, and the next morning we departed bright and early for a two-day trek in the mountains. We had two local guides, John and Tiger, who drove us about an hour out of Pai to the starting point of the treck. <br/>
-                        At the end of the first day, we arrived in a local village, Tiger's home village, where we had a homestay experience. Upon arriving in the village, we were greeted by a guy on a motorcycle carrying a pig's head on his back. We also started hearing many gunshots in the area at twilight; We were informed these were the hunters hunting for monkeys in the area. John cooked some delicious massaman curry for us, which was better than any massaman curry I had in restaurants during the trip. After dinner, we wanted to check out the stars, so we walked a little outside of the village center, where we stumbled upon a local party with someone playing music on a guiter / banjo instrument while the others danced around in circles. We joined the locals for a short and sweet dance under the stars.<br/>
-                        The next day, we continued our trek through the mountains. I actually started getting ill during the second day of our trek, which heavily damped my enjoyment of this experience. There was little to it except pushing through, so that's what I did. During this day's hike, we passed an area which was guarded by Thai soldiers. We supposed they were doing some training exercises in the area, and they told our guides we were not allowed to pass through. When John gestured that he would like to continue anyway, one of the soldiers gently but firmly took his arm and told him to find another way, which we did. We ended our hike by doing a river crossing. A little further downstream, we swam across the river again for some photos under a waterfall.<br/><br/>
+                        We mainly visited Pai for the beautilful nature surrounding it. We slept in a hotel in the center of Pai upon arriving, and the next morning we departed bright and early for a two-day trek in the mountains. We had two local guides, John and Tiger, who drove us about an hour out of Pai to the starting point of the treck. <br/><br/>
+                        {/* <Carousel className="w-full">
+                            <CarouselContent className="-ml-1">
+                                {Array.from({ length: 10 }).map((_, index) => (
+                                <CarouselItem key={index} className="basis-1/2 pl-1 lg:basis-2/5">
+                                    <div className="p-1">
+                                    <Card>
+                                        <CardContent className="flex items-center justify-center p-0 overflow-hidden">
+                                        <img 
+                                            src={`/images/travel/thailand/pai/hikeday1v${index+1}.jpg`} 
+                                            alt={`Hikeday1 ${index+1}`} 
+                                            className="w-full h-auto max-h-[24rem] sm:max-h-[28rem] md:max-h-[32rem] object-contain rounded-lg cursor-pointer" 
+                                            onClick={() => openLightbox(`/images/travel/thailand/pai/hikeday1v${index+1}.jpg`)}/>
+                                        </CardContent>
+                                    </Card>
+                                    <figcaption className="text-center text-sm text-gray-600">{imgCaptionHike1[index]}</figcaption>
+                                    </div>
+                                </CarouselItem>
+                                ))}                                    
+                            </CarouselContent>
+                            <CarouselPrevious />
+                            <CarouselNext />
+                        </Carousel><br/> */}
+                        <div className="grid md:grid-cols-2 gap-2">
+                            <figure>
+                                <img
+                                    src="/images/travel/thailand/pai/hikeday1h1.jpg"
+                                    alt="Hikeday1"
+                                    className="w-full shadow-lg cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/thailand/pai/hikeday1h1.jpg')}
+                                />
+                            </figure>
+                            <figure>
+                                <img
+                                    src="/images/travel/thailand/pai/hikeday1h2.jpg"
+                                    alt="Hikeday1"
+                                    className="w-full shadow-lg cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/thailand/pai/hikeday1h2.jpg')}
+                                />
+                            </figure>
+                            <figure>
+                                <img
+                                    src="/images/travel/thailand/pai/hikeday1h3.JPG"
+                                    alt="Hikeday1"
+                                    className="w-full shadow-lg cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/thailand/pai/hikeday1h3.JPG')}
+                                />
+                            </figure>
+                            <figure>
+                                <img
+                                    src="/images/travel/thailand/pai/hikeday1h4.jpg"
+                                    alt="Hikeday1"
+                                    className="w-full shadow-lg cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/thailand/pai/hikeday1h4.jpg')}
+                                />
+                            </figure>
+                        </div>
+                        <figcaption className="text-center my-6 text-sm text-gray-600">Some highlights from the first day of our hike</figcaption>
+                    
+                        At the end of the first day, we arrived in a local village, Tiger's home village, where we had a homestay experience. Upon arriving in the village, we were greeted by a guy on a motorcycle carrying a pig's head on his back. We also started hearing many gunshots in the area at twilight; We were informed these were the hunters hunting for monkeys in the area. John cooked some delicious massaman curry for us, which was better than any massaman curry I had in restaurants during the trip. After dinner, we wanted to check out the stars, so we walked a little outside of the village center, where we stumbled upon a local party with someone playing music on a guiter / banjo instrument while the others danced around in circles. We joined the locals for a short and sweet dance under the stars.<br/><br/>
+
+                        <Carousel className="w-full">
+                            <CarouselContent className="-ml-1">
+                                {Array.from({ length: 6 }).map((_, index) => (
+                                <CarouselItem key={index} className="basis-1/2 pl-1 lg:basis-2/5">
+                                    <div className="p-1">
+                                    <Card>
+                                        <CardContent className="flex items-center justify-center p-0 overflow-hidden">
+                                        <img 
+                                            src={`/images/travel/thailand/pai/hikevillage${index+1}.jpg`} 
+                                            alt={`Hike village ${index+1}`} 
+                                            className="w-full h-auto max-h-[24rem] sm:max-h-[28rem] md:max-h-[32rem] object-contain rounded-lg cursor-pointer" 
+                                            onClick={() => openLightbox(`/images/travel/thailand/pai/hikevillage${index+1}.jpg`)}/>
+                                        </CardContent>
+                                    </Card>
+                                    <figcaption className="text-center text-sm text-gray-600">{imgCaptionHikeVillage[index]}</figcaption>
+                                    </div>
+                                </CarouselItem>
+                                ))}                                    
+                            </CarouselContent>
+                            <CarouselPrevious />
+                            <CarouselNext />
+                        </Carousel><br/>
+            
+                        The next day, we continued our trek through the mountains. I started getting ill during the second day of our trek, which heavily damped my enjoyment of this experience. There was little to it except pushing through, so that's what I did. During this day's hike, we passed an area which was guarded by Thai soldiers. We supposed they were doing some training exercises in the area, and they told our guides we were not allowed to pass through. When John gestured that he would like to continue anyway, one of the soldiers gently but firmly took his arm and told him to find another way, which we did. We ended our hike by doing a river crossing. A little further downstream, we swam across the river again for some photos under a waterfall.<br/><br/>
+
+                        <Carousel className="w-full">
+                            <CarouselContent className="-ml-1">
+                                {Array.from({ length: 7 }).map((_, index) => (
+                                <CarouselItem key={index} className="basis-1/2 pl-1 lg:basis-2/5">
+                                    <div className="p-1">
+                                    <Card>
+                                        <CardContent className="flex items-center justify-center p-0 overflow-hidden">
+                                        <img 
+                                            src={`/images/travel/thailand/pai/hikeday2v${index+1}.JPG`} 
+                                            alt={`Hikeday2 ${index+1}`} 
+                                            className="w-full h-auto max-h-[24rem] sm:max-h-[28rem] md:max-h-[32rem] object-contain rounded-lg cursor-pointer" 
+                                            onClick={() => openLightbox(`/images/travel/thailand/pai/hikeday2v${index+1}.JPG`)}/>
+                                        </CardContent>
+                                    </Card>
+                                    <figcaption className="text-center text-sm text-gray-600">{imgCaptionHike2[index]}</figcaption>
+                                    </div>
+                                </CarouselItem>
+                                ))}                                    
+                            </CarouselContent>
+                            <CarouselPrevious />
+                            <CarouselNext />
+                        </Carousel><br/>
 
                         We drove back to Pai, where we spent one more night before driving back to Chiang Mai airport for the next leg of our trip.<br/><br/>
 
