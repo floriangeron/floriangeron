@@ -500,7 +500,9 @@ export default function Thailand() {
                             <CarouselNext />
                         </Carousel><br/>
 
-                        We drove back to Pai, where we spent one more night before driving back to Chiang Mai airport for the next leg of our trip.<br/><br/>
+                        We drove back to Pai, where we spent one more night. The following morning, I spent some time resting while the rest of the group explored the nature around Pai by scooter, before driving back to Chiang Mai airport for the next leg of our trip.<br/><br/>
+
+                        ADD PICTURES OF SCOOTERS HERE
 
 
                         <h3 id="chiang-mai-food-drinks" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
