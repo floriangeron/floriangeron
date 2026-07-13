@@ -573,6 +573,7 @@ export default function Thailand() {
                         <h2 id="phuket-ao-nang" className="text-4xl font-bold mb-4">Phuket to Ao Nang</h2>
                         <h3 id="phuket" className="text-2xl font-bold mb-4">Phuket</h3>
                         In Phuket, we chose a very central location, which had the advantage of being reasonably close to all sights of interest, but the downside of not being particularly close to any particular one, so we had to get a Grab any time we wanted to go somewhere. I spent the first day in Phuket recovering from my illness, while the others went out to explore the island.<br/><br/>
+                        ADD PICTURES OF DIVING HERE <br/><br/>
                         On the second day, my friends went out for snorkling and scuba diving, but that was not an option for me as my sinuses were still blocked from my illness. Instead, I had a slow day exploring my girlfriend's favourite beach on the island, Ao Yon beach.<br/><br/>
                         <figure className="flex flex-col items-center">
                             <img
@@ -611,6 +612,11 @@ export default function Thailand() {
 
                         <h3 id="koh-phi-phi" className="text-2xl font-bold mb-4">Koh Phi Phi</h3>
                         The next day, we took a ferry to Koh Phi Phi, where we spent one night. We highly recommend staying on the island overnight, as this will allow you to enjoy the nearby sights very early or late in the day, when there are fewer tourists.
+
+                        On the evening of our arrival, we went on a boat tour to visit one of Thailand's main tourist spots: Maya Bay. The tour started with some sights we did not find particularly interesting, like Monkey Bay (where we did not see any monkeys) and Viking Cave (which is not really accessible). We also got dropped at a snorkling spot where there was limited visibility. <br/>
+                        Luckily, the tour got a lot more interesting upon entering Pi Leh Bay. This beautiful bay was full of tourist boats, like our own, but we still greatly enjoyed the beauty of the bay. We then made our way to Maya Bay, which was the highlight of the day. We were dropped off at a floating pier and walked across some planks to get to the beach. The beach was busy but not too crowded, and we enjoyed taking in the beauty of the bay and looking for sharks in the water. On our way back from the bay to the boat, we spotted a large lizard.<br/>
+                        We ended the tour with a last snorkling session during sunset, just outisde of Maya Bay. This was a very fun experience, as it must've been one of the most beautiful settings for snorkling I've experienced so far. The boat staff treated us to some fresh pineapple at this time, and overall it was a great ending to our trip.<br/><br/>
+
 
                         <h3 id="ao-nang" className="text-2xl font-bold mb-4">Ao Nang</h3>
                         <h3 id="islands-food-drinks" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
@@ -788,7 +794,8 @@ export default function Thailand() {
                                 </div>
 
                                 <p className="mb-6 leading-relaxed mt-2">
-                                    xx.
+                                    In Phuket, we stayed in a villa in a central location on the island. This meant that we were reasonably close to all sights of interest, like the Old Town and Patong beach, but not particularly close to any one of them, meaning we had to take a ~20min Grab to get around. The villa was very comfortable for a group of eight and had a nice pool. It was a great spot for me to recover from my illness.<br/>
+                                    Overall we had a good stay here, and a recommendation if you are looking for a comfortable stay in Phuket in a calmer area, away from the party scene of Phuket.
                                     <br />
                                     Find it <a href="https://maps.app.goo.gl/S1uqUa5doTWBbMRB8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                                 </p>
