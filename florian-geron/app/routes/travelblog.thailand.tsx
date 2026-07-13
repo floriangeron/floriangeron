@@ -767,7 +767,7 @@ export default function Thailand() {
                                 <div className="max-w-6xl mx-auto">
                                     <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-8 mb-8">
                                         <div className="flex items-center">
-                                            <StarLine rating={7} max={10} title='Staff' />
+                                            <StarLine rating={null} max={10} title='Staff' />
                                         </div>
                                         <div className="flex items-center">
                                             <StarLine rating={9} max={10} title='Facilities' />
