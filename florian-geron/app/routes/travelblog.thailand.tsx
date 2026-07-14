@@ -611,7 +611,8 @@ export default function Thailand() {
                         <br/>
 
                         <h3 id="koh-phi-phi" className="text-2xl font-bold mb-4">Koh Phi Phi</h3>
-                        The next day, we took a ferry to Koh Phi Phi, where we spent one night. We highly recommend staying on the island overnight, as this will allow you to enjoy the nearby sights very early or late in the day, when there are fewer tourists.
+
+                        The next day, we took a ferry to Koh Phi Phi, where we spent one night. We highly recommend staying on the island overnight, as this will allow you to enjoy the nearby sights very early or late in the day, when there are fewer tourists.<br/><br/>
 
                         On the evening of our arrival, we went on a boat tour to visit one of Thailand's main tourist spots: Maya Bay. The tour started with some sights we did not find particularly interesting, like Monkey Bay (where we did not see any monkeys) and Viking Cave (which is not really accessible). We also got dropped at a snorkling spot where there was limited visibility. <br/>
                         Luckily, the tour got a lot more interesting upon entering Pi Leh Bay. This beautiful bay was full of tourist boats, like our own, but we still greatly enjoyed the beauty of the bay. We then made our way to Maya Bay, which was the highlight of the day. We were dropped off at a floating pier and walked across some planks to get to the beach. The beach was busy but not too crowded, and we enjoyed taking in the beauty of the bay and looking for sharks in the water. On our way back from the bay to the boat, we spotted a large lizard.<br/>
@@ -619,6 +620,9 @@ export default function Thailand() {
 
 
                         <h3 id="ao-nang" className="text-2xl font-bold mb-4">Ao Nang</h3>
+
+                        After a relaxing night and slow morning of sunbathing and swimming on Koh Phi Phi, we got on a ferry to the Thai mainland.
+
                         <h3 id="islands-food-drinks" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
                         <CollapsibleReview title="Phuket Lae Lay" rating={4} scale="food">
                             xxx.
@@ -639,6 +643,21 @@ export default function Thailand() {
                             xxx.
                             <br />
                             Find it <a href="https://maps.app.goo.gl/wThx4owJCoKgxBC49" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            <figure className="flex flex-col items-center">
+                                <img
+                                    src={"/images/travel/thailand/chiangmai/Charmm.jpg"}
+                                    alt="Charmm"
+                                    className="w-[75%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox("/images/travel/thailand/chiangmai/Charmm.jpg")}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">cc</figcaption>
+                            </figure>
+                            <br/>
+                        </CollapsibleReview>
+                        <CollapsibleReview title="Rom Mai" rating={2.5} scale="food">
+                            xxx.
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/q2mvLgLSuUXo5NmK7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                             <figure className="flex flex-col items-center">
                                 <img
                                     src={"/images/travel/thailand/chiangmai/Charmm.jpg"}
