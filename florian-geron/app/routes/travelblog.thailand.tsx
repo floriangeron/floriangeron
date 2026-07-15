@@ -173,7 +173,7 @@ export default function Thailand() {
             {/* Title Card */}
             <div className="relative h-[350px] sm:h-[450px] md:h-[700px] w-full overflow-hidden">
                 <img
-                    src="/images/travel/Thailand.JPG"
+                    src="/images/travel/thailand/Thailand.JPG"
                     alt="Thailand"
                     className="w-full h-full object-cover"
                 />
@@ -502,7 +502,34 @@ export default function Thailand() {
 
                         We drove back to Pai, where we spent one more night. The following morning, I spent some time resting while the rest of the group explored the nature around Pai by scooter, before driving back to Chiang Mai airport for the next leg of our trip.<br/><br/>
 
-                        ADD PICTURES OF SCOOTERS HERE
+                        <div className="grid md:grid-cols-3 gap-2">
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/thailand/pai/PaiScooter1.JPG"
+                                        alt="Exploring Pai by scooter"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/thailand/pai/PaiScooter1.JPG')}
+                                    />
+                                </figure>
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/thailand/pai/PaiScooter2.JPG"
+                                        alt="Exploring Pai by scooter"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/thailand/pai/PaiScooter2.JPG')}
+                                    />
+                                </figure>
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/thailand/pai/PaiScooter3.JPG"
+                                        alt="Exploring Pai by scooter"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/thailand/pai/PaiScooter3.JPG')}
+                                    />
+                                </figure>
+                            </div>
+                            <figcaption className="text-center text-sm text-gray-600">Exploring Pai by scooter</figcaption>
+                            <br/>
 
 
                         <h3 id="chiang-mai-food-drinks" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
@@ -573,7 +600,27 @@ export default function Thailand() {
                         <h2 id="phuket-ao-nang" className="text-4xl font-bold mb-4">Phuket to Ao Nang</h2>
                         <h3 id="phuket" className="text-2xl font-bold mb-4">Phuket</h3>
                         In Phuket, we chose a very central location, which had the advantage of being reasonably close to all sights of interest, but the downside of not being particularly close to any particular one, so we had to get a Grab any time we wanted to go somewhere. I spent the first day in Phuket recovering from my illness, while the others went out to explore the island.<br/><br/>
-                        ADD PICTURES OF DIVING HERE <br/><br/>
+                        <div className="grid md:grid-cols-2 gap-2">
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/thailand/phuket/Dive1.JPG"
+                                    alt="Dive1"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/thailand/phuket/Dive1.JPG')}
+                                />
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/thailand/phuket/Dive2.JPG"
+                                    alt="Dive2"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/thailand/phuket/Dive2.JPG')}
+                                />
+                                
+                            </figure>
+                        </div>
+                        <figcaption className="text-center text-sm text-gray-600">Sam and William going diving</figcaption>
+                        <br/>
                         On the second day, my friends went out for snorkling and scuba diving, but that was not an option for me as my sinuses were still blocked from my illness. Instead, I had a slow day exploring my girlfriend's favourite beach on the island, Ao Yon beach.<br/><br/>
                         <figure className="flex flex-col items-center">
                             <img
@@ -614,14 +661,76 @@ export default function Thailand() {
 
                         The next day, we took a ferry to Koh Phi Phi, where we spent one night. We highly recommend staying on the island overnight, as this will allow you to enjoy the nearby sights very early or late in the day, when there are fewer tourists.<br/><br/>
 
+                        <figure className="flex flex-col items-center">
+                            <img
+                                src={"/images/travel/thailand/phiphi/PhiPhiView.JPG"}
+                                alt="Phi Phi View"
+                                className="w-[75%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                onClick={() => openLightbox("/images/travel/thailand/phiphi/PhiPhiView.JPG")}
+                            />
+                            <figcaption className="text-center text-sm text-gray-600">View over Koh Phi Phi</figcaption>
+                        </figure>
+                        <br/>
+
                         On the evening of our arrival, we went on a boat tour to visit one of Thailand's main tourist spots: Maya Bay. The tour started with some sights we did not find particularly interesting, like Monkey Bay (where we did not see any monkeys) and Viking Cave (which is not really accessible). We also got dropped at a snorkling spot where there was limited visibility. <br/>
+                        <figure className="flex flex-col items-center">
+                            <img
+                                src={"/images/travel/thailand/phiphi/PiLehBay.JPG"}
+                                alt="Pi Leh Bay"
+                                className="w-[75%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                onClick={() => openLightbox("/images/travel/thailand/phiphi/PiLehBay.JPG")}
+                            />
+                            <figcaption className="text-center text-sm text-gray-600">The crew at Pi Leh Bay</figcaption>
+                        </figure>
+                        <br/>
                         Luckily, the tour got a lot more interesting upon entering Pi Leh Bay. This beautiful bay was full of tourist boats, like our own, but we still greatly enjoyed the beauty of the bay. We then made our way to Maya Bay, which was the highlight of the day. We were dropped off at a floating pier and walked across some planks to get to the beach. The beach was busy but not too crowded, and we enjoyed taking in the beauty of the bay and looking for sharks in the water. On our way back from the bay to the boat, we spotted a large lizard.<br/>
+                        <figure className="flex flex-col items-center">
+                            <img
+                                src={"/images/travel/thailand/phiphi/MayaPyramid.JPG"}
+                                alt="Maya Pyramid"
+                                className="w-[75%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                onClick={() => openLightbox("/images/travel/thailand/phiphi/MayaPyramid.JPG")}
+                            />
+                            <figcaption className="text-center text-sm text-gray-600">Pyramid on Maya Bay</figcaption>
+                        </figure>
+                        <br/>
                         We ended the tour with a last snorkling session during sunset, just outisde of Maya Bay. This was a very fun experience, as it must've been one of the most beautiful settings for snorkling I've experienced so far. The boat staff treated us to some fresh pineapple at this time, and overall it was a great ending to our trip.<br/><br/>
+
+                        <Carousel className="w-full">
+                            <CarouselContent className="-ml-1">
+                                {Array.from({ length: 6 }).map((_, index) => (
+                                <CarouselItem key={index} className="basis-1/2 pl-1 lg:basis-2/6">
+                                    <div className="p-1">
+                                    <Card>
+                                        <CardContent className="flex items-center justify-center p-0 overflow-hidden">
+                                        <img 
+                                            src={`/images/travel/thailand/phiphi/PhiPhi${index+1}.JPG`} 
+                                            alt={`Phi Phi ${index+1}`} 
+                                            className="w-full h-auto max-h-[24rem] sm:max-h-[28rem] md:max-h-[32rem] object-contain rounded-lg cursor-pointer" 
+                                            onClick={() => openLightbox(`/images/travel/thailand/phiphi/PhiPhi${index+1}.JPG`)}/>
+                                        </CardContent>
+                                    </Card>
+                                    </div>
+                                </CarouselItem>
+                                ))}                                    
+                            </CarouselContent>
+                            <CarouselPrevious />
+                            <CarouselNext />
+                        </Carousel>
+                        <figure className="flex flex-col items-center">
+                            <img
+                                src={"/images/travel/thailand/Thailand.JPG"}
+                                alt="Thailand"
+                                className="w-[100%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                onClick={() => openLightbox("/images/travel/thailand/Thailand.JPG")}
+                            />
+                        </figure>
+                        <figcaption className="text-center text-sm text-gray-600">Our excursion to Maya Bay</figcaption><br/><br/>
 
 
                         <h3 id="ao-nang" className="text-2xl font-bold mb-4">Ao Nang</h3>
 
-                        After a relaxing night and slow morning of sunbathing and swimming on Koh Phi Phi, we got on a ferry to the Thai mainland.
+                        After a relaxing night and slow morning of sunbathing and swimming on Koh Phi Phi, we got on a ferry to the Thai mainland.<br/><br/>
 
                         <h3 id="islands-food-drinks" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
                         <CollapsibleReview title="Phuket Lae Lay" rating={4} scale="food">
@@ -654,7 +763,7 @@ export default function Thailand() {
                             </figure>
                             <br/>
                         </CollapsibleReview>
-                        <CollapsibleReview title="Rom Mai" rating={2.5} scale="food">
+                        <CollapsibleReview title="Rom Mai" rating={3.5} scale="food">
                             xxx.
                             <br />
                             Find it <a href="https://maps.app.goo.gl/q2mvLgLSuUXo5NmK7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
@@ -815,8 +924,30 @@ export default function Thailand() {
                                 <p className="mb-6 leading-relaxed mt-2">
                                     In Phuket, we stayed in a villa in a central location on the island. This meant that we were reasonably close to all sights of interest, like the Old Town and Patong beach, but not particularly close to any one of them, meaning we had to take a ~20min Grab to get around. The villa was very comfortable for a group of eight and had a nice pool. It was a great spot for me to recover from my illness.<br/>
                                     Overall we had a good stay here, and a recommendation if you are looking for a comfortable stay in Phuket in a calmer area, away from the party scene of Phuket.
-                                    <br />
+                                    <br/>
                                     Find it <a href="https://maps.app.goo.gl/S1uqUa5doTWBbMRB8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                                    <br />
+                                    <div className="grid md:grid-cols-2 gap-2">
+                                        <figure className="md:col-span-1">
+                                            <img
+                                                src="/images/travel/thailand/phuket/Namtok1.JPG"
+                                                alt="Phuket Namtok"
+                                                className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                                onClick={() => openLightbox('/images/travel/thailand/phuket/Namtok1.JPG')}
+                                            />
+                                        </figure>
+                                        <figure className="md:col-span-1">
+                                            <img
+                                                src="/images/travel/thailand/phuket/Namtok2.JPG"
+                                                alt="Phuket Namtok"
+                                                className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                                onClick={() => openLightbox('/images/travel/thailand/phuket/Namtok2.JPG')}
+                                            />
+                                            
+                                        </figure>
+                                    </div>
+                                    <figcaption className="text-center text-sm text-gray-600">Namtok Villa on Phuket</figcaption>
+                                    
                                 </p>
                             </div>
                         </details>
@@ -860,10 +991,30 @@ export default function Thailand() {
 
                                 <p className="mb-6 leading-relaxed mt-2">
                                     In order to get away from the crowds on Koh Phi Phi, we stayed in a hotel on the eastern side of the island. The hotel is nestled along the slopes of the island and is only accessible by boat. Upon arriving at the hotel's beach, we realized we had made the right decision to stay in this oasis of tropical peace.<br/>
-                                    INSERT LUNCH PICTURE HERE.<br/>
                                     The rooms we had weren't particularly luxurious, but they were comfortable and clean. The staff also helped us with getting our luggage up and down the slopes. We enjoyed lounging on the beach and swimming in the warm waters of the sea inbetween our excursions. Overall, we had a great stay here and would recommend it to anyone looking for a peaceful stay on Koh Phi Phi, including couples who are looking for a more romantic retreat.
-                                    <br />
+                                    <br/>
                                     Find it <a href="https://maps.app.goo.gl/49zDPQPQumVb9bvL9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                                    <br />
+                                    <div className="grid md:grid-cols-2 gap-2">
+                                        <figure className="md:col-span-1">
+                                            <img
+                                                src="/images/travel/thailand/phiphi/TheCove1.jpg"
+                                                alt="Koh Phi Phi"
+                                                className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                                onClick={() => openLightbox('/images/travel/thailand/phiphi/TheCove1.jpg')}
+                                            />
+                                        </figure>
+                                        <figure className="md:col-span-1">
+                                            <img
+                                                src="/images/travel/thailand/phiphi/TheCove2.jpg"
+                                                alt="Koh Phi Phi"
+                                                className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                                onClick={() => openLightbox('/images/travel/thailand/phiphi/TheCove2.jpg')}
+                                            />
+                                            
+                                        </figure>
+                                    </div>
+                                    <figcaption className="text-center text-sm text-gray-600">The Cove on Koh Phi Phi</figcaption>
                                 </p>
                             </div>
                         </details>

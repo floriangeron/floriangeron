@@ -46,7 +46,7 @@ export default function TravelBlog() {
             excerpt: "How much of Thailand can one see in two weeks?",
             content:
                 "Join me to find out how much of Thailand we can cover in two weeks. We'll visit the mountains of the North, the beaches of the South, and the capital of Bangkok.",
-            imageUrl: "/images/travel/Thailand.JPG",
+            imageUrl: "/images/travel/thailand/Thailand.JPG",
         },
         {
             id: "vienna",
