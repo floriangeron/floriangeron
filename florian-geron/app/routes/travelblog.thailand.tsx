@@ -821,6 +821,53 @@ export default function Thailand() {
                             </div>
                         </details>
 
+                        <details className="group mb-6 rounded-md">
+                            <summary className="flex items-center justify-between p-4 cursor-pointer">
+                                <div className="flex items-center">
+                                    <svg className="chev h-5 w-5 mr-3 text-gray-600" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+                                        <path d="M6 8l4 4 4-4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+                                    </svg>
+                                    <h4 id="hotel-1" className="text-1xl font-bold m-0">Koh Phi Phi: The Cove</h4>
+                                </div>
+                                <div className="flex items-center">
+                                    <StarScale rating={4.5} />
+                                </div>
+                            </summary>
+
+                            <div className="px-4 pb-4 collapsible-body">
+                                <div className="max-w-6xl mx-auto">
+                                    <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-8 mb-8">
+                                        <div className="flex items-center">
+                                            <StarLine rating={9} max={10} title='Staff' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={8} max={10} title='Facilities' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={8} max={10} title='Cleanliness' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={8} max={10} title='Comfort' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={10} max={10} title='Location' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={8} max={10} title='Value for Money' />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <p className="mb-6 leading-relaxed mt-2">
+                                    In order to get away from the crowds on Koh Phi Phi, we stayed in a hotel on the eastern side of the island. The hotel is nestled along the slopes of the island and is only accessible by boat. Upon arriving at the hotel's beach, we realized we had made the right decision to stay in this oasis of tropical peace.<br/>
+                                    INSERT LUNCH PICTURE HERE.<br/>
+                                    The rooms we had weren't particularly luxurious, but they were comfortable and clean. The staff also helped us with getting our luggage up and down the slopes. We enjoyed lounging on the beach and swimming in the warm waters of the sea inbetween our excursions. Overall, we had a great stay here and would recommend it to anyone looking for a peaceful stay on Koh Phi Phi, including couples who are looking for a more romantic retreat.
+                                    <br />
+                                    Find it <a href="https://maps.app.goo.gl/49zDPQPQumVb9bvL9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                                </p>
+                            </div>
+                        </details>
+
                     </main>
 
                     {/* Sidebar with TOC and font size selector */}
