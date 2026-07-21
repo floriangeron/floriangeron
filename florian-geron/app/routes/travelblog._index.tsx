@@ -5,7 +5,7 @@ import type { MetaFunction } from "@remix-run/node";
 export const meta: MetaFunction = () => {
   return [
     { title: "Florian Géron" },
-    { name: "My personal website", content: "My Travel Blog" },
+    { name: "My personal website", content: "My Travel Journal" },
     { description: "Collection of travel blogs." },
   ];
 };
@@ -132,7 +132,7 @@ export default function TravelBlog() {
             <div className="max-w-6xl mx-auto relative z-10">
                 {/* Header */}
                 <header className="text-center mb-16">
-                    <h1 className="text-5xl font-bold text-gray-900 mb-4">Travel Blog</h1>
+                    <h1 className="text-5xl font-bold text-gray-900 mb-4">Travel Journal</h1>
                     <p className="text-lg text-gray-700">
                         Adventures and discoveries from around the world
                     </p>
