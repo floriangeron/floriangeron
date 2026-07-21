@@ -193,7 +193,7 @@ export default function Funfacts(){
                         onClick={showRandomFact}
                         className="px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-bold text-xl rounded-full shadow-lg transform transition-all duration-300 ease-in-out hover:scale-105 hover:from-pink-500 hover:to-purple-500 hover:shadow-2xl focus:outline-none focus:ring-4 focus:ring-purple-300"
                     >
-                        Press here to show a fun fact
+                        Click here to show a fun fact
                     </button>
                 ) : (
                     <>

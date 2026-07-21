@@ -40,9 +40,9 @@ export default function AboutMe() {
             </h2>
             <p className="text-gray-600 dark:text-gray-300 text-left">
                 <ul className="list-disc pl-5">
-                    <li>Currently spending my time as a Data Scientist at Deloitte where I develop and coordinate development of AI-powered solutions. I spend most of my time working on in-house projects but am sent out on the odd client project as well.</li>
+                    <li>I am a Manager in Data Science and AI at Deloitte. I divide my time between working on in-house AI development projects and client projects in data science and AI.</li>
                     <li>In my spare time, I go to the gym regularly and go for the occasional run. You can also find me reading a steady stream of non-fiction books and spending time with my friends and family.</li>
-                    <li>Previously, I played badminton, played piano, and did ballroom dancing. I might pick the latter up again sometime in the future.</li>
+                    <li>Previously, I played badminton, played piano, and did ballroom dancing.</li>
                     <li>I grew up around Antwerp, Belgium, where I am currently living. I have also lived in Leuven, Vienna, and Sydney.</li>
                     <li>I have a Master's degree in Mechanical Engineering (KU Leuven) and a second Master's degree in Data Science (University of Sydney).</li>
                 </ul>
@@ -51,12 +51,13 @@ export default function AboutMe() {
                 What's on this site
             </h2>
             <p className="text-gray-600 dark:text-gray-300 text-left">
-              I made this website to play around with the Remix FE framework, while sharing some parts of my life with the world. You can find the following pages on this site:
+              I made this website to play around with FE development, while sharing some parts of my life with the world. You can find the following pages on this site:
                 <ul className="list-disc pl-5 pt-3">
                     <li>A <a href="/timeline" className="text-blue-500 hover:underline">timeline</a> of some major events in my life over the past few years.</li>
                     <li>A collection of images of my friends and I making <a href="/pyramids" className="text-blue-500 hover:underline">human pyramids</a>.</li>
                     <li>A random collection of <a href="/funfacts" className="text-blue-500 hover:underline">fun facts</a>. I like sharing fun facts so having a page dedicated to them seemed appropriate.</li>
                     <li>My <a href="/cv" className="text-blue-500 hover:underline">résumé</a> focusing on my academic and professional achievements and experiences.</li>
+                    <li>A <a href="/travelblog" className="text-blue-500 hover:underline">travel journal</a> of the recent adventures of my girlfriend and me.</li>
                     <li>My <a href="/contact" className="text-blue-500 hover:underline">contact details</a>.</li>
                 </ul>
             </p>
@@ -66,7 +67,7 @@ export default function AboutMe() {
 
         <footer className="bg-gray-100 text-center py-4 mt-auto">
           <p className="text-sm text-gray-600">
-            Last updated: March 10th, 2026
+            Last updated: June 1st, 2026
           </p>
         </footer>
         
