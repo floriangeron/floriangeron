@@ -699,7 +699,7 @@ export default function Thailand() {
                         <Carousel className="w-full">
                             <CarouselContent className="-ml-1">
                                 {Array.from({ length: 6 }).map((_, index) => (
-                                <CarouselItem key={index} className="basis-1/2 pl-1 lg:basis-2/6">
+                                <CarouselItem key={index} className="basis-1/2 pl-1 lg:basis-1/3">
                                     <div className="p-1">
                                     <Card>
                                         <CardContent className="flex items-center justify-center p-0 overflow-hidden">
@@ -734,49 +734,39 @@ export default function Thailand() {
 
                         <h3 id="islands-food-drinks" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
                         <CollapsibleReview title="Phuket Lae Lay" rating={4} scale="food">
-                            xxx.
+                            I had lunch at this restaurant when exploring Ao Yon beach. The restaurant is located on a street just off the beach. The staff was friendly and the food was good, but not particularly special.
                             <br />
                             Find it <a href="https://maps.app.goo.gl/Mj1mz9F21cbzfD186" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
-                            <figure className="flex flex-col items-center">
-                                <img
-                                    src={"/images/travel/thailand/chiangmai/Charmm.jpg"}
-                                    alt="Charmm"
-                                    className="w-[75%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
-                                    onClick={() => openLightbox("/images/travel/thailand/chiangmai/Charmm.jpg")}
-                                />
-                                <figcaption className="text-center text-sm text-gray-600">cc</figcaption>
-                            </figure>
-                            <br/>
+                            <div className="grid md:grid-cols-2 gap-2">
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/thailand/phuket/LaeLay1.jpg"
+                                        alt="Phuket Lae Lay"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/thailand/phuket/LaeLay1.jpg')}
+                                    />
+                                </figure>
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/thailand/phuket/LaeLay2.jpg"
+                                        alt="Phuket Lae Lay"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/thailand/phuket/LaeLay2.jpg')}
+                                    />
+                                    
+                                </figure>
+                            </div>
+                            <figcaption className="text-center text-sm text-gray-600">Enjoying red curry at Lae Lay</figcaption>
                         </CollapsibleReview>
                         <CollapsibleReview title="Phuket Shaw Tom Yum Noodle Soup" rating={2.5} scale="food">
-                            xxx.
+                            This place was recommended to me, but I was not a particular fan. The soup itself was good, but the restaurant was rather dirty and the staff was not particularly friendly. It is a cheap option to try some authentic Thai food, but I would not recommend it otherwise.
                             <br />
                             Find it <a href="https://maps.app.goo.gl/wThx4owJCoKgxBC49" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
-                            <figure className="flex flex-col items-center">
-                                <img
-                                    src={"/images/travel/thailand/chiangmai/Charmm.jpg"}
-                                    alt="Charmm"
-                                    className="w-[75%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
-                                    onClick={() => openLightbox("/images/travel/thailand/chiangmai/Charmm.jpg")}
-                                />
-                                <figcaption className="text-center text-sm text-gray-600">cc</figcaption>
-                            </figure>
-                            <br/>
                         </CollapsibleReview>
                         <CollapsibleReview title="Rom Mai" rating={3.5} scale="food">
-                            xxx.
+                            We had a quick lunch here before getting on our ferry to Ao Nang. The food was good and the vibes on the beach were nice, but the service was a bit slow and the prices were a bit higher than we expected for the quality of food. Overall a good option for lunch on the beach on Koh Phi Phi.
                             <br />
                             Find it <a href="https://maps.app.goo.gl/q2mvLgLSuUXo5NmK7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
-                            <figure className="flex flex-col items-center">
-                                <img
-                                    src={"/images/travel/thailand/chiangmai/Charmm.jpg"}
-                                    alt="Charmm"
-                                    className="w-[75%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
-                                    onClick={() => openLightbox("/images/travel/thailand/chiangmai/Charmm.jpg")}
-                                />
-                                <figcaption className="text-center text-sm text-gray-600">cc</figcaption>
-                            </figure>
-                            <br/>
                         </CollapsibleReview>
 
                         {/* Khao Sok */}
