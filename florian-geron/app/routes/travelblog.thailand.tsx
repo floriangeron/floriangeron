@@ -503,33 +503,33 @@ export default function Thailand() {
                         We drove back to Pai, where we spent one more night. The following morning, I spent some time resting while the rest of the group explored the nature around Pai by scooter, before driving back to Chiang Mai airport for the next leg of our trip.<br/><br/>
 
                         <div className="grid md:grid-cols-3 gap-2">
-                                <figure className="md:col-span-1">
-                                    <img
-                                        src="/images/travel/thailand/pai/PaiScooter1.JPG"
-                                        alt="Exploring Pai by scooter"
-                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
-                                        onClick={() => openLightbox('/images/travel/thailand/pai/PaiScooter1.JPG')}
-                                    />
-                                </figure>
-                                <figure className="md:col-span-1">
-                                    <img
-                                        src="/images/travel/thailand/pai/PaiScooter2.JPG"
-                                        alt="Exploring Pai by scooter"
-                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
-                                        onClick={() => openLightbox('/images/travel/thailand/pai/PaiScooter2.JPG')}
-                                    />
-                                </figure>
-                                <figure className="md:col-span-1">
-                                    <img
-                                        src="/images/travel/thailand/pai/PaiScooter3.JPG"
-                                        alt="Exploring Pai by scooter"
-                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
-                                        onClick={() => openLightbox('/images/travel/thailand/pai/PaiScooter3.JPG')}
-                                    />
-                                </figure>
-                            </div>
-                            <figcaption className="text-center text-sm text-gray-600">Exploring Pai by scooter</figcaption>
-                            <br/>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/thailand/pai/PaiScooter1.JPG"
+                                    alt="Exploring Pai by scooter"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/thailand/pai/PaiScooter1.JPG')}
+                                />
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/thailand/pai/PaiScooter2.JPG"
+                                    alt="Exploring Pai by scooter"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/thailand/pai/PaiScooter2.JPG')}
+                                />
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/thailand/pai/PaiScooter3.JPG"
+                                    alt="Exploring Pai by scooter"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/thailand/pai/PaiScooter3.JPG')}
+                                />
+                            </figure>
+                        </div>
+                        <figcaption className="text-center text-sm text-gray-600">Exploring Pai by scooter</figcaption>
+                        <br/>
 
 
                         <h3 id="chiang-mai-food-drinks" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
@@ -732,6 +732,43 @@ export default function Thailand() {
 
                         After a relaxing night and slow morning of sunbathing and swimming on Koh Phi Phi, we got on a ferry to the Thai mainland.<br/><br/>
 
+                        <div className="grid md:grid-cols-2 gap-2">
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/thailand/aonang/RailayMonkey1.JPG"
+                                    alt="Railay Monkey"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/thailand/aonang/RailayMonkey1.JPG')}
+                                />
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/thailand/aonang/RailayMonkey2.JPG"
+                                    alt="Railay Monkey"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/thailand/aonang/RailayMonkey2.JPG')}
+                                />
+                                
+                            </figure>
+                        </div>
+                        <figcaption className="text-center text-sm text-gray-600">Some monkey around Railay, enjoying tourist leftovers</figcaption>
+                        <br/>
+
+                        <figure className="flex flex-col items-center">
+                            <img
+                                src={"/images/travel/thailand/aonang/RailayBeach.jpg"}
+                                alt="Railay Beach"
+                                className="w-[50%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                onClick={() => openLightbox("/images/travel/thailand/aonang/RailayBeach.jpg")}
+                            />
+                            <figcaption className="text-center text-sm text-gray-600">Railay Beach</figcaption>
+                        </figure>
+                        <br/>
+
+                        Upon arriving in Ao Nang, the weather had pretty much calmed down, so we picked the absolute worst time to get in the little boat.<br/><br/>
+                        In Ao Nang, we did little more than checking into the hotel, getting some dinner, and going for some drinks afterwards. Walking on the main street of Ao Nang is quite the experience. It is a loud area filled with neon signs and commercial vehicles with posters on top driving around advertising stuff like Muay Thai fights and nightclubs. Ao Nang wasn't really our vibe, so we were happy to leave the next morning for our next destination, Khao Sok National Park.<br/><br/>
+
+
                         <h3 id="islands-food-drinks" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
                         <CollapsibleReview title="Phuket Lae Lay" rating={4} scale="food">
                             I had lunch at this restaurant when exploring Ao Yon beach. The restaurant is located on a street just off the beach. The staff was friendly and the food was good, but not particularly special.
@@ -768,10 +805,110 @@ export default function Thailand() {
                             <br />
                             Find it <a href="https://maps.app.goo.gl/q2mvLgLSuUXo5NmK7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
+                        <CollapsibleReview title="Tanta" rating={3.5} scale="food">
+                            This restaurant offers both Western and Thai food, making it a good option for groups with different tastes. The food was good, but not particularly special. The restaurant is located on the main street of Ao Nang, which makes it a convenient option for dinner. Overall, a good option for larger groups, but I wouldn't go again if I was traveling alone or as a couple.
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/hzhi8DkeThd8qh7Y9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+                        <CollapsibleReview title="Thai Thai Restaurant" rating={4.5} scale="food">
+                            After dinner, we walked along the beachfront until we stumbled upon this place. We just had a drink here, but we liked the laid-back vibe of the place, the nice cocktails, and the friendly staff.
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/qydfh1oGcyUvJJLp7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            <figure className="flex flex-col items-center">
+                            <img
+                                src={"/images/travel/thailand/aonang/AoNang.jpg"}
+                                alt="Ao Nang Beach"
+                                className="w-[50%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                onClick={() => openLightbox("/images/travel/thailand/aonang/AoNang.jpg")}
+                            />
+                            <figcaption className="text-center text-sm text-gray-600">Drinks at Thai Thai Restaurant</figcaption>
+                        </figure>
+                        <br/>
+                        </CollapsibleReview>
 
                         {/* Khao Sok */}
                         <h2 id="khao-sok" className="text-4xl font-bold mb-4">Khao Sok</h2>
-                        <h3 id="khao-sok-natural-park" className="text-2xl font-bold mb-4">Khao Sok Natural Park</h3>
+                        <h3 id="khao-sok-natural-park" className="text-2xl font-bold mb-4">Khao Sok National Park</h3>
+                        We left Ao Nang early in the morning to drive to Khao Sok National Park. We spent two nights in the park: We spent the fist night in Khaosok Boutique Camps, a hotel located on the hill slopes in the jungle. We spent the second night in a floating bungalow on the lake itself, in a hotel called The Laguna Chiewlarn.<br/><br/>
+
+                        We spent our first day exploring the rivers and jungle of Khao Sok National Park. We went on a canoe tour through the jungle, where we saw some monkeys and other wildlife along the way. We stopped at the halfway point, where our guides served us local coffee in bamboo cups, which we were able to take home with us as a souvenir.<br/><br/>
+                        <div className="grid md:grid-cols-2 gap-2">
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/thailand/khaosok/River1.JPG"
+                                    alt="Khao Sok River"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/thailand/khaosok/River1.JPG')}
+                                />
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/thailand/khaosok/River2.jpg"
+                                    alt="Khao Sok River"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/thailand/khaosok/River2.jpg')}
+                                />
+                                
+                            </figure>
+                        </div>
+                        <figcaption className="text-center text-sm text-gray-600">Drifting down the Khao Sok River</figcaption>
+                        <br/>
+
+                        We also visited Wat Sok Tham Phanthurak on our way to our hotel. This temple has a special monkey shrine, which sets it apart from other Thai temples. There is a main temple building, a monkey shrine, as well as a cave with a Buddha statue inside. A nice stop when driving through Khao Sok and a fun opportunity to see some silly monkeys up close, but not a must-see.<br/><br/>
+
+                        <div className="grid md:grid-cols-2 gap-2">
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/thailand/khaosok/KhaoSokMonkey1.JPG"
+                                    alt="Khao Sok Monkey"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/thailand/khaosok/KhaoSokMonkey1.JPG')}
+                                />
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/thailand/khaosok/KhaoSokMonkey2.JPG"
+                                    alt="Khao Sok Monkey"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/thailand/khaosok/KhaoSokMonkey2.JPG')}
+                                />
+                                
+                            </figure>
+                        </div>
+                        <figcaption className="text-center text-sm text-gray-600">Monkeys in the Wat Sok Tham Phanthurak temple</figcaption>
+                        <br/>
+
+                        After checking into our hotel and having some dinner there, we went on a night safari through the jungle. We mainly saw insects, spiders, and other small critters, but we also saw a few larger animals, like a civet cat high up in the canopy. The night safari was a fun experience, though the number of tourists on the same path as us made it a bit less enjoyable.<br/><br/>
+
+                        <div className="grid md:grid-cols-3 gap-2">
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/thailand/khaosok/NightSafari1.JPG"
+                                    alt="Night Safari in Khao Sok"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/thailand/khaosok/NightSafari1.JPG')}
+                                />
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/thailand/khaosok/NightSafari2.JPG"
+                                    alt="Night Safari in Khao Sok"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/thailand/khaosok/NightSafari2.JPG')}
+                                />
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/thailand/khaosok/NightSafari3.JPG"
+                                    alt="Night Safari in Khao Sok"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/thailand/khaosok/NightSafari3.JPG')}
+                                />
+                            </figure>
+                        </div>
+                        <figcaption className="text-center text-sm text-gray-600">Spotting critters on the Night Safari in Khao Sok</figcaption>
+                        <br/>
+
                         <h3 id="khao-sok-food-drinks" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
 
                         {/* Bangkok */}
@@ -1005,6 +1142,53 @@ export default function Thailand() {
                                         </figure>
                                     </div>
                                     <figcaption className="text-center text-sm text-gray-600">The Cove on Koh Phi Phi</figcaption>
+                                </p>
+                            </div>
+                        </details>
+
+                        <details className="group mb-6 rounded-md">
+                            <summary className="flex items-center justify-between p-4 cursor-pointer">
+                                <div className="flex items-center">
+                                    <svg className="chev h-5 w-5 mr-3 text-gray-600" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+                                        <path d="M6 8l4 4 4-4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+                                    </svg>
+                                    <h4 id="hotel-1" className="text-1xl font-bold m-0">Ao Nang: Wake Up Aonang</h4>
+                                </div>
+                                <div className="flex items-center">
+                                    <StarScale rating={2.5} />
+                                </div>
+                            </summary>
+
+                            <div className="px-4 pb-4 collapsible-body">
+                                <div className="max-w-6xl mx-auto">
+                                    <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-8 mb-8">
+                                        <div className="flex items-center">
+                                            <StarLine rating={6} max={10} title='Staff' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={4} max={10} title='Facilities' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={5} max={10} title='Cleanliness' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={2} max={10} title='Comfort' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={8} max={10} title='Location' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={7} max={10} title='Value for Money' />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <p className="mb-6 leading-relaxed mt-2">
+                                    This was genuinely one of the weirdest venues I've stayed at. On the face of it, it looks like a nice hotel, and to be fair we had everything we needed. However, I found the rooms to be very weirdly designed, giving a weird dystopian run-down-station from the Star Wars-universe kind of vibe. The showers were concrete boxes with modernistic but sad shower heads.<br/>
+                                    In principle, this hotel has everything you need, is close to the action, and offers good value for money. However it is one of the hotels where the design was so sad that it made me feel uncomfortable.
+                                    <br/>
+                                    Find it <a href="https://maps.app.goo.gl/mLpVNu8xowYdr2Ug7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                                    <br />
                                 </p>
                             </div>
                         </details>
