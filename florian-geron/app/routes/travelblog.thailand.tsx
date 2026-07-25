@@ -971,8 +971,9 @@ export default function Thailand() {
                         </figure>
                         <br/>
 
-                        On our last day in Khao Sok, we went on an excursion to explore a nearby cave with a shrine.
-                        ADD STORY ABOUT LEECHES.
+                        On our last day in Khao Sok, we went on an excursion to explore a nearby cave with a shrine. We got onto a boat and then crossed a piece of jungle by foot. As it was still pouring, leeches were all around the pathway, trying to get to our feet and legs. We had to be careful to avoid them, and one of us even had one in their neck at some point. This was a rather stressful experience, though my nerves were calmed when one of guides informed me that they are not dangerous and do not spread any diseases. He told me to think of it as "giving back to nature", which actually helped me a bit.<br/>
+                        The cave itself was a nice destination but not the most impressive sight to behold. In hindsight, I think I would've preferred seeing some more of the lake from the boat rather than going on the cave excursion on foot.<br/><br/>
+                        
 
                         <h3 id="khao-sok-food-drinks" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
 
