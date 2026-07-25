@@ -731,6 +731,8 @@ export default function Thailand() {
                         <h3 id="ao-nang" className="text-2xl font-bold mb-4">Ao Nang</h3>
 
                         After a relaxing night and slow morning of sunbathing and swimming on Koh Phi Phi, we got on a ferry to the Thai mainland.<br/><br/>
+                        
+                        After a scenic ride, the ferry dropped us off at the floating pier on the other side of the isthmus of Railay Beach. We walked off the pier, passed some monkeys, and crossed the small town into the Railay Beach area.<br/>
 
                         <div className="grid md:grid-cols-2 gap-2">
                             <figure className="md:col-span-1">
@@ -753,6 +755,8 @@ export default function Thailand() {
                         </div>
                         <figcaption className="text-center text-sm text-gray-600">Some monkey around Railay, enjoying tourist leftovers</figcaption>
                         <br/>
+                        
+                        The area is known for its beach and impressive limestone cliffs. This area is a very popular tourist spot, filled with many restaurants and shops, as well as many venues selling "happy shakes". These are milkshakes with psychedelic mushrooms mixed in them. The places selling these shakes have a very distinct vibe, with colorful decorations and stoner music playing. Generally, Railay Beach has a very chill and relaxed vibe, and we enjoyed our time there. <br/><br/>
 
                         <figure className="flex flex-col items-center">
                             <img
@@ -765,6 +769,8 @@ export default function Thailand() {
                         </figure>
                         <br/>
 
+                        We were planning to hang around Railay for some time, until after sunset, because we heard that Ao Nang is a bit of a chaotic place and we preferred to spend our time on a laid-back beach. However, in the afternoon, a storm started rolling in, so we had to make a choice: Either we wait out the storm in Railay, or we take a boat to Ao Nang and hope we can get there before the storm hits in earnest (as boats are the only way to get off the isthmus on which Railay is located). We decided to take the boat to Ao Nang, and we had a very wet and bumpy ride. The ride got scary when the driver lost control and almost steered us into the cliffs. He wasn't able to drop us off at the pier in Ao Nang, so he dropped us in the lagoon of another bay, where we had to wade to the shore. As there were some sharp stones and shells on the sea floor, some of us came out of the water with bloody cuts on their feet. Upon getting out of the water, we got into a taxi to our hotel.
+                        <br/><br/>
                         Upon arriving in Ao Nang, the weather had pretty much calmed down, so we picked the absolute worst time to get in the little boat.<br/><br/>
                         In Ao Nang, we did little more than checking into the hotel, getting some dinner, and going for some drinks afterwards. Walking on the main street of Ao Nang is quite the experience. It is a loud area filled with neon signs and commercial vehicles with posters on top driving around advertising stuff like Muay Thai fights and nightclubs. Ao Nang wasn't really our vibe, so we were happy to leave the next morning for our next destination, Khao Sok National Park.<br/><br/>
 
