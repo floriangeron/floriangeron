@@ -822,8 +822,8 @@ export default function Thailand() {
                                 onClick={() => openLightbox("/images/travel/thailand/aonang/AoNang.jpg")}
                             />
                             <figcaption className="text-center text-sm text-gray-600">Drinks at Thai Thai Restaurant</figcaption>
-                        </figure>
-                        <br/>
+                            </figure>
+                            <br/>
                         </CollapsibleReview>
 
                         {/* Khao Sok */}
@@ -908,6 +908,65 @@ export default function Thailand() {
                         </div>
                         <figcaption className="text-center text-sm text-gray-600">Spotting critters on the Night Safari in Khao Sok</figcaption>
                         <br/>
+
+                        The second day was the highlight of our Khao Sok experience. We went on a boat which took us to our floating bungalow on the Cheow Lan lake. This is an artificial lake, which was created by damming the river. The Thai government decided to make the nature surrounding lake a National Park, which allowed wildlife to thrive in the area. The lake is surrounded by limestone cliffs and jungle, which makes for a beautiful setting. <br/>
+                        <div className="grid md:grid-cols-2 gap-2">
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/thailand/khaosok/KhaoSok1.JPG"
+                                    alt="Khao Sok"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/thailand/khaosok/KhaoSok1.JPG')}
+                                />
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/thailand/khaosok/KhaoSok2.JPG"
+                                    alt="Khao Sok"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/thailand/khaosok/KhaoSok2.JPG')}
+                                />
+                            </figure>
+                        </div>
+                        <figcaption className="text-center text-sm text-gray-600">Cheow Lan Lake</figcaption>
+                        <br/>
+                        Unfortunately, we had rainy weather throughout the day, limiting our options for outdoor activities. We had planned a boat tour to explore some of the nearby caves and waterfalls, and to hopefully spot some elephants, but we had to cancel it due to the rainfall. So instead, we spent the day swimming in the lake and enjoying the beautiful scenery. When the rain let up, we were able to use the hotel's kayak to explore the immediate surrounding of the lake a bit.<br/><br/> 
+                        <div className="grid md:grid-cols-2 gap-2">
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/thailand/khaosok/KhaoSok3.JPG"
+                                    alt="Khao Sok"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/thailand/khaosok/KhaoSok3.JPG')}
+                                />
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/thailand/khaosok/KhaoSok4.JPG"
+                                    alt="Khao Sok"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/thailand/khaosok/KhaoSok4.JPG')}
+                                />
+                            </figure>
+                        </div>
+                        <figcaption className="text-center text-sm text-gray-600">Making the best of the rainy weather</figcaption>
+                        <br/>
+
+                        We had dinner at the hotel and played some card games before going to bed. On our way to our room, we ran into an owl, watching over the area. This was a beautiful way to end our day in Khao Sok.<br/><br/>
+
+                        <figure className="flex flex-col items-center">
+                            <img
+                                src={"/images/travel/thailand/khaosok/KhaoSokOwl.JPG"}
+                                alt="Khao Sok Owl"
+                                className="w-[50%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                onClick={() => openLightbox("/images/travel/thailand/khaosok/KhaoSokOwl.JPG")}
+                            />
+                            <figcaption className="text-center text-sm text-gray-600">The Owl on our bungalow in Khao Sok</figcaption>
+                        </figure>
+                        <br/>
+
+                        On our last day in Khao Sok, we went on an excursion to explore a nearby cave with a shrine.
+                        ADD STORY ABOUT LEECHES.
 
                         <h3 id="khao-sok-food-drinks" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
 
@@ -1188,6 +1247,117 @@ export default function Thailand() {
                                     In principle, this hotel has everything you need, is close to the action, and offers good value for money. However it is one of the hotels where the design was so sad that it made me feel uncomfortable.
                                     <br/>
                                     Find it <a href="https://maps.app.goo.gl/mLpVNu8xowYdr2Ug7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                                    <br />
+                                </p>
+                            </div>
+                        </details>
+
+                        <details className="group mb-6 rounded-md">
+                            <summary className="flex items-center justify-between p-4 cursor-pointer">
+                                <div className="flex items-center">
+                                    <svg className="chev h-5 w-5 mr-3 text-gray-600" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+                                        <path d="M6 8l4 4 4-4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+                                    </svg>
+                                    <h4 id="hotel-1" className="text-1xl font-bold m-0">Khao Sok: Khaosok Boutique Camps</h4>
+                                </div>
+                                <div className="flex items-center">
+                                    <StarScale rating={4} />
+                                </div>
+                            </summary>
+
+                            <div className="px-4 pb-4 collapsible-body">
+                                <div className="max-w-6xl mx-auto">
+                                    <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-8 mb-8">
+                                        <div className="flex items-center">
+                                            <StarLine rating={8} max={10} title='Staff' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={null} max={10} title='Facilities' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={7} max={10} title='Cleanliness' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={7} max={10} title='Comfort' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={8} max={10} title='Location' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={8} max={10} title='Value for Money' />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <p className="mb-6 leading-relaxed mt-2">
+                                    This hotel is nestled in the hillside of the jungles of Khao Sok. The hotel consists of small standalone rooms, which are fancy hotel room-sized tents, which are comfortable and clean. It is a very peaceful place and a great base to explore the surrounding nature.<br/>
+                                    We had dinner at the hotel restaurant and we enjoyed our food and time here.<br/>
+                                    Find it <a href="https://maps.app.goo.gl/K8gpSog68HA6AS3F6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                                    <br />
+                                    <div className="grid md:grid-cols-2 gap-2">
+                                        <figure className="md:col-span-1">
+                                            <img
+                                                src="/images/travel/thailand/khaosok/KhaoSokHotel1.jpg"
+                                                alt="Khao Sok"
+                                                className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                                onClick={() => openLightbox('/images/travel/thailand/khaosok/KhaoSokHotel1.jpg')}
+                                            />
+                                        </figure>
+                                        <figure className="md:col-span-1">
+                                            <img
+                                                src="/images/travel/thailand/khaosok/KhaoSokHotel2.JPG"
+                                                alt="Khao Sok"
+                                                className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                                onClick={() => openLightbox('/images/travel/thailand/khaosok/KhaoSokHotel2.JPG')}
+                                            />
+                                            
+                                        </figure>
+                                    </div>
+                                    <figcaption className="text-center text-sm text-gray-600">Khaosok Boutique Camps</figcaption>
+                                </p>
+                            </div>
+                        </details>
+
+                        <details className="group mb-6 rounded-md">
+                            <summary className="flex items-center justify-between p-4 cursor-pointer">
+                                <div className="flex items-center">
+                                    <svg className="chev h-5 w-5 mr-3 text-gray-600" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+                                        <path d="M6 8l4 4 4-4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+                                    </svg>
+                                    <h4 id="hotel-1" className="text-1xl font-bold m-0">Khao Sok: The Laguna Chiewlarn</h4>
+                                </div>
+                                <div className="flex items-center">
+                                    <StarScale rating={4} />
+                                </div>
+                            </summary>
+
+                            <div className="px-4 pb-4 collapsible-body">
+                                <div className="max-w-6xl mx-auto">
+                                    <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-8 mb-8">
+                                        <div className="flex items-center">
+                                            <StarLine rating={8} max={10} title='Staff' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={6} max={10} title='Facilities' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={7} max={10} title='Cleanliness' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={7} max={10} title='Comfort' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={10} max={10} title='Location' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={8} max={10} title='Value for Money' />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <p className="mb-6 leading-relaxed mt-2">
+                                    A picture-perfect, picturesque hotel in an amazing location. This (kind of) hotel is a must-do experience when visiting Khao Sok, and we were very happy with our stay here. It is a bit touristy, but this is by design, and we still very much enjoyed our time here.<br/>
+                                    Find it <a href="https://maps.app.goo.gl/z9Hh18j9xY2FDH768" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                                     <br />
                                 </p>
                             </div>
