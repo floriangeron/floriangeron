@@ -1023,9 +1023,66 @@ export default function Thailand() {
                         <h3 id="bangkok-city" className="text-2xl font-bold mb-4">Bangkok City</h3>
                         This brings us to the last leg of our trip: Bangkok. We spent three nights in Bangkok. We spent our time exploring the city, visiting temples, getting a taste of the culture and nightlife, and getting some tailored clothes.<br/><br/>
 
-                        
+                        When in Bangkok as a tourist, the main tourist destinations are of course the Grand Palace and the Wat Arun temple. We spent an afternoon visiting these two sights in the sweltering, humid Bangkok heat. The Grand Palace is an extensive complex of buildings. It's an impressive site to visit, but it is also very crowded and touristy.<br/><br/>
+                        <div className="grid md:grid-cols-2 gap-2">
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/thailand/bangkok/RoyalPalace1.jpeg"
+                                    alt="Royal Palace"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/thailand/bangkok/RoyalPalace1.jpeg')}
+                                />
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/thailand/bangkok/RoyalPalace2.jpeg"
+                                    alt="Royal Palace"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/thailand/bangkok/RoyalPalace2.jpeg')}
+                                />
+                            </figure>
+                        </div>
+                        <figcaption className="text-center text-sm text-gray-600">The Grand Palace</figcaption>
+                        <br/>
+
+                        We visited Thailand right after the passing of Thailand's queen, meaning that the country was in mourning. When we were in Bangkok, her body was lying in state in the Grand Palace, open to Thai people wanting to pay their respect. This meant that we were not able to enter all areas in the Grand Palace complex, as we were not wearing the mandatory black clothing.<br/><br/>
+                        When first approaching the complex, we were stopped by friendly-looking passersby (he told us he was a Thai tourist from Chiang Mai who was in town to pay respects to the late queen), who told us about a special tour he could organize for us. He told us we just had to stop a tuktuk driver, and he would be able to take us to some of the main sights and be our driver for the day for a very limited price. As we mainly wanted to get into the Grand Palace at that time, we declined the offer.<br/>
+                        As we continued walking around the area, we were stopped by more people telling us this exact same story. After looking it up, it seems like this is an organized tourist trap, were th tuktuk drivers add more and more costs. Beware of this scam!<br/><br/>
+
+                        After the Grand Palace, we made our way across the river to visit War Arun. This majestic temple is another great site to visit when in Bangkok. The local people also seem to like to visit this place; There were many Thai people in fancy outfits have elaborate photoshoots here.<br/><br/>
+                        <div className="grid md:grid-cols-2 gap-2">
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/thailand/bangkok/WatArun1.jpeg"
+                                    alt="Wat Arun"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/thailand/bangkok/WatArun1.jpeg')}
+                                />
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/thailand/bangkok/WatArun2.jpeg"
+                                    alt="Wat Arun"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/thailand/bangkok/WatArun2.jpeg')}
+                                />
+                            </figure>
+                        </div>
+                        <figcaption className="text-center text-sm text-gray-600">Wat Arun</figcaption>
+                        <br/>
+
+
+
 
                         <h3 id="bangkok-food-drinks" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
+                        <CollapsibleReview title="Noodles 75 Bangkok" rating={3} scale="food">
+                            We had some lunch at this restaurant, which I quite enjoyed. This seems like a place where locals go to eat, and the food was good and cheap. The staff was friendly and helpful, and the restaurant had a nice atmosphere. However, one of my friends got sick after eating here, so I would recommend being careful.
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/PFZhVCZNamKqLMh19" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+                        Aire Bar
+                        Vanilla Sky Rooftop bar
+                        Michelin Mango sticky rice
 
                         {/* Hotels */}
                         <h2 id="hotel-reviews" className="text-4xl font-bold mb-4">Hotel Reviews</h2>
@@ -1466,6 +1523,51 @@ export default function Thailand() {
                                         <figcaption className="text-center text-sm text-gray-600">Baan Urt Hotel in Surat Thani</figcaption>
                                     </figure>
                                     <br/>
+                                </p>
+                            </div>
+                        </details>
+                        
+                        <details className="group mb-6 rounded-md">
+                            <summary className="flex items-center justify-between p-4 cursor-pointer">
+                                <div className="flex items-center">
+                                    <svg className="chev h-5 w-5 mr-3 text-gray-600" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+                                        <path d="M6 8l4 4 4-4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+                                    </svg>
+                                    <h4 id="hotel-1" className="text-1xl font-bold m-0">Bangkok: Oasis 65</h4>
+                                </div>
+                                <div className="flex items-center">
+                                    <StarScale rating={4.5} />
+                                </div>
+                            </summary>
+
+                            <div className="px-4 pb-4 collapsible-body">
+                                <div className="max-w-6xl mx-auto">
+                                    <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-8 mb-8">
+                                        <div className="flex items-center">
+                                            <StarLine rating={null} max={10} title='Staff' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={null} max={10} title='Facilities' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={9} max={10} title='Cleanliness' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={9} max={10} title='Comfort' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={6} max={10} title='Location' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={8} max={10} title='Value for Money' />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <p className="mb-6 leading-relaxed mt-2">
+                                    XXX.<br/>
+                                    Find it <a href="https://maps.app.goo.gl/yTrH4bvNbYAR6qe67" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                                    <br />
                                 </p>
                             </div>
                         </details>
