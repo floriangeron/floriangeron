@@ -698,7 +698,7 @@ export default function Thailand() {
 
                         <Carousel className="w-full">
                             <CarouselContent className="-ml-1">
-                                {Array.from({ length: 6 }).map((_, index) => (
+                                {Array.from({ length: 8 }).map((_, index) => (
                                 <CarouselItem key={index} className="basis-1/2 pl-1 lg:basis-1/3">
                                     <div className="p-1">
                                     <Card>
@@ -860,6 +860,17 @@ export default function Thailand() {
                         <figcaption className="text-center text-sm text-gray-600">Drifting down the Khao Sok River</figcaption>
                         <br/>
 
+                        <figure className="flex flex-col items-center">
+                            <img
+                                src={"/images/travel/thailand/khaosok/Snake.JPG"}
+                                alt="Snake in Khao Sok"
+                                className="w-[100%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                onClick={() => openLightbox("/images/travel/thailand/khaosok/Snake.JPG")}
+                            />
+                            <figcaption className="text-center text-sm text-gray-600">A snake spotted in the canopies above us</figcaption>
+                        </figure>
+                        <br/>
+
                         We also visited Wat Sok Tham Phanthurak on our way to our hotel. This temple has a special monkey shrine, which sets it apart from other Thai temples. There is a main temple building, a monkey shrine, as well as a cave with a Buddha statue inside. A nice stop when driving through Khao Sok and a fun opportunity to see some silly monkeys up close, but not a must-see.<br/><br/>
 
                         <div className="grid md:grid-cols-2 gap-2">
@@ -973,13 +984,47 @@ export default function Thailand() {
 
                         On our last day in Khao Sok, we went on an excursion to explore a nearby cave with a shrine. We got onto a boat and then crossed a piece of jungle by foot. As it was still pouring, leeches were all around the pathway, trying to get to our feet and legs. We had to be careful to avoid them, and one of us even had one in their neck at some point. This was a rather stressful experience, though my nerves were calmed when one of guides informed me that they are not dangerous and do not spread any diseases. He told me to think of it as "giving back to nature", which actually helped me a bit.<br/>
                         The cave itself was a nice destination but not the most impressive sight to behold. In hindsight, I think I would've preferred seeing some more of the lake from the boat rather than going on the cave excursion on foot.<br/><br/>
+
+                        We were planning to make our way back to Bangkok by getting to Surat Thani and taking a night train from there. However, upon arriving at the train station, we learned that the train had been cancelled due to "natural disaster". We never learned what exactly happened, but we had to make a last-minute decision on how to get to Bangkok. We decided to stay the night in Surat Thani and fly to Bangkok the next morning.<br/><br/>
+
+                        <div className="grid md:grid-cols-2 gap-2">
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/thailand/khaosok/SuratThani1.JPG"
+                                    alt="Surat Thani"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/thailand/khaosok/SuratThani1.JPG')}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">The group frantically booking a flight to Bangkok</figcaption>
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/thailand/khaosok/SuratThani2.JPG"
+                                    alt="Surat Thani"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/thailand/khaosok/SuratThani2.JPG')}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">Enjoying some message to unwind (and kill time in Surat Thani)</figcaption>
+                            </figure>
+                        </div>
+                        <br/>
                         
 
                         <h3 id="khao-sok-food-drinks" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
+                        <CollapsibleReview title="Rann Restaurant" rating={4} scale="food">
+                            This restaurant next to the Surat Thani railway station was our base of operations for an entire afternoon. We initially had some lunch here and then ordered some drinks while playing board games, as we needed to kill some time while waiting for our train. After realizing our train was cancelled, we had to book a flight to Bangkok, which we did at this restaurant. The staff was very friendly and helpful, and the food was good.
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/PP9asvyW3jALpWgE9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+                        
 
                         {/* Bangkok */}
                         <h2 id="bangkok" className="text-4xl font-bold mb-4">Bangkok</h2>
                         <h3 id="bangkok-city" className="text-2xl font-bold mb-4">Bangkok City</h3>
+                        This brings us to the last leg of our trip: Bangkok. We spent three nights in Bangkok. We spent our time exploring the city, visiting temples, getting a taste of the culture and nightlife, and getting some tailored clothes.<br/><br/>
+
+                        
+
                         <h3 id="bangkok-food-drinks" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
 
                         {/* Hotels */}
@@ -1366,6 +1411,61 @@ export default function Thailand() {
                                     A picture-perfect, picturesque hotel in an amazing location. This (kind of) hotel is a must-do experience when visiting Khao Sok, and we were very happy with our stay here. It is a bit touristy, but this is by design, and we still very much enjoyed our time here.<br/>
                                     Find it <a href="https://maps.app.goo.gl/z9Hh18j9xY2FDH768" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                                     <br />
+                                </p>
+                            </div>
+                        </details>
+
+                        <details className="group mb-6 rounded-md">
+                            <summary className="flex items-center justify-between p-4 cursor-pointer">
+                                <div className="flex items-center">
+                                    <svg className="chev h-5 w-5 mr-3 text-gray-600" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+                                        <path d="M6 8l4 4 4-4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+                                    </svg>
+                                    <h4 id="hotel-1" className="text-1xl font-bold m-0">Surat Thani: Baan Urt Hotel</h4>
+                                </div>
+                                <div className="flex items-center">
+                                    <StarScale rating={1.5} />
+                                </div>
+                            </summary>
+
+                            <div className="px-4 pb-4 collapsible-body">
+                                <div className="max-w-6xl mx-auto">
+                                    <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-8 mb-8">
+                                        <div className="flex items-center">
+                                            <StarLine rating={7} max={10} title='Staff' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={null} max={10} title='Facilities' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={2} max={10} title='Cleanliness' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={2} max={10} title='Comfort' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={6} max={10} title='Location' />
+                                        </div>
+                                        <div className="flex items-center">
+                                            <StarLine rating={5} max={10} title='Value for Money' />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <p className="mb-6 leading-relaxed mt-2">
+                                    This is the hotel we booked when we unexpectedly needed to stay the night in Surat Thani. We chose it due to its location close to the airport, which is the only thing this hotel has going for it. The hotel rooms smell very moldy, I would not recommend anyone to stay the night here, except people like us who needed to stay the night at a cheap price.<br/>
+                                    Find it <a href="https://maps.app.goo.gl/viAyA3hEsWyPzxNfA" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                                    <br />
+                                    <figure className="flex flex-col items-center">
+                                        <img
+                                            src={"/images/travel/thailand/khaosok/BaanUrtHotel.JPG"}
+                                            alt="Baan Urt Hotel"
+                                            className="w-[75%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                            onClick={() => openLightbox("/images/travel/thailand/khaosok/BaanUrtHotel.JPG")}
+                                        />
+                                        <figcaption className="text-center text-sm text-gray-600">Baan Urt Hotel in Surat Thani</figcaption>
+                                    </figure>
+                                    <br/>
                                 </p>
                             </div>
                         </details>
