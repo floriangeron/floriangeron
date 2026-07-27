@@ -1156,12 +1156,27 @@ export default function Thailand() {
                             <br/>
                         </CollapsibleReview>
                         <CollapsibleReview title="Aire Bar" rating={4.5} scale="drink">
-                            We had some dinner here before checking out Khaoson Road. We had some good Thai food here, but the quality wasn't amazing either. A fine place to have dinner while out, but nothing to write home about.
+                            This is a classy rooftop bar on to pof the Hyatt in Bangkok, which we visited on our final night in Bangkok. We enjoyed dinner here, very affordable for European travellers, and enjoyed the views while reminiscing about our favorite moments of the trip. We can highly recommend this place for anyone looking for calm rooftop views in Bangkok.
                             <br />
-                            Find it <a href="https://maps.app.goo.gl/Z9oegttTf7iLpF1K8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            Find it <a href="https://maps.app.goo.gl/rJKg2EYuuCWWWvPa7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            <figure className="flex flex-col items-center">
+                                <img
+                                    src={"/images/travel/thailand/bangkok/Rooftop1.jpeg"}
+                                    alt="Rooftop"
+                                    className="w-[75%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox("/images/travel/thailand/bangkok/Rooftop1.jpeg")}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">One night in Bangkok</figcaption>
+                            </figure>
+                            <br/>
+                        </CollapsibleReview>
+                        <CollapsibleReview title="Vanilla Sky Rooftop bar" rating={4.5} scale="drink">
+                            Located right next to Aire Bar, this is another rooftop bar along Sukhumvit Road. We had drinks and dessert here. This rooftop bar is in open air and has some deep house music playing in the background, so perhaps a slightly more romantic and hip bar than Aire.
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/E4dBMUxQyqCjJVTo8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
                         
-                        Vanilla Sky Rooftop bar
+                        
 
                         {/* Hotels */}
                         <h2 id="hotel-reviews" className="text-4xl font-bold mb-4">Hotel Reviews</h2>
