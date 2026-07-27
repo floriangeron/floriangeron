@@ -104,7 +104,7 @@ export default function Thailand() {
         "Thai mountain village",
         "Thai mountain village",
         "Thai mountain village",
-        "Enjoying John's amazing masaman curry",
+        "Enjoying John's amazing massaman curry",
         "Dancing with the locals",
     ]; 
 
@@ -247,13 +247,13 @@ export default function Thailand() {
                         Thailand is a well-known tourist destination and is rather easy to travel in for Western tourists. The country has well-developed tourist infrastructure and the people are used to tourists, meaning you will probably get by with English, and if not they will try their best to help you.<br/><br/>
                         I personally divide the country into three main regions: the north where you will find the mountains, jungles, and temple complexes; the south where you will find beautiful islands and beaches; and the capital Bangkok, a huge city with towering skyscrapers, truly one of the great cities of the world.
                         <br/><br/> 
-                        Here is are a couple of tips for visiting the country:
+                        Here are a couple of tips for visiting the country:
                         <ul className="list-disc pl-5 space-y-1">
                             <li>
-                                <strong>Currency: </strong>Thailand's currency is the Thai Baht (THB). We did not carry any cash when flying in to the country, which do not really cause an issue as we were able to pay for the things we needed upon arrival (Grab, e-SIM, etc.) with our credit cards. I would strongly recommend getting a <strong>Revolut</strong> card or similar, as this made paying in Baht very easy. After arriving in the city center, we got some cash out of the ATMs for small purchases at restaurants and local markets.
+                                <strong>Currency: </strong>Thailand's currency is the Thai Baht (THB). We did not carry any cash when flying into the country, which doesn't really cause an issue as we were able to pay for the things we needed upon arrival (Grab, e-SIM, etc.) with our credit cards. I would strongly recommend getting a <strong>Revolut</strong> card or similar, as this made paying in Baht very easy. After arriving in the city center, we got some cash out of the ATMs for small purchases at restaurants and local markets.
                             </li>
                             <li>
-                                <strong>Logistics: </strong>Like in the rest of Southeast Asia, <strong>Grab</strong> is king when it comes to getting around short distances. Grab also offers other services like food delivery. Next to cars, Grab also offers motorbike taxis, which are a fast and exhillerating way to get around. For longer distances with ferries, trains, and flights, <strong>12GoAsia</strong> is the go-to platform for booking tickets.
+                                <strong>Logistics: </strong>Like in the rest of Southeast Asia, <strong>Grab</strong> is king when it comes to getting around short distances. Grab also offers other services like food delivery. Next to cars, Grab also offers motorbike taxis, which are a fast and exhilarating way to get around. For longer distances with ferries, trains, and flights, <strong>12GoAsia</strong> is the go-to platform for booking tickets.
                             </li>
                             <li>
                                 <strong>e-SIM: </strong>Getting an e-SIM has never been easier thanks to apps like Saily, Nomad, and Revolut. We installed the e-SIM before arriving and can highly recommend doing this as it's a convenient way to stay connected while traveling.
@@ -391,7 +391,7 @@ export default function Thailand() {
                         <h3 id="pai" className="text-2xl font-bold mb-4">Pai</h3>
                         Pai is a small town in the mountains of northern Thailand. It is known to be a popular destination for backpackers looking for a bohemian vibe, as it is known as a bit of a psychedelic center. The reputation is well-deserved, as a guy in our minivan already started talking about the psychedelic experiences he'd had in Pai. The town itself is in fact very charming, with many hippie-style cafes and shops. The town is centered upon a main road with many establishments, but there are more hostels further out of the city center as well.<br/><br/>
 
-                        We mainly visited Pai for the beautiful nature surrounding it. We slept in a hotel in the center of Pai upon arriving, and the next morning we departed bright and early for a two-day trek in the mountains. We had two local guides, John and Tiger, who drove us about an hour out of Pai to the starting point of the treck. <br/><br/>
+                        We mainly visited Pai for the beautiful nature surrounding it. We slept in a hotel in the center of Pai upon arriving, and the next morning we departed bright and early for a two-day trek in the mountains. We had two local guides, John and Tiger, who drove us about an hour out of Pai to the starting point of the trek. <br/><br/>
                         {/* <Carousel className="w-full">
                             <CarouselContent className="-ml-1">
                                 {Array.from({ length: 10 }).map((_, index) => (
@@ -450,7 +450,7 @@ export default function Thailand() {
                         </div>
                         <figcaption className="text-center my-6 text-sm text-gray-600">Some highlights from the first day of our hike</figcaption>
                     
-                        At the end of the first day, we arrived in a local village, Tiger's home village, where we had a homestay experience. Upon arriving in the village, we were greeted by a guy on a motorcycle carrying a pig's head on his back. We also started hearing many gunshots in the area at twilight; We were informed these were the hunters hunting for monkeys in the area. John cooked some delicious massaman curry for us, which was better than any massaman curry I had in restaurants during the trip. After dinner, we wanted to check out the stars, so we walked a little outside of the village center, where we stumbled upon a local party with someone playing music on a guiter / banjo instrument while the others danced around in circles. We joined the locals for a short and sweet dance under the stars.<br/><br/>
+                        At the end of the first day, we arrived in a local village, Tiger's home village, where we had a homestay experience. Upon arriving in the village, we were greeted by a guy on a motorcycle carrying a pig's head on his back. We also started hearing many gunshots in the area at twilight. We were informed that these were the hunters hunting for monkeys in the area. John cooked some delicious massaman curry for us, which was better than any massaman curry I had in restaurants during the trip. After dinner, we wanted to check out the stars, so we walked a little outside of the village center, where we stumbled upon a local party with someone playing music on a guitar / banjo instrument while the others danced around in circles. We joined the locals for a short and sweet dance under the stars.<br/><br/>
 
                         <Carousel className="w-full">
                             <CarouselContent className="-ml-1">
@@ -576,7 +576,7 @@ export default function Thailand() {
                         </CollapsibleReview>
                         <CollapsibleReview title="Restaurant under SN Apartment 201" rating={3.5} scale="food">
                             For our second lunch in Chiang Mai, we tried a local restaurant in the street of our hotel. I cannot find this restaurant on Google Maps, but the restaurant is located next the SN Apartment 201 hotel, so you can find it there if you'd like!<br/>
-                            This restaurant provided another local experience, and most of us had some khao soi again, which was good but slightly less impressive than the oone we had in Charmm. The staff was friendly and the prices were very low, but the restaurant itself was a bit dirty and run-down. Endearingly, the restaurant had some official-looking pictures of Thai people on the wall, holding diplomas or awards, which we assume are the family members of the restaurant owners.
+                            This restaurant provided another local experience, and most of us had some khao soi again, which was good but slightly less impressive than the one we had in Charmm. The staff was friendly and the prices were very low, but the restaurant itself was a bit dirty and run-down. Endearingly, the restaurant had some official-looking pictures of Thai people on the wall, holding diplomas or awards, which we assume are the family members of the restaurant owners.
                             <br />
                             <figure className="flex flex-col items-center">
                                 <img
@@ -590,7 +590,7 @@ export default function Thailand() {
                             <br/>
                         </CollapsibleReview>
                         <CollapsibleReview title="Pai Siam Bar & Bistro" rating={3.5} scale="food">
-                            We had dinner at this place on our first night in Pai. It was a livery venue with a nice atmosphere, with an older Thai man playing some whimsical live music. The food was good but did not blow us away. The masaman in particular was a bit of a letdown, we expect they might have toned down the flavor profile for tourists.
+                            We had dinner at this place on our first night in Pai. It was a lively venue with a nice atmosphere, with an older Thai man playing some whimsical live music. The food was good but did not blow us away. The massaman in particular was a bit of a letdown; we expect they might have toned down the flavor profile for tourists.
                             <br />
                             Find it <a href="https://maps.app.goo.gl/SsRWnAdcF9X9zfi68" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
@@ -621,7 +621,7 @@ export default function Thailand() {
                         </div>
                         <figcaption className="text-center text-sm text-gray-600">Sam and William going diving</figcaption>
                         <br/>
-                        On the second day, my friends went out for snorkling and scuba diving, but that was not an option for me as my sinuses were still blocked from my illness. Instead, I had a slow day exploring my girlfriend's favourite beach on the island, Ao Yon beach.<br/><br/>
+                        On the second day, my friends went out for snorkeling and scuba diving, but that was not an option for me as my sinuses were still blocked from my illness. Instead, I had a slow day exploring my girlfriend's favorite beach on the island, Ao Yon beach.<br/><br/>
                         <figure className="flex flex-col items-center">
                             <img
                                 src={"/images/travel/thailand/phuket/AoYon.jpg"}
@@ -672,7 +672,7 @@ export default function Thailand() {
                         </figure>
                         <br/>
 
-                        On the evening of our arrival, we went on a boat tour to visit one of Thailand's main tourist spots: Maya Bay. The tour started with some sights we did not find particularly interesting, like Monkey Bay (where we did not see any monkeys) and Viking Cave (which is not really accessible). We also got dropped at a snorkling spot where there was limited visibility. <br/>
+                        On the evening of our arrival, we went on a boat tour to visit one of Thailand's main tourist spots: Maya Bay. The tour started with some sights we did not find particularly interesting, like Monkey Bay (where we did not see any monkeys) and Viking Cave (which is not really accessible). We also got dropped at a snorkeling spot where there was limited visibility. <br/>
                         <figure className="flex flex-col items-center">
                             <img
                                 src={"/images/travel/thailand/phiphi/PiLehBay.JPG"}
@@ -694,7 +694,7 @@ export default function Thailand() {
                             <figcaption className="text-center text-sm text-gray-600">Pyramid on Maya Bay</figcaption>
                         </figure>
                         <br/>
-                        We ended the tour with a last snorkling session during sunset, just outisde of Maya Bay. This was a very fun experience, as it must've been one of the most beautiful settings for snorkling I've experienced so far. The boat staff treated us to some fresh pineapple at this time, and overall it was a great ending to our trip.<br/><br/>
+                        We ended the tour with a last snorkeling session during sunset, just outside of Maya Bay. This was a very fun experience, as it must've been one of the most beautiful settings for snorkeling I've experienced so far. The boat staff treated us to some fresh pineapple at this time, and overall it was a great ending to our trip.<br/><br/>
 
                         <Carousel className="w-full">
                             <CarouselContent className="-ml-1">
@@ -835,7 +835,7 @@ export default function Thailand() {
                         {/* Khao Sok */}
                         <h2 id="khao-sok" className="text-4xl font-bold mb-4">Khao Sok</h2>
                         <h3 id="khao-sok-natural-park" className="text-2xl font-bold mb-4">Khao Sok National Park</h3>
-                        We left Ao Nang early in the morning to drive to Khao Sok National Park. We spent two nights in the park: We spent the fist night in Khaosok Boutique Camps, a hotel located on the hill slopes in the jungle. We spent the second night in a floating bungalow on the lake itself, in a hotel called The Laguna Chiewlarn.<br/><br/>
+                        We left Ao Nang early in the morning to drive to Khao Sok National Park. We spent two nights in the park: we spent the first night in Khaosok Boutique Camps, a hotel located on the hill slopes in the jungle. We spent the second night in a floating bungalow on the lake itself, in a hotel called The Laguna Chiewlarn.<br/><br/>
 
                         We spent our first day exploring the rivers and jungle of Khao Sok National Park. We went on a canoe tour through the jungle, where we saw some monkeys and other wildlife along the way. We stopped at the halfway point, where our guides served us local coffee in bamboo cups, which we were able to take home with us as a souvenir.<br/><br/>
                         <div className="grid md:grid-cols-2 gap-2">
@@ -969,7 +969,7 @@ export default function Thailand() {
                         <figcaption className="text-center text-sm text-gray-600">Making the best of the rainy weather</figcaption>
                         <br/>
 
-                        We had dinner at the hotel and played some card games before going to bed. On our way to our room, we ran into an owl, watching over the area. This was a beautiful way to end our day in Khao Sok.<br/><br/>
+                        We had dinner at the hotel and played some card games before going to bed. On our way to our room, we ran into an owl watching over the area. This was a beautiful way to end our day in Khao Sok.<br/><br/>
 
                         <figure className="flex flex-col items-center">
                             <img
@@ -1047,9 +1047,9 @@ export default function Thailand() {
 
                         We visited Thailand right after the passing of Thailand's queen, meaning that the country was in mourning. When we were in Bangkok, her body was lying in state in the Grand Palace, open to Thai people wanting to pay their respect. This meant that we were not able to enter all areas in the Grand Palace complex, as we were not wearing the mandatory black clothing.<br/><br/>
                         When first approaching the complex, we were stopped by friendly-looking passersby (he told us he was a Thai tourist from Chiang Mai who was in town to pay respects to the late queen), who told us about a special tour he could organize for us. He told us we just had to stop a tuktuk driver, and he would be able to take us to some of the main sights and be our driver for the day for a very limited price. As we mainly wanted to get into the Grand Palace at that time, we declined the offer.<br/>
-                        As we continued walking around the area, we were stopped by more people telling us this exact same story. After looking it up, it seems like this is an organized tourist trap, were th tuktuk drivers add more and more costs. Beware of this scam!<br/><br/>
+                        As we continued walking around the area, we were stopped by more people telling us this exact same story. After looking it up, it seems like this is an organized tourist trap, where the tuktuk drivers add more and more costs. Beware of this scam!<br/><br/>
 
-                        After the Grand Palace, we made our way across the river to visit War Arun. This majestic temple is another great site to visit when in Bangkok. The local people also seem to like to visit this place; There were many Thai people in fancy outfits have elaborate photoshoots here.<br/><br/>
+                        After the Grand Palace, we made our way across the river to visit Wat Arun. This majestic temple is another great site to visit when in Bangkok. The local people also seem to like to visit this place; there were many Thai people in fancy outfits having elaborate photo shoots there.<br/><br/>
                         <div className="grid md:grid-cols-2 gap-2">
                             <figure className="md:col-span-1">
                                 <img
@@ -1072,7 +1072,7 @@ export default function Thailand() {
                         <br/>
 
                         On our first night in Bangkok, we decided to check out a piece of culture that Thailand is globally known for. Bangkok is home to the global center of Muay Thai: The Rajadamnern Stadium. A ticket buys you entry for the entire evening, with multiple fights taking place. This venue tries to combine the traditional elements of Muay Thai with a more modern, commercial approach, like popcorn stands and informative videos on the history of Muay Thai in between the fights.<br/>
-                        The evening kicked off with one female fights, followed by multiple male fights. The combatents included European and African contenders, next to the Asian ones. The events was MC'd by a Thai local, but we had trouble understanding anything he was saying, except him regularly shouting "MUAAAAY THAAAAAI".<br/><br/>
+                        The evening kicked off with one female fight, followed by multiple male fights. The combatants included European and African contenders, alongside the Asian ones. The event was MC'd by a Thai local, but we had trouble understanding anything he was saying, except him regularly shouting "MUAAAAY THAAAAAI".<br/><br/>
 
                         <figure className="flex flex-col items-center">
                             <img
@@ -1085,7 +1085,7 @@ export default function Thailand() {
                         </figure>
                         <br/>
 
-                        We also spent some time exploring the Bangkok nightlife. We did the mandatory walk through Khaosan Road, but this area was a bit too over-the-top for our liking. My favorite moment was when one of barkers hit one of my friends on the head with a menu because we weren't paying them any attention. We also walked through Soi Cowboy street, which was a bit calmer but also a bit grimier than Khaoson Road, in my estimation.<br/><br/>
+                        We also spent some time exploring the Bangkok nightlife. We did the mandatory walk through Khaosan Road, but this area was a bit too over-the-top for our liking. My favorite moment was when one of the barkers hit one of my friends on the head with a menu because we weren't paying them any attention. We also walked through Soi Cowboy Street, which was a bit calmer but also a bit grimmer than Khaosan Road, in my estimation.<br/><br/>
 
                         <figure className="flex flex-col items-center">
                             <img
@@ -1098,7 +1098,7 @@ export default function Thailand() {
                         </figure>
                         <br/>
 
-                        While in Bangkok, some of us were in the market for a tailored suit while travelling in Souteast Asia, so we decided to check out some tailors on Google and visit one with good reviews. We ended up visiting <a href="https://maps.app.goo.gl/LPPChUVJh8XUNwuT6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">AMBFA Tailor</a>, and most of us were rather happy with our tailored clothes. Only one of us got a suit, but almost all the rest got a tailored shirt to remember this trip by.<br/>
+                        While in Bangkok, some of us were in the market for a tailored suit while traveling in Southeast Asia, so we decided to check out some tailors on Google and visit one with good reviews. We ended up visiting <a href="https://maps.app.goo.gl/LPPChUVJh8XUNwuT6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">AMBFA Tailor</a>, and most of us were rather happy with our tailored clothes. Only one of us got a suit, but almost all the rest got a tailored shirt to remember this trip by.<br/>
                         It took us multiple visits to get our clothes: The first visit for exploring the options and taking our measurements. The second visit to try out the clothes and make some detailed measurements for retouches. By the third time we visited the shop, we were able to take our clothes with us. Having to come back multiple times actually meant this was a serious time investment, and given our limited time in Bangkok, perhaps it wasn't the wisest decision to spend so much time here. That being said, it is a fond memory of ours, especially our second visit to the shop: As we were waiting quite long before they were able to get to us all, they pulled out a bar cart and told us to help us to some drinks.<br/>
 
                         <div className="grid md:grid-cols-2 gap-2">
@@ -1136,12 +1136,12 @@ export default function Thailand() {
                             Find it <a href="https://maps.app.goo.gl/tnJk2Sn8Mp2XtZ6T6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
                         <CollapsibleReview title="Deep" rating={3} scale="food">
-                            We had some dinner here before checking out Khaoson Road. We had some good Thai food here, but the quality wasn't amazing either. A fine place to have dinner while out, but nothing to write home about.
+                            We had some dinner here before checking out Khaosan Road. We had some good Thai food here, but the quality wasn't amazing either. A fine place to have dinner while out, but nothing to write home about.
                             <br />
                             Find it <a href="https://maps.app.goo.gl/Z9oegttTf7iLpF1K8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
                         <CollapsibleReview title="K. Panich Sticky Rice" rating={2} scale="hotdog">
-                            This venue selling mango sticky rice got a mention in the Michelin guide, so we had to check it out. Unfortunately, it is pretty much a tourist trap, in our estimation. The mango sticky rice was good, but not any better as the one you can buy at a local market for a fraction of the price.
+                            This venue selling mango sticky rice got a mention in the Michelin guide, so we had to check it out. Unfortunately, it is pretty much a tourist trap, in our estimation. The mango sticky rice was good, but not any better than the one you can buy at a local market for a fraction of the price.
                             <br />
                             Find it <a href="https://maps.app.goo.gl/JekZ5PKSwpvvcHHe6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                             <figure className="flex flex-col items-center">
@@ -1156,7 +1156,7 @@ export default function Thailand() {
                             <br/>
                         </CollapsibleReview>
                         <CollapsibleReview title="Aire Bar" rating={4.5} scale="drink">
-                            This is a classy rooftop bar on to pof the Hyatt in Bangkok, which we visited on our final night in Bangkok. We enjoyed dinner here, very affordable for European travellers, and enjoyed the views while reminiscing about our favorite moments of the trip. We can highly recommend this place for anyone looking for calm rooftop views in Bangkok.
+                            This is a classy rooftop bar on top of the Hyatt in Bangkok, which we visited on our final night in Bangkok. We enjoyed dinner here, very affordable for European travellers, and enjoyed the views while reminiscing about our favorite moments of the trip. We can highly recommend this place for anyone looking for calm rooftop views in Bangkok.
                             <br />
                             Find it <a href="https://maps.app.goo.gl/rJKg2EYuuCWWWvPa7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                             <figure className="flex flex-col items-center">
@@ -1380,7 +1380,7 @@ export default function Thailand() {
 
                                 <p className="mb-6 leading-relaxed mt-2">
                                     In order to get away from the crowds on Koh Phi Phi, we stayed in a hotel on the eastern side of the island. The hotel is nestled along the slopes of the island and is only accessible by boat. Upon arriving at the hotel's beach, we realized we had made the right decision to stay in this oasis of tropical peace.<br/>
-                                    The rooms we had weren't particularly luxurious, but they were comfortable and clean. The staff also helped us with getting our luggage up and down the slopes. We enjoyed lounging on the beach and swimming in the warm waters of the sea inbetween our excursions. Overall, we had a great stay here and would recommend it to anyone looking for a peaceful stay on Koh Phi Phi, including couples who are looking for a more romantic retreat.
+                                    The rooms we had weren't particularly luxurious, but they were comfortable and clean. The staff also helped us with getting our luggage up and down the slopes. We enjoyed lounging on the beach and swimming in the warm waters of the sea in between our excursions. Overall, we had a great stay here and would recommend it to anyone looking for a peaceful stay on Koh Phi Phi, including couples who are looking for a more romantic retreat.
                                     <br/>
                                     Find it <a href="https://maps.app.goo.gl/49zDPQPQumVb9bvL9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                                     <br />
@@ -1446,7 +1446,7 @@ export default function Thailand() {
                                 </div>
 
                                 <p className="mb-6 leading-relaxed mt-2">
-                                    This was genuinely one of the weirdest venues I've stayed at. On the face of it, it looks like a nice hotel, and to be fair we had everything we needed. However, I found the rooms to be very weirdly designed, giving a weird dystopian run-down-station from the Star Wars-universe kind of vibe. The showers were concrete boxes with modernistic but sad shower heads.<br/>
+                                    This was genuinely one of the weirdest venues I've stayed at. On the face of it, it looks like a nice hotel, and to be fair we had everything we needed. However, I found the rooms to be very weirdly designed, giving a strange, dystopian, run-down, station-like vibe. The showers were concrete boxes with modernistic but sad shower heads. It all reminded me of something out of the Star Wars universe.<br/>
                                     In principle, this hotel has everything you need, is close to the action, and offers good value for money. However it is one of the hotels where the design was so sad that it made me feel uncomfortable.
                                     <br/>
                                     Find it <a href="https://maps.app.goo.gl/mLpVNu8xowYdr2Ug7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
