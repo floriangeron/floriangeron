@@ -1071,7 +1071,57 @@ export default function Thailand() {
                         <figcaption className="text-center text-sm text-gray-600">Wat Arun</figcaption>
                         <br/>
 
+                        On our first night in Bangkok, we decided to check out a piece of culture that Thailand is globally known for. Bangkok is home to the global center of Muay Thai: The Rajadamnern Stadium. A ticket buys you entry for the entire evening, with multiple fights taking place. This venue tries to combine the traditional elements of Muay Thai with a more modern, commercial approach, like popcorn stands and informative videos on the history of Muay Thai in between the fights.<br/>
+                        The evening kicked off with one female fights, followed by multiple male fights. The combatents included European and African contenders, next to the Asian ones. The events was MC'd by a Thai local, but we had trouble understanding anything he was saying, except him regularly shouting "MUAAAAY THAAAAAI".<br/><br/>
 
+                        <figure className="flex flex-col items-center">
+                            <img
+                                src={"/images/travel/thailand/bangkok/MuayThai.JPG"}
+                                alt="Muay Thai"
+                                className="w-[75%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                onClick={() => openLightbox("/images/travel/thailand/bangkok/MuayThai.JPG")}
+                            />
+                            <figcaption className="text-center text-sm text-gray-600">Rajadamnern Stadium</figcaption>
+                        </figure>
+                        <br/>
+
+                        We also spent some time exploring the Bangkok nightlife. We did the mandatory walk through Khaosan Road, but this area was a bit too over-the-top for our liking. My favorite moment was when one of barkers hit one of my friends on the head with a menu because we weren't paying them any attention. We also walked through Soi Cowboy street, which was a bit calmer but also a bit grimier than Khaoson Road, in my estimation.<br/><br/>
+
+                        <figure className="flex flex-col items-center">
+                            <img
+                                src={"/images/travel/thailand/bangkok/WeThemBoys.JPG"}
+                                alt="ThemBoys"
+                                className="w-[50%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                onClick={() => openLightbox("/images/travel/thailand/bangkok/WeThemBoys.JPG")}
+                            />
+                            <figcaption className="text-center text-sm text-gray-600">The Boys in Bangkok</figcaption>
+                        </figure>
+                        <br/>
+
+                        While in Bangkok, some of us were in the market for a tailored suit while travelling in Souteast Asia, so we decided to check out some tailors on Google and visit one with good reviews. We ended up visiting <a href="https://maps.app.goo.gl/LPPChUVJh8XUNwuT6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">AMBFA Tailor</a>, and most of us were rather happy with our tailored clothes. Only one of us got a suit, but almost all the rest got a tailored shirt to remember this trip by.<br/>
+                        It took us multiple visits to get our clothes: The first visit for exploring the options and taking our measurements. The second visit to try out the clothes and make some detailed measurements for retouches. By the third time we visited the shop, we were able to take our clothes with us. Having to come back multiple times actually meant this was a serious time investment, and given our limited time in Bangkok, perhaps it wasn't the wisest decision to spend so much time here. That being said, it is a fond memory of ours, especially our second visit to the shop: As we were waiting quite long before they were able to get to us all, they pulled out a bar cart and told us to help us to some drinks.<br/>
+
+                        <div className="grid md:grid-cols-2 gap-2">
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/thailand/bangkok/Tailor2.JPG"
+                                    alt="Tailor"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/thailand/bangkok/Tailor2.JPG')}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">Picking the right fabric</figcaption>
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/thailand/bangkok/Tailor1.jpeg"
+                                    alt="Tailor"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/thailand/bangkok/Tailor1.jpeg')}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">Helping ourselves to the bar cart</figcaption>
+                            </figure>
+                        </div>
+                        <br/>
 
 
                         <h3 id="bangkok-food-drinks" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
@@ -1080,9 +1130,38 @@ export default function Thailand() {
                             <br />
                             Find it <a href="https://maps.app.goo.gl/PFZhVCZNamKqLMh19" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
-                        Aire Bar
+                        <CollapsibleReview title="The Commons Thonglor" rating={4.5} scale="food">
+                            This building is located in Thonglor, another expat area in Bangkok. It is a very nice community center, offering eating venues as well as coworking spaces. We quite liked the vibe here and had a quick bite.
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/tnJk2Sn8Mp2XtZ6T6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+                        <CollapsibleReview title="Deep" rating={3} scale="food">
+                            We had some dinner here before checking out Khaoson Road. We had some good Thai food here, but the quality wasn't amazing either. A fine place to have dinner while out, but nothing to write home about.
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/Z9oegttTf7iLpF1K8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+                        <CollapsibleReview title="K. Panich Sticky Rice" rating={2} scale="hotdog">
+                            This venue selling mango sticky rice got a mention in the Michelin guide, so we had to check it out. Unfortunately, it is pretty much a tourist trap, in our estimation. The mango sticky rice was good, but not any better as the one you can buy at a local market for a fraction of the price.
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/JekZ5PKSwpvvcHHe6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            <figure className="flex flex-col items-center">
+                                <img
+                                    src={"/images/travel/thailand/bangkok/StickyMango.jpeg"}
+                                    alt="Mango"
+                                    className="w-[50%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox("/images/travel/thailand/bangkok/StickyMango.jpeg")}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">Trying Michelin-grade mango sticky rice</figcaption>
+                            </figure>
+                            <br/>
+                        </CollapsibleReview>
+                        <CollapsibleReview title="Aire Bar" rating={4.5} scale="drink">
+                            We had some dinner here before checking out Khaoson Road. We had some good Thai food here, but the quality wasn't amazing either. A fine place to have dinner while out, but nothing to write home about.
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/Z9oegttTf7iLpF1K8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+                        
                         Vanilla Sky Rooftop bar
-                        Michelin Mango sticky rice
 
                         {/* Hotels */}
                         <h2 id="hotel-reviews" className="text-4xl font-bold mb-4">Hotel Reviews</h2>
@@ -1565,7 +1644,8 @@ export default function Thailand() {
                                 </div>
 
                                 <p className="mb-6 leading-relaxed mt-2">
-                                    XXX.<br/>
+                                    We booked this accommodation via AirBnB, and it served as a great base to explore Bangkok out of. This place is located in Sukhumvit, Bangkok's expat area. Located along the BTS Skytrain, this area is well connected and filled with supermarkets, bars, and other venues tailored to an international audience.<br/>
+                                    We stayed at this four-story house, with plenty of room for the eight of us. It was clean and comfortable, and we particularly liked the rooftop terrace. I would recommend this place for larger groups visiting Bangkok.<br/>
                                     Find it <a href="https://maps.app.goo.gl/yTrH4bvNbYAR6qe67" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                                     <br />
                                 </p>
