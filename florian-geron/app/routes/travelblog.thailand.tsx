@@ -99,7 +99,7 @@ export default function Thailand() {
         "Tiger and John on top of the world",
     ]; 
 
-        const imgCaptionHikeVillage = [
+    const imgCaptionHikeVillage = [
         "Entering our homestay village",
         "Thai mountain village",
         "Thai mountain village",
@@ -111,6 +111,7 @@ export default function Thailand() {
     const imgCaptionHike2 = [
         "Starting our second day",
         "through the jungle",
+        "past the rice fields",
         "past dangerous cliffs",
         "taking a rest",
         "through the river",
@@ -479,7 +480,7 @@ export default function Thailand() {
 
                         <Carousel className="w-full">
                             <CarouselContent className="-ml-1">
-                                {Array.from({ length: 7 }).map((_, index) => (
+                                {Array.from({ length: 8 }).map((_, index) => (
                                 <CarouselItem key={index} className="basis-1/2 pl-1 lg:basis-2/5">
                                     <div className="p-1">
                                     <Card>
