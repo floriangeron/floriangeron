@@ -476,7 +476,7 @@ export default function Thailand() {
                             <CarouselNext />
                         </Carousel><br/>
             
-                        The next day, we continued our trek through the mountains. I started getting ill during the second day of our trek, which heavily damped my enjoyment of this experience. There was little to it except pushing through though. During this day's hike, we passed an area which was guarded by Thai soldiers. We supposed they were doing some training exercises in the area, and they told our guides we were not allowed to pass through. When John gestured that he would like to continue anyway, one of the soldiers gently but firmly took his arm and told him to find another way, which we did. We ended our hike by doing a river crossing. A little further downstream, we swam across the river again for some photos under a waterfall.<br/><br/>
+                        The next day, we continued our trek through the mountains. I started getting ill during the second day of our trek, which heavily dampened my enjoyment of this experience. There was little to it except pushing through though. During this day's hike, we passed an area which was guarded by Thai soldiers. We supposed they were doing some training exercises in the area, and they told our guides we were not allowed to pass through. When John gestured that he would like to continue anyway, one of the soldiers gently but firmly took his arm and told him to find another way, which we did. We ended our hike by doing a river crossing. A little further downstream, we swam across the river again for some photos under a waterfall.<br/><br/>
 
                         <Carousel className="w-full">
                             <CarouselContent className="-ml-1">
@@ -576,7 +576,7 @@ export default function Thailand() {
                             <br/>
                         </CollapsibleReview>
                         <CollapsibleReview title="Restaurant under SN Apartment 201" rating={3.5} scale="food">
-                            For our second lunch in Chiang Mai, we tried a local restaurant in the street of our hotel. I cannot find this restaurant on Google Maps, but the restaurant is located next the SN Apartment 201 hotel, so you can find it there if you'd like!<br/>
+                            For our second lunch in Chiang Mai, we tried a local restaurant on the street of our hotel. I cannot find this restaurant on Google Maps, but the restaurant is located next the SN Apartment 201 hotel, so you can find it there if you'd like!<br/>
                             This restaurant provided another local experience, and most of us had some khao soi again, which was good but slightly less impressive than the one we had in Charmm. The staff was friendly and the prices were very low, but the restaurant itself was a bit dirty and run-down. Endearingly, the restaurant had some official-looking pictures of Thai people on the wall, holding diplomas or awards, which we assume are the family members of the restaurant owners.
                             <br />
                             <figure className="flex flex-col items-center">
@@ -1005,7 +1005,7 @@ export default function Thailand() {
                                     className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
                                     onClick={() => openLightbox('/images/travel/thailand/khaosok/SuratThani2.JPG')}
                                 />
-                                <figcaption className="text-center text-sm text-gray-600">Enjoying some message to unwind (and kill time in Surat Thani)</figcaption>
+                                <figcaption className="text-center text-sm text-gray-600">Enjoying some massage to unwind (and kill time in Surat Thani)</figcaption>
                             </figure>
                         </div>
                         <br/>
@@ -1172,7 +1172,7 @@ export default function Thailand() {
                             <br/>
                         </CollapsibleReview>
                         <CollapsibleReview title="Vanilla Sky Rooftop bar" rating={4.5} scale="drink">
-                            Located right next to Aire Bar, this is another rooftop bar along Sukhumvit Road. We had drinks and dessert here. This rooftop bar is in open air and has some deep house music playing in the background, so perhaps a slightly more romantic and hip bar than Aire.
+                            Located right next to Aire Bar, this is another rooftop bar along Sukhumvit Road. We had drinks and dessert here. This rooftop bar is in the open air and has some deep house music playing in the background, so perhaps a slightly more romantic and hip bar than Aire.
                             <br />
                             Find it <a href="https://maps.app.goo.gl/E4dBMUxQyqCjJVTo8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
@@ -1221,7 +1221,7 @@ export default function Thailand() {
                                 </div>
 
                                 <p className="mb-6 leading-relaxed mt-2">
-                                    This hotel provided a comfortable stay for our time in Chiang Mai. We had a little standalone building all to ourselves, as well as some rooms in the main building. This allowed us to have some privacy and a place to hang out together. The hotel is located a bit outside of the city center, but still within walking distance of the old town. The staff was very friendly and helpful. The breakfast was fine, but not particularly big for European standards. During breakfast, the lady gave me a second portion without charging me for it. My friend asked for a second portion too, but his second portion ended up on the bill! We got a good laugh out of this, but it's a good example of differing service norms in Thailand compared to Europe. Overall, I would recommend this hotel for a stay in Chiang Mai, especially for a larger groups.
+                                    This hotel provided a comfortable stay for our time in Chiang Mai. We had a little standalone building all to ourselves, as well as some rooms in the main building. This allowed us to have some privacy and a place to hang out together. The hotel is located a bit outside of the city center, but still within walking distance of the old town. The staff was very friendly and helpful. The breakfast was fine, but not particularly big for European standards. During breakfast, the lady gave me a second portion without charging me for it. My friend asked for a second portion too, but his second portion ended up on the bill! We got a good laugh out of this, but it's a good example of differing service norms in Thailand compared to Europe. Overall, I would recommend this hotel for a stay in Chiang Mai, especially for a larger group.
                                     <br />
                                     Find it <a href="https://maps.app.goo.gl/2QL4BqunXzQFhyXRA" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                                 </p>
@@ -1313,7 +1313,7 @@ export default function Thailand() {
 
                                 <p className="mb-6 leading-relaxed mt-2">
                                     In Phuket, we stayed in a villa in a central location on the island. This meant that we were reasonably close to all sights of interest, like the Old Town and Patong beach, but not particularly close to any one of them, meaning we had to take a ~20min Grab to get around. The villa was very comfortable for a group of eight and had a nice pool. It was a great spot for me to recover from my illness.<br/>
-                                    Overall we had a good stay here, and a recommendation if you are looking for a comfortable stay in Phuket in a calmer area, away from the party scene of Phuket.
+                                    Overall we had a good stay here, and I would recommend it if you are looking for a comfortable stay in Phuket in a calmer area, away from the party scene of Phuket.
                                     <br/>
                                     Find it <a href="https://maps.app.goo.gl/S1uqUa5doTWBbMRB8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                                     <br />
