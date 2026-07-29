@@ -754,7 +754,7 @@ export default function Thailand() {
                                 
                             </figure>
                         </div>
-                        <figcaption className="text-center text-sm text-gray-600">Some monkey around Railay, enjoying tourist leftovers</figcaption>
+                        <figcaption className="text-center text-sm text-gray-600">Some monkeys around Railay, enjoying tourist leftovers</figcaption>
                         <br/>
                         
                         The area is known for its beach and impressive limestone cliffs. This area is a very popular tourist spot, filled with many restaurants and shops, as well as many venues selling "happy shakes". These are milkshakes with psychedelic mushrooms mixed in them. The places selling these shakes have a very distinct vibe, with colorful decorations and stoner music playing. Generally, Railay Beach has a very chill and relaxed vibe, and we enjoyed our time there. <br/><br/>
