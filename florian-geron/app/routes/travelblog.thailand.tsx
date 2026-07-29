@@ -260,7 +260,7 @@ export default function Thailand() {
                                 <strong>e-SIM: </strong>Getting an e-SIM has never been easier thanks to apps like Saily, Nomad, and Revolut. We installed the e-SIM before arriving and can highly recommend doing this as it's a convenient way to stay connected while traveling.
                             </li>
                             <li>
-                                <strong>Weather: </strong>The best time to visit is during the dry season, from November to April. We went in November and had great weather throughout the trip.
+                                <strong>Weather: </strong>The best time to visit is during the dry season, from November to April. We went in November and had mostly great weather throughout the trip.
                             </li>
                             <li>
                                 <strong>Vaccinations: </strong>Make sure to check the latest vaccination recommendations for Thailand, as they can change over time. When we went, it was recommended to have vaccinations for Hepatitis A and B, Typhoid, and Tetanus. As I stayed in Southeast Asia for a longer period, I also had vaccinations for Japanese Encephalitis and Rabies, but these are not typically necessary for a short trip to Thailand.
@@ -298,7 +298,7 @@ export default function Thailand() {
                                 <li>
                                     Chiang Rai:
                                     <br/>
-                                    Chiang Rai is a city in northern Thailand, known for its beautiful temples and the Golden Triangle region. The city is home to the famous White Temple (Wat Rong Khun) and the Blue Temple (Wat Rong Suea Ten). The Golden Triangle is where the borders of Thailand, Laos, and Myanmar meet, and is known for its scenic views and historical significance.
+                                    Chiang Rai is a city in northern Thailand, known for its beautiful temples and the Golden Triangle region. The city is home to the famous White Temple (Wat Rong Khun) and the Blue Temple (Wat Rong Suea Ten). Chiang Rai is close to Golden Triangle, the area where the borders of Thailand, Laos, and Myanmar meet.
                                 </li>
                                 <li>
                                     Ko Lipe and Koh Lanta:
@@ -311,7 +311,7 @@ export default function Thailand() {
                         {/* Chiang Mai */}
                         <h2 id="chiang-mai" className="text-4xl font-bold mb-4">Chiang Mai</h2>
                         <h3 id="chiang-mai-city" className="text-2xl font-bold mb-4">Chiang Mai</h3>
-                        Chiang Mai is the largest city in northern Thailand and somewhat of a gateway to the region's mountains, jungles, and temples. The city itself is charming to visit too; The old town is surrounded by a moat, which is rectangular rather than circular, making it distinct from most European moats. The city contains many beautiful temples and the night market is a great place to buy some souvenirs and try some street food. At the time, I did not buy any souvenirs as it was the first stop of our trip and I thought we would see many more night markets, but in hindsight I wish I bought some souvenirs as the Chiang Mai night market was one of the larger ones we visited in the country.<br/><br/>
+                        Chiang Mai is the largest city in northern Thailand and somewhat of a gateway to the region's mountains, jungles, and temples. The city itself is charming to visit too; The old town is surrounded by a moat, which is rectangular rather than circular, making it distinct from most European moats. The city contains many beautiful temples and the night market is a great place to buy some souvenirs and try some street food. At the time, I did not buy any souvenirs as it was the first stop of our trip and I thought we would see many more night markets. In hindsight I wish I bought some souvenirs as the Chiang Mai night market was one of the larger ones we visited in the country.<br/><br/>
                         We arrived in Chiang Mai at noon and left the next day in the late afternoon, which gave us some time to see the main highlights of the city.<br/><br/>
                         To immediately fight back against the jetlag, we started with an afternoon temple tour. This tour took us a couple of hours and brought us to some of the most impressive temples just outside of the city.<br/><br/>
 
@@ -1047,8 +1047,8 @@ export default function Thailand() {
                         <br/>
 
                         We visited Thailand right after the passing of Thailand's queen, meaning that the country was in mourning. When we were in Bangkok, her body was lying in state in the Grand Palace, open to Thai people wanting to pay their respect. This meant that we were not able to enter all areas in the Grand Palace complex, as we were not wearing the mandatory black clothing.<br/><br/>
-                        When first approaching the complex, we were stopped by friendly-looking passersby (he told us he was a Thai tourist from Chiang Mai who was in town to pay respects to the late queen), who told us about a special tour he could organize for us. He told us we just had to stop a tuktuk driver, and he would be able to take us to some of the main sights and be our driver for the day for a very limited price. As we mainly wanted to get into the Grand Palace at that time, we declined the offer.<br/>
-                        As we continued walking around the area, we were stopped by more people telling us this exact same story. After looking it up, it seems like this is an organized tourist trap, where the tuktuk drivers add more and more costs. Beware of this scam!<br/><br/>
+                        When first approaching the complex, we were stopped by a friendly-looking passerby (he told us he was a Thai tourist from Chiang Mai who was in town to pay respects to the late queen), who told us that the Grand Palace is closed and that he could organize a special tour for us. He told us we just had to stop a tuktuk driver, and this driver would be able to take us to some of the main sights and be our driver for the day for a very limited price.<br/>
+                        As we continued walking around the area, we were stopped by more people telling us this exact same story. After looking it up, it seems like this is an organized tourist trap, where the tuktuk drivers add more and more costs throughout the tour. They then take you to souvenir stores, gem stores, etc., where the driver gets a commission on every purchase. Part of this scam is them telling you that the Grand Palace is closed today, which is supposed to convince you to drop your original plans of visiting the Grand Palace. Because of the queen's funeral, this sounded very plausible. In the end, we were able to enter the Grand Palace, with just a couple of areas not being available for us. Beware of this scam!<br/><br/>
 
                         After the Grand Palace, we made our way across the river to visit Wat Arun. This majestic temple is another great site to visit when in Bangkok. The local people also seem to like to visit this place; there were many Thai people in fancy outfits having elaborate photo shoots there.<br/><br/>
                         <div className="grid md:grid-cols-2 gap-2">
@@ -1586,7 +1586,7 @@ export default function Thailand() {
                                 <div className="max-w-6xl mx-auto">
                                     <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-8 mb-8">
                                         <div className="flex items-center">
-                                            <StarLine rating={7} max={10} title='Staff' />
+                                            <StarLine rating={5} max={10} title='Staff' />
                                         </div>
                                         <div className="flex items-center">
                                             <StarLine rating={null} max={10} title='Facilities' />
@@ -1598,10 +1598,10 @@ export default function Thailand() {
                                             <StarLine rating={2} max={10} title='Comfort' />
                                         </div>
                                         <div className="flex items-center">
-                                            <StarLine rating={6} max={10} title='Location' />
+                                            <StarLine rating={5} max={10} title='Location' />
                                         </div>
                                         <div className="flex items-center">
-                                            <StarLine rating={5} max={10} title='Value for Money' />
+                                            <StarLine rating={3} max={10} title='Value for Money' />
                                         </div>
                                     </div>
                                 </div>
