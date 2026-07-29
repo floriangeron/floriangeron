@@ -1124,6 +1124,8 @@ export default function Thailand() {
                         </div>
                         <br/>
 
+                        After our final night in Bangkok, I packed up my things early and left the rest of the group to get to the airport. While they were flying back home, I was meeting my girlfriend in Bangkok airport <Link to="/travelblog/laos" className="text-blue-600 hover:underline">to explore the next country together</Link>.<br/><br/>
+
 
                         <h3 id="bangkok-food-drinks" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
                         <CollapsibleReview title="Noodles 75 Bangkok" rating={3} scale="food">
