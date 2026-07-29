@@ -1420,7 +1420,7 @@ export default function Thailand() {
                                     <h4 id="hotel-1" className="text-1xl font-bold m-0">Ao Nang: Wake Up Aonang</h4>
                                 </div>
                                 <div className="flex items-center">
-                                    <StarScale rating={2.5} />
+                                    <StarScale rating={2} />
                                 </div>
                             </summary>
 
@@ -1533,7 +1533,7 @@ export default function Thailand() {
                                     <h4 id="hotel-1" className="text-1xl font-bold m-0">Khao Sok: The Laguna Chiewlarn</h4>
                                 </div>
                                 <div className="flex items-center">
-                                    <StarScale rating={4} />
+                                    <StarScale rating={4.5} />
                                 </div>
                             </summary>
 
@@ -1578,7 +1578,7 @@ export default function Thailand() {
                                     <h4 id="hotel-1" className="text-1xl font-bold m-0">Surat Thani: Baan Urt Hotel</h4>
                                 </div>
                                 <div className="flex items-center">
-                                    <StarScale rating={1.5} />
+                                    <StarScale rating={1} />
                                 </div>
                             </summary>
 
