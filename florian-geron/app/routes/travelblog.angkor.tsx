@@ -400,14 +400,14 @@ export default function Angkor() {
                         <Carousel className="w-full">
                             <CarouselContent className="-ml-1">
                                 {Array.from({ length: 7 }).map((_, index) => (
-                                <CarouselItem key={index} className="basis-1/2 pl-1 lg:basis-1/3">
+                                <CarouselItem key={index} className="basis-1/2 pl-1 lg:basis-2/5">
                                     <div className="p-1">
                                     <Card>
                                         <CardContent className="flex items-center justify-center p-0">
                                         <img 
                                             src={`/images/travel/cambodia/angkorsunrise/angkor${index+1}.jpg`} 
                                             alt={`Angkor ${index+1}`} 
-                                            className="w-full h-full sm:h-80 md:h-96 object-cover rounded-lg cursor-pointer" 
+                                            className="w-full h-auto max-h-[24rem] sm:max-h-[28rem] md:max-h-[32rem] object-contain rounded-lg cursor-pointer" 
                                             onClick={() => openLightbox(`/images/travel/cambodia/angkorsunrise/angkor${index+1}.jpg`)}/>
                                         </CardContent>
                                     </Card>
@@ -446,14 +446,14 @@ export default function Angkor() {
                         <Carousel className="w-full">
                             <CarouselContent className="-ml-1">
                                 {Array.from({ length: 7 }).map((_, index) => (
-                                <CarouselItem key={index} className="basis-1/2 pl-1 lg:basis-1/3">
+                                <CarouselItem key={index} className="basis-1/2 pl-1 lg:basis-2/5">
                                     <div className="p-1">
                                     <Card>
                                         <CardContent className="flex items-center justify-center p-0">
                                         <img 
                                             src={`/images/travel/cambodia/smallcircuit/smallcircuit${index+1}.jpg`} 
                                             alt={`Small Circuit ${index+1}`} 
-                                            className="w-full h-full sm:h-80 md:h-96 object-cover rounded-lg cursor-pointer" 
+                                            className="w-full h-auto max-h-[24rem] sm:max-h-[28rem] md:max-h-[32rem] object-contain rounded-lg cursor-pointer" 
                                             onClick={() => openLightbox(`/images/travel/cambodia/smallcircuit/smallcircuit${index+1}.jpg`)}/>
                                         </CardContent>
                                     </Card>
@@ -515,14 +515,14 @@ export default function Angkor() {
                         <Carousel className="w-full">
                             <CarouselContent className="-ml-1">
                                 {Array.from({ length: 11 }).map((_, index) => (
-                                <CarouselItem key={index} className="basis-1/2 pl-1 lg:basis-1/3">
+                                <CarouselItem key={index} className="basis-1/2 pl-1 lg:basis-2/5">
                                     <div className="p-1">
                                     <Card>
                                         <CardContent className="flex items-center justify-center p-0">
                                         <img 
                                             src={`/images/travel/cambodia/bigcircuit/bigcircuit${index+1}.jpg`} 
                                             alt={`Big Circuit ${index+1}`} 
-                                            className="w-full h-full sm:h-80 md:h-96 object-cover rounded-lg cursor-pointer" 
+                                            className="w-full h-auto max-h-[24rem] sm:max-h-[28rem] md:max-h-[32rem] object-contain rounded-lg cursor-pointer" 
                                             onClick={() => openLightbox(`/images/travel/cambodia/bigcircuit/bigcircuit${index+1}.jpg`)}/>
                                         </CardContent>
                                     </Card>
