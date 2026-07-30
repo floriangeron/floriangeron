@@ -400,7 +400,7 @@ export default function Angkor() {
                         <Carousel className="w-full">
                             <CarouselContent className="-ml-1">
                                 {Array.from({ length: 7 }).map((_, index) => (
-                                <CarouselItem key={index} className="basis-1/2 pl-1 lg:basis-2/5">
+                                <CarouselItem key={index} className="basis-[90%] pl-1 lg:basis-2/5">
                                     <div className="p-1">
                                     <Card>
                                         <CardContent className="flex items-center justify-center p-0">
@@ -446,7 +446,7 @@ export default function Angkor() {
                         <Carousel className="w-full">
                             <CarouselContent className="-ml-1">
                                 {Array.from({ length: 7 }).map((_, index) => (
-                                <CarouselItem key={index} className="basis-1/2 pl-1 lg:basis-2/5">
+                                <CarouselItem key={index} className="basis-[90%] pl-1 lg:basis-2/5">
                                     <div className="p-1">
                                     <Card>
                                         <CardContent className="flex items-center justify-center p-0">
@@ -515,7 +515,7 @@ export default function Angkor() {
                         <Carousel className="w-full">
                             <CarouselContent className="-ml-1">
                                 {Array.from({ length: 11 }).map((_, index) => (
-                                <CarouselItem key={index} className="basis-1/2 pl-1 lg:basis-2/5">
+                                <CarouselItem key={index} className="basis-[90%] pl-1 lg:basis-2/5">
                                     <div className="p-1">
                                     <Card>
                                         <CardContent className="flex items-center justify-center p-0">
@@ -1073,7 +1073,7 @@ export default function Angkor() {
                         <Carousel className="w-full">
                             <CarouselContent className="-ml-1">
                                 {Array.from({ length: 6 }).map((_, index) => (
-                                <CarouselItem key={index} className="basis-1/2 pl-1 lg:basis-1/3">
+                                <CarouselItem key={index} className="basis-[90%] pl-1 lg:basis-1/3">
                                     <div className="p-1">
                                     <Card>
                                         <CardContent className="flex items-center justify-center p-0">

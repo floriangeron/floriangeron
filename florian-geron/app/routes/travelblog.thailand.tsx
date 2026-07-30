@@ -542,7 +542,7 @@ export default function Thailand() {
                                 <img
                                     src={"/images/travel/thailand/chiangmai/Charmm.jpg"}
                                     alt="Charmm"
-                                    className="w-[75%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    className="w-full sm:w-[90%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
                                     onClick={() => openLightbox("/images/travel/thailand/chiangmai/Charmm.jpg")}
                                 />
                                 <figcaption className="text-center text-sm text-gray-600">Enjoying our first Khao Soi</figcaption>
@@ -627,7 +627,7 @@ export default function Thailand() {
                             <img
                                 src={"/images/travel/thailand/phuket/AoYon.jpg"}
                                 alt="Ao Yon Beach"
-                                className="w-[75%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                className="w-full sm:w-[90%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
                                 onClick={() => openLightbox("/images/travel/thailand/phuket/AoYon.jpg")}
                             />
                             <figcaption className="text-center text-sm text-gray-600">Ao Yon Beach</figcaption>
@@ -666,7 +666,7 @@ export default function Thailand() {
                             <img
                                 src={"/images/travel/thailand/phiphi/PhiPhiView.JPG"}
                                 alt="Phi Phi View"
-                                className="w-[75%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                className="w-full sm:w-[90%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
                                 onClick={() => openLightbox("/images/travel/thailand/phiphi/PhiPhiView.JPG")}
                             />
                             <figcaption className="text-center text-sm text-gray-600">View over Koh Phi Phi</figcaption>
@@ -678,7 +678,7 @@ export default function Thailand() {
                             <img
                                 src={"/images/travel/thailand/phiphi/PiLehBay.JPG"}
                                 alt="Pi Leh Bay"
-                                className="w-[75%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                className="w-full sm:w-[90%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
                                 onClick={() => openLightbox("/images/travel/thailand/phiphi/PiLehBay.JPG")}
                             />
                             <figcaption className="text-center text-sm text-gray-600">The crew at Pi Leh Bay</figcaption>
@@ -689,7 +689,7 @@ export default function Thailand() {
                             <img
                                 src={"/images/travel/thailand/phiphi/MayaPyramid.JPG"}
                                 alt="Maya Pyramid"
-                                className="w-[75%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                className="w-full sm:w-[90%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
                                 onClick={() => openLightbox("/images/travel/thailand/phiphi/MayaPyramid.JPG")}
                             />
                             <figcaption className="text-center text-sm text-gray-600">Pyramid on Maya Bay</figcaption>
