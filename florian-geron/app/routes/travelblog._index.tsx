@@ -2,6 +2,7 @@ import { Link } from "@remix-run/react";
 import { useEffect, useState } from "react";
 import type { MetaFunction } from "@remix-run/node";
 import { trips } from "~/data/trips";
+import TravelMap from "~/components/TravelMap"
 
 export const meta: MetaFunction = () => {
   return [
@@ -59,6 +60,9 @@ export default function TravelBlog() {
 
                 {/* Blog Posts */}
                 <div className="relative">
+                    <div>
+                        <TravelMap />
+                    </div>
                     {/* Decorative vertical, slightly-bendy SVG line (beside posts) - hidden on small screens */}
                     <div className="absolute inset-y-0 left-0 hidden md:block pointer-events-none z-0">
                         <svg

@@ -15,6 +15,8 @@ import "./tailwind.css";
 
 import { Analytics } from '@vercel/analytics/remix';
 
+import "leaflet/dist/leaflet.css";
+
 export const links: LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
   {
