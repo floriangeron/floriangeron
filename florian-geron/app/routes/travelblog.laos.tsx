@@ -184,7 +184,7 @@ export default function Laos() {
                         <h2 id="our-journey" className="text-4xl font-bold mb-4">Our Journey</h2>
                         <h3 id="background" className="text-2xl font-bold mb-4">Background</h3>
 
-                        After visiting Thailand with his friends, Florian met up with Francesca in Bangkok airport to continue the rest of the trip together.
+                        After visiting <Link to="/travelblog/thailand" className="text-blue-600 hover:underline">Thailand</Link> with his friends, Florian met up with Francesca in Bangkok airport to continue the rest of the trip together.
                         The next stop on our itinerary was Laos, a landlocked country in Southeast Asia, considered one of the most authentic and least touristy in the region.
                         <br/><br/>
                         Unlike Thailand, which managed to remain independent during the era of European colonization, Laos (like its neighbors Cambodia and Vietnam) was a French colony until 1953. Vietnam fought its way to independence by means of war, while Laos achieved it through negotiation. To this day, Laos and Vietnam are considered to have a "special relationship" due to their shared history and communist ideology.
@@ -916,6 +916,8 @@ export default function Laos() {
                             </figure>
                         </div>
                         <figcaption className="text-center text-sm text-gray-600">Chilling at Blue Lagoon 2</figcaption><br/>
+
+                        Afterwards, we took the train back to Luang Prabang, where we would catch our flight to <Link to="/travelblog/angkor" className="text-blue-600 hover:underline">Cambodia</Link>.<br/><br/>
 
 
                         <h3 id="vang-vieng-hotel-reviews" className="text-2xl font-bold mb-4">Hotel Reviews</h3>
