@@ -973,7 +973,7 @@ export default function Angkor() {
                             <img
                                 src={"/images/travel/cambodia/sanloem/Postcard.JPG"}
                                 alt="Sanloem"
-                                className="w-[50%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                className="w-full sm:w-[50%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
                                 onClick={() => openLightbox("/images/travel/cambodia/sanloem/Postcard.JPG")}
                             />
                             <figcaption className="text-center text-sm text-gray-600">Koh Rong Sanloem</figcaption>
@@ -1151,7 +1151,7 @@ export default function Angkor() {
                             <img
                                 src={"/images/travel/cambodia/sanloem/Sihanoukville.jpg"}
                                 alt="Sihanoukville"
-                                className="w-[50%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                className="w-full sm:w-[50%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
                                 onClick={() => openLightbox("/images/travel/cambodia/sanloem/Sihanoukville.jpg")}
                             />
                             <figcaption className="text-center text-sm text-gray-600">The view from our room at Onederz Sihanoukville</figcaption>
