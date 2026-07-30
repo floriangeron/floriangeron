@@ -110,10 +110,16 @@ export function Layout({ children }: { children: React.ReactNode }) {
             <FaHome className="w-5 h-5" />
           </Link>
         )}
-        
+        {/* Vercel Analytics*/}
         <Analytics />
         <ScrollRestoration />
         <Scripts />
+        {/* Cloudflare Analytics*/}
+        <script 
+          type='module' 
+          src='https://static.cloudflareinsights.com/beacon.min.js' 
+          data-cf-beacon='{"token": "3b185691f5fd4d978e80bc28cc521f4c"}'>
+        </script>
       </body>
     </html>
   );
