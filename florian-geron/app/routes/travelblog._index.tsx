@@ -172,7 +172,7 @@ export default function TravelBlog() {
                             .map((year) => (
                             <div key={year} className="relative">
                                 {/* Year marker positioned to align with the left SVG timeline */}
-                                <div className="absolute -left-8 md:-left-48 flex items-center">
+                                <div className="absolute hidden md:flex md:-left-48 items-center">
                                     <div className="flex items-center space-x-3">
                                         <div className="bg-white/90 border border-black-200 px-6 py-2 rounded-md text-lg md:text-3xl font-bold text-gray-500 shadow-sm hover:shadow-xl transition-shadow duration-300">
                                             {year}
