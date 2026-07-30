@@ -700,7 +700,7 @@ export default function Thailand() {
                         <Carousel className="w-full">
                             <CarouselContent className="-ml-1">
                                 {Array.from({ length: 8 }).map((_, index) => (
-                                <CarouselItem key={index} className="basis-[85%] pl-1 lg:basis-[39%]">
+                                <CarouselItem key={index} className="basis-[80%] pl-1 lg:basis-[39%]">
                                     <div className="p-1">
                                     <Card>
                                         <CardContent className="flex items-center justify-center p-0 overflow-hidden">
