@@ -13,6 +13,8 @@ import { FaArrowRight, FaArrowLeft, FaHome } from 'react-icons/fa';
 import { useState } from "react";
 import "./tailwind.css";
 
+import { Analytics } from '@vercel/analytics/remix';
+
 export const links: LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
   {
@@ -108,7 +110,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
             <FaHome className="w-5 h-5" />
           </Link>
         )}
-
+        
+        <Analytics />
         <ScrollRestoration />
         <Scripts />
       </body>
