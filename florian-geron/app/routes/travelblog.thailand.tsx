@@ -700,7 +700,7 @@ export default function Thailand() {
                         <Carousel className="w-full">
                             <CarouselContent className="-ml-1">
                                 {Array.from({ length: 8 }).map((_, index) => (
-                                <CarouselItem key={index} className="basis-[90%] pl-1 lg:basis-[39%]">
+                                <CarouselItem key={index} className="basis-[85%] pl-1 lg:basis-[39%]">
                                     <div className="p-1">
                                     <Card>
                                         <CardContent className="flex items-center justify-center p-0 overflow-hidden">
@@ -763,7 +763,7 @@ export default function Thailand() {
                             <img
                                 src={"/images/travel/thailand/aonang/RailayBeach.jpg"}
                                 alt="Railay Beach"
-                                className="w-[50%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                className="w-full sm:w-[50%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
                                 onClick={() => openLightbox("/images/travel/thailand/aonang/RailayBeach.jpg")}
                             />
                             <figcaption className="text-center text-sm text-gray-600">Railay Beach</figcaption>
@@ -976,7 +976,7 @@ export default function Thailand() {
                             <img
                                 src={"/images/travel/thailand/khaosok/KhaoSokOwl.JPG"}
                                 alt="Khao Sok Owl"
-                                className="w-[50%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                className="w-full sm:w-[50%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
                                 onClick={() => openLightbox("/images/travel/thailand/khaosok/KhaoSokOwl.JPG")}
                             />
                             <figcaption className="text-center text-sm text-gray-600">The Owl on our bungalow in Khao Sok</figcaption>
@@ -1079,7 +1079,7 @@ export default function Thailand() {
                             <img
                                 src={"/images/travel/thailand/bangkok/MuayThai.JPG"}
                                 alt="Muay Thai"
-                                className="w-[75%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                className="w-full sm:w-[90%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
                                 onClick={() => openLightbox("/images/travel/thailand/bangkok/MuayThai.JPG")}
                             />
                             <figcaption className="text-center text-sm text-gray-600">Rajadamnern Stadium</figcaption>
@@ -1092,7 +1092,7 @@ export default function Thailand() {
                             <img
                                 src={"/images/travel/thailand/bangkok/WeThemBoys.JPG"}
                                 alt="ThemBoys"
-                                className="w-[50%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                className="w-full sm:w-[50%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
                                 onClick={() => openLightbox("/images/travel/thailand/bangkok/WeThemBoys.JPG")}
                             />
                             <figcaption className="text-center text-sm text-gray-600">The Boys in Bangkok</figcaption>
