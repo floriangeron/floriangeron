@@ -210,17 +210,58 @@ export default function CinqueTerre() {
 
                         {/* La Spezia */}
                         <h2 id="spezia" className="text-4xl font-bold mb-4">La Spezia</h2>
-                        As the Cinque Terre are a collection of small towns with limited accommodation and accessibility, we decided to base ourselves in La Spezia, which is a larger town just South of the Cinque Terre towns. La Spezia did not leave a great impression on us, but it was a convenient base for our explorations. We stayed in an AirBnB a little outside of the city center. The town itself struck us as an industrial port town that is a bit run-down at places, but it has a few nice spots along the water and some good restaurants. We did not spend much time in La Spezia itself, as we were eager to explore the Cinque Terre and Portofino.<br/><br/>
+                        As the Cinque Terre are a collection of small towns with limited accommodation and accessibility, we decided to base ourselves in La Spezia, which is a larger town just South of the Cinque Terre towns. La Spezia did not leave a great impression on us, but it was a convenient base for our explorations. We stayed in an AirBnB a little outside of the city center. The town itself struck us as an industrial port town that is a bit run-down at places, but it has a few nice spots along the water and some good restaurants. We did not spend much time in La Spezia itself, as we were eager to explore the Cinque Terre and Portofino.
+                        <br/><br/>
+                        <h3 id="spezia-food-drinks" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
+                        <CollapsibleReview title="Blu Bistrot Porto Mirabello" rating={4} scale="food">
+                            We had our first dinner in La Spezia in this restaurant. It is located on the touristy part of the harbor. We enjoyed our evening out in this neighbourhood and the food in this restaurant was good. I recommend this restaurant for a nice dinner in La Spezia, it is a good place to start your trip in the region.
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/iMp4gwLcJEJU3kFr6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+                        <CollapsibleReview title="Ciao Baby" rating={4} scale="food">
+                            We had lunch here while waiting for our train that would take us from La Spezia to Milan. This turned out to be a hidden gem, as the food was excellent, the service was friendly, and the place had a cool laid-back vibe. It was a nice place to have lunch and recharge before our train ride.
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/FmkrBGYCdfiEAjVY6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
 
                         {/* Cinque Terre */}
                         <h2 id="cinqueterre" className="text-4xl font-bold mb-4">Cinque Terre</h2>
                         We dedicated two days to exploring the Cinque Terre. Because of the summer heat, we did not do any of the longer hikes. We did two of the shorter hikes between two adjacent towns, and we also took the train and ferry to explore the other towns.<br/><br/>
+
                         <h3 id="cinqueterre-day-1" className="text-2xl font-bold mb-4">Day 1 - Corniglia, Vernazza, Riomaggiore</h3>
                         We started our first day by taking the train to Corniglia. Upon exiting the train station, the day started with a steep climb up to the town, which is perched on a cliff overlooking the sea. The views were breathtaking (though perhaps the climb up the stairs was every more breathtaking) and we enjoyed walking along the few narrow streets of the small town. We had lunch here and then hiked to Vernazza.<br/><br/>
                         Our first hike of our trip was the trail from Corniglia to Vernazza. This trail is part of the Sentiero Azzurro, which connects all five towns of the Cinque Terre. The hike was challenging in the summer heat, but we enjoyed the views we got to see during the hike, and the hike was all worth it when we arrived in Vernazza. We spent the late afternoon swimming in the little bay in front of the town.<br/><br/>
                         After our swim, we took the ferry to Riomaggiore, the southernmost town of the Cinque Terre. We explored the town and had dinner here before taking the train back to La Spezia. We enjoyed exploring Riomaggiore as well, which was more manageable as the temperature had cooled down a bit by the time we arrived. We climbed up the hill to the Castello di Riomaggiore, which offered was a nice way to end our first day in the Cinque Terre.<br/><br/>
+
                         <h3 id="cinqueterre-day-2" className="text-2xl font-bold mb-4">Day 2 - Vernazza to Monterosso al Mare</h3>
                         We started our second day by taking the train to Vernazza, the northenmost town we had reached the day before. We had some lunch here and then hiked to Monterosso al Mare, the northernmost town of the Cinque Terre. The hike was again challenging in the summer heat, and once again we were rewarded with a refreshing swim in the sea upon arrival in Monterosso. We spent the rest of the afternoon exploring Monterosso, the largest of the five towns, and had some dinner here as well before taking the train back to La Spezia. Monterosso felt like the most touristy of the five towns, but it also offered most diversity in terms of shops and restaurants.<br/><br/>
+
+                        <h3 id="cinque-terre-food-drinks" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
+                        <CollapsibleReview title="Riomaggiore - Trattoria Via dell'Amore" rating={4.5} scale="food">
+                            We had a delightful dinner at Trattoria Via dell'Amore. We had to queue for some time to get a table, but we had some great cocktails, and the food was excellent.
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/9xTxfX6e4szzrkXQ6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+                        <CollapsibleReview title="Corniglia - Bar Pan e Vin" rating={3.5} scale="food">
+                            We had lunch at this charming little restaurant in Corniglia. The food was good and the outdoor seating area is very nice, so a good option for a casual meal in Corniglia.
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/U8tXjNQnkwYBwygu9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+                        <CollapsibleReview title="Vernazza - Organic Poke" rating={3} scale="food">
+                            We took out some poke bowls at this place in Vernazza. Hidden in the narrow alleys of Vernazza, it is a good option for a healthy takeout meal. The bowls were just okay and the service was rather slow, but still a good option if you want a healthy takeout snack.
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/WS52wDj478qWYSwv9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+                        <CollapsibleReview title="Monterosso - Ristorante Ciak" rating={3.5} scale="food">
+                            We had dinner at Ristorante Ciak in Monterosso. The food was good, and the service was friendly. The restaurant has a cozy atmosphere and is a good option for a relaxed dinner in Monterosso. It has a little bit of a touristy feel, but it is still a good option for a casual dinner in Monterosso.
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/X739pU92v15nHzed9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+                        <CollapsibleReview title="Bar il Gabbiano" rating={4} scale="coffee">
+                            On our hike from Corniglia to Vernazza, we stopped here for a refreshing drink. It is little more than a counter with two small tables, but it offers a magnificent view on the coastline and Corniglia. We had some overpriced lemonades which were very refreshing in the summer heat.
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/wyMRJeiJ7zAazhfFA" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
 
                         {/* Portofino */}
                         <h2 id="portofino" className="text-4xl font-bold mb-4">Portofino</h2>
