@@ -220,8 +220,7 @@ export default function CinqueTerre() {
                         Our first hike of our trip was the trail from Corniglia to Vernazza. This trail is part of the Sentiero Azzurro, which connects all five towns of the Cinque Terre. The hike was challenging in the summer heat, but we enjoyed the views we got to see during the hike, and the hike was all worth it when we arrived in Vernazza. We spent the late afternoon swimming in the little bay in front of the town.<br/><br/>
                         After our swim, we took the ferry to Riomaggiore, the southernmost town of the Cinque Terre. We explored the town and had dinner here before taking the train back to La Spezia. We enjoyed exploring Riomaggiore as well, which was more manageable as the temperature had cooled down a bit by the time we arrived. We climbed up the hill to the Castello di Riomaggiore, which offered was a nice way to end our first day in the Cinque Terre.<br/><br/>
                         <h3 id="cinqueterre-day-2" className="text-2xl font-bold mb-4">Day 2 - Vernazza to Monterosso al Mare</h3>
-                        
-
+                        We started our second day by taking the train to Vernazza, the northenmost town we had reached the day before. We had some lunch here and then hiked to Monterosso al Mare, the northernmost town of the Cinque Terre. The hike was again challenging in the summer heat, and once again we were rewarded with a refreshing swim in the sea upon arrival in Monterosso. We spent the rest of the afternoon exploring Monterosso, the largest of the five towns, and had some dinner here as well before taking the train back to La Spezia. Monterosso felt like the most touristy of the five towns, but it also offered most diversity in terms of shops and restaurants.<br/><br/>
 
                         {/* Portofino */}
                         <h2 id="portofino" className="text-4xl font-bold mb-4">Portofino</h2>
