@@ -165,7 +165,7 @@ export default function CinqueTerre() {
                         <div className="text-center">
                             <ClockIcon className="h-12 w-12 mx-auto text-gray-600 mb-2" />
                             <h3 className="font-semibold text-gray-900">Travel Duration</h3>
-                            <p className="text-gray-600">1 week</p>
+                            <p className="text-gray-600">5 days</p>
                         </div>
                         <div className="text-center">
                             <CalendarIcon className="h-12 w-12 mx-auto text-gray-600 mb-2" />
@@ -224,6 +224,10 @@ export default function CinqueTerre() {
 
                         {/* Portofino */}
                         <h2 id="portofino" className="text-4xl font-bold mb-4">Portofino</h2>
+                        We dedicated one day to exploring the Portofino peninsula. We took the train to Santa Margherita Ligure and then took a bus to Portofino. We got off the bus one stop early, at Baia Cannone, for a scenic swim in the cure bay. The bay is overlooked by a beautiful villa, one of the iconic sights of Portofino.<br/><br/>
+                        After a short swim, we continued to Portofino, where we explored the town and had lunch. We climbed up the stairs to Castella and Chiesa di San Giorgio, where we were treated to a panoramic view of the town and the bay.<br/><br/>
+                        We then got on a ferry to San Fruttuoso. This small town is nestled in a cove of a bay and is only accessible by boat or by hiking. San Fruttuoso is home to a beautiful abbey with a small beach in front of it. It is a beautiful little spot to visit.<br/><br/>
+                        After our visit to San Fruttuoso, we took the ferry to Camogli, a larger town at the other end of the peninsula. We followed the same procedure as always: Explore the town, have a swim, and have dinner before taking the train back to La Spezia. I feel like I am becoming a broken record, but Camogli was a beautiful and charming town as well.<br/><br/>
 
                     </main>
 
