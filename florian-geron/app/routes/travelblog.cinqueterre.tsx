@@ -205,12 +205,29 @@ export default function CinqueTerre() {
                         Our trip focused on the Cinque Terre, which is a collection of five picturesque towns along the Italian Riviera, known for their colorful houses and hiking trails. We were based in La Spezia and also explored the beautiful town of Portofino.
                         <br/><br/>
                         <h3 id="what-we-skipped" className="text-2xl font-bold mb-4">What we skipped</h3>
-                        The Cinque Terre are, from North the Sout: Monterosso al Mare, Vernazza, Corniglia, Manarola, and Riomaggiore. We skipped Manarola due to time and logistical constraints, but we did visit the other four towns.<br/>
-                        We also took the train up North to the Portofino peninsula, where we visited Portofino itself, San Fruttuoso, and Camogli. We skipped Santa Margherita Ligure, which is a larger town on the way to Portofino, but we did not have time to explore it.<br/><br/>
+                        The Cinque Terre are, from North to South: Monterosso al Mare, Vernazza, Corniglia, Manarola, and Riomaggiore. We skipped Manarola due to time and logistical constraints, but we did visit the other four towns.<br/>
+                        We also took the train up North to the Portofino peninsula, where we visited Portofino itself, San Fruttuoso, and Camogli. We skipped Santa Margherita Ligure, which is a larger town on the way to Portofino, but we did not have time to explore it.
+                        <br/><br/>
+                        <h3 id="field-notes" className="text-2xl font-bold mb-4">Field Notes</h3>
+                        A short summary of my main takes from this trip:
+                        <ul className="list-disc pl-5 space-y-1">
+                            <li>
+                                <strong>What I would do differently: </strong><br/>I would not visit the Cinque Terre in August, as it is too hot and crowded. I would also consider staying somewhere else than La Spezia, such as the Cinque Terre towns or perhaps Genoa.
+                            </li>
+                            <li>
+                                <strong>Best meal: </strong><br/>
+                                Dinner at La Camogliese in Camogli. The food was excellent, the service was friendly, and the view overlooking the beach was romantic and beautiful.
+                            </li>
+                            <li>
+                                <strong>Biggest surprise: </strong><br/>
+                                I did not know about San Fruttuoso before this trip. Visiting this hidden gem by ferry was a highlight of the trip, as it is a beautiful and secluded spot.
+                            </li>
+                        </ul>
+                        <br/><br/>
 
                         {/* La Spezia */}
                         <h2 id="spezia" className="text-4xl font-bold mb-4">La Spezia</h2>
-                        As the Cinque Terre are a collection of small towns with limited accommodation and accessibility, we decided to base ourselves in La Spezia, which is a larger town just South of the Cinque Terre towns. La Spezia did not leave a great impression on us, but it was a convenient base for our explorations. We stayed in an AirBnB a little outside of the city center. The town itself struck us as an industrial port town that is a bit run-down at places, but it has a few nice spots along the water and some good restaurants. We did not spend much time in La Spezia itself, as we were eager to explore the Cinque Terre and Portofino.
+                        As the Cinque Terre are a collection of small towns with limited accommodation and accessibility, we decided to base ourselves in La Spezia, which is a larger town just South of the Cinque Terre towns. La Spezia did not leave a great impression on us, but it was a convenient base for our explorations. We stayed in an Airbnb a little outside of the city center. The town itself struck us as an industrial port town that is a bit run-down at places, but it has a few nice spots along the water and some good restaurants. We did not spend much time in La Spezia itself, as we were eager to explore the Cinque Terre and Portofino.
                         <br/><br/>
                         <h3 id="spezia-food-drinks" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
                         <CollapsibleReview title="Blu Bistrot Porto Mirabello" rating={4} scale="food">
@@ -270,6 +287,18 @@ export default function CinqueTerre() {
                         We then got on a ferry to San Fruttuoso. This small town is nestled in a cove of a bay and is only accessible by boat or by hiking. San Fruttuoso is home to a beautiful abbey with a small beach in front of it. It is a beautiful little spot to visit.<br/><br/>
                         After our visit to San Fruttuoso, we took the ferry to Camogli, a larger town at the other end of the peninsula. We followed the same procedure as always: Explore the town, have a swim, and have dinner before taking the train back to La Spezia. I feel like I am becoming a broken record, but Camogli was a beautiful and charming town as well.<br/><br/>
 
+                        <h3 id="portofino-food-drinks" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
+                        <CollapsibleReview title="Portofino - Bar Morena" rating={3} scale="food">
+                            Located on the main square of Portofino, this restaurant is a bit of an overpriced tourist trap. We had some lunch here, and to be fair the food was nice and the service was okay. It is a good option if you want to have take in the view of the harbor while having a meal, but it is not a hidden gem or a local favorite.
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/hJCHfZ7LrvpKq9dK7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+                        <CollapsibleReview title="Camogli - La Camogliese" rating={4.5} scale="food">
+                            We had dinner at La Camogliese. With excellent food and a romantic view overlooking the beach, this restaurant was one of my highlights of the trip. I can highly recommend this restaurant for a special dinner in Camogli.
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/fWvwYcyaTTKkHUTe7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+
                     </main>
 
                     {/* Sidebar with TOC and font size selector */}
@@ -293,7 +322,7 @@ export default function CinqueTerre() {
                             </ul>
                         </nav>
 
-                        <div className="sticky top-[435px] self-start flex items-center justify-end mb-4 hover:scale-105 transition-transform duration-300">
+                        <div className="sticky top-[200px] self-start flex items-center justify-end mb-4 hover:scale-105 transition-transform duration-300">
                             <label htmlFor="font-size-select" className="mr-2 text-sm text-gray-600">Text size</label>
                             <select
                                 id="font-size-select"
