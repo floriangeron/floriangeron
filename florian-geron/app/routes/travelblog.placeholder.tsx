@@ -14,9 +14,8 @@ import {
 } from "~/components/ui/carousel"
 
 import AnimatedWave from "~/components/AnimatedWave";
-import { StarScale } from "~/components/ui/StarRating";
-import { StarLine } from '../components/ui/StarLine';
 import CollapsibleReview from '../components/ui/CollapsibleReview';
+import HotelReview from '../components/ui/HotelReview';
 
 export const meta: MetaFunction = () => {
   return [
