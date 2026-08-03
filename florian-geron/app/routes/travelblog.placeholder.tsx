@@ -25,7 +25,7 @@ export const meta: MetaFunction = () => {
   ];
 };
 
-export default function Laos() {
+export default function Destination() {
     // configurable font size class for paragraph content (Tailwind)
     const [fontSizeClass, setFontSizeClass] = useState<string>(() => {
         try {
