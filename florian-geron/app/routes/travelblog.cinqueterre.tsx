@@ -184,6 +184,23 @@ export default function CinqueTerre() {
                         <h3 id="background" className="text-2xl font-bold mb-4">Background</h3>
                         Having friends all over the world is a blessing, but meeting up regularly can be a challenge. We decided to make this summer trip leave the group chat and meet up in person in the summer of 2024. Our first stop was in Italy, where we explored the Ligurian coast together.
                         <br/><br/>
+                        <h3 id="travel-information" className="text-2xl font-bold mb-4">Travel information</h3>
+                        Here are a couple of tips for visiting this region in Italy:
+                        <ul className="list-disc pl-5 space-y-1">
+                            <li>
+                                <strong>Logistics: </strong>Getting around the Cinque Terre and the surrounding region can be done via trains, ferries, and buses.<br/>The local train network is very convenient for traveling between the five towns. Be mindful to buy these train tickets in advance, as online purchases are not available within 15 minutes of the train's departure. We had gotten on a train, confident we could buy tickets after boarding, but this proved to be a mistake. We ended up buying the ticket for another time and talked our way out of the situation with the train conductor, which, if you have ever argued with Italians, was a stressful situation.<br/>The ferry is a scenic way to travel between the towns and enjoy some spectacular views of the coastline.
+                            </li>
+                            <li>
+                                <strong>Weather: </strong>The best time to visit is arguably during spring or autumn, when the sun is out but it is not yet too hot. We visited in August, which is the peak of summer, and it was very hot, humid, and crowded. The hikes were challenging in the heat, and I'm pretty sure we sweated out a few liters of water each day. Of course, this made the refreshing swims at the end of our hikes even more enjoyable. Be sure to bring plenty of water and sunscreen.
+                            </li>
+                            <li>
+                                <strong>Hiking: </strong>The Cinque Terre is famous for its hiking trails, which offer stunning views of the coastline and the colorful towns. The most popular trail is the Sentiero Azzurro, which connects all five towns. However, some sections may be closed for maintenance or due to weather conditions, so check the trail status before you go. We also recommend exploring some of the less crowded trails for a more peaceful experience.
+                            </li>
+                            <li>
+                                <strong>Accommodation: </strong>We stayed in La Spezia, which is a larger town just south of the Cinque Terre. This was a convenient base for exploring the region, as it has more accommodation options and is well-connected by train. We did not like our stay here very much though, so we would recommend looking into other options as well.<br/>If you prefer to stay in one of the Cinque Terre towns, be sure to book well in advance, as they can fill up quickly, especially during peak season. You will also need to be aware of the fact that some towns have limited accessibility, so you will probably have to carry your luggage up and down stairs or steep paths, and over cobble stone roads. We heard some American tourists who booked accommodatoins inside one of the towns complain about this, so be aware of the challenges that come with staying in these picturesque towns.
+                            </li>
+                        </ul>
+                        <br/><br/>
                         <h3 id="what-we-did" className="text-2xl font-bold mb-4">What we did</h3>
                         Our trip focused on the Cinque Terre, which is a collection of five picturesque towns along the Italian Riviera, known for their colorful houses and hiking trails. We were based in La Spezia and also explored the beautiful town of Portofino.
                         <br/><br/>
@@ -197,6 +214,14 @@ export default function CinqueTerre() {
 
                         {/* Cinque Terre */}
                         <h2 id="cinqueterre" className="text-4xl font-bold mb-4">Cinque Terre</h2>
+                        We dedicated two days to exploring the Cinque Terre. Because of the summer heat, we did not do any of the longer hikes. We did two of the shorter hikes between two adjacent towns, and we also took the train and ferry to explore the other towns.<br/><br/>
+                        <h3 id="cinqueterre-day-1" className="text-2xl font-bold mb-4">Day 1 - Corniglia, Vernazza, Riomaggiore</h3>
+                        We started our first day by taking the train to Corniglia. Upon exiting the train station, the day started with a steep climb up to the town, which is perched on a cliff overlooking the sea. The views were breathtaking (though perhaps the climb up the stairs was every more breathtaking) and we enjoyed walking along the few narrow streets of the small town. We had lunch here and then hiked to Vernazza.<br/><br/>
+                        Our first hike of our trip was the trail from Corniglia to Vernazza. This trail is part of the Sentiero Azzurro, which connects all five towns of the Cinque Terre. The hike was challenging in the summer heat, but we enjoyed the views we got to see during the hike, and the hike was all worth it when we arrived in Vernazza. We spent the late afternoon swimming in the little bay in front of the town.<br/><br/>
+                        After our swim, we took the ferry to Riomaggiore, the southernmost town of the Cinque Terre. We explored the town and had dinner here before taking the train back to La Spezia. We enjoyed exploring Riomaggiore as well, which was more manageable as the temperature had cooled down a bit by the time we arrived. We climbed up the hill to the Castello di Riomaggiore, which offered was a nice way to end our first day in the Cinque Terre.<br/><br/>
+                        <h3 id="cinqueterre-day-2" className="text-2xl font-bold mb-4">Day 2 - Vernazza to Monterosso al Mare</h3>
+                        
+
 
                         {/* Portofino */}
                         <h2 id="portofino" className="text-4xl font-bold mb-4">Portofino</h2>
