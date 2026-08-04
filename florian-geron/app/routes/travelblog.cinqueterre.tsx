@@ -205,6 +205,62 @@ export default function CinqueTerre() {
                             </li>
                         </ul>
                         <br/><br/>
+                        <h3 id="the-crew" className="text-2xl font-bold mb-4">The crew</h3>
+                        <Carousel className="w-full">
+                            <CarouselContent className="-ml-1">
+                                <CarouselItem key={1} className="basis-[80%] pl-1 lg:basis-[45%]">
+                                    <div className="p-1">
+                                    <Card>
+                                        <CardContent className="p-0 overflow-hidden">
+                                        <img 
+                                            src={`/images/travel/cinqueterre/people/Flo.JPG`} 
+                                            alt={`Cinque Terre`} 
+                                            className="w-full h-[24rem] sm:h-[28rem] md:h-[32rem] object-cover rounded-lg cursor-pointer" 
+                                            onClick={() => openLightbox(`/images/travel/cinqueterre/people/Flo.JPG`)}/>
+                                            <p className="px-4 py-3 text-sm sm:text-base text-gray-700">
+                                                Belgium-based food enthusiast. Hiking daddy, carrying around liters of hydration.
+                                            </p>
+                                        </CardContent>
+                                    </Card>
+                                    </div>
+                                </CarouselItem>   
+                                <CarouselItem key={2} className="basis-[80%] pl-1 lg:basis-[45%]">
+                                    <div className="p-1">
+                                    <Card>
+                                        <CardContent className="p-0 overflow-hidden">
+                                        <img 
+                                            src={`/images/travel/cinqueterre/people/Umnia.jpeg`} 
+                                            alt={`Cinque Terre`} 
+                                            className="w-full h-[24rem] sm:h-[28rem] md:h-[32rem] object-cover rounded-lg cursor-pointer" 
+                                            onClick={() => openLightbox(`/images/travel/cinqueterre/people/Umnia.jpeg`)}/>
+                                            <p className="px-4 py-3 text-sm sm:text-base text-gray-700">
+                                                Australia's napping queen.
+                                            </p>
+                                        </CardContent>
+                                    </Card>
+                                    </div>
+                                </CarouselItem>   
+                                <CarouselItem key={3} className="basis-[80%] pl-1 lg:basis-[45%]">
+                                    <div className="p-1">
+                                    <Card>
+                                        <CardContent className="p-0 overflow-hidden">
+                                        <img 
+                                            src={`/images/travel/cinqueterre/people/Alexia.jpeg`} 
+                                            alt={`Cinque Terre`} 
+                                            className="w-full h-[24rem] sm:h-[28rem] md:h-[32rem] object-cover rounded-lg cursor-pointer" 
+                                            onClick={() => openLightbox(`/images/travel/cinqueterre/people/Alexia.jpeg`)}/>
+                                            <p className="px-4 py-3 text-sm sm:text-base text-gray-700">
+                                                German-born, Monaco-based, unbothered queen.
+                                            </p>
+                                        </CardContent>
+                                    </Card>
+                                    </div>
+                                </CarouselItem>                                
+                            </CarouselContent>
+                            <CarouselPrevious />
+                            <CarouselNext />
+                        </Carousel>
+                        <br/><br/>
                         <h3 id="what-we-did" className="text-2xl font-bold mb-4">What we did</h3>
                         Our trip focused on the Cinque Terre, which is a collection of five picturesque towns along the Italian Riviera, known for their colorful houses and hiking trails. We were based in La Spezia and also explored the beautiful town of Portofino.
                         <br/><br/>
