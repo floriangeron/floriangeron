@@ -207,28 +207,7 @@ export default function CinqueTerre() {
                         <br/><br/>
                         <h3 id="the-crew" className="text-2xl font-bold mb-4">The crew</h3>
                         <Carousel className="w-full">
-                            <CarouselContent className="-ml-1">
-                                <CarouselItem key={1} className="basis-[80%] pl-1 lg:basis-[45%] h-full">
-                                    <div className="p-1 h-full">
-                                    <Card className="h-full">
-                                        <CardContent className="p-0 overflow-hidden h-full flex flex-col">
-                                        <img 
-                                            src={`/images/travel/cinqueterre/people/Flo.JPG`} 
-                                            alt={`Cinque Terre`} 
-                                            className="w-full h-[24rem] sm:h-[28rem] md:h-[32rem] object-cover rounded-lg cursor-pointer" 
-                                            onClick={() => openLightbox(`/images/travel/cinqueterre/people/Flo.JPG`)}/>
-                                            <div className="px-4 pt-3 pb-3 min-h-[8.5rem] flex flex-col">
-                                                <p className="pb-1 text-base sm:text-lg text-gray-700 font-bold text-center">
-                                                Florian
-                                                </p>
-                                                <p className="pt-1 text-sm sm:text-base text-gray-700">
-                                                Belgium-based food enthusiast. Hiking daddy, carrying around liters of hydration.
-                                                </p>
-                                            </div>
-                                        </CardContent>
-                                    </Card>
-                                    </div>
-                                </CarouselItem>   
+                            <CarouselContent className="-ml-1">  
                                 <CarouselItem key={2} className="basis-[80%] pl-1 lg:basis-[45%] h-full">
                                     <div className="p-1 h-full">
                                     <Card className="h-full">
@@ -264,13 +243,34 @@ export default function CinqueTerre() {
                                                 Alexia
                                                 </p>
                                                 <p className="pt-1 text-sm sm:text-base text-gray-700">
-                                                    German-born, Monaco-based, unbothered queen.
+                                                    Our German queen living amongst the stars in Monaco. Well-trained hiking legs, as any German should have.
                                                 </p>
                                             </div>
                                         </CardContent>
                                     </Card>
                                     </div>
-                                </CarouselItem>                                
+                                </CarouselItem>       
+                                <CarouselItem key={1} className="basis-[80%] pl-1 lg:basis-[45%] h-full">
+                                    <div className="p-1 h-full">
+                                    <Card className="h-full">
+                                        <CardContent className="p-0 overflow-hidden h-full flex flex-col">
+                                        <img 
+                                            src={`/images/travel/cinqueterre/people/Flo.JPG`} 
+                                            alt={`Cinque Terre`} 
+                                            className="w-full h-[24rem] sm:h-[28rem] md:h-[32rem] object-cover rounded-lg cursor-pointer" 
+                                            onClick={() => openLightbox(`/images/travel/cinqueterre/people/Flo.JPG`)}/>
+                                            <div className="px-4 pt-3 pb-3 min-h-[8.5rem] flex flex-col">
+                                                <p className="pb-1 text-base sm:text-lg text-gray-700 font-bold text-center">
+                                                Florian
+                                                </p>
+                                                <p className="pt-1 text-sm sm:text-base text-gray-700">
+                                                Belgium-based food enthusiast. Hiking daddy, carrying around liters of hydration.
+                                                </p>
+                                            </div>
+                                        </CardContent>
+                                    </Card>
+                                    </div>
+                                </CarouselItem>                          
                             </CarouselContent>
                             <CarouselPrevious />
                             <CarouselNext />
