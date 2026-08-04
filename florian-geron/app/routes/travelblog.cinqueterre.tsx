@@ -363,7 +363,7 @@ export default function CinqueTerre() {
                         After our visit to San Fruttuoso, we took the ferry to Camogli, a larger town at the other end of the peninsula. We followed the same procedure as always: Explore the town, have a swim, and have dinner before taking the train back to La Spezia. I feel like I am becoming a broken record, but Camogli was a beautiful and charming town as well.<br/><br/>
 
                         <h3 id="portofino-food-drinks" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
-                        <CollapsibleReview title="Portofino - Bar Morena" rating={3} scale="food">
+                        <CollapsibleReview title="Portofino - Bar Morena" rating={2.5} scale="food">
                             Located on the main square of Portofino, this restaurant is a bit of an overpriced tourist trap. We had some lunch here, and to be fair the food was nice and the service was okay. It is a good option if you want to take in the view of the harbor while having a meal, but it is not a hidden gem or a local favorite.
                             <br />
                             Find it <a href="https://maps.app.goo.gl/hJCHfZ7LrvpKq9dK7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
