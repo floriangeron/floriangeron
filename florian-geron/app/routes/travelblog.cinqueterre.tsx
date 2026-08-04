@@ -208,50 +208,65 @@ export default function CinqueTerre() {
                         <h3 id="the-crew" className="text-2xl font-bold mb-4">The crew</h3>
                         <Carousel className="w-full">
                             <CarouselContent className="-ml-1">
-                                <CarouselItem key={1} className="basis-[80%] pl-1 lg:basis-[45%]">
-                                    <div className="p-1">
-                                    <Card>
-                                        <CardContent className="p-0 overflow-hidden">
+                                <CarouselItem key={1} className="basis-[80%] pl-1 lg:basis-[45%] h-full">
+                                    <div className="p-1 h-full">
+                                    <Card className="h-full">
+                                        <CardContent className="p-0 overflow-hidden h-full flex flex-col">
                                         <img 
                                             src={`/images/travel/cinqueterre/people/Flo.JPG`} 
                                             alt={`Cinque Terre`} 
                                             className="w-full h-[24rem] sm:h-[28rem] md:h-[32rem] object-cover rounded-lg cursor-pointer" 
                                             onClick={() => openLightbox(`/images/travel/cinqueterre/people/Flo.JPG`)}/>
-                                            <p className="px-4 py-3 text-sm sm:text-base text-gray-700">
+                                            <div className="px-4 pt-3 pb-3 min-h-[8.5rem] flex flex-col">
+                                                <p className="pb-1 text-base sm:text-lg text-gray-700 font-bold text-center">
+                                                Florian
+                                                </p>
+                                                <p className="pt-1 text-sm sm:text-base text-gray-700">
                                                 Belgium-based food enthusiast. Hiking daddy, carrying around liters of hydration.
-                                            </p>
+                                                </p>
+                                            </div>
                                         </CardContent>
                                     </Card>
                                     </div>
                                 </CarouselItem>   
-                                <CarouselItem key={2} className="basis-[80%] pl-1 lg:basis-[45%]">
-                                    <div className="p-1">
-                                    <Card>
-                                        <CardContent className="p-0 overflow-hidden">
+                                <CarouselItem key={2} className="basis-[80%] pl-1 lg:basis-[45%] h-full">
+                                    <div className="p-1 h-full">
+                                    <Card className="h-full">
+                                        <CardContent className="p-0 overflow-hidden h-full flex flex-col">
                                         <img 
                                             src={`/images/travel/cinqueterre/people/Umnia.jpeg`} 
                                             alt={`Cinque Terre`} 
                                             className="w-full h-[24rem] sm:h-[28rem] md:h-[32rem] object-cover rounded-lg cursor-pointer" 
                                             onClick={() => openLightbox(`/images/travel/cinqueterre/people/Umnia.jpeg`)}/>
-                                            <p className="px-4 py-3 text-sm sm:text-base text-gray-700">
-                                                Australia's napping queen.
-                                            </p>
+                                            <div className="px-4 pt-3 pb-3 min-h-[8.5rem] flex flex-col">
+                                                <p className="pb-1 text-base sm:text-lg text-gray-700 font-bold text-center">
+                                                Umnia
+                                                </p>
+                                                <p className="pt-1 text-sm sm:text-base text-gray-700">
+                                                    Australia's napping queen. The photographer royale. Ensures everyone's well-being with snacks and yaps.
+                                                </p>
+                                            </div>
                                         </CardContent>
                                     </Card>
                                     </div>
                                 </CarouselItem>   
-                                <CarouselItem key={3} className="basis-[80%] pl-1 lg:basis-[45%]">
-                                    <div className="p-1">
-                                    <Card>
-                                        <CardContent className="p-0 overflow-hidden">
+                                <CarouselItem key={3} className="basis-[80%] pl-1 lg:basis-[45%] h-full">
+                                    <div className="p-1 h-full">
+                                    <Card className="h-full">
+                                        <CardContent className="p-0 overflow-hidden h-full flex flex-col">
                                         <img 
                                             src={`/images/travel/cinqueterre/people/Alexia.jpeg`} 
                                             alt={`Cinque Terre`} 
                                             className="w-full h-[24rem] sm:h-[28rem] md:h-[32rem] object-cover rounded-lg cursor-pointer" 
                                             onClick={() => openLightbox(`/images/travel/cinqueterre/people/Alexia.jpeg`)}/>
-                                            <p className="px-4 py-3 text-sm sm:text-base text-gray-700">
-                                                German-born, Monaco-based, unbothered queen.
-                                            </p>
+                                            <div className="px-4 pt-3 pb-3 min-h-[8.5rem] flex flex-col">
+                                                <p className="pb-1 text-base sm:text-lg text-gray-700 font-bold text-center">
+                                                Alexia
+                                                </p>
+                                                <p className="pt-1 text-sm sm:text-base text-gray-700">
+                                                    German-born, Monaco-based, unbothered queen.
+                                                </p>
+                                            </div>
                                         </CardContent>
                                     </Card>
                                     </div>
