@@ -475,7 +475,7 @@ export default function Thailand() {
                                 <CarouselItem key={index} className="basis-[90%] pl-1 lg:basis-[40%]">
                                     <div className="p-1">
                                     <Card>
-                                        <CardContent className="flex items-center justify-center p-0 overflow-hidden">
+                                        <CardContent className="flex items-center justify-center p-0 overflow-cover">
                                         <img 
                                             src={`/images/travel/thailand/chiangmai/temples${index+1}.jpg`} 
                                             alt={`Temples ${index+1}`} 
