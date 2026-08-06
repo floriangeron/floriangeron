@@ -266,6 +266,161 @@ export default function Thailand() {
                             </li>
                         </ul>
                         <br /><br />
+                        <h3 id="the-crew" className="text-2xl font-bold mb-4">The crew</h3>
+                        <Carousel className="w-full">
+                            <CarouselContent className="-ml-1">
+                                <CarouselItem key={2} className="basis-[80%] pl-1 lg:basis-[45%] h-full">
+                                    <div className="p-1 h-full">
+                                    <Card className="h-full">
+                                        <CardContent className="p-0 overflow-hidden h-full flex flex-col">
+                                        <img 
+                                            src={`/images/travel/thailand/crew/Seba.JPG`} 
+                                            alt={`Thailand`} 
+                                            className="w-full h-[24rem] sm:h-[28rem] md:h-[40rem] object-cover rounded-lg cursor-pointer" 
+                                            onClick={() => openLightbox(`/images/travel/thailand/crew/Seba.JPG`)}/>
+                                            <div className="px-4 pt-3 pb-3 min-h-[8.5rem] flex flex-col">
+                                                <p className="pb-1 text-base sm:text-lg text-gray-700 font-bold text-center">
+                                                Seba
+                                                </p>
+                                                <p className="pt-1 text-sm sm:text-base text-gray-700">
+                                                Class act.
+                                                </p>
+                                            </div>
+                                        </CardContent>
+                                    </Card>
+                                    </div>
+                                </CarouselItem>
+                                <CarouselItem key={2} className="basis-[80%] pl-1 lg:basis-[45%] h-full">
+                                    <div className="p-1 h-full">
+                                    <Card className="h-full">
+                                        <CardContent className="p-0 overflow-hidden h-full flex flex-col">
+                                        <img 
+                                            src={`/images/travel/thailand/crew/William.jpeg`} 
+                                            alt={`Thailand`} 
+                                            className="w-full h-[24rem] sm:h-[28rem] md:h-[40rem] object-cover rounded-lg cursor-pointer" 
+                                            onClick={() => openLightbox(`/images/travel/thailand/crew/William.jpeg`)}/>
+                                            <div className="px-4 pt-3 pb-3 min-h-[8.5rem] flex flex-col">
+                                                <p className="pb-1 text-base sm:text-lg text-gray-700 font-bold text-center">
+                                                William
+                                                </p>
+                                                <p className="pt-1 text-sm sm:text-base text-gray-700">
+                                                The bard.
+                                                </p>
+                                            </div>
+                                        </CardContent>
+                                    </Card>
+                                    </div>
+                                </CarouselItem>
+                                <CarouselItem key={2} className="basis-[80%] pl-1 lg:basis-[45%] h-full">
+                                    <div className="p-1 h-full">
+                                    <Card className="h-full">
+                                        <CardContent className="p-0 overflow-hidden h-full flex flex-col">
+                                        <img 
+                                            src={`/images/travel/thailand/crew/Dieter.JPG`} 
+                                            alt={`Thailand`} 
+                                            className="w-full h-[24rem] sm:h-[28rem] md:h-[40rem] object-cover rounded-lg cursor-pointer" 
+                                            onClick={() => openLightbox(`/images/travel/thailand/crew/Dieter.JPG`)}/>
+                                            <div className="px-4 pt-3 pb-3 min-h-[8.5rem] flex flex-col">
+                                                <p className="pb-1 text-base sm:text-lg text-gray-700 font-bold text-center">
+                                                Dieter
+                                                </p>
+                                                <p className="pt-1 text-sm sm:text-base text-gray-700">
+                                                The lucky one.
+                                                </p>
+                                            </div>
+                                        </CardContent>
+                                    </Card>
+                                    </div>
+                                </CarouselItem>   
+                                <CarouselItem key={3} className="basis-[80%] pl-1 lg:basis-[45%] h-full">
+                                    <div className="p-1 h-full">
+                                    <Card className="h-full">
+                                        <CardContent className="p-0 overflow-hidden h-full flex flex-col">
+                                        <img 
+                                            src={`/images/travel/thailand/crew/Emile.JPG`} 
+                                            alt={`Thailand`} 
+                                            className="w-full h-[24rem] sm:h-[28rem] md:h-[40rem] object-cover rounded-lg cursor-pointer" 
+                                            onClick={() => openLightbox(`/images/travel/thailand/crew/Emile.JPG`)}/>
+                                            <div className="px-4 pt-3 pb-3 min-h-[8.5rem] flex flex-col">
+                                                <p className="pb-1 text-base sm:text-lg text-gray-700 font-bold text-center">
+                                                Emile
+                                                </p>
+                                                <p className="pt-1 text-sm sm:text-base text-gray-700">
+                                                The daredevil.
+                                                </p>
+                                            </div>
+                                        </CardContent>
+                                    </Card>
+                                    </div>
+                                </CarouselItem>       
+                                <CarouselItem key={1} className="basis-[80%] pl-1 lg:basis-[45%] h-full">
+                                    <div className="p-1 h-full">
+                                    <Card className="h-full">
+                                        <CardContent className="p-0 overflow-hidden h-full flex flex-col">
+                                        <img 
+                                            src={`/images/travel/thailand/crew/Jasper.JPG`} 
+                                            alt={`Thailand`} 
+                                            className="w-full h-[24rem] sm:h-[28rem] md:h-[40rem] object-cover rounded-lg cursor-pointer" 
+                                            onClick={() => openLightbox(`/images/travel/thailand/crew/Jasper.JPG`)}/>
+                                            <div className="px-4 pt-3 pb-3 min-h-[8.5rem] flex flex-col">
+                                                <p className="pb-1 text-base sm:text-lg text-gray-700 font-bold text-center">
+                                                Jasper
+                                                </p>
+                                                <p className="pt-1 text-sm sm:text-base text-gray-700">
+                                                The animal friend.
+                                                </p>
+                                            </div>
+                                        </CardContent>
+                                    </Card>
+                                    </div>
+                                </CarouselItem>
+                                <CarouselItem key={1} className="basis-[80%] pl-1 lg:basis-[45%] h-full">
+                                    <div className="p-1 h-full">
+                                    <Card className="h-full">
+                                        <CardContent className="p-0 overflow-hidden h-full flex flex-col">
+                                        <img 
+                                            src={`/images/travel/thailand/crew/Vincent.JPG`} 
+                                            alt={`Thailand`} 
+                                            className="w-full h-[24rem] sm:h-[28rem] md:h-[40rem] object-cover rounded-lg cursor-pointer" 
+                                            onClick={() => openLightbox(`/images/travel/thailand/crew/Vincent.JPG`)}/>
+                                            <div className="px-4 pt-3 pb-3 min-h-[8.5rem] flex flex-col">
+                                                <p className="pb-1 text-base sm:text-lg text-gray-700 font-bold text-center">
+                                                Vincent
+                                                </p>
+                                                <p className="pt-1 text-sm sm:text-base text-gray-700">
+                                                The fashionista.
+                                                </p>
+                                            </div>
+                                        </CardContent>
+                                    </Card>
+                                    </div>
+                                </CarouselItem>
+                                <CarouselItem key={1} className="basis-[80%] pl-1 lg:basis-[45%] h-full">
+                                    <div className="p-1 h-full">
+                                    <Card className="h-full">
+                                        <CardContent className="p-0 overflow-hidden h-full flex flex-col">
+                                        <img 
+                                            src={`/images/travel/thailand/crew/Sam.JPG`} 
+                                            alt={`Thailand`} 
+                                            className="w-full h-[24rem] sm:h-[28rem] md:h-[40rem] object-cover rounded-lg cursor-pointer" 
+                                            onClick={() => openLightbox(`/images/travel/thailand/crew/Sam.JPG`)}/>
+                                            <div className="px-4 pt-3 pb-3 min-h-[8.5rem] flex flex-col">
+                                                <p className="pb-1 text-base sm:text-lg text-gray-700 font-bold text-center">
+                                                Sam
+                                                </p>
+                                                <p className="pt-1 text-sm sm:text-base text-gray-700">
+                                                Positivity incarnate.
+                                                </p>
+                                            </div>
+                                        </CardContent>
+                                    </Card>
+                                    </div>
+                                </CarouselItem>                        
+                            </CarouselContent>
+                            <CarouselPrevious />
+                            <CarouselNext />
+                        </Carousel>
+                        <br/><br/>
                         <h3 id="what-we-did" className="text-2xl font-bold mb-4">What we did</h3>
                         With only two weeks, building our itinerary was a challenge. The question was whether to follow a more completionist approach and try to see as much of the country as possible, or to focus on a few places and take a more relaxed approach. After some calls and discussions, we decided to have a more completionist itinerary, as many people weren't sure they would go back to Thailand anytime soon. <br/><br/>
                         We took a flight from Brussels to Bangkok (via Qatar), and immediately took a domestic flight north to Chiang Mai. In this area, we spent one night in Chiang Mai and three nights in Pai. We then took another domestic flight south to Phuket. We spent three nights in Phuket, and then took a ferry to Koh Phi Phi, where we spent one night. We then took a ferry to Ao Nang, where we spent another night. From there, we took a minivan to Khao Sok, where we spent three nights. Initially, we were planning to stay here two nights and take the night train back to Bangkok, but this train was cancelled last minute due to a natural disaster, so we had to stay in the area another night and take a flight to Bangkok the next day. We spent the last three nights of our trip in Bangkok.<br/><br/>
