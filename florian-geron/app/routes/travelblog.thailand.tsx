@@ -274,10 +274,10 @@ export default function Thailand() {
                                     <Card className="h-full">
                                         <CardContent className="p-0 overflow-hidden h-full flex flex-col">
                                         <img 
-                                            src={`/images/travel/thailand/crew/Seba.JPG`} 
+                                            src={`/images/travel/thailand/crew/Seba1.JPG`} 
                                             alt={`Thailand`} 
                                             className="w-full h-[24rem] sm:h-[28rem] md:h-[40rem] object-cover rounded-lg cursor-pointer" 
-                                            onClick={() => openLightbox(`/images/travel/thailand/crew/Seba.JPG`)}/>
+                                            onClick={() => openLightbox(`/images/travel/thailand/crew/Seba2.JPG`)}/>
                                             <div className="px-4 pt-3 pb-3 min-h-[8.5rem] flex flex-col">
                                                 <p className="pb-1 text-base sm:text-lg text-gray-700 font-bold text-center">
                                                 Seba
@@ -295,10 +295,10 @@ export default function Thailand() {
                                     <Card className="h-full">
                                         <CardContent className="p-0 overflow-hidden h-full flex flex-col">
                                         <img 
-                                            src={`/images/travel/thailand/crew/William.jpeg`} 
+                                            src={`/images/travel/thailand/crew/William1.jpeg`} 
                                             alt={`Thailand`} 
                                             className="w-full h-[24rem] sm:h-[28rem] md:h-[40rem] object-cover rounded-lg cursor-pointer" 
-                                            onClick={() => openLightbox(`/images/travel/thailand/crew/William.jpeg`)}/>
+                                            onClick={() => openLightbox(`/images/travel/thailand/crew/William2.JPG`)}/>
                                             <div className="px-4 pt-3 pb-3 min-h-[8.5rem] flex flex-col">
                                                 <p className="pb-1 text-base sm:text-lg text-gray-700 font-bold text-center">
                                                 William
@@ -337,10 +337,10 @@ export default function Thailand() {
                                     <Card className="h-full">
                                         <CardContent className="p-0 overflow-hidden h-full flex flex-col">
                                         <img 
-                                            src={`/images/travel/thailand/crew/Emile.JPG`} 
+                                            src={`/images/travel/thailand/crew/Emile1.JPG`} 
                                             alt={`Thailand`} 
                                             className="w-full h-[24rem] sm:h-[28rem] md:h-[40rem] object-cover rounded-lg cursor-pointer" 
-                                            onClick={() => openLightbox(`/images/travel/thailand/crew/Emile.JPG`)}/>
+                                            onClick={() => openLightbox(`/images/travel/thailand/crew/Emile2.JPG`)}/>
                                             <div className="px-4 pt-3 pb-3 min-h-[8.5rem] flex flex-col">
                                                 <p className="pb-1 text-base sm:text-lg text-gray-700 font-bold text-center">
                                                 Emile
@@ -410,6 +410,27 @@ export default function Thailand() {
                                                 </p>
                                                 <p className="pt-1 text-sm sm:text-base text-gray-700">
                                                 Positivity incarnate.
+                                                </p>
+                                            </div>
+                                        </CardContent>
+                                    </Card>
+                                    </div>
+                                </CarouselItem>  
+                                <CarouselItem key={1} className="basis-[80%] pl-1 lg:basis-[45%] h-full">
+                                    <div className="p-1 h-full">
+                                    <Card className="h-full">
+                                        <CardContent className="p-0 overflow-hidden h-full flex flex-col">
+                                        <img 
+                                            src={`/images/travel/thailand/crew/Florian1.JPG`} 
+                                            alt={`Thailand`} 
+                                            className="w-full h-[24rem] sm:h-[28rem] md:h-[40rem] object-cover rounded-lg cursor-pointer" 
+                                            onClick={() => openLightbox(`/images/travel/thailand/crew/Florian1.JPG`)}/>
+                                            <div className="px-4 pt-3 pb-3 min-h-[8.5rem] flex flex-col">
+                                                <p className="pb-1 text-base sm:text-lg text-gray-700 font-bold text-center">
+                                                Florian
+                                                </p>
+                                                <p className="pt-1 text-sm sm:text-base text-gray-700">
+                                                Exceptional immune system.
                                                 </p>
                                             </div>
                                         </CardContent>
