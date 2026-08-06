@@ -430,7 +430,7 @@ export default function Thailand() {
                                                 Florian
                                                 </p>
                                                 <p className="pt-1 text-sm sm:text-base text-gray-700">
-                                                Exceptional immune system.
+                                                Only got sick three times!
                                                 </p>
                                             </div>
                                         </CardContent>
