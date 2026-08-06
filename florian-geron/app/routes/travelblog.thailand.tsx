@@ -475,11 +475,11 @@ export default function Thailand() {
                                 <CarouselItem key={index} className="basis-[90%] pl-1 lg:basis-[40%]">
                                     <div className="p-1">
                                     <Card>
-                                        <CardContent className="flex items-center justify-center p-0 overflow-cover">
+                                        <CardContent className="flex items-center justify-center p-0 overflow-hidden">
                                         <img 
                                             src={`/images/travel/thailand/chiangmai/temples${index+1}.jpg`} 
                                             alt={`Temples ${index+1}`} 
-                                            className="w-full h-auto max-h-[24rem] sm:max-h-[28rem] md:max-h-[32rem] object-contain rounded-lg cursor-pointer" 
+                                            className="w-full h-auto max-h-[24rem] sm:max-h-[28rem] md:max-h-[32rem] object-cover rounded-lg cursor-pointer" 
                                             onClick={() => openLightbox(`/images/travel/thailand/chiangmai/temples${index+1}.jpg`)}/>
                                         </CardContent>
                                     </Card>
