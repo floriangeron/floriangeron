@@ -234,8 +234,8 @@ export default function Thailand() {
                 </div>
 
                 {/* Blog Content with right-side TOC */}
-                <div className="grid md:grid-cols-4 gap-8">
-                    <main className={`md:col-span-3 text-gray-800 ${fontSizeClass} max-w-[min(100%,65ch)] mx-auto md:max-w-none md:mx-0 px-4`}>
+                <div className="grid md:grid-cols-4 gap-8 min-w-0">
+                    <main className={`md:col-span-3 text-gray-800 ${fontSizeClass} max-w-[min(100%,65ch)] mx-auto md:max-w-none md:mx-0 px-4 min-w-0`}>
 
                         {/* Our Journey */}
                         <h2 id="our-journey" className="text-4xl font-bold mb-4">Our Journey</h2>
@@ -269,20 +269,20 @@ export default function Thailand() {
                         <h3 id="the-crew" className="text-2xl font-bold mb-4">The crew</h3>
                         <Carousel className="w-full">
                             <CarouselContent className="-ml-1">
-                                <CarouselItem key={2} className="basis-[80%] pl-1 lg:basis-[45%] h-full">
-                                    <div className="p-1 h-full">
-                                    <Card className="h-full">
-                                        <CardContent className="p-0 overflow-hidden h-full flex flex-col">
+                                <CarouselItem key={1} className="basis-[80%] pl-1 lg:basis-[45%] min-w-0 shrink-0">
+                                    <div className="p-1">
+                                    <Card>
+                                        <CardContent className="p-0 overflow-hidden h-full flex flex-col w-full max-w-full min-w-0">
                                         <img 
                                             src={`/images/travel/thailand/crew/Seba1.JPG`} 
                                             alt={`Thailand`} 
                                             className="w-full h-[24rem] sm:h-[28rem] md:h-[40rem] object-cover rounded-lg cursor-pointer" 
                                             onClick={() => openLightbox(`/images/travel/thailand/crew/Seba2.JPG`)}/>
-                                            <div className="px-4 pt-3 pb-3 min-h-[8.5rem] flex flex-col">
-                                                <p className="pb-1 text-base sm:text-lg text-gray-700 font-bold text-center">
+                                            <div className="px-4 pt-3 pb-3 min-h-[8.5rem] flex flex-col overflow-hidden min-w-0 max-w-full">
+                                                <p className="pb-1 text-base sm:text-lg text-gray-700 font-bold text-center break-words min-w-0">
                                                 Seba
                                                 </p>
-                                                <p className="pt-1 text-sm sm:text-base text-gray-700">
+                                                <p className="pt-1 text-sm sm:text-base text-gray-700 break-words min-w-0">
                                                 Everyone's favorite smile.
                                                 </p>
                                             </div>
@@ -290,20 +290,20 @@ export default function Thailand() {
                                     </Card>
                                     </div>
                                 </CarouselItem>
-                                <CarouselItem key={2} className="basis-[80%] pl-1 lg:basis-[45%] h-full">
-                                    <div className="p-1 h-full">
-                                    <Card className="h-full">
-                                        <CardContent className="p-0 overflow-hidden h-full flex flex-col">
+                                <CarouselItem key={2} className="basis-[80%] pl-1 lg:basis-[45%] min-w-0 shrink-0">
+                                    <div className="p-1">
+                                    <Card>
+                                        <CardContent className="p-0 overflow-hidden h-full flex flex-col w-full max-w-full min-w-0">
                                         <img 
                                             src={`/images/travel/thailand/crew/William1.jpeg`} 
                                             alt={`Thailand`} 
                                             className="w-full h-[24rem] sm:h-[28rem] md:h-[40rem] object-cover rounded-lg cursor-pointer" 
                                             onClick={() => openLightbox(`/images/travel/thailand/crew/William2.JPG`)}/>
-                                            <div className="px-4 pt-3 pb-3 min-h-[8.5rem] flex flex-col">
-                                                <p className="pb-1 text-base sm:text-lg text-gray-700 font-bold text-center">
+                                            <div className="px-4 pt-3 pb-3 min-h-[8.5rem] flex flex-col overflow-hidden min-w-0 max-w-full">
+                                                <p className="pb-1 text-base sm:text-lg text-gray-700 font-bold text-center break-words min-w-0">
                                                 William
                                                 </p>
-                                                <p className="pt-1 text-sm sm:text-base text-gray-700">
+                                                <p className="pt-1 text-sm sm:text-base text-gray-700 break-words min-w-0">
                                                 The bard of the group, singing tales of love and adventure.
                                                 </p>
                                             </div>
@@ -311,20 +311,20 @@ export default function Thailand() {
                                     </Card>
                                     </div>
                                 </CarouselItem>
-                                <CarouselItem key={2} className="basis-[80%] pl-1 lg:basis-[45%] h-full">
-                                    <div className="p-1 h-full">
-                                    <Card className="h-full">
-                                        <CardContent className="p-0 overflow-hidden h-full flex flex-col">
+                                <CarouselItem key={3} className="basis-[80%] pl-1 lg:basis-[45%] min-w-0 shrink-0">
+                                    <div className="p-1">
+                                    <Card>
+                                        <CardContent className="p-0 overflow-hidden h-full flex flex-col w-full max-w-full min-w-0">
                                         <img 
                                             src={`/images/travel/thailand/crew/Dieter1.JPG`} 
                                             alt={`Thailand`} 
                                             className="w-full h-[24rem] sm:h-[28rem] md:h-[40rem] object-cover rounded-lg cursor-pointer" 
                                             onClick={() => openLightbox(`/images/travel/thailand/crew/Dieter2.jpeg`)}/>
-                                            <div className="px-4 pt-3 pb-3 min-h-[8.5rem] flex flex-col">
-                                                <p className="pb-1 text-base sm:text-lg text-gray-700 font-bold text-center">
+                                            <div className="px-4 pt-3 pb-3 min-h-[8.5rem] flex flex-col overflow-hidden min-w-0 max-w-full">
+                                                <p className="pb-1 text-base sm:text-lg text-gray-700 font-bold text-center break-words min-w-0">
                                                 Dieter
                                                 </p>
-                                                <p className="pt-1 text-sm sm:text-base text-gray-700">
+                                                <p className="pt-1 text-sm sm:text-base text-gray-700 break-words min-w-0">
                                                 The lucky one.
                                                 </p>
                                             </div>
@@ -332,41 +332,41 @@ export default function Thailand() {
                                     </Card>
                                     </div>
                                 </CarouselItem>   
-                                <CarouselItem key={3} className="basis-[80%] pl-1 lg:basis-[45%] h-full">
-                                    <div className="p-1 h-full">
-                                    <Card className="h-full">
-                                        <CardContent className="p-0 overflow-hidden h-full flex flex-col">
+                                <CarouselItem key={4} className="basis-[80%] pl-1 lg:basis-[45%] min-w-0 shrink-0">
+                                    <div className="p-1">
+                                    <Card>
+                                        <CardContent className="p-0 overflow-hidden h-full flex flex-col w-full max-w-full min-w-0">
                                         <img 
                                             src={`/images/travel/thailand/crew/Emile1.JPG`} 
                                             alt={`Thailand`} 
                                             className="w-full h-[24rem] sm:h-[28rem] md:h-[40rem] object-cover rounded-lg cursor-pointer" 
                                             onClick={() => openLightbox(`/images/travel/thailand/crew/Emile2.JPG`)}/>
-                                            <div className="px-4 pt-3 pb-3 min-h-[8.5rem] flex flex-col">
-                                                <p className="pb-1 text-base sm:text-lg text-gray-700 font-bold text-center">
+                                            <div className="px-4 pt-3 pb-3 min-h-[8.5rem] flex flex-col overflow-hidden min-w-0 max-w-full">
+                                                <p className="pb-1 text-base sm:text-lg text-gray-700 font-bold text-center break-words min-w-0">
                                                 Emile
                                                 </p>
-                                                <p className="pt-1 text-sm sm:text-base text-gray-700">
-                                                The daredevil. Photographer extraordinaire. Crazy K.
+                                                <p className="pt-1 text-sm sm:text-base text-gray-700 break-words min-w-0">
+                                                The daredevil. Photographer extraordinaire. Crazy K. 
                                                 </p>
                                             </div>
                                         </CardContent>
                                     </Card>
                                     </div>
                                 </CarouselItem>       
-                                <CarouselItem key={1} className="basis-[80%] pl-1 lg:basis-[45%] h-full">
-                                    <div className="p-1 h-full">
-                                    <Card className="h-full">
-                                        <CardContent className="p-0 overflow-hidden h-full flex flex-col">
+                                <CarouselItem key={5} className="basis-[80%] pl-1 lg:basis-[45%] min-w-0 shrink-0">
+                                    <div className="p-1">
+                                    <Card>
+                                        <CardContent className="p-0 overflow-hidden h-full flex flex-col w-full max-w-full min-w-0">
                                         <img 
                                             src={`/images/travel/thailand/crew/Jasper1.JPG`} 
                                             alt={`Thailand`} 
                                             className="w-full h-[24rem] sm:h-[28rem] md:h-[40rem] object-cover rounded-lg cursor-pointer" 
                                             onClick={() => openLightbox(`/images/travel/thailand/crew/Jasper2.JPG`)}/>
-                                            <div className="px-4 pt-3 pb-3 min-h-[8.5rem] flex flex-col">
-                                                <p className="pb-1 text-base sm:text-lg text-gray-700 font-bold text-center">
+                                            <div className="px-4 pt-3 pb-3 min-h-[8.5rem] flex flex-col overflow-hidden min-w-0 max-w-full">
+                                                <p className="pb-1 text-base sm:text-lg text-gray-700 font-bold text-center break-words min-w-0">
                                                 Jasper
                                                 </p>
-                                                <p className="pt-1 text-sm sm:text-base text-gray-700">
+                                                <p className="pt-1 text-sm sm:text-base text-gray-700 break-words min-w-0">
                                                 Friends with humans and animals alike.
                                                 </p>
                                             </div>
@@ -374,20 +374,20 @@ export default function Thailand() {
                                     </Card>
                                     </div>
                                 </CarouselItem>
-                                <CarouselItem key={1} className="basis-[80%] pl-1 lg:basis-[45%] h-full">
-                                    <div className="p-1 h-full">
-                                    <Card className="h-full">
-                                        <CardContent className="p-0 overflow-hidden h-full flex flex-col">
+                                <CarouselItem key={6} className="basis-[80%] pl-1 lg:basis-[45%] min-w-0 shrink-0 ">
+                                    <div className="p-1">
+                                    <Card>
+                                        <CardContent className="p-0 overflow-hidden h-full flex flex-col w-full max-w-full min-w-0">
                                         <img 
                                             src={`/images/travel/thailand/crew/Vincent1.JPG`} 
                                             alt={`Thailand`} 
                                             className="w-full h-[24rem] sm:h-[28rem] md:h-[40rem] object-cover rounded-lg cursor-pointer" 
                                             onClick={() => openLightbox(`/images/travel/thailand/crew/Vincent2.JPG`)}/>
-                                            <div className="px-4 pt-3 pb-3 min-h-[8.5rem] flex flex-col">
-                                                <p className="pb-1 text-base sm:text-lg text-gray-700 font-bold text-center">
+                                            <div className="px-4 pt-3 pb-3 min-h-[8.5rem] flex flex-col overflow-hidden min-w-0 max-w-full">
+                                                <p className="pb-1 text-base sm:text-lg text-gray-700 font-bold text-center break-words min-w-0">
                                                 Vincent
                                                 </p>
-                                                <p className="pt-1 text-sm sm:text-base text-gray-700">
+                                                <p className="pt-1 text-sm sm:text-base text-gray-700 break-words min-w-0">
                                                 The fashionista. 
                                                 </p>
                                             </div>
@@ -395,41 +395,41 @@ export default function Thailand() {
                                     </Card>
                                     </div>
                                 </CarouselItem>
-                                <CarouselItem key={1} className="basis-[80%] pl-1 lg:basis-[45%] h-full">
-                                    <div className="p-1 h-full">
-                                    <Card className="h-full">
-                                        <CardContent className="p-0 overflow-hidden h-full flex flex-col">
+                                <CarouselItem key={7} className="basis-[80%] pl-1 lg:basis-[45%] min-w-0 shrink-0">
+                                    <div className="p-1">
+                                    <Card>
+                                        <CardContent className="p-0 overflow-hidden h-full flex flex-col w-full max-w-full min-w-0">
                                         <img 
                                             src={`/images/travel/thailand/crew/Sam1.JPG`} 
                                             alt={`Thailand`} 
                                             className="w-full h-[24rem] sm:h-[28rem] md:h-[40rem] object-cover rounded-lg cursor-pointer" 
                                             onClick={() => openLightbox(`/images/travel/thailand/crew/Sam2.JPG`)}/>
-                                            <div className="px-4 pt-3 pb-3 min-h-[8.5rem] flex flex-col">
-                                                <p className="pb-1 text-base sm:text-lg text-gray-700 font-bold text-center">
+                                            <div className="px-4 pt-3 pb-3 min-h-[8.5rem] flex flex-col overflow-hidden min-w-0 max-w-full">
+                                                <p className="pb-1 text-base sm:text-lg text-gray-700 font-bold text-center break-words min-w-0">
                                                 Sam
                                                 </p>
-                                                <p className="pt-1 text-sm sm:text-base text-gray-700">
-                                                His laugh can be heard from across the country.
+                                                <p className="pt-1 text-sm sm:text-base text-gray-700 break-words min-w-0">
+                                                His laugh can be heard from across the country. 
                                                 </p>
                                             </div>
                                         </CardContent>
                                     </Card>
                                     </div>
                                 </CarouselItem>  
-                                <CarouselItem key={1} className="basis-[80%] pl-1 lg:basis-[45%] h-full">
-                                    <div className="p-1 h-full">
-                                    <Card className="h-full">
-                                        <CardContent className="p-0 overflow-hidden h-full flex flex-col">
+                                <CarouselItem key={8} className="basis-[80%] pl-1 lg:basis-[45%] min-w-0 shrink-0">
+                                    <div className="p-1">
+                                    <Card>
+                                        <CardContent className="p-0 overflow-hidden h-full flex flex-col w-full max-w-full min-w-0">
                                         <img 
                                             src={`/images/travel/thailand/crew/Florian1.JPG`} 
                                             alt={`Thailand`} 
                                             className="w-full h-[24rem] sm:h-[28rem] md:h-[40rem] object-cover rounded-lg cursor-pointer" 
                                             onClick={() => openLightbox(`/images/travel/thailand/crew/Florian2.JPG`)}/>
-                                            <div className="px-4 pt-3 pb-3 min-h-[8.5rem] flex flex-col">
-                                                <p className="pb-1 text-base sm:text-lg text-gray-700 font-bold text-center">
+                                            <div className="px-4 pt-3 pb-3 min-h-[8.5rem] flex flex-col overflow-hidden min-w-0 max-w-full">
+                                                <p className="pb-1 text-base sm:text-lg text-gray-700 font-bold text-center break-words min-w-0">
                                                 Florian
                                                 </p>
-                                                <p className="pt-1 text-sm sm:text-base text-gray-700">
+                                                <p className="pt-1 text-sm sm:text-base text-gray-700 break-words min-w-0">
                                                 Only got sick three times!
                                                 </p>
                                             </div>
@@ -1571,7 +1571,7 @@ export default function Thailand() {
                                 <img
                                     src={"/images/travel/thailand/khaosok/BaanUrtHotel.JPG"}
                                     alt="Baan Urt Hotel"
-                                    className="w-[75%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    className="w-full sm:w-[75%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
                                     onClick={() => openLightbox("/images/travel/thailand/khaosok/BaanUrtHotel.JPG")}
                                 />
                                 <figcaption className="text-center text-sm text-gray-600">Baan Urt Hotel in Surat Thani</figcaption>
