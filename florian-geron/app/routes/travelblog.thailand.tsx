@@ -272,7 +272,7 @@ export default function Thailand() {
                                 <CarouselItem key={1} className="basis-[80%] pl-1 lg:basis-[45%]">
                                     <div className="p-1">
                                     <Card>
-                                        <CardContent className="p-0 overflow-hidden h-full flex flex-col">
+                                        <CardContent className="flex items-center justify-center p-0 overflow-hidden h-full flex-col">
                                         <img 
                                             src={`/images/travel/thailand/crew/Seba1.JPG`} 
                                             alt={`Thailand`} 
@@ -293,7 +293,7 @@ export default function Thailand() {
                                 <CarouselItem key={2} className="basis-[80%] pl-1 lg:basis-[45%]">
                                     <div className="p-1">
                                     <Card>
-                                        <CardContent className="p-0 overflow-hidden h-full flex flex-col">
+                                        <CardContent className="flex items-center justify-center p-0 overflow-hidden h-full flex flex-col">
                                         <img 
                                             src={`/images/travel/thailand/crew/William1.jpeg`} 
                                             alt={`Thailand`} 
@@ -314,7 +314,7 @@ export default function Thailand() {
                                 <CarouselItem key={3} className="basis-[80%] pl-1 lg:basis-[45%]">
                                     <div className="p-1">
                                     <Card>
-                                        <CardContent className="p-0 overflow-hidden h-full flex flex-col">
+                                        <CardContent className="flex items-center justify-center p-0 overflow-hidden h-full flex flex-col">
                                         <img 
                                             src={`/images/travel/thailand/crew/Dieter1.JPG`} 
                                             alt={`Thailand`} 
@@ -335,7 +335,7 @@ export default function Thailand() {
                                 <CarouselItem key={4} className="basis-[80%] pl-1 lg:basis-[45%]">
                                     <div className="p-1">
                                     <Card>
-                                        <CardContent className="p-0 overflow-hidden h-full flex flex-col">
+                                        <CardContent className="flex items-center justify-centerp-0 overflow-hidden h-full flex flex-col">
                                         <img 
                                             src={`/images/travel/thailand/crew/Emile1.JPG`} 
                                             alt={`Thailand`} 
@@ -356,7 +356,7 @@ export default function Thailand() {
                                 <CarouselItem key={5} className="basis-[80%] pl-1 lg:basis-[45%]">
                                     <div className="p-1">
                                     <Card>
-                                        <CardContent className="p-0 overflow-hidden h-full flex flex-col">
+                                        <CardContent className="flex items-center justify-center p-0 overflow-hidden h-full flex flex-col">
                                         <img 
                                             src={`/images/travel/thailand/crew/Jasper1.JPG`} 
                                             alt={`Thailand`} 
@@ -377,7 +377,7 @@ export default function Thailand() {
                                 <CarouselItem key={6} className="basis-[80%] pl-1 lg:basis-[45%]">
                                     <div className="p-1">
                                     <Card>
-                                        <CardContent className="p-0 overflow-hidden h-full flex flex-col">
+                                        <CardContent className="flex items-center justify-center p-0 overflow-hidden h-full flex flex-col">
                                         <img 
                                             src={`/images/travel/thailand/crew/Vincent1.JPG`} 
                                             alt={`Thailand`} 
@@ -398,7 +398,7 @@ export default function Thailand() {
                                 <CarouselItem key={7} className="basis-[80%] pl-1 lg:basis-[45%]">
                                     <div className="p-1">
                                     <Card>
-                                        <CardContent className="p-0 overflow-hidden h-full flex flex-col">
+                                        <CardContent className="flex items-center justify-center p-0 overflow-hidden h-full flex flex-col">
                                         <img 
                                             src={`/images/travel/thailand/crew/Sam1.JPG`} 
                                             alt={`Thailand`} 
@@ -419,7 +419,7 @@ export default function Thailand() {
                                 <CarouselItem key={8} className="basis-[80%] pl-1 lg:basis-[45%]">
                                     <div className="p-1">
                                     <Card>
-                                        <CardContent className="p-0 overflow-hidden h-full flex flex-col">
+                                        <CardContent className="flex items-center justify-center p-0 overflow-hidden h-full flex flex-col">
                                         <img 
                                             src={`/images/travel/thailand/crew/Florian1.JPG`} 
                                             alt={`Thailand`} 
