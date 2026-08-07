@@ -269,7 +269,7 @@ export default function Thailand() {
                         <h3 id="the-crew" className="text-2xl font-bold mb-4">The crew</h3>
                         <Carousel className="w-full">
                             <CarouselContent className="-ml-1">
-                                <CarouselItem key={1} className="basis-[80%] pl-1 lg:basis-[45%] min-w-0">
+                                <CarouselItem key={1} className="basis-[80%] pl-1 lg:basis-[45%] min-w-0 shrink-0 w-full max-w-full">
                                     <div className="p-1">
                                     <Card>
                                         <CardContent className="p-0 overflow-hidden h-full flex flex-col w-full max-w-full min-w-0">
@@ -290,7 +290,7 @@ export default function Thailand() {
                                     </Card>
                                     </div>
                                 </CarouselItem>
-                                <CarouselItem key={2} className="basis-[80%] pl-1 lg:basis-[45%] min-w-0">
+                                <CarouselItem key={2} className="basis-[80%] pl-1 lg:basis-[45%] min-w-0 shrink-0 w-full max-w-full">
                                     <div className="p-1">
                                     <Card>
                                         <CardContent className="p-0 overflow-hidden h-full flex flex-col w-full max-w-full min-w-0">
@@ -311,7 +311,7 @@ export default function Thailand() {
                                     </Card>
                                     </div>
                                 </CarouselItem>
-                                <CarouselItem key={3} className="basis-[80%] pl-1 lg:basis-[45%] min-w-0">
+                                <CarouselItem key={3} className="basis-[80%] pl-1 lg:basis-[45%] min-w-0 shrink-0 w-full max-w-full">
                                     <div className="p-1">
                                     <Card>
                                         <CardContent className="p-0 overflow-hidden h-full flex flex-col w-full max-w-full min-w-0">
@@ -332,7 +332,7 @@ export default function Thailand() {
                                     </Card>
                                     </div>
                                 </CarouselItem>   
-                                <CarouselItem key={4} className="basis-[80%] pl-1 lg:basis-[45%] min-w-0">
+                                <CarouselItem key={4} className="basis-[80%] pl-1 lg:basis-[45%] min-w-0 shrink-0 w-full max-w-full">
                                     <div className="p-1">
                                     <Card>
                                         <CardContent className="p-0 overflow-hidden h-full flex flex-col w-full max-w-full min-w-0">
@@ -353,7 +353,7 @@ export default function Thailand() {
                                     </Card>
                                     </div>
                                 </CarouselItem>       
-                                <CarouselItem key={5} className="basis-[80%] pl-1 lg:basis-[45%] min-w-0">
+                                <CarouselItem key={5} className="basis-[80%] pl-1 lg:basis-[45%] min-w-0 shrink-0 w-full max-w-full">
                                     <div className="p-1">
                                     <Card>
                                         <CardContent className="p-0 overflow-hidden h-full flex flex-col w-full max-w-full min-w-0">
@@ -374,7 +374,7 @@ export default function Thailand() {
                                     </Card>
                                     </div>
                                 </CarouselItem>
-                                <CarouselItem key={6} className="basis-[80%] pl-1 lg:basis-[45%] min-w-0">
+                                <CarouselItem key={6} className="basis-[80%] pl-1 lg:basis-[45%] min-w-0 shrink-0 w-full max-w-full ">
                                     <div className="p-1">
                                     <Card>
                                         <CardContent className="p-0 overflow-hidden h-full flex flex-col w-full max-w-full min-w-0">
@@ -395,7 +395,7 @@ export default function Thailand() {
                                     </Card>
                                     </div>
                                 </CarouselItem>
-                                <CarouselItem key={7} className="basis-[80%] pl-1 lg:basis-[45%] min-w-0">
+                                <CarouselItem key={7} className="basis-[80%] pl-1 lg:basis-[45%] min-w-0 shrink-0 w-full max-w-full">
                                     <div className="p-1">
                                     <Card>
                                         <CardContent className="p-0 overflow-hidden h-full flex flex-col w-full max-w-full min-w-0">
@@ -416,7 +416,7 @@ export default function Thailand() {
                                     </Card>
                                     </div>
                                 </CarouselItem>  
-                                <CarouselItem key={8} className="basis-[80%] pl-1 lg:basis-[45%] min-w-0">
+                                <CarouselItem key={8} className="basis-[80%] pl-1 lg:basis-[45%] min-w-0 shrink-0 w-full max-w-full">
                                     <div className="p-1">
                                     <Card>
                                         <CardContent className="p-0 overflow-hidden h-full flex flex-col w-full max-w-full min-w-0">
