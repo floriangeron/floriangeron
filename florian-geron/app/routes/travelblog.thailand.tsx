@@ -283,7 +283,7 @@ export default function Thailand() {
                                                 Seba
                                                 </p>
                                                 <p className="pt-1 text-sm sm:text-base text-gray-700">
-                                                Class act.
+                                                Everyone's favorite smile.
                                                 </p>
                                             </div>
                                         </CardContent>
@@ -304,7 +304,7 @@ export default function Thailand() {
                                                 William
                                                 </p>
                                                 <p className="pt-1 text-sm sm:text-base text-gray-700">
-                                                The bard.
+                                                The bard of the group, singing tales of love and adventure.
                                                 </p>
                                             </div>
                                         </CardContent>
@@ -346,7 +346,7 @@ export default function Thailand() {
                                                 Emile
                                                 </p>
                                                 <p className="pt-1 text-sm sm:text-base text-gray-700">
-                                                The daredevil. Photographer extraordinaire.
+                                                The daredevil. Photographer extraordinaire. Crazy K.
                                                 </p>
                                             </div>
                                         </CardContent>
@@ -367,7 +367,7 @@ export default function Thailand() {
                                                 Jasper
                                                 </p>
                                                 <p className="pt-1 text-sm sm:text-base text-gray-700">
-                                                The animal friend.
+                                                Friends with humans and animals alike.
                                                 </p>
                                             </div>
                                         </CardContent>
@@ -382,7 +382,7 @@ export default function Thailand() {
                                             src={`/images/travel/thailand/crew/Vincent1.JPG`} 
                                             alt={`Thailand`} 
                                             className="w-full h-[24rem] sm:h-[28rem] md:h-[40rem] object-cover rounded-lg cursor-pointer" 
-                                            onClick={() => openLightbox(`/images/travel/thailand/crew/Vincent.JPG`)}/>
+                                            onClick={() => openLightbox(`/images/travel/thailand/crew/Vincent2.JPG`)}/>
                                             <div className="px-4 pt-3 pb-3 min-h-[8.5rem] flex flex-col">
                                                 <p className="pb-1 text-base sm:text-lg text-gray-700 font-bold text-center">
                                                 Vincent
@@ -409,7 +409,7 @@ export default function Thailand() {
                                                 Sam
                                                 </p>
                                                 <p className="pt-1 text-sm sm:text-base text-gray-700">
-                                                Positivity incarnate.
+                                                His laugh can be heard from across the country.
                                                 </p>
                                             </div>
                                         </CardContent>
