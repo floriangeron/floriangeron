@@ -334,7 +334,14 @@ export default function Thailand() {
                                             alt={`Thailand`} 
                                             className="w-full h-[24rem] sm:h-[28rem] md:h-[40rem] object-cover rounded-lg cursor-pointer" 
                                             onClick={() => openLightbox(`/images/travel/thailand/crew/Jasper2.JPG`)}/>
-
+                                            <div className="px-4 pt-3 pb-3 min-h-[8.5rem] flex flex-col overflow-hidden">
+                                                <p className="pb-1 text-base sm:text-lg text-gray-700 font-bold text-center">
+                                                Jasper
+                                                </p>
+                                                <p className="pt-1 text-sm sm:text-base text-gray-700">
+                                                Friends with humans and animals alike.
+                                                </p>
+                                            </div>
                                         </CardContent>
                                     </Card>
                                     </div>
@@ -348,7 +355,14 @@ export default function Thailand() {
                                             alt={`Thailand`} 
                                             className="w-full h-[24rem] sm:h-[28rem] md:h-[40rem] object-cover rounded-lg cursor-pointer" 
                                             onClick={() => openLightbox(`/images/travel/thailand/crew/Vincent2.JPG`)}/>
-
+                                            <div className="px-4 pt-3 pb-3 min-h-[8.5rem] flex flex-col overflow-hidden">
+                                                <p className="pb-1 text-base sm:text-lg text-gray-700 font-bold text-center">
+                                                Vincent
+                                                </p>
+                                                <p className="pt-1 text-sm sm:text-base text-gray-700">
+                                                The fashionista. 
+                                                </p>
+                                            </div>
                                         </CardContent>
                                     </Card>
                                     </div>
