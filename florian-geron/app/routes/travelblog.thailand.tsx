@@ -388,7 +388,7 @@ export default function Thailand() {
                                                 Vincent
                                                 </p>
                                                 <p className="pt-1 text-sm sm:text-base text-gray-700">
-                                                The fashionista.
+                                                The fashionista. 
                                                 </p>
                                             </div>
                                         </CardContent>
