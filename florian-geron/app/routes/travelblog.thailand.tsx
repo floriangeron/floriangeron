@@ -1185,6 +1185,243 @@ export default function Thailand() {
                         <h2 id="hotel-reviews" className="text-4xl font-bold mb-4">Hotel Reviews</h2>
                         Florian took this trip with seven of his friends, so this hotel review section will be written from the perspective of a group of eight people in their late 20s traveling together. These reviews might therefore not be the most relatable for solo travelers or couples!<br/><br/>
 
+                        <HotelReview
+                            headingId="hotel-1"
+                            title="Chiang Mai: The White Elephant Home"
+                            overallRating={4}
+                            categories={[
+                                { title: 'Staff', rating: 8 },
+                                { title: 'Facilities', rating: 6 },
+                                { title: 'Cleanliness', rating: 8 },
+                                { title: 'Comfort', rating: 9 },
+                                { title: 'Location', rating: 7 },
+                                { title: 'Value for Money', rating: 8 },
+                            ]}
+                        >
+                            This hotel provided a comfortable stay for our time in Chiang Mai. We had a little standalone building all to ourselves, as well as some rooms in the main building. This allowed us to have some privacy and a place to hang out together. The hotel is located a bit outside of the city center, but still within walking distance of the old town. The staff was very friendly and helpful. The breakfast was fine, but not particularly big for European standards. During breakfast, the lady gave me a second portion without charging me for it. My friend asked for a second portion too, but his second portion ended up on the bill! We got a good laugh out of this, but it's a good example of differing service norms in Thailand compared to Europe. Overall, I would recommend this hotel for a stay in Chiang Mai, especially for a larger group.
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/2QL4BqunXzQFhyXRA" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </HotelReview>
+
+                        <HotelReview
+                            headingId="hotel-1"
+                            title="Pai: The Sylvana Pai Hotel"
+                            overallRating={4.5}
+                            categories={[
+                                { title: 'Staff', rating: 7 },
+                                { title: 'Facilities', rating: 7 },
+                                { title: 'Cleanliness', rating: 8 },
+                                { title: 'Comfort', rating: 9 },
+                                { title: 'Location', rating: 10 },
+                                { title: 'Value for Money', rating: 9 },
+                            ]}
+                        >
+                            This hotel provided a very convenient and comfortable stay in Pai. The hotel consists of small standalone bungalows, surrounding a calm outdoor area with a pool. The hotel is located right off the main walking street in Pai, which makes it a very convenient location for exploring the town. The hotel itself is very calm and quiet, while still being right in the middle of the action.<br/>
+                            The staff wasn't particularly friendly or helpful, but they were polite and professional. The hotel does not provide breakfast, but there are many restaurants nearby. Overall, I would recommend this hotel for a stay in Pai if you want a peaceful stay close to the city center.
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/EXyz5XSertue7GAu6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </HotelReview>
+
+                        <HotelReview
+                            headingId="hotel-1"
+                            title="Phuket: Namtok Villa"
+                            overallRating={4}
+                            categories={[
+                                { title: 'Staff', rating: null },
+                                { title: 'Facilities', rating: 9 },
+                                { title: 'Cleanliness', rating: 9 },
+                                { title: 'Comfort', rating: 9 },
+                                { title: 'Location', rating: 6 },
+                                { title: 'Value for Money', rating: 8 },
+                            ]}
+                        >
+                            In Phuket, we stayed in a villa in a central location on the island. This meant that we were reasonably close to all sights of interest, like the Old Town and Patong beach, but not particularly close to any one of them, meaning we had to take a ~20min Grab to get around. The villa was very comfortable for a group of eight and had a nice pool. It was a great spot for me to recover from my illness.<br/>
+                            Overall we had a good stay here, and I would recommend it if you are looking for a comfortable stay in Phuket in a calmer area, away from the party scene of Phuket.
+                            <br/>
+                            Find it <a href="https://maps.app.goo.gl/S1uqUa5doTWBbMRB8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            <br />
+                            <div className="grid md:grid-cols-2 gap-2">
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/thailand/phuket/Namtok1.JPG"
+                                        alt="Phuket Namtok"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/thailand/phuket/Namtok1.JPG')}
+                                    />
+                                </figure>
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/thailand/phuket/Namtok2.JPG"
+                                        alt="Phuket Namtok"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/thailand/phuket/Namtok2.JPG')}
+                                    />
+                                </figure>
+                            </div>
+                            <figcaption className="text-center text-sm text-gray-600">Namtok Villa on Phuket</figcaption>
+                        </HotelReview>
+
+                        <HotelReview
+                            headingId="hotel-1"
+                            title="Koh Phi Phi: The Cove"
+                            overallRating={4.5}
+                            categories={[
+                                { title: 'Staff', rating: 9 },
+                                { title: 'Facilities', rating: 8 },
+                                { title: 'Cleanliness', rating: 8 },
+                                { title: 'Comfort', rating: 8 },
+                                { title: 'Location', rating: 10 },
+                                { title: 'Value for Money', rating: 8 },
+                            ]}
+                        >
+                            In order to get away from the crowds on Koh Phi Phi, we stayed in a hotel on the eastern side of the island. The hotel is nestled along the slopes of the island and is only accessible by boat. Upon arriving at the hotel's beach, we realized we had made the right decision to stay in this oasis of tropical peace.<br/>
+                            The rooms we had weren't particularly luxurious, but they were comfortable and clean. The staff also helped us with getting our luggage up and down the slopes. We enjoyed lounging on the beach and swimming in the warm waters of the sea in between our excursions. Overall, we had a great stay here and would recommend it to anyone looking for a peaceful stay on Koh Phi Phi, including couples who are looking for a more romantic retreat.
+                            <br/>
+                            Find it <a href="https://maps.app.goo.gl/49zDPQPQumVb9bvL9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            <br />
+                            <div className="grid md:grid-cols-2 gap-2">
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/thailand/phiphi/TheCove1.jpg"
+                                        alt="Koh Phi Phi"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/thailand/phiphi/TheCove1.jpg')}
+                                    />
+                                </figure>
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/thailand/phiphi/TheCove2.jpg"
+                                        alt="Koh Phi Phi"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/thailand/phiphi/TheCove2.jpg')}
+                                    />
+                                </figure>
+                            </div>
+                            <figcaption className="text-center text-sm text-gray-600">The Cove on Koh Phi Phi</figcaption>
+                        </HotelReview>
+
+                        <HotelReview
+                            headingId="hotel-1"
+                            title="Ao Nang: Wake Up Aonang"
+                            overallRating={2}
+                            categories={[
+                                { title: 'Staff', rating: 6 },
+                                { title: 'Facilities', rating: 4 },
+                                { title: 'Cleanliness', rating: 5 },
+                                { title: 'Comfort', rating: 2 },
+                                { title: 'Location', rating: 8 },
+                                { title: 'Value for Money', rating: 7 },
+                            ]}
+                        >
+                            This was genuinely one of the weirdest venues I've stayed at. On the face of it, it looks like a nice hotel, and to be fair we had everything we needed. However, I found the rooms to be very weirdly designed, giving a strange, dystopian, run-down, station-like vibe. The showers were concrete boxes with modernistic but sad shower heads. It all reminded me of something out of the Star Wars universe.<br/>
+                            In principle, this hotel has everything you need, is close to the action, and offers good value for money. However it is one of the hotels where the design was so sad that it made me feel uncomfortable.
+                            <br/>
+                            Find it <a href="https://maps.app.goo.gl/mLpVNu8xowYdr2Ug7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            <br />
+                        </HotelReview>
+
+                        <HotelReview
+                            headingId="hotel-1"
+                            title="Khao Sok: Khaosok Boutique Camps"
+                            overallRating={4}
+                            categories={[
+                                { title: 'Staff', rating: 8 },
+                                { title: 'Facilities', rating: null },
+                                { title: 'Cleanliness', rating: 7 },
+                                { title: 'Comfort', rating: 7 },
+                                { title: 'Location', rating: 8 },
+                                { title: 'Value for Money', rating: 8 },
+                            ]}
+                        >
+                            This hotel is nestled in the hillside of the jungles of Khao Sok. The hotel consists of small standalone rooms, which are fancy hotel room-sized tents, which are comfortable and clean. It is a very peaceful place and a great base to explore the surrounding nature.<br/>
+                            We had dinner at the hotel restaurant and we enjoyed our food and time here.<br/>
+                            Find it <a href="https://maps.app.goo.gl/K8gpSog68HA6AS3F6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            <br />
+                            <div className="grid md:grid-cols-2 gap-2">
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/thailand/khaosok/KhaoSokHotel1.jpg"
+                                        alt="Khao Sok"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/thailand/khaosok/KhaoSokHotel1.jpg')}
+                                    />
+                                </figure>
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/thailand/khaosok/KhaoSokHotel2.JPG"
+                                        alt="Khao Sok"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/thailand/khaosok/KhaoSokHotel2.JPG')}
+                                    />
+                                </figure>
+                            </div>
+                            <figcaption className="text-center text-sm text-gray-600">Khaosok Boutique Camps</figcaption>
+                        </HotelReview>
+
+                        <HotelReview
+                            headingId="hotel-1"
+                            title="Khao Sok: The Laguna Chiewlarn"
+                            overallRating={4.5}
+                            categories={[
+                                { title: 'Staff', rating: 8 },
+                                { title: 'Facilities', rating: 6 },
+                                { title: 'Cleanliness', rating: 7 },
+                                { title: 'Comfort', rating: 7 },
+                                { title: 'Location', rating: 10 },
+                                { title: 'Value for Money', rating: 8 },
+                            ]}
+                        >
+                            A picture-perfect, picturesque hotel in an amazing location. This (kind of) hotel is a must-do experience when visiting Khao Sok, and we were very happy with our stay here. It is a bit touristy, but this is by design, and we still very much enjoyed our time here.<br/>
+                            Find it <a href="https://maps.app.goo.gl/z9Hh18j9xY2FDH768" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            <br />
+                        </HotelReview>
+
+                        <HotelReview
+                            headingId="hotel-1"
+                            title="Surat Thani: Baan Urt Hotel"
+                            overallRating={1}
+                            categories={[
+                                { title: 'Staff', rating: 5 },
+                                { title: 'Facilities', rating: null },
+                                { title: 'Cleanliness', rating: 2 },
+                                { title: 'Comfort', rating: 2 },
+                                { title: 'Location', rating: 5 },
+                                { title: 'Value for Money', rating: 3 },
+                            ]}
+                        >
+                            This is the hotel we booked when we unexpectedly needed to stay the night in Surat Thani. We chose it due to its location close to the airport, which is the only thing this hotel has going for it. The hotel rooms smell very moldy, I would not recommend anyone to stay the night here, except people like us who needed to stay the night at a cheap price.<br/>
+                            Find it <a href="https://maps.app.goo.gl/viAyA3hEsWyPzxNfA" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            <br />
+                            <figure className="flex flex-col items-center">
+                                <img
+                                    src={"/images/travel/thailand/khaosok/BaanUrtHotel.JPG"}
+                                    alt="Baan Urt Hotel"
+                                    className="w-full sm:w-[75%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox("/images/travel/thailand/khaosok/BaanUrtHotel.JPG")}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">Baan Urt Hotel in Surat Thani</figcaption>
+                            </figure>
+                            <br/>
+                        </HotelReview>
+                        
+                        <HotelReview
+                            headingId="hotel-1"
+                            title="Bangkok: Oasis 65"
+                            overallRating={4.5}
+                            categories={[
+                                { title: 'Staff', rating: null },
+                                { title: 'Facilities', rating: null },
+                                { title: 'Cleanliness', rating: 9 },
+                                { title: 'Comfort', rating: 9 },
+                                { title: 'Location', rating: 6 },
+                                { title: 'Value for Money', rating: 8 },
+                            ]}
+                        >
+                            We booked this accommodation via AirBnB, and it served as a great base to explore Bangkok out of. This place is located in Sukhumvit, Bangkok's expat area. Located along the BTS Skytrain, this area is well connected and filled with supermarkets, bars, and other venues tailored to an international audience.<br/>
+                            We stayed at this four-story house, with plenty of room for the eight of us. It was clean and comfortable, and we particularly liked the rooftop terrace. I would recommend this place for larger groups visiting Bangkok.<br/>
+                            Find it <a href="https://maps.app.goo.gl/yTrH4bvNbYAR6qe67" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            <br />
+                        </HotelReview>
 
                     </main>
 
