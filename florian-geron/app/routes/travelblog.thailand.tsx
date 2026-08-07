@@ -409,7 +409,7 @@ export default function Thailand() {
                                                 Sam
                                                 </p>
                                                 <p className="pt-1 text-sm sm:text-base text-gray-700">
-                                                His laugh can be heard from across the country.
+                                                His laugh can be heard from across the country. 
                                                 </p>
                                             </div>
                                         </CardContent>
