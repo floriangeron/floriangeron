@@ -1571,7 +1571,7 @@ export default function Thailand() {
                                 <img
                                     src={"/images/travel/thailand/khaosok/BaanUrtHotel.JPG"}
                                     alt="Baan Urt Hotel"
-                                    className="w-full sm:w-full sm:w-full sm:w-[75%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    className="w-full sm:w-[75%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
                                     onClick={() => openLightbox("/images/travel/thailand/khaosok/BaanUrtHotel.JPG")}
                                 />
                                 <figcaption className="text-center text-sm text-gray-600">Baan Urt Hotel in Surat Thani</figcaption>
