@@ -363,12 +363,20 @@ export default function Thailand() {
                                 <CarouselItem key={8} className="basis-[80%] pl-1 lg:basis-[45%]">
                                     <div className="p-1">
                                     <Card>
-                                        <CardContent className="p-0 overflow-hidden h-full flex flex-col">
+                                        <CardContent className="p-0 overflow-hidden h-full flex flex-col w-full max-w-full min-w-0">
                                         <img 
                                             src={`/images/travel/thailand/crew/Florian1.JPG`} 
                                             alt={`Thailand`} 
                                             className="w-full h-[24rem] sm:h-[28rem] md:h-[40rem] object-cover rounded-lg cursor-pointer" 
                                             onClick={() => openLightbox(`/images/travel/thailand/crew/Florian2.JPG`)}/>
+                                            <div className="px-4 pt-3 pb-3 min-h-[8.5rem] flex flex-col">
+                                                <p className="pb-1 text-base sm:text-lg text-gray-700 font-bold text-center">
+                                                Florian
+                                                </p>
+                                                <p className="pt-1 text-sm sm:text-base text-gray-700">
+                                                Only got sick three times!
+                                                </p>
+                                            </div>
                                         </CardContent>
                                     </Card>
                                     </div>
