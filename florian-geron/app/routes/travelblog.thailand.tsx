@@ -325,7 +325,7 @@ export default function Thailand() {
                                                 Emile
                                                 </p>
                                                 <p className="pt-1 text-sm sm:text-base text-gray-700">
-                                                The daredevil. Photographer extraordinaire. Crazy K.
+                                                The daredevil. Photographer extraordinaire. Crazy K. 
                                                 </p>
                                             </div>
                                         </CardContent>
