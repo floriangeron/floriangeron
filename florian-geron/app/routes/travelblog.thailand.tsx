@@ -234,8 +234,8 @@ export default function Thailand() {
                 </div>
 
                 {/* Blog Content with right-side TOC */}
-                <div className="grid md:grid-cols-4 gap-8">
-                    <main className={`md:col-span-3 text-gray-800 ${fontSizeClass} max-w-[min(100%,65ch)] mx-auto md:max-w-none md:mx-0 px-4`}>
+                <div className="grid md:grid-cols-4 gap-8 min-w-0">
+                    <main className={`md:col-span-3 text-gray-800 ${fontSizeClass} max-w-[min(100%,65ch)] mx-auto md:max-w-none md:mx-0 px-4 min-w-0`}>
 
                         {/* Our Journey */}
                         <h2 id="our-journey" className="text-4xl font-bold mb-4">Our Journey</h2>
