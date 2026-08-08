@@ -570,9 +570,57 @@ export default function CinqueTerre() {
 
                         We then got on a ferry to San Fruttuoso. This small town is nestled in a cove of a bay and is only accessible by boat or by hiking. San Fruttuoso is home to a beautiful abbey with a small beach in front of it. It is a beautiful little spot to visit.<br/><br/>
 
-                        
+                        <figure className="flex flex-col items-center">
+                            <img
+                                src={"/images/travel/cinqueterre/portofino/Fruttuoso.jpeg"}
+                                alt="Fruttuoso"
+                                className="w-[60%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                onClick={() => openLightbox("/images/travel/cinqueterre/portofino/Fruttuoso.jpeg")}
+                            />
+                        </figure>
+                        <figcaption className="text-center text-sm text-gray-600">San Fruttuoso (this picture is not doing it justice)</figcaption>
+                        <br/><br/>
 
                         After our visit to San Fruttuoso, we took the ferry to Camogli, a larger town at the other end of the peninsula. We followed the same procedure as always: Explore the town, have a swim, and have dinner before taking the train back to La Spezia. I feel like I am becoming a broken record, but Camogli was a beautiful and charming town as well.<br/><br/>
+
+                        <div className="grid md:grid-cols-2 gap-2">
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cinqueterre/portofino/Camogli1.jpeg"
+                                    alt="Camogli"
+                                    className="w-full shadow-lg cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cinqueterre/portofino/Camogli1.jpeg')}
+                                />
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cinqueterre/portofino/Camogli2.JPG"
+                                    alt="Camogli"
+                                    className="w-full shadow-lg cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cinqueterre/portofino/Camogli2.JPG')}
+                                />
+                            </figure>
+                        </div>
+                        <div className="grid md:grid-cols-2 gap-2">
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cinqueterre/portofino/Camogli3.JPG"
+                                    alt="Camogli"
+                                    className="w-full shadow-lg my-3 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cinqueterre/portofino/Camogli3.JPG')}
+                                />
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cinqueterre/portofino/Camogli4.JPG"
+                                    alt="Camogli"
+                                    className="w-full shadow-lg my-3 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cinqueterre/portofino/Camogli4.JPG')}
+                                />
+                            </figure>
+                        </div>
+                        <figcaption className="text-center text-sm text-gray-600">Camogli</figcaption>
+                        <br/><br/>
 
                         <h3 id="portofino-food-drinks" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
                         <CollapsibleReview title="Portofino - Bar Morena" rating={2.5} scale="food">
