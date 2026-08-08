@@ -22,7 +22,7 @@ export const meta: MetaFunction = () => {
     { title: "Cinque Terre Travel Blog" },
     { name: "My personal website", content: "My Cinque Terre Travel Blog" },
     { description: "Travel blog about Cinque Terre." },
-  ];
+ ];
 };
 
 export default function CinqueTerre() {
@@ -309,6 +309,16 @@ export default function CinqueTerre() {
                             We had our first dinner in La Spezia in this restaurant. It is located on the touristy part of the harbor. We enjoyed our evening out in this neighbourhood and the food in this restaurant was good. I recommend this restaurant for a nice dinner in La Spezia, it is a good place to start your trip in the region.
                             <br />
                             Find it <a href="https://maps.app.goo.gl/iMp4gwLcJEJU3kFr6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            <figure className="flex flex-col items-center">
+                                <img
+                                    src={"/images/travel/cinqueterre/spezia/blubistrot.jpeg"}
+                                    alt="Resto"
+                                    className="w-[75%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox("/images/travel/cinqueterre/spezia/blubistrot.jpeg")}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">Dinner at Blu Bistrot</figcaption>
+                            </figure>
+                            <br/>
                         </CollapsibleReview>
                         <CollapsibleReview title="Ciao Baby" rating={4} scale="food">
                             We had lunch here while waiting for our train that would take us from La Spezia to Milan. This turned out to be a hidden gem, as the food was excellent, the service was friendly, and the place had a cool laid-back vibe. It was a nice place to have lunch and recharge before our train ride.
@@ -322,8 +332,111 @@ export default function CinqueTerre() {
 
                         <h3 id="cinqueterre-day-1" className="text-2xl font-bold mb-4">Day 1 - Corniglia, Vernazza, Riomaggiore</h3>
                         We started our first day by taking the train to Corniglia. Upon exiting the train station, the day started with a steep climb up to the town, which is perched on a cliff overlooking the sea. The views were breathtaking (though perhaps the climb up the stairs was even more breathtaking) and we enjoyed walking along the few narrow streets of the small town. We had lunch here and then hiked to Vernazza.<br/><br/>
+
+                        <div className="grid md:grid-cols-2 gap-2">
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cinqueterre/cinqueterre/Corniglia2.jpeg"
+                                    alt="Corniglia"
+                                    className="w-full shadow-lg cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cinqueterre/cinqueterre/Corniglia2.jpeg')}
+                                />
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cinqueterre/cinqueterre/Coastline.JPG"
+                                    alt="Corniglia"
+                                    className="w-full shadow-lg cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cinqueterre/cinqueterre/Coastline.JPG')}
+                                />
+                            </figure>
+                        </div>
+                        <figure className="flex flex-col items-center">
+                            <img
+                                src={"/images/travel/cinqueterre/cinqueterre/CoastlineHorizontal.JPG"}
+                                alt="Coastline"
+                                className="w-[100%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                onClick={() => openLightbox("/images/travel/cinqueterre/cinqueterre/CoastlineHorizontal.JPG")}
+                            />
+                        </figure>
+                        <figcaption className="text-center text-sm text-gray-600">The hike from Corniglia to Vernazza</figcaption>
+                        <br/><br/>
+
                         Our first hike of our trip was the trail from Corniglia to Vernazza. This trail is part of the Sentiero Azzurro, which connects all five towns of the Cinque Terre. The hike was challenging in the summer heat, but we enjoyed the views we saw during the hike, and the hike was worth it when we arrived in Vernazza. We spent the late afternoon swimming in the little bay in front of the town.<br/><br/>
+
+                        <figure className="flex flex-col items-center">
+                            <img
+                                src={"/images/travel/cinqueterre/cinqueterre/VernazzaArrivalH.JPG"}
+                                alt="Vernazza"
+                                className="w-[100%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                onClick={() => openLightbox("/images/travel/cinqueterre/cinqueterre/VernazzaArrivalH.JPG")}
+                            />
+                        </figure>
+                        <figcaption className="text-center text-sm text-gray-600">The view upon arriving in Vernazza</figcaption>
+                        <br/><br/>
+
+                        <div className="grid md:grid-cols-2 gap-2">
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cinqueterre/cinqueterre/Swim1.JPG"
+                                    alt="Swim"
+                                    className="w-full shadow-lg cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cinqueterre/cinqueterre/Swim1.JPG')}
+                                />
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cinqueterre/cinqueterre/Swim2.JPG"
+                                    alt="Swim"
+                                    className="w-full shadow-lg cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cinqueterre/cinqueterre/Swim2.JPG')}
+                                />
+                            </figure>
+                        </div>
+                        <figure className="flex flex-col items-center">
+                            <img
+                                src={"/images/travel/cinqueterre/cinqueterre/VernazzaSwimH.jpeg"}
+                                alt="Swim"
+                                className="w-[100%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                onClick={() => openLightbox("/images/travel/cinqueterre/cinqueterre/VernazzaSwimH.jpeg")}
+                            />
+                        </figure>
+                        <figcaption className="text-center text-sm text-gray-600">Swimming in Vernazza</figcaption>
+                        <br/><br/>
+
+
                         After our swim, we took the ferry to Riomaggiore, the southernmost town of the Cinque Terre. We explored the town and had dinner here before taking the train back to La Spezia. We enjoyed exploring Riomaggiore as well, which was more manageable as the temperature had cooled down a bit by the time we arrived. We climbed up the hill to the Castello di Riomaggiore, which was a nice way to end our first day in the Cinque Terre.<br/><br/>
+
+                        <div className="grid md:grid-cols-2 gap-2">
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cinqueterre/cinqueterre/Riomaggiore1.JPG"
+                                    alt="Riomaggiore"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cinqueterre/cinqueterre/Riomaggiore1.JPG')}
+                                />
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cinqueterre/cinqueterre/Riomaggiore2.jpeg"
+                                    alt="Riomaggiore"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cinqueterre/cinqueterre/Riomaggiore2.jpeg')}
+                                />
+                            </figure>
+                        </div>
+                        <figcaption className="text-center text-sm text-gray-600">Riomaggiore</figcaption>
+
+                        <figure className="flex flex-col items-center">
+                            <img
+                                src={"/images/travel/cinqueterre/cinqueterre/RiomaggioreDinner1.JPG"}
+                                alt="Dinner in Riomaggiore"
+                                className="w-[100%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                onClick={() => openLightbox("/images/travel/cinqueterre/cinqueterre/RiomaggioreDinner1.JPG")}
+                            />
+                        </figure>
+                        <figcaption className="text-center text-sm text-gray-600">Dinner in Riomaggiore</figcaption>
+                        <br/><br/>
 
                         <h3 id="cinqueterre-day-2" className="text-2xl font-bold mb-4">Day 2 - Vernazza to Monterosso al Mare</h3>
                         We started our second day by taking the train to Vernazza, the northernmost town we had reached the day before. We had some lunch here and then hiked to Monterosso al Mare, the northernmost town of the Cinque Terre. The hike was again challenging in the summer heat, and once again we were rewarded with a refreshing swim in the sea upon arrival in Monterosso. We spent the rest of the afternoon exploring Monterosso, the largest of the five towns, and had some dinner here as well before taking the train back to La Spezia. Monterosso felt like the most touristy of the five towns, but it also offered the most diversity in terms of shops and restaurants.<br/><br/>
@@ -333,6 +446,27 @@ export default function CinqueTerre() {
                             We had a delightful dinner at Trattoria Via dell'Amore. We had to queue for some time to get a table, but we had some great cocktails, and the food was excellent.
                             <br />
                             Find it <a href="https://maps.app.goo.gl/9xTxfX6e4szzrkXQ6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            <div className="grid md:grid-cols-2 gap-2">
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cinqueterre/cinqueterre/Sunset1.JPG"
+                                    alt="Riomaggiore"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cinqueterre/cinqueterre/Sunset1.JPG')}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">The art</figcaption>
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cinqueterre/cinqueterre/Sunset2.jpeg"
+                                    alt="Riomaggiore"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cinqueterre/cinqueterre/Sunset2.jpeg')}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">The artist</figcaption>
+                            </figure>
+                        </div>
+                        <br/><br/>
                         </CollapsibleReview>
                         <CollapsibleReview title="Corniglia - Bar Pan e Vin" rating={3.5} scale="food">
                             We had lunch at this charming little restaurant in Corniglia. The food was good and the outdoor seating area is very nice, so a good option for a casual meal in Corniglia.
@@ -353,13 +487,82 @@ export default function CinqueTerre() {
                             On our hike from Corniglia to Vernazza, we stopped here for a refreshing drink. The place consists of little more than a counter with two small tables, but it offers a magnificent view on the coastline and Corniglia. We had some overpriced lemonades which were very refreshing in the summer heat.
                             <br />
                             Find it <a href="https://maps.app.goo.gl/wyMRJeiJ7zAazhfFA" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            <div className="grid md:grid-cols-2 gap-2">
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/cinqueterre/cinqueterre/IlGabiano1.jpeg"
+                                        alt="Blu Bistrot"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/cinqueterre/cinqueterre/IlGabiano1.jpeg')}
+                                    />
+                                </figure>
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/cinqueterre/cinqueterre/IlGabiano2.jpeg"
+                                        alt="Blu Bistrot"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/cinqueterre/cinqueterre/IlGabiano2.jpeg')}
+                                    />
+                                    
+                                </figure>
+                            </div>
+                            <figcaption className="text-center text-sm text-gray-600">The views on Corniglia</figcaption>
+                            <br/>
                         </CollapsibleReview>
 
                         {/* Portofino */}
                         <h2 id="portofino" className="text-4xl font-bold mb-4">Portofino</h2>
                         We dedicated one day to exploring the Portofino peninsula. We took the train to Santa Margherita Ligure and then took a bus to Portofino. We got off the bus one stop early, at Baia Cannone, for a scenic swim in this cute bay. The bay is overlooked by a beautiful villa, one of the iconic sights of Portofino.<br/><br/>
+
+                        <div className="grid md:grid-cols-2 gap-2">
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cinqueterre/portofino/Cannone1.jpeg"
+                                    alt="Cannone"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cinqueterre/portofino/Cannone1.jpeg')}
+                                />
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cinqueterre/portofino/Cannone2.jpeg"
+                                    alt="Cannone"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cinqueterre/portofino/Cannone2.jpeg')}
+                                />
+                            </figure>
+                        </div>
+                        <figcaption className="text-center text-sm text-gray-600">Baia de Cannone</figcaption>
+                        <br/><br/>
+
                         After a short swim, we continued to Portofino, where we explored the town and had lunch. We climbed up the stairs to Castello and Chiesa di San Giorgio, where we were treated to a panoramic view of the town and the bay.<br/><br/>
+
+                        <div className="grid md:grid-cols-2 gap-2">
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cinqueterre/portofino/Portofino.jpeg"
+                                    alt="Portofino"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cinqueterre/portofino/Portofino.jpeg')}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">Portofino</figcaption>
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cinqueterre/portofino/Castello.jpeg"
+                                    alt="Castello"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cinqueterre/portofino/Castello.jpeg')}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">Castello</figcaption>
+                            </figure>
+                        </div>
+                        <br/><br/>
+
                         We then got on a ferry to San Fruttuoso. This small town is nestled in a cove of a bay and is only accessible by boat or by hiking. San Fruttuoso is home to a beautiful abbey with a small beach in front of it. It is a beautiful little spot to visit.<br/><br/>
+
+                        
+
                         After our visit to San Fruttuoso, we took the ferry to Camogli, a larger town at the other end of the peninsula. We followed the same procedure as always: Explore the town, have a swim, and have dinner before taking the train back to La Spezia. I feel like I am becoming a broken record, but Camogli was a beautiful and charming town as well.<br/><br/>
 
                         <h3 id="portofino-food-drinks" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
