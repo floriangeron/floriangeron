@@ -540,23 +540,32 @@ export default function CinqueTerre() {
                         <div className="grid md:grid-cols-2 gap-2">
                             <figure className="md:col-span-1">
                                 <img
-                                    src="/images/travel/cinqueterre/portofino/Portofino.jpeg"
+                                    src="/images/travel/cinqueterre/portofino/Portofino1.jpeg"
                                     alt="Portofino"
                                     className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
-                                    onClick={() => openLightbox('/images/travel/cinqueterre/portofino/Portofino.jpeg')}
+                                    onClick={() => openLightbox('/images/travel/cinqueterre/portofino/Portofino1.jpeg')}
                                 />
-                                <figcaption className="text-center text-sm text-gray-600">Portofino</figcaption>
                             </figure>
                             <figure className="md:col-span-1">
                                 <img
-                                    src="/images/travel/cinqueterre/portofino/Castello.jpeg"
-                                    alt="Castello"
+                                    src="/images/travel/cinqueterre/portofino/Portofino2.jpeg"
+                                    alt="Portofino"
                                     className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
-                                    onClick={() => openLightbox('/images/travel/cinqueterre/portofino/Castello.jpeg')}
+                                    onClick={() => openLightbox('/images/travel/cinqueterre/portofino/Portofino2.jpeg')}
                                 />
-                                <figcaption className="text-center text-sm text-gray-600">Castello</figcaption>
                             </figure>
                         </div>
+                        <figcaption className="text-center text-sm text-gray-600">Portofino</figcaption>
+
+                        <figure className="flex flex-col items-center">
+                            <img
+                                src={"/images/travel/cinqueterre/portofino/Castello.jpeg"}
+                                alt="Castello"
+                                className="w-[100%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                onClick={() => openLightbox("/images/travel/cinqueterre/portofino/Castello.jpeg")}
+                            />
+                        </figure>
+                        <figcaption className="text-center text-sm text-gray-600">Castello di San Giorgio</figcaption>
                         <br/><br/>
 
                         We then got on a ferry to San Fruttuoso. This small town is nestled in a cove of a bay and is only accessible by boat or by hiking. San Fruttuoso is home to a beautiful abbey with a small beach in front of it. It is a beautiful little spot to visit.<br/><br/>
