@@ -14,9 +14,8 @@ import {
 } from "~/components/ui/carousel"
 
 import AnimatedWave from "~/components/AnimatedWave";
-import { StarScale } from "~/components/ui/StarRating";
-import { StarLine } from '../components/ui/StarLine';
 import CollapsibleReview from '../components/ui/CollapsibleReview';
+import HotelReview from '../components/ui/HotelReview';
 
 export const meta: MetaFunction = () => {
   return [
@@ -26,7 +25,7 @@ export const meta: MetaFunction = () => {
   ];
 };
 
-export default function Laos() {
+export default function Destination() {
     // configurable font size class for paragraph content (Tailwind)
     const [fontSizeClass, setFontSizeClass] = useState<string>(() => {
         try {

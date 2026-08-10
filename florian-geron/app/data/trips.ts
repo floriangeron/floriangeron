@@ -37,15 +37,15 @@ export const trips = [
             "Join me to find out how much of Thailand we can cover in two weeks. We'll visit the mountains of the North, the beaches of the South, and the capital of Bangkok.",
         imageUrl: "/images/travel/thailand/Thailand.JPG",
     },
-    {
-        id: "vienna",
-        title: "City Trip to Vienna",
-        date: "July 2025",
-        excerpt: "City trip to Vienna",
-        content:
-            "Join me on a city trip to Vienna, a capital fit for an Empire, as well as a contemporary city of music, art and architecture.",
-        imageUrl: "/images/travel/Vienna.jpg",
-    },
+    // {
+    //     id: "vienna",
+    //     title: "City Trip to Vienna",
+    //     date: "July 2025",
+    //     excerpt: "City trip to Vienna",
+    //     content:
+    //         "Join me on a city trip to Vienna, a capital fit for an Empire, as well as a contemporary city of music, art and architecture.",
+    //     imageUrl: "/images/travel/Vienna.jpg",
+    // },
     {
         id: "cinqueterre",
         title: "Discovering Cinque Terre",
