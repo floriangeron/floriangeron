@@ -243,7 +243,7 @@ export default function CinqueTerre() {
                                                 Alexia
                                                 </p>
                                                 <p className="pt-1 text-sm sm:text-base text-gray-700">
-                                                    Our German queen living amongst the stars in Monaco. Well-trained hiking legs, as any German should have.
+                                                    Our German with well-trained hiking legs, living her best life in the Mediterranean sun.
                                                 </p>
                                             </div>
                                         </CardContent>
@@ -264,7 +264,7 @@ export default function CinqueTerre() {
                                                 Florian
                                                 </p>
                                                 <p className="pt-1 text-sm sm:text-base text-gray-700">
-                                                Belgium-based food enthusiast. Hiking daddy, carrying around liters of hydration.
+                                                Hiking daddy, carrying around liters of hydration and sunscreen for the group.
                                                 </p>
                                             </div>
                                         </CardContent>
@@ -287,7 +287,7 @@ export default function CinqueTerre() {
                         A short summary of my main takes from this trip:
                         <ul className="list-disc pl-5 space-y-1">
                             <li>
-                                <strong>What I would do differently: </strong><br/>I would not visit the Cinque Terre in August, as it is too hot and crowded. I would also consider staying somewhere else than La Spezia, such as the Cinque Terre towns or perhaps Genoa.
+                                <strong>What I would do differently: </strong><br/>I would not visit the Cinque Terre in August, as it is too hot and crowded. I would also consider staying somewhere other than La Spezia, such as the Cinque Terre towns or perhaps Genoa.
                             </li>
                             <li>
                                 <strong>Best meal: </strong><br/>
@@ -302,7 +302,7 @@ export default function CinqueTerre() {
 
                         {/* La Spezia */}
                         <h2 id="spezia" className="text-4xl font-bold mb-4">La Spezia</h2>
-                        As the Cinque Terre are a collection of small towns with limited accommodation and accessibility, we decided to base ourselves in La Spezia, which is a larger town just south of the Cinque Terre towns. La Spezia did not leave a great impression on us, but it was a convenient base for our explorations. We stayed in an Airbnb a little outside of the city center. The town itself struck us as an industrial port town that is a bit run-down at places, but it has a few nice spots along the water and some good restaurants. We did not spend much time in La Spezia itself, as we were eager to explore the Cinque Terre and Portofino.
+                        As the Cinque Terre are a collection of small towns with limited accommodation and accessibility, we decided to base ourselves in La Spezia, which is a larger town just south of the Cinque Terre towns. La Spezia did not leave a great impression on us, but it was a convenient base for our explorations. We stayed in an Airbnb a little outside of the city center. The town itself struck us as an industrial port town that is a bit run-down in places, but it has a few nice spots along the water and some good restaurants. We did not spend much time in La Spezia itself, as we were eager to explore the Cinque Terre and Portofino.
                         <br/><br/>
                         <h3 id="spezia-food-drinks" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
                         <CollapsibleReview title="Blu Bistrot Porto Mirabello" rating={4} scale="food">
@@ -439,7 +439,7 @@ export default function CinqueTerre() {
                         <br/><br/>
 
                         <h3 id="cinqueterre-day-2" className="text-2xl font-bold mb-4">Day 2 - Vernazza to Monterosso al Mare</h3>
-                        We started our second day by taking the ferry to Vernazza, the northernmost town we had reached the day before. During this ferry ride, we were treated to some views on the towns we had explored the day before.<br/><br/>
+                        We started our second day by taking the ferry to Vernazza, the northernmost town we had reached the day before. During this ferry ride, we were treated to some views of the towns we had explored the day before.<br/><br/>
 
                         <div className="grid md:grid-cols-2 gap-2">
                             <figure className="md:col-span-1">
@@ -463,7 +463,7 @@ export default function CinqueTerre() {
                         </div>
                         <br/><br/>
 
-                        We had some lunch here and then hiked to Monterosso al Mare, the northernmost town of the Cinque Terre. Upon leaving Vernazza, we were treated to some of nicest views on the town we had seen so far.<br/><br/>
+                        We had some lunch here and then hiked to Monterosso al Mare, the northernmost town of the Cinque Terre. Upon leaving Vernazza, we were treated to some of the nicest views of the town we had seen so far.<br/><br/>
 
                         <div className="grid md:grid-cols-2 gap-2">
                             <figure className="md:col-span-1">
@@ -614,7 +614,7 @@ export default function CinqueTerre() {
                             <br/><br/>
                         </CollapsibleReview>
                         <CollapsibleReview title="Bar il Gabbiano" rating={4} scale="coffee">
-                            On our hike from Corniglia to Vernazza, we stopped here for a refreshing drink. The place consists of little more than a counter with two small tables, but it offers a magnificent view on the coastline and Corniglia. We had some overpriced lemonades which were very refreshing in the summer heat.
+                            On our hike from Corniglia to Vernazza, we stopped here for a refreshing drink. The place consists of little more than a counter with two small tables, but it offers a magnificent view of the coastline and Corniglia. We had some overpriced lemonades which were very refreshing in the summer heat.
                             <br />
                             Find it <a href="https://maps.app.goo.gl/wyMRJeiJ7zAazhfFA" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                             <div className="grid md:grid-cols-2 gap-2">
@@ -636,7 +636,7 @@ export default function CinqueTerre() {
                                     
                                 </figure>
                             </div>
-                            <figcaption className="text-center text-sm text-gray-600">The views on Corniglia</figcaption>
+                            <figcaption className="text-center text-sm text-gray-600">The views of Corniglia</figcaption>
                             <br/>
                         </CollapsibleReview>
 
