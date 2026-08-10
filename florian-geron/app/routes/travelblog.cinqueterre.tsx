@@ -439,7 +439,127 @@ export default function CinqueTerre() {
                         <br/><br/>
 
                         <h3 id="cinqueterre-day-2" className="text-2xl font-bold mb-4">Day 2 - Vernazza to Monterosso al Mare</h3>
-                        We started our second day by taking the train to Vernazza, the northernmost town we had reached the day before. We had some lunch here and then hiked to Monterosso al Mare, the northernmost town of the Cinque Terre. The hike was again challenging in the summer heat, and once again we were rewarded with a refreshing swim in the sea upon arrival in Monterosso. We spent the rest of the afternoon exploring Monterosso, the largest of the five towns, and had some dinner here as well before taking the train back to La Spezia. Monterosso felt like the most touristy of the five towns, but it also offered the most diversity in terms of shops and restaurants.<br/><br/>
+                        We started our second day by taking the ferry to Vernazza, the northernmost town we had reached the day before. During this ferry ride, we were treated to some views on the towns we had explored the day before.<br/><br/>
+
+                        <div className="grid md:grid-cols-2 gap-2">
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cinqueterre/cinqueterre/Ferry1.JPG"
+                                    alt="Ferry"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cinqueterre/cinqueterre/Ferry1.JPG')}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">Riomaggiore</figcaption>
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cinqueterre/cinqueterre/Ferry2.JPG"
+                                    alt="Ferry"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cinqueterre/cinqueterre/Ferry2.JPG')}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">Corniglia</figcaption>
+                            </figure>
+                        </div>
+                        <br/><br/>
+
+                        We had some lunch here and then hiked to Monterosso al Mare, the northernmost town of the Cinque Terre. Upon leaving Vernazza, we were treated to some of nicest views on the town we had seen so far.<br/><br/>
+
+                        <div className="grid md:grid-cols-2 gap-2">
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cinqueterre/cinqueterre/VernazzaPort1.JPG"
+                                    alt="Ferry"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cinqueterre/cinqueterre/VernazzaPort1.JPG')}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">Entering Vernazza by Ferry</figcaption>
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cinqueterre/cinqueterre/VernazzaPort2.JPG"
+                                    alt="Ferry"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cinqueterre/cinqueterre/VernazzaPort2.JPG')}
+                                />
+                                <figcaption className="text-center text-sm text-gray-600">People enjoying the sea</figcaption>
+                            </figure>
+                        </div>
+                        <br/>
+
+                        <figure className="flex flex-col items-center">
+                            <img
+                                src={"/images/travel/cinqueterre/cinqueterre/VernazzaLeave.JPG"}
+                                alt="Vernazza"
+                                className="w-[100%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                onClick={() => openLightbox("/images/travel/cinqueterre/cinqueterre/VernazzaLeave.JPG")}
+                            />
+                        </figure>
+                        <figcaption className="text-center text-sm text-gray-600">Leaving Vernazza</figcaption>
+                        <br/><br/>
+                        
+                        The hike was again challenging in the summer heat, and once again we were rewarded with a refreshing swim in the sea upon arrival in Monterosso. We spent the rest of the afternoon exploring Monterosso, the largest of the five towns, and had some dinner here as well before taking the train back to La Spezia. Monterosso felt like the most touristy of the five towns, but it also offered the most diversity in terms of shops and restaurants.<br/><br/>
+
+                        <div className="grid md:grid-cols-2 gap-2">
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cinqueterre/cinqueterre/MonterossoArrival1.JPG"
+                                    alt="Monterosso"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cinqueterre/cinqueterre/MonterossoArrival1.JPG')}
+                                />
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cinqueterre/cinqueterre/MonterossoArrival2.JPG"
+                                    alt="Monterosso"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cinqueterre/cinqueterre/MonterossoArrival2.JPG')}
+                                />
+                            </figure>
+                        </div>
+                        <figcaption className="text-center text-sm text-gray-600">Views and Vibes upon arriving in Monterosso</figcaption>
+                        <br/>
+
+                        <div className="grid md:grid-cols-3 gap-2">
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cinqueterre/cinqueterre/MonterossoBeach1.JPG"
+                                    alt="Monterosso"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cinqueterre/cinqueterre/MonterossoBeach1.JPG')}
+                                />
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cinqueterre/cinqueterre/MonterossoBeach2.JPG"
+                                    alt="Monterosso"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cinqueterre/cinqueterre/MonterossoBeach2.JPG')}
+                                />
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cinqueterre/cinqueterre/MonterossoBeach3.JPG"
+                                    alt="Monterosso"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cinqueterre/cinqueterre/MonterossoBeach3.JPG')}
+                                />
+                            </figure>
+                        </div>
+                        <figcaption className="text-center text-sm text-gray-600">The Monterosso Riviera</figcaption>
+                        <br/>
+
+                        <figure className="flex flex-col items-center">
+                            <img
+                                src={"/images/travel/cinqueterre/cinqueterre/MonterossoBeachCrew.JPG"}
+                                alt="Monterosso"
+                                className="w-[100%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                onClick={() => openLightbox("/images/travel/cinqueterre/cinqueterre/MonterossoBeachCrew.JPG")}
+                            />
+                        </figure>
+                        <figcaption className="text-center text-sm text-gray-600">The crew at the beach</figcaption>
+                        <br/><br/>
 
                         <h3 id="cinque-terre-food-drinks" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
                         <CollapsibleReview title="Riomaggiore - Trattoria Via dell'Amore" rating={4.5} scale="food">
@@ -482,6 +602,16 @@ export default function CinqueTerre() {
                             We had dinner at Ristorante Ciak in Monterosso. The food was good, and the service was friendly. The restaurant has a cozy atmosphere and is a good option for a relaxed dinner in Monterosso. It has a little bit of a touristy feel, but it is still a good option for a casual dinner in Monterosso.
                             <br />
                             Find it <a href="https://maps.app.goo.gl/X739pU92v15nHzed9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            <figure className="flex flex-col items-center">
+                                <img
+                                    src={"/images/travel/cinqueterre/cinqueterre/MonterossoDinner.jpeg"}
+                                    alt="Monterosso"
+                                    className="w-full sm:w-[75%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox("/images/travel/cinqueterre/cinqueterre/MonterossoDinner.jpeg")}
+                                />
+                            </figure>
+                            <figcaption className="text-center text-sm text-gray-600">Dinner at Monterosso</figcaption>
+                            <br/><br/>
                         </CollapsibleReview>
                         <CollapsibleReview title="Bar il Gabbiano" rating={4} scale="coffee">
                             On our hike from Corniglia to Vernazza, we stopped here for a refreshing drink. The place consists of little more than a counter with two small tables, but it offers a magnificent view on the coastline and Corniglia. We had some overpriced lemonades which were very refreshing in the summer heat.
@@ -565,7 +695,7 @@ export default function CinqueTerre() {
                                 onClick={() => openLightbox("/images/travel/cinqueterre/portofino/Castello.jpeg")}
                             />
                         </figure>
-                        <figcaption className="text-center text-sm text-gray-600">Castello di San Giorgio</figcaption>
+                        <figcaption className="text-center text-sm text-gray-600">Chiesa di San Giorgio</figcaption>
                         <br/><br/>
 
                         We then got on a ferry to San Fruttuoso. This small town is nestled in a cove of a bay and is only accessible by boat or by hiking. San Fruttuoso is home to a beautiful abbey with a small beach in front of it. It is a beautiful little spot to visit.<br/><br/>
@@ -574,7 +704,7 @@ export default function CinqueTerre() {
                             <img
                                 src={"/images/travel/cinqueterre/portofino/Fruttuoso.jpeg"}
                                 alt="Fruttuoso"
-                                className="w-[60%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                className="w-full sm:w-[65%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
                                 onClick={() => openLightbox("/images/travel/cinqueterre/portofino/Fruttuoso.jpeg")}
                             />
                         </figure>
@@ -622,6 +752,38 @@ export default function CinqueTerre() {
                         <figcaption className="text-center text-sm text-gray-600">Camogli</figcaption>
                         <br/><br/>
 
+                        <div className="grid md:grid-cols-2 gap-2">
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cinqueterre/portofino/Beach1.JPG"
+                                    alt="Camogli Beach"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cinqueterre/portofino/Beach1.JPG')}
+                                />
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/cinqueterre/portofino/Beach3.JPG"
+                                    alt="Camogli Beach"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/cinqueterre/portofino/Beach3.JPG')}
+                                />
+                            </figure>
+                        </div>
+                        <figcaption className="text-center text-sm text-gray-600">Enjoying the beach of Camogli</figcaption>
+                        <br/><br/>
+
+                        <figure className="flex flex-col items-center">
+                            <img
+                                src={"/images/travel/cinqueterre/portofino/CamogliNight.jpeg"}
+                                alt="Camogli at Night"
+                                className="w-full rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                onClick={() => openLightbox("/images/travel/cinqueterre/portofino/CamogliNight.jpeg")}
+                            />
+                        </figure>
+                        <figcaption className="text-center text-sm text-gray-600">Camogli at Night</figcaption>
+                        <br/><br/>
+
                         <h3 id="portofino-food-drinks" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
                         <CollapsibleReview title="Portofino - Bar Morena" rating={2.5} scale="food">
                             Located on the main square of Portofino, this restaurant is a bit of an overpriced tourist trap. We had some lunch here, and to be fair the food was nice and the service was okay. It is a good option if you want to take in the view of the harbor while having a meal, but it is not a hidden gem or a local favorite.
@@ -632,6 +794,25 @@ export default function CinqueTerre() {
                             We had dinner at La Camogliese. With excellent food and a romantic view overlooking the beach, this restaurant was one of my highlights of the trip. I can highly recommend this restaurant for a special dinner in Camogli.
                             <br />
                             Find it <a href="https://maps.app.goo.gl/fWvwYcyaTTKkHUTe7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            <div className="grid md:grid-cols-2 gap-2">
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/cinqueterre/portofino/Camogliese1.JPG"
+                                        alt="Camogliese"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/cinqueterre/portofino/Camogliese1.JPG')}
+                                    />
+                                </figure>
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/cinqueterre/portofino/Camogliese2.jpeg"
+                                        alt="Camogliese"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/cinqueterre/portofino/Camogliese2.jpeg')}
+                                    />
+                                </figure>
+                            </div>
+                            <figcaption className="text-center text-sm text-gray-600">La Camogliese</figcaption>
                         </CollapsibleReview>
 
                     </main>
