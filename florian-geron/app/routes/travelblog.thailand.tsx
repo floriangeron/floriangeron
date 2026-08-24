@@ -303,6 +303,9 @@ export default function Thailand() {
                                                 <p className="pb-1 text-base sm:text-lg text-gray-700 font-bold text-center break-words min-w-0">
                                                 William
                                                 </p>
+                                                {/* <p className="pb-1 text-xs sm:text-lg text-gray-700 italic text-center break-words min-w-0">
+                                                Gaitok
+                                                </p> */}
                                                 <p className="pt-1 text-sm sm:text-base text-gray-700 break-words min-w-0">
                                                 The bard of the group, singing tales of love and adventure.
                                                 </p>
