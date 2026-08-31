@@ -30,9 +30,9 @@ export default function Angkor() {
     // configurable font size class for paragraph content (Tailwind)
     const [fontSizeClass, setFontSizeClass] = useState<string>(() => {
         try {
-            return localStorage.getItem('travelblog-font-size') || 'text-lg';
+            return localStorage.getItem('travelblog-font-size') || 'text-base';
         } catch (e) {
-            return 'text-xl';
+            return 'text-base';
         }
     });
     useEffect(() => {
