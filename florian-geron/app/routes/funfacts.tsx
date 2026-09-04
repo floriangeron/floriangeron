@@ -179,7 +179,7 @@ const funfacts = [
     "The word gluten and the word glue share the same etymological root: the Latin word gluten, meaning  'something that binds'.",
     "Point Nemo is located in the middle of the Pacific Ocean. It is the point on Earth's surface that is furthest from any land, lying about 2,688 kilometres from the nearest islands and Antarctic coast. It is one of the most remote places on Earth.\n\nIf you were stranded at Point Nemo, the nearest humans might actually be astronauts aboard the International Space Station. When the ISS passes overhead, its crew, roughly 400 kilometres above Earth, can be closer to you than anyone on land.",
     "In America, the word downtown is used to refer to a city's center or business district. This term probably originates from New York City. The first European settlements were at the southern tip of Manhattan, which became its center, and the city spread out upward / northward from there. The newer areas in the north were therefore called uptown, while the older southern parts became known as downtown. Over time, this term spread to cities across the US and came to mean the center of a city, regardless of its actual direction.",
-
+    "The pyramids were as old to Caesar as Caesar is to us.",
 ]
 
 export default function Funfacts(){
