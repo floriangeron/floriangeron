@@ -185,6 +185,15 @@ export default function Indonesia() {
                         <h3 id="what-we-did" className="text-2xl font-bold mb-4">Travel information</h3>
                         <h3 id="what-we-did" className="text-2xl font-bold mb-4">The crew</h3>
                         <h3 id="what-we-did" className="text-2xl font-bold mb-4">What we did</h3>
+                        <figure>
+                            <img
+                                src={"/images/travel/indonesia/IndonesiaRoute.png"}
+                                alt="Route we traveled"
+                                className="w-full rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                onClick={() => openLightbox("/images/travel/indonesia/IndonesiaRoute.png")}
+                            />
+                            <figcaption className="text-center text-sm text-gray-600">Route we traveled — Bali to Lombok to Komodo</figcaption>
+                        </figure><br/>
                         <h3 id="what-we-skipped" className="text-2xl font-bold mb-4">What we skipped</h3>
                         <h3 id="what-we-did" className="text-2xl font-bold mb-4">Field notes</h3>
 
