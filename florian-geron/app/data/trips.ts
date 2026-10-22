@@ -1,5 +1,15 @@
 export const trips = [
     {
+        id: "indonesia",
+        title: "Exploring Indonesia's diverse islands",
+        date: "October 2026",
+        excerpt: "Exploring Indonesia's natural beauty and beach destinations",
+        content:
+            "Join me on our exploration of Indonesia's diverse islands, from Bali to Lombok to the islands in Komodo National Park.",
+        imageUrl: "/images/travel/indonesia/Padar.jpeg",
+        coordinates: [-0.789275, 113.921327],
+    },
+    {
         id: "southernvietnam",
         title: "The Highlights of Southern Vietnam",
         date: "December 2025",

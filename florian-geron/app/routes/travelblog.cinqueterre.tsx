@@ -283,7 +283,7 @@ export default function CinqueTerre() {
                         The Cinque Terre are, from North to South: Monterosso al Mare, Vernazza, Corniglia, Manarola, and Riomaggiore. We skipped Manarola due to time and logistical constraints, but we did visit the other four towns.<br/>
                         We also took the train up north to the Portofino peninsula, where we visited Portofino itself, San Fruttuoso, and Camogli. We skipped Santa Margherita Ligure, which is a larger town on the way to Portofino, but we did not have time to explore it.
                         <br/><br/>
-                        <h3 id="field-notes" className="text-2xl font-bold mb-4">Field Notes</h3>
+                        <h3 id="field-notes" className="text-2xl font-bold mb-4">Field notes</h3>
                         A short summary of my main takes from this trip:
                         <ul className="list-disc pl-5 space-y-1">
                             <li>
