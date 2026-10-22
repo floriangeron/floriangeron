@@ -182,9 +182,22 @@ export default function Indonesia() {
                         {/* Our Journey */}
                         <h2 id="our-journey" className="text-4xl font-bold mb-4">Our Journey</h2>
                         <h3 id="background" className="text-2xl font-bold mb-4">Background</h3>
-                        <h3 id="what-we-did" className="text-2xl font-bold mb-4">Travel information</h3>
+                        Indonesia has always been an infinitely fascinating country to me. Part of its allure lies in the fact that is spread over thousands of island, each with their own unique culture, making the country incredibly diverse. I learned a lot about this diversity during this trip:<br/>
+                        <ul className="list-disc pl-5 space-y-1">
+                            <li>
+                                Each island has its own indigenous language, with Bahase Indonesia used as the common lingua franca. This language was chosen as the national language upon its independence in 1945. Interestingly, they did not choose to elevate the largest local language, Javanese, to this status. Rather, they imported a Malay dialect and adapted it as the national language, as it was already widely used in the region for trading purposes. The founding government believed this would help unify the diverse archipelago, by not privileging any single local language.
+                            </li>
+                            <li>
+                                Indonesia is a predominantly Muslim country (it is in fact the country with the largest Muslim population in the world), which you'll notice on islands like Lombok thanks to the many mosques, though some islands have other majority religions. For example, Hinduism is predominant in Bali and Catholicism is the majority religion in Flores.
+                            </li>
+                        </ul>
+                        <br/>
+                        However, there are some things that remain consistent across the country, such as their love for nasi goreng, mi goreng, and other local dishes.<br/>
+                        <br/>
+                        <h3 id="what-we-did" className="text-2xl font-bold mb-4">Tourist information</h3>
                         <h3 id="what-we-did" className="text-2xl font-bold mb-4">The crew</h3>
                         <h3 id="what-we-did" className="text-2xl font-bold mb-4">What we did</h3>
+                        We found affordable flight tickets from Brussels to Bali, so we started our journey in Bali. After seeing some of our friends exploring the Komodo National Park, we decided this would be the centerpoint of our journey. With three weeks at our disposal, we decided to fill up the remaining time by visiting Lombok, the Gili Islands, and Nusa Penida.
                         <figure>
                             <img
                                 src={"/images/travel/indonesia/IndonesiaRoute.png"}
@@ -195,6 +208,23 @@ export default function Indonesia() {
                             <figcaption className="text-center text-sm text-gray-600">Route we traveled — Bali to Lombok to Komodo</figcaption>
                         </figure><br/>
                         <h3 id="what-we-skipped" className="text-2xl font-bold mb-4">What we skipped</h3>
+                        Indonesia is a huge country with thousands of islands, making it impossible to see everything in a three week trip. Rather than explaining why we did not visit the other regions of the country, like Sumatra, Java, Bornea, Sulawesi, or Papua, we will describe some of the trade-offs we made when visiting the islands we did see:<br/>
+                        <ul className="list-disc pl-5 space-y-1">
+                            <li>
+                                <strong>Bali: </strong>Indonesia's tourist hub<br/>
+                                We decided to spend little time in Bali, mainly using it as a starting point for our journey. We had heard that the island can be very crowded and touristy, so we preferred to explore the less-visited islands. This means we stayed around the beach areas in the south close to the airport, and did not venture further inland to spots like Ubud, WHERE LARA WENT or Mount Batur.
+                            </li>
+                            <li>
+                                <strong>Gili Islands: </strong>Which island to stay on?<br/>
+                            </li>
+                            <li>
+                                <strong>Lombok: </strong>What to visit on the island?<br/>
+                            </li>
+                            <li>
+                                <strong>Nusa Lembongan vs Nusa Penida: </strong>Beach getaway vs adventurous island exploration<br/>
+                            </li>
+                        </ul>
+                        <br/>
                         <h3 id="what-we-did" className="text-2xl font-bold mb-4">Field notes</h3>
 
                         {/* Bali */}
