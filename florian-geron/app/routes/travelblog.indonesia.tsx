@@ -194,23 +194,25 @@ export default function Indonesia() {
                         <br/>
                         However, there are some things that remain consistent across the country, such as their love for nasi goreng, mi goreng, and other local dishes.<br/>
                         <br/>
-                        <h3 id="tourist-information" className="text-2xl font-bold mb-4">Tourist information - TO CHANGE</h3>
+                        <h3 id="tourist-information" className="text-2xl font-bold mb-4">Tourist information</h3>
                         Here are a couple of tips for visiting the country:
                         <ul className="list-disc pl-5 space-y-1">
                             <li>
-                                <strong>Currency: </strong>Thailand's currency is the Thai Baht (THB). We did not carry any cash when flying into the country, which doesn't really cause an issue as we were able to pay for the things we needed upon arrival (Grab, e-SIM, etc.) with our credit cards. I would strongly recommend getting a <strong>Revolut</strong> card or similar, as this made paying in Baht very easy. After arriving in the city center, we got some cash out of the ATMs for small purchases at restaurants and local markets.
+                                <strong>Currency: </strong>Indonesia's currency is the Indonesian Rupiah (IDR). We did not carry any cash when flying into the country, which doesn't really cause an issue as we were able to pay for the things we needed upon arrival (Grab, e-SIM, etc.) with our credit cards. I would strongly recommend getting a <strong>Revolut</strong> card or similar, as this made paying in Rupiah very easy. After arriving in the city center, we got some cash out of the ATMs for small purchases at restaurants and local markets.<br/>
+                                We recommend avoiding the Mandiri Bank's ATMs, as they charge 50,000 IDR (2.50 EUR) per withdrawal and have a withdrawal limit of 1,250,000 IDR (62.50 EUR). We used other ATMs when possible, like Maybank, which did not charge any fees and have a withdrawal limit of 3,000,000 IDR (150 EUR).
                             </li>
                             <li>
-                                <strong>Logistics: </strong>Like in the rest of Southeast Asia, <strong>Grab</strong> is king when it comes to getting around short distances. Grab also offers other services like food delivery. Next to cars, Grab also offers motorbike taxis, which are a fast and exhilarating way to get around. For longer distances with ferries, trains, and flights, <strong>12GoAsia</strong> is the go-to platform for booking tickets.
+                                <strong>Logistics: </strong>Like in the rest of Southeast Asia, <strong>Grab</strong> is king when it comes to getting around short distances. Grab also offers other services like food delivery. Next to cars, Grab also offers motorbike taxis, which are a fast and exhilarating way to get around. In Indonesia, there is also <strong>GoJek</strong> for similar services.<br/>
+                                For longer distances with ferries, trains, and flights, <strong>12GoAsia</strong> is the go-to platform for booking tickets.
                             </li>
                             <li>
                                 <strong>e-SIM: </strong>Getting an e-SIM has never been easier thanks to apps like Saily, Nomad, and Revolut. We installed the e-SIM before arriving and can highly recommend doing this as it's a convenient way to stay connected while traveling.
                             </li>
                             <li>
-                                <strong>Weather: </strong>The best time to visit is during the dry season, from November to April. We went in November and had mostly great weather throughout the trip.
+                                <strong>Weather: </strong>The best time to visit is during the dry season, from May to October. We went in October and had great weather throughout the trip.
                             </li>
                             <li>
-                                <strong>Vaccinations: </strong>Make sure to check the latest vaccination recommendations for Thailand, as they can change over time. When we went, it was recommended to have vaccinations for Hepatitis A and B, Typhoid, and Tetanus. As I stayed in Southeast Asia for a longer period, I also had vaccinations for Japanese Encephalitis and Rabies, but these are not typically necessary for a short trip to Thailand.
+                                <strong>Vaccinations: </strong>Make sure to check the latest vaccination recommendations for Indonesia, as they can change over time. When we went, it was recommended to have vaccinations for Hepatitis A and B, Typhoid, and Tetanus.
                             </li>
                         </ul>
                         <br /><br />
@@ -230,11 +232,13 @@ export default function Indonesia() {
                         Indonesia is a huge country with thousands of islands, making it impossible to see everything in a three week trip. Rather than explaining why we did not visit the other regions of the country, like Sumatra, Java, Bornea, Sulawesi, or Papua, we will describe some of the trade-offs we made when visiting the islands we did see:<br/>
                         <ul className="list-disc pl-5 space-y-1">
                             <li>
-                                <strong>Bali: </strong>Indonesia's tourist hub<br/>
-                                We decided to spend little time in Bali, mainly using it as a starting point for our journey. We had heard that the island can be very crowded and touristy, so we preferred to explore the less-visited islands. This means we stayed around the beach areas in the south close to the airport, and did not venture further inland to spots like Ubud, WHERE LARA WENT or Mount Batur.
+                                <strong>Bali: </strong><br/>
+                                We decided to spend little time in Bali, mainly using it as a starting point for our journey. We had heard that the island can be very crowded and touristy, so we preferred to explore the less-visited islands. This means we stayed around the beach areas in the south close to the airport, and did not venture further inland to spots like Ubud, Sedimen or Mount Batur.
                             </li>
                             <li>
                                 <strong>Gili Islands: </strong>Which island to stay on?<br/>
+                                The Gili islands are three small islands off the northwest coast of Lombok. They are known as laid-back beach getaways where you can relax, snorkel, and enjoy the island lifestyle. Gili Trawangan is the most popular and lively, Gili Meno is quieter and more romantic, and Gili Air offers a balance between the two.<br/>
+                                As the Gilis were our first stop after Bali, we wanted to experience the vibrant atmosphere of Gili Trawangan while still having the option to relax and take it slow. We decided to stay on a quiter part of the island as this would allow us to relax while still being able to enjoy the party scene.
                             </li>
                             <li>
                                 <strong>Lombok: </strong>What to visit on the island?<br/>
@@ -253,7 +257,7 @@ export default function Indonesia() {
                             </li>
                             <li>
                                 <strong>Budget: </strong><br/>
-                                We expected the trip to be relatively affordable, especially after our experiences in other places in Southeast Asia like Thailand, Laos, and Cambodia. We found that Indonesia was generally more expensive than these places, or at least the places that we visited. While in Thailand, it is easy to find extremely low-cost options in tourist areas, we found that more challenging in Indonesia. To be fair, we also did not have any stomach issues this time around, which might be a result of us going to more expensive restaurants. However, this impression extends beyond just food and includes accommodation and retail costs as well. One thing that remained quite affordable was local transportation, such as taxis and scooters.
+                                We expected the trip to be relatively affordable, especially after our experiences in other places in Southeast Asia like Thailand, Laos, and Cambodia. We found that Indonesia was generally more expensive than these places. While in Thailand, it is easy to find extremely low-cost options in tourist areas, we found that more challenging in Indonesia. To be fair, we also did not have any stomach issues this time around, which might be a result of us going to more expensive restaurants. However, this impression extends beyond just food and includes accommodation and retail costs as well. One thing that remained quite affordable was local transportation, such as taxis and scooters.
                             </li>
                             <li>
                                 <strong>Best meal: </strong><br/>
