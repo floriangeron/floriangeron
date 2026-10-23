@@ -194,8 +194,27 @@ export default function Indonesia() {
                         <br/>
                         However, there are some things that remain consistent across the country, such as their love for nasi goreng, mi goreng, and other local dishes.<br/>
                         <br/>
-                        <h3 id="what-we-did" className="text-2xl font-bold mb-4">Tourist information</h3>
-                        <h3 id="what-we-did" className="text-2xl font-bold mb-4">The crew</h3>
+                        <h3 id="tourist-information" className="text-2xl font-bold mb-4">Tourist information - TO CHANGE</h3>
+                        Here are a couple of tips for visiting the country:
+                        <ul className="list-disc pl-5 space-y-1">
+                            <li>
+                                <strong>Currency: </strong>Thailand's currency is the Thai Baht (THB). We did not carry any cash when flying into the country, which doesn't really cause an issue as we were able to pay for the things we needed upon arrival (Grab, e-SIM, etc.) with our credit cards. I would strongly recommend getting a <strong>Revolut</strong> card or similar, as this made paying in Baht very easy. After arriving in the city center, we got some cash out of the ATMs for small purchases at restaurants and local markets.
+                            </li>
+                            <li>
+                                <strong>Logistics: </strong>Like in the rest of Southeast Asia, <strong>Grab</strong> is king when it comes to getting around short distances. Grab also offers other services like food delivery. Next to cars, Grab also offers motorbike taxis, which are a fast and exhilarating way to get around. For longer distances with ferries, trains, and flights, <strong>12GoAsia</strong> is the go-to platform for booking tickets.
+                            </li>
+                            <li>
+                                <strong>e-SIM: </strong>Getting an e-SIM has never been easier thanks to apps like Saily, Nomad, and Revolut. We installed the e-SIM before arriving and can highly recommend doing this as it's a convenient way to stay connected while traveling.
+                            </li>
+                            <li>
+                                <strong>Weather: </strong>The best time to visit is during the dry season, from November to April. We went in November and had mostly great weather throughout the trip.
+                            </li>
+                            <li>
+                                <strong>Vaccinations: </strong>Make sure to check the latest vaccination recommendations for Thailand, as they can change over time. When we went, it was recommended to have vaccinations for Hepatitis A and B, Typhoid, and Tetanus. As I stayed in Southeast Asia for a longer period, I also had vaccinations for Japanese Encephalitis and Rabies, but these are not typically necessary for a short trip to Thailand.
+                            </li>
+                        </ul>
+                        <br /><br />
+                        <h3 id="the-crew" className="text-2xl font-bold mb-4">The crew</h3>
                         <h3 id="what-we-did" className="text-2xl font-bold mb-4">What we did</h3>
                         We found affordable flight tickets from Brussels to Bali, so we started our journey in Bali. After seeing some of our friends exploring the Komodo National Park, we decided this would be the centerpoint of our journey. With three weeks at our disposal, we decided to fill up the remaining time by visiting Lombok, the Gili Islands, and Nusa Penida.
                         <figure>
@@ -225,7 +244,27 @@ export default function Indonesia() {
                             </li>
                         </ul>
                         <br/>
-                        <h3 id="what-we-did" className="text-2xl font-bold mb-4">Field notes</h3>
+                        <h3 id="field-notes" className="text-2xl font-bold mb-4">Field notes</h3>
+                        A short summary of my main takes from this trip:
+                        <ul className="list-disc pl-5 space-y-1">
+                            <li>
+                                <strong>What we would do differently: </strong><br/>
+
+                            </li>
+                            <li>
+                                <strong>Budget: </strong><br/>
+                                We expected the trip to be relatively affordable, especially after our experiences in other places in Southeast Asia like Thailand, Laos, and Cambodia. We found that Indonesia was generally more expensive than these places, or at least the places that we visited. While in Thailand, it is easy to find extremely low-cost options in tourist areas, we found that more challenging in Indonesia. To be fair, we also did not have any stomach issues this time around, which might be a result of us going to more expensive restaurants. However, this impression extends beyond just food and includes accommodation and retail costs as well. One thing that remained quite affordable was local transportation, such as taxis and scooters.
+                            </li>
+                            <li>
+                                <strong>Best meal: </strong><br/>
+                                
+                            </li>
+                            <li>
+                                <strong>Biggest surprise: </strong><br/>
+                                
+                            </li>
+                        </ul>
+                        <br/><br/>
 
                         {/* Bali */}
                         <h2 id="bali" className="text-4xl font-bold mb-4">Bali</h2>
@@ -246,10 +285,10 @@ export default function Indonesia() {
                         <h3 id="lombok-tetebatu" className="text-2xl font-bold mb-4">Tetebatu</h3>
                         <h3 id="lombok-food-drinks" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
 
-                        {/* Gili Islands */}
+                        {/* Komodo National Park */}
                         <h2 id="komodo-national-park" className="text-4xl font-bold mb-4">Komodo National Park</h2>
 
-                        {/* Gili Islands */}
+                        {/* Nusa Penida */}
                         <h2 id="nusa-penida" className="text-4xl font-bold mb-4">Nusa Penida</h2>
 
                         <h3 id="penida-food-drinks" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
