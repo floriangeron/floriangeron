@@ -242,9 +242,12 @@ export default function Indonesia() {
                             </li>
                             <li>
                                 <strong>Lombok: </strong>What to visit on the island?<br/>
+                                Lombok has many beautiful places to visit. We stayed on Kuta Lombok and did a day trip to Tetebatu, but we didn't spend much more time in the lush interior of the country. Concretely, there are three popular areas in the interior of the island to explore: Northern Lombok with its waterfalls and rice terraces, Central Lombok with Mount Rinjani and surrounding villages, and the area south of Rinjani, centered on Tetebatu.<br/>
+                                The multi-day hike up Mount Rinjani is a popular activity for adventurous travelers. However, after hearing it can be quite challenging, both physically and mentally, we decided we didn't want to spend several days of our holiday on this trek. That being said, most people who've undertaken this challenge speak highly of the experience and the breathtaking views from the summit.
                             </li>
                             <li>
                                 <strong>Nusa Lembongan vs Nusa Penida: </strong>Beach getaway vs adventurous island exploration<br/>
+                                As we were flying out of Bali, but didn't want to stay on Bali proper for our last days, we decided to spend our last days on one of the nearby islands, either Nusa Lembongan or Nusa Penida. Nusa Lembongan is known for its relaxed beach vibe, while Nusa Penida offers more adventurous exploration with dramatic cliffs and scenic viewpoints. We knew we wanted to visit the scenic viewpoints on Nusa Penida, like Kelingking Beach and Angel's Billabong, so the question was whether we wanted to visit these sites as day trips from Nusa Lembongang or stay on Nusa Penida itself. Nusa Penida is less developed and has less going on than on the backpacker-friendly beach getaway Nusa Lembongan, but it allows you to fully experience the island's natural beauty without the need for long day trips. More importantly, it allows you to visit the scenic viewpoints early in the morning and late in the afternoon, when the day tourist aren't there. As we had already had the backpacker party island experience on Gili Trawangan, we decided to go for Nusa Penida in this case.
                             </li>
                         </ul>
                         <br/>
@@ -257,7 +260,7 @@ export default function Indonesia() {
                             </li>
                             <li>
                                 <strong>Budget: </strong><br/>
-                                We expected the trip to be relatively affordable, especially after our experiences in other places in Southeast Asia like Thailand, Laos, and Cambodia. We found that Indonesia was generally more expensive than these places. While in Thailand, it is easy to find extremely low-cost options in tourist areas, we found that more challenging in Indonesia. To be fair, we also did not have any stomach issues this time around, which might be a result of us going to more expensive restaurants. However, this impression extends beyond just food and includes accommodation and retail costs as well. One thing that remained quite affordable was local transportation, such as taxis and scooters.
+                                We expected the trip to be relatively affordable, especially after our experiences in other places in Southeast Asia like Thailand, Laos, and Cambodia. We found that Indonesia was generally more expensive than these places. In Thailand, it is easy to find extremely low-cost options in tourist areas, which we found more challenging in Indonesia. To be fair, we also did not have any stomach issues this time around, which might be a result of us going to more expensive restaurants. However, this impression extends beyond just food and includes accommodation and retail costs as well. One thing that remained quite affordable was local transportation, such as taxis and scooters.
                             </li>
                             <li>
                                 <strong>Best meal: </strong><br/>
@@ -299,6 +302,24 @@ export default function Indonesia() {
 
                         {/* Hotels */}
                         <h2 id="hotels" className="text-4xl font-bold mb-4">Hotel Reviews</h2>
+
+                        <HotelReview
+                            headingId="hotel-1"
+                            title="Bali: Surf Lodge Canggu"
+                            overallRating={4.5}
+                            categories={[
+                                { title: 'Staff', rating: 8 },
+                                { title: 'Facilities', rating: 8 },
+                                { title: 'Cleanliness', rating: 9 },
+                                { title: 'Comfort', rating: 7 },
+                                { title: 'Location', rating: 8 },
+                                { title: 'Value for Money', rating: 9 },
+                            ]}
+                        >
+                            On our first two nights in Bali, we stayed at the Surf Lodge in Canggu. As a three-star hotel, it offered a good balance of comfort and affordability. We were happily surprise by the common pool area and the general cleanliness of the hotel. We would recommend this place for anyone who's looking for a comfortable stay in Canggu on a limited budget.<br/>
+                            Find it <a href="https://maps.app.goo.gl/t1AFxKbLnnXthwUL7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            <br />
+                        </HotelReview>
 
                     </main>
 
