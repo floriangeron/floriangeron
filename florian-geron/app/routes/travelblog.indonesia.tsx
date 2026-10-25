@@ -268,7 +268,7 @@ export default function Indonesia() {
                             </li>
                             <li>
                                 <strong>Biggest surprise: </strong><br/>
-                                
+                                How difficult it was to find authentic Indoensian experiences, including cuisine and local life. Most of what we saw was heaivily westernized and catered to tourists rather than locals.
                             </li>
                         </ul>
                         <br/><br/>
@@ -311,13 +311,31 @@ export default function Indonesia() {
                                 { title: 'Staff', rating: 8 },
                                 { title: 'Facilities', rating: 8 },
                                 { title: 'Cleanliness', rating: 9 },
-                                { title: 'Comfort', rating: 7 },
+                                { title: 'Comfort', rating: 8 },
                                 { title: 'Location', rating: 8 },
-                                { title: 'Value for Money', rating: 9 },
+                                { title: 'Value for Money', rating: 10 },
                             ]}
                         >
-                            On our first two nights in Bali, we stayed at the Surf Lodge in Canggu. As a three-star hotel, it offered a good balance of comfort and affordability. We were happily surprise by the common pool area and the general cleanliness of the hotel. We would recommend this place for anyone who's looking for a comfortable stay in Canggu on a limited budget.<br/>
+                            On our first two nights in Bali, we stayed at the Surf Lodge in Canggu. As a three-star hotel, it offered a good balance of comfort and affordability. We were happily surprised by the common pool area, the included breakfast, and the general cleanliness of the hotel. The hotel staff helped us organize our taxi from the airport and also allowed us to book a massage via them. Both services were priced competitively. The location was convenient for exploring Canggu's beaches and cafes, but far enough from the main road that we didn't hear any of the traffic at night. We would recommend this place for anyone who's looking for a comfortable stay in Canggu on a limited budget.<br/>
                             Find it <a href="https://maps.app.goo.gl/t1AFxKbLnnXthwUL7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            <br />
+                        </HotelReview>
+
+                        <HotelReview
+                            headingId="hotel-1"
+                            title="Bali: Happy Together by Kresna Hospitality"
+                            overallRating={4.5}
+                            categories={[
+                                { title: 'Staff', rating: 8 },
+                                { title: 'Facilities', rating: 8 },
+                                { title: 'Cleanliness', rating: 9 },
+                                { title: 'Comfort', rating: 8 },
+                                { title: 'Location', rating: 8 },
+                                { title: 'Value for Money', rating: 8 },
+                            ]}
+                        >
+                            We spent our last night of our trip in this hotel in Seminyak, Bali. The hotel was modern and well-maintained, making it a comfortable stay. The staff were friendly and helpful, helping us organize our logistics and allowing for a slightly late checkout. Our room was large, with a little living room area. We were very happy with the massive bath tub in our bathroom. Both of us could fit comfortably, with space left for a third person to squeeze in. We can recommend this hotel for anyone visiting Seminyak for a convenient and comfortable stay.<br/>
+                            Find it <a href="https://maps.app.goo.gl/kRziftRcwfVmqzLY6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                             <br />
                         </HotelReview>
 
