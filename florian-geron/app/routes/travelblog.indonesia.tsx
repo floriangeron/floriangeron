@@ -260,7 +260,10 @@ export default function Indonesia() {
                         <ul className="list-disc pl-5 space-y-1">
                             <li>
                                 <strong>What we would do differently: </strong><br/>
-
+                                1. We would split up our time one the Gilis differently. Instead of spending 6 nights on Gili T, we would spend 3 nights on Gili T and 3 nights on Gili Meno.<br/>
+                                2. Spend more time in Lombok, especially in the interior of the island. We also wouldn't mind spending another day in Kuta Lombok.<br/>
+                                3. Book an even more luxurious boat to explore Komodo National Park. We were happy with our boat, but we wouldn't book the same one again.<br/>
+                                4. Don't rent a scooter on Nusa Penida, unless you're an experienced scooter driver. More on this below.
                             </li>
                             <li>
                                 <strong>Budget: </strong><br/>
@@ -268,7 +271,8 @@ export default function Indonesia() {
                             </li>
                             <li>
                                 <strong>Best meal: </strong><br/>
-                                
+                                Fabriche (esp Negroni with prosecco instead of gin)
+                                Beach dinner by Lumi
                             </li>
                             <li>
                                 <strong>Biggest surprise: </strong><br/>
@@ -348,12 +352,12 @@ export default function Indonesia() {
                         <HotelReview
                             headingId="hotel-1"
                             title="Gili Trawangan: PinkCoco"
-                            overallRating={4}
+                            overallRating={4.5}
                             categories={[
                                 { title: 'Staff', rating: 8 },
                                 { title: 'Facilities', rating: 8 },
-                                { title: 'Cleanliness', rating: 8 },
-                                { title: 'Comfort', rating: 8 },
+                                { title: 'Cleanliness', rating: 9 },
+                                { title: 'Comfort', rating: 9 },
                                 { title: 'Location', rating: 8 },
                                 { title: 'Value for Money', rating: 7 },
                             ]}
@@ -369,7 +373,7 @@ export default function Indonesia() {
                         <HotelReview
                             headingId="hotel-1"
                             title="Kuta Lombok: Kokoi Villas"
-                            overallRating={4}
+                            overallRating={4.5}
                             categories={[
                                 { title: 'Staff', rating: null },
                                 { title: 'Facilities', rating: null },
@@ -405,7 +409,7 @@ export default function Indonesia() {
                         <HotelReview
                             headingId="hotel-1"
                             title="Nusa Penida: Mantra Villa"
-                            overallRating={4}
+                            overallRating={4.5}
                             categories={[
                                 { title: 'Staff', rating: null },
                                 { title: 'Facilities', rating: null },
