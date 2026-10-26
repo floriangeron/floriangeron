@@ -206,6 +206,10 @@ export default function Indonesia() {
                                 For longer distances with ferries, trains, and flights, <strong>12GoAsia</strong> is the go-to platform for booking tickets.
                             </li>
                             <li>
+                                <strong>Accommodation: </strong>We booked all of our accommodation in advance via <strong>Booking.com</strong>. Other platforms for booking accommodation in Southeast Asia include <strong>Agoda</strong> and <strong>Airbnb</strong>. <br/>
+                                When booking accommodation in Southeast Asia, ensure that you're not only reading the reviews on the booking platform but also checking other sources like Google Reviews. After our past experiences in Southeast Asia, we decided to steer clear of any hotels with even a single review mentioning moldy smell.
+                            </li>
+                            <li>
                                 <strong>e-SIM: </strong>Getting an e-SIM has never been easier thanks to apps like Saily, Nomad, and Revolut. We installed the e-SIM before arriving and can highly recommend doing this as it's a convenient way to stay connected while traveling.
                             </li>
                             <li>
@@ -303,6 +307,8 @@ export default function Indonesia() {
                         {/* Hotels */}
                         <h2 id="hotels" className="text-4xl font-bold mb-4">Hotel Reviews</h2>
 
+                        Having learned from our past trips in Southeast Asia, we were more diligent in our research and selection of hotels for this trip. Concretely, we double checked whether each accommodation has consistently positive reviews across multiple platforms, including Booking.com and Google Reviews. As such, we were happy with all hotels we stayed at, and can recommend each of the places mentioned below. Open each review to read about our experiences there! <br/>
+
                         <HotelReview
                             headingId="hotel-1"
                             title="Bali: Surf Lodge Canggu"
@@ -357,6 +363,60 @@ export default function Indonesia() {
                             The hotel is located on the southern coast of Gili Trawangan. We chose this location so that we could enjoy a quieter and more relaxed atmosphere, away from the busier eastern part of the island, while still being close enough the cycle there if we wanted a night out. Overall, this formula worked well for us. The only downside of the location of this hotel is that its beach is not meant for swimming, meaning you have to cycle to other parts of the island if you want to take a dip in the sea. It is one of the only spots of the island where the sea is not easily accessible for a swim.<br/>
                             Overall, PinkCoco offers a unique and memorable experience, but we feel like it's instagrammability inflates the price a bit compared to other hotels on the island. That being said, the hotel provides excellent service.<br/>
                             Find it <a href="https://maps.app.goo.gl/DkP78pCAEowyfUe78" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            <br />
+                        </HotelReview>
+
+                        <HotelReview
+                            headingId="hotel-1"
+                            title="Kuta Lombok: Kokoi Villas"
+                            overallRating={4}
+                            categories={[
+                                { title: 'Staff', rating: null },
+                                { title: 'Facilities', rating: null },
+                                { title: 'Cleanliness', rating: null },
+                                { title: 'Comfort', rating: null },
+                                { title: 'Location', rating: null },
+                                { title: 'Value for Money', rating: null },
+                            ]}
+                        >
+                            xxx.<br/>
+                            Find it <a href="https://maps.app.goo.gl/pBNZ7jJNf6jBUpoW6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            <br />
+                        </HotelReview>
+
+                        <HotelReview
+                            headingId="hotel-1"
+                            title="Labuan Bajo: Seaesta"
+                            overallRating={4}
+                            categories={[
+                                { title: 'Staff', rating: null },
+                                { title: 'Facilities', rating: null },
+                                { title: 'Cleanliness', rating: null },
+                                { title: 'Comfort', rating: null },
+                                { title: 'Location', rating: null },
+                                { title: 'Value for Money', rating: null },
+                            ]}
+                        >
+                            xxx.<br/>
+                            Find it <a href="https://maps.app.goo.gl/X3QSAqsunVMzo5aA9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            <br />
+                        </HotelReview>
+
+                        <HotelReview
+                            headingId="hotel-1"
+                            title="Nusa Penida: Mantra Villa"
+                            overallRating={4}
+                            categories={[
+                                { title: 'Staff', rating: null },
+                                { title: 'Facilities', rating: null },
+                                { title: 'Cleanliness', rating: null },
+                                { title: 'Comfort', rating: null },
+                                { title: 'Location', rating: null },
+                                { title: 'Value for Money', rating: null },
+                            ]}
+                        >
+                            xxx.<br/>
+                            Find it <a href="https://maps.app.goo.gl/TrEuBrfNQZYVWT2c6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                             <br />
                         </HotelReview>
 
