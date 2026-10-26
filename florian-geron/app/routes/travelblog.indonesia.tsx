@@ -268,7 +268,7 @@ export default function Indonesia() {
                             </li>
                             <li>
                                 <strong>Biggest surprise: </strong><br/>
-                                How difficult it was to find authentic Indoensian experiences, including cuisine and local life. Most of what we saw was heaivily westernized and catered to tourists rather than locals.
+                                We were surprised how difficult it was to find authentic Indonesian experiences, including cuisinge and local culture. Most of what we saw was heaivily westernized and catered to tourists rather than locals. Most restaurants would sell Western food and play Western music, for example, even in areas that were not heavily touristic.
                             </li>
                         </ul>
                         <br/><br/>
@@ -336,6 +336,27 @@ export default function Indonesia() {
                         >
                             We spent our last night of our trip in this hotel in Seminyak, Bali. The hotel was modern and well-maintained, making it a comfortable stay. The staff were friendly and helpful, helping us organize our logistics and allowing for a slightly late checkout. Our room was large, with a little living room area. We were very happy with the massive bath tub in our bathroom. Both of us could fit comfortably, with space left for a third person to squeeze in. We can recommend this hotel for anyone visiting Seminyak for a convenient and comfortable stay.<br/>
                             Find it <a href="https://maps.app.goo.gl/kRziftRcwfVmqzLY6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            <br />
+                        </HotelReview>
+
+                        <HotelReview
+                            headingId="hotel-1"
+                            title="Gili Trawangan: PinkCoco"
+                            overallRating={4}
+                            categories={[
+                                { title: 'Staff', rating: 8 },
+                                { title: 'Facilities', rating: 8 },
+                                { title: 'Cleanliness', rating: 8 },
+                                { title: 'Comfort', rating: 8 },
+                                { title: 'Location', rating: 8 },
+                                { title: 'Value for Money', rating: 7 },
+                            ]}
+                        >
+                            PinkCoco is a instagram-friendly hotel, with a vibrant decor centering around the color pink. The hotel markets itself as a hotel "for Cool Adults only". I had some reservations about the concept initially, mainly fearing that it would be overrun by the cringe instagram crowd, but it turned out to be a laid-back and calm place to stay when we were there. We would even go so far as to say that it was a bit too quiet while we were there, with no lively atmosphere inside the hotel to speak of, though this didn't bother us as we enjoyed having peace and quiet in the hotel. The rooms are spacious and comfortable, and the hotel goes the extra mile to ensure a memorable experience, for example by providing matching pink pyjamas for the guests. The staff also leaves a little surprise in the room every day, ranging from some snacks to a turtle plushie.<br/>
+                            Every Friday to Monday night, the hotel organizes entertainment on the beach, where a DJ plays music with some live saxophone performances, as well as a fire dance and fireworks. This event attracts visitors from all over the island, as it is the picture perfect spot for sunset on Gili Trawangan.<br/>
+                            The hotel is located on the southern coast of Gili Trawangan. We chose this location so that we could enjoy a quieter and more relaxed atmosphere, away from the busier eastern part of the island, while still being close enough the cycle there if we wanted a night out. Overall, this formula worked well for us. The only downside of the location of this hotel is that its beach is not meant for swimming, meaning you have to cycle to other parts of the island if you want to take a dip in the sea. It is one of the only spots of the island where the sea is not easily accessible for a swim.<br/>
+                            Overall, PinkCoco offers a unique and memorable experience, but we feel like it's instagrammability inflates the price a bit compared to other hotels on the island. That being said, the hotel provides excellent service.<br/>
+                            Find it <a href="https://maps.app.goo.gl/DkP78pCAEowyfUe78" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                             <br />
                         </HotelReview>
 
