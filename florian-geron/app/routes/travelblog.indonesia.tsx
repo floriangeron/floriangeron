@@ -19,7 +19,7 @@ import HotelReview from '../components/ui/HotelReview';
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "Destination Travel Blog" },
+    { title: "Indonesia Travel Blog" },
     { name: "My personal website", content: "My Indonesia Travel Blog" },
     { description: "Travel blog about Indonesia." },
   ];
@@ -260,7 +260,7 @@ export default function Indonesia() {
                         <ul className="list-disc pl-5 space-y-1">
                             <li>
                                 <strong>What we would do differently: </strong><br/>
-
+                                We stayed on Gili Trawangan for 6 nights. While we would still spend 6 nights on the Gili islands, looking back we would've preferred spending 3/4 nights on Gili Trawangan, spending the remaining 2/3 nights on Gili Meno or Gili Air.
                             </li>
                             <li>
                                 <strong>Budget: </strong><br/>
@@ -272,17 +272,28 @@ export default function Indonesia() {
                             </li>
                             <li>
                                 <strong>Biggest surprise: </strong><br/>
-                                We were surprised how difficult it was to find authentic Indonesian experiences, including cuisinge and local culture. Most of what we saw was heaivily westernized and catered to tourists rather than locals. Most restaurants would sell Western food and play Western music, for example, even in areas that were not heavily touristic.
+                                We were surprised how difficult it was to find authentic Indonesian experiences, including cuisinge and local culture. Most of what we saw was heavily westernized and catered to tourists rather than locals. Most restaurants would sell Western food and play Western music, for example, even in areas that were not heavily touristic.
                             </li>
                         </ul>
                         <br/><br/>
 
                         {/* Bali */}
                         <h2 id="bali" className="text-4xl font-bold mb-4">Bali</h2>
+                        Bali is an amazing destination, offering vibrant hindu culture, lush landscapes, spiritual experiences, and world-class nightlife. Honestly, Bali could be a three-week trip on its own, with so much to see and do. However, Bali has the downside of being heavily touristic and westernized, which is why we decided not to spend too much time on the island. We decided to stay there two nights upon arriving in Indonesia to find our bearings, and one night before leaving the country as a buffer in case anything unexpected came up.<br/><br/>
 
                         <h3 id="bali-canggu" className="text-2xl font-bold mb-4">Canggu</h3>
+                        Canggu is known as a laid-back surf town, attracting many digital nomads. Although we found the overall vibe to be very welcoming, we didn't find it a particularly relaxing place to stay, due to the busy streets and constant traffic noise, as well as the large number of nightlife venues. We would recommend staying in quieter areas if relaxation is a priority. That being said, we found a nice hotel where we could retreat to. <br/><br/>
+
                         <h3 id="bali-seminyak" className="text-2xl font-bold mb-4">Seminyak</h3>
+
+
                         <h3 id="bali-food-drinks" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
+                        <CollapsibleReview title="Canggu - Aunty Ji's" rating={5} scale="food">
+                            For our first dinner out in Indonesia, we decided to hit up some Indian food. We were very happy with our choice, as we had some excellent food and cocktails here. The flavors were rich and authentic, and the service was friendly and attentive.<br/>
+                            Upon taking place, some other guests were just leaving and, passing our table, they gave us a discount voucher for this restaurant. This was an unexpected and pleasant surprise that gave us a good first impression of the spirit of conviviality in Bali and Indonesia.
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/BPxWRemvNmctEfwu8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
 
                         {/* Gili Islands */}
                         <h2 id="gili-islands" className="text-4xl font-bold mb-4">Gili Islands</h2>
