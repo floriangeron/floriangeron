@@ -3,15 +3,16 @@ import { StarScale } from './StarRating';
 import { CoffeeScale } from './CoffeeRating'; 
 
 type Props = {
+  id?: string;
   title: string;
   rating: number;
   scale: 'star' | 'coffee' | 'hotdog' | 'food' | 'drink';
   children: React.ReactNode;
 };
 
-export default function CollapsibleReview({ title, rating, scale, children }: Props) {
+export default function CollapsibleReview({ id, title, rating, scale, children }: Props) {
   return (
-    <details className="group mb-6 rounded-md">
+    <details id={id} className="group mb-6 rounded-md">
       <summary className="flex items-center justify-between p-3 cursor-pointer">
         <div className="flex items-center">
           <svg className="chev h-5 w-5 mr-3 text-gray-600" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
