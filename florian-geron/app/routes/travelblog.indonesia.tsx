@@ -343,9 +343,15 @@ export default function Indonesia() {
                         <figcaption className="text-center text-sm text-gray-600">Sunset at the beach in Canggu</figcaption>
                         <br/><br/>
 
-                        The next morning, we booked a taxi to Sanur harbor, where we got on a boat that would take us to Gili Trawangan.<br/><br/>
+                        The next morning, we booked a taxi to Padangbai harbor, where we got on a boat that would take us to Gili Trawangan.<br/><br/>
 
                         <h3 id="bali-seminyak" className="text-2xl font-bold mb-4">Seminyak</h3>
+
+                        On our way back home, we stayed one night in Seminyak, Bali, as a buffer for any logistical issues that might arise. In the end, we didn't need the buffer as all boats and planes we took were on time. However, we had one little surprise upon arriving back in Bali. We had taken a ferry from Nusa Penida to Sanur harbor and, upon arriving in Sanur, we found it impossible to book any Grab to Seminyak. What had happened? The night before, the petrol tanker providing Bali with its fuel had failed to make it to Bali. Due to the fuel shortage as a result of the conflict in Iran, Bali does not have any reserves left. This means that, if the boat doesn't arrive, there is no fuel on the island. We saw lines of hours and hours of people trying to get some fuel from the few stations that still had some. We were lucky to find a driver who was willing to take us to Seminyak, although he charged us four times the normal price. We were happy to pay it though, as we were worried we might not be able to get to Seminyak at all.<br/><br/>
+                        
+                        Seminyak is famous for its nightlife and beach clubs, although we didn't visit any of these places while we were there. We stayed at a nice and quiet hotel, and spent our time in Seminyak exploring the shops and seeing the sunset at the beach. <br/><br/>
+
+
 
 
                         <h3 id="bali-food-drinks" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
@@ -356,13 +362,13 @@ export default function Indonesia() {
                             Find it <a href="https://maps.app.goo.gl/BPxWRemvNmctEfwu8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
 
-                        <CollapsibleReview id="pizza-fabbrica-review" title="Pizza Fabbrica" rating={4.5} scale="food">
+                        <CollapsibleReview id="pizza-fabbrica-review" title="Canggu - Pizza Fabbrica" rating={4.5} scale="food">
                             As it was Francesca's birthday and her favorite food is Italian, we decided to go to this pizza place for dinner on our second night in Bali. We were joined by William and Vincent, two friends who also happened to be in Bali at the time. The food was excellent and the negroni was particularly good, made with prosecco instead of gin. The service was friendly, and they offered us complementary limoncello shots for Francesca's birthday.
                             <br />
                             Find it <a href="https://maps.app.goo.gl/wXdjYTQ8VWVgwHxn9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
 
-                        <CollapsibleReview id="la-brisa-review" title="La Brisa" rating={4} scale="drink">
+                        <CollapsibleReview id="la-brisa-review" title="Canggu - La Brisa" rating={4} scale="drink">
                             After dinner, we went to La Brisa for a drink and some live music. We had heard La Brisa was a center of nightlife in Canggy, so we were somewhat surprised to find it nearly empty. We suspect this is because we visited on a Sunday evening.Nevertheless, the staff were very welcoming though and the limited number of people still had a good vibe to it, with nice music playing. We were seated on a comfortable couch and enjoyed some drinks. Overall it's a cool place to hang out.
                             <br />
                             Find it <a href="https://maps.app.goo.gl/8PDG75nUruedTvEy8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.<br/>
@@ -386,6 +392,30 @@ export default function Indonesia() {
                             </div>
                             <figcaption className="text-center text-sm text-gray-600">La Brisa, Canggu</figcaption>
                             <br/>
+                        </CollapsibleReview>
+
+                        <CollapsibleReview title="Padangbai - D'Steel" rating={3.5} scale="food">
+                            xxx.
+                            <br />
+                            Find it <a href="xxx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+
+                        <CollapsibleReview title="Sanur - Coco Bistro" rating={5} scale="food">
+                            xxx.
+                            <br />
+                            Find it <a href="xxx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+
+                        <CollapsibleReview title="Seminyak - Bangkok Kitchen" rating={4} scale="food">
+                            xxx.
+                            <br />
+                            Find it <a href="xxx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+
+                        <CollapsibleReview title="Seminyak - Papa Sam" rating={3} scale="food">
+                            xxx.
+                            <br />
+                            Find it <a href="xxx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
 
                         {/* Gili Islands */}
