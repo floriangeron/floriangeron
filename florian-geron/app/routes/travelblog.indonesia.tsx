@@ -355,6 +355,24 @@ export default function Indonesia() {
 
 
                         <h3 id="bali-food-drinks" className="text-2xl font-bold mb-4">Food & Drinks Reviews</h3>
+                        
+                        <CollapsibleReview title="Canggu - My Happy Place" rating={4.5} scale="food">
+                            We had lunch at this place and really enjoyed the vibe there, as well as the food and drinks. We ordered a small bite and some coffees, which were particularly good. We assume this place is owned by a European expat, or at least they cater heavily to the Europeans, as some menu items were quite niche, such as Austrian Kaisarschmarrn (so good).<br/>
+                            We can recommend this place for anyone who wants a low-key bite or coffee. They also have board and card games to use while you're there!
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/xAvzMPLj9SfeqYqf6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            <figure className="flex flex-col items-center">
+                                <img
+                                    src={"/images/travel/indonesia/canggu/HappyPlace.jpeg"}
+                                    alt="Hotel"
+                                    className="w-[50%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox("/images/travel/indonesia/canggu/HappyPlace.jpeg")}
+                                />
+                            </figure>
+                            <figcaption className="text-center text-sm text-gray-600">Two smiles at Happy Place</figcaption>
+                            <br/>
+                        </CollapsibleReview>
+
                         <CollapsibleReview title="Canggu - Aunty Ji's" rating={5} scale="food">
                             For our first dinner out in Indonesia, we decided to hit up some Indian food. We were very happy with our choice, as we had some excellent food and cocktails here. The flavors were rich and authentic, and the service was friendly and attentive.<br/>
                             Upon taking place, some other guests were just leaving and, passing our table, they gave us a discount voucher for this restaurant. This was an unexpected and pleasant surprise that gave us a good first impression of the spirit of conviviality in Bali and Indonesia.
@@ -369,7 +387,7 @@ export default function Indonesia() {
                         </CollapsibleReview>
 
                         <CollapsibleReview id="la-brisa-review" title="Canggu - La Brisa" rating={4} scale="drink">
-                            After dinner, we went to La Brisa for a drink and some live music. We had heard La Brisa was a center of nightlife in Canggy, so we were somewhat surprised to find it nearly empty. We suspect this is because we visited on a Sunday evening.Nevertheless, the staff were very welcoming though and the limited number of people still had a good vibe to it, with nice music playing. We were seated on a comfortable couch and enjoyed some drinks. Overall it's a cool place to hang out.
+                            After dinner, we went to La Brisa for a drink and some live music. We had heard La Brisa was a center of nightlife in Canggy, so we were somewhat surprised to find it nearly empty. We suspect this is because we visited on a Sunday evening. Nevertheless, the staff were very welcoming though and the limited number of people still had a good vibe to it, with nice music playing. We were seated on a comfortable couch and enjoyed some drinks. Overall it's a cool place to hang out.
                             <br />
                             Find it <a href="https://maps.app.goo.gl/8PDG75nUruedTvEy8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.<br/>
                             <div className="grid md:grid-cols-2 gap-2">
@@ -383,10 +401,10 @@ export default function Indonesia() {
                                 </figure>
                                 <figure className="md:col-span-1">
                                     <img
-                                        src="/images/travel/indonesia/canggu/LaBrisa1.jpeg"
+                                        src="/images/travel/indonesia/canggu/LaBrisa2.jpeg"
                                         alt="La Brisa, Canggu"
                                         className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
-                                        onClick={() => openLightbox('/images/travel/indonesia/canggu/LaBrisa1.jpeg')}
+                                        onClick={() => openLightbox('/images/travel/indonesia/canggu/LaBrisa2.jpeg')}
                                     />
                                 </figure>
                             </div>
@@ -395,15 +413,36 @@ export default function Indonesia() {
                         </CollapsibleReview>
 
                         <CollapsibleReview title="Padangbai - D'Steel" rating={3.5} scale="food">
-                            xxx.
+                            We arrived at Padangbai with an hour to spare before our boat departure, so we decided to have lunch here. The food was good, the service was friendly, and the place was clean. We had a good time here and would recommend it for anyone looking for a quick bite before catching a boat to the Gili Islands.<br/>
+                            The restaurant is decorated with some rather nonsensical and explicitly sexual descriptions of the zodiac signs. They were filled with typos which added to the humor of the experience.
                             <br />
-                            Find it <a href="xxx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            Find it <a href="https://maps.app.goo.gl/VvDYpL9af5LKmJsU7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
 
                         <CollapsibleReview title="Sanur - Coco Bistro" rating={5} scale="food">
-                            xxx.
+                            We found this restaurant in Sanur when departing to Nusa Penida, and it was a great find. In fact, we liked it so much, we had lunch here again on our way back from Nusa Penida. The food was excellent and the service was extraordinarily friendly. We would recommend it to anyone looking for a good meal while waiting for their boat in Sanur.
                             <br />
-                            Find it <a href="xxx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            Find it <a href="https://maps.app.goo.gl/S3skihaxGgBJFZB68" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            <div className="grid md:grid-cols-2 gap-2">
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/indonesia/seminyak/CocoBistro1.jpeg"
+                                        alt="Coco Bistro, Sanur"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/indonesia/seminyak/CocoBistro1.jpeg')}
+                                    />
+                                </figure>
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/indonesia/seminyak/CocoBistro2.jpeg"
+                                        alt="Coco Bistro, Sanur"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/indonesia/seminyak/CocoBistro2.jpeg')}
+                                    />
+                                </figure>
+                            </div>
+                            <figcaption className="text-center text-sm text-gray-600">Food and drinks at Coco Bistro</figcaption>
+                            <br/>
                         </CollapsibleReview>
 
                         <CollapsibleReview title="Seminyak - Bangkok Kitchen" rating={4} scale="food">
