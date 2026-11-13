@@ -286,7 +286,64 @@ export default function Indonesia() {
                         Bali is an amazing destination, offering vibrant hindu culture, lush landscapes, spiritual experiences, and world-class nightlife. Honestly, Bali could be a three-week trip on its own, with so much to see and do. However, Bali has the downside of being heavily touristic and westernized, which is why we decided not to spend too much time on the island. We decided to stay there two nights upon arriving in Indonesia to find our bearings, and one night before leaving the country as a buffer in case anything unexpected came up.<br/><br/>
 
                         <h3 id="bali-canggu" className="text-2xl font-bold mb-4">Canggu</h3>
-                        Canggu is known as a laid-back surf town, attracting many digital nomads. Although we found the overall vibe to be very welcoming, we didn't find it a particularly relaxing place to stay, due to the busy streets and constant traffic noise, as well as the large number of nightlife venues. We would recommend staying in quieter areas if relaxation is a priority. That being said, we found a nice hotel where we could retreat to. <br/><br/>
+                        Canggu is known as a laid-back surf town, attracting many digital nomads. Although we found the overall vibe to be very welcoming, we didn't find it a particularly relaxing place to stay, due to the busy streets and constant traffic noise, as well as the large number of nightlife venues. We would recommend staying in quieter areas if relaxation is a priority. That being said, we had booked a nice and quiet hotel where we could retreat to. <br/>
+
+                        <figure className="flex flex-col items-center">
+                            <img
+                                src={"/images/travel/indonesia/canggu/SurfLodgeHor.jpeg"}
+                                alt="Hotel"
+                                className="w-[75%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                onClick={() => openLightbox("/images/travel/indonesia/canggu/SurfLodgeHor.jpeg")}
+                            />
+                        </figure>
+                        <figcaption className="text-center text-sm text-gray-600">Surf Lodge, Canggu</figcaption>
+                        <br/>
+
+                        We had one full day to spend in Canggu before heading to the Gili Islands. We spent our day getting a massage at the hotel (for a <b>very</b> reasonable price), and then exploring the area, visiting the nearby shops and boutiques, before ending up at the beach.<br/>
+
+                        <figure className="flex flex-col items-center">
+                            <img
+                                src={"/images/travel/indonesia/canggu/Bazaar.jpeg"}
+                                alt="Hotel"
+                                className="w-[50%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                onClick={() => openLightbox("/images/travel/indonesia/canggu/Bazaar.jpeg")}
+                            />
+                        </figure>
+                        <figcaption className="text-center text-sm text-gray-600">A local bazaar in Canggu</figcaption>
+                        <br/>
+
+                        This day was also Francesca's birthday. We decided to celebrate by seeing the sunset at the beach, going to <a href="#pizza-fabbrica-review" onClick={(e) => handleTocClick(e, 'pizza-fabbrica-review')} className="text-blue-600 hover:underline">Pizza Fabbrica</a> for dinner, where Francesca had the best negroni of her life, followed by <a href="#la-brisa-review" onClick={(e) => handleTocClick(e, 'la-brisa-review')} className="text-blue-600 hover:underline">La Brisa</a> for drinks afterwards. We were joined by two friends who were also in Bali at the time.<br/>
+
+                        <div className="grid md:grid-cols-3 gap-2">
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/indonesia/canggu/Beach1.jpeg"
+                                    alt="Riomaggiore"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/indonesia/canggu/Beach1.jpeg')}
+                                />
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/indonesia/canggu/Beach2.jpeg"
+                                    alt="Riomaggiore"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/indonesia/canggu/Beach2.jpeg')}
+                                />
+                            </figure>
+                            <figure className="md:col-span-1">
+                                <img
+                                    src="/images/travel/indonesia/canggu/Beach3.jpeg"
+                                    alt="Riomaggiore"
+                                    className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    onClick={() => openLightbox('/images/travel/indonesia/canggu/Beach3.jpeg')}
+                                />
+                            </figure>
+                        </div>
+                        <figcaption className="text-center text-sm text-gray-600">Sunset at the beach in Canggu</figcaption>
+                        <br/><br/>
+
+                        The next morning, we booked a taxi to Sanur harbor, where we got on a boat that would take us to Gili Trawangan.<br/><br/>
 
                         <h3 id="bali-seminyak" className="text-2xl font-bold mb-4">Seminyak</h3>
 
@@ -297,6 +354,38 @@ export default function Indonesia() {
                             Upon taking place, some other guests were just leaving and, passing our table, they gave us a discount voucher for this restaurant. This was an unexpected and pleasant surprise that gave us a good first impression of the spirit of conviviality in Bali and Indonesia.
                             <br />
                             Find it <a href="https://maps.app.goo.gl/BPxWRemvNmctEfwu8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+
+                        <CollapsibleReview id="pizza-fabbrica-review" title="Pizza Fabbrica" rating={4.5} scale="food">
+                            As it was Francesca's birthday and her favorite food is Italian, we decided to go to this pizza place for dinner on our second night in Bali. We were joined by William and Vincent, two friends who also happened to be in Bali at the time. The food was excellent and the negroni was particularly good, made with prosecco instead of gin. The service was friendly, and they offered us complementary limoncello shots for Francesca's birthday.
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/wXdjYTQ8VWVgwHxn9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                        </CollapsibleReview>
+
+                        <CollapsibleReview id="la-brisa-review" title="La Brisa" rating={4} scale="drink">
+                            After dinner, we went to La Brisa for a drink and some live music. We had heard La Brisa was a center of nightlife in Canggy, so we were somewhat surprised to find it nearly empty. We suspect this is because we visited on a Sunday evening.Nevertheless, the staff were very welcoming though and the limited number of people still had a good vibe to it, with nice music playing. We were seated on a comfortable couch and enjoyed some drinks. Overall it's a cool place to hang out.
+                            <br />
+                            Find it <a href="https://maps.app.goo.gl/8PDG75nUruedTvEy8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.<br/>
+                            <div className="grid md:grid-cols-2 gap-2">
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/indonesia/canggu/LaBrisa1.jpeg"
+                                        alt="La Brisa, Canggu"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/indonesia/canggu/LaBrisa1.jpeg')}
+                                    />
+                                </figure>
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/indonesia/canggu/LaBrisa1.jpeg"
+                                        alt="La Brisa, Canggu"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/indonesia/canggu/LaBrisa1.jpeg')}
+                                    />
+                                </figure>
+                            </div>
+                            <figcaption className="text-center text-sm text-gray-600">La Brisa, Canggu</figcaption>
+                            <br/>
                         </CollapsibleReview>
 
                         {/* Gili Islands */}
@@ -340,6 +429,26 @@ export default function Indonesia() {
                             On our first two nights in Bali, we stayed at the Surf Lodge in Canggu. As a three-star hotel, it offered a good balance of comfort and affordability. We were happily surprised by the common pool area, the included breakfast, and the general cleanliness of the hotel. The hotel staff helped us organize our taxi from the airport and also allowed us to book a massage via them. Both services were priced competitively. The location was convenient for exploring Canggu's beaches and cafes, but far enough from the main road that we didn't hear any of the traffic at night. We would recommend this place for anyone who's looking for a comfortable stay in Canggu on a limited budget.<br/>
                             Find it <a href="https://maps.app.goo.gl/t1AFxKbLnnXthwUL7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                             <br />
+                            <div className="grid md:grid-cols-2 gap-2">
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/indonesia/canggu/SurfLodge1.jpeg"
+                                        alt="Surf Lodge, Canggu"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/indonesia/canggu/SurfLodge1.jpeg')}
+                                    />
+                                </figure>
+                                <figure className="md:col-span-1">
+                                    <img
+                                        src="/images/travel/indonesia/canggu/SurfLodge2.jpeg"
+                                        alt="Surf Lodge, Canggu"
+                                        className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onClick={() => openLightbox('/images/travel/indonesia/canggu/SurfLodge2.jpeg')}
+                                    />
+                                </figure>
+                            </div>
+                            <figcaption className="text-center text-sm text-gray-600">Surf Lodge, Canggu</figcaption>
+                            <br/>
                         </HotelReview>
 
                         <HotelReview
