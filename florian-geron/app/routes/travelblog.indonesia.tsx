@@ -292,7 +292,7 @@ export default function Indonesia() {
                             <img
                                 src={"/images/travel/indonesia/canggu/SurfLodgeHor.jpeg"}
                                 alt="Hotel"
-                                className="w-[75%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                className="w-full md:w-[75%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
                                 onClick={() => openLightbox("/images/travel/indonesia/canggu/SurfLodgeHor.jpeg")}
                             />
                         </figure>
@@ -305,7 +305,7 @@ export default function Indonesia() {
                             <img
                                 src={"/images/travel/indonesia/canggu/Bazaar.jpeg"}
                                 alt="Hotel"
-                                className="w-[50%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                className="w-full md:w-[50%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
                                 onClick={() => openLightbox("/images/travel/indonesia/canggu/Bazaar.jpeg")}
                             />
                         </figure>
@@ -318,7 +318,7 @@ export default function Indonesia() {
                             <figure className="md:col-span-1">
                                 <img
                                     src="/images/travel/indonesia/canggu/Beach1.jpeg"
-                                    alt="Riomaggiore"
+                                    alt="beach"
                                     className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
                                     onClick={() => openLightbox('/images/travel/indonesia/canggu/Beach1.jpeg')}
                                 />
@@ -326,7 +326,7 @@ export default function Indonesia() {
                             <figure className="md:col-span-1">
                                 <img
                                     src="/images/travel/indonesia/canggu/Beach2.jpeg"
-                                    alt="Riomaggiore"
+                                    alt="beach"
                                     className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
                                     onClick={() => openLightbox('/images/travel/indonesia/canggu/Beach2.jpeg')}
                                 />
@@ -334,7 +334,7 @@ export default function Indonesia() {
                             <figure className="md:col-span-1">
                                 <img
                                     src="/images/travel/indonesia/canggu/Beach3.jpeg"
-                                    alt="Riomaggiore"
+                                    alt="beach"
                                     className="w-full shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
                                     onClick={() => openLightbox('/images/travel/indonesia/canggu/Beach3.jpeg')}
                                 />
@@ -365,7 +365,7 @@ export default function Indonesia() {
                                 <img
                                     src={"/images/travel/indonesia/canggu/HappyPlace.jpeg"}
                                     alt="Hotel"
-                                    className="w-[50%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                    className="w-full md:w-[50%] rounded-lg shadow-lg my-6 cursor-pointer hover:scale-105 transition-transform duration-300"
                                     onClick={() => openLightbox("/images/travel/indonesia/canggu/HappyPlace.jpeg")}
                                 />
                             </figure>
