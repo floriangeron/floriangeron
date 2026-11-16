@@ -350,6 +350,8 @@ export default function Indonesia() {
                         On our way back home, we stayed one night in Seminyak, Bali, as a buffer for any logistical issues that might arise. In the end, we didn't need the buffer as all boats and planes we took were on time. However, we had one little surprise upon arriving back in Bali. We had taken a ferry from Nusa Penida to Sanur harbor and, upon arriving in Sanur, we found it impossible to book any Grab to Seminyak. What had happened? The night before, the petrol tanker providing Bali with its fuel had failed to make it to Bali. Due to the fuel shortage as a result of the conflict in Iran, Bali does not have any reserves left. This means that, if the boat doesn't arrive, there is no fuel on the island. We saw lines of hours and hours of people trying to get some fuel from the few stations that still had some. We were lucky to find a driver who was willing to take us to Seminyak, although he charged us four times the normal price. We were happy to pay it though, as we were worried we might not be able to get to Seminyak at all.<br/><br/>
                         
                         Seminyak is famous for its nightlife and beach clubs, although we didn't visit any of these places while we were there. We stayed at a nice and quiet hotel, and spent our time in Seminyak exploring the shops and seeing the sunset at the beach. <br/><br/>
+                        
+                        We liked Seminyak a bit better than Canggu, as we weren't as overwhelmed by the crowds, traffic, and the touristy vibe here. The beach was also cleaner, more developed, and livelier than the one in Canggu.<br/><br/>
 
 
 
@@ -446,15 +448,16 @@ export default function Indonesia() {
                         </CollapsibleReview>
 
                         <CollapsibleReview title="Seminyak - Bangkok Kitchen" rating={4} scale="food">
-                            xxx.
+                            As we were sick of the usual Indonesian nasi or mie dishes, we decided to get some Thai food (our favorite) instead. This Thai place was very peaceful and the food was good, though it didn't hit the same spot as we expected from Thai food.
                             <br />
-                            Find it <a href="xxx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            Find it <a href="https://maps.app.goo.gl/Gd4wtVL43psiHq1y9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
 
                         <CollapsibleReview title="Seminyak - Papa Sam" rating={3} scale="food">
-                            xxx.
+                            We had a quick lunch at Papa Sam before catching our flight back home. The service was friendly, but the food was just average. In fact, we had a decidedly weird food experience at Papa Sam. Francesca ordered a Thai red curry, but she received a dish with a sauce that tasted primarily like tomato. Very unexpected.<br/>
+                            We didn't make a deal out of it, as we were just looking for a quick lunch. Upon paying, they asked if everything was good, and I said we didn't expect there to be tomato sauce in the red curry. They seemed surprised, but I don't know if that is because they didn't understand me, if they put it in by accident, or if they believe it is a core part of the Thai red curry.
                             <br />
-                            Find it <a href="xxx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
+                            Find it <a href="https://maps.app.goo.gl/NeCAg37AMrvxdo2y7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">here</a>.
                         </CollapsibleReview>
 
                         {/* Gili Islands */}
